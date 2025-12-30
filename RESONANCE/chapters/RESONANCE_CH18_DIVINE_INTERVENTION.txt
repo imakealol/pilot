@@ -23,7 +23,7 @@ Hendricks waits. Nothing.
 "She's our ship. Ships are girls."
 "HELLO?" Elena's voice cracks across the cargo bay. "Hi. Excuse me. No one else seems the slightest bit uncomfortable that we. Fucking. Died!"
 Hendricks and Standard both turn.
-"I went first. The recording said I went first. I was — what did it say? — 'probability foam.' I was foam. And now we're sitting here talking about fuel cells and feeling better and — " She stops. Her hand has gone to the back of her neck, pressing against the implant scar. "What came back? How do we know what came back is us?"
+"I went first. The recording said I went first. I was—what did it say?—'probability foam.' I was foam. And now we're sitting here talking about fuel cells and feeling better and—" She stops. Her hand has gone to the back of her neck, pressing against the implant scar. "What came back? How do we know what came back is us?"
 No one answers.
 "Four." Elena's voice is smaller now. "When you pulled us back. How did you know you got the right... versions?"
 The silence stretches.
@@ -32,7 +32,7 @@ Four doesn't fill it with a joke, a name, a complaint about fuel efficiency. Whe
 "That's the situation," Elena confirms.
 "Great." He exhales slowly. "Anyone else feel like we skipped a chapter?"
 Still nothing from Four and after a few long seconds, Hendricks slumps in his seat, shaking his head.
-Standard moves over to him to put her hand on both of his arms to examine him like a landscape painting. The color has returned to his face. The gray pallor that clung to him since the compound is gone. She moves her hands to his shoulders, his neck, tilts his chin toward the light. His eyes are clear. The tremor in his hands — the one she noticed when he held the wheel, when he reached for his hip — is gone.
+Standard moves over to him to put her hand on both of his arms to examine him like a landscape painting. The color has returned to his face. The gray pallor that clung to him since the compound is gone. She moves her hands to his shoulders, his neck, tilts his chin toward the light. His eyes are clear. The tremor in his hands—the one she noticed when he held the wheel, when he reached for his hip—is gone.
 "Hold still."
 "I'm holding."
 She presses two fingers to the pulse point on his neck. Counts. Strong and steady, not the thready flutter she felt when she dragged him through the compound.
@@ -42,14 +42,14 @@ She presses two fingers to the pulse point on his neck. Counts. Strong and stead
 Her hands move to his ribs, pressing gently where the bruising was worst. He doesn't flinch. She presses harder. Nothing.
 "Does that hurt?"
 "Should it?"
-She doesn't answer. She's looking at his face, at the lines around his eyes. They seem shallower somehow. The exhaustion that lived in his features since she first saw him in the apartment — the weight of forty years of something she doesn't have a name for — it's still there, but muted. Like someone turned down the volume.
+She doesn't answer. She's looking at his face, at the lines around his eyes. They seem shallower somehow. The exhaustion that lived in his features since she first saw him in the apartment—the weight of forty years of something she doesn't have a name for—it's still there, but muted. Like someone turned down the volume.
 "You look..." She doesn't finish.
 "Not a day over 80? Not bad for a 73-year-old."
 "Ha-ha, no. Different."
 Four's voice cuts in, quieter than before: "I ran a passive biometric while you were having your moment. Cellular markers, metabolic rates, tissue elasticity." A pause. "His readings are consistent with a healthy male, approximately sixty to sixty-five years of age."
 Hendricks stares at the cockpit display. "I'm seventy-three."
 "Yes. You are." Four doesn't elaborate.
-Hendricks meets her eyes. For a moment, neither of them speaks. His hand comes up — slow, deliberate — and covers hers where it rests on his shoulder.
+Hendricks meets her eyes. For a moment, neither of them speaks. His hand comes up—slow, deliberate—and covers hers where it rests on his shoulder.
 "You came back for me."
 "I didn't leave."
 "At the compound. When they had me in the pit. You could have run."
@@ -62,7 +62,7 @@ Neither Standard nor Hendricks moves immediately. His hand stays on hers for ano
 
 ---
 
-Elena pulls up the navigation display. The map flickers to life — same interface they used before, now showing a very different picture.
+Elena pulls up the navigation display. The map flickers to life—same interface they used before, now showing a very different picture.
 "We're here." She points to a blinking marker. "This is where we went in." Another point, on the opposite side of a massive black zone that dominates the center of the display. "We came out... here."
 Standard studies the gap between them. Hundreds of kilometers of deleted sky.
 "We went through it."
@@ -72,8 +72,8 @@ Standard studies the gap between them. Hundreds of kilometers of deleted sky.
 Hendricks pulls himself forward, bracing on the copilot seat. "How close to Geneva?"
 "Close." Elena traces the remaining distance. "Four hundred kilometers. Maybe less."
 "Still Sovereignty airspace?"
-Four answers: "Unfortunately, yes. We popped out right in the middle of their patrol grid. They definitely saw us exit the Geometry because — fun fact — nothing exits the Geometry. Ever. We're currently the most interesting thing in their sky."
-Standard looks at the black zone on the display. The edges are sharp, absolute. She remembers the moment before they crossed — the hum in her chest rising, something inside the deletion recognizing her.
+Four answers: "Unfortunately, yes. We popped out right in the middle of their patrol grid. They definitely saw us exit the Geometry because—fun fact—nothing exits the Geometry. Ever. We're currently the most interesting thing in their sky."
+Standard looks at the black zone on the display. The edges are sharp, absolute. She remembers the moment before they crossed—the hum in her chest rising, something inside the deletion recognizing her.
 She doesn't remember anything after.
 "The recording." Hendricks is still looking at the map, at the black zone they somehow crossed. "The thing that spoke to Four. It said something about why we made it through."
 Standard turns. She heard the recording. They all did. But she'd been focused on the parts about dissolution, about Four diving after them, about the versions that might not be right. She hadn't processed the rest.
@@ -87,7 +87,7 @@ Standard looks at the black zone on the display. Hundreds of kilometers of delet
 "They're not just deleting," Hendricks says slowly. "They're sorting. Curating. Pattern goes one way, flesh goes another. But you—"
 "I don't fit either category."
 "You don't fit any category." Four's voice has an edge now, something almost protective. "And because they couldn't classify you, they ignored you. Ignored all of us, because we were attached to you."
-Standard thinks about the hum in her chest. The way it rose as they approached the boundary. The way something inside the deletion had recognized her — or failed to.
+Standard thinks about the hum in her chest. The way it rose as they approached the boundary. The way something inside the deletion had recognized her—or failed to.
 "So I'm... what? A blind spot?"
 "You're a gap," Elena says. "In their system. In their logic. They looked right at you and saw nothing worth processing."
 Hendricks exhales. "That's either the best news we've had all day, or the worst."
@@ -100,19 +100,19 @@ The VTOL shudders.
 "—that."
 "What was that?" Elena is already at the controls.
 "Tractor beam. Military grade. Someone very large is pulling us toward them very insistently."
-Standard moves to the window. Above them — or what she thought was above, orientation is difficult now — a shape is resolving out of the haze. Massive. A carrier, bristling with antennas and gun emplacements, bearing Sovereignty markings she recognizes from the interceptors. A hangar bay is opening in its belly like a mouth.
+Standard moves to the window. Above them—or what she thought was above, orientation is difficult now—a shape is resolving out of the haze. Massive. A carrier, bristling with antennas and gun emplacements, bearing Sovereignty markings she recognizes from the interceptors. A hangar bay is opening in its belly like a mouth.
 "They're pulling us in."
 "Astute observation, Susan."
 "Can you break the lock?"
 "I could try. They would then shoot us. These are the only two options available."
-Elena has moved to the weapons locker. She pulls out a pulse rifle, checks the charge, tosses another to Standard. Hendricks is already reaching for a sidearm — then stops, remembering his revolver is still with Ash.
+Elena has moved to the weapons locker. She pulls out a pulse rifle, checks the charge, tosses another to Standard. Hendricks is already reaching for a sidearm—then stops, remembering his revolver is still with Ash.
 "We make a stand," Elena says. "When the door opens, we take as many as we can."
 "Against a carrier crew?" Four's voice is flat. "That's not a last stand. That's a gesture."
 "Then we make a gesture."
-Standard racks the rifle. The weight feels wrong in her hands — too light, too balanced. She's never trained with one. She doesn't know why she knows she's never trained with one.
+Standard racks the rifle. The weight feels wrong in her hands—too light, too balanced. She's never trained with one. She doesn't know why she knows she's never trained with one.
 "Four. How long until we dock?"
 "Ninety seconds. Maybe less."
-The hangar bay swallows them. Standard watches through the window as the carrier's interior resolves — catwalks, service vehicles, rows of interceptor craft. Personnel moving into position. A lot of personnel.
+The hangar bay swallows them. Standard watches through the window as the carrier's interior resolves—catwalks, service vehicles, rows of interceptor craft. Personnel moving into position. A lot of personnel.
 "Weapons hot," Elena says.
 "Wait." Standard is watching the approach. Something is wrong. "They're not taking defensive positions."
 "What?"
@@ -132,16 +132,16 @@ Standard looks at Elena. Elena looks at Hendricks. Hendricks looks at the soldie
 The cargo door hisses. Standard raises her rifle. Elena moves to flank. Hendricks positions himself behind cover, sidearm that isn't there replaced by a pry bar he found somewhere.
 The door lowers into a ramp.
 The soldiers don't move. They stand at attention, eyes forward, as a figure walks between their rows.
-A woman. Tall, silver-haired, wearing a Sovereignty uniform heavy with rank insignia. Commander. Maybe higher. She walks slowly, deliberately, and she is completely unarmed. Behind her, a small entourage follows — four attendants in formal dress, no visible weapons, carrying nothing but tablet displays.
+A woman. Tall, silver-haired, wearing a Sovereignty uniform heavy with rank insignia. Commander. Maybe higher. She walks slowly, deliberately, and she is completely unarmed. Behind her, a small entourage follows—four attendants in formal dress, no visible weapons, carrying nothing but tablet displays.
 She stops at the base of the ramp.
 "Please." Her voice carries across the hangar, calm and clear. "Lower your weapons. You're in no danger here."
 "That's exactly what someone would say before putting us in danger," Four mutters.
 The commander smiles. It looks genuine, which is somehow more unsettling.
 "Configuration Four, I presume. Your reputation precedes you."
 "I have a reputation?"
-"You have several." She turns her attention to Standard. Her expression shifts — something like awe bleeding through the military composure. "But you. You're the one we've been waiting for."
+"You have several." She turns her attention to Standard. Her expression shifts—something like awe bleeding through the military composure. "But you. You're the one we've been waiting for."
 Standard keeps her rifle raised. "I don't know what you're talking about."
-"We watched you enter the Geometry. Our sensors tracked you — for eleven seconds, before you disappeared entirely. Nothing survives contact with the deletion zones. Nothing returns. In three years of observation, across every continent, we have never recorded a single instance of emergence."
+"We watched you enter the Geometry. Our sensors tracked you—for eleven seconds, before you disappeared entirely. Nothing survives contact with the deletion zones. Nothing returns. In three years of observation, across every continent, we have never recorded a single instance of emergence."
 She takes one step up the ramp. Her attendants remain at the base.
 "And then you came out. Forty-two minutes later, on the other side of the largest deletion zone on the European continent. Intact. Alive."
 "That doesn't mean—"
@@ -149,7 +149,7 @@ She takes one step up the ramp. Her attendants remain at the base.
 "I'm not a prophet." Standard's finger tightens on the trigger. "I'm not a messiah. I don't know what I am, but I know I'm not _that_."
 The commander's eyes shine with something that might be tears.
 "That's exactly what she would say."
-An elbow — sharp, precise — connects with Standard's ribs. Elena, her face fixed in a smile that doesn't reach her eyes.
+An elbow—sharp, precise—connects with Standard's ribs. Elena, her face fixed in a smile that doesn't reach her eyes.
 "What my companion means," Elena says smoothly, "is that she is deeply humbled by your recognition. The journey through the Geometry was... taxing. She's not herself."
 Standard opens her mouth to argue.
 Elena's hand finds hers. Squeezes once. Hard.

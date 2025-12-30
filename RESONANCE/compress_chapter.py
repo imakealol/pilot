@@ -1,3 +1,4 @@
+ls -la editing-tools/_tools/
 #!/usr/bin/env python3
 """
 compress_chapter.py - Compress beat sheets into prose-ready chapter packets

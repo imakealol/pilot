@@ -4,12 +4,12 @@ CHAPTER 17
 THE SOVEREIGNTY
 
 The waystation is a smudge on the horizon when Four finally stops complaining about the fuel quality.
-"Forty-two percent and holding. Although 'holding' is generous — these cells have the energy density of a disappointed sigh. We'll make the corridor. Probably. If nobody sneezes."
+"Forty-two percent and holding. Although 'holding' is generous—these cells have the energy density of a disappointed sigh. We'll make the corridor. Probably. If nobody sneezes."
 Standard doesn't respond. She's watching Elena in the cargo bay through the cockpit mirror, checking Hendricks' vitals for the third time in twenty minutes. He hasn't woken up. His breathing is steady but shallow, and his skin has gone the color of old paper.
 "He's stable," Elena says without looking up. She knows Standard is watching.
 "Stable isn't good."
 "Stable is alive. I'll take it."
-The new clothes still feel strange. Not uncomfortable — the opposite. They fit like they were made for her, because they were. Template 3. Forty thousand times over. Standard pushes the thought away and focuses on the instruments.
+The new clothes still feel strange. Not uncomfortable—the opposite. They fit like they were made for her, because they were. Template 3. Forty thousand times over. Standard pushes the thought away and focuses on the instruments.
 "Four.” Standard gestures with a nod. “Route options."
 "Three choices, none of them good." A map flickers onto the main display, riddled with red zones. "Option one: the coastal corridor. Adds nine hundred kilometers and puts us over Sovereignty airspace for approximately six hours. Option two: the inland route. Shorter, but we'd be threading through active Geometry expansion—" Four pauses. "That's what everyone's calling it now, by the way. 'The Geometry.' Some dead trillionaire's fever dream went viral and now it's the official term. Anyway—see those black patches? Those weren't there yesterday. Option three: straight shot through the gap between them. Sovereignty airspace for forty minutes, then clear sky to Geneva."
 
@@ -39,24 +39,24 @@ Four pauses. “Who knows? Depends on how paranoid they’re feeling.”
 “Your optimism is noted and deeply unwarranted, Ryan-but-for-a-girl.”
 “Just go. And no.”
 The gap is narrower than it looked on the map.
-On the left, the Geometry — black bars hanging in the sky where clouds should be, edges sharp enough to cut light. On the right, the Sovereignty’s territory, marked by nothing visible but everything watchable. Standard can feel it somehow. Eyes in the sky. Waiting.
+On the left, the Geometry—black bars hanging in the sky where clouds should be, edges sharp enough to cut light. On the right, the Sovereignty’s territory, marked by nothing visible but everything watchable. Standard can feel it somehow. Eyes in the sky. Waiting.
 “Stealth holding,” Four reports. “We’re ghosts. Invisible. Silent. Undetectable. As long as nobody runs a deep-spectrum bioscan, we’re—”
 The radar pings.
 “—detected. We’re detected.”
 “What happened?” Elena is already moving to the comms panel.
 “Bioscan sweep. Routine, corridor-wide. They weren’t even looking for us specifically.” Four’s voice has gone flat. “But they found something.”
 Standard feels it before Four says it. That pressure behind her eyes, a hum that isn’t the hum in her chest.
-“Three signatures, bearing one-seven-zero, closing fast. Light attack craft, single-seat. Built for speed and shooting things. Stealth is useless now — they’ve got our biosignature locked.”
+“Three signatures, bearing one-seven-zero, closing fast. Light attack craft, single-seat. Built for speed and shooting things. Stealth is useless now—they’ve got our biosignature locked.”
 “My biosignature,” Standard says.
 Four doesn’t answer. Which is answer enough.
-The hail comes through — a flat male voice, no identification, no pleasantries. “Unidentified aircraft, you are in violation of protected airspace. State your registration and passenger manifest.”
+The hail comes through—a flat male voice, no identification, no pleasantries. “Unidentified aircraft, you are in violation of protected airspace. State your registration and passenger manifest.”
 Elena keys the mic. “This is a civilian medical transport carrying wounded to Geneva. We have no hostile intent. Requesting passage.”
 Silence. Then: “Your bioscan shows three passengers. One baseline human, one integrated, one—” A pause. “—unclassified. Explain.”
 “Unclassified,” Four mutters. “That’s new. Usually they just say ‘abomination’ and start shooting.”
 Elena glances at Standard. Standard shakes her head slightly.
 “Our passenger is injured,” Elena says. “The scan may be reading anomalous—”
 “Hold position for secondary scan. Any attempt to evade will be treated as hostile action.”
-The radar shows the three craft spreading into a triangle formation around them. Nowhere to go. Standard watches them on the display — small, fast, maneuverable. Everything Four isn’t.
+The radar shows the three craft spreading into a triangle formation around them. Nowhere to go. Standard watches them on the display—small, fast, maneuverable. Everything Four isn’t.
 The secondary scan is worse. Standard grips the armrest as it passes over her, that not-hum drilling into her skull. It holds on her for five seconds. Ten. Fifteen. Taking her apart signal by signal.
 “Confirmed.” The voice has changed. Harder now, with something underneath that might be fear. “Power down your engines and prepare for boarding. You are carrying an integrated human and an unregistered synthetic. Repeat: power down immediately or we will fire.”
 In the cargo bay, Hendricks stirs. His hand reaches for his hip, finds nothing, and falls back. His eyes flutter open.
@@ -88,14 +88,14 @@ Hendricks has pulled himself upright, bracing against the bulkhead. He looks at 
 “It’s Standard.”
 “Five seconds.”
 “Going in.”
-The VTOL banks hard, engines screaming, and Standard feels the G-forces push her into the seat. Behind them, the Sovereignty craft scatter — one fires, the shot going wide as Four drops altitude — and then they’re past, accelerating toward the black.
+The VTOL banks hard, engines screaming, and Standard feels the G-forces push her into the seat. Behind them, the Sovereignty craft scatter—one fires, the shot going wide as Four drops altitude—and then they’re past, accelerating toward the black.
 The comms crackle one last time. “You’re already dead. You just don’t know it yet.”
-Four doesn’t respond. Neither does Standard. She’s watching the Geometry fill the windscreen, those black bars growing larger, sharper, more absolute with every second. The edges don’t blur. They don’t soften with distance. They just are — lines drawn through reality where reality used to be.
+Four doesn’t respond. Neither does Standard. She’s watching the Geometry fill the windscreen, those black bars growing larger, sharper, more absolute with every second. The edges don’t blur. They don’t soften with distance. They just are—lines drawn through reality where reality used to be.
 The hum in her chest is rising. Louder than it’s ever been, resonating with something ahead of them. Something inside the deletion that recognizes her. Or that she recognizes.
 “Sovereignty craft have broken off pursuit,” Four reports. “Holding at the boundary. Apparently they have more survival instinct than we do.”
 Elena is strapped in, one hand braced on the bulkhead, the other pressed against the back of her neck. Hendricks has gone quiet, watching the black through the cargo bay window with an expression Standard can’t read.
 “Four,” Standard says. “What do you see?”
-“Visually? Nothing. Literally nothing. Sensors can’t read it — it’s not dark, it’s not a void, it’s just... absence. Like someone erased that part of the render and forgot to fill it back in.”
+“Visually? Nothing. Literally nothing. Sensors can’t read it—it’s not dark, it’s not a void, it’s just... absence. Like someone erased that part of the render and forgot to fill it back in.”
 The boundary is a hundred meters away. Fifty. Twenty.
 “See you on the other side,” Four says. “Maybe.”
 They cross the threshold.

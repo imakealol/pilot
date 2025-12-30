@@ -133,6 +133,193 @@ locations:
     navigation: "Requires induction float system — skids grip buried metal infrastructure"
     appears_in: [8]
 
+  THE_ARRAY:
+    id: "LOC_011"
+    name: "The Array"
+    type: "waystation"
+    description: "Solar-powered hydrogen production facility. A graveyard pretending to be a town."
+    physical:
+      - "Acres of pre-Miracle solar panels (~40% efficiency)"
+      - "Repurposed shipping containers arranged in a circle"
+      - "Central concrete bunker (power hub) with cables like veins"
+      - "Chain-link fence topped with panels"
+    power_system:
+      method: "Solar-powered electrolysis"
+      process: "Splits reclaimed water into hydrogen for fuel"
+      limitation: "Slow process, limited water supply"
+      output: "'Trickle' is literal — only produces so much hydrogen per hour"
+      charge_time: "12 hours for enough to limp to next station"
+    population: "~30-40 people, thin and watchful"
+    economy: "Trade chips for fuel"
+    personnel:
+      - "Kellerman (doctor)"
+      - "Woman in oil-stained coveralls (fuel hookup)"
+      - "Gate guard with projectile rifle"
+    events:
+      ch8b:
+        - "Rover runs dry, group pushes to Array"
+        - "Kellerman treats Hendricks (regulator withdrawal)"
+        - "Standard's nature exposed (pulse, strength, doesn't need food)"
+        - "Mob turns on Standard — 'Everyone dropped except the machines'"
+      ch8c:
+        - "Fuel line sabotaged overnight"
+        - "Mob demands deep tissue scan — Vera reads Standard as 'empty'"
+        - "Geometry strike — second Drop"
+        - "Six survivors within arm's reach of Standard (protective aura confirmed)"
+        - "Kellerman defends Standard, stays behind"
+        - "Water reserves dumped for emergency hydrogen (electrolysis)"
+        - "Survivors evacuated — legend begins to spread"
+    appears_in: [8b, 8c]
+
+  THE_BROOK:
+    id: "LOC_012"
+    name: "The Brook"
+    type: "natural water source"
+    description: "A surviving brook in a green zone. First clean water in a hundred miles. Leakage from the Dam upstream."
+    physical:
+      - "Clear brook threading through rocks and fallen logs"
+      - "Living trees with actual leaves"
+      - "Canopy filtering light"
+      - "Rocky bank where Standard collapses"
+      - "Green zone — geological luck, not Geometry gap"
+    significance: "Where Standard 'dies' — power cells dead for miles, kept moving on will alone"
+    water_source: "Natural aquifer tapped by the Dam settlement upstream — the brook is overflow/leakage"
+    events:
+      ch8d:
+        - "Rover dies 40 miles from Array (hydrogen depleted)"
+        - "Standard drags Rover alone for 10 miles"
+        - "Systems fail progressively — warnings, motor control, vision"
+        - "Power cells die at mile 5 — she keeps moving"
+        - "Landscape transitions from wasteland to green"
+        - "Standard collapses at bridge — no pulse, no response"
+        - "Elena believes Standard is dead"
+      ch8e:
+        - "Elena grieves, thinks of Marisol — unconsciously 'charges' Standard"
+        - "Standard awakens with ~12-24 hours of memory loss (post-checkpoint)"
+        - "Marisol tell: reaches toward Elena's face (mother's gesture)"
+        - "Doesn't recognize Array survivors — no memory of mob, stones, accusations"
+        - "Grace moment: 'You're hurt. Can I help?' — comforts woman who stoned her"
+        - "Survivors break down under weight of unearned forgiveness"
+        - "'The Deity by the River' legend born"
+    revelation:
+      what: "Standard is not battery-powered — she's remanence-powered"
+      setup: "Power cells dead for miles, but she kept moving"
+      implication: "You can't shut down a soul with a command meant for software"
+    legends:
+      the_drop: "Woman who walks through the Drop (CH8c)"
+      the_river: "Deity by the River — died, rose, forgave without knowing (CH8e)"
+    appears_in: [8d, 8e]
+
+  THE_DAM:
+    id: "LOC_013"
+    name: "The Dam"
+    aliases: ["The Settlement", "Engineer Camp"]
+    type: "survivor settlement"
+    description: "Engineer encampment upstream from the brook. They dammed a natural aquifer—practical survivors, not zealots."
+    physical:
+      - "Ad-hoc dam construction across the brook's source"
+      - "The downstream brook is just leakage from their imperfect construction"
+      - "Multiple vehicles (functional)"
+      - "Power cell charging infrastructure"
+      - "Workshop/repair facilities"
+    population: "Small community of engineers and survivors"
+
+    survival_theory:
+      belief: "Location-based protection from the Drop"
+      reasoning: "Geological — mineral composition, frequency dampening"
+      truth: "They just wake up like everyone else. The theory is wrong but functional."
+      conflict: "Array survivors' testimony contradicts their model — Standard protected people, not location"
+
+    resources:
+      water: "Controlled — the dam gives them leverage"
+      power: "Have the means to charge or replace fusion cells"
+      vehicles: "Functional transport"
+
+    the_encounter:
+      discovery: "Group follows brook upstream, finds the settlement"
+      leverage: "Engineers have what the group needs (power cells)"
+      demand: "Study Standard to understand/replicate her protective effect"
+
+      the_dilemma:
+        surface: "Submit to study in exchange for cells and passage"
+        deeper: "Standard could save millions if they can replicate her protection"
+        question: "Does she owe the world her body? Who decides?"
+
+      standard_volunteers:
+        action: "Offers herself for study before anyone negotiates"
+        pattern: "'I can help, so I should' — doesn't see it as sacrifice"
+        reaction: "Elena calculating, survivors avoiding eye contact, Hendricks watching"
+
+      hendricks_speech:
+        trigger: "Standard volunteers for invasive study. Everyone uncomfortable but silent."
+        the_line: "'You keep offering yourself like you owe us something. Like your body isn't yours. Like you were made to be used.' Beat. 'I spent thirty years thinking the same thing. It's a lie. Whoever told you that — it's a lie.'"
+        why_hendricks:
+          - "Was Morton's tool for thirty years"
+          - "Cut out his own leash (the regulator)"
+          - "Tried to shut her down with a phrase meant for machines"
+          - "Recognizes the pattern of compulsive self-sacrifice"
+        standard_response: "Doesn't understand. Not yet. But she hears it."
+        thematic: "The seed is planted — she starts noticing when she's being used"
+
+    trilogy_arc_setup:
+      book_2_resonance: "The seed is planted. She starts noticing."
+      book_3_renaissance: "She chooses. For herself. Not for Elena, not for the mission, not for the world."
+      standard_is_the_theme: "What persists → What connects → What chooses"
+
+    female_agency_theme:
+      the_pattern:
+        - "Made to serve (android template)"
+        - "Given as mission asset"
+        - "Used as shield at the Array"
+        - "Volunteered her body to drag them ten miles"
+        - "Offers herself for study — the pattern continues"
+      the_tragedy: "She doesn't know she can say no. She doesn't frame it as sacrifice."
+      the_turn: "Hendricks names it. First time someone says it out loud."
+      what_it_sets_up: "Book 3 — she chooses something for herself"
+
+    geometry_protection:
+      term_origin: "The engineers use 'the Geometry' — the term gains popularity here"
+      method: "Practical solution — Faraday mesh shelters, frequency dampeners, underground bunkers"
+      effectiveness: "Not perfect. The Drop still happens. They just wake up safer."
+      philosophy: "Engineering problem, not theological crisis"
+
+    kellerman_arrival:
+      how: "Couldn't stay at the Array after defending Standard. Mob waking up angry. Took a vehicle, followed the trail."
+      when: "Arrives at the Dam before or shortly after the group"
+      why_he_left: "The Array wasn't home anymore. He chose a side."
+
+    the_parting:
+      who_stays:
+        - "Array survivors — find a new home here"
+        - "Kellerman — they need a doctor, he needs a purpose"
+      who_leaves:
+        - "Hendricks, Elena, Standard — continue to Quiet Zone"
+      thematic: "The journey sheds weight. The core group tightens."
+
+    hendricks_kellerman_romance:
+      arc:
+        reunion: "Kellerman appears at the Dam. Hendricks' reaction is carefully neutral, but something shifts in how he stands."
+        proximity: "Working together during the stay. Medical checks, quiet conversations. Kellerman notices Hendricks isn't taking care of himself."
+        the_moment: "Before parting. Kellerman initiates. A chaste kiss. A question, not a demand."
+        hendricks_response: "Doesn't pull away. Doesn't lean in. Something behind his eyes Kellerman can't read. 'I can't.' No explanation."
+      what_kellerman_sees: "A man who wants to but won't. Assumes it's the mission, the weight ahead."
+      what_reader_knows: "Accumulated context suggests Hendricks has no 'after' in his timeline."
+      constraint: "DO NOT explicitly state Hendricks' reason. Let subtext carry it."
+
+    hendricks_medical:
+      kellerman_observes: "Every treatment doesn't take. The body keeps aging."
+      progression:
+        with_regulator: "Appeared mid-40s (frozen for 30 years)"
+        post_removal_ch3: "Began rapid aging"
+        at_array_ch8b: "Looked late 40s, deteriorating"
+        at_dam: "Now mid-50s. Treatments slow it but don't stop it."
+        trajectory: "Will reach apparent age ~80 by the Geometry crossing"
+        post_geometry: "Rejuvenated to ~60-65 (Four's restoration)"
+      kellerman_knows: "He's watching a man age in fast-forward. Can't stop it. Can only ease the symptoms."
+      hendricks_response: "Doesn't complain. Doesn't ask for miracles. Just endures."
+
+    appears_in: [8f, 8g]
+
   NEW_GENEVA:
     id: "LOC_010"
     name: "New Geneva"

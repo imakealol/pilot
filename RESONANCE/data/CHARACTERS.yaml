@@ -52,6 +52,45 @@ characters:
       function: "The thing people fear, offering to die for them."
       critical_constraint: "Do NOT resolve her interiority question."
 
+    trilogy_arc:
+      spine: "What persists → What connects → What chooses"
+      book_1_remanence: "What persists — she exists, she endures, she doesn't know why"
+      book_2_resonance: "What connects — she notices, she questions, she starts to feel the shape of what's missing"
+      book_3_renaissance: "What chooses — she wants something for herself, and she takes it"
+      standard_is_the_theme: "Not a vessel for the theme. Not a symbol. The living embodiment of the trilogy's question: What makes a person?"
+
+    agency_arc:
+      the_pattern:
+        - "Made to serve (android template)"
+        - "Given to Elena as mission asset"
+        - "Used as shield at the Array (people clustered near her)"
+        - "Volunteered her body to drag them ten miles"
+        - "Offers herself for study at the Dam"
+      the_tragedy: "She doesn't know she can say no. Doesn't frame it as sacrifice. 'I can help, so I should.'"
+      the_turn:
+        chapter: "8f"
+        who: "Hendricks"
+        what: "Names it out loud — first time someone articulates what she's doing to herself"
+        line: "'You keep offering yourself like you owe us something. Like your body isn't yours. Like you were made to be used. I spent thirty years thinking the same thing. It's a lie.'"
+      the_seed: "She doesn't understand. Not yet. But she hears it."
+      book_2_development: "Starts noticing when she's being used"
+      book_3_payoff: "Chooses something for herself — not for Elena, not for the mission, not for the world"
+      thematic_question: "When does 'I can help, so I should' become self-erasure? Who teaches her she's allowed to want something for herself?"
+
+    power_source:
+      surface_read: "Power cells (standard android battery)"
+      actual_source: "Remanence — consciousness that persists after the field is removed"
+      explanation:
+        standard_androids: "Battery-dependent, shutdown phrases work because they run programs"
+        standard_marisol: "Not running a program — she IS. Consciousness transferred, not programmed."
+        the_body: "Android shell. The animating force is a human mind that refused to stop existing."
+      ch8d_reveal:
+        setup: "Drags Rover 10 miles through wasteland"
+        event: "Power cells die at mile 5 — she keeps moving for 5 more miles"
+        discovery: "Someone checks her: power cells dead, cold, been dead for miles. But she was still moving."
+        implication: "She's grief-powered. Purpose-powered. The body is a shell. What moves it is whatever Marisol was that couldn't let go."
+      why_shutdown_failed_ch3: "You can't shut down a soul with a command meant for software"
+
     wet_packet:
       deposited: "Ch6 — tetrahedron drone scanned her, left code in her mind"
       description: "A heavy, wet packet settles in the base of her brain—something she doesn't understand, something she doesn't know how to use."
@@ -161,17 +200,23 @@ characters:
       sexuality: "Asexual/Demisexual"
 
     physical:
-      description: "73 chronologically. Post-Geometry: restored to ~45 appearance (pre-decay pattern)"
+      description: "73 chronologically. Post-Geometry: restored to ~60-65 appearance (pre-decay pattern)"
       with_regulator: "Looked ~45, frozen in time for 30 years"
       post_regulator_removal:
         - "Rapid aging as body catches up to 73"
         - "Shaking hands, gray skin, sweating, fatigue"
         - "Was dying — body couldn't handle the accelerated decay"
-        - "Looked OLDER than 73 due to the stress of rapid aging"
+      aging_progression:
+        ch3_removal: "Mid-40s appearance (regulator just removed)"
+        ch8b_array: "Late 40s, deteriorating visibly"
+        ch8f_dam: "Mid-50s — treatments slow it, don't stop it"
+        ch9_checkpoint: "Late 50s"
+        trajectory: "Continues aging toward apparent ~80 by Geometry crossing"
+        kellerman_observes: "Every treatment doesn't take. The body keeps aging in fast-forward."
       post_geometry_restoration:
         - "Four stopped the rapid decay mid-process"
-        - "Chronologically 73, but decay halted at ~60-65"
-        - "Didn't age all the way to his real age before restoration"
+        - "Restored to ~60-65 (pre-decay pattern, not youth)"
+        - "Didn't age all the way to 80 before restoration"
         - "No longer actively dying from Regulator withdrawal"
         - "Tremor gone, gray gone — a healthy 60-65 year old"
         - "The gift: not youth, but time (still old, but got some years back)"
@@ -232,6 +277,32 @@ characters:
         status: "Ch29: Making plans for 'after' — cliffside retirement"
         tragic_irony: "Four will die holding the corridor. Plans never fulfilled."
         key_exchange: "'Save a cliff for me?' / 'Yeah. I'll save a cliff.'"
+      - character: "KELLERMAN"
+        type: "romantic (unrequited)"
+        arc:
+          ch8b: "First meeting at Array — something passes between them"
+          ch8f_reunion: "Kellerman arrives at Dam. Hendricks' reaction carefully neutral, but something shifts."
+          proximity: "Medical checks, quiet conversations. Kellerman notices he's not taking care of himself."
+          the_kiss: "Before parting. Kellerman initiates. Chaste. A question, not a demand."
+          response: "Hendricks doesn't pull away. Doesn't lean in. 'I can't.' No explanation."
+        what_kellerman_sees: "A man who wants to but won't"
+        what_hendricks_knows: "There's no 'after' in his timeline"
+        constraint: "DO NOT explicitly state why. Let subtext carry it."
+        parting: "Kellerman stays at the Dam. Hendricks continues to the Quiet Zone. They don't say goodbye properly."
+
+    ch8f_developments:
+      the_agency_speech:
+        context: "Dam settlement. Engineers want to study Standard. She volunteers."
+        trigger: "Everyone uncomfortable but silent — Elena calculating, survivors avoiding eye contact"
+        the_line: "'You keep offering yourself like you owe us something. Like your body isn't yours. Like you were made to be used.' Beat. 'I spent thirty years thinking the same thing. It's a lie. Whoever told you that — it's a lie.'"
+        why_he_can_say_it:
+          - "Was Morton's tool for thirty years"
+          - "Cut out his own leash (literally, the regulator)"
+          - "Tried to shut her down with a phrase meant for machines"
+          - "Recognizes compulsive self-sacrifice — lived it"
+        what_it_costs: "Admitting what he was. What he almost did to her."
+        standard_response: "Doesn't understand. Not yet. But she hears it."
+        seeds_planted: "Book 2 — she starts noticing when she's being used"
 
     ch22_developments:
       shutdown_phrase_exposed:
@@ -294,8 +365,18 @@ characters:
       description: "18, looks older from trauma"
       implant:
         location: "base of skull"
-        frequency: "287.3 Hz — her mother's frequency, active since age 7"
-        origin: "Marisol installed it before leaving"
+        frequency: "287.3 Hz — her mother's frequency"
+        origin: "Gift from Marisol — installed when Elena was 7, before her mother left (11 years ago)"
+        timeline:
+          pre_story: "Empty/dormant — nothing to detect during 6-month travel to New Angeles"
+          ch2: "Loaded at NED terminal — extraction scene where Goff catches her"
+          ch5: "First checkpoint with full drive — she's HOT (scannable)"
+          near_standard: "Goes quiet for the first time since extraction"
+        near_standard_effect:
+          sensation: "Vertigo, wrongness — but it's actually relief"
+          cause: "Standard's air-gapped nature creates a void"
+          description: "The thing humming in her skull for hours just went dark"
+          understanding: "She doesn't understand why. Her body does."
         carries: "Extracted data clusters from Morton's private server (Ch2)"
       scar: "left palm, where nanolattice entered during the Miracle"
 
@@ -309,6 +390,20 @@ characters:
       status: "Cover blown (Ch12-13). Now going home."
       motivation: "Contact with her mother — not transcend, not resurrect. Just find Marisol."
       revelation: "She's going home. To The Resonant. To her mother's people."
+      marisol_blame:
+        believes: "Ash drove Marisol to transcend"
+        reality: "His anti-connection crusade made staying impossible"
+        the_grief: "Not revenge — grief. She wants her mother back. Ash is in the way."
+      already_gone:
+        meaning: "Elena has already chosen her mother's side"
+        when: "Before the mission started — she's a Resonant operative"
+        ash_doesnt_know: "He still sees his daughter. She's already someone else."
+        ch8g_reveal: "Internal narration: 'the man who loved her and failed her and doesn't know she's already gone'"
+      ch8g_missed_confession:
+        setup: "Hendricks reveals he was heading to Quiet Zone anyway (suicide mission)"
+        pressure: "His honesty creates space for hers"
+        choice: "She doesn't confess. Lets the moment close."
+        guilt: "Carrying weight of his honesty she didn't return"
       spy_mission:
         role: "Resonant operative embedded in Ash's movement"
         objective: "Extract Morton's Geometry research from NED"
@@ -762,6 +857,124 @@ characters:
     relationships:
       elena: "Mentor figure — delivers hard truths gently"
       marisol: "Colleague — worked with her on integration philosophy"
+
+  KELLERMAN:
+    id: "CHAR_010"
+    canonical_name: "Kellerman"
+    introduced: "Chapter 8b"
+    role: "Doctor at the Array waystation → Dam settlement physician"
+
+    demographics:
+      gender: "man"
+      pronouns: ["he", "him", "his"]
+      age: "Early 60s — weathered but vital"
+      sexuality: "Gay (implied through Hendricks arc)"
+
+    physical:
+      description: "Dark hair going gray at temples. Face carved sharp by exhaustion. Moves with careful efficiency."
+      medical_kit: "Old. Battered. Real."
+
+    psychological:
+      function: "Medical care for Hendricks, first to notice Standard isn't normal, romantic interest"
+      observation: "Watches Standard like a puzzle. Watches Hendricks like a man worth saving."
+      core_trait: "Healer who can't heal everything. Knows when to push, when to hold back."
+
+    arc:
+      ch8b_array:
+        - "First meeting with Hendricks — something passes between them"
+        - "Identifies regulator withdrawal immediately"
+        - "Standard notices the look between them"
+      ch8c_array:
+        - "Defends Standard against mob"
+        - "Stays behind when group flees"
+      ch8f_dam:
+        - "Arrives at Dam — couldn't stay at Array after defending Standard"
+        - "Reunion with Hendricks — carefully neutral, but something shifts"
+        - "Watching Hendricks age in fast-forward. Treatments don't take."
+      ch8g_parting:
+        - "Initiates the kiss. Chaste. A question, not a demand."
+        - "Hendricks: 'I can't.' No explanation."
+        - "Kellerman doesn't ask for one. Assumes it's the mission."
+        - "Stays at the Dam. They don't say goodbye properly."
+
+    hendricks_romance:
+      what_he_sees: "A man who wants to but won't. Closed off. Weighted by something he won't name."
+      what_he_does: "Pushes gently. Medical checks become excuses for proximity."
+      the_kiss: "Before parting. He initiates. Knows the answer before he asks. Asks anyway."
+      the_response: "'I can't.' Eyes that hold something Kellerman can't read."
+      aftermath: "Watches Hendricks leave. Doesn't call after him. Some things you just know."
+
+    hendricks_medical:
+      observations:
+        - "Regulator withdrawal is killing him slowly"
+        - "Every treatment doesn't take — body keeps aging"
+        - "Mid-50s now, was mid-40s days ago"
+        - "Can slow it, can't stop it"
+      what_he_knows: "Watching a man die in fast-forward"
+      what_he_does: "Eases the symptoms. Doesn't promise miracles."
+      hendricks_response: "Doesn't complain. Doesn't ask for more. Just endures."
+
+    key_moments:
+      hendricks_treatment:
+        - "Identifies regulator withdrawal immediately"
+        - "Administers injection for fever"
+        - "Something passes between them — Standard notices"
+      standard_examination:
+        - "Notes her strength (pushed Rover quarter mile)"
+        - "Notes her wounds (bloody hands, still moving)"
+        - "Notes her pulse (40 bpm — 'very slow')"
+        - "Triggers mob suspicion: 'I don't know what she is'"
+      the_kiss:
+        - "Before parting at the Dam"
+        - "Kellerman initiates — chaste, a question"
+        - "Hendricks: 'I can't.'"
+        - "No goodbye. Some things you just know."
+
+    relationships:
+      - character: "HENDRICKS"
+        type: "romantic (unrequited)"
+        status: "Loves him. Knows he can't stay. Lets him go."
+        tragedy: "Doesn't know Hendricks plans to die. Just knows he won't stay."
+      - { character: "STANDARD", type: "curiosity → respect", status: "Can't figure out what she is. Defended her anyway." }
+
+    ending:
+      location: "Stays at the Dam"
+      role: "Settlement physician"
+      why: "They need a doctor. He needs purpose. And Hendricks won't be coming back."
+
+    appears_in: [8b, 8c, 8f]
+
+  VERA:
+    id: "CHAR_011"
+    canonical_name: "Vera"
+    introduced: "Chapter 8c"
+    role: "Former triage worker at the Array"
+
+    demographics:
+      gender: "woman"
+      pronouns: ["she", "her", "hers"]
+      age: "Older, gray-streaked hair"
+
+    physical:
+      description: "Gray-streaked hair pulled back tight. Eyes clinical, professional."
+      equipment: "Salvaged medical scanner from the Vertical"
+
+    background:
+      previous_work: "Triage in the Vertical"
+      skill: "Knows what to look for in deep tissue scans"
+
+    key_moments:
+      the_scan:
+        - "Performs deep tissue scan on Standard"
+        - "Reads: biologically human, but 'empty'"
+        - "No implants, no signal, no network echo"
+        - "'She's empty. Like she was never connected to anything.'"
+      the_drop:
+        - "Folds over her scanner when the Geometry hits"
+
+    function: "Voice of clinical horror — confirms Standard is something unprecedented"
+
+    appears_in: [8c]
 
   ELDER_KAEL:
     id: "CHAR_008"

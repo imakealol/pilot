@@ -1,8 +1,139 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2025-12-28
-**Last Session:** Session 13 (In Progress)
-**Status:** Style/Fight guide audit in progress — stopped after CH4
+**Last Updated:** 2025-12-30
+**Last Session:** Session 18
+**Status:** Seven journey chapters complete (CH8a-8g), approaching Quiet Zone checkpoint
+
+---
+
+## RESUME FROM
+
+**Core group approaching checkpoint.** Elena driving, Hendricks in passenger seat, Standard in back. Five miles from the Quiet Zone.
+
+| File | Chapter # | Title | Status |
+|------|-----------|-------|--------|
+| CH8a | CHAPTER 9 | THE DEPO' | Complete |
+| CH8b | CHAPTER 10 | SHINING DOWN | Complete |
+| CH8c | CHAPTER 11 | THE WITNESS | Complete |
+| CH8d | CHAPTER 12 | THE PULL | Complete |
+| CH8e | CHAPTER 13 | GRACE | Complete |
+| CH8f | CHAPTER 14 | THE DAM | Complete |
+| CH8g | CHAPTER 15 | THE APPROACH | **NEW — Complete** |
+
+**Next:** Old CH9 (THE SILENT HOUSE) becomes CH16+. CHAPTERS.yaml still stale.
+
+---
+
+## SESSION 18 SUMMARY (Current)
+
+**Date:** 2025-12-30
+
+### New Chapter Drafted
+
+**CH8g: THE APPROACH** (~1,800 words) — Elena POV
+- Driving through green zone toward Quiet Zone
+- Elena realizes Standard has NEVER asked where they're going (agency theme)
+- Standard was unopened corporate companion bot for years until something woke her
+- Hendricks reveals he was heading to Quiet Zone BEFORE meeting Elena (suicide mission)
+- Elena almost confesses Ash is her father — **doesn't**
+- Hendricks asks Elena to protect Standard if anything happens to him
+- Elena tells Standard she can leave, go anywhere — Standard: "I've never thought about it"
+- Arrive at checkpoint markers: SILENCE IS SANCTUARY / THE QUIET PROTECTS / WELCOME HOME
+
+### Key Dynamics Established
+
+**Elena's Secret (Reader knows, Hendricks doesn't):**
+- Line 15: "Tomorrow she walks into her father's compound"
+- Line 132: Full internal reveal — "her father again—the Prophet, the man who loved her and failed her"
+- Lines 43-45: The missed confession — Hendricks opens up, Elena doesn't reciprocate
+
+**Elena's Motivation (Clarified):**
+- Her mother (Marisol) architected the Resonants
+- Marisol transcended — left her body, became part of the Resonance
+- Elena works for Resonants because she thinks it's the path back to her mother
+- 287.3 Hz = her mother's frequency (implant in her skull)
+- She blames Ash for driving Marisol to transcend
+- "Doesn't know she's already gone" = Elena has already chosen her mother's side
+
+**Standard's Lack of Agency:**
+- Never asked where they're going — just follows
+- Still learning she can want things
+- Elena tells her: "Start thinking"
+
+### Continuity Fix
+
+**CH8a lines 38-40:** Fixed Elena's NED knowledge
+- Old: Elena asks "You worked for NED?" (implies she didn't know)
+- New: Elena states "Chief of Security." (confirms she always knew)
+- Now consistent with CH9 line 90: "Elena knew who Hendricks was. From the beginning."
+
+### Minor Edit
+
+**CH8a lines 44-46:** Trimmed induction coil physics (3 lines → 1 line)
+
+---
+
+## SESSION 17 SUMMARY
+
+**Date:** 2025-12-30
+
+### New Chapter Drafted
+
+**CH8f: THE DAM** (1,431 words) — Hendricks POV
+- Group follows brook upstream, finds engineer settlement
+- Kellerman already there (couldn't stay at Array after defending Standard)
+- Engineers want to study Standard to replicate protective effect
+- Standard volunteers before anyone negotiates
+- **Hendricks' agency speech:** "You keep offering yourself like you owe us something. Like your body isn't yours. Like you were made to be used. I spent thirty years thinking the same thing. It's a lie."
+- Standard doesn't understand yet, but she hears him. Starts setting small limits.
+- Kellerman treats Hendricks — "You've aged ten years in three days. The treatments aren't taking."
+- Scans find nothing replicable (Standard reads empty)
+- Array survivors stay at Dam. Kellerman stays.
+- **The kiss:** Kellerman initiates. Chaste. "I can't." No explanation.
+- Core group departs. Hendricks doesn't look back.
+
+---
+
+## SESSION 16 SUMMARY
+
+**Date:** 2025-12-30
+
+### Chapters Drafted
+
+1. **CH8b: SHINING DOWN** — Array arrival, Kellerman introduced, mob suspicion
+2. **CH8c: THE WITNESS** — Second Drop, protective aura confirmed, legend begins
+3. **CH8d: THE PULL** — Standard drags Rover 10 miles, power cells die, she keeps moving
+4. **CH8e: GRACE** — Resurrection, memory loss, grace moment, two legends born
+
+### Key Revelations
+
+- **Remanence as power source:** You can't shut down a soul with a command meant for software
+- **Two legends:** "Woman who walks through the Drop" + "Deity by the River"
+- **Shutdown code callback:** "Swanstrom Kim Hendricks. Just Hendricks."
+
+---
+
+## KNOWN ISSUES
+
+### CHAPTERS.yaml is STALE
+
+| Old | New | Title |
+|-----|-----|-------|
+| — | CH9 | THE DEPO' |
+| — | CH10 | SHINING DOWN |
+| — | CH11 | THE WITNESS |
+| — | CH12 | THE PULL |
+| — | CH13 | GRACE |
+| — | CH14 | THE DAM |
+| — | CH15 | THE APPROACH |
+| CH9 | CH16+ | THE SILENT HOUSE |
+
+**Old chapters 9-34 become 16-41 (+7 shift)**
+
+### Pending Questions
+
+1. Elena's swollen pinky (old CH9 line 39) — when established?
+2. "The Child" (old CH9 line 111) — explained later or needs setup?
 
 ---
 
@@ -12,135 +143,7 @@ Read these files in order:
 1. `/workspaces/pilot/RESONANCE_STYLE_GUIDE.md` — **Joe's prose voice (LOAD FIRST)**
 2. `/workspaces/pilot/fight_Guide.md` — **Combat writing principles**
 3. `/workspaces/pilot/RESONANCE/drafting/ACT_III_MAPS.md` — Emotional arcs, callbacks, constraints
-4. `/workspaces/pilot/RESONANCE/drafting/SYSTEM_PROMPT.md` — Fiction-tuned prompt
-
-### The Drafting System (Session 12)
-
-```bash
-cd /workspaces/pilot/RESONANCE/drafting
-export ANTHROPIC_API_KEY="your-key"
-
-# Draft with opus + fight guide
-python draft.py 31 -m opus --fight-guide -o ch31_draft.txt
-
-# Draft with opus + montage guide (parallel threads)
-python draft.py 32 -m opus --montage-guide -c 31 -o ch32_draft.txt
-```
-
----
-
-## SESSION 13 SUMMARY (Current)
-
-**Date:** 2025-12-28
-
-### Accomplished
-
-1. **Chapter formatting standardized (all 34 chapters):**
-   - Added missing headers (CH1-6, CH15, CH21-22)
-   - Removed old metadata format (CH8-14)
-   - Fixed italics `*text*` → `_text_` throughout
-   - Format: blank line → CHAPTER N → blank → TITLE → blank → prose
-
-2. **Style Guide created:** `/workspaces/pilot/RESONANCE_STYLE_GUIDE.md`
-   - Syntactic signatures (fragments, em-dashes, lists)
-   - Tense architecture (present for RESONANCE, past for prior events)
-   - Joe's editorial sensibilities codified
-
-3. **Style + Fight Guide audit started:**
-   - CH2 revised (Elena's tactical competence, compression)
-   - CH3 audited (tense shift intentional, typos fixed)
-   - CH4 audited (clean — bookends, fight works)
-
-### Joe's Editorial Sensibilities (captured)
-
-- **Trust the reader implicitly** — Don't explain emotional beats
-- **Density is a feature** — Compression does the work
-- **Voice trumps technical polish** — Trust the ear
-- **Intentional repetition stays** — If it sounds right, defend it
-- **Tense is architectural** — CH3's past→present shift is design, not drift
-
-### Resume From
-
-**CH5 (THE QUEUE)** — Continue style/fight guide audit
-
----
-
-## SESSION 12 SUMMARY
-
-**Date:** 2025-12-27
-
-### Accomplished
-
-1. **Act III Timeline HTML created** — `/workspaces/pilot/RESONANCE/ACT_III_TIMELINE.html`
-   - Five phases mapped with parallel threads
-   - All character rows with beat-by-beat tracking
-   - Notes section with thematic breakdowns
-
-2. **All chapter scaffolds updated (27-33):**
-   - Matrioshka Brain colonization mechanics
-   - The Softing (border defense Elena disables)
-   - Role swap: Elena disables defense, Hendricks finds Standard
-   - Black Box location (throne room)
-   - Dante stays at New Geneva
-   - Humans join the fight
-   - Four's death (the cost is real)
-
-3. **The Brawl finalized (Ch 31):**
-   - Dual deception: Both hide weapons
-   - The sermon: "Morton at least had the decency to fuck what he built—"
-   - Ash KNEW about Morton and Standard — hypocrisy exposed
-   - Ceramic blade (killed Morton) stabs Hendricks
-   - Hendricks falls out window
-
-4. **Standard's Escape finalized (Ch 27):**
-   - Kael visits — implied sexual danger, explicit physical
-   - She clocks punches too hard — he's enhanced (TERMINIST HYPOCRISY)
-   - Tears off his RIGHT arm with her legs
-   - Attaches it to her stump: "Good thing I'm Standard."
-
-5. **The Three Arms Progression:**
-   - Original → taken by Ash (violation)
-   - Kael's → stolen in escape (survival)
-   - Sister's → given freely (gift)
-
-6. **Waystation Callback (Ch 32):**
-   - 40,000 Template 3s — catharsis
-   - "Where's the jacket I loaned you?"
-   - Sister gives Standard her own arm: "Appearances, right?"
-
-7. **Drafting System Built:**
-   - `draft.py` — API drafting script
-   - `SYSTEM_PROMPT.md` — Fiction-tuned prompt
-   - `ACT_III_MAPS.md` — Emotional arcs, callbacks, negative constraints
-   - Chapter 1 as style exemplar (auto-included)
-   - Fight guide + Montage guide (optional flags)
-
----
-
-## NEGATIVE CONSTRAINTS (DO NOT)
-
-### Pacing:
-- ❌ Compress confrontations into single paragraphs
-- ❌ Skip transitions (teleportation problem)
-- ❌ Rush Four's death
-- ❌ Jam all Ash confrontations together
-
-### Character:
-- ❌ Make Ash stupid (his fear is legitimate)
-- ❌ Let Hendricks explain himself
-- ❌ Resolve Standard's consciousness question
-- ❌ Thesis statements in dialogue
-
-### Action:
-- ❌ Blow-by-blow choreography
-- ❌ Action-movie survival without cost
-- ❌ Fights that don't reveal character
-
-### Structure:
-- ❌ Explain plan in dialogue (discover through execution)
-- ❌ Hand-wave colonization mechanics
-- ❌ Miss battlefronts
-- ❌ Forget refugees picking up weapons (thesis goes both ways)
+4. `/workspaces/pilot/RESONANCE/data/CHAPTER_FORMAT.yaml` — **Dabble formatting rules**
 
 ---
 
@@ -148,51 +151,46 @@ python draft.py 32 -m opus --montage-guide -c 31 -o ch32_draft.txt
 
 | Setup | Payoff |
 |-------|--------|
+| "Swanstrom Kim Hendricks" (CH8e) | Hendricks' guilt arc |
+| Protective aura (CH8c) | Later revelations about Standard's nature |
+| Memory loss (CH8e) | She doesn't know what she's done for them |
+| "There's something. A frequency." (CH8e) | 287.3 Hz = Marisol connection |
+| Power cells dead but moving (CH8d) | Remanence as power source |
+| Hendricks' agency speech (CH8f) | Standard's arc toward choice (Book 3) |
+| Kellerman kiss / "I can't" (CH8f) | Hendricks has no "after" |
+| Standard setting small limits (CH8f) | Growing agency through Book 2 |
+| Elena's missed confession (CH8g) | Guilt when truth emerges |
+| "Start thinking" (CH8g) | Standard learning to want |
+| 287.3 Hz implant (CH8g) | Marisol = Elena's mother |
 | "Does it still hurt the same?" (Ch 27) | Ch 32 (Standard vs Ash) |
 | Ceramic blade killed Morton | Ch 31 (stabs Hendricks) |
-| "I'll keep the engine warm" (Ch 30) | Ch 33 (Four's death) |
-| Waystation jacket | Ch 32 (sister callback) |
-| "You think that machine loves you?" (Ch 31) | Ch 32 (family saves each other) |
-| Ch 1 chest point (shutdown) | Ch 33 ("It's okay") |
 | Bullet 5 | Ch 32 (Ash) |
 | Bullet 6 | Ch 33 (Standard) |
-| Three arms progression | Ch 27 → 31 → 32 |
-| "Good thing I'm Standard" | Ch 27 (escape) + Ch 32 (40K sisters) |
 
 ---
 
-## REVOLVER JOURNEY
+## NEGATIVE CONSTRAINTS (DO NOT)
 
-| Shot | Target | Meaning |
-|------|--------|---------|
-| 1 | The Child | First sin |
-| 2-4 | Scavengers | Survival |
-| 5 | Ash | Contract fulfilled |
-| 6 | Standard | Door opened |
+### New (Session 18):
+- ❌ Have Elena explicitly say "Ash is my father" aloud to Hendricks (reader knows, he doesn't)
+- ❌ Explain Elena's motivation in dialogue (grief for mother = subtext)
+- ❌ Have Standard suddenly become assertive (seed planted, not bloomed)
 
----
+### Session 17:
+- ❌ Explain why Hendricks said "I can't" (let subtext carry it)
+- ❌ Have Standard fully understand Hendricks' speech yet (seed planted, not bloomed)
+- ❌ Make the romance melodramatic (restraint is the point)
 
-## CHARACTER EMOTIONAL ARCS (Act III)
-
-### HENDRICKS
-- **Arc:** Transactional isolation → chosen family → paying the cost
-- **Key Shift:** The bullet meant for himself becomes the gift that frees her
-
-### STANDARD
-- **Arc:** "Am I real?" → "It doesn't matter" → "I offer anyway"
-- **Key Shift:** Her nature (machine) is her advantage, not her curse
-
-### ELENA
-- **Arc:** Performing daughter → active resistance → receiving grace
-- **Key Shift:** She gets to choose (android life with Dante) what her mother never could
-
-### FOUR
-- **Arc:** Protector → sacrifice → "engine warm" made literal
-- **Key Shift:** She becomes the bridge. Then Standard takes over. Four is gone.
-
-### ASH
-- **Arc:** Prophet → exposed → refuses gift → dies refusing
-- **Key Shift:** Never learns Standard is Marisol. Dies without knowing.
+### Existing:
+- ❌ Make Marisol connection obvious (frequency = misdirection)
+- ❌ Have Hendricks explain the shutdown code
+- ❌ Have Standard understand why she kept moving
+- ❌ Explain Elena's grief → Standard's revival causation
+- ❌ Compress confrontations into single paragraphs
+- ❌ Skip transitions (teleportation problem)
+- ❌ Make Ash stupid (his fear is legitimate)
+- ❌ Resolve Standard's consciousness question
+- ❌ Thesis statements in dialogue
 
 ---
 
@@ -200,22 +198,76 @@ python draft.py 32 -m opus --montage-guide -c 31 -o ch32_draft.txt
 
 | Purpose | Path |
 |---------|------|
-| **Drafting** | |
-| Script | `/workspaces/pilot/RESONANCE/drafting/draft.py` |
-| System Prompt | `/workspaces/pilot/RESONANCE/drafting/SYSTEM_PROMPT.md` |
-| Maps | `/workspaces/pilot/RESONANCE/drafting/ACT_III_MAPS.md` |
-| Timeline | `/workspaces/pilot/RESONANCE/ACT_III_TIMELINE.html` |
-| **Scaffolds** | |
-| Ch 27 | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH27_SCAFFOLD.txt` |
-| Ch 31 | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH31_SCAFFOLD.txt` |
-| Ch 32 | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH32_SCAFFOLD.txt` |
-| Ch 33 | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH33_SCAFFOLD.txt` |
+| **New Chapters** | |
+| CH8a | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8a_THE_DEPO.txt` |
+| CH8b | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8b_SHINING DOWN.txt` |
+| CH8c | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8c_THE_WITNESS.txt` |
+| CH8d | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8d_THE_PULL.txt` |
+| CH8e | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8e_GRACE.txt` |
+| CH8f | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8f_THE_DAM.txt` |
+| CH8g | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8g_THE_APPROACH.txt` |
+| **Data** | |
+| World | `/workspaces/pilot/RESONANCE/data/WORLD.yaml` |
+| Characters | `/workspaces/pilot/RESONANCE/data/CHARACTERS.yaml` |
+| Format | `/workspaces/pilot/RESONANCE/data/CHAPTER_FORMAT.yaml` |
 | **Style** | |
 | Style Guide | `/workspaces/pilot/RESONANCE_STYLE_GUIDE.md` |
 | Fight Guide | `/workspaces/pilot/fight_Guide.md` |
-| Montage Guide | `/workspaces/pilot/Montage_Style_Guide.md` |
-| Ch 1 (exemplar) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH1_RUDE_AWAKENING.txt` |
-| Ch 20 (exemplar) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH20_IN_PLAIN_SIGHT.txt` |
+
+---
+
+## ELENA BACKSTORY
+
+**The Triangle:**
+- **Marisol** (mother): Architect of the Resonants. Transcended — left her body, became part of the Resonance.
+- **Ash** (father): Prophet of the Carbonists. Anti-connection crusade. Doesn't know Elena has chosen her mother's side.
+- **Elena**: Works for Resonants. Carries mother's frequency (287.3 Hz) in an implant. Believes it's the path back to Marisol.
+
+**The Grief:**
+- Elena blames Ash for driving Marisol to transcend
+- "The man who loved her and failed her" = Ash loved Elena, but his crusade destroyed her family
+- "Doesn't know she's already gone" = Elena has already defected, spiritually
+
+**The Mission:**
+- The Black Box serves the Resonants' purpose (her mother's cause)
+- She's not trying to kill Ash — she's trying to reach her mother
+- Ash is in the way
+
+---
+
+## HENDRICKS AGING PROGRESSION
+
+| Point | Apparent Age | Notes |
+|-------|--------------|-------|
+| With regulator | Mid-40s | Frozen for 30 years |
+| CH3 (removal) | Mid-40s | Just removed |
+| CH8b (Array) | Late 40s | Deteriorating |
+| CH8f (Dam) | Mid-50s | "Ten years in three days" |
+| CH8g (Approach) | Mid-50s | "He looked forty-five a week ago" |
+| CH16+ (Quiet Zone) | Late 50s | Continuing |
+| Geometry crossing | ~80 | Near death |
+| Post-restoration | 60-65 | Four's gift |
+
+---
+
+## CHARACTER STATES LEAVING CH15
+
+**STANDARD:**
+- Still doesn't ask questions about destination
+- Learning she can want things (seed planted)
+- Elena told her: "Start thinking"
+
+**HENDRICKS:**
+- Mid-50s appearance
+- Revealed he was heading to Quiet Zone before meeting Elena (suicide mission)
+- Asked Elena to protect Standard
+- "Some things need finishing. Whatever it costs."
+
+**ELENA:**
+- Holding her secret (Ash is her father)
+- Missed the chance to confess when Hendricks opened up
+- Carrying guilt she hasn't earned yet
+- Five miles from seeing her father again
 
 ---
 
@@ -223,20 +275,21 @@ python draft.py 32 -m opus --montage-guide -c 31 -o ch32_draft.txt
 
 > "What if they offer something we don't deserve?"
 
-And now: What if we prove worthy of it?
-
-The gift creates the worthiness. The offering transforms the recipient.
+Standard offers grace without knowing. The gift transforms. The legend spreads.
+And now: someone finally told her she's allowed to want something for herself.
 
 ---
 
 ## MANUSCRIPT STATUS
 
-| Ch | Status |
-|----|--------|
-| 1-34 | Complete (~65K words) |
+| Section | Status |
+|---------|--------|
+| CH1-8a | Complete |
+| CH8b-8g | **Complete** |
+| CH9-34 (old) | Complete (needs renumbering to CH16-41) |
 
-**Full manuscript exists.** Style/fight guide audit in progress (stopped after CH4).
+**Total:** ~41 chapters, ~77K+ words
 
 ---
 
-*Ready to draft. Make it hurt. Make it matter.*
+*The woman who walks through the Drop. The Deity by the River. The woman who learned she could say no. The daughter who chose her mother's frequency.*

@@ -64,6 +64,15 @@ rules:
   - Italics for internal monologue and emphasis only
   - Present tense throughout (unless flashback)
 
+ai_draft_workflow:
+  step_1: "Generate draft with standard paragraph breaks"
+  step_2: "COMPRESS — Remove ALL blank lines between paragraphs"
+  step_3: "Keep blank lines ONLY around section breaks (---)"
+  step_4: "Verify header format: CHAPTER N / blank / TITLE / blank / prose"
+  step_5: "Check em-dashes are unspaced (—) not spaced ( — )"
+  step_6: "Remove any leading/trailing whitespace from file"
+  compression_command: "Paragraphs contiguous, no double-spacing — Dabble handles visual spacing"
+
 dabble_import_notes:
   - Dabble auto-detects "CHAPTER N" as chapter heading
   - Scene breaks (---) become centered markers

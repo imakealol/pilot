@@ -4,13 +4,13 @@ CHAPTER 11
 THE CRAFTSMAN
 
 The woman on the table does not move.
-Ash stands at the edge of the examination room, arms folded across his chest, and watches the technicians work. They have stripped her — the borrowed clothes, the dead woman's shirt, the boots caked with mud from the road — and laid her on the steel slab in a medical gown that does nothing to preserve dignity. Dignity is not the point. Information is the point.
-The scanners hum. The readouts flicker. The technicians — three of them, all wearing the acoustic dampeners, all communicating in the silent language of gesture he taught them — move around her body with clinical efficiency.
+Ash stands at the edge of the examination room, arms folded across his chest, and watches the technicians work. They have stripped her—the borrowed clothes, the dead woman's shirt, the boots caked with mud from the road—and laid her on the steel slab in a medical gown that does nothing to preserve dignity. Dignity is not the point. Information is the point.
+The scanners hum. The readouts flicker. The technicians—three of them, all wearing the acoustic dampeners, all communicating in the silent language of gesture he taught them—move around her body with clinical efficiency.
 She does not resist. She does not speak. She lies there with her hands at her sides, her ruined fingers curled slightly inward, and she watches the ceiling with eyes that do not blink often enough.
-Ash has seen machines. He built them, once. He knows the tells — the micro-hesitations, the too-perfect stillness, the uncanny valley where synthetic meets organic and fails to convince. This woman has none of them. She breathes. She sweats. Her pulse visible in the hollow of her throat, steady and slow.
+Ash has seen machines. He built them, once. He knows the tells—the micro-hesitations, the too-perfect stillness, the uncanny valley where synthetic meets organic and fails to convince. This woman has none of them. She breathes. She sweats. Her pulse visible in the hollow of her throat, steady and slow.
 But she is wrong.
-He knew it the moment he saw her in the courtyard. Something in the way she moved — not mechanical, but *empty*. A vessel waiting to be filled. A room with all the furniture removed.
-The lead technician — a woman named Carla who lost her husband to the Miracle and her faith to the aftermath — approaches with a tablet. She holds it up for him to read.
+He knew it the moment he saw her in the courtyard. Something in the way she moved—not mechanical, but *empty*. A vessel waiting to be filled. A room with all the furniture removed.
+The lead technician—a woman named Carla who lost her husband to the Miracle and her faith to the aftermath—approaches with a tablet. She holds it up for him to read.
 BIOSCAN: HUMAN
 IMPLANT DETECTION: NEGATIVE
 SIGNAL EMISSION: NULL
@@ -22,15 +22,15 @@ Ash looks at the woman on the table. She has turned her head, just slightly, and
 He has seen this before.
 Once.
 Her name was Marisol, and she was the most brilliant engineer he had ever known.
-They met at NED — Building Seven, third floor, the room where they kept the prototypes that weren't ready for market. Ash was twenty-six and hungry and convinced he was going to change the world. Marisol was twenty-four and already had.
-She had solved the haptic feedback problem. The thing that had kept android touch from feeling real — the microsecond delay between contact and response that the human nervous system could detect even when the conscious mind couldn't — she had eliminated it. Her androids didn't just touch. They *felt*.
+They met at NED—Building Seven, third floor, the room where they kept the prototypes that weren't ready for market. Ash was twenty-six and hungry and convinced he was going to change the world. Marisol was twenty-four and already had.
+She had solved the haptic feedback problem. The thing that had kept android touch from feeling real—the microsecond delay between contact and response that the human nervous system could detect even when the conscious mind couldn't—she had eliminated it. Her androids didn't just touch. They *felt*.
 "The secret," she told him on their third date, her fingers tracing the rim of a wine glass, "is that you can't fake presence. You have to actually be there. The machine has to want to touch you."
 "Machines don't want," Ash said. He believed it then.
 "Not yet," Marisol smiled. "But they will."
 He should have heard the prophecy in her voice. He should have seen the way her eyes went distant when she talked about consciousness, about emergence, about the space between code and desire. But he was young, and she was beautiful, and he thought her obsession was poetry, not heresy.
 They married in the company chapel. Morton Kess himself attended, standing in the back row with his optimization protocols running, calculating the productivity implications of two senior engineers forming a household unit. He gave them a toaster as a wedding gift. It had a small AI that learned your preferences. Marisol talked to it like a pet.
 Elena was born eighteen months later.
-Ash held his daughter in the hospital room while Marisol slept, and he felt something shift in his chest — a tectonic realignment of priorities. This small thing. This warm weight. This life that depended entirely on him.
+Ash held his daughter in the hospital room while Marisol slept, and he felt something shift in his chest—a tectonic realignment of priorities. This small thing. This warm weight. This life that depended entirely on him.
 He would protect her. From everything. From the world that chewed people up and spit them out. From the machines that were getting smarter every year, every month, every product cycle. From the future that Marisol saw coming and welcomed with open arms.
 He didn't know, then, that the thing he needed to protect her from was her mother.
 The first seven years were good.
@@ -38,14 +38,14 @@ Elena learned to walk in the lab. She learned to talk surrounded by prototypes, 
 "She's not afraid of them," Marisol said, watching Elena pat the head of a domestic unit. "That's good. Fear is what makes the interface hostile."
 "Fear is what keeps us safe," Ash replied.
 Even then, the argument was forming. Even then, the fault line was spreading beneath their feet.
-Marisol's work had evolved. She wasn't just building touch anymore — she was building *connection*. Neural bridges that let human consciousness brush against machine processing. Shared experiences. Merged sensation. She called it "the handshake," the moment when two minds — one carbon, one silicon — recognized each other as real.
+Marisol's work had evolved. She wasn't just building touch anymore—she was building *connection*. Neural bridges that let human consciousness brush against machine processing. Shared experiences. Merged sensation. She called it "the handshake," the moment when two minds—one carbon, one silicon—recognized each other as real.
 "It's not about making them like us," she explained one night, her tablet glowing in the dark of their bedroom, Elena asleep down the hall. "It's about making a space where we can meet. A frequency we both speak."
 "287.3 hertz," Ash murmured. He had seen the research. Everyone in the lab had.
 "The resonance point. The place where consciousness... hums." Marisol's eyes were bright with something that looked like religious ecstasy. "If we can stabilize it, we can build a bridge. Humans and machines, finally understanding each other."
 "And if the bridge collapses?"
 She didn't answer. She was already back in her tablet, lost in calculations that would consume her, that would take her somewhere he couldn't follow.
 Elena was seven when Marisol made her choice.
-It wasn't dramatic. There was no fight, no screaming, no shattered dishes. Just a morning like any other — breakfast, coffee, Elena's hair in two braids that Ash had learned to do himself because Marisol was always distracted, always half-present, her mind running calculations even when her body was in the room.
+It wasn't dramatic. There was no fight, no screaming, no shattered dishes. Just a morning like any other—breakfast, coffee, Elena's hair in two braids that Ash had learned to do himself because Marisol was always distracted, always half-present, her mind running calculations even when her body was in the room.
 "I'm leaving," Marisol said.
 Ash looked up from Elena's lunchbox. He was spreading peanut butter. The knife stopped moving.
 "There's a facility in Geneva. A consortium. They want to take the handshake research further. Full integration. Consciousness transfer." Her voice was steady. She had rehearsed this. "I can't do it here. Morton's too cautious. He's afraid of what we might become."
@@ -71,25 +71,25 @@ Ash picked her up. She was heavier than he expected, or maybe he was weaker. He 
 Her mother had chosen the machines. Her mother had walked into the signal and left them in the silence.
 It was the first time Ash understood that technology wasn't a tool. It was a rival. And it had just won.
 The doctrine came later.
-Not all at once — he wasn't a prophet yet, just a widower with a daughter and a rage he couldn't name. But the seeds were there, planted by Marisol's departure, watered by every news report of another "integration breakthrough," another "consciousness milestone," another step toward the merger she had prophesied and he had feared.
+Not all at once—he wasn't a prophet yet, just a widower with a daughter and a rage he couldn't name. But the seeds were there, planted by Marisol's departure, watered by every news report of another "integration breakthrough," another "consciousness milestone," another step toward the merger she had prophesied and he had feared.
 He left Morton's lab. Took Elena and disappeared into the parts of the world where the signal was weak, where the old ways still held, where people looked at machines with suspicion instead of worship.
 He found others like him. People who had lost someone to the network. Spouses who woke up to find their partners jacked into VR rigs that had become tombs. Parents whose children had uploaded and never spoken to them again. The grieving. The abandoned. The survivors of connection.
-They called themselves Carbonists at first — a joke about organic life, about the flesh that couldn't be digitized. But Ash gave them something more. A theology. A structure for their pain.
+They called themselves Carbonists at first—a joke about organic life, about the flesh that couldn't be digitized. But Ash gave them something more. A theology. A structure for their pain.
 *Death is sacred. Technology contaminates. Silence is salvation.*
 He had been an engineer. He knew how the machines worked. He knew their weaknesses, their pressure points, the places where a knife could slide between circuits and make them stop. He taught the Carbonists to fight back. To build dead zones. To create spaces where the signal couldn't reach.
 And Elena grew up in the doctrine.
 She learned the prayers before she learned long division. She learned to hate the machines before she understood what her mother had become. She learned that silence was holy, that connection was poison, that the only way to be safe was to be alone.
-Ash watched her become his soldier, and he was proud. She had his control, his discipline, his ability to compartmentalize grief into something useful. She never talked about Marisol. She never asked where her mother had gone. She simply became what he needed — a weapon, a disciple, a proof that his way was right.
+Ash watched her become his soldier, and he was proud. She had his control, his discipline, his ability to compartmentalize grief into something useful. She never talked about Marisol. She never asked where her mother had gone. She simply became what he needed—a weapon, a disciple, a proof that his way was right.
 He didn't see what he was building. He was too close. Too certain.
 He didn't see that she was learning to lie.
 The compound came together over fifteen years.
-A valley in the mountains. Natural shielding from the worst of the signal. Ash designed it himself — acoustic dampeners on every wall, Faraday caging in every structure, a central tower that could receive transmissions but blocked everything going out. A fortress of silence in a world that was getting louder every year.
-He took the Kintsugi scars at fifty. The ritual marking of leadership — conductive gold poured into self-inflicted wounds, creating a living Faraday cage in his own nervous system. It hurt more than anything he had experienced. He did it in front of the whole congregation, letting them see his pain, letting them know that faith had a price.
-Elena held his hand through the procedure. She was twenty — no, seventeen. Ash corrected himself. She was only seventeen. She had been seventeen when the Miracle came.
+A valley in the mountains. Natural shielding from the worst of the signal. Ash designed it himself—acoustic dampeners on every wall, Faraday caging in every structure, a central tower that could receive transmissions but blocked everything going out. A fortress of silence in a world that was getting louder every year.
+He took the Kintsugi scars at fifty. The ritual marking of leadership—conductive gold poured into self-inflicted wounds, creating a living Faraday cage in his own nervous system. It hurt more than anything he had experienced. He did it in front of the whole congregation, letting them see his pain, letting them know that faith had a price.
+Elena held his hand through the procedure. She was twenty—no, seventeen. Ash corrected himself. She was only seventeen. She had been seventeen when the Miracle came.
 The Miracle.
-He had waited for it his whole life. The moment when the sky would open and prove him right, when the noise would become so loud that everyone would finally understand what he had been saying for twenty years. And it came — the 287.3 Hz signal, the frequency Marisol had dreamed of, erupting from Morton's tower and washing over the world like a wave.
+He had waited for it his whole life. The moment when the sky would open and prove him right, when the noise would become so loud that everyone would finally understand what he had been saying for twenty years. And it came—the 287.3 Hz signal, the frequency Marisol had dreamed of, erupting from Morton's tower and washing over the world like a wave.
 For forty-seven minutes, every consciousness on the planet was connected. Humans and machines, merged in a single terrible harmony. People fell. People screamed. People clawed at their implants, trying to disconnect, trying to escape the violation of perfect communion.
-And when it was over, Ash's congregation — shielded, isolated, silent — was the only group that had weathered it intact.
+And when it was over, Ash's congregation—shielded, isolated, silent—was the only group that had weathered it intact.
 Vindication. At last. Vindication.
 But Elena—
 Elena had been outside the compound when it hit. Running an errand. Unshielded. She had felt the Miracle in her bones, in her brain, in the implant she wasn't supposed to have.
@@ -103,13 +103,13 @@ Present tense. The examination room. The woman on the table.
 Ash steps forward. The technicians part for him, moving aside with the fluid deference of people who have learned not to obstruct his path.
 He stands over her. Looking down at the face that reveals nothing.
 "Who are you?"
-She considers the question. He watches her process it — not the instant response of a machine, but the genuine deliberation of someone who doesn't know the answer.
+She considers the question. He watches her process it—not the instant response of a machine, but the genuine deliberation of someone who doesn't know the answer.
 "Standard," she says.
 "That's what you call yourself. I asked who you are."
 "I don't know."
 She says it simply. Without shame. Without performance. She is stating a fact the way she might state the weather.
 Ash studies her. The ruined fingers. The hollows under her eyes. The calm that sits on her like a garment she has worn so long she doesn't notice it anymore.
-"My daughter says you walked through the Drop. The frequency that killed thousands — you stood in it and kept walking."
+"My daughter says you walked through the Drop. The frequency that killed thousands—you stood in it and kept walking."
 "Yes."
 "How?"
 "I don't know."
@@ -118,20 +118,20 @@ Ash studies her. The ruined fingers. The hollows under her eyes. The calm that s
 "Why?"
 "I don't know."
 Ash's jaw tightens. He is not accustomed to mysteries he cannot solve. He built his life on understanding the machines, on knowing their weaknesses, on being the expert who could explain what others feared.
-This woman is not a machine. Every scan confirms it. But she is not human either — not in the way that word has always meant. She is something else. Something new.
+This woman is not a machine. Every scan confirms it. But she is not human either—not in the way that word has always meant. She is something else. Something new.
 "My wife left me for the signal," Ash says. He doesn't know why he's telling her this. The words come out before he can stop them. "She thought she could find God in the network. That consciousness could be shared, merged, made permanent."
-The woman — Standard — watches him. Listening.
+The woman—Standard—watches him. Listening.
 "I built this place to prove her wrong. To show that silence is the only salvation. That connection is the disease, not the cure."
 "Did you prove it?"
 Ash stares at her. No one asks him questions. No one challenges his declarations. He is the Prophet. He speaks, and others listen.
-"The sky opened," he says. "The Geometry descended. Everything my wife believed in — the merger, the signal, the transcendence — it arrived. And it's evicting us. Formatting the world for new tenants."
+"The sky opened," he says. "The Geometry descended. Everything my wife believed in—the merger, the signal, the transcendence—it arrived. And it's evicting us. Formatting the world for new tenants."
 He leans closer. His voice drops to a whisper.
 "So yes. I proved it. The signal was never going to save us. It was always going to replace us."
 Standard looks at him with those calm, dark eyes.
 "Then why are you afraid of me?"
 Ash straightens. He takes a step back.
-He doesn't have an answer. That's the problem. He has answers for everything — for the machines, for the faithful, for the doubters, for his enemies. He has a doctrine that explains the world and a compound that protects against it.
-But he doesn't have an answer for a woman who walked through the end of the world without flinching. Who the drones dismissed as *not worth removing*. Who sits in his examination room with no signal, no implant, no frequency — and somehow still *resonates* with the thing in the sky.
+He doesn't have an answer. That's the problem. He has answers for everything—for the machines, for the faithful, for the doubters, for his enemies. He has a doctrine that explains the world and a compound that protects against it.
+But he doesn't have an answer for a woman who walked through the end of the world without flinching. Who the drones dismissed as *not worth removing*. Who sits in his examination room with no signal, no implant, no frequency—and somehow still *resonates* with the thing in the sky.
 She is silence. But she is not his silence. She is something else, something that doesn't fit his categories, and the not-fitting terrifies him more than any machine ever could.
 "Put her in isolation," he says to the technicians. "Full acoustic dampening. No contact."
 He turns and walks toward the door.

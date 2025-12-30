@@ -6,7 +6,7 @@ THE HANGAR
 The hangar bay is quiet.
 Hendricks has been looking for quiet his whole life. Running from Morton's voice in his skull, the Regulator's hum, the static of a world that wouldn't shut up. Now he's found it.
 The silence sits on him like a blanket he forgot he wanted.
-He walks past the mag-locked supply crates, past the row of sanitation drones charging in their alcoves, past the secondary transport that brought them here. The VTOL sits at the far end — Four's current body, if you can call a combat chassis a body. The maintenance arms are retracted. The sensor cluster is dark.
+He walks past the mag-locked supply crates, past the row of sanitation drones charging in their alcoves, past the secondary transport that brought them here. The VTOL sits at the far end—Four's current body, if you can call a combat chassis a body. The maintenance arms are retracted. The sensor cluster is dark.
 Good. She's powered down. Resting. Whatever machines do when they're not being machines.
 He climbs into the pilot's seat, kicks his boots up on the console, and closes his eyes. His back hurts. His knees hurt. Everything hurts in ways it didn't before Four pulled him out of whatever he was dissolving into. The body she retrieved is younger, but it remembers the pain it never had. Phantom aches from a future that got erased.
 He's too tired to make sense of that.
@@ -65,7 +65,7 @@ Six legs instead of thrusters. Optical sensors designed for debris, not threat a
 But the access is remarkable. Crew members step over her without looking down. Security waves her through. Four catalogs the Deliverance as she moves. Signal density. Encrypted channels. The architecture of a ship holding its breath.
 Then: an anomaly. Elena Vasquez. Moving through the maintenance corridor ahead.
 But that's not what catches Four's attention.
-The implant at the base of Elena's skull is broadcasting. A frequency layered underneath the one she carried before — a harmonic that wasn't there six hours ago.
+The implant at the base of Elena's skull is broadcasting. A frequency layered underneath the one she carried before—a harmonic that wasn't there six hours ago.
 Someone wrote to her.
 Four increases speed. Her tiny legs clicking on the deck plates.
 Through comms now that they're close enough, "Elena."
@@ -81,14 +81,14 @@ Elena's hand goes to her neck. "I know. I've been following it."
 "Yeah, that's my guess, too."
 "But why would he—"
 "Wondering the same thing here, Four. Try to keep up."
-They move through the maintenance corridors. Older. Pre-retrofit. The bones of the ship showing through. Elena stops at an observation alcove. Small. Stars outside, and beyond them — the dark edge where a continent used to be.
+They move through the maintenance corridors. Older. Pre-retrofit. The bones of the ship showing through. Elena stops at an observation alcove. Small. Stars outside, and beyond them—the dark edge where a continent used to be.
 Someone is already there.
 Four dims her optical sensors, becomes the dark. Elena steps forward alone.
 The man is young. Maintenance uniform.
 In Elena's comm, "I just ran facial recognition against ship manifest data. Dante Reyes. Level 3 Systems Tech."
 He was waiting. "You came," he says.
 "You didn't give me much choice." Elena's voice is flat. "The signal's been pulling at me for hours."
-"My sister had one. Same architecture. I didn't know what it was until I scanned you." He turns from the viewport. "The frequency was dormant in her too. I never understood it. But when I saw yours, I thought — maybe if I activated it, maybe it would point somewhere. Somewhere she went."
+"My sister had one. Same architecture. I didn't know what it was until I scanned you." He turns from the viewport. "The frequency was dormant in her too. I never understood it. But when I saw yours, I thought—maybe if I activated it, maybe it would point somewhere. Somewhere she went."
 "To where?"
 His voice cracks. "She walked into the Geometry three days ago. Looking for her children."
 Silence.
@@ -102,7 +102,7 @@ Elena doesn't take it. "What's on it?"
 Elena looks at him for a long moment. Then she takes the chip.
 "I can't promise anything."
 "I'm not asking for promises."
-She pockets the chip. Turns. Walks past Four without acknowledgment — a small grace, keeping the drone invisible.
+She pockets the chip. Turns. Walks past Four without acknowledgment—a small grace, keeping the drone invisible.
 Dante stays at the viewport. Watching the absence.
 Four waits. Then follows Elena back through the corridors.
 "Thoughts?" Elena asks, not looking down.
