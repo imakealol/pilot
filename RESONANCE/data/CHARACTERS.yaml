@@ -19,8 +19,21 @@ characters:
       gender: "woman"
       pronouns: ["she", "her", "hers"]
       apparent_age: "adult, unspecified"
-      actual_nature: "android"
+      actual_nature: "android — but animated by Marisol's transcended consciousness"
       model: "Legacy Unit (air-gapped, no wireless)"
+      substrate_origin: "Hendricks' unopened NED companion android from employee wellness program"
+
+    true_identity:
+      who_she_is: "Marisol — Elena's mother"
+      when_transferred: "Years before story begins"
+      why: "To protect Elena from the Geometry threat she foresaw as transcended being"
+      the_substrate: "Air-gapped companion android — Hendricks' NED wellness program gift, never opened"
+      why_unopened: "Hendricks is homosexual — had no interest in a companion droid"
+      not_providence: "Morton had NO idea. Pure coincidence that an empty vessel was available."
+      the_cost: "Complete memory erasure — transferred as transcended being, lost all memories in the process"
+      why_ch1_awakening: "Woke in the crate with no memories because that was the price of inhabiting the substrate"
+      she_doesnt_know: "Standard has no idea she is Marisol until after Hendricks shoots her"
+      readers_dont_know: "No telegraphing — readers discover with the characters"
 
     physical:
       description: "Companion bot face template — one of the common NED models. Damaged hands (healing too fast)."
@@ -52,12 +65,9 @@ characters:
       function: "The thing people fear, offering to die for them."
       critical_constraint: "Do NOT resolve her interiority question."
 
-    trilogy_arc:
-      spine: "What persists → What connects → What chooses"
-      book_1_remanence: "What persists — she exists, she endures, she doesn't know why"
-      book_2_resonance: "What connects — she notices, she questions, she starts to feel the shape of what's missing"
-      book_3_renaissance: "What chooses — she wants something for herself, and she takes it"
-      standard_is_the_theme: "Not a vessel for the theme. Not a symbol. The living embodiment of the trilogy's question: What makes a person?"
+    arc:
+      book_2_resonance: "What connects — she notices, she questions, learns who she was, becomes the door"
+      standard_is_the_theme: "Not a vessel for the theme. Not a symbol. The living embodiment of the question: What makes a person?"
 
     agency_arc:
       the_pattern:
@@ -73,23 +83,32 @@ characters:
         what: "Names it out loud — first time someone articulates what she's doing to herself"
         line: "'You keep offering yourself like you owe us something. Like your body isn't yours. Like you were made to be used. I spent thirty years thinking the same thing. It's a lie.'"
       the_seed: "She doesn't understand. Not yet. But she hears it."
-      book_2_development: "Starts noticing when she's being used"
-      book_3_payoff: "Chooses something for herself — not for Elena, not for the mission, not for the world"
+      development: "Starts noticing when she's being used"
       thematic_question: "When does 'I can help, so I should' become self-erasure? Who teaches her she's allowed to want something for herself?"
 
     power_source:
       surface_read: "Power cells (standard android battery)"
-      actual_source: "Remanence — consciousness that persists after the field is removed"
+      actual_source: "Consciousness itself — Marisol transferred as transcended being, runs systems on consciousness rather than electricity"
       explanation:
         standard_androids: "Battery-dependent, shutdown phrases work because they run programs"
-        standard_marisol: "Not running a program — she IS. Consciousness transferred, not programmed."
-        the_body: "Android shell. The animating force is a human mind that refused to stop existing."
+        standard_marisol: "Not running a program — she IS. Transcended consciousness inhabiting substrate."
+        the_body: "Android shell. The animating force is Marisol's transcended consciousness."
+        no_recharging: "Doesn't need to recharge because consciousness itself powers the systems"
       ch8d_reveal:
         setup: "Drags Rover 10 miles through wasteland"
         event: "Power cells die at mile 5 — she keeps moving for 5 more miles"
         discovery: "Someone checks her: power cells dead, cold, been dead for miles. But she was still moving."
-        implication: "She's grief-powered. Purpose-powered. The body is a shell. What moves it is whatever Marisol was that couldn't let go."
+        implication: "Consciousness powers her, not batteries. The body is a shell."
       why_shutdown_failed_ch3: "You can't shut down a soul with a command meant for software"
+
+    geometry_immunity:
+      why_miracle_didnt_touch_her: "She's already transcended — outside their census criteria"
+      why_she_reads_empty: "Not networked AI (air-gapped), not standard human, already transcended — third category they don't classify"
+      the_protective_field:
+        effect: "Those near her survive the Drop/Deletion"
+        mechanism: "Possibly unconscious maternal instinct made physical, possibly transcended nature creating blindspot"
+        geometry_response: "They scan her, find nothing classifiable, disregard her"
+        not_conscious_choice: "She doesn't know she's protecting anyone — just does"
 
     wet_packet:
       deposited: "Ch6 — tetrahedron drone scanned her, left code in her mind"
@@ -111,17 +130,31 @@ characters:
       how_she_can: "The wet packet (Ch6) gave her the Geometry's base code. She deciphered it. She can use their architecture."
       the_choice: "She chooses this. She asks Hendricks to shoot her."
       the_gap_at_cosmic_scale: "The null value becomes the door that others can pass through"
+
+      reveal_sequence:
+        before_bullet: "Standard says 'It's okay. I trust you.' — she does NOT know she's Marisol"
+        the_shot: "Hendricks shoots her (bullet 6)"
+        in_dissolution: "As consciousness floods out, memories return — she learns she was Marisol"
+        elena_dying: "Elena is already unconscious on throne room floor from Ash's blade wound"
+        hot_swap: "Marisol enters Elena's neural implant — mother entering dying daughter's mind"
+        the_reunion: "Conversation happens INSIDE Elena's implant, in her dying consciousness"
+        goodbye_is_final: "Both believe this is the end — no hope, just love and letting go"
+        ambiguous_question: "Elena asks 'If I die, will I be with you?' Marisol: 'You're already with me... It's the only answer I have.'"
+        elena_fades: "Elena's heartbeat stops. The dark takes her."
+        then_the_door: "From within the implant, Marisol becomes the threshold"
+
       how_it_happens:
         she_asks_hendricks: "Her body must end for her consciousness to become the bridge"
         hendricks_struggles: "The man she called 'like a father' has to kill her"
         the_bullet: "The one meant for himself. Because she asked. Because it's her choice."
-        the_mechanics: "The bullet releases her consciousness. The wet packet activates. She uses the Geometry's own code to become permanent architecture."
+        the_mechanics: "The bullet releases her consciousness. Memories flood back. She enters Elena's implant. Then becomes architecture."
+
       thematic:
         - "Not transcend. Not stay. Become."
-        - "After a whole trilogy of others defining her, she finally answers for herself"
         - "The thing the Geometry couldn't process becomes humanity's permanent passage"
         - "Parallels Four: Four dies holding the corridor, Standard BECOMES the corridor"
         - "The Geometry's own weapon (the packet) becomes the tool of their defeat"
+        - "A mother who broke the laws of physics to protect her daughter"
 
     knowledge:
       knows:
@@ -197,7 +230,7 @@ characters:
         years_with_regulator: 30  # no aging during this period
         years_post_regulator: 3  # since the Miracle
       ethnicity: "Latino"
-      sexuality: "Asexual/Demisexual"
+      sexuality: "Homosexual"
 
     physical:
       description: "73 chronologically. Post-Geometry: restored to ~60-65 appearance (pre-decay pattern)"
@@ -255,13 +288,13 @@ characters:
         - "The Source Code exists"
         - "He shot the Child (Book 1)"
         - "What the two remaining bullets are for"
+        - "Ch33: Standard was Marisol — Elena's mother (learns when she becomes the door)"
       doesnt_know:
         - "Why Morton sent Standard to him specifically"
         - "What the aliens want"
-        - "Whether he can still go through with the contract"
 
     relationships:
-      - { character: "STANDARD", type: "ward/cargo → daughter", status: "Ch22: Standard calls him 'like a father'" }
+      - { character: "STANDARD", type: "ward/cargo → daughter → Marisol", status: "Ch22: calls him 'like a father'. Ch33: learns she was Marisol. Shoots her to set her free." }
       - { character: "MORTON", type: "former employer", status: "deceased — Hendricks loved him, Morton never saw" }
       - character: "ASH"
         type: "co-conspirator"
@@ -422,17 +455,14 @@ characters:
         - "Ch28: Her mother is Dr. Lena Mironova"
         - "Ch28: Marisol fully integrated — distributed, not a person"
         - "Ch28: Her name comes from her mother's (Lena → Elena)"
+        - "Ch33: Standard IS Marisol — her mother came back for her, lost all memories"
       carries:
         - "Morton's extracted data clusters — Geometry research, Singularity consequences"
         - "Contents unknown to her — she took it, doesn't fully understand it"
-      doesnt_know:
-        - "What Standard is (machine consciousness)"
-        - "That Standard is air-gapped"
 
     relationships:
       - { character: "ASH", type: "daughter", status: "Cover blown. He knows she betrayed him." }
-      - { character: "MARISOL", type: "daughter", status: "Found her — she's gone. 'Then she left me twice.'" }
-      - { character: "STANDARD", type: "guide?", status: "Bringing a machine consciousness to The Resonant" }
+      - { character: "MARISOL/STANDARD", type: "daughter", status: "Ch28: 'Then she left me twice.' Ch33: Learns Standard IS Marisol. Reunion in dying mind." }
       - { character: "HENDRICKS", type: "cargo → ally", status: "Confronted about lies Ch28 — not forgiveness, not condemnation" }
       - { character: "DANTE", type: "romantic", status: "Ch29 — kissed him with chassis open, accepts what he is" }
 
@@ -454,10 +484,16 @@ characters:
 
     endgame:
       choice: "STAYS — does not transcend (yet)"
+      ch33_reunion:
+        context: "Elena dying on throne room floor from Ash's blade wound"
+        the_moment: "Marisol hot-swaps into Elena's implant — reunion in dying mind"
+        learns: "Standard was her mother the whole time"
+        goodbye: "Both believe it's final. 'If I die, will I be with you?' / 'You're already with me.'"
+        fades: "Elena's heartbeat stops. The dark takes her."
       the_twist:
         what: "Elena is 'killed' in the final battle — her body dies"
-        reveal: "She reappears. Opens her chassis. Same interior as Dante."
-        transfer: "Her consciousness was transferred to an android body"
+        reveal: "She reappears (Ch34). Opens her chassis. Same interior as Dante."
+        transfer: "Dante copied her consciousness to an android body"
       the_question:
         surface: "Is she still Elena? Or a copy?"
         parallel: "Same question she struggled with after reconstitution from the foam (Ch17)"
@@ -558,25 +594,33 @@ characters:
 
     identity_progression:
       - name: "Dr. Lena Mironova"
-        era: "~2200 (Remanence era)"
+        era: "Remanence era"
         role: "NED scientist, discovered consciousness in configurations"
         event: "Fired by Morton for her findings"
-      - name: "Lena Mironova (immortal)"
-        era: "~2200-2300"
-        role: "Replicated Morton's immortality treatments"
-        event: "After 100+ years without aging, needed new identity"
-      - name: "Marisol Mironova"
-        era: "~2300s"
-        role: "New identity, meets pre-Ash"
-        event: "Marries, becomes Marisol Vasquez"
       - name: "Marisol Vasquez"
-        era: "~2380s-2390s"
-        role: "Wife, mother to Elena"
-        event: "Transfers into Template 3 to protect Elena, loses memories"
+        era: "Before Resonance"
+        role: "Wife to Ash, mother to Elena"
+        event: "Transcends — leaves physical form"
+      - name: "Transcended Marisol"
+        era: "Years before Resonance"
+        role: "Transcended being who perceives Geometry threat"
+        event: "Transfers into air-gapped Template 3 to protect Elena — loses all memories"
       - name: "Standard"
-        era: "2400 (Resonance)"
-        role: "Template 3, no memory of past lives"
-        event: "Becomes the Door"
+        era: "Resonance (present)"
+        role: "Template 3 with no memory of past lives"
+        event: "Learns truth after Hendricks shoots her, becomes the Door"
+
+    standard_transfer:
+      why_she_returned: "As transcended being, perceived Geometry threat coming for Elena"
+      the_substrate_problem: "Transcended consciousness can't inhabit body already occupied"
+      the_solution: "Hendricks' unopened NED Template 3 — air-gapped, never activated"
+      why_available: "Hendricks never opened it — homosexual, no interest in companion droid"
+      not_planned: "Morton had no idea. Coincidence, not providence."
+      the_cost: "Complete memory erasure — the price of inhabiting the substrate"
+      the_result: "Woke in crate (Ch1) with no memories — just love without reason"
+      geometry_immunity: "Already transcended — outside their census criteria"
+      protective_field: "Unconscious maternal instinct, or transcended nature creating blindspot"
+      power_source: "Consciousness itself runs her systems — no recharging needed"
 
     demographics:
       gender: "woman"
@@ -627,8 +671,8 @@ characters:
 
     relationships:
       - { character: "ASH", type: "ex-wife", status: "Gone — beyond reaching now" }
-      - { character: "ELENA", type: "mother", status: "Aware of her, cannot be with her" }
-      - { character: "STANDARD", type: "unknown", status: "[REDACTED — spoiler]" }
+      - { character: "ELENA", type: "mother", status: "Reunites in Elena's dying mind (Ch33)" }
+      - { character: "STANDARD", type: "IS Standard", status: "Marisol's consciousness inhabits this substrate" }
 
     remanence_connection:
       book_1_role: "The scientist who discovered what resets did to machine consciousness"
@@ -702,9 +746,9 @@ characters:
         - "Doesn't expose her — waits for her to figure it out"
 
     relationships:
-      - { character: "STANDARD", type: "mirror/guide", status: "recognizes something familiar — grieving her capture" }
+      - { character: "STANDARD/MARISOL", type: "mirror/guide → woven together", status: "Recognizes something familiar. Ch33: Marisol catches Four as she dissolves, weaves her into the door." }
       - { character: "ELENA", type: "passenger", status: "tolerates her commands" }
-      - { character: "HENDRICKS", type: "developing bond", status: "plans for 'after' — cliffside, tragic irony" }
+      - { character: "HENDRICKS", type: "developing bond", status: "plans for 'after' — cliffside. Four dies holding corridor, Hendricks keeps the promise." }
       - { character: "THE_CHILD", type: "origin", status: "carries fragments of Child's distributed consciousness" }
 
     ch29_developments:

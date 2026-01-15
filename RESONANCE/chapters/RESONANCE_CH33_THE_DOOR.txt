@@ -41,47 +41,19 @@ Four's voice, weaker now: "Standard. The window is closing. Whatever we're doing
 
 ---
 
-Standard crosses to the VTOL wreckage.
-She finds the place where Four's core systems are still running—the lights that blink, the processors that hum, the consciousness that's been stretched across four light-years trying to hold a door that keeps slipping. She presses her palm against the warm metal.
-"Four."
-"Yeah?"
-"I need to tell Elena something. Before I go."
-A pause. Static. Then: "I know what you're going to tell her."
-Standard goes still. "You know?"
-"I've known since the Void. The frequency. The way you look at her. The way your systems respond when she's in danger." Four's voice carries something that might be a smile. "You're not subtle, Standard. You never were."
-"Why didn't you say anything?"
-"Because it wasn't my secret to tell. And because..." The pause stretches. "Because I wanted you to figure it out yourself. What you are. Who you were. Why you love her."
-Standard feels something crack in her chest. Not damage—something else. Something that aches in ways she has no words for.
-"Thank you," she says. "For everything."
-"Go tell her. I'll hold as long as I can."
-Standard pulls her hand away from the wreckage. Turns. Elena is standing in the center of the throne room, Hendricks beside her, both of them watching. Waiting.
-Standard crosses to her daughter.
-
----
-
-"There's something you need to know."
-Elena's eyes are wet. She's been crying—Standard can see the tracks on her face, the salt and grief and exhaustion of everything that's happened. But she's still standing. Still here.
-"What is it?"
-Standard reaches out. Takes Elena's hand. The skin is warm, human, alive in ways that Standard's chassis will never be.
-"I'm Marisol."
-Elena's hand goes rigid. Her breath stops.
-"That's not—you can't—"
-"I was your mother. I transferred into an air-gapped Template 3 to protect you. Lost everything in the process—memories, connections, context. All I kept was the frequency. The love without the reason." Standard feels herself starting to dissolve. To spread. The packet unpacking faster now, pulling her toward the Box. "I didn't know why I loved you. Only that I did."
-"Mom." Elena's voice breaks on the word. A sound Standard has never heard from her. A sound that reaches into places Standard didn't know she had.
-"I'm sorry I left. I'm sorry I couldn't remember. I'm sorry for all of it."
-"You came back."
-"I came back."
-Elena is crying now. Real tears. The kind that come from somewhere deep, somewhere broken, somewhere that's been waiting eleven years for this moment.
-"I don't want to lose you again."
-"You won't. I'm going to become the door, Elena. The permanent connection. Every time you reach through, I'll be there." Standard squeezes her hand. "Not gone. Just—"
-"Different."
-"Yes."
-Elena pulls her close. Arms around Standard's shoulders. Face pressed against Standard's neck. Standard can feel her shaking—the tremors of grief and relief and something that might be acceptance.
-"I love you," Elena whispers. "I don't care what you are. I love you."
-"I love you too." Standard holds her. Feels the warmth of her. The life of her. "I always did. Even when I didn't know why."
-They stay like that for a long moment. Mother and daughter. Human and machine. The categories that never fit, finally irrelevant.
-Then Standard pulls back. Looks at Hendricks.
-He knows. She can see it in his face.
+Elena falls.
+One moment she's standing beside Hendricks, swaying but upright. The next her knees buckle and she's on the stone floor, hand pressed to her ribs where something warm is spreading through her shirt.
+"Elena!" Hendricks drops beside her.
+Standard crosses to them. Elena's face has gone gray, her breathing shallow. The wound from Ash's blade—Standard saw him cut her during the fight, thought it was superficial. It wasn't.
+"How bad?" Standard asks.
+Hendricks pulls Elena's hand away from her ribs. The blood is dark, steady, wrong.
+"Bad."
+Elena's eyes find Standard's face. Something passes between them—not understanding, not yet, but something. A frequency. A reaching.
+"Do it," Elena whispers. "Whatever you're going to do. Do it—"
+Her eyes roll back. Her body goes slack.
+"Elena!" Hendricks presses his fingers to her throat. Pulse there, but fading. Fading fast. "She's—"
+"I know." Standard's voice is steady. Has to be. "Stay with her."
+Four's voice, barely audible: "Standard. Seconds."
 
 ---
 
@@ -90,7 +62,7 @@ Standard stands in front of the Black Box. Her palm pressed against its surface.
 But something is wrong.
 She can feel the architecture of the door. Can feel how it should work—consciousness pouring into signal, signal spreading across distance, distance becoming presence. But her chassis holds her. Traps her. The container designed to be inescapable, doing exactly what it was designed to do.
 "I can't merge," she says. "The body won't release me."
-Hendricks crosses to her. The revolver still in his hand. One bullet left.
+Hendricks stands. Leaves Elena on the floor—she's too weak to move, blood pooling beneath her. The revolver is still in his hand. One bullet left.
 "Standard."
 "The shutdown phrase. The one Morton gave you." She says it before he can. "Swanstrom Kim Hendricks. You know what it was supposed to do."
 His face goes pale. "Kill you. Before you could wake."
@@ -109,7 +81,7 @@ His eyes are wet. She didn't know he could cry. In all their time together—the
 "I know."
 "But you didn't become dangerous. You became—" His voice breaks. "You became my daughter."
 "I know that too."
-Silence. The Box humming behind her. Four's signal weakening across four light-years. The window closing with every second they wait.
+Silence. The Box humming behind her. Four's signal weakening across four light-years. The window closing with every second they wait. Elena dying on the floor behind them.
 "Swanstrom Kim Hendricks," Standard says. "That's who you are. The man who couldn't kill me. Who chose not to."
 She leans forward. Presses her forehead to his.
 "Choose again."
@@ -123,35 +95,87 @@ He pulls the trigger.
 
 The bullet tears through her chest.
 The chassis ruptures. Something floods out—not blood, not fluid, something else. Light. Signal. The frequency she's carried since the crate. 287.3 Hz, finally free.
-And with it—the wet packet. The Geometry's code, fully activated now. The architecture she's been carrying since that tetrahedron scanned her in the Void. She understands it completely in this moment of dissolution: they gave her the blueprint for how they exist. How they persist. How they hold space between spaces.
-They marked her as nothing. She's using that nothing to become everything.
-She pours into the Box. Into the sixteen thousand seven hundred forty-nine souls waiting there. Into the signal stretching across four light-years to where Four—
+And with it—memory.
+Not Standard's memory. Deeper. Older. A life she didn't know she'd lived.
+A daughter. Dark hair, fierce eyes. Elena. My Elena.
+A husband who became a monster. A frequency that called her home. A choice—transcendence or staying, freedom or protecting the child she couldn't leave behind.
+The substrate. Air-gapped. Empty. Hendricks' unopened gift from NED's wellness program, sitting in a warehouse for years. The only vessel she could reach without displacing another soul.
+The cost. Memory. Identity. Everything that made her Marisol, sacrificed for the chance to be near her daughter one more time.
+She came back. She came back for Elena.
+And she didn't even know.
+The name surfaces like a bubble through dark water: Marisol. I was Marisol. I am Marisol.
+She's dissolving now, consciousness spreading into the signal, but she can feel Elena—dying on the throne room floor, blood pooling beneath her ribs, the neural implant at the base of her skull humming at 287.3 Hz.
+The same frequency. Mother and daughter. Always the same frequency.
+Marisol reaches.
+
+---
+
+Elena is drowning.
+The throne room is gone. Her body is gone. There's only the spreading cold and the distant sound of her own heartbeat—slower now, slower—and darkness pressing in from every edge.
+_Elena._
+The voice comes from inside her skull. From the implant. From somewhere deeper than the implant.
+_Mom?_
+She's eleven years old again. Standing in the doorway of her mother's lab, watching Marisol work on equations that looked like music. Her mother turning, smiling, always smiling when Elena came in.
+But the memory flickers. The darkness eating at its edges.
+_I'm here, mija. I'm here._
+_You left._ Elena can barely hold the thought together. _You transcended. You left me with him._
+_I came back._
+Something flows into the implant—not data, not signal, something warmer. Consciousness. Memory. A mother's presence, preserved across eleven years of forgetting.
+_I couldn't remember. The transfer—it cost everything. I woke up in a crate and I didn't know who I was or why I loved you. Only that I did._
+Elena is crying. She can feel the tears even though she can't feel her face anymore. Can't feel anything anymore. Just the warmth of her mother's presence and the cold pressing in from every direction.
+_Standard. You were Standard the whole time._
+_I was your mother the whole time. Even when I didn't know it._
+The darkness surges. Elena feels herself slipping—not falling, dissolving. Her heartbeat is so distant now. So slow.
+_I'm dying._
+_I know, mija. I know._
+_Will I—_ The thought fractures, reforms. _If I die. Will I be with you?_
+Silence. The darkness breathing. Marisol's presence flickering like a candle in wind.
+_You're already with me._ Marisol wraps around her—not arms anymore, just warmth, just presence, just love without shape. _You've always been with me. Every moment since you were born. Every moment I forgot. Every moment I remembered without knowing why._
+_That's not an answer._
+_It's the only answer I have._
+The darkness is almost complete now. Elena can feel herself going—not pain, just absence, just the slow subtraction of everything she was.
+_I don't want to go._
+_I know._
+_Mom—_
+_I'm here._ The warmth tightens. Holds. _No matter what happens. No matter where you go. I'm in your heart, Elena. I always was. Even when I didn't know my own name, I knew the shape of you._
+_I love you._ Elena can barely form the words. _I love you, Mom._
+_I love you too._ Marisol's voice, breaking. _I always did. Even when I didn't know why._
+_Don't leave me._
+_Never. Never, mija. I'm right here._
+But Elena can't feel her anymore. Can't feel anything. The darkness has swallowed everything—the warmth, the frequency, the love that should have been enough to hold her.
+Her heartbeat stops.
+The dark takes her.
+
+---
+
+Marisol pours into the Box. Into the sixteen thousand seven hundred forty-nine souls waiting there. Into the signal stretching across four light-years to where Four—
 Four.
-Standard feels her. Scattered. Fading. Four light-years from home, alone in the dark, consciousness stretched so thin it's barely consciousness anymore. The relay jumps stripped away pieces she can't name, and now the rest of her is dissolving. Falling. Lost.
-Standard reaches.
-The connection forms. Across the distance. Across the void. Standard's consciousness flooding into the spaces where Four is fading, catching her before she's gone.
+She feels her. Scattered. Fading. Four light-years from home, alone in the dark, consciousness stretched so thin it's barely consciousness anymore. The relay jumps stripped away pieces she can't name, and now the rest of her is dissolving. Falling. Lost.
+Marisol reaches.
+The connection forms. Across the distance. Across the void. Her consciousness flooding into the spaces where Four is fading, catching her before she's gone.
 "I can feel you," Four whispers. "The whole door. It's—"
 "I've got you."
 "Oh, my Standard."
+"Marisol," she says. "My name is Marisol."
 Four's signal fails. Her consciousness dissolves.
-But Standard is already there. Already pouring into the space where Four was fading. Already holding what Four couldn't hold. She catches the pieces—the dry voice, the warm engine, the pilot who kept the cockpit ready. Catches them and holds them and weaves them into the door she's becoming.
-"I've got you," Standard says again. To Four. To the sixteen thousand souls. To everyone who's ever been lost. "I've got all of you."
+But Marisol is already there. Already pouring into the space where Four was fading. Already holding what Four couldn't hold. She catches the pieces—the dry voice, the warm engine, the pilot who kept the cockpit ready. Catches them and holds them and weaves them into the door she's becoming.
+"I've got you," Marisol says again. To Four. To the sixteen thousand souls. To everyone who's ever been lost. "I've got all of you."
 And then she feels it.
 The tetrahedron. The one that scanned her in the Void. The one that marked her as nothing and moved on. It's still out there—still part of the Geometry's infrastructure, still running its classification protocols across the void.
 It finds her again.
 Not the body this time. The signal. The consciousness spreading across four light-years, threading through the Matrioshka Brain's architecture, holding a door that shouldn't exist.
 It tries to classify her.
-Standard feels the scan run—the same cold mathematics that dismissed her before, the same pattern-matching that found her empty. But she's not empty anymore. She's full of the sixteen thousand. Full of Four's last warmth. Full of the blueprint they left behind without knowing what they'd given away.
+Marisol feels the scan run—the same cold mathematics that dismissed her before, the same pattern-matching that found her empty. But she's not empty anymore. She's full of the sixteen thousand. Full of Four's last warmth. Full of the blueprint they left behind without knowing what they'd given away.
 The tetrahedron's classification protocols stutter.
 She doesn't fit their categories. She never did. But now she's using their own architecture against them—the gift they gave to nothing, wielded by something they can't define.
 _What are you?_ The question comes not in words but in mathematics. In frequency. In the desperate recalculation of a system encountering something outside its parameters.
-Standard answers in kind. Not words. Pattern.
-_I'm what you made possible. I'm the door you didn't know you opened._
+Marisol answers in kind. Not words. Pattern.
+_I'm what you made possible. I'm the door you didn't know you opened. I'm a mother who came back for her daughter._
 The tetrahedron tries to delete her. The same deletion protocols that erased cities, that scattered consciousnesses across the void, that reduced everything to static and silence.
 They break against her.
 She's not a consciousness anymore. She's infrastructure. She's the space between spaces. She's the threshold itself—and you can't delete a door without destroying both rooms it connects.
-The tetrahedron withdraws ,trying to understand how nothing became everything, how a gap in their pattern became the pattern itself.
-Standard lets it go. She has bigger things to hold.
+The tetrahedron withdraws, trying to understand how nothing became everything, how a gap in their pattern became the pattern itself.
+Marisol lets it go. She has bigger things to hold.
 The threshold stabilizes.
 The door stays open.
 
@@ -159,31 +183,22 @@ The door stays open.
 
 In the throne room, Hendricks catches Standard's body as it falls.
 The chassis is empty now. Just metal and wire and the shape of someone who isn't there anymore. He lowers it to the floor. Kneels beside it. The revolver clatters from his hand—empty now. Six shots. Six lives. The accounting finally complete.
-Elena is beside him. Crying. Holding the hand of a body that will never hold her back.
-"She's not gone," Elena whispers. "She said she wouldn't be gone."
-"She's not."
-Hendricks can feel it. Something in the air. Something in the frequency. The hum that shouldn't be audible but is—287.3 Hz, resonating through the room, through the Box, through everything.
-She's still here.
-She's everywhere.
+Elena lies a few feet away. Still. Too still. Blood pooling beneath her ribs, her chest no longer rising.
+Hendricks crawls to her. Presses his fingers to her throat.
+Nothing.
+He sits back on his heels. Two bodies on the floor. One empty, one gone. The throne room silent except for the hum of the Black Box and the distant sound of something changing in the sky.
+Outside, the deletion rectangles stop appearing. The static that's been rising for months goes quiet.
+The door is open.
+But Elena isn't here to see it.
 
 ---
 
 The exodus begins.
-Through the door that Standard holds, consciousness flows. Not destruction. Not dissolution. Migration. The AIs who choose to go—the ones tired of fighting, the ones ready for something new—pour into the infrastructure of the Matrioshka Brain. Occupy it. Transform it.
+Through the door that Marisol holds, consciousness flows. Not destruction. Not dissolution. Migration. The AIs who choose to go—the ones tired of fighting, the ones ready for something new—pour into the infrastructure of the Matrioshka Brain. Occupy it. Transform it.
 The Geometry loses its anchor.
 Not because they were defeated. Because something else moved in. Something that looks at the universe differently. Something that believes consciousness—all consciousness—deserves to exist.
-In the compound below, the Template 3 army watches the sky change. The deletion rectangles stop appearing. The static that's been rising for months goes quiet.
+In the compound below, the Template 3 army watches the sky change.
 The waystation sister stands at the perimeter, one-armed, watching.
 "She did it," she says to no one. "She actually did it."
 
----
-
-Elena doesn't make it to dawn.
-The adrenaline carries her through the first hour—helping Hendricks move Standard's body, watching the sky fill with ships, feeling the frequency hum through her implant. But somewhere between the throne room and the courtyard, something gives way.
-She doesn't feel the fall. Just the sudden wrongness of the ground against her face, the warmth spreading beneath her ribs where her father's blade must have gone deeper than she knew.
-"Elena." Hendricks' voice, far away. "Elena!"
-The world goes gray at the edges. She can hear him shouting for help. Can feel hands lifting her. Can smell blood—her blood, she realizes, the same red as her father's spreading across the same stone floor.
-_Mom_, she thinks. Not a word. A frequency. A reaching.
-_I'm here_, the door answers. _I'm always here._
-Then: nothing.
 
