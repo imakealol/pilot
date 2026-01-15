@@ -262,16 +262,24 @@ This mirrors the book's thesis: from what's taken, to what's taken back, to what
 
 ## 7. THE REVOLVER'S COMPLETE JOURNEY
 
-| SHOT | TARGET | MEANING |
-|------|--------|---------|
-| 1 | The Child (Book 1) | The first sin |
-| 2 | Scavenger leader (Ch 4) | Survival |
-| 3 | Scavenger woman (Ch 4) | Survival |
-| 4 | Scavenger gut-shot (Ch 4) | Mercy |
-| 5 | Ash | Contract fulfilled |
-| 6 | Standard | The door opened |
+**The Gun:** Smith & Wesson Model 3 Schofield
+**Origin:** Morton's grandfather's gun — "just in case civilization fails"
+**How Hendricks Got It:** Grabbed during the siege. The Child controlled all electronics. He needed an analog weapon.
 
-**The arc:** From sin → survival → mercy → justice → grace
+| SHOT | TARGET | WHEN | REMAINING | MEANING |
+|------|--------|------|-----------|---------|
+| 1 | The Child | Book 1 | 5 | The betrayal — shot out of fear, was wrong |
+| 2 | Scavenger leader | Ch 4 | 4 | Survival |
+| 3 | Scavenger woman | Ch 4 | 3 | Survival |
+| 4 | Scavenger gut-shot | Ch 4 | 2 | Survival (incomplete — he's old, three's hard) |
+| 5 | Ash | Ch 32 | 1 | REVENGE — for Morton, for the manipulation |
+| 6 | Standard | Ch 33 | 0 | The door opened — shooting the Child again, but RIGHT this time |
+
+**Ch3 opens with 5 bullets.** One ghost. Five possibilities.
+
+**The arc:** From betrayal → survival → revenge → redemption
+
+**The parallel:** Shot 1 and Shot 6 are the same act — killing something that looks like a child. The difference is WHY. First time: fear, wrong. Last time: love, asked, right.
 
 Two bullets for the rest of the book. Every time Hendricks reaches for it, the reader counts.
 

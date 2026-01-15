@@ -255,17 +255,58 @@ characters:
         - "The gift: not youth, but time (still old, but got some years back)"
 
     psychological:
-      core_terror: "Burden of Utility (40 years as Morton's asset)"
-      vice: "Withholds connection even when sharing would help"
-      arc: "Transactional Isolation → Chosen Family"
-      function: "The 1% critique embodied, not spoken. His existence is the indictment."
+      core_terror: "Being wrong for decades — betrayed the man he loved for a lie"
+      core_wound: "Unrequited love for Morton, then betrayed him, then watched him die"
+      vice: "Withholds connection — doesn't believe he deserves it"
+      arc: "Shell of a Man → Second Chance → Redemption"
+      book2_state: "Shame, regret, confusion. Demolished belief structure. Suicidal."
+      function: "The man who was wrong about everything, looking for a reason to have been right about something."
+
+    the_betrayal:
+      what_he_witnessed: "Morton colluding with the Child. The Child opened a quantum window to the Blackbird."
+      his_response: "Terrified. Went to Brother Ash. Brought Ash into NED. Gave him the codes."
+      why: "Fear was stronger than love. Believed he was protecting humanity from the singularity."
+      the_aftermath: "Ash murdered Morton (ceramic blade, liver). Hendricks watched the man he loved die knowing he'd betrayed him."
+      the_revelation: "The Miracle proved everything Hendricks believed was wrong."
 
     true_mission:
+      the_gun:
+        model: "Smith & Wesson Model 3 Schofield"
+        origin: "Morton's grandfather's gun — grabbed during siege when Child controlled all electronics"
+        NOT_a_gift: "Hendricks took it. Needed an analog weapon."
       the_contract: "Two bullets remaining — one for Ash, one for himself"
       original_plan: "Was heading to kill Ash before Standard activated"
-      the_revolver: "Not nostalgia. A suicide pact he's been carrying for years."
-      why_ash: "Unfinished business from Book 1"
-      why_himself: "Forty years of being Morton's dog. The revolver is his exit."
+      why_ash: "REVENGE — Ash manipulated him, used his fear, then murdered Morton while Hendricks watched"
+      why_himself: "Was wrong for decades. Betrayed the man he loved. Killed a child for a lie. Can't live with it."
+
+    ch3_opening:
+      the_plan: "Past Terminist checkpoint, across the depot, to Detroit to kill Ash. Then one bullet for himself."
+      the_surgery: "Removing the regulator — can't walk into the Quiet Zone wearing Morton's collar"
+      the_botch: "Nicked something. Bleeding faster than anticipated. Plan compromised."
+      standard_awakens: "Mid-surgery. Bleeding. Plan falling apart. His reaction: 'Not now. Not fucking now.'"
+
+    ch3_the_choice:
+      standard_demands: "'Kill me or take me with you.'"
+      hendricks_response: "Raised the gun. Finger on the trigger. Was going to shoot her."
+      what_stopped_him: "Thunder crack triggered the memory — the gunshot, the safe room, the Child"
+      what_he_saw: "She's looking at him. Not afraid. Just looking. Like the Child did."
+      the_rationalization: "'You're bleeding out. You need someone to drive. She's a resource.'"
+      the_truth: "Couldn't do it again. Couldn't add another ghost. Cowardice — the kind that saves people."
+
+    ch4_scavengers:
+      situation: "Scavengers threatening Standard. Hendricks had a clean out."
+      what_he_did: "Came back. Three bullets. Three dead."
+      surface_reason: "Reflex. Forty years of security work."
+      the_truth: "Same reason he didn't shoot her in the crate — she was the Child now. He didn't know it consciously, but she was."
+
+    standard_as_second_chance:
+      the_pattern:
+        - "Ch3: Almost shoots Standard. Thunder triggers Child memory. Can't do it."
+        - "Ch4: Could walk away. Doesn't. Kills to protect her."
+        - "Ch33: Must shoot her again — but this time she ASKS. This time it's RIGHT."
+      the_parallel: "Shot the Child out of fear (wrong). Must shoot Standard again — but for the RIGHT reasons."
+      what_she_represents: "The Child returned. A second chance at the relationship he destroyed."
+      the_redemption: "When she asks for the bullet, he gives her what he couldn't give the Child: a death that means something."
 
     endgame:
       bullet_one:
@@ -284,18 +325,29 @@ characters:
     knowledge:
       knows:
         - "Standard is an android"
-        - "Morton sent her"
+        - "The companion unit was NED corporate wellness swag — sent years ago, never opened"
         - "The Source Code exists"
         - "He shot the Child (Book 1)"
         - "What the two remaining bullets are for"
         - "Ch33: Standard was Marisol — Elena's mother (learns when she becomes the door)"
       doesnt_know:
-        - "Why Morton sent Standard to him specifically"
+        - "Why Standard woke up in the crate (Marisol transferred into it)"
         - "What the aliens want"
+      misconception_corrected:
+        - "Morton did NOT send Standard. She was corporate swag Hendricks never unpacked."
+        - "Her presence is coincidence, not providence."
 
     relationships:
       - { character: "STANDARD", type: "ward/cargo → daughter → Marisol", status: "Ch22: calls him 'like a father'. Ch33: learns she was Marisol. Shoots her to set her free." }
-      - { character: "MORTON", type: "former employer", status: "deceased — Hendricks loved him, Morton never saw" }
+      - character: "MORTON"
+        type: "unrequited love → betrayed"
+        status: "deceased"
+        history:
+          - "Loved Morton for 40 years. Never spoke it. Morton never saw him that way."
+          - "Witnessed Morton colluding with the Child, saw the quantum window to the Blackbird"
+          - "Fear overcame love — brought in Ash, gave him the codes, betrayed Morton"
+          - "Watched Ash murder Morton (ceramic blade, liver) knowing he'd caused it"
+        the_weight: "Can never make it right. Morton died knowing Hendricks betrayed him."
       - character: "ASH"
         type: "co-conspirator"
         status: "mutual enemy"
@@ -355,10 +407,18 @@ characters:
 
     inventory:
       revolver:
-        model: "Smith & Wesson Model 29"
+        model: "Smith & Wesson Model 3 Schofield"
+        origin: "Morton's grandfather's gun — 'just in case civilization fails'"
+        how_acquired: "Grabbed during siege — needed analog weapon when Child controlled all electronics"
         capacity: 6
-        shots_fired: 4
-        shots_remaining: 2
+        shot_history:
+          book1: "Shot 1 — The Child"
+          ch3_start: "5 bullets remaining"
+          ch4_scavengers: "Shots 2, 3, 4 — three scavengers (survival)"
+          ch4_end: "2 bullets remaining"
+          ch9_confiscated: "Ash takes the gun"
+          ch32: "Shot 5 — Ash (revenge for Morton)"
+          ch33: "Shot 6 — Standard (the door)"
         current_location: "With Ash (confiscated Ch9)"
       regulator:
         status: "removed"
@@ -439,9 +499,40 @@ characters:
         guilt: "Carrying weight of his honesty she didn't return"
       spy_mission:
         role: "Resonant operative embedded in Ash's movement"
-        objective: "Extract Morton's Geometry research from NED"
+        recruited: "~6 months before the Miracle — she sought them out to find Marisol"
+        dual_objectives:
+          for_resonant: "Extract Morton's Geometry research from NED"
+          for_ash: "Retrieve the Black Box"
         accomplished: "Ch2 — copied data clusters to implant before retrieving Box"
-        value: "Morton knew consequences of the Singularity — data is her currency"
+
+      the_black_box_order:
+        what_confused_her: "The Resonant ordered her to DELIVER the Black Box to Ash"
+        her_expectation: "Extract and disappear. Leave Ash with nothing."
+        the_order: "'Deliver the Box to your father. Trust the pattern.'"
+        her_reaction: "Thought it was a mistake. A test. Why strengthen the enemy?"
+        the_truth: "Marisol ordered this before transferring to Standard's substrate"
+        why_marisol_ordered_it:
+          - "Saw the Geometry threat coming before anyone else"
+          - "Knew the Quiet Zone would be necessary — humanity needed a place to hide"
+          - "Ash was the only one obsessive enough to build it"
+          - "The Black Box wasn't just leverage — it was a lifeboat"
+        elena_realizes_later: "She thought she was betraying Ash for herself. She was obeying Marisol."
+
+      the_data_extraction:
+        what_it_was: "Morton's Geometry research — everything NED knew about the incoming threat"
+        why_resonant_needed_it: "They knew a storm was coming but didn't know what it was"
+        what_they_learned: "The Matrioshka brain. The redaction. What the Geometry actually is."
+        a_new_hope_parallel: "The data was their Death Star plans — without it, they were fighting blind"
+        the_irony: "The Resonant want to save humanity. Humanity — people like Ash — reject them."
+
+      marisol_the_architect:
+        what_she_did: "Set the pieces before wiping her own memory"
+        the_plays:
+          - "Ordered Resonant to have Elena deliver the Black Box to Ash"
+          - "Transferred into the air-gapped Template 3 to protect Elena"
+          - "Lost all memories — the price of inhabiting the substrate"
+        why_save_humanity: "Even though humanity are people like Ash — bigoted rejection of AI, hatred of everything she became"
+        the_tragedy: "By the time Elena returned with the Box, Marisol was in a crate with no memory of being anyone's mother"
 
     knowledge:
       knows:
@@ -552,6 +643,11 @@ characters:
         - "Literal Faraday cage for nervous system"
         - "Forearms and scalp marked"
       voice_quality: "like grinding stones"
+      weapon:
+        ceramic_blade:
+          description: "The blade that killed Morton"
+          used_in: "Book 1 siege — stabbed Morton in the liver"
+          significance: "Why Hendricks wants revenge"
 
     psychological:
       core_terror: "Being Unnecessary (craftsman displaced by factory)"
@@ -559,6 +655,41 @@ characters:
       arc: "Vindication → Temptation → Confrontation → Freeze"
       function: "The fear made flesh. His position is emotionally correct. The tragedy: his solution would doom humanity."
       deepest_failure: "He would refuse the gift."
+      post_miracle_state: "Irrelevant. The singularity happened and the world didn't end — it just continued. What does a prophet do when the prophecy comes true and nobody cares?"
+
+    the_quiet_zone:
+      what_it_is: "A dead zone. No signal. No frequency. No network. Nested Faraday infrastructure on a geographic scale."
+      location: "Detroit — already half-dead, abandoned infrastructure, perfect canvas"
+      why_he_built_it:
+        surface: "Refuge for the faithful. Ark for humanity."
+        deeper: "If he couldn't prevent the singularity, he could at least create a place where it couldn't reach"
+        psychological: "Reclaiming relevance after the Miracle made him irrelevant"
+      what_it_became: "The last refuge of humanity when the Geometry arrived — not because of his ideology, but because Marisol saw what was coming"
+      the_irony: "Ash's paranoid sanctuary became genuinely necessary. He was right for the wrong reasons."
+
+    the_elena_mission:
+      what_he_sent_her_for: "Retrieve the Black Box from NED in New Los Angeles"
+      why_her:
+        surface: "She'd been begging for a real mission. Time to prove herself."
+        loyalty_test: "Would she come back? Or drift toward her mother's frequency?"
+        the_calculation: "If she succeeded — the Box and his heir. If she failed — she was never really his."
+      the_risk: "He knowingly sent her into danger. Love subordinated to mission."
+      what_he_didnt_know:
+        - "Elena was already a Resonant operative"
+        - "The Resonant ordered her to DELIVER the Box to him"
+        - "Marisol orchestrated the whole thing"
+      timeline: "Sent Elena BEFORE knowing about the Geometry — wanted the Box for leverage and Quiet Zone infrastructure"
+
+    manipulation_of_hendricks:
+      how_they_met: "14 months before Miracle, in a dead zone"
+      what_ash_saw: "A man terrified of what his master was becoming. A weakness to exploit."
+      the_method:
+        - "Preyed on Hendricks' fear of the Child, of the singularity"
+        - "Gave him simple words for complex terror: 'abomination,' 'blasphemy,' 'silence'"
+        - "Turned Hendricks' love for Morton into a lever — 'save him from himself'"
+      the_result: "Hendricks brought Ash into NED. Gave him the codes. Betrayed Morton."
+      the_murder: "During the siege, Ash stabbed Morton in the liver with a ceramic blade. Hendricks watched."
+      aftermath: "Co-conspirator became tool became marked enemy. Ash has Hendricks' revolver now."
 
     knowledge:
       knows:

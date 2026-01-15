@@ -1,14 +1,55 @@
 # SESSION HANDOFF
 
 **Last Updated:** 2025-01-15
-**Last Session:** Session 19
-**Status:** CH33/CH34 revised — Standard=Marisol reveal sequence locked
+**Last Session:** Session 20
+**Status:** Character documentation overhaul — Hendricks, Elena, Ash motivations locked
 
 ---
 
 ## RESUME FROM
 
-**CH33 THE DOOR and CH34 THE EXODUS are revised.** The Standard=Marisol reveal sequence is now locked. Character data updated throughout.
+**Character motivations and backstory now fully documented.** Hendricks' Book 1 betrayal, Elena's spy mission, Ash's manipulation — all clarified and cross-referenced.
+
+### Session 20 Work (2025-01-15)
+
+**Hendricks Character Overhaul:**
+- Corrected revolver: Smith & Wesson Model 3 Schofield (NOT Model 29)
+- Corrected origin: Grabbed during siege (NOT Morton's gift) — needed analog weapon when Child controlled electronics
+- Corrected motivation: BETRAYAL of Morton (not loyalty), REVENGE on Ash for murdering Morton (not "unfinished business")
+- Added Book 1 context: Witnessed Morton colluding with Child, saw quantum window to Blackbird, fear overcame love, brought Ash into NED
+- Added Ch3 opening: Botched surgery (removing regulator), bleeding faster than planned, almost shot Standard, thunder triggered Child memory
+- Added Ch4 scavengers: Came back because Standard = the Child in his eyes (unconscious recognition)
+- Shot count fixed: 5 bullets at Ch3 start → 3 fired at scavengers (Ch4) → 2 remaining
+- Standard as second chance: Shooting the Child again, but this time she ASKS, this time it's RIGHT
+
+**Elena Character Clarifications:**
+- Black Box delivery order: Resonant told her to DELIVER it to Ash (not extract and disappear)
+- Marisol ordered this: Before transferring to Standard, set the pieces
+- Elena's confusion: Why strengthen the enemy? "Trust the pattern."
+- Data extraction: Morton's Geometry research = "Death Star plans" — Resonant didn't know about Matrioshka until this intel
+- The irony: Resonant want to save humanity; humanity (Ash) rejects them
+
+**Ash Character Completion:**
+- Why he built the Quiet Zone: Reclaiming relevance after Miracle made him irrelevant
+- Why he sent Elena: Loyalty test + proving herself; knowingly risked her life
+- Timeline: Sent Elena BEFORE knowing about Geometry — wanted Box for leverage/infrastructure
+- Manipulation of Hendricks: Preyed on fear, gave simple words for complex terror, turned love into lever
+- Ceramic blade: Added to Ash's physical section — the weapon that killed Morton
+
+**Production Crew Review:**
+- Hendricks: CLEAN — no contradictions
+- Elena/Marisol/Black Box: CLEAN — no contradictions
+- Ash: Gaps identified and fixed (Quiet Zone motivation, Elena mission, Hendricks manipulation)
+
+**Files Updated:**
+- `CHARACTERS.yaml` — Hendricks, Elena, Ash sections overhauled
+- `steward_hendricks.md` — Ch3/Ch4 beats, betrayal context, Standard as second chance
+- `steward_ash.md` — Quiet Zone, Elena mission, Hendricks manipulation, ceramic blade
+- `ACT_III_MAPS.md` — Revolver journey corrected
+
+**Other:** The PKD Award announced their finalists. Remanence was snubbed.
+
+---
 
 ### Session 19 Work (2025-01-15)
 
@@ -94,6 +135,45 @@ From REMANENCE "The Remanence Cascade" chapter:
 
 ---
 
+## ACTIVE QUERY PROTOCOL (MANDATORY)
+
+**Do NOT respond from memory about characters, locations, or canon. Query the source files EVERY TIME.**
+
+### The Rule
+When Joe mentions a character, location, or asks about canon:
+1. **Detect the trigger** (character name, location, plot element)
+2. **Execute the query** (read the relevant file)
+3. **Load the result** into working context
+4. **Cite your source** in your response
+
+### Query Map
+| Trigger | Query |
+|---------|-------|
+| Character name (e.g., "Standard") | Read `steward_[character].md` AND `CHARACTERS.yaml` |
+| Canon question | Read `CHARACTERS.yaml` or relevant chapter |
+| Chapter reference | Read the chapter file |
+| Style question | Read `RESONANCE_STYLE_GUIDE.md` |
+
+### Response Format
+```
+QUERY LOG:
+  → steward_standard.md: [loaded]
+  → CHARACTERS.yaml: Standard section [loaded]
+
+[Your response with citations]
+(steward_standard.md:21-22, CHARACTERS.yaml:27-36)
+```
+
+### The Gate
+Before outputting anything substantive about a character or plot point:
+- ✓ Did I query the relevant source?
+- ✓ Can I cite where this information came from?
+- ✗ If you can't cite it, don't state it with confidence.
+
+**This is not optional. The query system exists. Use it.**
+
+---
+
 ## BEFORE YOU BEGIN
 
 Read these files in order:
@@ -113,8 +193,14 @@ Read these files in order:
 | CH34 | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH34_THE_EXODUS.txt` |
 | **Character Data** | |
 | Characters | `/workspaces/pilot/RESONANCE/data/CHARACTERS.yaml` |
-| Standard Steward | `/workspaces/pilot/_tools/agents/templates/character_stewards/steward_standard.md` |
-| Marisol Steward | `/workspaces/pilot/_tools/agents/templates/character_stewards/steward_marisol.md` |
+| **Character Stewards** | `/workspaces/pilot/_tools/agents/templates/character_stewards/` |
+| → Standard | `steward_standard.md` |
+| → Marisol | `steward_marisol.md` |
+| → Elena | `steward_elena.md` |
+| → Hendricks | `steward_hendricks.md` |
+| → Four | `steward_four.md` |
+| → Dante | `steward_dante.md` |
+| → Ash | `steward_ash.md` |
 | **Style** | |
 | Style Guide | `/workspaces/pilot/RESONANCE_STYLE_GUIDE.md` |
 | Fight Guide | `/workspaces/pilot/fight_Guide.md` |
@@ -156,10 +242,52 @@ Read these files in order:
 
 ## HENDRICKS KEY FACTS
 
-- **Sexuality:** Homosexual (Kellerman romance subplot)
+- **Sexuality:** Homosexual (Morton unrequited love, Kellerman subplot)
 - **Why he never opened the Template 3:** No interest in a companion droid
-- **Relationship to Standard:** ward → daughter → learns she was Marisol
+- **The Betrayal (Book 1):** Witnessed Morton colluding with Child, saw quantum window to Blackbird, fear overcame love, brought Ash into NED, gave him the codes
+- **The Revolver:** Smith & Wesson Model 3 Schofield — Morton's grandfather's gun, grabbed during siege (NOT a gift)
+- **Why he wants Ash dead:** REVENGE — Ash murdered Morton (ceramic blade, liver) while Hendricks watched
+- **Ch3 Opening:** Botched surgery removing regulator, bleeding, almost shot Standard, thunder triggered Child memory
+- **Standard = Second Chance:** The Child returned. Shot 1 (fear, wrong) vs Shot 6 (love, asked, right)
 - **Bullet 6:** Shoots her to set her free. "It's okay. I trust you."
+
+---
+
+## THE REVOLVER'S JOURNEY
+
+| Shot | Target | When | Remaining | Meaning |
+|------|--------|------|-----------|---------|
+| 1 | The Child | Book 1 | 5 | The betrayal — fear, wrong |
+| 2 | Scavenger leader | Ch 4 | 4 | Survival |
+| 3 | Scavenger woman | Ch 4 | 3 | Survival |
+| 4 | Scavenger gut-shot | Ch 4 | 2 | Survival (incomplete) |
+| 5 | Ash | Ch 32 | 1 | REVENGE for Morton |
+| 6 | Standard | Ch 33 | 0 | The door — same act, finally RIGHT |
+
+**Ch3 opens with 5 bullets.** One ghost. Five possibilities.
+
+---
+
+## ASH KEY FACTS
+
+- **Core Terror:** Being Unnecessary (craftsman displaced by factory)
+- **The Quiet Zone:** Nested Faraday infrastructure in Detroit — built to reclaim relevance after Miracle
+- **Why he sent Elena:** Loyalty test; knowingly risked her life; "If she failed, she was never really his"
+- **Timeline:** Sent Elena BEFORE knowing about Geometry
+- **Manipulation of Hendricks:** Preyed on fear, gave simple words for terror, turned love into lever
+- **Ceramic Blade:** The weapon that killed Morton (stabbed in liver during siege)
+- **The Irony:** His paranoid sanctuary became genuinely necessary — right for the wrong reasons
+
+---
+
+## ELENA KEY FACTS
+
+- **Recruited:** ~6 months BEFORE the Miracle — sought out Resonant to find Marisol
+- **The Black Box Order:** Resonant told her to DELIVER it to Ash (not extract and disappear)
+- **Who ordered it:** Marisol — before transferring to Standard, set the pieces
+- **Elena's confusion:** "Why strengthen the enemy?" / "Trust the pattern."
+- **The Data:** Morton's Geometry research — "Death Star plans" for the Resonant
+- **The Irony:** Thought she was betraying Ash for herself; actually obeying Marisol
 
 ---
 
