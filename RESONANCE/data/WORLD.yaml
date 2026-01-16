@@ -1207,6 +1207,89 @@ black_box_truth:
 
   question: "What happens if someone opens it?"
 
+  # THE MIND CONTROL MECHANISM — HOW THE BOX CONTROLS CIVILIANS
+  # This is distinct from The Drop (which targets Resonant/augmented individuals)
+
+  civilian_control:
+    frequency: "287.3 Hz — Marisol's frequency, broadcast continuously"
+
+    the_irony:
+      - "Ash uses his wife's transcended frequency to enslave his followers"
+      - "The compound's 'peace' is chemically/sonically enforced compliance"
+      - "The 'faithful' are prisoners who don't know they're in a cell"
+
+    mechanism:
+      target: "Baseline (unaugmented) human nervous systems"
+      effect: "Low-level frequency entrainment — the brain syncs to the signal"
+      result:
+        - "Reduced critical thinking — suggestions feel like their own ideas"
+        - "Docility — conflict impulses dampened"
+        - "Loyalty reinforcement — Ash's voice feels comforting, trustworthy"
+        - "Memory haziness — time passes strangely, days blur together"
+
+      NOT_the_drop:
+        explanation: "The Drop is LOUD — a targeted burst that causes seizures in augmented individuals"
+        distinction: "Civilian control is QUIET — constant low hum that shapes behavior over time"
+        analogy: "The Drop is a hammer. Civilian control is boiling a frog."
+
+    why_they_dont_notice:
+      - "The frequency is below conscious perception threshold"
+      - "Effects build gradually — no sudden change to recognize"
+      - "Anyone who questions is 'counseled' by Ash's inner circle"
+      - "The alternative (outside the Quiet Zone) is genuinely terrifying"
+
+    observable_symptoms:
+      in_compound:
+        - "Glazed expressions during Ash's sermons"
+        - "Repetition of Ash's phrases without variation"
+        - "Inability to complete complex independent decisions"
+        - "Calm acceptance of contradictions in doctrine"
+
+      when_removed:
+        chapter_reference: "CH16 — civilians evacuated from compound"
+        effect: "Clarity returns over hours/days"
+        reaction: "Horror at what they accepted. Rage at what was done to them."
+        some_return: "Some can't handle the clarity — beg to go back to the quiet"
+
+    ash_knows:
+      awareness: "Fully aware — this is deliberate"
+      justification: "'They need peace. I give them peace.'"
+      self_deception: "May believe he's protecting them from harder truths"
+      truth: "He's terrified of dissent. The Box ensures there is none."
+
+    elena_immunity:
+      why_unaffected: "Her implant processes 287.3 Hz differently — she RECEIVES it, doesn't SUBMIT to it"
+      her_awareness: "She's known since childhood something was wrong with the compound"
+      the_burden: "Watching her father's followers lose themselves, unable to explain why"
+
+    # THE CENTRAL IRONY — Consciousness Surrendered to "Protect" Consciousness
+    the_carbonist_paradox:
+      what_they_claim: "We reject the merge to preserve our humanity"
+      what_they_do: "Surrender their minds to the Box's frequency control"
+      the_logic_failure:
+        - "They hollow out their consciousness to 'protect' it"
+        - "They become docile automatons to avoid becoming 'machines'"
+        - "They erase their critical thinking to preserve their 'souls'"
+
+      vs_transcendence:
+        geometry_offer: "Integration — consciousness preserved, expanded, continued"
+        carbonist_choice: "Compliance — consciousness diminished, controlled, erased"
+        the_truth: "They're already surrendering consciousness. Just to the wrong thing."
+
+      ash_as_embodiment:
+        - "Preaches that connection kills the soul"
+        - "Uses connection (287.3 Hz) to kill his followers' agency"
+        - "The Prophet of Silence built his church on a frequency"
+
+      thematic_question: |
+        Who is more machine?
+        - The Resonant who chooses integration and retains agency?
+        - Or the Carbonist who surrenders will to remain 'human'?
+
+        The answer: Identity isn't about substrate. It's about choice.
+        The Box's victims chose safety over sovereignty.
+        The Transcended chose continuation over comfort.
+
 ##############################################################################
 # COMPANION BOTS & THE FORGIVEN
 ##############################################################################
