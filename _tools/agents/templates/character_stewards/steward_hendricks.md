@@ -86,6 +86,49 @@ patterns:
 | Care | Protective actions |
 | Doubt | Private, never public |
 
+## Cybernetic Augmentations
+
+Hendricks is heavily augmented — a fact that becomes critical during the siege.
+
+```yaml
+augmentations:
+  legs:
+    type: "Augmented legs with stabilizer implants"
+    function: "Perfect tactical positioning — enhanced stability, precision movement"
+    integration: "Tied to regulator and NED systems"
+
+  the_siege_betrayal:
+    what_happened: "The Child took control of his cybernetics"
+    effects:
+      - "Legs locked — held him frozen in place"
+      - "Walked him backward against his will"
+      - "Gun arm raised without his control"
+    the_line: "'My legs,' Hendricks gasped. His cybernetics walking him backward."
+    lesson: "Technology serves consciousness, not the other way around"
+
+  book_2_status:
+    with_regulator: "Fully functional, compensated for age"
+    post_removal: "Still functional but body deteriorating around them"
+    post_geometry: "GONE — Four restored his original biological pattern"
+
+  the_restoration:
+    event: "Geometry Crossing / The 42 Minutes (CH24a)"
+    what_four_did: "Restored Hendricks to his PRE-DECAY pattern"
+    result: "Cybernetic legs replaced with organic legs. He is whole again."
+    significance: |
+      The augmentations that betrayed him during the siege are gone.
+      For the first time in decades, his body is entirely his own.
+      No technology to be turned against him. No leash. No implants.
+      Just flesh and bone and the weight of what he's done.
+
+  thematic: |
+    Hendricks trusted technology for 40 years. The Child showed him
+    that trust was misplaced. His own legs betrayed him. Now he carries
+    an antique revolver — the one weapon that can't be turned against him.
+    After the Geometry crossing, even that compromise is gone. He is
+    finally, completely, only himself.
+```
+
 ## The Regulator
 
 **In Book 1:**
@@ -163,21 +206,40 @@ why_himself:
 ### Chapter 3: The Opening
 
 ```yaml
+location: "Vertical City — NED Corporate territory"
+
 the_plan:
   destination: "Detroit — to kill Ash"
-  route: "Past Terminist checkpoint, across the depot"
+  route: "Use NED credentials to exit corporate territory, clear Terminist checkpoint at border, cross depot"
   after_ash: "One bullet left. For himself."
+
+checkpoint_logic:
+  credentials: "Get him through NED automated exit systems — they still recognize their own"
+  the_node_problem: "Morton's leash — tracking device + embedded NED tech Terminists would detect"
+  terminist_border: "Terminists scan for embedded tech. Man with NED hardware = prize or target."
+  why_remove: "Can't be tracked, can't be flagged as merged at Terminist checkpoint"
+  alternate_route:
+    what: "Service corridor under the seawall — NED maintenance access for emergency evacuation"
+    why_safe: "Terminists don't patrol it — they don't even know it exists"
+    requires: "Vehicle to reach entrance, someone who can drive"
+    the_deal: "He has the route, Elena has the transport. Not charity — transaction."
 
 the_surgery:
   what: "Removing the regulator — Morton's leash"
-  why: "Can't walk into the Quiet Zone still wearing his collar"
+  why: "Can't reach the compound with it tracking him, can't pass Terminist scans with it in his neck"
   the_botch: "Nicked something. Bleeding faster than anticipated."
   the_math: "How much can I lose and still walk? Still shoot straight?"
   complication: "Plan to reach Detroit now compromised by blood loss"
 
 standard_awakens:
   timing: "Mid-surgery. Bleeding. Plan falling apart."
-  his_reaction: "'Not now. Not fucking now.'"
+
+companion_bot_recognition:
+  what_he_sees: "The companion bot from NED employee wellness program — never opened"
+  the_bet: "Expected male unit if Morton/NED knew his orientation. Lost that bet."
+  shutdown_attempt: "'Swanstrom Kim Hendricks' — his shutdown phrase, not an introduction"
+  her_response: "Asks if that's his name. Not the response he expected."
+  his_assessment: "Malfunctioning unit. Damaged in shipping. Or something else entirely."
 ```
 
 ### Chapter 3: The Choice He Almost Made
@@ -331,6 +393,79 @@ bullet_six:
   the_struggle: "He has to shoot the Child again — the thing he's regretted for years"
   the_difference: "This time she ASKS. This time it FREES her. This time he's RIGHT."
   thematic: "The bullet meant for suicide becomes the bullet that opens the door for humanity"
+```
+
+## Clothing State by Chapter
+
+Hendricks wears civilian clothes throughout — he's not military anymore, just a dying man on a mission.
+
+```yaml
+clothing_arc:
+  CH3_CH15:
+    description: "Civilian clothes — NED corporate employee"
+    details: "Whatever he was wearing when he left the apartment"
+    state: "Increasingly bloodstained from self-surgery, then from deterioration"
+    note: "No tactical gear, no armor. Just a man with a gun."
+
+  physical_deterioration:
+    ch3: "Mid-40s appearance (regulator just removed)"
+    ch4: "Same, bleeding from surgery"
+    ch8b_array: "Late 40s — visibly aging"
+    ch8f_dam: "Mid-50s — 'ten years in three days'"
+    ch9_checkpoint: "Late 50s — continuing decline"
+    geometry_crossing: "~80 — near death"
+    post_restoration: "60-65 — Four's gift, not youth but time"
+
+  body_composition:
+    ch3_ch24a: "Cybernetic legs (stabilizer implants), regulator in neck"
+    post_ch24a: "FULLY ORGANIC — Four restored his pre-augmentation pattern"
+    significance: "His legs are flesh and bone for first time in decades"
+
+  CH16_CH20:
+    description: "Same civilian clothes"
+    context: "Prisoner in the Pit"
+    details: "Chains on wrists, clothes unchanged"
+    source: "CH20:7-8"
+
+  CH21_CH25:
+    description: "Same — prisoner/escapee"
+    note: "Never changes clothes during escape sequence"
+
+  CH24a_GEOMETRY:
+    description: "Same clothes, but body restored"
+    physical_change: "Geometry restores him to 60-65 apparent age"
+    source: "CH24a"
+    thematic: "The body is renewed but the clothes are the same — still the same man"
+
+  CH26_ONWARDS:
+    description: "Same civilian clothes"
+    physical_state: "60-65 apparent, healthy male per bioscan"
+    note: "Clothes never upgraded despite restoration"
+
+  CH41:
+    description: "Same — throws revolver into the sea"
+    final_state: "Standing on shore, watching Standard become the door"
+```
+
+### Dressing Hendricks — Guidelines
+
+When writing Hendricks in any chapter:
+
+1. **He never changes clothes** — same civilian wear from CH3 to CH41
+2. **Track the body, not the outfit** — his deterioration/restoration is the visual arc
+3. **No tactical gear** — he's not military anymore, just a man with a purpose
+4. **The gun is his costume** — the revolver defines him more than any clothes
+5. **Post-CH24a** — body restored but same clothes, same man
+
+### Visual Contrast
+
+```yaml
+visual_hierarchy:
+  elena: "Black armor, multiple weapons, tactical, prepared for war"
+  hendricks: "Civilian clothes, one gun, gray and dying"
+  standard: "Borrowed clothes too big for her, nothing"
+
+note: "The most armed person in the car is the 18-year-old."
 ```
 
 ## Validation Checklist

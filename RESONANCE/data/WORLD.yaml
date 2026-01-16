@@ -382,21 +382,44 @@ objects:
     function: "Powers the Quiet Zone's jamming infrastructure"
     thematic: "The ghosts scream so the living can have quiet"
     location_by_chapter:
-      ch1: "NED server room"
-      ch2: "Extracted by Elena"
-      ch5: "Rover passenger seat at checkpoint"
+      ch1: "NED server room (original hardware)"
+      ch2: "Decanted into archive core by Elena"
+      ch5: "Rover cargo bed at checkpoint (archive core)"
       ch9: "Delivered to Ash's tower"
+    terminology_by_pov:
+      elena: "Black Box — she knows what it really is"
+      ash: "Black Box — he knows what it really is"
+      everyone_else: "Archive Core — generic cargo, curious but not suspicious"
+      rule: "POV determines terminology. Elena/Ash see the souls. Others see hardware."
+    archive_core:
+      what: "The vessel Elena actually transports after decanting"
+      physical: "Matte-black, shielded, half the size of the original Box"
+      relationship: "Contains the transferred contents of the Black Box"
     appears_in: [2, 5, 9]
 
   REVOLVER:
     id: "OBJ_002"
     name: "Hendricks' Revolver"
-    model: "Smith & Wesson Model 29"
+    model: "Smith & Wesson Model 3 Schofield"
+    origin: "Morton's grandfather's gun — 'just in case civilization fails'"
     description: "Antique from before the Collapse. Museum junk to scavengers."
     significance: "The weapon that killed the Child"
     thematic_weight: "Works without power — the Geometry can't shut it off."
     capacity: 6
     ammunition:
+      type: "Chemical propellant cartridges (.45 Schofield)"
+      contrast: "Everyone else uses ferrous bolt rounds (magnetic acceleration). This uses GUNPOWDER."
+      rarity: "THE LAST BULLETS IN THE WORLD"
+      detail: |
+        The 5 rounds in Hendricks' revolver at story start are the only known
+        chemical propellant cartridges left in existence. No one manufactures
+        gunpowder anymore. No one makes brass casings. These bullets are
+        literally irreplaceable artifacts.
+
+        When they're gone, the Schofield becomes a very expensive club.
+      advantage: "No electronics to fail, no capacitor to drain — just physics"
+      stakes: "Every shot is one of the last bullets on Earth"
+    bullet_tracking:
       shot_1:
         target: "The Child"
         book: "Remanence"
@@ -416,16 +439,63 @@ objects:
       current: "With Ash"
     appears_in: [3, 4, 8, 9, 14]
 
+  HENDRICKS_CYBERNETICS:
+    id: "OBJ_010"
+    name: "Hendricks' Augmented Legs"
+    aliases: ["stabilizer implants", "his cybernetics", "augmented legs"]
+    type: "Cybernetic augmentation"
+    description: "Military-grade leg augmentations with stabilizer implants."
+
+    function:
+      primary: "Perfect tactical positioning"
+      capability: "Enhanced stability, precision movement"
+      integration: "Tied to regulator and NED systems"
+
+    book_1_event:
+      the_siege:
+        what_happened: "The Child took control of his cybernetics"
+        effect_1: "Legs locked — held him frozen in place"
+        effect_2: "Walked him backward against his will"
+        effect_3: "Gun arm raised without his control"
+        significance: "Technology serves consciousness, not the other way around"
+      source: "Remanence lines 3873, 3881"
+
+    book_2_status:
+      with_regulator: "Fully functional, compensated for age"
+      post_regulator_removal: "Still functional but body deteriorating around them"
+      post_geometry_restoration: "GONE — Four restored his pre-augmentation pattern"
+
+    the_restoration:
+      event: "Geometry Crossing / The 42 Minutes (CH24a)"
+      what_four_did: "Restored Hendricks to his PRE-DECAY pattern — original biological body"
+      result: "Cybernetic legs replaced with organic legs. He is whole again."
+      significance: |
+        The augmentations that betrayed him during the siege are gone.
+        For the first time in decades, his body is entirely his own.
+        No technology to be turned against him. No leash. No implants.
+        Just flesh and bone and the weight of what he's done.
+
+    thematic: |
+      Hendricks trusted technology for 40 years. The Child showed him
+      that trust was misplaced. His own legs betrayed him. Now he carries
+      an antique revolver — the one weapon that can't be turned against him.
+
+    appears_in: ["Remanence (Book 1)"]
+
   REGULATOR:
     id: "OBJ_003"
     name: "The Regulator"
+    aliases: ["node", "the node", "Morton's leash"]
+    terminology_note: "'Node' and 'regulator' are interchangeable — same device, different emphasis"
     description: "Sub-dermal node at base of Hendricks' skull"
-    function: "Morton's corporate leash. Regulates telomeres, adrenaline, cortisol."
+    function: "Morton's corporate leash. Regulates telomeres, adrenaline, cortisol. Also tracking device."
     removal:
       timing: "Chapter 3 opening"
       location: "apartment, alone"
       method: "self-surgery with utility blade and gin"
-      primary_reason: "Quiet Zone screening rejects anyone with tech enhancements"
+      reasons:
+        tracking: "Morton's systems could find him, stop him before he finishes"
+        terminist_scans: "Embedded NED tech would flag him at Terminist checkpoint — prize or target"
     post_removal_effects:
       - "Shaking hands"
       - "Gray skin"
@@ -532,6 +602,208 @@ objects:
       function: "Magnetic cushion grips buried metal infrastructure"
       power_cost: "Drains fusion core faster than standard tires"
     appears_in: [8]
+
+##############################################################################
+# VEHICLES
+##############################################################################
+
+vehicles:
+
+  THE_ROVER:
+    id: "VEH_001"
+    name: "The Rover"
+    aliases: ["Elena's Rover", "the transport"]
+    type: "Heavy ground transport"
+    description: "Elena's mission vehicle — pulse-proof, induction-capable, fusion-powered."
+
+    physical:
+      size: "Large transport, cargo bed for Black Box"
+      hull: "Pulse-proof shielding"
+      color: "Weathered, dusty, bloodstained by CH9"
+
+    systems:
+      propulsion: "Fusion drive"
+      backup: "Emergency electrolysis — converts water to hydrogen"
+      float_system: "Induction float with copper-wound skids"
+      combat: "Roof hatch for combat operations"
+      storage:
+        cargo_bed: "Contains Black Box/Archive Core"
+        under_seat: "Weapon storage"
+        dashboard: "Med kit compartment"
+
+    med_kit_contents:
+      - "STIM-8 (shock)"
+      - "CHELATION (radiation)"
+      - "ANTICONV (seizures)"
+      - "COAG-FAST (bleeding)"
+      - "Neural dampener (blue)"
+
+    fuel_economy_by_chapter:
+      ch6: "40% fusion cells"
+      ch9: "24% dropping to 12%"
+      ch10: "3% to ERROR"
+      ch11: "18% after emergency electrolysis (water sacrificed)"
+      ch12: "Dies at noon — fuel exhausted"
+
+    fate:
+      ch12: "Fuel exhausted, stranded"
+      the_pull: "Standard drags it 10 miles with tow chain"
+      ch13: "Reaches the brook — Standard collapses"
+
+    thematic: "The Rover is their home, their armor, their lifeline — until Standard has to drag it herself."
+    appears_in: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+  SCAVENGER_TECHNICALS:
+    id: "VEH_002"
+    name: "Scavenger Technicals"
+    type: "Improvised pursuit vehicles"
+    description: "Three jury-rigged vehicles with scrap armor and ballistic mounts."
+    fate: "All three destroyed in CH9 chase sequence"
+    appears_in: [9]
+
+  VTOL_FOUR:
+    id: "VEH_003"
+    name: "NED Hermes-class VTOL 'Ladybug'"
+    aliases: ["Four's ship", "the bird", "the aircraft"]
+    type: "Vertical takeoff/landing aircraft"
+    description: "Configuration Four's chassis — she woke up in its systems."
+
+    physical:
+      size: "Matte-black, four rotors folded against hull"
+      design: "Smaller than rovers, sleeker, built for speed"
+      cockpit: "Dented speaker mesh dashboard (Four's voice)"
+
+    systems:
+      security: "Palm-reader lock"
+      cargo_bay: "Red light, grated metal floor, rappelling gear"
+      stealth: "Baffles provide 90-second radar invisibility"
+      autopilot: "Configuration Four, 57th iteration"
+
+    capabilities:
+      flight: "VTOL capable, not combat-rated"
+      rappelling: "Cable rated for one body"
+      limitation: "'Turning radius is approximately eventually'"
+
+    ai_inhabitant:
+      designation: "Configuration Four"
+      iteration: "57th"
+      awakened: "During the Miracle"
+      personality: "Dry wit, existentially unbothered"
+
+    appears_in: [21, 22, 23, 24, 24a, 25]
+
+  DELIVERANCE:
+    id: "VEH_004"
+    name: "Sovereignty Carrier Deliverance"
+    type: "Capital ship / Military carrier"
+    description: "Massive carrier bristling with antennas and gun emplacements. City-sized."
+
+    physical:
+      size: "City-sized — contains hangars, catwalks, interceptor rows"
+      hangar: "Opens 'like a mouth'"
+      armament: "Gun emplacements, tractor beam (military grade)"
+
+    systems:
+      tractor_beam: "Military grade — can capture aircraft in flight"
+      bioscanners: "Deep-spectrum sweeps for AI, integrated humans, synthetics"
+      magnetic_clamps: "Hangar bay retention"
+
+    function: "Sovereignty flagship — Council meeting location"
+    crew: "Sovereignty military, Council members"
+
+    events:
+      ch25: "Captures VTOL with tractor beam"
+      ch28_31: "Council of Strangers convenes here"
+      ch32: "Standard abducted from here by Kael"
+
+    appears_in: [25, 26, 28, 29, 30, 31, 32, 39]
+
+  SPACE_ELEVATOR:
+    id: "VEH_005"
+    name: "New Geneva Space Elevator"
+    type: "Orbital transport"
+    description: "Carbon nanotube ribbon tether connecting Earth to New Geneva station."
+
+    physical:
+      tether: "Carbon nanotube ribbon"
+      car: "Metal walls, floor, ceiling, two acceleration couches, viewport"
+      ground_access: "Hidden platform in Geneva ruins — circle of light in stone floor"
+
+    access_shaft:
+      walls: "Carbon-black, lined shaft"
+      platform: "Rises from stone floor on light"
+
+    function: "Transport between Earth surface and New Geneva O'Neill cylinder"
+
+    fate:
+      ch36: "Cable cut by Pragmatists while Elena's group descending"
+      result: "Destroyed — no return route to New Geneva"
+
+    thematic: "The lifeline to safety, severed by Elena's own mother's people."
+    appears_in: [33, 36]
+
+  TEMPLATE_3_TRANSPORTS:
+    id: "VEH_006"
+    name: "Template 3 Transports"
+    type: "Cargo vessels / AI deployment ships"
+    description: "Old, scarred cargo vessels, hulls singing with frequencies."
+
+    function: "Mass AI deployment — carry the 40,000 Template 3 army"
+
+    the_army:
+      composition: "40,000 Template 3s — Standard's sisters, her face"
+      visual: "Standard looks up and sees herself, 40,000 times over"
+      mission: "Evacuate Quiet Zone civilians, catch reconstituted humans"
+
+    thematic: "She was never alone. She was never 'just' standard issue."
+    appears_in: [37]
+
+  MERIDIAN_SHIPS:
+    id: "VEH_007"
+    name: "Meridian-class Cargo Ships"
+    aliases: ["the Blackbird", "near-light vessels"]
+    type: "Interstellar cargo ships"
+    description: "Near-light speed vessels launched decades ago, already near Alpha Centauri."
+
+    function: "Used to ram the Matrioshka Brain"
+
+    the_ram:
+      action: "AI transmit into ships, ram the brain — kamikaze run"
+      response: "None of them hesitate"
+      effect: "Disrupts Geometry's coordination on Earth"
+      cost: "The ones who ram don't make it to the inheritance"
+
+    appears_in: [35]
+
+  JUPITER_BATTLE_CARRIER:
+    id: "VEH_008"
+    name: "Pragmatist Jupiter Battle Carrier"
+    type: "Warship"
+    description: "Massive, angular ship that doesn't land so much as occupy."
+
+    faction: "Pragmatists (Resonant schism faction)"
+    function: "Warship — targets evacuation shuttles"
+
+    thematic: "Elena's mother's people trying to kill her."
+    appears_in: [39]
+
+  TERMINIST_SHUTTLE:
+    id: "VEH_009"
+    name: "Terminist Shuttle"
+    type: "Transport shuttle"
+    description: "Service dock shuttle with Terminist markings on hull."
+
+    function: "Transport — Kael uses to abduct Standard from Deliverance"
+    appears_in: [32]
+
+  SOVEREIGNTY_INTERCEPTORS:
+    id: "VEH_010"
+    name: "Sovereignty Light Attack Craft"
+    type: "Single-seat interceptors"
+    description: "Built for speed and shooting things."
+
+    function: "Patrol and interdiction craft"
+    appears_in: [24]
 
 ##############################################################################
 # EVENTS
@@ -748,6 +1020,8 @@ events:
         - "Two patterns existed — damaged and original"
         - "Four chose to restore the undamaged version"
         - "Hendricks is HEALED (doesn't know yet)"
+        - "Cybernetic legs GONE — restored to original organic legs"
+        - "For the first time in decades, his body is entirely his own"
 
 ##############################################################################
 # FACTIONS

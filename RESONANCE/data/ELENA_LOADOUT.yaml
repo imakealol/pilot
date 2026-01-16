@@ -1,0 +1,368 @@
+##############################################################################
+# ELENA'S LOADOUT
+# Comprehensive tracking of weapons, armor, and equipment by chapter
+##############################################################################
+
+character: "Elena María Ash"
+role: "Resonant operative undercover as Carbonist extraction specialist"
+
+##############################################################################
+# WEAPONS
+##############################################################################
+
+weapons:
+
+  BURSTMAG_CARBINE:
+    id: "WPN_001"
+    name: "Burstmag Carbine"
+    manufacturer: "Unknown (pre-Collapse military design)"
+    type: "Magnetic acceleration rifle"
+
+    physical:
+      length: "~80cm collapsed, 95cm extended"
+      weight: "3.2kg loaded"
+      material: "Carbon-fiber chassis, ceramic barrel housing"
+      color: "Matte black with wear marks at grip and stock"
+      stock: "Collapsible, locks into shoulder pocket"
+      grip: "Textured polymer, finger grooves worn smooth from use"
+      sling_points: "Three-point attachment, worn cross-body"
+
+    ammunition:
+      type: "Ferrous bolt rounds"
+      description: "Iron-core flechettes, 3cm length, stabilized by magnetic field during acceleration"
+      why_ferrous: "Magnetic acceleration requires iron content — non-ferrous rounds won't fire"
+
+    operation:
+      mechanism: "Magnetic acceleration — ferrous bolt rounds propelled by sequential coil activation"
+      fire_modes:
+        burst: "Three-round burst, 0.15 second cycle"
+        semi: "Single shot"
+        full_auto: "Disabled on this model (military lockout)"
+      magazine:
+        type: "Detachable box magazine"
+        capacity: "40 ferrous bolt rounds"
+        reload: "Magazine release behind trigger guard, drops free"
+      charging: "Capacitor whine (2 second warm-up from cold)"
+
+    sensory:
+      sound_charging: "Rising whine, like a camera flash warming up"
+      sound_firing: "Sharp crack-hiss — the crack of acceleration, the hiss of flechette cutting air"
+      sound_impact: "Wet thwack on flesh, metallic ping on armor"
+      recoil: "Minimal — magnetic propulsion has no explosive kickback"
+      muzzle_flash: "Blue-white flicker at barrel mouth"
+      heat: "Barrel housing warm after sustained fire, not hot"
+
+    effectiveness:
+      vs_flesh: "Devastating — flechettes tumble on impact"
+      vs_armor: "Penetrates standard body armor at close range"
+      vs_constructs: "Ineffective — ferrous rounds pass through sonic constructs"
+      vs_electronics: "No EMP effect"
+
+    elena_usage:
+      primary_weapon: true
+      carried: "Slung cross-body when not in use"
+      drawn: "CH2:11 — entering NED lobby"
+      fires: "CH2 — against constructs (ineffective)"
+
+    thematic: "Modern, efficient, designed by committee — everything Hendricks' revolver is not"
+
+  MAGPULSE_SIDEARM:
+    id: "WPN_002"
+    name: "Magpulse Sidearm"
+    manufacturer: "NED Standard Issue (Morton-era design)"
+    type: "Electromagnetic pulse pistol"
+
+    physical:
+      length: "22cm"
+      weight: "0.8kg"
+      material: "Polymer frame, ceramic internals"
+      color: "Gray-green standard issue finish"
+      grip: "Ergonomic polymer, slightly too small for large hands"
+      holster: "Magnetic retention, thigh-mount"
+
+    operation:
+      mechanism: "Focused electromagnetic pulse — disrupts electronics, causes neural feedback in augmented targets"
+      fire_modes:
+        pulse: "Single discharge"
+        sustained: "Continuous beam (drains capacitor rapidly)"
+      power_source: "Integrated capacitor, ~20 shots per charge"
+      charging: "Audible whine when priming (0.5 seconds)"
+      recharge: "4 hours on standard power, 30 minutes on fast-charge"
+
+    sensory:
+      sound_idle: "Faint hum when holstered and charged"
+      sound_charging: "Rising whine, mosquito-pitched"
+      sound_firing: "Whisper-crack — almost silent compared to projectile weapons"
+      visual_firing: "No visible beam — air distortion like heat shimmer"
+      recoil: "None"
+      sensation_target: "Targets describe 'brain freeze' sensation"
+
+    effectiveness:
+      vs_flesh: "Non-lethal to unaugmented — disorientation, nausea"
+      vs_augmented: "Devastating — feedback through implants causes seizures, unconsciousness"
+      vs_electronics: "Fries unshielded circuits in cone"
+      vs_constructs: "Partially effective — disrupts cohesion momentarily"
+
+    elena_usage:
+      secondary_weapon: true
+      carried: "Thigh holster, right leg"
+      note: "Mentioned as comparison in CH3 (Hendricks' perspective), scavengers carry them in CH4"
+
+    thematic: "Clean, efficient, corporate — the weapon of the world that was"
+
+  CERAMIC_KNIFE:
+    id: "WPN_003"
+    name: "Elena's Boot Knife"
+    type: "Ceramic combat knife"
+
+    physical:
+      length: "18cm total, 10cm blade"
+      weight: "120g"
+      material: "Single-piece ceramic, carbon-fiber wrap handle"
+      color: "White blade, black handle"
+      edge: "Monomolecular edge, factory-sharp"
+      sheath: "Boot-integrated, right ankle"
+
+    operation:
+      mechanism: "Manual — no moving parts, no electronics"
+      edge_retention: "Never needs sharpening, will chip if struck against metal"
+
+    sensory:
+      sound_drawing: "Whisper of ceramic against sheath lining"
+      sound_cutting: "Silent"
+
+    effectiveness:
+      vs_flesh: "Surgical — ceramic doesn't trigger metal detectors, passes through body armor seams"
+      vs_armor: "Cannot penetrate hard plates"
+      vs_scanners: "Invisible to metal detection"
+
+    elena_usage:
+      tertiary_weapon: true
+      carried: "Right boot, always"
+      thematic: "Last resort — the weapon you don't know she has"
+
+  ACOUSTIC_GRENADES:
+    id: "WPN_004"
+    name: "Acoustic Grenades"
+    type: "Sonic area denial"
+
+    physical:
+      size: "Cylinder, 8cm x 3cm diameter"
+      weight: "180g each"
+      material: "Hardened polymer shell"
+      color: "Orange safety stripe on gray"
+      carry: "Belt pouch, 4-grenade capacity"
+
+    operation:
+      mechanism: "Emits 287.3 Hz burst on detonation"
+      activation: "Twist-prime, 3-second delay"
+      radius: "15 meter effective, 30 meter disorientation"
+      duration: "8 seconds sustained"
+
+    sensory:
+      sound: "Not heard — felt. Pressure in skull, teeth vibrating"
+      visual: "Air ripples outward from detonation point"
+
+    effectiveness:
+      vs_augmented: "Causes implant feedback, temporary blindness"
+      vs_unaugmented: "Disorientation, nausea, loss of balance"
+      vs_constructs: "Disperses sonic constructs temporarily"
+
+    elena_usage:
+      carried: "Belt pouch, left hip"
+      quantity: "Started CH2 with 4, current count TBD"
+
+##############################################################################
+# ARMOR & CLOTHING
+##############################################################################
+
+armor:
+
+  ACOUSTIC_SUIT:
+    id: "ARM_001"
+    name: "Terminist Acoustic Armor"
+    type: "Full-body frequency-dampening suit"
+
+    physical:
+      coverage: "Full body — boots to collar"
+      material: "Layered composite with lead-lined frequency dampening"
+      color: "Blackened finish — Elena's is scorched/worn from prior missions"
+      weight: "8kg total"
+
+    components:
+      helmet: "Optional — Elena doesn't wear it (obstructs implant function)"
+      collar:
+        description: "Lead-lined, high collar protecting neck and base of skull"
+        height: "Reaches jaw level"
+        function: "Primary frequency dampening zone"
+      torso:
+        description: "Rigid chest plate, flexible back panel"
+        features: "Integrated harness points for equipment"
+      arms:
+        description: "Articulated segments, flexible at joints"
+        gauntlets: "Reinforced knuckles, touchscreen-compatible fingertips"
+      legs:
+        description: "Thigh plates over flexible undersuit"
+        holster_integration: "Magnetic retention point on right thigh"
+      boots:
+        description: "Armored, magnetic soles for induction surfaces"
+        knife_sheath: "Integrated right ankle slot"
+
+    function:
+      frequency_dampening: "Reduces 287.3 Hz exposure by ~60%"
+      ballistic_protection: "Stops flechettes at range, vulnerable to point-blank"
+      construct_defense: "Partial — suit vibrates but holds integrity"
+
+    sensory:
+      wearing: "Heavy, warm, restrictive at joints"
+      sound: "Faint creak of composite at movement"
+      smell: "Old sweat, ozone from frequency dampening"
+
+    elena_state_by_chapter:
+      ch2: "Full suit, clean start — bloodied by mission end"
+      ch5: "Still wearing it — 'the blackened armor she's wearing'"
+      ch6_onwards: "TBD — needs to track when/if she changes"
+
+    thematic: "She's been in armor since page one — when does she take it off?"
+
+clothing:
+
+  UNDERSUIT:
+    id: "CLO_001"
+    name: "Tactical Undersuit"
+    type: "Base layer worn under armor"
+
+    physical:
+      material: "Moisture-wicking synthetic"
+      color: "Black"
+      coverage: "Full body, high neck"
+
+    function: "Temperature regulation, padding under armor plates"
+
+    note: "What she'd be wearing if she removed the armor"
+
+##############################################################################
+# EQUIPMENT
+##############################################################################
+
+equipment:
+
+  NEURAL_IMPLANT:
+    id: "EQP_001"
+    name: "Marisol's Implant"
+    type: "Neural interface device"
+
+    physical:
+      location: "Base of skull, beneath hair"
+      size: "2cm x 1cm external node, internal tendrils"
+      visibility: "Hidden by hair, slight bump if touched"
+
+    function:
+      passive: "Receives 287.3 Hz frequency"
+      active: "Data extraction/storage, limited system interface"
+      current_contents: "Morton's research data clusters"
+
+    state_by_chapter:
+      pre_story: "Dormant for 11 years"
+      ch2: "Activated — extracts Morton's data"
+      ch5: "Hot — screaming since NED"
+
+    thematic: "Her mother's frequency lives in her skull"
+
+  DATAPAD:
+    id: "EQP_002"
+    name: "Field Datapad"
+    type: "Portable computing device"
+
+    physical:
+      size: "15cm x 10cm"
+      weight: "300g"
+
+    function: "Manifests, communications, mission data"
+
+    location: "Armor utility pouch"
+
+##############################################################################
+# LOADOUT STATE BY CHAPTER
+##############################################################################
+
+chapter_states:
+
+  CH2_THE_OFFERINGS:
+    location: "NED Building, New Angeles"
+    armor: "Full acoustic suit, pristine start"
+    weapons:
+      - { item: "Burstmag Carbine", status: "slung, drawn line 11, fires against constructs" }
+      - { item: "Magpulse Sidearm", status: "holstered, not used" }
+      - { item: "Boot Knife", status: "sheathed, not used" }
+      - { item: "Acoustic Grenades", status: "belt pouch, quantity 4, usage TBD" }
+    equipment:
+      - { item: "Neural Implant", status: "activated, extracts data" }
+    condition_end: "Armor bloodied, three teammates dead, driving away alone"
+
+  CH5_THE_QUEUE:
+    location: "The Depo'/Checkpoint, outside Vertical City"
+    armor: "Still in blackened armor — 'the blackened armor she's wearing' (line 14)"
+    weapons:
+      - { item: "Burstmag Carbine", status: "present (implied), not drawn" }
+      - { item: "Magpulse Sidearm", status: "holstered" }
+      - { item: "Boot Knife", status: "sheathed" }
+    equipment:
+      - { item: "Neural Implant", status: "screaming since NED, hot with data" }
+      - { item: "Datapad", status: "used line 76 for manifest" }
+      - { item: "Sunglasses", status: "worn, removed line 100" }
+    condition_end: "Collapsed from the Drop, unconscious"
+
+  TRACKING_NOTE: |
+    Elena has not changed clothes since CH2. She's been in full tactical gear
+    for the entire story so far. This should be addressed — when does she
+    get a chance to rest, change, be human? The armor is becoming a second skin.
+
+##############################################################################
+# DESIGN NOTES
+##############################################################################
+
+design_philosophy: |
+  Elena's weapons are modern, efficient, designed for the post-Collapse world
+  of faction warfare. They contrast with Hendricks' antique revolver:
+
+  - Her gear HUMS — capacitors, magnetic systems, always a faint whine
+  - His gun is SILENT until it fires
+  - Her weapons are EFFECTIVE against technology, weak against constructs
+  - His revolver works on EVERYTHING because it's just physics
+
+  Her armor is her shell. She's been inside it since page one. The story
+  should eventually crack that shell — literal and metaphorical.
+
+ammunition_economy: |
+  POST-COLLAPSE WEAPONS use magnetic acceleration:
+  - Ferrous bolt rounds (iron-core flechettes)
+  - Require capacitor charge to fire
+  - No chemical propellant, no gunpowder
+  - Silent-ish (crack-hiss vs. BANG)
+  - Fail against sonic constructs (pass right through)
+
+  HENDRICKS' REVOLVER is the exception:
+  - Chemical propellant cartridges (.45 Schofield)
+  - THE LAST BULLETS IN THE WORLD — the 5 rounds at story start are the
+    only known chemical propellant cartridges left in existence
+  - No one makes gunpowder anymore. No one makes brass casings.
+  - LOUD — actual explosion in the chamber
+  - Works on everything because it's just mass x velocity
+  - No electronics to fail, no capacitor to drain
+  - "Museum junk" to scavengers — they don't understand its value
+
+  The revolver's advantage: when the Geometry shuts down electronics,
+  when the constructs scatter ferrous rounds, Hendricks has the only
+  weapon that still works. But every shot is irreplaceable.
+
+  Started with 5. Used 1 on the Child (Book 1). Used 3 on scavengers (CH4).
+  Two remain. One for Ash. One for himself. The last bullets on Earth,
+  and he's already spent most of them.
+
+visual_contrast: |
+  ELENA: Black armor, multiple weapons, tactical, prepared for war
+  HENDRICKS: Civilian clothes, one gun, gray and dying
+  STANDARD: Borrowed clothes too big for her, nothing
+
+  The most armed person in the car is the 18-year-old.
