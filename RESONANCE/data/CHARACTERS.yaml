@@ -410,6 +410,7 @@ characters:
         model: "Smith & Wesson Model 3 Schofield"
         origin: "Morton's grandfather's gun — 'just in case civilization fails'"
         how_acquired: "Grabbed during siege — needed analog weapon when Child controlled all electronics"
+        carry: "Side holster, visible at all times (CH1-CH16, until confiscated)"
         capacity: 6
         shot_history:
           book1: "Shot 1 — The Child"
@@ -556,6 +557,23 @@ characters:
       - { character: "MARISOL/STANDARD", type: "daughter", status: "Ch28: 'Then she left me twice.' Ch33: Learns Standard IS Marisol. Reunion in dying mind." }
       - { character: "HENDRICKS", type: "cargo → ally", status: "Confronted about lies Ch28 — not forgiveness, not condemnation" }
       - { character: "DANTE", type: "romantic", status: "Ch29 — kissed him with chassis open, accepts what he is" }
+      - { character: "AIKIN", type: "team → executed", status: "Ch2 — discovered his betrayal, executed him" }
+
+    ch2_developments:
+      aikin_execution:
+        context: "After decanting the Black Box, Elena suspects delays were intentional"
+        discovery: "Uses implant to interface with Aikin's wrist deck — finds redundancies, nested loops, coordinated stalling"
+        evidence: "Three seconds late on Goff's warning. Thirty seconds at checkpoint. Two minutes stretched to three."
+        his_motive: "Promised reconnection by entities in the static — wanted to merge again"
+        the_execution:
+          - "Steps behind him. He hears it in her voice."
+          - "'They promised me reconnection... I could have been part of something again.'"
+          - "'You got Goff killed. You got Otis killed.'"
+          - "'I got us the Box. Doesn't that count for something?'"
+          - "'No.'"
+          - "She fires."
+        thematic: "Establishes Elena WILL pull the trigger — makes CH15 almost-execution meaningful"
+        parallel_to_ch15: "Same posture (back turned, weapon raised), different outcome"
 
     ch28_29_developments:
       mother_revelation:
@@ -1117,13 +1135,14 @@ characters:
       role: "Settlement physician"
       why: "They need a doctor. He needs purpose. And Hendricks won't be coming back."
 
-    appears_in: [8b, 8c, 8f]
+    appears_in: [10, 11, 14]
 
   VERA:
     id: "CHAR_011"
     canonical_name: "Vera"
-    introduced: "Chapter 8c"
+    introduced: "Chapter 11"
     role: "Former triage worker at the Array"
+    status: "deceased — dropped during Geometry event"
 
     demographics:
       gender: "woman"
@@ -1149,7 +1168,62 @@ characters:
 
     function: "Voice of clinical horror — confirms Standard is something unprecedented"
 
-    appears_in: [8c]
+    appears_in: [11]
+
+  NESSA:
+    id: "CHAR_015"
+    canonical_name: "Nessa"
+    introduced: "Chapter 11"
+    role: "Array survivor — stone-thrower turned witness"
+
+    demographics:
+      gender: "woman"
+      pronouns: ["she", "her", "hers"]
+      faction: "Array settlement → survivor group"
+
+    physical:
+      description: "Unnamed face in a mob until she throws the first stone"
+      equipment: "Length of pipe (dropped after the Drop)"
+
+    psychological:
+      before_drop: "Fear turned to hate. Watching Standard with something worse than hate."
+      after_drop: "Guilt, confusion, grief she can't name. Staring at her hands like they belong to someone else."
+      function: "Embodies the mob's transformation — from violence to awe to shame"
+
+    arc:
+      ch11_the_stone:
+        - "Throws the first stone at Standard"
+        - "Watching Standard 'with something worse than hate'"
+        - "Survives the Drop — one of six within Standard's radius"
+        - "Stares at her hands like they belong to someone else"
+        - "Drops the pipe, stumbles backward, falls over a body"
+      ch13_grace:
+        - "Crying — tears streaming down a face that was twisted with hate this morning"
+        - "Doesn't understand why she's mourning"
+        - "Asks Standard: 'You don't remember us?'"
+        - "Falls to her knees — not supplication, collapse"
+        - "Standard holds her. 'It's okay. Whatever it is. It's okay.'"
+        - "Breaks — something deeper than tears"
+      ch14_testimony:
+        - "Speaks first to the Dam engineers"
+        - "'She saved us. The Geometry came and everyone dropped except the people standing near her.'"
+        - "The woman who threw stones now spreads the gospel"
+
+    thematic:
+      function: "The face of collective guilt — threw stones, was saved anyway, now carries the weight"
+      parallel: "Standard's grace made physical — forgiveness without memory, mercy without condition"
+      irony: "The woman who wanted her dead becomes her first evangelist"
+
+    key_moments:
+      the_stone: "Then Nessa throws the first stone—the woman with the pipe, the one who's been watching Standard with something worse than hate."
+      the_hands: "She's shaking, staring at her hands like they belong to someone else."
+      the_collapse: "Falls to her knees in the dirt, not in supplication but in collapse. In the weight of something she can't name."
+      the_testimony: "'She saved us. The Geometry came and everyone dropped except the people standing near her.'"
+
+    relationships:
+      - { character: "STANDARD", type: "attacker → saved → witness", status: "Standard holds her while she weeps, remembers nothing of the stones" }
+
+    appears_in: [11, 13, 14]
 
   ELDER_KAEL:
     id: "CHAR_008"
@@ -1188,3 +1262,127 @@ characters:
     relationships:
       standard: "Calls her abomination, machine, glitch — humiliated by her speech"
       elena: "Sneers at her as 'Ash's daughter' — she exposes his hypocrisy"
+
+# =============================================================================
+# CH2 EXTRACTION TEAM
+# =============================================================================
+
+  AIKIN:
+    id: "CHAR_012"
+    canonical_name: "Aikin"
+    introduced: "Chapter 2"
+    role: "Tech specialist on Elena's extraction team → traitor → executed"
+
+    demographics:
+      gender: "man"
+      pronouns: ["he", "him", "his"]
+      faction: "Carbonist (cover) / Transcendence cult (true allegiance)"
+
+    background:
+      former_status: "Tech-merged — had direct neural ports"
+      current_status: "Sealed ports at temples — converted to Carbonist ways"
+      ash_tolerance: "The necessary heretic — Ash needs what he does but despises what he is"
+      secret: "Never stopped wanting reconnection"
+
+    physical:
+      ports: "Sealed ports at temples — scars where he used to interface directly"
+      wrist_deck: "Reads frequencies others can't see"
+      tells: "Nose bleeds under strain, eyes unfocus when listening to systems"
+
+    psychological:
+      surface: "Loyal tech specialist, carries the weight of being tolerated not accepted"
+      truth: "Promised reconnection by entities in the static — betrayed the team for a chance to merge again"
+      the_irony: "Elena is also a mole (Resonant), but for different reasons. He's a mole for transcendence."
+
+    ch2_arc:
+      goff_death: "Wrist deck screams three seconds too late — manufactured lag"
+      checkpoint: "Thirty seconds stretched longer than needed — coordinated stalling"
+      decanting: "Two-minute process stretched to three — Otis dies in the delay"
+      the_music: "Hears 'beautiful' sounds from old systems — almost seduced, Elena slaps him back"
+      discovery: "Elena interfaces with his wrist deck through her implant — finds redundancies, nested loops"
+      confrontation: "'They promised me reconnection... I could have been part of something again.'"
+      death: "Executed by Elena. Shot in the back. Clean."
+
+    key_lines:
+      professional: "'I can get us through anything. That's why your father tolerates me.'"
+      seduced: "'I hear something. Do you hear it? It's... beautiful.'"
+      confession: "'They promised me reconnection. The old networks. I could have been part of something again.'"
+      final: "'I got us the Box. Doesn't that count for something?'"
+
+    thematic:
+      function: "Establishes Elena WILL pull the trigger — makes CH15 almost-execution meaningful"
+      parallel: "Same posture as Hendricks (back turned, weapon raised), different outcome"
+      irony: "Two moles on the same team, neither knowing about the other"
+
+    appears_in: [2]
+    status: "deceased — executed by Elena"
+
+  GOFF:
+    id: "CHAR_013"
+    canonical_name: "Goff"
+    introduced: "Chapter 2"
+    role: "Point man on Elena's extraction team"
+
+    demographics:
+      gender: "man"
+      pronouns: ["he", "him", "his"]
+      faction: "Carbonist (true believer)"
+
+    physical:
+      description: "Burned fingers — layered scars of a Preventer boy who smashed server racks"
+      equipment: "Rifle, rosary of dead capacitors on wrist"
+
+    psychological:
+      faith: "True believer. Makes the sign of Silence. Quotes the Prophet."
+      flaw: "Trusted faith over sensors"
+
+    death:
+      cause: "Walked into a Standing Wave — trusted belief over Aikin's readings"
+      detail: "Aikin's wrist deck screamed three seconds too late"
+      truth: "Those three seconds were manufactured — Aikin's betrayal"
+
+    key_lines:
+      faith: "'The Prophet teaches that fear is the first frequency of the Enemy. I will not—'"
+
+    appears_in: [2]
+    status: "deceased — killed by Standing Wave"
+
+  OTIS:
+    id: "CHAR_014"
+    canonical_name: "Otis"
+    introduced: "Chapter 2"
+    role: "Rear guard on Elena's extraction team"
+
+    demographics:
+      gender: "woman"
+      pronouns: ["she", "her", "hers"]
+      faction: "Carbonist (convert from Accelerationist)"
+
+    physical:
+      description: "Scarification on throat — circuit patterns, Accelerationist marks, half-obscured by newer burns"
+      equipment: "Blast shield"
+      voice: "Annoyed older sister energy"
+
+    background:
+      previous_faction: "Accelerationist — changed sides, old faith still shows through"
+      motivation: "Water rations. Pragmatic, not ideological."
+
+    psychological:
+      attitude: "Deadpan, irreverent, calls Elena 'Princess'"
+      competence: "Professional rear guard, knows her job"
+      loyalty: "Does what needs doing without complaint"
+
+    death:
+      cause: "Killed by constructs while protecting Elena during decanting"
+      context: "The delay caused by Aikin's stalling gave constructs time to breach"
+      last_words: "'My rations. Give them to my—'"
+      unfinished: "Em-dash does the work — we never learn who"
+
+    key_lines:
+      irreverent: "'The Prophet says a lot of things. No offense, Princess.'"
+      pragmatic: "'Some of us are here for the water rations.'"
+      combat: "'This is stupid. This is so stupid.'"
+      final: "'My rations. Give them to my—'"
+
+    appears_in: [2]
+    status: "deceased — killed by constructs"
