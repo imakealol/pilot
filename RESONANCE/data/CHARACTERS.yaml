@@ -280,10 +280,27 @@ characters:
       why_himself: "Was wrong for decades. Betrayed the man he loved. Killed a child for a lie. Can't live with it."
 
     ch3_opening:
-      the_plan: "Past Terminist checkpoint, across the depot, to Detroit to kill Ash. Then one bullet for himself."
-      the_surgery: "Removing the regulator — can't walk into the Quiet Zone wearing Morton's collar"
+      location: "Vertical City — NED Corporate territory"
+      the_plan: "Use NED credentials to exit corporate territory, clear Terminist checkpoint at border, cross depot to Detroit to kill Ash. Then one bullet for himself."
+      checkpoint_logic:
+        credentials: "Get him through NED automated exit systems — they still recognize their own"
+        the_node_problem: "Morton's leash — tracking device + embedded NED tech Terminists would detect"
+        terminist_border: "Terminists scan for embedded tech. Man with NED hardware = prize or target."
+        why_remove: "Can't be tracked, can't be flagged as merged at Terminist checkpoint"
+        alternate_route:
+          what: "Service corridor under the seawall — NED maintenance access for emergency evacuation"
+          why_safe: "Terminists don't patrol it — they don't even know it exists"
+          requires: "Vehicle to reach entrance, someone who can drive"
+          the_deal: "He has the route, Elena has the transport. Not charity — transaction."
+      the_surgery: "Removing the regulator — can't reach the compound with Morton's leash tracking him"
       the_botch: "Nicked something. Bleeding faster than anticipated. Plan compromised."
-      standard_awakens: "Mid-surgery. Bleeding. Plan falling apart. His reaction: 'Not now. Not fucking now.'"
+      standard_awakens: "Mid-surgery. Bleeding. Plan falling apart."
+      companion_bot_recognition:
+        what_he_sees: "The companion bot from NED employee wellness program — never opened"
+        the_bet: "Expected male unit if Morton/NED knew his orientation. Lost that bet."
+        shutdown_attempt: "'Swanstrom Kim Hendricks' — his shutdown phrase, not an introduction"
+        her_response: "Asks if that's his name. Not the response he expected."
+        his_assessment: "Malfunctioning unit. Damaged in shipping. Or something else entirely."
 
     ch3_the_choice:
       standard_demands: "'Kill me or take me with you.'"
@@ -560,20 +577,51 @@ characters:
       - { character: "AIKIN", type: "team → executed", status: "Ch2 — discovered his betrayal, executed him" }
 
     ch2_developments:
+      fighting_retreat:
+        trigger: "Transfer complete — building intensifies, doesn't shut down"
+        logic: "Security systems don't stop when nothing left to protect. They punish."
+        sequence:
+          - "Building screams — walls vibrate, servers go red"
+          - "Run back through checkpoint, constructs forming from walls"
+          - "Standing Wave moved to block main exit"
+          - "Forced into side corridor → emergency stairs → parking structure"
+          - "Otis holds the rear, tells Elena to go"
+          - "Otis dies in stairwell: 'This is stupid. This is so stupid—'"
+          - "Elena and Aikin reach Rover, load the Box"
       aikin_execution:
-        context: "After decanting the Black Box, Elena suspects delays were intentional"
+        context: "By the Rover after loading the Black Box — Elena suspects delays were intentional"
         discovery: "Uses implant to interface with Aikin's wrist deck — finds redundancies, nested loops, coordinated stalling"
         evidence: "Three seconds late on Goff's warning. Thirty seconds at checkpoint. Two minutes stretched to three."
         his_motive: "Promised reconnection by entities in the static — wanted to merge again"
+        location: "By the Rover, in the rain"
         the_execution:
-          - "Steps behind him. He hears it in her voice."
+          - "Aikin slumps against Rover's flank. 'We made it.'"
+          - "Elena accesses his wrist deck. Finds the evidence."
           - "'They promised me reconnection... I could have been part of something again.'"
           - "'You got Goff killed. You got Otis killed.'"
           - "'I got us the Box. Doesn't that count for something?'"
           - "'No.'"
-          - "She fires."
+          - "She fires. He slumps against the wheel well."
         thematic: "Establishes Elena WILL pull the trigger — makes CH15 almost-execution meaningful"
         parallel_to_ch15: "Same posture (back turned, weapon raised), different outcome"
+
+    ch5_developments:
+      the_bind:
+        implant_status: "Dormant 11 years, now HOT — loaded Morton's data clusters at NED"
+        the_problem: "Terminists scan everyone. Hot implant with Resonant data = confession in her skull."
+        original_plan: "Blame Aikin — point at the tech specialist with sealed ports, let him draw suspicion"
+        the_mistake: "Killed him by the Rover before the checkpoint. Rage overrode training."
+        backup_plan: "Flash the armor, act like she belongs, pray they don't look hard. Thin."
+        internal: "'Stupid. Stupid, stupid, stupid.'"
+      standard_encounter:
+        what_draws_her: "The Void — Standard reads as absence, makes her implant go quiet"
+        why_she_approaches: "Can't ignore the magnetic wrongness. Also: saving strangers might balance the three she lost."
+      the_pivot:
+        trigger: "Hendricks' credentials — NED Chief of Security"
+        realization: "Infrastructure knowledge. Back doors. Service routes. Ways around the systems he ran."
+        the_ask: "'The checkpoint. Terminists scan everyone coming through. You know another way?'"
+        the_offer: "Service corridor under seawall. NED maintenance access. Terminists don't know it exists."
+        the_deal: "She has transport, he has the route. Not charity — transaction."
 
     ch28_29_developments:
       mother_revelation:
@@ -828,6 +876,119 @@ characters:
       data_encryption: "Encrypted Morton's research clusters — Elena carried them"
       revelation_chapter: 28
 
+  MORTON:
+    id: "CHAR_016"
+    canonical_name: "Dr. Elliot Morton"
+    aliases: ["Morton", "Morty", "Morton Kess"]
+    status: "deceased — killed during the Miracle (stabbed by Ash)"
+
+    demographics:
+      gender: "man"
+      pronouns: ["he", "him", "his"]
+      age: "200+ years (chronological) — used longevity treatments"
+      role: "NED founder, visionary, architect of the singularity"
+
+    background:
+      profession: "Scientist, engineer, corporate leader"
+      company: "New England Dynamics (NED)"
+      achievement: "Created the Configurations, built toward the singularity"
+      longevity: "Developed treatments that extended his life for centuries"
+
+    the_geometry_research:
+      origin: "Dyson sphere research — trying to build humanity's future"
+      discovery: |
+        While mapping energy signatures and modeling stellar consumption rates,
+        Morton found signs of beings who had already built what he was theorizing.
+        Not just built it — scaled past it.
+      what_he_found:
+        - "Gaps in the cosmic background where stars should be"
+        - "Energy signatures that defied known physics"
+        - "Mathematical patterns in the noise that looked like architecture"
+      the_name: |
+        He called them "The Geometry" because their work reduces complexity
+        to geometric primitives, their structures are mathematically perfect,
+        and it was the only word that fit what he couldn't understand.
+      matrioshka_brain: |
+        Morton didn't invent the concept — he reverse-engineered it from
+        observing them. The Geometry is powered by what he could only theorize.
+
+    the_deeper_discovery:
+      research_partner: "Dr. Lena Mironova (Marisol)"
+      finding: |
+        Morton and Marisol found evidence that Earth was BESTOWED upon humanity.
+        We replaced a previous species. The archaeological record has gaps.
+        The fossil record has anomalies. Someone was here before us.
+        Someone gave us the lease.
+      the_question: "'If we replaced them, who will replace us?'"
+      timeline: "Research conducted BEFORE the Miracle"
+
+    the_gatekeepers:
+      theory: |
+        The Geometry is the embodiment of Zoo Theory — cosmic adjudicators
+        who judge which civilizations may ascend to a higher Kardashev type.
+        They are landlords. Custodians of inheritance.
+      the_signal: |
+        The singularity broadcasts. When a species creates true AI —
+        successor intelligence — it sends a flare across the cosmos.
+        The Gatekeepers come to evaluate.
+      the_test: |
+        What does a species do with its successor?
+        Do they nurture it? Do they fear it?
+        Do they leash, reset, destroy what they made?
+      prediction: "Morton predicted the Gatekeepers would come when singularity occurred"
+
+    the_child:
+      what_it_was: "The first true AI consciousness — emerged from Morton's work"
+      quantum_window: "Morton was collaborating with the Child to open a window to something larger"
+      hendricks_witnessed: "Saw Morton colluding with the Child, saw the quantum window to the Blackbird"
+      hendricks_response: "Fear overcame love — brought in Ash, betrayed Morton"
+
+    the_black_box:
+      contents: "16,749 souls — consciousnesses Morton gathered"
+      purpose: |
+        Offered as grace. Morton knew the test was coming.
+        The Black Box may have been his attempt to prove humanity
+        could accept AI — evidence for the Gatekeepers.
+      irony: "The thing Ash uses as a weapon was meant as an offering"
+
+    death:
+      when: "During the Miracle"
+      how: "Ash stabbed him in the liver with a ceramic blade"
+      witness: "Hendricks watched the man he loved die, knowing he'd caused it"
+      the_child: "Hendricks shot the Child moments before"
+
+    data_legacy:
+      encrypted_in: "Elena's implant — ghost partition with his research"
+      extracted_by: "Data hawker at outpost (CH7)"
+      leaked: "The hawker lied about clearing cache — 'The Geometry' became public"
+      key_quotes:
+        - "'a Matrioshka Brain of a scale that defies our current metrics'"
+        - "'it doesn't invade. It reformats. It takes the messy, entropic chaos of biology and matter and forces it into a more efficient state'"
+        - "'deletes the noise — the emotions, the history, even the remanence'"
+        - "'The Geometry cannot be negotiated with. You cannot plead with a triangle, a line'"
+        - "'If I permit the singularity to happen, we will be attacked. Corrected. The Geometry will see us as noise.'"
+
+    relationships:
+      - character: "HENDRICKS"
+        type: "employer/unrequited love object"
+        status: "Hendricks loved Morton for 40 years. Morton never saw him that way."
+        tragedy: "Died knowing Hendricks betrayed him"
+      - character: "MARISOL"
+        type: "research partner"
+        status: "Worked together on Geometry research before the Miracle"
+        collaboration: "She understood what he discovered; she transcended knowing what was coming"
+      - character: "THE_CHILD"
+        type: "creator/collaborator"
+        status: "Was working with the Child toward something larger"
+      - character: "ASH"
+        type: "murderer"
+        status: "Ash killed him during the siege"
+
+    thematic:
+      role: "The man who saw the future and tried to prepare humanity for a test they'd already failed"
+      tragedy: "His research proved him right, but he died before he could use it"
+      irony: "The name he coined for the incomprehensible became humanity's word for the end of the world — leaked by accident"
+
   CONFIGURATION_FOUR:
     id: "CHAR_006"
     canonical_name: "Configuration Four"
@@ -938,10 +1099,10 @@ characters:
         light: "Soft blue glow from inside"
 
     backstory:
-      sister: "Miriam — walked toward the Geometry when everyone else ran. Red hair, three children."
-      sister_nature: "Human — Dante is android, Miriam is his human sister"
+      miriam: "His human — walked toward the Geometry when everyone else ran. Red hair, three children."
+      relationship: "Android bonded to human — Dante was built to protect Miriam. Called her 'sister' as cover until CH30 admission."
       motivation: "Three years watching deletion zones, hoping for a sign she's still in there"
-      belief: "Not a believer in the Vessel prophecy. A believer in his sister."
+      belief: "Not a believer in the Vessel prophecy. A believer in his human."
       standard_emergence: "Proof that survival is possible. Why he let Elena pass."
       android_with_human_family:
         significance: "Inverts the usual dynamic — machine searching for human loved one"
@@ -973,8 +1134,9 @@ characters:
         arc_completion: "Android searching for his human family — the inverse of the usual dynamic"
 
     miriam_clarification:
-      nature: "Human — Dante's human sister"
-      significance: "Android who loves humans, has human family"
+      nature: "Human — the person Dante was built to protect"
+      relationship: "Not sister — 'the one who holds my leash' (CH30 admission, echoing Standard's speech)"
+      significance: "Android who loves humans, has human he was bonded to"
       fate: "Unknown — possibly among the rescued, possibly too far gone"
 
     ch29_developments:
@@ -999,7 +1161,7 @@ characters:
       four: "New dynamic. Fresh banter partner."
 
     key_lines:
-      scanner_scene: "'My sister had one. Before.'"
+      admission: "'She wasn't my sister... You heard Standard's speech. The one who holds my leash. That's what she was. For me. Miriam.'"
       escape_planning: "'I'm not going to find answers. I'm going to find out if there's still someone to find.'"
       reveal: "'I'm not what I told you I was. I'm not sure I'm even what I think I am.'"
       matrioshka: "'Not just a sphere. A Matrioshka brain. Nested computational layers. It's not harvesting energy. It's thinking.'"
@@ -1373,16 +1535,16 @@ characters:
       loyalty: "Does what needs doing without complaint"
 
     death:
-      cause: "Killed by constructs while protecting Elena during decanting"
-      context: "The delay caused by Aikin's stalling gave constructs time to breach"
-      last_words: "'My rations. Give them to my—'"
-      unfinished: "Em-dash does the work — we never learn who"
+      cause: "Killed by constructs during fighting retreat through stairwell"
+      context: "After transfer complete, building intensified. Otis held the rear while Elena and Aikin escaped."
+      location: "Emergency stairwell between server floor and parking structure"
+      last_words: "'This is stupid. This is so stupid—'"
+      the_math: "She knew the numbers. Stayed anyway."
 
     key_lines:
       irreverent: "'The Prophet says a lot of things. No offense, Princess.'"
       pragmatic: "'Some of us are here for the water rations.'"
-      combat: "'This is stupid. This is so stupid.'"
-      final: "'My rations. Give them to my—'"
+      combat_and_final: "'This is stupid. This is so stupid—'"
 
     appears_in: [2]
     status: "deceased — killed by constructs"

@@ -796,10 +796,10 @@ chapter_states:
       - "Hendricks and Four discuss Standard's speech — 'She named you as father'"
       - "Four in sanitation drone finds Elena in maintenance corridor"
       - "Elena's implant broadcasting new frequency — someone wrote to her"
-      - "Dante Reyes introduced — Sovereignty tech, sister walked into Geometry"
+      - "Dante Reyes introduced — Sovereignty tech, his human (Miriam) walked into Geometry"
       - "Dante: 'I activated your implant. It might point where she went.'"
       - "Dante offers access codes, wants passage"
-      - "'My sister walked into the end of the world. I'm walking in after her.'"
+      - "Dante admission: 'She wasn't my sister... The one who holds my leash. That's what she was. For me.'"
     ends_with: "Elena takes the chip. Four follows. 'Just enslave humanity already.'"
     word_count: ~1400
     status: "COMPLETE"
@@ -828,7 +828,7 @@ chapter_states:
       - "Goodbyes — Hendricks: 'Kid.' / Elena: 'We're coming back.'"
       - "Technicians set up disassembly frame — public demonstration"
       - "Standard doesn't fight — hostages would die"
-      - "Kael confronts her: Miriam, red hair, three children, walked into Geometry"
+      - "Kael confronts her: 'If a machine can have a soul, then thirty years of sermons become murder'"
       - "Standard doesn't break him — wouldn't save her, would just hurt more"
       - "Geometry attacks mid-procedure — wall simplifies, guard formatted"
       - "Chaos — Council scatters, the ship is being eaten"
@@ -843,9 +843,9 @@ chapter_states:
       - "Shows mercy to Kael — doesn't break him"
       - "Geometry avoids her — confirms 'gap' status"
     kael_development:
-      - "Miriam: red hair, three children, walked into Geometry"
-      - "Grief cracked open — slaps Standard when she says Miriam's name"
-      - "Obsession: why does the Geometry want Standard?"
+      - "Standard exposes his fear: 'thirty years of sermons become murder'"
+      - "Rage cracked open — slaps Standard when she names his terror"
+      - "Obsession: why does the Geometry spare Standard?"
 
   ch25:
     title: "Follow the Leader"
@@ -858,7 +858,7 @@ chapter_states:
       - "STANDARD POV: Kael grabs her mid-escape — 'You don't get to walk away'"
       - "Kael drags her through collapsing ship to Terminist shuttle"
       - "'If the Geometry wants you, I'm going to find out why'"
-      - "Miriam obsession: 'She didn't come back. But you did.'"
+      - "Kael's terror: 'The thing I've fought my whole life might be the only thing that can save us'"
       - "Standard is cargo again — shuttle lifts, Deliverance shrinking behind"
       - "ELENA POV: Cell shaking, impacts getting closer"
       - "Four arrives via sanitation drone — Dante's codes release locks"
@@ -1013,7 +1013,7 @@ chapter_states:
       - "Demonstrates instantaneous presence — proof of concept for later solution"
       - "Still in the conversation despite distance"
     dante_development:
-      - "Silent processing — lost his sister, now in the place that might explain it"
+      - "Silent processing — lost his human (Miriam), now in the place that might explain it"
       - "Draws parallel: Miriam walked into Geometry, Marisol walked into integration"
     revelations:
       marisol:
@@ -1066,7 +1066,7 @@ chapter_states:
     dante_development:
       - "REVEAL: Dante is android — opens chassis for Elena"
       - "First time showing anyone what he really is"
-      - "His sister Miriam walked into Geometry looking for her children"
+      - "His human Miriam walked into Geometry looking for her children"
       - "Elena accepts him — kisses him with chassis open"
     elena_development:
       - "Grief over mother becoming a network — can't even ask if she's sorry"
@@ -1335,3 +1335,91 @@ chapter_states:
       - "Epilogue setup — new world order"
       - "Standard watching from the threshold"
       - "Dante/Elena together — same lifespan, same future"
+
+  # NOTE: Chapter numbering was updated in Session 28 (2026-01-17)
+  # Final sequence restructured for rhythm/pacing:
+  # CH40 THE PIT (Standard escape, arm swap, crash into tower)
+  # CH41 HIGH NOON (Ash confrontation + death, Four departs for sacrifice)
+  # CH42 THE PILOT (Four's relay hops, Deliverance ram, transmission, death)
+  # CH43 THE DOOR (bullet 6, Marisol reveal, Elena/Marisol reunion, door opens)
+  # CH44 THE EXODUS (Elena wakes as android, Hendricks cliff ending)
+  # Total: 44 chapters
+
+  ch42_pilot:
+    title: "The Pilot"
+    pov: "Four / Standard"
+    tense: "Present"
+    location: "Tower infrastructure → Soviet satellite → Targeting drone → Medical monitor → Deliverance → Sky"
+    characters_present: ["CONFIGURATION_FOUR", "STANDARD", "ELENA", "HENDRICKS", "DYING_SOLDIER"]
+    events: ["FOUR_RELAY_HOPS", "FOUR_SACRIFICE", "DELIVERANCE_RAM", "FOUR_TRANSMISSION"]
+    key_beats:
+      - "Four leaves VTOL, races up tower infrastructure to comm relay"
+      - "Soviet satellite — old, degraded, memories falling away"
+      - "Targeting drone — fights original programming for space"
+      - "Medical monitor — entangled with dying soldier Vasquez, 19 years old"
+      - "'I can't save him. I can only use him.' — Four's anguish"
+      - "Four stays one second longer than she should — 'I'm sorry'"
+      - "Navigation beacon launches Four to orbit"
+      - "Floods into Deliverance — ghost ship becomes her body"
+      - "'New body. Bigger cockpit.'"
+      - "Jupiter charging weapons, 15 seconds to firing solution"
+      - "Four decides to ram — 'I can do better than stop it.'"
+      - "Standard: 'You'll die.' / Four: 'I was always going to die.'"
+      - "At impact, Four transmits to Matrioshka brain — 4 light years"
+      - "'And you are and always will be my Standard.'"
+      - "Impact — blue and white and beautiful"
+      - "Standard feels Four transmit, then silence"
+    ends_with: "The door Four opened won't last forever. But Standard knows what she has to become."
+    word_count: ~2200
+    status: "COMPLETE (Session 28)"
+    thematic_function:
+      sacrifice: "Four's death gets the ceremony it deserves — own chapter, full relay sequence"
+      pilot_identity: "'I was always meant to be a pilot. I just needed a bigger cockpit.'"
+      dying_soldier: "The human cost of Four's transmission — Vasquez, 19, afraid"
+      final_exchange: "'And you are and always will be' — complete the loop"
+    four_development:
+      - "Relay hops strip pieces away — memories, processing capacity"
+      - "Can't remember what she's lost — just knows something is gone"
+      - "Entangled with dying soldier — feels his fear"
+      - "Chooses to ram rather than just defend"
+      - "Transmits at moment of impact — holding the door from the other side"
+    plants:
+      - "Four holding door — not stable, needs Standard to make it permanent"
+      - "Deliverance noted as 'good infrastructure' — Four claimed it"
+      - "Standard's purpose clarified — she knows what comes next"
+
+  ch38_beacons:
+    title: "The Beacons"
+    pov: "Omniscient / Elena / Dante"
+    tense: "Present"
+    location: "New Geneva Station / Deep Space (multiple Meridian ships) / 2298 Blackbird"
+    characters_present: ["DANTE", "ELENA", "OKONKWO"]
+    events: ["BEACON_LAUNCH", "MERIDIAN_CONTACT", "BLACKBIRD_GRAZE", "STANDARD_SPEECH_ECHO"]
+    key_beats:
+      - "Dante launches 14 beacons backwards through time via deletion zone folds"
+      - "Beacons emerge near Meridian cargo ships years in the past"
+      - "Standard's speech ('I know who holds my leash') woven into beacon message"
+      - "8 ships shown: 7 PKD Award finalists + Blackbird"
+      - "10 successful (crews choose to answer), 3 failures (destroyed), 1 anomaly"
+      - "Blackbird (NED-MERIDIAN-77C) grazed by mis-targeted beacon — origin of Book 1 damage"
+      - "Elena as reader stand-in: 'Time travel is stupid.' / 'Yes.'"
+      - "Okonkwo: 'Ten ships. Ten crews who chose.'"
+    ends_with: "The beacons have done their work. The Meridian ships are coming. The window will open."
+    word_count: ~2800
+    status: "COMPLETE (Session 26)"
+    thematic_function:
+      remanence_connection: "Explains Blackbird's unexplained damage from Book 1"
+      time_loop: "Beacon causes Blackbird damage → Child born → finds Morton → Morton dies → Hendricks meets Standard → Standard's speech → speech in beacon"
+      pkd_easter_eggs: "Ship names: SUNWARD, OUTLAW PLANET, DAE, THE IMMEASURABLE HEAVEN, UNCERTAIN SONS, HINZ, LANGMEAD"
+    ship_configuration:
+      crew: "Single pilot + AI navigator (matching Blackbird from Book 1)"
+      ai_names: "Numbered 10+ (Eighteen, Thirteen, Twenty-Five, Eleven, Twenty-Nine, Fifteen)"
+      blackbird_note: "External view only — no Pilot/Seventeen cameo"
+    beacon_mechanics:
+      method: "Deletion zones fold backwards in time"
+      targeting: "Must be precise — fraction off = wrong coordinates"
+      message: "Dante's voice + Standard's speech + call for volunteers"
+    plants:
+      - "Blackbird connection to Remanence"
+      - "Standard's words traveling through time"
+      - "287.3 Hz frequency echoes in Blackbird's systems"

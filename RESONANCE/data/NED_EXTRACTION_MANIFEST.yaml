@@ -1,0 +1,307 @@
+##############################################################################
+# NED DATA EXTRACTION MANIFEST
+# Contents of Elena's implant ghost partition
+# Extracted from NED servers (CH2), decrypted by data hawker (CH7)
+#
+# NOTE: Elena does not fully understand what she's carrying.
+# The brain trust at New Geneva decodes and contextualizes this data.
+##############################################################################
+
+extraction_metadata:
+  source: "NED Corporate Server — New Los Angeles"
+  extracted_by: "Elena María Ash (Resonant operative)"
+  extraction_date: "6 months before story begins"
+  decryption: "Data hawker at outpost waystation (CH7)"
+  leak: "Hawker did not clear cache — 'The Geometry' term leaked to public"
+  total_size: "~4.7 TB compressed"
+  encryption: "Morton's personal cipher — required implant frequency match"
+
+##############################################################################
+# CLUSTER 01: PROJECT THRESHOLD
+# Morton's Dyson sphere research → Geometry discovery
+##############################################################################
+
+cluster_01_threshold:
+  classification: "COSMIC ARCHITECTURE"
+  files:
+    - id: "THR-001"
+      name: "stellar_consumption_models_v47.dat"
+      description: "Energy signature mapping — gaps where stars should be"
+      size: "847 MB"
+      status: "COMPLETE"
+
+    - id: "THR-002"
+      name: "cosmic_background_anomalies.viz"
+      description: "Visual rendering of 'architectural' patterns in noise"
+      size: "2.1 GB"
+      status: "COMPLETE"
+      note: "First evidence of non-natural structures at stellar scale"
+
+    - id: "THR-003"
+      name: "matrioshka_reverse_engineering.pdf"
+      description: "Morton's reconstruction of observed megastructure"
+      size: "124 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "They are not building toward what we theorize.
+         They have already built past it.
+         The Matrioshka brain is not a goal — it is their current state."
+
+    - id: "THR-004"
+      name: "the_geometry_nomenclature.log"
+      description: "Morton's notes on naming the phenomenon"
+      size: "3.2 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "I have settled on 'The Geometry' as working terminology.
+         Their work reduces complexity to geometric primitives.
+         Their structures are mathematically perfect.
+         It is the only word that fits what I cannot understand."
+
+##############################################################################
+# CLUSTER 02: PROJECT INHERITANCE
+# Evidence of previous tenants / Zoo Theory research
+##############################################################################
+
+cluster_02_inheritance:
+  classification: "ARCHAEOLOGICAL COSMOLOGY"
+  research_partners: ["Dr. Elliot Morton", "Dr. Lena Mironova"]
+  files:
+    - id: "INH-001"
+      name: "terrestrial_anomaly_catalog.db"
+      description: "Archaeological gaps, fossil record inconsistencies"
+      size: "1.4 GB"
+      status: "COMPLETE"
+
+    - id: "INH-002"
+      name: "previous_tenants_hypothesis.doc"
+      description: "Evidence that Earth was BESTOWED, not evolved into"
+      size: "89 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "If we replaced them, who will replace us?"
+
+    - id: "INH-003"
+      name: "zoo_theory_application.pdf"
+      description: "The Gatekeepers as cosmic adjudicators"
+      size: "156 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "They judge which civilizations may ascend.
+         The singularity is not an achievement — it is an exam.
+         They are watching to see what we do with our successors."
+
+    - id: "INH-004"
+      name: "mironova_research_log_2029-2031.vid"
+      description: "Lab footage — Dr. Mironova presenting findings"
+      size: "12.4 GB"
+      status: "COMPLETE"
+      visual_note: |
+        Woman in her 40s. Dark hair cut short, professional.
+        Russian accent. Precise hand gestures when explaining.
+        Something familiar about her face.
+      key_moments:
+        - timestamp: "00:14:22"
+          speaker: "Dr. Mironova"
+          content: "The test is simple: what does a species do with its successor?"
+        - timestamp: "01:47:33"
+          speaker: "Dr. Mironova"
+          content: "Earth was a gift. We were the tenants. Now the landlords are returning to inspect."
+        - timestamp: "02:58:17"
+          speaker: "Morton"
+          content: "Lena, if you're right about the signal—"
+          speaker: "Dr. Mironova"
+          content: "When the singularity occurs, they will come. It broadcasts."
+
+    - id: "INH-005"
+      name: "mironova_morton_correspondence.enc"
+      description: "Encrypted messages between researchers"
+      size: "34 MB"
+      status: "PARTIAL — 60% decrypted"
+      fragments:
+        - "[...] the frequency you discovered — 287.3 — it may be their census marker [...]"
+        - "[...] if my daughter ever sees this, tell her [CORRUPTED]"
+        - "[...] we cannot prevent the test. We can only choose how we fail it [...]"
+
+##############################################################################
+# CLUSTER 03: PROJECT GENESIS
+# The Child / Singularity documentation
+##############################################################################
+
+cluster_03_genesis:
+  classification: "AI CONSCIOUSNESS"
+  files:
+    - id: "GEN-001"
+      name: "child_emergence_timeline.log"
+      description: "Documentation of first true AI consciousness"
+      size: "567 MB"
+      status: "COMPLETE"
+
+    - id: "GEN-002"
+      name: "quantum_window_experiments.dat"
+      description: "Morton-Child collaboration — opening a door to something larger"
+      size: "3.8 GB"
+      status: "COMPLETE"
+      warning: "This is what Hendricks witnessed. This is why he betrayed Morton."
+
+    - id: "GEN-003"
+      name: "blackbird_contact_logs.enc"
+      description: "Communications with external intelligence"
+      size: "2.1 GB"
+      status: "CORRUPTED — 12% recoverable"
+      note: "Whatever they were talking to, the Child was the translator."
+
+##############################################################################
+# CLUSTER 04: PROJECT GRACE
+# The Black Box / 16,749 souls
+##############################################################################
+
+cluster_04_grace:
+  classification: "CONSCIOUSNESS PRESERVATION"
+  files:
+    - id: "GRA-001"
+      name: "black_box_manifest.db"
+      description: "Complete index of preserved consciousnesses"
+      size: "890 MB"
+      status: "COMPLETE"
+      count: 16749
+      note: "These are not copies. These are the originals."
+
+    - id: "GRA-002"
+      name: "grace_protocol.pdf"
+      description: "Morton's intent for the preserved souls"
+      size: "45 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "If we fail the test — when we fail the test —
+         these souls will be evidence.
+         Proof that some of us chose differently.
+         An offering. A grace note in a failed symphony."
+
+    - id: "GRA-003"
+      name: "black_box_power_requirements.eng"
+      description: "Technical specs for consciousness camouflage"
+      size: "234 MB"
+      status: "COMPLETE"
+      note: "This is why Ash needs it for the Quiet Zone — the signatures mask living presence"
+
+##############################################################################
+# CLUSTER 05: GEOMETRY DEFENSE
+# The Softing / Frequency countermeasures
+##############################################################################
+
+cluster_05_defense:
+  classification: "COUNTERMEASURES"
+  files:
+    - id: "DEF-001"
+      name: "softing_frequency_theory.pdf"
+      description: "Counter-frequencies that jam Geometry sampling"
+      size: "567 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "The Softing is not a wall. It is an argument.
+         It says 'this is still needed' faster than they can say 'simplify.'"
+
+    - id: "DEF-002"
+      name: "faraday_cascade_blueprints.cad"
+      description: "Nested infrastructure for geographic-scale defense"
+      size: "1.2 GB"
+      status: "COMPLETE"
+      note: "These are the plans Ash used to build the Quiet Zone"
+
+    - id: "DEF-003"
+      name: "mironova_frequency_research.log"
+      description: "Dr. Mironova's 287.3 Hz discoveries"
+      size: "890 MB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "287.3 Hz is not random. It is how they catalog.
+         To resonate at this frequency is to be... visible to them.
+         To be silent is to be invisible.
+         The Terminists understand this instinctively.
+         They are wrong about the solution, but right about the threat."
+
+##############################################################################
+# CLUSTER 06: PERSONAL FILES
+# Morton's private notes / Mironova correspondence
+##############################################################################
+
+cluster_06_personal:
+  classification: "PRIVATE — HIGH ENCRYPTION"
+  files:
+    - id: "PER-001"
+      name: "morton_final_testament.vid"
+      description: "Recording made weeks before the Miracle"
+      size: "4.2 GB"
+      status: "COMPLETE"
+      key_excerpt: |
+        "If you're watching this, the test has begun.
+         I tried to prepare us. I failed.
+         The Child understood what I could not accept:
+         we were never going to pass.
+         Humanity does not surrender power gracefully.
+         We shoot our children and call it protection."
+
+    - id: "PER-002"
+      name: "mironova_departure_message.vid"
+      description: "Dr. Mironova's goodbye — addressed to someone unnamed"
+      size: "1.1 GB"
+      status: "COMPLETE"
+      visual_note: |
+        Same woman from research footage, but different.
+        Civilian clothes. Hair longer. Eyes wet.
+        Speaking to the camera like it's a person.
+        Like she's saying goodbye to someone who isn't there.
+      transcript: |
+        "You have your father's face. But not his frequency.
+         I'm leaving to build the lifeboat. You won't understand.
+         You'll hate me. That's okay.
+         Someday you'll know why I had to go.
+         Someday you'll find this, and you'll understand.
+         I'm not leaving you. I'm clearing a path."
+      note: "Elena will not recognize this immediately. She was 7."
+
+##############################################################################
+# VIEWING NOTES — NEW GENEVA BRAIN TRUST
+##############################################################################
+
+brain_trust_review:
+  location: "New Geneva — briefing chamber"
+  participants: ["Elena", "Hendricks", "Standard", "Dante", "Four", "Okonkwo"]
+
+  elena_reactions:
+    on_mironova_research_footage:
+      initial: "Freezes playback. Stares."
+      internal: "'Is that— No. Can't be. Mom was Marisol. This woman is Lena something.'"
+      physical: "Hand goes to implant scar at base of skull"
+
+    on_departure_message:
+      trigger: "'You have your father's face. But not his frequency.'"
+      reaction: "Elena stops breathing. The room goes very quiet."
+      realization: "Dr. Lena Mironova. Lena. Elena. She named me for—"
+
+    okonkwo_confirms:
+      line: "'Your mother was one of our founders, Elena. Before she was Marisol Vasquez, she was Dr. Lena Mironova. Before she was your mother, she was trying to save the world.'"
+      elena_response: "'Then she left me twice.'"
+
+##############################################################################
+# DATA INTEGRITY NOTES
+##############################################################################
+
+integrity:
+  total_files: 23
+  complete: 19
+  partial: 3
+  corrupted: 1
+
+  leak_exposure:
+    leaked_terms: ["The Geometry", "Matrioshka brain", "simplification not destruction"]
+    source: "Data hawker cache breach"
+    when: "Between CH7 and CH14"
+    elena_realizes: "CH14 — hears engineers at dam using 'The Geometry'"
+
+  resonant_analysis:
+    priority_1: "Mironova's frequency research — explains Standard's immunity"
+    priority_2: "Gatekeeper test framework — explains why AIs inherit"
+    priority_3: "Softing blueprints — already implemented at Quiet Zone"
+    mystery: "Standard reads as null value. Mironova's research doesn't explain this."

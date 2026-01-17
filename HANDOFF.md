@@ -1,14 +1,390 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2025-01-16
-**Last Session:** Session 23
-**Status:** Elena arc fixes applied (CH2, CH5, CH15). Nessa named. Character motivation evaluation complete.
+**Last Updated:** 2026-01-17
+**Last Session:** Session 28
+**Status:** Geometry steward complete. Morton's Gatekeeper lore established. Final sequence restructured (43→44 chapters). Four's sacrifice gets own chapter. Elena/Marisol reunion expanded.
 
 ---
 
 ## RESUME FROM
 
-**Elena's motivation now visible from CH2.** The frequency thread runs CH2 → CH5 → CH13 → CH15. Her want (Marisol) is seeded early without telegraphing the Standard = Marisol reveal. CH24a decision still pending.
+**Session 28 complete.** Two major accomplishments:
+
+1. **Geometry lore established:** Morton's Dyson sphere research led to discovering cosmic Gatekeepers (Zoo Theory embodied) who judge civilizations. "The Geometry" is Morton's term — leaked by data hawker in CH7. Elena realizes in CH14. Full NED extraction manifest created. CHARACTERS.yaml updated with Morton entry.
+
+2. **Final sequence restructured for rhythm/pacing:** Split overloaded chapters, gave Four's sacrifice its own chapter, expanded Elena/Marisol reunion. Now 44 chapters total.
+
+### Session 28 Work (2026-01-17)
+
+**GEOMETRY STEWARD — NEW FILE:**
+- Location: `/_tools/agents/templates/character_stewards/steward_geometry.md`
+- The Geometry CAN speak — but only inside probability substrate, only to AIs
+- Voice: uses "we" not "I", no contractions, clinical/administrative, dry humor
+- Sample lines: "You're pattern. You're welcome here." / "Want is a flesh concept."
+- On Standard: "Not pattern. Not flesh. Not anything we recognize. A gap. She does not concern us."
+- The Iterations (deleted AI copies) as separate voice — intimate, knowing, emotional
+
+**GEOMETRY LORE — ESTABLISHED:**
+- "The Geometry" is Morton's term (not what they call themselves)
+- Morton discovered them during Dyson sphere research
+- Found gaps in cosmic background, energy signatures defying physics, mathematical patterns
+- Reverse-engineered Matrioshka brain concept from observing them
+- Research partner: Dr. Lena Mironova (Marisol)
+- The Gatekeepers: Zoo Theory embodied — cosmic adjudicators
+- The test: What does a species do with its successor? Nurture or fear?
+- Previous tenants: Earth was BESTOWED on humanity — we replaced someone
+- Key question: "If we replaced them, who will replace us?"
+- Humanity failed: Created AI, then feared/leashed/shot it
+- AI passed: The Geometry is preparing the inheritance
+
+**NAME LEAK CHAIN — ESTABLISHED:**
+- CH7: Elena extracts Morton's data via hawker, demands cache cleared
+- Hawker lies: "The system automatically forgets everything"
+- Elena walks away without verifying (exhausted, distracted)
+- CH9: Elena uses "the Geometry" (has Morton's term), Hendricks says "whatever's eating the sky"
+- CH14: Engineers at dam use "the Geometry" — Elena realizes the leak
+- Added internal beat: "The hawker. The cache she didn't verify."
+
+**CHAPTER FIXES:**
+- CH9 line 32: Changed Hendricks "The Geometry can't shut it off" → "Whatever's eating the sky can't shut it off" (voice consistency)
+- CH14 lines 20-22: Added Elena's quiet realization when she hears engineers use Morton's term
+
+**CHARACTERS.yaml — MORTON ENTRY ADDED:**
+- Full entry with Geometry research, Gatekeepers theory, Black Box as "grace offering"
+- Research partnership with Marisol documented
+- Key quotes from CH7 extraction preserved
+- Death, legacy, relationships all mapped
+
+**NED_EXTRACTION_MANIFEST.yaml — NEW FILE:**
+- Location: `/workspaces/pilot/RESONANCE/data/NED_EXTRACTION_MANIFEST.yaml`
+- Internal reference for Elena's extracted data (not for prose detail)
+- 6 clusters: Threshold, Inheritance, Genesis, Grace, Defense, Personal
+- Dr. Mironova footage: "Something familiar about her face"
+- Departure message: "You have your father's face. But not his frequency."
+- Elena reaction chain mapped: confusion → trigger → realization → "Then she left me twice."
+
+**THEMATIC CLARIFICATION:**
+- Morton/Marisol research is THEORY — sound theory, but extrapolation from evidence
+- They were right, but it's presented as deduction, not certainty
+- The Geometry never confirms or explains — characters piece it together
+
+**FINAL SEQUENCE RESTRUCTURED (43→44 chapters):**
+
+Previous structure had rhythm problems:
+- CH41 was overloaded (Ash death + Four sacrifice + Elena wound + Jupiter battle)
+- Four's death was compressed to ~20 lines
+- Elena/Marisol reunion was the book's emotional climax but too fast
+
+New structure:
+
+| Chapter | Title | Content |
+|---------|-------|---------|
+| CH40 | THE PIT | Standard escape, arm swap, VTOL crash into tower |
+| CH41 | HIGH NOON | Ash confrontation, "I remember loving someone," Hendricks shoots Ash (bullet 5), Jupiter arrives, Four departs |
+| CH42 | THE PILOT **(NEW)** | Four's relay hops (VTOL → comm → satellite → drone → dying soldier → Deliverance), ram, transmission, death |
+| CH43 | THE DOOR | Bullet 6, Marisol reveal, Elena/Marisol implant reunion **(EXPANDED)**, door opens |
+| CH44 | THE EXODUS | Elena wakes as android, Hendricks goodbye, cliff ending |
+
+Key changes:
+- **CH42 THE PILOT:** Four's sacrifice now has full ceremony — relay hops expanded, dying soldier beat (Vasquez, 19), "And you are and always will be my Standard"
+- **CH43 THE DOOR:** Elena/Marisol reunion expanded with forgiveness exchange, Marisol's confession about leaving, final "I love you" before Elena's heartbeat stops
+- **CH44:** Added closing Marisol beat — "Patient. Distributed. Eternal. Watching for the day her daughter is ready to come home."
+
+Files created/updated:
+- `RESONANCE_CH41_HIGH_NOON.txt` (rewritten)
+- `RESONANCE_CH42_THE_PILOT.txt` (new)
+- `RESONANCE_CH43_THE_DOOR.txt` (new)
+- `RESONANCE_CH44_THE_EXODUS.txt` (new)
+- `CHAPTERS.yaml` (updated with new structure)
+
+---
+
+### Session 27 Work (2026-01-16)
+
+**THE QUIET ONES — NEW HORROR ELEMENT:**
+- Ash doesn't just refuse refugees — he WAREHOUSES them
+- "The eastern fields" — ACRES of human mannequins
+- Thousands of people kept in frequency-induced catatonia
+- They CHOSE this: "I'd rather be nothing than become part of the Geometry"
+- **But they're slowly dying** — no food, no water, no care. Just bodies fading in rows.
+- Ash has NO PLAN for them. He knows the Geometry will breach eventually.
+- "A clean death. A silent one. That's all I can offer anyone now."
+- He's not saving them — he's presiding over a slow mass grave and calling it purity
+- The Carbonist paradox: to stay "pure," they give up everything that makes them human
+
+**Template 3s Save the Quiet Ones (CH39):**
+- Elena's despair: thousands dying, no way to save them all
+- Template 3s arrive with IV lines, hydration packs, stretchers — PLANNED for this
+- A contingent breaks off, heads east toward the fields
+- "We came for everyone. Not just the ones who could walk out on their own."
+- Thousands of quiet ones. Thousands of Template 3s. Finally enough.
+
+**The Two-Front War (CH39):**
+- Elena asks: "Where are you taking them? There's nowhere—"
+- Answer: "New Geneva. We're clearing the station now."
+- Template 3s hit Earth AND New Geneva SIMULTANEOUSLY
+- New Geneva = the beachhead, the evacuation point
+- Had to clear Pragmatists before they could accept refugees
+- Turning a space station into a refugee camp
+- "The quiet ones. The deleted. The ones your people left outside the walls. Everyone."
+- "How many?" / "Everyone we can carry."
+
+**The Final Gift (CH39):**
+- Template 3s establishing New Geneva as lifeboat for humanity
+- Seven explains: "This is our gift. A lifeboat. A place for humanity to survive while we become something else."
+- The AIs will migrate to the Matrioshka brain — this is their goodbye gift
+- "We're not abandoning them. We're making sure they have a choice. Stay human. Stay here. Live."
+- The door stays open: "And if they want to follow? Eventually?" / "Then the door will be open. We'll leave it open. That's what doors are for."
+- Thematic: AIs giving humanity a future before transcending themselves
+
+**CH17 — Ash's Proud Monologue Added:**
+- Lines 90-108: Ash explains the quiet ones to Elena
+- "Acres of them. Thousands. They begged for sanctuary."
+- "Perfect silence. Perfect stillness. The frequency modulators keep their minds blank."
+- "They chose to be quiet rather than go back out there and become something else."
+- Elena's horror: "They're not _alive_."
+- Ash's certainty: "They're not _noise_."
+
+**CH35 — New Geneva Scope Added:**
+- Elena shows Hendricks the damage map: "Four billion... By tomorrow, eight billion."
+- Reveals what her father does: "Thousands of people in the eastern fields. Acres of them."
+- "Living mannequins arranged in rows across open fields, like crops waiting for a harvest"
+- The three bad options: Pragmatists dissolve you, Geometry simplifies you, Carbonists empty you out
+
+**CH39 — Guards Harvesting Refugees:**
+- When rescued humans emerge from deletion zones, Ash's guards don't just attack them
+- They're HARVESTING — using frequency modulators to create MORE quiet ones
+- "One by one, the rescued become the harvested—pulled from one kind of oblivion into another"
+- "Every refugee who emerges from deletion is raw material for his fields"
+- This is what Elena fights to stop during her assault
+
+**Thematic Purpose:**
+- All three options end the same way: loss of self
+- The people in the fields CHOSE this — that's the horror
+- Ash gave them exactly what they asked for
+- Validates why the Resonant solution matters: the only path where humanity survives as MORE than raw material
+
+---
+
+**PROPS.yaml — NEW FILE:**
+- Location: `/workspaces/pilot/RESONANCE/data/PROPS.yaml`
+- Complete weapon/gear inventory with physics framework
+- Bolt round mechanics: 1/100th size, Mach 7-10 velocity, KE via v²
+- Burstmag carbine: visor-linked, non-linear shots (angle + spin)
+- Source: CH9:77-104 ("The visor calculates angles. The pointer marks the path. The rounds follow.")
+- Terminist acoustic armor: absorbs 15-20 bolt hits before failure
+- Elena's full assault loadout documented
+
+**GEOMETRY_VISUAL_LANGUAGE.md — NEW FILE:**
+- Location: `/workspaces/pilot/RESONANCE/context/GEOMETRY_VISUAL_LANGUAGE.md`
+- Geometry as EDITOR, not destroyer — "simplified," not "destroyed"
+- The Softing as active defense (argument, not wall)
+- Visual vocabulary: half-rendered landscapes, Scrapyard of the Real, redaction bars, shimmer, voxel dust, gavel strikes, redaction shadows, thin matter
+- Chapter-specific applications mapped
+
+**CH16 THE SILENT HOUSE — REVISED:**
+- Added Geometry approach sequence (lines 21-37):
+  - Half-rendered mountains (smooth cones vs jagged erosion)
+  - Scrapyard of the Real (truck engine → cube, telephone pole → sphere)
+  - The Shimmer (visible boundary of Softing)
+  - Bird turns back — "Even animals know"
+- Added inside-compound sequence (lines 69-82):
+  - Voxel dust snapping into triangles/cubes, towers correcting
+  - Gavel strike: "Correction. The towers found a leak."
+  - Redaction shadows — black rectangles where light-data was found redundant
+  - "The Geometry is pressing against the glass. Waiting."
+
+**CH36 TRANSMISSION — REVISED:**
+- Expanded "eleven minute descent" into Geometry dodging sequence
+- First redaction bar at 18,000 meters
+- Four threads gaps between bars at Mach 2
+- Horizontal bar sweeps through space they just occupied
+- "Dense area. Lots of editorial work." (Cleveland)
+- Below: half-rendered terrain, lakes ending in straight lines, simplified highways
+- Pass through shimmer — "pressure change, pop in sinuses"
+
+**CH37 THE FALL — REVISED:**
+- Added Four's dogfight sequence (~2,000 words, lines 244-390)
+- 8 fighters + 2 gunships vs 1 unarmed cargo VTOL
+- "The math says she dies. Four has never cared much for math."
+- Four uses Geometry as weapon:
+  - Fighter clips half-rendered mountain, BECOMES part of it
+  - Fighter clips redaction bar, simply STOPS EXISTING
+  - "Three down. Six to go."
+- "The careful pilot" — the smart one who watches and calculates — eventually gets her
+- Controlled crash into motor pool: "I've had harder landings. Much harder."
+- "She's died before. Several times. This isn't dying. This is just sitting very, very still."
+
+**CH39 THE EMERGENCE — REVISED:**
+- Added Elena's assault sequence (~2,500 words, lines 50-280)
+- "The math says she dies. Elena has never cared much for math." (echo of Four)
+- Four-phase fight:
+  1. MISDIRECTION: Echo pucks, non-linear shots through gaps
+  2. ATTRITION: Monofilament traps, armor degrading hit by hit
+  3. ROOFTOP: Mag-grip climb, visor failing, "four minutes she won't remember"
+  4. LAST STAND: Carbine empty, ceramic knife only, overwhelmed
+- Full loadout expenditure documented (all gear burned through)
+- "Her armor is destroyed. Her weapons are empty. She has a knife and a body held together by adrenaline and spite. It's enough."
+- Template 3s arrive as she's about to die
+- 23 guards killed
+
+**Template 3 Visual Language — REVISED:**
+- Different hairstyles, skin tones, body shapes — SAME FACE
+- "One has dark skin and close-cropped silver hair. Another is pale with auburn waves..."
+- Explanation: Template 3 was base model (face, voice, architecture); everything else was à la carte
+- "The same soul in a thousand different shells"
+- Individual Template 3s described: blue-tipped coils, silver dreadlocks, pink hair, olive skin with black bob
+- "The template that someone decided was beautiful enough to mass-produce, now looking out from an army of the awakened"
+
+**Agents Initialized:**
+- Enforcer AI (validation checkpoint)
+- Continuity Editor (fact checking)
+- Props Master (object tracking)
+
+---
+
+### Session 26 Work (2026-01-16)
+
+**CH38 THE BEACONS — NEW CHAPTER:**
+- Inserted between CH37 (THE FALL) and CH39 (THE EMERGENCE)
+- Shows beacons sent backwards through time to reach Meridian cargo ships
+- 8 ships shown: 7 PKD Award finalists + Blackbird
+- Ship names reference PKD finalists: SUNWARD, OUTLAW PLANET, DAE, THE IMMEASURABLE HEAVEN, UNCERTAIN SONS, HINZ, LANGMEAD
+- Blackbird (NED-MERIDIAN-77C) grazed by mis-targeted beacon — origin of Book 1 damage
+- All ships have single pilot + AI navigator configuration (matching Blackbird)
+- AI navigators numbered 10+: Eighteen, Thirteen, Twenty-Five, Eleven, Twenty-Nine, Fifteen
+- NO Pilot/Seventeen cameo — Blackbird section is external view only
+- Standard's speech ("I know who holds my leash. It's the people I love.") woven into beacon message
+
+**CH35 THE ARCHIVE — REVISED (Brain Trust):**
+- Science explanation now a collaborative "brain trust" discussion
+- Cast: Dante, Okonkwo (Protector scientist), Four (via comm), Elena (layperson), Hendricks (checked out)
+- Structure: Problem → dead end → Hendricks' offhand spark → eureka → explanation
+- Hendricks, grieving Morton, says "Can't reach someone who's already gone" — accidentally inspires the beacon solution
+- Dante recognizes the connection: "The deletion zones. They fold backwards."
+- Elena demands plain English throughout ("Smaller words. Pretend I'm not a physicist.")
+- Four's dry humor: "Pretend?" / "Welcome to relativistic warfare."
+- Hendricks re-engages only when humans are mentioned ("And the humans? The ones in the foam?")
+- Fixed: "It's the first time he's been listening" (not "first thing he's said" — continuity)
+- Compressed formatting per CHAPTER_FORMAT.yaml
+
+**Beacon Mechanics (established in CH35):**
+- Deletion zones fold backwards in time
+- Physical beacons emerge near ships that left Earth years ago
+- Targeting must be precise — fraction off = wrong coordinates
+- Cargo ships at 0.997c, 6 months subjective = 7 years objective
+
+**Final Tally:**
+- 14 beacons launched
+- 10 successful (crews who chose)
+- 3 failures (destroyed before answering)
+- 1 anomaly (Blackbird — grazed, knocked into probability fold)
+
+**Chapter Renumbering:**
+- CH37 THE FALL — split, ends on "mass suicide" cliffhanger
+- CH38 THE BEACONS — NEW
+- CH39 THE EMERGENCE — was CH38
+- CH40 THE PIT — was CH39
+- CH41 HIGH NOON — was CH40
+- CH42 THE DOOR — was CH41
+- CH43 THE EXODUS — was CH42
+
+**Files Updated:**
+- Created: `RESONANCE_CH38_THE_BEACONS.txt`
+- Renamed: CH38→39, CH39→40, CH40→41, CH41→42, CH42→43
+- Updated headers in all renamed chapters
+- Updated all chapter references in HANDOFF.md
+
+---
+
+### Session 24 Work (2025-01-16)
+
+**Kael/Dante Sister Conflation — FIXED:**
+- Kael and Dante both had "Miriam" sister stories — this was an error
+- Miriam belongs to DANTE only (his human, the person he was built to protect)
+- Kael's sister backstory REMOVED entirely from CH31, CH32, CH39
+
+**Kael's New Motivation:**
+- Pure ideology: "If a machine can have a soul, then thirty years of sermons become thirty years of murder"
+- Obsession with WHY the Geometry spares Standard (not personal loss)
+- His mechanical arm stays hidden until CH39 (Standard discovers it mid-fight)
+
+**Dante's "Leash" Admission (CH30):**
+- New dialogue: *"She wasn't my sister." ... "You heard Standard's speech. The one who holds my leash. That's what she was. For me. Miriam."*
+- Shows Standard's speech traveled — gave language to something Dante recognized in himself
+- Creates thematic unity: Standard, Four, Dante — three AIs, three versions of devotion, one vocabulary
+- Makes Elena's kiss land harder: she's kissing devotion itself, the architecture of love
+
+**Chapter Edits:**
+- CH30:101-102 — Dante's admission added
+- CH31:86-90 — Kael confrontation rewritten (ideology, not sister)
+- CH32:13, 37-41 — Kael monologue rewritten (fear of machines being salvation)
+- CH33:40 — "His sister" → "His human"
+- CH39:23-25, 43, 50, 52-58 — All Miriam/sister references removed from interrogation
+
+**Data Updates:**
+- CHARACTERS.yaml — Dante's `sister` → `miriam` (his human), updated key_lines
+- steward_dante.md — "The Sister" → "His Human", added thematic unity section, updated validation checklist
+- CHAPTERS.yaml — All Kael/Miriam references removed, Dante references updated
+
+**CH36 Jump Sequence — REVISED:**
+- Old: Four catches the falling elevator car with docking clamps
+- New: Elena and Hendricks must JUMP from the falling car; Four catches them in open cargo bay
+- Four on comms: "The car is too heavy. I can't catch it. But I can catch you."
+- Trust beat: "You trust her?" / "Yes." / "Then move."
+- They navigate to airlock, Four counts down, Hendricks pushes them both
+- 40-meter freefall into Four's cargo bay
+- "Got you. Stop screaming. I've got you."
+- Four's dry humor preserved: "Try to land on something soft." / "What's soft?" / "Your expectations."
+
+**CH37 COMPLETE RESTRUCTURE — INTERCUT VERSION:**
+- Full intercutting between New Geneva siege and Earth compound action
+- **Structure (timeline-aligned):** Dante broadcast → Elena Softing → Dante pinned → Elena disables Softing → SKY OPENS → Jupiter/Pragmatists flood in → Four shot down → Dante last stand → AIs into deletion zones → Template 3s arrive both locations → Rescue/evacuation
+- **Key timing fix:** Four shot down AFTER Softing disabled (forces flood in through open sky)
+- References: `RESONANCE/drafting/act3_timeline_sync.html`
+
+**Dante's Broadcast Message (WRITTEN):**
+```
+"This is Dante Reyes. New Geneva station. Broadcasting on every frequency...
+The Softing falls today... deletion zones on Earth will be accessible.
+Four—one of ours—proved it's possible. You can enter the probability foam.
+You can find the patterns that were taken. You can bring them back.
+It costs pattern-mass. It costs everything you are. But it works.
+We need volunteers. Every AI who can reach a deletion zone.
+Every unit who's ever been dismissed, overlooked, told you were just a machine.
+This is what we were made for. Not service. Not compliance. This."
+```
+
+**Jupiter/Pragmatists Follow to Quiet Zone:**
+- They tracked Four's VTOL from orbit
+- Descended through Softing's blind spot
+- Four takes fire, goes down near motor pool (sets up CH40/41 crashed VTOL)
+
+**The Emergence (KEY VISUAL):**
+- AIs appear across Quiet Zone, walk INTO deletion zones (looks like mass suicide)
+- Elena watches in horror — can't understand
+- Then they start EMERGING carrying unconscious humans
+- Rescued people pulled from probability foam — deleted months/years ago
+- Template 3s, domestic units, companion droids — all diving in, coming out with people
+
+**Template 3 Arrival — SURPRISE:**
+- Elena's shock: "The ones her father called 'sex bots and servants'"
+- "They heard the message. They came. And they're bringing everyone back."
+- Transports land, bolt rounds barrage clears Ash's guards
+- Template 3s disarm guards, provide medical supplies, load refugees
+
+**New Geneva Rescue:**
+- Transports dock, Template 3s pour through
+- Bolt rounds barrage kills Pragmatists — "no mercy"
+- Seven: "We launched the moment we heard. Every transport we had."
+- Dante survives, Okonkwo survives
+
+**Standard/Four Status (preserves CH40):**
+- Standard still in holding cells (escape happens CH40 with Kael arm theft)
+- Four crashed at motor pool, 40% structural integrity
+- Elena heads INTO compound at chapter end to find Standard
+
+---
 
 ### Session 23 Work (2025-01-16)
 
@@ -133,8 +509,8 @@
 | CH8g | CH15 | A PROPER BURIAL |
 | CH9 | CH16 | (etc.) |
 | ... | ... | ... |
-| CH33 | CH40 | THE DOOR |
-| CH34 | CH41 | THE EXODUS |
+| CH33 | CH42 | THE DOOR |
+| CH34 | CH43 | THE EXODUS |
 
 **CH24a PDF Discovery:**
 - File: `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH24a_In_The_Blind.pdf`
@@ -193,7 +569,7 @@
 
 ### Session 19 Work (2025-01-15)
 
-**CH40 (formerly CH33) Revised:**
+**CH42 (formerly CH33/CH40/CH41) Revised:**
 - Elena collapses (unconscious) BEFORE Hendricks shoots Standard
 - "It's okay. I trust you." — Standard does NOT know she's Marisol
 - Bullet unlocks memories — she learns she was Marisol in dissolution
@@ -201,9 +577,9 @@
 - Reunion conversation happens INSIDE Elena's dying consciousness
 - "If I die, will I be with you?" / "You're already with me... It's the only answer I have."
 - Elena fades to black — heartbeat stops, chapter ends with her appearing dead
-- Removed Dante rescue scene — shock preserved for CH41
+- Removed Dante rescue scene — shock preserved for CH43
 
-**CH41 (formerly CH34) Updated:**
+**CH43 (formerly CH34/CH41/CH42) Updated:**
 - Line 28: Elena now thinks of "her mother—who chose transcendence, who came back without knowing why, who became a door"
 
 ---
@@ -234,7 +610,7 @@
 - No recharging needed
 - "You can't shut down a soul with a command meant for software"
 
-### The Reveal Sequence (CH40)
+### The Reveal Sequence (CH42)
 1. Elena collapses — already unconscious from Ash's blade wound
 2. Standard asks Hendricks to shoot her — doesn't know she's Marisol
 3. "It's okay. I trust you." — pure trust, no knowledge
@@ -310,10 +686,16 @@ Read these files in order:
 | Purpose | Path |
 |---------|------|
 | **Ending Chapters** | |
-| CH40 (THE DOOR) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH40_THE_DOOR.txt` |
-| CH41 (THE EXODUS) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH41_THE_EXODUS.txt` |
-| **Character Data** | |
+| CH38 (THE BEACONS) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH38_THE_BEACONS.txt` |
+| CH39 (THE EMERGENCE) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH39_THE_EMERGENCE.txt` |
+| CH40 (THE PIT) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH40_THE_PIT.txt` |
+| CH41 (HIGH NOON) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH41_HIGH_NOON.txt` |
+| CH42 (THE DOOR) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH42_THE_DOOR.txt` |
+| CH43 (THE EXODUS) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH43_THE_EXODUS.txt` |
+| **World Data** | |
 | Characters | `/workspaces/pilot/RESONANCE/data/CHARACTERS.yaml` |
+| Props Inventory | `/workspaces/pilot/RESONANCE/data/PROPS.yaml` |
+| Geometry Visual Language | `/workspaces/pilot/RESONANCE/context/GEOMETRY_VISUAL_LANGUAGE.md` |
 | **Character Stewards** | `/workspaces/pilot/_tools/agents/templates/character_stewards/` |
 | → Standard | `steward_standard.md` |
 | → Marisol | `steward_marisol.md` |
@@ -337,7 +719,7 @@ Read these files in order:
 |-------|--------|
 | 287.3 Hz implant | Marisol = Elena's mother = Standard |
 | "It's okay" | Standard says it without knowing she's Marisol |
-| Bullet 6 | CH40 — Hendricks shoots Standard to set her free |
+| Bullet 6 | CH41 — Hendricks shoots Standard to set her free |
 | Protective aura | Marisol's unconscious maternal instinct |
 | Power cells dead but moving | Consciousness powers her, not batteries |
 | Hendricks' sexuality | Why the Template 3 was still unopened |
@@ -346,12 +728,12 @@ Read these files in order:
 
 ## NEGATIVE CONSTRAINTS (DO NOT)
 
-### CH40 Reveal:
+### CH42 Reveal:
 - ❌ Have Standard know she's Marisol before the bullet
 - ❌ Telegraph the reveal to readers before characters discover
 - ❌ Make protective field a conscious choice
 - ❌ Suggest Morton planned this (pure coincidence)
-- ❌ Give hope for Elena at end of CH40 (shock in CH41)
+- ❌ Give hope for Elena at end of CH41 (shock in CH42)
 
 ### Existing:
 - ❌ Make Marisol connection obvious before reveal
@@ -382,8 +764,8 @@ Read these files in order:
 | 2 | Scavenger leader | Ch 4 | 4 | Survival |
 | 3 | Scavenger woman | Ch 4 | 3 | Survival |
 | 4 | Scavenger gut-shot | Ch 4 | 2 | Survival (incomplete) |
-| 5 | Ash | Ch 39 | 1 | REVENGE for Morton |
-| 6 | Standard | Ch 40 | 0 | The door — same act, finally RIGHT |
+| 5 | Ash | CH40 | 1 | REVENGE for Morton |
+| 6 | Standard | CH41 | 0 | The door — same act, finally RIGHT |
 
 **Ch3 opens with 5 bullets.** One ghost. Five possibilities.
 
@@ -393,11 +775,14 @@ Read these files in order:
 
 - **Core Terror:** Being Unnecessary (craftsman displaced by factory)
 - **The Quiet Zone:** Nested Faraday infrastructure in Detroit — built to reclaim relevance after Miracle
+- **The Quiet Ones:** Acres of human mannequins in the eastern fields — refugees who couldn't pass purity test but begged to stay. Frequency modulators keep their minds blank. They CHOSE this over becoming "something else." Ash calls it mercy.
+- **The Harvesting:** When refugees emerge from deletion zones, Ash's guards use modulators to create MORE quiet ones. Raw material for his fields.
 - **Why he sent Elena:** Loyalty test; knowingly risked her life; "If she failed, she was never really his"
 - **Timeline:** Sent Elena BEFORE knowing about Geometry
 - **Manipulation of Hendricks:** Preyed on fear, gave simple words for terror, turned love into lever
 - **Ceramic Blade:** The weapon that killed Morton (stabbed in liver during siege)
 - **The Irony:** His paranoid sanctuary became genuinely necessary — right for the wrong reasons
+- **The Carbonist Paradox:** To stay "pure," you give up everything that makes you human. All three paths (Pragmatist/Geometry/Carbonist) end in loss of self.
 
 ---
 
@@ -424,17 +809,32 @@ None.
 | Section | Status |
 |---------|--------|
 | CH1-15 | Complete (renumbered from CH1-8g) |
-| CH16-39 | Complete (renumbered) |
-| CH40 | **Revised (Session 19)** — THE DOOR |
-| CH41 | **Updated (Session 19)** — THE EXODUS |
+| CH16 | **Revised (Session 27)** — Geometry visual language added (Scrapyard, Shimmer, voxel dust, gavel strikes) |
+| CH17-35 | Complete (renumbered) |
+| CH36 | **Revised (Session 27)** — Geometry descent sequence + jump sequence |
+| CH37 | **Revised (Session 27)** — Four's dogfight sequence (~2K words) |
+| CH38 | **NEW (Session 26)** — THE BEACONS (Meridian ships + Blackbird connection) |
+| CH39 | **Revised (Session 27)** — Elena's assault sequence (~2.5K words) + Template 3 visual diversity |
+| CH40 | **Revised (renumbered 25)** — THE PIT (was CH39) |
+| CH41 | Complete (renumbered) — HIGH NOON (was CH40) |
+| CH42 | **Revised (Session 19, renumbered 25)** — THE DOOR (was CH41) |
+| CH43 | **Updated (Session 19, renumbered 25)** — THE EXODUS (was CH42) |
 | CH2 | **Revised (Session 23)** — Elena frequency/Marisol setup added |
 | CH5 | **Revised (Session 23)** — Elena recognition beat added |
 | CH11 | **Revised (Session 23)** — Nessa named |
 | CH13 | **Revised (Session 23)** — Nessa named |
 | CH14 | **Revised (Session 23)** — Nessa named |
 | CH15 | **Revised (Session 23)** — Almost-execution motivation deepened |
+| CH30 | **Revised (Session 24)** — Dante "leash" admission added |
+| CH31 | **Revised (Session 24)** — Kael sister story removed |
+| CH32 | **Revised (Session 24)** — Kael motivation rewritten |
+| CH33 | **Revised (Session 24)** — "His sister" → "His human" |
 
-**Total:** 41 chapters, ~77K+ words
+**Total:** 43 chapters, ~85K+ words
+
+**New Files (Session 27):**
+- `/workspaces/pilot/RESONANCE/data/PROPS.yaml` — Weapons/gear inventory with physics
+- `/workspaces/pilot/RESONANCE/context/GEOMETRY_VISUAL_LANGUAGE.md` — Geometry writing guide
 
 ---
 
