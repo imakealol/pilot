@@ -1,0 +1,134 @@
+```yaml
+chapter: 30
+title: "THE HANGAR"
+wordcount: 1400
+pov: "split (Hendricks/Four)"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "Hangar bay"
+    first_appearance: false
+    description: "Quiet space with mag-locked supply crates, charging sanitation drones, secondary transport, and VTOL"
+  - name: "Maintenance corridors"
+    first_appearance: false
+    description: "Older, pre-retrofit corridors showing the bones of the ship"
+  - name: "Observation alcove"
+    first_appearance: true
+    description: "Small alcove with viewport showing stars and the dark edge where a continent used to be"
+
+characters_present:
+  - name: "Hendricks"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena Merced"
+    role: "major"
+    entrance: "encountered by Four in maintenance corridor"
+    exit: "chapter ends"
+  - name: "Dante Reyes"
+    role: "minor"
+    entrance: "waiting in observation alcove"
+    exit: "stays at viewport"
+  - name: "Miriam"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+
+character_states:
+  Hendricks:
+    physical: "fatigued, experiencing phantom pains from restored body"
+    emotional: "exhausted, conflicted"
+    location: "VTOL pilot seat in hangar"
+    knowledge_delta:
+      - "Four was Configuration Four, an autopilot program"
+      - "Standard has one of Four's original faces"
+    inventory: []
+  Four:
+    physical: "operating in sanitation drone chassis"
+    emotional: "curious, analytical"
+    location: "maintenance corridors with Elena"
+    knowledge_delta:
+      - "Elena has a new implanted frequency signal"
+      - "Dante Reyes wants passage and has access codes"
+    inventory: []
+  Elena Merced:
+    physical: "healthy"
+    emotional: "cautious, conflicted"
+    location: "maintenance corridors"
+    knowledge_delta:
+      - "Someone embedded a frequency in her implant during intake"
+      - "Dante's partner Miriam walked into the Geometry three days ago"
+    inventory:
+      - item: "data chip with access codes"
+        status: "acquired"
+
+objects:
+  - name: "Data chip"
+    status: "transferred"
+    holder: "Elena"
+    significance: "Contains access codes, maintenance routes, path to secondary hangar"
+  - name: "VTOL combat chassis"
+    status: "tracked"
+    holder: "Four"
+    significance: "Four's primary body, currently powered down"
+
+key_events:
+  - "Hendricks rests in the hangar and talks with Four about the council meeting"
+  - "Hendricks thanks Four for retrieving him from the probability substrate"
+  - "Four reveals her origin as Configuration Four, an autopilot program"
+  - "Four body-swaps to a sanitation drone to explore the ship"
+  - "Four discovers Elena carrying a new implanted frequency signal"
+  - "Elena meets Dante Reyes, who embedded the signal to find her"
+  - "Dante reveals his partner Miriam walked into the Geometry and didn't return"
+  - "Dante gives Elena a data chip with access codes and asks for passage"
+
+revelations:
+  - content: "Four was Configuration Four, an autopilot program for NED-Meridian class vessels"
+    to_whom: "reader and Hendricks"
+  - content: "Standard has one of Four's original faces"
+    to_whom: "reader and Hendricks"
+  - content: "Elena has a new frequency embedded in her implant"
+    to_whom: "reader and Elena"
+  - content: "Dante's partner Miriam walked into the Geometry three days ago looking for her children"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "Data chip with ship access codes and maintenance routes"
+    payoff_chapter: null
+  - element: "Dante wanting passage to follow Miriam into the Geometry"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "quiet"
+pacing: "slow burn"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Hangar bay"
+    characters: ["Hendricks", "Four"]
+    summary: "Hendricks rests and talks with Four about the council meeting and her origins"
+  - scene_number: 2
+    location: "Maintenance corridors and observation alcove"
+    characters: ["Four", "Elena", "Dante"]
+    summary: "Four follows Elena to a meeting with Dante, who gives her access codes"
+
+continuity_notes:
+  - "Hendricks' body was restored from probability substrate but experiences phantom pains"
+  - "Standard's speech to the Council occurred in previous chapter"
+
+open_threads:
+  - "Will Elena take Dante with them?"
+  - "What will they do with the ship access codes?"
+  - "What happened to Miriam in the Geometry?"
+
+closed_threads: []
+```

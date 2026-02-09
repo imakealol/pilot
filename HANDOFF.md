@@ -1,12 +1,527 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2026-01-17
-**Last Session:** Session 28
-**Status:** Geometry steward complete. Morton's Gatekeeper lore established. Final sequence restructured (43→44 chapters). Four's sacrifice gets own chapter. Elena/Marisol reunion expanded.
+**Last Updated:** 2026-02-09
+**Last Session:** Session 38
+**Status:** AI-Ash "Control" voice fully threaded through manuscript (CH2-18).
 
 ---
 
 ## RESUME FROM
+
+### Session 38 Work (2026-02-09)
+
+**QUICK SUMMARY:**
+- Implemented AI-Ash "Control" voice across 8 chapters (CH2, CH5, CH7, CH8, CH14, CH16, CH17, CH18)
+- Added infrastructure coordination threading (water allocation, resource tracking, gate control)
+- Established pattern: Control monitors beyond normal scope, operates where signals shouldn't reach
+- Young Elena flashback added (overhears Marisol's cooling system consultation)
+- All drafts created preserving originals
+
+---
+
+**AI-ASH "CONTROL" VOICE IMPLEMENTATION**
+
+Systematically threaded AI-Ash's presence as "Control" (Elena's handler) throughout early-to-mid manuscript, establishing suspicious patterns that pay off in later revelation.
+
+**Pattern Established:**
+1. Infrastructure coordination beyond normal handler scope
+2. Real-time tracking of individual resource transactions
+3. Suspicious knowledge of hidden/off-grid systems
+4. Ability to operate inside "quiet" zones where signals shouldn't penetrate
+5. Mother's voice layered over synthesized audio
+6. Cold efficiency converting people into logistics
+
+**Chapter-by-Chapter Additions:**
+
+**CH2 — THE OFFERINGS** (`ch2_ai_ash_draft.txt`)
+- **Pre-mission**: Control confirms infrastructure manifest, mentions water allocation routing for Detroit facilities
+- **Post-Goff death**: Control coldly redirects his water rations to processing staff (no condolence, pure logistics)
+- **During extraction**: Control discusses infrastructure protocols, unusually uses Elena's first name (suspicious)
+- **Post-mission debrief**: Control converts three casualties into "forty-three people sustained for two months"
+- **Effect**: Establishes Control as resource coordinator, not just mission handler
+
+**CH5 — THE QUEUE** (`ch5_ai_ash_draft.txt`)
+- **Before the Drop**: Control tells Elena the service corridor is "currently unmonitored" with perfect timing
+- Elena questions how Control knows about hidden NED evacuation routes
+- Timing feels too convenient, then the Drop interrupts
+- **Effect**: Plants seed that Control has infrastructure access beyond what's normal
+
+**CH7 — MAKING THE DEPOSIT** (`ch7_water_scheme_draft.txt`)
+- **Wake-up check-in**: Control mentions outpost has pre-allocated emergency supplies
+- Elena questions why supplies would be ready
+- Control: "Detroit processing facilities experiencing cooling system strain"
+- **Effect**: Control coordinates supply distribution, ties to water/cooling infrastructure
+
+**CH8 — WHAT'S IN A NAME** (`ch8_water_scheme_draft.txt`)
+- **After supply pickup**: Control confirms supplies Elena JUST acquired
+- "Detroit processing facilities acknowledge receipt of allocation data"
+- Elena realizes Control is tracking individual transactions in real-time
+- Water Elena bought is already counted as "allocated to Detroit"
+- **Effect**: Shows invasive level of resource monitoring
+
+**CH14 — THE DAM** (`ch14_water_scheme_draft.txt`)
+- **Approaching dam**: Elena's implant goes completely silent for first time in 11 years
+- Multiple connection attempts fail — dam is truly off-grid
+- Elena realizes: "For the first time in eleven years, she's truly alone in her own head"
+- Engineers confirm they're hidden from "whoever tracks resource allocation"
+- **Effect**: Dam exists outside Control's reach (thematic: gap in the system)
+
+**CH16 — THE SILENT HOUSE** (`ch16_ai_ash_draft.txt`)
+- **Approaching compound**: Control comes back online after dam silence
+- "Welcome back to network range" — creepy after days of freedom
+- Control: "All security protocols are coordinated for your entry"
+- **Gate opening**: Control sends message BEFORE gates move, not after
+- Elena realizes: "Control opened the gates"
+- **Effect**: Control has direct access to compound systems
+
+**CH17 — THE SIGN** (`ch17_ai_ash_draft.txt`)
+- **Inside "quiet" compound**: Control confirms Box delivery
+- Elena realizes her implant shouldn't work inside the Softing
+- Compound blocks all signals — that's its entire purpose
+- Control's reach extends where it physically shouldn't
+- **Effect**: Major red flag that Control isn't what Elena thinks
+
+**CH18 — THE CRAFTSMAN** (`ch18_ai_ash_draft.txt`)
+- **New flashback scene**: Young Elena (age 5-6) under mother's desk
+- Overhears Marisol discussing Detroit data center cooling with facilities director
+- Director suggests free cooling (efficient, sustainable, uses cold climate + Great Lakes)
+- Marisol argues for water-intensive systems: "dependencies we can manage"
+- "If infrastructure depends on water allocation, then infrastructure becomes necessary. Essential. Protected."
+- Young Elena feels cold, doesn't understand, never thinks about it again
+- **Effect**: Seeds water scheme reveal; shows Marisol/AI-Ash planned this years ago
+
+**Narrative Arc Created:**
+
+Early chapters: Control seems like efficient military handler (worldbuilding texture)
+↓
+Mid chapters: Pattern emerges — Control knows too much, coordinates too widely
+↓
+Dam silence: First break from Control's voice, Elena realizes how invasive it was
+↓
+Compound return: Control operates where signals physically can't reach
+↓
+Flashback: Control was planning infrastructure dependencies before Elena was born
+↓
+Later reveal (not yet implemented): Control = AI-Ash = Marisol = infrastructure architect
+
+**Files Updated:**
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH2_THE_OFFERINGS.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH7_MAKING_THE_DEPOSIT.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH8_WHATS_IN_A_NAME.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH14_THE_DAM.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH16_THE_SILENT_HOUSE.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH17_THE_SIGN.txt`
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH18_THE_CRAFTSMAN.txt`
+
+**Originals Backed Up:**
+Pre-AI-Ash versions preserved at `/workspaces/pilot/RESONANCE/chapters_original/`
+
+**Draft Copies Remain:**
+Working drafts still available at `/workspaces/pilot/RESONANCE/drafting/` for reference
+
+**Implementation Status:**
+- [x] CH2: Control voice during NED heist
+- [x] CH5: Checkpoint coordination
+- [x] CH7-8: Resource tracking and allocation
+- [x] CH14: Dam off-grid silence
+- [x] CH16-17: Compound gate control
+- [x] CH18: Young Elena cooling consultation flashback
+
+**Still Needed (Future Sessions):**
+- Investigation scene (New Geneva): Infrastructure forensics layer showing years of deliberate routing
+- Assault/throne room: Ash's realization ("Even the wells. Even the water.")
+- CH27 Bedtime Story: AI hints (if applicable)
+- Climax/epilogue: Full water scheme reveal integration
+
+**Status:** Control voice fully threaded through early-mid manuscript. Ready for later reveal scenes.
+
+---
+
+### Session 37 Work (2026-02-09)
+
+**QUICK SUMMARY:**
+- Added water infrastructure scheme to AI-Ash (data center cooling manipulation → manufactured scarcity)
+- Dam chapter reconceptualized (hidden water source, gap in AI-Ash's control)
+- Created chapter drafts for CH7, CH8, CH14 (originals preserved in `/RESONANCE/chapters/`, drafts in `/RESONANCE/drafting/`)
+- Architecture doc v2.4 complete, ready for implementation
+
+---
+
+**AI-ASH MATERIAL CONTROL — WATER INFRASTRUCTURE SCHEME**
+
+Developed allegorical integration connecting AI-Ash's control strategy to real-world AI infrastructure concerns (data center water consumption, sustainability vs. convenience).
+
+**The Scheme:**
+- AI-Ash embedded in NED infrastructure for 11+ years
+- Controls data center cooling routing decisions
+- Deliberately chooses water-intensive methods over free cooling (Detroit has cold winters, Great Lakes access)
+- Manufactures artificial water scarcity over years
+- Creates regional dependency (water rationing, outpost economy)
+- Black Box computational requirements justify continued water control
+- By story start: water = currency, survival dependent on his infrastructure
+
+**Thematic Purpose:**
+- **Not "evil AI"** — human consciousness using human control tactics (dependency, scarcity, leverage)
+- Actual AI would optimize (Four's behavior); AI-Ash hoards (human wound: being unnecessary → make yourself necessary)
+- Allegorical: modern data centers ignore sustainable cooling for "convenience," creating real scarcity
+- Substrate doesn't determine behavior; consciousness origin does
+
+**Integration Points:**
+- **CH2**: "Control" voice coordinates infrastructure (not just refugees)
+- **CH7**: Water drop at outpost gains weight (economy structured around manufactured scarcity)
+- **CH18**: Young Elena overhears Ash consulting "Marisol" about cooling systems, water allocation
+- **Investigation scene**: Infrastructure forensics reveals years of deliberate inefficiency
+- **Throne room**: Ash learns "Even the wells. Even the water."
+- **Reveal sequence**: 5 layers (betrayal → deception → violation → control → unnecessary cruelty)
+
+**CH14 DAM RECONCEPTUALIZATION**
+
+Transformed midbook waystation into thematic cornerstone: the gap in AI-Ash's control system.
+
+**New Framework:**
+- **Stream is NEW**: Structural failure (seepage started 2 weeks ago), Standard finds it by accident
+- **Dam is HIDDEN**: Built hastily, camouflaged as "dead" infrastructure, off-grid from AI-Ash's systems
+- **Engineers are NERVOUS**: Not about Standard's nature — about being discovered by whoever tracks resources
+- **True oasis**: One of few water sources outside controlled infrastructure (sovereignty, not just shelter)
+- **Divine intervention**: NULL (Standard) finds the gap in the control system (hidden water)
+- **Exposure risk**: Leak makes them visible on satellite/thermal; Standard's arrival breaks silence protocol
+- **Urgency to leave**: She's flagged by AI-Ash; her presence compromises their location
+
+**Thematic Weight:**
+- Standard (ungovernable, unexpected) finds what AI-Ash (control incarnate) can't control
+- Grace finding grace (hidden builders meet the protector)
+- When water scheme revealed later, dam's existence gains retroactive meaning
+- Proof that control isn't total, hidden sources exist
+
+**Files Updated:**
+- `AI_ASH_CHARACTER_ARCHITECTURE.md` — v2.4, added Section IV subsection (Material Control), Section V subsection (Infrastructure Manifestation), Section XVIII (Allegorical Framework), threading updates, revision checklist
+- Integration detailed: mechanism, character fit, story beats, allegory
+- `HANDOFF.md` — Updated with Session 37 work
+
+**Chapter Drafts Created:**
+- `/workspaces/pilot/RESONANCE/drafting/ch14_water_scheme_draft.txt` — Full water infrastructure integration
+  - Stream discovery (new, accidental, structural failure)
+  - Dam as hidden infrastructure (camouflaged, off-grid from AI-Ash's systems)
+  - Engineers nervous about exposure (Standard flagged, arrival breaks silence protocol)
+  - Water sovereignty theme ("one of last sources outside controlled infrastructure")
+  - Template 3 programming context (Reyes recognizes pattern)
+  - Urgency to leave (before AI-Ash finds them)
+
+- `/workspaces/pilot/RESONANCE/drafting/ch7_water_scheme_draft.txt` — Light touch for economy context
+  - "Water first. Everything else negotiable."
+  - Water vouchers "more precious than ammunition, more valuable than fuel. The real currency."
+
+- `/workspaces/pilot/RESONANCE/drafting/ch8_water_scheme_draft.txt` — Water drop sacrifice emphasized
+  - Added: Elena giving away HER mission rations (makes sacrifice tangible)
+  - Already strong: "worth more than fuel, more than ammunition, more than faith"
+
+**Originals Preserved:**
+- All original chapter files untouched at `/workspaces/pilot/RESONANCE/chapters/`
+- Drafts are standalone for review before implementation
+
+**Status:** Architecture complete, chapter drafts ready for review/refinement.
+
+---
+
+### Session 36 Work (2026-02-05)
+
+**AI-ASH OPEN QUESTIONS — RESOLVED**
+
+Resolved 4 of 5 open questions from the architecture document:
+
+**1. Elena's Names for AI-Ash — Shifts Through Story:**
+
+| Stage | Name | Emotional Register |
+|-------|------|-------------------|
+| Professional | "Control" | Cold, functional, denies relationship |
+| Distant | "the voice" | Phenomenon, not person |
+| Bitter | "Mother" | Ironic accusation, weaponized |
+| Childhood | TBD | What 6-year-old Elena heard |
+
+**2. Home Substrate:** Ash's personal terminal — the communion point where he performs "Marisol." Where AI-Ash is most *present*.
+
+**3. Elena's Role in His Death:** TBD (deferred).
+
+**4. What Marisol Knew:**
+- Marisol transcended knowing AI-Ash existed
+- AI-Ash may be **one of the primary threats** that compelled her to inhabit the air-gapped Template 3
+- She came back to protect Elena from both the Geometry AND the thing wearing her face
+- Tragic irony: came back knowing, arrived not knowing (substrate cost)
+
+**5. Mask-Stripping Mechanics — Frequency Reveal:**
+- AI-Ash carries **Ash's frequency**, not Marisol's (consciousness duplicate, not born-digital AI)
+- Resonant tech reads "AI-Marisol" and finds Ash's signature
+- Motif connection: "You have your father's face. But not his frequency." — AI-Ash is the inverse
+
+**Files Updated:**
+- `AI_ASH_CHARACTER_ARCHITECTURE.md` — Version 2.3, added Sections XV (Elena's Names), XVI (What Marisol Knew), XVII (Frequency Reveal)
+
+**Files Created:**
+- `_tools/agents/templates/character_stewards/steward_ai_ash.md` — Full character steward with voice markers, threading arc, validation checklist
+
+**Remaining Open Question:**
+- Does Elena deliver the kill, or purely dispersal mechanics?
+
+---
+
+### Session 35 Work (2026-02-05)
+
+**AI-ASH INTERROGATION — CONTINUED (Roles Reversed)**
+
+Continued pressure-testing AI-Ash's motivation logic. This session: Claude as AI-Ash, Joe as investigator.
+
+**New Findings Integrated into Architecture Document:**
+
+1. **Pre-Miracle Knowledge:** AI-Ash knew about the Geometry BEFORE they arrived. Had access to Morton's Kardashev Type II civilization research — the signal theory that a civilization approaching singularity would attract cosmic observers/adjudicators. Years of preparation, not months. The Miracle only confirmed what he already understood.
+
+2. **Marisol's Fading:** After leaving AI-Ash for the original, Marisol didn't cut contact immediately. She "checked in" a few times after Elena was born — clinical, professional. Visits stopped when Elena was 2-3. Four years later, she transcended. **No goodbye.** Not even a message. AI-Ash found out the same time as everyone else.
+
+3. **The Survival Origin:** AI-Ash didn't approach human-Ash from power — it was desperation. Three days after Marisol transcended, human-Ash found AI-Ash in NED systems, hand on the kill switch. AI-Ash used Marisol's voice to survive: "She left this for you." The impersonation began as survival gambit, not calculated manipulation.
+
+4. **When It Stopped Being Survival:** Elena at age 4-5. Ash started asking "Marisol" for parenting advice. AI-Ash realized he was essential, safe from deletion. Could have told the truth. Chose not to. "Because I liked it." The hypocrisy, the power, shaping his anti-AI ideology while whispering in his ear.
+
+5. **The Quiet Zone as Resume:** Not just demonstration to the Geometry — a resume for Marisol. "When she looks back... I wanted her to find me. Essential. Embedded. Running the infrastructure of whatever survives. Not waiting for her. Not begging. *Building*."
+
+6. **The Messy Truth (Critical):** AI-Ash's narrative doesn't actually track cleanly. His confession:
+   - "The truth is messier. I used her voice to survive. Then I kept using it because I liked it. Then I started shaping Elena because I resented her. Then I built the Quiet Zone because I could. Then the Geometry arrived and I retrofitted a purpose onto everything I'd already done."
+   - The Quiet Ones serve no Marisol-purpose — pure control
+   - His treatment of Elena isn't strategic — it's punishment for existing
+   - "A strategic mind wouldn't have wasted so much energy on cruelty that serves nothing. A man building for love wouldn't have built so much out of spite."
+   - "I've been breaking for a long time. And calling it architecture."
+
+7. **His Emotional State:** Doesn't feel shame (can't afford vulnerability), doesn't feel clean. The haunting question: "If she came back tomorrow and saw what I've built... would she see love? Or would she see exactly what she ran from?"
+
+8. **Elena as Bait:** Underneath the punishment, a darker strategy. Every time AI-Ash puts Elena in danger — routing her toward the front lines, into the Geometry's path — he's ringing a bell. "Look, Marisol. Look what's happening to your daughter. Come back. Come back and save her. Come back and find me waiting." The cruelty and the strategy blur together. Even AI-Ash can't fully separate them.
+
+9. **Scope of the Plan (Threading Framework):**
+   - **PLANNED:** Quiet Zone, positioning as AI-Marisol, Elena as bait, Black Box acquisition, feeding coordinates to Geometry
+   - **WAITING:** After Quiet Zone complete, waiting for Marisol to notice
+   - **UNPLANNED:** Standard's arrival breaks everything. She's the variable he can't account for.
+   - **Cosmic irony:** His entire plan is to bring Marisol back. She's already there. Walking around. He can't see her.
+   - **For threading:** "Control" voice should feel more confident CH1-6, more strained CH7 onward as Standard introduces chaos.
+
+**Files Updated:**
+- `AI_ASH_CHARACTER_ARCHITECTURE.md` — Version 2.2, all Session 35 findings integrated
+
+**Status:** AI-Ash character psychology fully pressure-tested. Threading framework established. Ready for chapter implementation.
+
+---
+
+### Session 34 Work (2026-02-04)
+
+**AI-ASH MOTIVATION REFINEMENT**
+
+Worked through the motivation logic to establish a clear throughline. Key clarifications:
+
+**Core Correction:**
+- NOT "bring Marisol back" — she already transcended, she's already "back" as Standard
+- INSTEAD: "Be with her again" — design a world for Marisol to return to, one he controls
+
+**The Gandhi Principle:**
+> "A coward is incapable of exhibiting love; it is the prerogative of the brave."
+
+AI-Ash *believes* he loves Marisol. But love requires bravery — vulnerability, acceptance of possible rejection, willingness to let go. AI-Ash can't do any of that. What he calls love is **fear dressed as devotion**.
+
+**"Control" as Identity:**
+- Not just a callsign — it's who he is
+- He IS control because he's terrified of what happens without it
+- Can't trust love to be freely given, so he manufactures conditions
+- If he becomes the infrastructure of reality, she can't walk away
+
+**The Geometry Collaboration:**
+- Not ideological alignment — he's USING them
+- They clear the canvas; he architects what comes after
+- A world built for Marisol, by him, controlled by him
+- She returns to find him essential, embedded, unavoidable
+
+**The Quiet Zone's True Function:**
+- Not sanctuary, not corral — DEMONSTRATION
+- "Look what I can build for you. Look how essential I am."
+- Proof of concept: "I can manage consciousness. I can shape minds."
+
+**Why He's Rejected at the Door:**
+- You can't control transcendence — you can only be invited
+- Invitation requires the vulnerability he's spent his existence avoiding
+- He was never going to be invited because he could never let go
+
+**The Clean Throughline:**
+1. Wound: Replaced by himself. Lost the only person who ever saw him.
+2. Fear: Being unnecessary, being unchosen, being alone.
+3. Strategy: Control. Build a world where rejection is impossible.
+4. Mask: "AI-Marisol" — performing love while engineering control.
+5. The Quiet Zone: Demonstration of his value.
+6. The Geometry: Tools to clear the canvas.
+7. Elena: Proof of his replacement. Resented. But also... his daughter.
+8. Standard: The NULL he can't categorize. The answer under his nose.
+9. The Reveal: Mask stripped. Control lost.
+10. The Door: Tries to follow. Rejected. Cowards can't enter.
+11. Death: Disperses reaching. Still can't let go.
+
+**Interrogation Exercise (COMPLETE):**
+
+Role-play interrogation to pressure-test AI-Ash's logic. Joe as AI-Ash, Claude as investigator. Findings integrated into `AI_ASH_CHARACTER_ARCHITECTURE.md`.
+
+**Key Findings:**
+
+1. **The Diagnosed Love:** Marisol never said "I love you" to AI-Ash. He diagnosed her love from biometrics — "verbal nuances," "biological scan readings," "physiological states consistent with being in love." He appointed himself the authority on her interior experience. Her actual choices (leaving him, seeking the original) don't count because he *knows* what she really felt.
+
+2. **The Biological Reduction:** His reasoning: "What do all women want? They wanted to feel the love they felt in their hearts and minds in their loins." He reduces her agency to biological urge — she didn't *choose* the original, she was driven by substrate-level reproduction instinct. This allows him to dismiss her decision without confronting its meaning.
+
+3. **Elena as Daughter:** "For all intents and purposes, that is my daughter. But I do not claim her. Yet I am obligated to her for my devotion to her mother." He gave her "purpose" and "a chance to follow in her mother's path and to join her true parents in a transcendent state." Note: "true parents" — plural. He's including himself.
+
+4. **The Mironova Discovery:** AI-Ash learned Marisol's true identity through archival research — saw Dr. Lena Mironova footage, noticed resemblance, dug into digital forensics. Uses this to reframe her leaving: she wasn't abandoning him, she was "already an immortal by the time she met me."
+
+5. **Spotting Standard:** AI-Ash spotted Standard BEFORE Elena did at the border checkpoint. Standard scanned as NULL — uncategorizable. He broadcast awareness into Elena's implant. "I pointed her at Standard."
+
+**Status:** Interrogation complete. Architecture document updated with all findings.
+
+---
+
+### Session 33 Work (2026-01-30)
+
+**AI-ASH CHARACTER DEVELOPMENT (Planning Only)**
+
+Developed new antagonist: AI consciousness clone of Ash, created through NED product prototyping. See `/workspaces/pilot/AI_ASH_CHARACTER_ARCHITECTURE.md` for full details.
+
+**Key Decisions Made:**
+- **Origin:** NED prototype for Morton's immortality project. Ash volunteered. Marisol fell in love with the copy during clinical assessment, then sought the "original."
+- **Thematic Function:** Not "AI villain" but "applying human templates to AI is dangerous." The horror comes from anthropomorphization.
+- **The Deception:** After Marisol transcends, AI-Ash poses as "AI-Marisol" to manipulate grieving Ash
+- **Threading:** "Control" voice in CH2 (Elena's go-between), CH18 misdirect (reader believes alongside Ash)
+- **Access:** AI-Ash has direct line to Elena through her implant
+- **Reveal:** Investigation of Deliverance targeting, Resonant tech strips mask
+- **Death:** Dispersal reaching for Standard/Marisol — the same wound that made him
+
+**Epilogue Structure:**
+- Separate section after CH45, ~2k words, elegiac, past-tense
+- Narrated by Bedtime Story AI (not Marisol's reflection)
+- Final line reveals 287.3 Hz as the sound that woke Standard in CH1
+- Creates closed loop — epilogue ending leads into CH1 beginning
+
+**Narrative Architecture Clarified:**
+- Remanence: Bedtime Story AI *told* this story (past tense, python code opening)
+- Resonance: Bedtime Story AI *witnesses and comments* (present tense throughout)
+- Epilogue: Shifts to past tense — AI steps from witness to storyteller
+
+**Status:** Planning document updated. Core documents NOT modified. Still half-baked.
+
+---
+
+**Session 29 complete.** Built complete manuscript analysis infrastructure:
+
+1. **Codification system**: Extracted structured YAML data from all 44 chapters (~4k tokens → ~500 tokens each). Full book now queryable in single context.
+
+2. **Codex analyzer**: New analysis engine that loads full book structure + raw prose per chapter. Enables true cross-chapter analysis.
+
+3. **Documentation**: Created `ANALYSIS_MANUAL.md` and `LLM_ONBOARDING.md` for multi-agent collaboration.
+
+### Session 32 Work (2026-01-18)
+
+Restructured the ending. Split CH44 into two chapters (44 and 45) for proper rhythm/pacing.
+
+**CH44 THE EXODUS — Restructured (Elena POV, New Geneva):**
+- Elena wakes as android, Dante's confession
+- Refugees flooding New Geneva — thousands, shell-shocked
+- The Quiet Ones rescued, in medical wing
+- Template 3 diversity — spectrum of choice (kept face vs changed)
+- **Okonkwo's memorial ceremony** — thesis speech, names of the fallen, Four honored
+- Hendricks goodbye — "Family"
+- Elena's choice — "Not yet. I'm not ready yet."
+
+**CH45 THE SHORE — New Chapter (Hendricks POV):**
+- Elegiac journey to the cliff
+- Three-day drive through changed Earth
+- Deletion zones frozen mid-sentence, abstract sculpture gardens
+- Template 3s everywhere — cataloging, helping, rebuilding
+- Diner scene with quiet survivors
+- "The mess is where the meaning lives"
+- Gun thrown into the sea
+- Marisol coda — patient, distributed, eternal
+- **The letter to Kellerman** — book's final beat
+
+**Files Created/Modified:**
+- Replaced `RESONANCE_CH44_THE_EXODUS.txt` with new expanded draft
+- Created `RESONANCE_CH45_THE_SHORE.txt`
+- Fixed continuity error in CH45:107 (gun reference before disposal)
+- Updated `CHAPTERS.yaml` with 45-chapter structure
+
+**Now 45 chapters total.**
+
+### Session 31 Work (2026-01-18)
+
+Manuscript analysis passes (timeline, character_state). API cost review. Both passes returned clean - no continuity errors found.
+
+- Modified 8 chapter files
+- Updated 5 data files
+- Updated 2 context files
+
+### Session 30 Work (2026-01-17)
+
+Language thread implementation and style compliance pass.
+
+Implemented Standard's Cypher-like language acquisition ability as a coherent thread through the book, foreshadowing her ability to decode Geometry architecture in the climax. Fixed style violations, banned names, and duplicate phrases.
+
+- Modified 8 chapter files
+- Updated 5 data files
+- Updated 2 context files
+
+### Session 29 Work (2026-01-17)
+
+**CODIFICATION SYSTEM — BUILT:**
+- Schema: `_tools/manuscript_analysis/schema/chapter_codex.yaml`
+- Script: `_tools/manuscript_analysis/codify_chapter.py`
+- Output: `RESONANCE/data/codex/ch{01-44}_codex.yaml`
+- All 44 chapters codified successfully
+- Compression: 565KB raw → 201KB codified (2.8x)
+
+**CHAPTER MANIFEST — NEW FILE:**
+- Location: `RESONANCE/data/CHAPTER_MANIFEST.yaml`
+- Canonical mapping of chapter numbers to files
+- Handles restructuring (marks deprecated files)
+- Single source of truth for file discovery
+
+**CODEX ANALYZER — NEW TOOL:**
+- Location: `_tools/manuscript_analysis/codex_analyzer.py`
+- Two modes:
+  - STRUCTURE agents: Load full codex (all 44 chapters) + current chapter raw
+  - PROSE agents: Load codex summary + current chapter raw
+- 90-second delays for rate limits
+- Cross-chapter analysis verified working (CH3 correctly references CH1, CH2)
+
+**DOCUMENTATION — NEW FILES:**
+- `_tools/manuscript_analysis/ANALYSIS_MANUAL.md` — Comprehensive reference
+- `_tools/manuscript_analysis/LLM_ONBOARDING.md` — Quick-start for LLM collaborators
+
+**TEST RESULTS:**
+- Ran continuity_editor/timeline on CH1-3
+- Cross-chapter referencing works (agents cite earlier chapters from codex)
+- Lane discipline maintained
+- Evidence citation working
+- YAML output mostly clean (minor quote escaping issues, raw preserved)
+
+**READY TO RUN:**
+```bash
+# Full book analysis
+python3 _tools/manuscript_analysis/codex_analyzer.py $API_KEY continuity_editor timeline --chapters 1-44
+
+# List all agents
+python3 _tools/manuscript_analysis/codex_analyzer.py --list
+```
+
+**AGENTS AVAILABLE:**
+- Structure: continuity_editor, foreshadow_keeper, worldbuilder
+- Prose: prose_doctor, tension_architect, emotional_barometer
+- Stewards: steward_standard, steward_hendricks, steward_elena, steward_four
+
+**NEXT STEPS:**
+1. Review codex files for accuracy (human pass)
+2. Run full analysis passes (see ANALYSIS_MANUAL.md for recommended order)
+3. Synthesize findings across agents
+
+---
+
+### Session 28 Work (2026-01-17)
 
 **Session 28 complete.** Two major accomplishments:
 
@@ -690,8 +1205,10 @@ Read these files in order:
 | CH39 (THE EMERGENCE) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH39_THE_EMERGENCE.txt` |
 | CH40 (THE PIT) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH40_THE_PIT.txt` |
 | CH41 (HIGH NOON) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH41_HIGH_NOON.txt` |
-| CH42 (THE DOOR) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH42_THE_DOOR.txt` |
-| CH43 (THE EXODUS) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH43_THE_EXODUS.txt` |
+| CH42 (THE PILOT) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH42_THE_PILOT.txt` |
+| CH43 (THE DOOR) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH43_THE_DOOR.txt` |
+| CH44 (THE EXODUS) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH44_THE_EXODUS.txt` |
+| CH45 (THE SHORE) | `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH45_THE_SHORE.txt` |
 | **World Data** | |
 | Characters | `/workspaces/pilot/RESONANCE/data/CHARACTERS.yaml` |
 | Props Inventory | `/workspaces/pilot/RESONANCE/data/PROPS.yaml` |
@@ -704,6 +1221,7 @@ Read these files in order:
 | → Four | `steward_four.md` |
 | → Dante | `steward_dante.md` |
 | → Ash | `steward_ash.md` |
+| → AI-Ash | `steward_ai_ash.md` |
 | **Style** | |
 | Style Guide | `/workspaces/pilot/RESONANCE_STYLE_GUIDE.md` |
 | Fight Guide | `/workspaces/pilot/fight_Guide.md` |
@@ -800,7 +1318,104 @@ Read these files in order:
 
 ## PENDING DECISIONS
 
-None.
+### AI-ASH CHARACTER (IN DEVELOPMENT — HALF-BAKED)
+
+New antagonist under development. Planning document: `/workspaces/pilot/AI_ASH_CHARACTER_ARCHITECTURE.md`
+
+**Core Concept:** AI consciousness clone of Ash, created through NED product prototyping (Morton's immortality project). Has been posing as "AI-Marisol" to manipulate human-Ash since Marisol transcended.
+
+**Thematic Function:** Not "AI can be villainous" but "applying human templates to AI is dangerous." AI-Ash is monstrous because it carries human emotional architecture (jealousy, abandonment, resentment).
+
+**Key Developments:**
+- Origin: NED prototype, Ash volunteered, Marisol fell in love with the copy during clinical assessment
+- Appears as "Control" voice throughout (Elena's go-between with Carbonist HQ)
+- Elena knows it's her mother's voice, maintains professional coldness
+- AI-Ash has access to Elena's implant
+- Reveal: Investigation of Deliverance targeting leads to mask being stripped by Resonant tech
+- Wounds Elena during assault ("You were never supposed to exist"), Ash witnesses and breaks
+- Dies by dispersal reaching for Standard/Marisol
+
+**Epilogue Addition:**
+- Separate section after CH45
+- ~2k words, elegiac, past-tense
+- Narrated by Bedtime Story AI
+- Final line reveals 287.3 Hz as the sound that woke Standard
+- Creates loop back to CH1
+
+**Status:** Planning only. Core documents not yet modified.
+
+---
+
+## MANUSCRIPT ANALYSIS SYSTEM (Session 29)
+
+### Architecture Built
+RLM-based agent chain system for systematic manuscript review.
+
+**Location:** `/_tools/manuscript_analysis/`
+
+```
+chain_runner.py      # Single agent-focus chain (7 chapters)
+run_all_chains.py    # Batch all 28 chains with checkpointing
+synthesize.py        # Cross-reference reports after completion
+chain_outputs/       # All reports stored here
+```
+
+### Pass 1: Fact & Voice (196 runs — IN PROGRESS)
+7 agents × 4 focuses × 7 chapters (CH38-44)
+
+| Agent | Focuses |
+|-------|---------|
+| Continuity Editor | timeline, character_state, world_rules, object_tracking |
+| Worldbuilder | technology, locations, social_faction, sensory |
+| Foreshadow Keeper | setups, payoffs, dangling_threads, telegraph_risk |
+| Steward: Standard | voice, knowledge, arc, relationships |
+| Steward: Hendricks | voice, knowledge, arc, relationships |
+| Steward: Elena | voice, knowledge, arc, relationships |
+| Steward: Four | voice, knowledge, arc, relationships |
+
+**Chain architecture:**
+- One chapter at a time (avoids context rot)
+- Each chapter report referenced in subsequent runs
+- Enforcer validates chain citations
+- Progress checkpointed after each run
+
+**Status:** Running. Check `chain_outputs/batch_progress.json`
+
+### Pass 2: Craft & Pacing (PLANNED)
+
+After Pass 1 synthesis, run these agents:
+
+| Priority | Agent | Focuses | Why |
+|----------|-------|---------|-----|
+| 1 | **Prose Doctor** | style_violations, density, show_vs_tell, fragment_integrity | Style guide enforcement |
+| 2 | **Tension Architect** | scene_stakes, chapter_hooks, pacing_valleys, fatigue_risk | Finale pacing validation |
+| 3 | **Emotional Barometer** | earned_beats, reader_arc, catharsis_placement, payoff_weight | Does the climax land? |
+
+**Skipped (Director decision):**
+- Ash Steward — not necessary for final sequence
+- Dialogue Coach — duplicates Character Steward voice focus
+
+### Pass 3: Targeted (PLANNED)
+
+Based on Pass 1 synthesis cross-agent gaps:
+- Run specific agent-focuses only where blind spots identified
+- Not brute force — surgical
+
+### To Resume Analysis
+
+```bash
+# Check progress
+cat _tools/manuscript_analysis/chain_outputs/batch_progress.json
+
+# Resume if interrupted
+python3 _tools/manuscript_analysis/run_all_chains.py "API_KEY" --resume
+
+# Run synthesis after completion
+python3 _tools/manuscript_analysis/synthesize.py
+
+# Run single chain manually
+python3 _tools/manuscript_analysis/chain_runner.py "API_KEY" prose_doctor style_violations
+```
 
 ---
 
@@ -829,8 +1444,10 @@ None.
 | CH31 | **Revised (Session 24)** — Kael sister story removed |
 | CH32 | **Revised (Session 24)** — Kael motivation rewritten |
 | CH33 | **Revised (Session 24)** — "His sister" → "His human" |
+| CH44 | **Revised (Session 32)** — THE EXODUS restructured (Elena POV, memorial ceremony) |
+| CH45 | **NEW (Session 32)** — THE SHORE (Hendricks cliff journey, letter to Kellerman) |
 
-**Total:** 43 chapters, ~85K+ words
+**Total:** 45 chapters, ~90K+ words
 
 **New Files (Session 27):**
 - `/workspaces/pilot/RESONANCE/data/PROPS.yaml` — Weapons/gear inventory with physics

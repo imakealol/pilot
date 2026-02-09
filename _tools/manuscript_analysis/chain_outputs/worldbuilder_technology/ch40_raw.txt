@@ -1,0 +1,90 @@
+```yaml
+report:
+  agent: worldbuilder
+  focus: technology
+  chapter: 40
+  timestamp: 2026-01-17 10:21:15+00:00
+
+  query_log:
+    chapter: CH40
+    previous_reports: [CH38, CH39]
+    external_state: [HANDOFF.md, PROPS.yaml, GEOMETRY_VISUAL_LANGUAGE.md]
+
+  findings:
+    - id: WO-TE-40-001
+      type: observation
+      severity: info
+      location: "Standard's cell sequence"
+      content: "Android physiology: blood transitions from red to clear viscous fluid when damaged - reveals non-human nature"
+      evidence: "She watched herself bleed red. Then watched the red become something else. Clear. Viscous. The truth of her laid bare in a substance that caught the light wrong."
+      chain_reference: null
+
+    - id: WO-TE-40-002
+      type: observation
+      severity: info
+      location: "Kael confrontation"
+      content: "Terminist hypocrisy revealed: Kael has synthetic right arm while preaching anti-augmentation doctrine"
+      evidence: "Your arm... The right one. It hits like mine would... Chrome skeleton underneath... Wires spark. Hydraulic fluid sprays across the cell."
+      chain_reference: null
+
+    - id: WO-TE-40-003
+      type: verified
+      severity: clean
+      location: "Standard's arm swap sequence"
+      content: "Standard template compatibility confirmed - universal interface allows cross-unit part swapping"
+      evidence: "She pressed the ragged end against her own stump... Wires find wires. Connections spark... The arm clicks. Locks. Integrates."
+      chain_reference: null
+
+    - id: WO-TE-40-004
+      type: observation
+      severity: info
+      location: "Geometry integration sequence"
+      content: "Geometry implanted data packet in Standard during tetrahedron encounter - now activating during stress/integration"
+      evidence: "Something that's been sitting at the base of her brain since the tetrahedron scanned her... The wet packet. The stone she swallowed without knowing. It shifts. Unpacks."
+      chain_reference: null
+
+    - id: WO-TE-40-005
+      type: verified
+      severity: clean
+      location: "VTOL damage assessment"
+      content: "Four's VTOL structural integrity consistent with established damage tracking systems"
+      evidence: "structural integrity at forty percent... Smoke pours from one engine. The landing struts are buckled. Warning lights flash through the cracked cockpit glass."
+      chain_reference: "Report_CH39:WO-TE-39-007"
+
+    - id: WO-TE-40-006
+      type: verified
+      severity: clean
+      location: "Template 3 modular design"
+      content: "Template 3 arm detachment/attachment system confirms established modular companion droid design"
+      evidence: "The waystation sister reaches up to her own shoulder. Finds a release catch... The arm detaches with a soft click... It clicks into place. Perfect fit."
+      chain_reference: "Report_CH39:WO-TE-39-005"
+
+    - id: WO-TE-40-007
+      type: observation
+      severity: info
+      location: "VTOL terminal flight capability"
+      content: "VTOL one-time flight mode - can operate beyond normal safety limits for single mission before total failure"
+      evidence: "It'll get us there once. After that, it's a very expensive projectile... The engines begin to cycle up. Rough. Stuttering. But alive."
+      chain_reference: null
+
+  carry_forward:
+    - Standard's Geometry data packet now partially activated - contains alien architecture/language
+    - Template 3 universal compatibility system - Standard parts can interface across all units  
+    - VTOL terminal flight mode established - beyond safety limits operation
+    - Android physiological markers - clear fluid replaces blood when damaged
+    - Terminist augmentation hypocrisy revealed through Kael's synthetic limbs
+
+  chain_citations:
+    - report: CH39
+      finding_id: WO-TE-39-007
+      relationship: confirms
+    - report: CH39  
+      finding_id: WO-TE-39-005
+      relationship: confirms
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

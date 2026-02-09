@@ -1,0 +1,58 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 14
+  findings:
+    - id: CE-TL-14-001
+      type: issue
+      severity: minor
+      location: Opening section - "three days ago"
+      content: Nessa's stone-throwing is referenced as "three days ago" but timeline tracking suggests this may be inconsistent with chapter-to-chapter progression
+      evidence: "The woman who threw stones at Standard three days ago"
+      cross_reference: 11
+    
+    - id: CE-TL-14-002
+      type: observation
+      severity: info
+      location: Hendricks aging progression
+      content: Hendricks' physical deterioration is accelerating - "aged ten years in three days" - consistent with established regulator withdrawal timeline
+      evidence: "You've aged ten years in three days... Your telomeres are degrading faster than I can stabilize them"
+      cross_reference: 13
+    
+    - id: CE-TL-14-003
+      type: verified
+      severity: clean
+      location: Morton's "Geometry" term spread
+      content: Elena's recognition of the term "Geometry" spreading from Morton's private cache correctly references her earlier exposure
+      evidence: "Morton's word. His private shorthand for something he couldn't name. She'd heard it in her own voice, bleeding from her implant in that filthy Rover"
+      cross_reference: 8
+    
+    - id: CE-TL-14-004
+      type: observation
+      severity: info
+      location: Two-day scan duration
+      content: "The scans take two days" - this duration needs tracking for overall mission timeline pressure
+      evidence: "The scans take two days. Non-invasive, like Reyes promised"
+      cross_reference: null
+    
+    - id: CE-TL-14-005
+      type: verified
+      severity: clean
+      location: Hendricks' mission timeline awareness
+      content: Hendricks' reference to "Two bullets and a promise" correctly tracks his ongoing mission parameters
+      evidence: "Two bullets and a promise he made to himself before Standard opened her eyes in that crate"
+      cross_reference: 3
+
+  carry_forward:
+    - Hendricks' physical deterioration accelerating - "ten years in three days"
+    - Array survivors (including Nessa) and Kellerman remain at the dam
+    - Standard beginning to set boundaries and ask questions
+    - Elena carrying guilt about Morton's "Geometry" term spreading
+    - Two-day delay at dam for scanning adds to mission timeline
+    - Hendricks still carrying revolver with remaining bullets for unfinished business
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

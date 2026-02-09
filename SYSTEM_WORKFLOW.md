@@ -1,4 +1,4 @@
-# RESONANCE Drafting System — Workflow for LLM Collaborators
+Re# RESONANCE Drafting System — Workflow for LLM Collaborators
 
 **Purpose:** This document explains how to use the RESONANCE novel drafting system as an LLM collaborator. Read this before doing any work.
 
@@ -6,7 +6,7 @@
 
 ## The Project
 
-RESONANCE is Book 2 of a science fiction trilogy. The manuscript is complete (34 chapters, ~65K words). The human author (Joe) collaborates with LLMs for drafting, revision, and worldbuilding.
+RESONANCE is Book 2 of a science fiction trilogy. The manuscript is complete (43 chapters, ~80K+ words). The human author (Joe) collaborates with LLMs for drafting, revision, and worldbuilding.
 
 **Core Thesis:** "What if they offer something we don't deserve?"
 
@@ -30,6 +30,45 @@ You are a **collaborator, not an author**. Joe provides structural vision, thema
    - `RESONANCE/drafting/ACT_III_MAPS.md` — Emotional arcs, callbacks
    - `RESONANCE/drafting/SYSTEM_PROMPT.md` — Fiction-tuned drafting prompt
 3. **Check session logs** in `/sessions/` for context on previous decisions
+
+---
+
+## Active Query Protocol (MANDATORY)
+
+**Do NOT respond from memory about characters, locations, or canon. Query the source files EVERY TIME.**
+
+### The Rule
+When a character, location, or canon is mentioned:
+1. **Detect the trigger** (character name, location, plot element)
+2. **Execute the query** (read the relevant file)
+3. **Load the result** into working context
+4. **Cite your source** in your response
+
+### Query Map
+| Trigger | Query |
+|---------|-------|
+| Character name (e.g., "Standard") | Read `steward_[character].md` AND `CHARACTERS.yaml` |
+| Canon question | Read `CHARACTERS.yaml` or relevant chapter |
+| Chapter reference | Read the chapter file |
+| Style question | Read `RESONANCE_STYLE_GUIDE.md` |
+
+### Response Format
+```
+QUERY LOG:
+  → steward_standard.md: [loaded]
+  → CHARACTERS.yaml: Standard section [loaded]
+
+[Your response with citations]
+(steward_standard.md:21-22, CHARACTERS.yaml:27-36)
+```
+
+### The Gate
+Before outputting anything substantive about a character or plot point:
+- ✓ Did I query the relevant source?
+- ✓ Can I cite where this information came from?
+- ✗ If you can't cite it, don't state it with confidence.
+
+**This is not optional. The query system exists. Use it.**
 
 ---
 
@@ -102,6 +141,18 @@ The story's source of truth is split across YAML files:
 | `RESONANCE/data/WORLD.yaml` | Locations, factions, technology, events |
 | `RESONANCE/data/CHAPTER_FORMAT.yaml` | Header formatting rules |
 
+**Character Stewards** — Voice guardians for major characters:
+
+| Steward | Location |
+|---------|----------|
+| Standard | `_tools/agents/templates/character_stewards/steward_standard.md` |
+| Elena | `_tools/agents/templates/character_stewards/steward_elena.md` |
+| Hendricks | `_tools/agents/templates/character_stewards/steward_hendricks.md` |
+| Four | `_tools/agents/templates/character_stewards/steward_four.md` |
+| Dante | `_tools/agents/templates/character_stewards/steward_dante.md` |
+| Marisol | `_tools/agents/templates/character_stewards/steward_marisol.md` |
+| Ash | `_tools/agents/templates/character_stewards/steward_ash.md` |
+
 **Read these before drafting.** Don't work from memory or summaries.
 
 ---
@@ -141,14 +192,15 @@ RESONANCE uses a callback system. Seeds planted early must pay off later. Curren
 
 | Setup | Payoff |
 |-------|--------|
-| "Does it still hurt the same?" (Ch 27) | Ch 32 |
-| Ceramic blade killed Morton | Ch 31 (stabs Hendricks) |
-| "I'll keep the engine warm" (Ch 30) | Ch 33 (Four's death) |
-| Waystation jacket | Ch 32 (sister callback) |
-| Ch 1 chest point (shutdown) | Ch 33 ("It's okay") |
-| Bullet 5 | Ch 32 (Ash) |
-| Bullet 6 | Ch 33 (Standard) |
-| Three arms progression | Ch 27 → 31 → 32 |
+| 287.3 Hz implant (CH2, CH5) | Marisol = Elena's mother = Standard |
+| "It's okay" (CH1 chest point) | CH41 — Standard says it without knowing she's Marisol |
+| Bullet 5 | CH40 — Hendricks shoots Ash (revenge for Morton) |
+| Bullet 6 | CH41 — Hendricks shoots Standard to set her free |
+| Ceramic blade killed Morton | CH40 (Ash's weapon identified) |
+| Protective aura | Marisol's unconscious maternal instinct |
+| Power cells dead but moving | Consciousness powers her, not batteries |
+| Hendricks' sexuality | Why the Template 3 was still unopened |
+| "The one who holds my leash" | CH30 — Dante's admission creates thematic unity (Standard, Four, Dante) |
 
 When drafting, **check callbacks**. Don't miss payoffs. Don't add new setups without Joe's approval.
 
@@ -156,14 +208,18 @@ When drafting, **check callbacks**. Don't miss payoffs. Don't add new setups wit
 
 ## The Revolver Journey
 
-The gun Hendricks carries tracks the moral arc:
+The gun Hendricks carries tracks the moral arc. Smith & Wesson Model 3 Schofield — Morton's grandfather's gun, grabbed during siege.
 
-| Shot | Target | Meaning |
-|------|--------|---------|
-| 1 | The Child | First sin |
-| 2-4 | Scavengers | Survival |
-| 5 | Ash | Contract fulfilled |
-| 6 | Standard | Door opened |
+| Shot | Target | When | Remaining | Meaning |
+|------|--------|------|-----------|---------|
+| 1 | The Child | Book 1 | 5 | The betrayal — fear, wrong |
+| 2 | Scavenger leader | CH4 | 4 | Survival |
+| 3 | Scavenger woman | CH4 | 3 | Survival |
+| 4 | Scavenger gut-shot | CH4 | 2 | Survival (incomplete) |
+| 5 | Ash | CH40 | 1 | REVENGE for Morton |
+| 6 | Standard | CH41 | 0 | The door — same act, finally RIGHT |
+
+**CH3 opens with 5 bullets.** One ghost. Five possibilities.
 
 ---
 
@@ -182,8 +238,8 @@ The gun Hendricks carries tracks the moral arc:
 - **Key Shift:** She gets to choose what her mother never could
 
 ### FOUR
-- **Arc:** Protector → sacrifice → "engine warm" made literal
-- **Key Shift:** She becomes the bridge. Then Standard takes over. Four is gone.
+- **Arc:** Protector → sacrifice → survival at cost
+- **Key Shift:** Shot down by Jupiter/Pragmatists (CH37), crashes at motor pool with 40% structural integrity. Survives but damaged.
 
 ### ASH
 - **Arc:** Prophet → exposed → refuses gift → dies refusing
@@ -221,6 +277,38 @@ From Session 13 (author's note):
 **Implication:** Joe may withhold major reveals during drafting. Don't push to know everything. Don't surface subtext into text. Don't connect dots explicitly that should remain implicit.
 
 > "The AI is a brilliant scene-level partner but needs human stewardship for arc-level mystery."
+
+---
+
+## Standard = Marisol (CANON LOCKED)
+
+**The Core Reveal:** Standard IS Marisol — Elena's mother who transcended when Elena was 7, transferred into an air-gapped Template 3 to protect her daughter, but lost all memories in the process.
+
+### Key Facts
+- **The substrate:** Hendricks' unopened NED companion droid (wellness program gift)
+- **Why unopened:** Hendricks is homosexual — no interest in a companion droid
+- **NOT providence:** Morton had NO idea. Pure coincidence.
+- **Memory cost:** Complete erasure — the price of inhabiting the substrate
+- **Power source:** Consciousness itself runs her systems (no recharging needed)
+- **Why Geometry ignores her:** Already transcended — outside their census criteria
+
+### The Reveal Sequence (CH41)
+1. Elena collapses — already unconscious from Ash's blade wound
+2. Standard asks Hendricks to shoot her — doesn't know she's Marisol
+3. "It's okay. I trust you." — pure trust, no knowledge
+4. Hendricks shoots (bullet 6)
+5. In dissolution, memories return — she learns she was Marisol
+6. Hot-swap into Elena's implant — mother enters dying daughter's mind
+7. Reunion conversation — INSIDE Elena's dying consciousness
+
+### Writing Constraints
+- **Readers discover WITH characters** — no telegraphing
+- Standard's POV: Never feel "something familiar" about Elena specifically
+- No preferential protection of Elena over others (consciously)
+- The 287.3 Hz resonance reads as coincidence, not recognition
+- On re-read, clues are there. First read, invisible.
+
+**Full details in HANDOFF.md under "STANDARD = MARISOL (CANON LOCKED)"**
 
 ---
 

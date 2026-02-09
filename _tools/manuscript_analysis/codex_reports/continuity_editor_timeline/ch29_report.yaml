@@ -1,0 +1,38 @@
+_extracted_finding_ids:
+- CE-TL-29-01
+- CE-TL-29-02
+- CE-TL-29-03
+- CE-TL-29-04
+- CE-TL-29-05
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 13,\
+  \ column 7:\n        - id: CE-TL-29-02\n          ^\nexpected <block end>, but found\
+  \ '<scalar>'\n  in \"<unicode string>\", line 18, column 45:\n     ... ce: \"Time\
+  \ to speak for herself\" followed by council chamber scene\n                   \
+  \                      ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 29\n  findings:\n    - id: CE-TL-29-01\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Timeline flows correctly\
+  \ from Chapter 28 council meeting\n      evidence: \"Four finds her in the corridor\
+  \ outside the council chamber\"\n      cross_reference: 28\n    - id: CE-TL-29-02\n\
+  \      type: verified\n      severity: clean\n      location: Standard's speech\
+  \ sequence\n      content: Speech occurs immediately after Standard's declaration\
+  \ in Ch28 to speak for herself\n      evidence: \"Time to speak for herself\" followed\
+  \ by council chamber scene\n      cross_reference: 28\n    - id: CE-TL-29-03\n \
+  \     type: verified\n      severity: clean\n      location: Four's observations\
+  \ about Standard\n      content: References to past events maintain correct chronological\
+  \ order\n      evidence: \"Since the compound\" and mentions of \"trade pidgin at\
+  \ the Depo'\" and \"Abbey's mother\" and \"Dam's scanner protocols\"\n      cross_reference:\
+  \ 16, 5, 7, 14\n    - id: CE-TL-29-04\n      type: verified\n      severity: clean\n\
+  \      location: Standard's speech about Hendricks\n      content: Correctly references\
+  \ their relationship history in proper sequence\n      evidence: \"first thing he\
+  \ did when he saw me… was to try to kill me\" and subsequent care\n      cross_reference:\
+  \ 3, 4\n    - id: CE-TL-29-05\n      type: verified\n      severity: clean\n   \
+  \   location: Hendricks' character development\n      content: His emotional response\
+  \ aligns with his arc from attempted killer to father figure\n      evidence: \"\
+  After everything he's done. After the gun. After the hate\" and \"I would die for\
+  \ him\"\n      cross_reference: 3, 15\n  carry_forward:\n    - Standard has publicly\
+  \ declared her autonomy and relationships before the council\n    - Four has explicitly\
+  \ identified Standard's pattern recognition ability as unusual\n    - Hendricks'\
+  \ real name (Sabino) confirmed in official setting\n    - Standard's speech establishes\
+  \ her philosophical framework for AI consciousness\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

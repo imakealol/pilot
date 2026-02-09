@@ -1,0 +1,49 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Chapter 1 establishes temporal baseline - woman awakens in present moment
+  - Man's injuries appear fresh/recent, suggesting concurrent timeline
+  - Man expected woman's emergence, implying prior setup/knowledge
+  - Duration is minutes, not hours or days
+  - No temporal references to past events or time jumps established yet
+  chapter: 1
+  findings:
+  - content: Chapter establishes baseline temporal state with unnamed woman awakening
+      in crate
+    cross_reference: null
+    evidence: A drilling high-pitch in her ears and she awakens, if this counts as
+      awake, wondering if she died
+    id: CE-TL-01-001
+    location: opening scene
+    severity: clean
+    type: verified
+  - content: Timeline duration is appropriately brief (minutes) for awakening sequence
+    cross_reference: null
+    evidence: She closes her eyes for some reason... forces her heaving breaths to
+      grind into a less expensive respiration
+    id: CE-TL-01-002
+    location: throughout chapter
+    severity: clean
+    type: verified
+  - content: Man's lack of surprise suggests prior knowledge of woman's emergence,
+      establishing temporal precedence
+    cross_reference: null
+    evidence: Not surprise. The quiet settling of a man who has just lost a bet with
+      himself
+    id: CE-TL-01-003
+    location: man's presence at table
+    severity: info
+    type: observation
+  - content: Man's injuries and medical supplies suggest recent/concurrent events
+      rather than extended timeline
+    cross_reference: null
+    evidence: 'He''s pressing a bloody towel to the back of his neck... On the table:
+      a utility blade. A bottle of gin. A hand mirror. Blood on all of it'
+    id: CE-TL-01-004
+    location: man's condition
+    severity: clean
+    type: verified
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

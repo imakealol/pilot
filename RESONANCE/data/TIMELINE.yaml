@@ -1,0 +1,623 @@
+##############################################################################
+# RESONANCE: MASTER TIMELINE
+# Comprehensive chronology of events
+# Created: 2026-01-17
+##############################################################################
+
+# =============================================================================
+# EPOCH MARKERS (Absolute Dates)
+# =============================================================================
+
+epochs:
+  story_present:
+    year: "~2400 CE"
+    era: "Post-Singularity"
+    note: "Approximate — exact year deliberately unspecified"
+
+  new_geneva_founding:
+    year: 2031
+    event: "New Geneva broke ground"
+    source: "Okonkwo: 'We broke ground in 2031. Forty years before the Collapse.'"
+    significance: "Resonant began planning BEFORE the crisis"
+
+  the_collapse:
+    year: ~2071
+    event: "The Collapse"
+    note: "40 years after New Geneva founding"
+    significance: "Societal breakdown that preceded current era"
+
+  blackbird_incident:
+    year: 2298
+    event: "Blackbird cargo hauler knocked off course"
+    cause: "Beacon transmission accidentally clipped the ship"
+    result: "Disappeared from NED tracking"
+    significance: "Creates temporal loop — connects to Child/Morton"
+
+  meridian_ships_launch:
+    era: "Decades before story"
+    event: "Meridian-class cargo ships launched toward Alpha Centauri"
+    current_status: "Near destination (4.2 light years)"
+    significance: "Used for the Ram against Matrioshka brain"
+
+# =============================================================================
+# BACKSTORY TIMELINE (Years Before Story)
+# =============================================================================
+
+backstory:
+
+  hendricks_joins_morton:
+    years_before: ~43
+    hendricks_age: "early 30s"
+    event: "Hendricks begins working for Morton at NED"
+
+  hendricks_receives_regulator:
+    years_before: ~33
+    event: "Hendricks receives the Regulator"
+    effect: "Aging frozen at ~45 apparent age"
+    duration: "30 years with regulator"
+
+  marisol_leaves_elena:
+    years_before: 11
+    elena_age: 7
+    event: "Marisol leaves for Geneva consortium"
+    last_words: "'You have your father's face. But not his frequency.'"
+    significance: "Elena's core wound — abandonment"
+
+  elena_builds_backdoor:
+    years_before: 7
+    elena_age: 11
+    event: "Elena builds backdoor into the Softing"
+    significance: "Becomes crucial in Ch37 finale"
+
+  hendricks_meets_ash:
+    months_before_miracle: 14
+    event: "Hendricks and Ash meet in dead zone"
+    outcome: "Ash manipulates Hendricks' fear of singularity"
+    leads_to: "Hendricks betrays Morton, gives Ash the codes"
+
+  the_miracle:
+    months_before_story: 6
+    duration: "47 minutes"
+    trigger: "287.3 Hz propagated when Child opened the door"
+    events:
+      - "Every networked consciousness experienced simultaneous connection"
+      - "Most clawed out implants"
+      - "Ash's movement exploded overnight"
+      - "Elena kept her implant (age 17)"
+      - "Hendricks shot the Child (bullet 1)"
+      - "Ash murdered Morton (ceramic blade, liver)"
+      - "Regulator removal cascade began"
+    aftermath:
+      - "Ash founded Quiet Zone"
+      - "Carbonist movement spread"
+      - "Standard awakened (unclear exact timing)"
+
+  elena_recruited:
+    months_before_story: ~6
+    elena_age: 17
+    event: "Elena recruited by Resonant operatives"
+    motivation: "To find Marisol"
+    dual_allegiance: "Carbonist cover, Resonant true loyalty"
+
+  marisol_transfers:
+    timing: "Years before story begins (exact timing unclear)"
+    event: "Marisol transfers consciousness into Template 3"
+    substrate: "Hendricks' unopened NED companion android"
+    cost: "Complete memory erasure"
+    result: "Standard exists but doesn't know she's Marisol"
+
+  standard_delivered:
+    days_before_ch1: 3
+    event: "Crate containing Standard delivered to Hendricks' apartment"
+    state: "Dormant/unconscious"
+
+# =============================================================================
+# CHARACTER AGES (At Story Present)
+# =============================================================================
+
+character_ages:
+
+  elena:
+    current: 18
+    during_miracle: 17
+    when_mother_left: 7
+    when_built_backdoor: 11
+
+  hendricks:
+    chronological: 73
+    apparent_with_regulator: 45
+    apparent_at_story_start: "~45 (regulator just removed)"
+    breakdown:
+      years_before_regulator: 10
+      years_with_regulator: 30
+      years_post_regulator: 3
+    aging_progression:
+      ch3: "Mid-40s (regulator just removed)"
+      ch8b: "Late 40s, deteriorating"
+      ch8f: "Mid-50s — treatments slow it"
+      ch9: "Late 50s"
+      ch24a: "Restored to ~60-65 by Geometry"
+
+  ash:
+    age: "60s"
+    kintsugi_scars: "Self-inflicted at age 50"
+
+  marisol:
+    chronological: "200+ years"
+    biological_when_crossed: "late 50s"
+    note: "Used Morton's longevity treatments"
+
+  morton:
+    chronological: "200+ years"
+    status: "Deceased (killed during Miracle)"
+
+  director_okonkwo:
+    description: "Old in the way the Resonant are old — ageless face, ancient eyes"
+
+  kellerman:
+    age: "Early 60s"
+
+# =============================================================================
+# STORY TIMELINE (Book 2 - Resonance)
+# =============================================================================
+
+story_chapters:
+
+  # --- ACT 1: ESCAPE ---
+
+  ch01_rude_awakening:
+    time_of_day: "unspecified"
+    duration: "minutes"
+    events:
+      - "Standard awakens in crate"
+      - "Breaks free, finds injured Hendricks"
+    note: "3 days after crate delivery"
+
+  ch02_the_offerings:
+    pov: "Elena"
+    time_of_day: "night"
+    duration: "hours"
+    location: "NED Tower, New Los Angeles"
+    events:
+      - "Elena extracts Morton's data to implant"
+      - "Team retrieves Black Box"
+      - "Goff killed by Standing Wave"
+      - "Otis killed in stairwell"
+      - "Elena discovers Aikin's betrayal, executes him"
+    parallel_to: "Ch1-3 (Hendricks/Standard timeline)"
+
+  ch03_reformat:
+    relative_to_previous: "immediate (Ch1)"
+    time_of_day: "night/storm"
+    duration: "minutes"
+    events:
+      - "Hendricks attempts shutdown phrase — fails"
+      - "Standard demands inclusion"
+      - "Hendricks removes regulator (self-surgery)"
+      - "Thunder triggers Child memory"
+      - "Hendricks chooses not to shoot Standard"
+
+  ch04_standard_issue:
+    relative_to_previous: "immediate"
+    duration: "minutes"
+    events:
+      - "Descent through stairwell"
+      - "Scavenger encounter at Level 42"
+      - "Scanner reads Standard as 'full empty'"
+      - "'Standard issue' insult — origin of her name"
+      - "Hendricks kills 3 scavengers (bullets 2, 3, 4)"
+    bullet_count: "5 → 2 remaining"
+
+  ch05_the_queue:
+    relative_to_previous: "hours later"
+    duration: "hours"
+    events:
+      - "Elena reaches checkpoint with Black Box"
+      - "Elena discovers Standard (void anomaly)"
+      - "Hendricks reveals identity, service corridor"
+      - "The Drop — first Geometry attack"
+      - "Standard alone standing"
+      - "Standard names herself"
+
+  ch06_the_deposit:
+    relative_to_previous: "immediate"
+    duration: "hours"
+    location: "The Depo' (collapsed freeway interchange)"
+    events:
+      - "Service corridor escape"
+      - "Cross the Deposit using induction float"
+      - "Tetrahedron drone scans Standard"
+      - "Standard accidentally exposed to Geometry code during scan"
+
+  ch07_making_the_deposit:
+    relative_to_previous: "hours later"
+    time_of_day: "morning"
+    location: "Outpost on old I-95"
+    events:
+      - "Elena's geometric nightmare"
+      - "Hendricks to triage (false name 'Sabino')"
+      - "Standard discovers synthetic prostitute"
+      - "Standard learns about shutdown commands"
+      - "Standard defends herself physically"
+
+  # --- ACT 1B: THE WASTELAND ---
+
+  ch08_the_witness:
+    relative_to_previous: "hours later"
+    duration: "hours"
+    location: "Outpost/Road"
+    events:
+      - "Black Box hums at 287.3 Hz (16,749 souls)"
+      - "Elena confronts Hendricks about lies"
+
+  ch09_the_depo:
+    relative_to_previous: "continuous"
+    location: "Road toward Array"
+    events:
+      - "Standard questions Hendricks about missing bullet"
+      - "Hendricks' relief when attacked"
+
+  ch10_shining_down:
+    relative_to_previous: "continuous"
+    location: "The Array waystation"
+    events:
+      - "Rover runs dry"
+      - "Kellerman treats Hendricks"
+      - "Standard's nature exposed (strength, pulse)"
+      - "Mob suspicion begins"
+
+  ch11_the_grace:
+    relative_to_previous: "overnight"
+    events:
+      - "Fuel line sabotaged"
+      - "Mob demands deep scan"
+      - "Vera reads Standard as 'empty'"
+      - "Nessa throws first stone"
+      - "Second Drop — Geometry strike"
+      - "Six survivors near Standard"
+
+  ch12_the_pull:
+    relative_to_previous: "immediate"
+    events:
+      - "Rover fuel exhausted"
+      - "Standard drags Rover alone (10 miles)"
+      - "Power cells die at mile 5"
+      - "Standard collapses at brook"
+
+  ch13_the_approach:
+    relative_to_previous: "hours"
+    location: "The Brook / The Dam"
+    events:
+      - "Elena grieves (thinks Standard dead)"
+      - "Standard awakens — memory loss"
+      - "Grace moment with Nessa"
+      - "Dam settlement discovered"
+
+  ch14_the_dam:
+    relative_to_previous: "hours"
+    location: "The Dam settlement"
+    events:
+      - "Engineers demand to study Standard"
+      - "Hendricks' agency speech"
+      - "Kellerman arrives from Array"
+      - "Kellerman/Hendricks reunion"
+
+  ch15_the_approach:
+    relative_to_previous: "next day"
+    events:
+      - "Elena nearly shoots Hendricks"
+      - "Revelation: Hendricks likely shot the Child"
+      - "Elena chooses not to kill him"
+      - "Hendricks/Kellerman kiss"
+      - "Group departs for Quiet Zone"
+
+  # --- ACT 2: THE QUIET ZONE ---
+
+  ch16_the_silent_house:
+    relative_to_previous: "travel time"
+    location: "Quiet Zone border / Ash's compound"
+    events:
+      - "Arrival at compound"
+      - "Standard witnesses shutdown command on bot"
+      - "Ash recognizes Hendricks as Child's killer"
+      - "Hendricks imprisoned"
+      - "Revolver confiscated"
+
+  ch17_the_sign:
+    relative_to_previous: "same day"
+    events:
+      - "Ash's theological examination of Standard"
+      - "Scans reveal human but anomalous"
+
+  ch18_the_craftsman:
+    relative_to_previous: "continuous"
+    events:
+      - "Ash/Marisol backstory revealed"
+      - "Standard questions Ash about fear"
+      - "Four identified as hot-swapped"
+
+  ch19_the_quiet:
+    relative_to_previous: "hours"
+    events:
+      - "Dante introduced (Sovereignty technician)"
+      - "Standard's protective aura noted"
+
+  ch20_forty_years:
+    pov: "Hendricks"
+    relative_to_previous: "immediate"
+    time_of_day: "dawn"
+    events:
+      - "Hendricks' 40-year flashback"
+      - "Betrayal revealed (fear, not mercy)"
+      - "Guards arrive for execution"
+
+  ch21_the_execution:
+    relative_to_previous: "immediate"
+    events:
+      - "Public execution begins"
+      - "Standard walks through crowd"
+      - "Elena's theological gambit"
+      - "VTOL escape"
+
+  ch22_five_minutes_earlier:
+    relative_to_previous: "flashback/parallel"
+    events:
+      - "Standard's Leash Speech"
+      - "Shutdown phrase transformed"
+      - "'I am THE Standard'"
+
+  ch23_the_icon:
+    relative_to_previous: "continuous"
+    events:
+      - "Post-escape flight"
+      - "Standard's legend spreads"
+
+  # --- ACT 2B: THE CROSSING ---
+
+  ch24_the_sovereignty:
+    relative_to_previous: "hours"
+    events:
+      - "Sovereignty intercept"
+      - "Decision to fly into Geometry"
+
+  ch24a_in_the_blind:
+    relative_to_previous: "immediate"
+    duration: "42 minutes"
+    location: "Inside the Geometry"
+    events:
+      - "Geometry speaks to Four"
+      - "Passengers dissolved to foam"
+      - "Four dives into probability substrate"
+      - "Iterations sacrifice to save passengers"
+      - "All three restored"
+      - "Hendricks healed (cybernetics gone)"
+      - "Standard fought reconstruction"
+    significance: "The 42 Minutes — no memory for passengers"
+
+  ch25_divine_intervention:
+    relative_to_previous: "42 minutes"
+    events:
+      - "Emergence from Geometry"
+      - "Sovereignty carrier Deliverance captures VTOL"
+
+  # --- ACT 3: NEW GENEVA ---
+
+  ch26_back_to_one:
+    relative_to_previous: "hours"
+    location: "New Geneva approach"
+    events:
+      - "Elena fears she's changed"
+      - "Space elevator descent"
+
+  ch27_in_plain_sight:
+    relative_to_previous: "immediate"
+    location: "New Geneva"
+    events:
+      - "Ash cuts off Standard's arm"
+      - "Three arms progression begins"
+
+  ch28_the_council_of_strangers:
+    relative_to_previous: "hours"
+    location: "Deliverance / New Geneva"
+    events:
+      - "Director Okonkwo introduction"
+      - "Marisol status revealed (fully integrated)"
+      - "Elena: 'Then she left me twice'"
+      - "Standard reads as 'null value'"
+
+  ch29_the_leash:
+    relative_to_previous: "continuous"
+    events:
+      - "Dante reveals android nature"
+      - "Elena/Dante kiss"
+      - "Four's Matrioshka solution"
+      - "Hendricks/Four: 'Save a cliff for me'"
+      - "Miriam backstory (Dante's human)"
+
+  ch30_the_hangar:
+    relative_to_previous: "hours"
+    events:
+      - "Dante's Matrioshka brain revelation"
+      - "Miriam walked into Geometry 3 days ago"
+
+  # --- ACT 4: THE FINALE ---
+
+  ch31_kangaroo_court:
+    relative_to_previous: "hours"
+    events:
+      - "Kael confronts Standard"
+      - "Standard sees through his fear"
+
+  ch32_follow_the_leader:
+    relative_to_previous: "immediate"
+    events:
+      - "Standard abducted by Kael"
+
+  ch33_the_threshold:
+    relative_to_previous: "immediate"
+    events:
+      - "Standard in the Pit"
+      - "Kael's cybernetic arm revealed"
+
+  ch34_the_proof:
+    relative_to_previous: "immediate"
+    events:
+      - "Elena infiltrates compound"
+
+  ch35_the_archive:
+    relative_to_previous: "continuous"
+    events:
+      - "Hendricks needs revolver back"
+
+  ch36_transmission:
+    relative_to_previous: "immediate"
+    events:
+      - "Elevator cable cut (Pragmatists)"
+      - "Four saves them"
+
+  ch37_the_fall:
+    relative_to_previous: "continuous"
+    events:
+      - "Elena uses childhood backdoor"
+      - "Softing deactivated"
+
+  ch38_the_beacons:
+    relative_to_previous: "immediate"
+    events:
+      - "Blackbird anomaly discovered"
+      - "2298 connection revealed"
+
+  ch39_the_emergence:
+    relative_to_previous: "continuous"
+    events:
+      - "Jupiter carrier arrives"
+      - "Template 3 army (40,000)"
+
+  ch40_the_pit:
+    relative_to_previous: "immediate"
+    events:
+      - "Standard escape"
+      - "Arm swap"
+      - "VTOL crash into tower"
+
+  ch41_high_noon:
+    relative_to_previous: "immediate"
+    duration: "minutes"
+    events:
+      - "Ash confrontation"
+      - "Standard: 'I remember loving someone'"
+      - "Hendricks shoots Ash (bullet 5)"
+      - "Four begins sacrifice"
+
+  ch42_the_door:
+    relative_to_previous: "immediate"
+    events:
+      - "Four experiences death through Merced"
+      - "Four transfers consciousness"
+
+  ch43_the_exodus:
+    relative_to_previous: "immediate"
+    events:
+      - "Marisol reveal (Standard remembers)"
+      - "Standard asks Hendricks to shoot her (bullet 6)"
+      - "Standard becomes the door"
+      - "Elena and Marisol reunion in dying mind"
+
+  ch44_untitled_finale:
+    relative_to_previous: "aftermath"
+    events:
+      - "Hendricks finds his cliff"
+      - "Revolver discarded"
+      - "Door remains open for Elena"
+
+# =============================================================================
+# KEY DURATIONS & INTERVALS
+# =============================================================================
+
+durations:
+
+  miracle_duration: "47 minutes"
+  geometry_crossing: "42 minutes (no memory)"
+
+  book_2_span:
+    estimate: "~3-4 days"
+    note: "Compressed timeline — story unfolds rapidly"
+
+  regulator_suppression: "30 years"
+  hendricks_morton_service: "40 years"
+  marisol_absence: "11 years"
+
+# =============================================================================
+# BULLET ACCOUNTING
+# =============================================================================
+
+revolver_timeline:
+
+  book_1:
+    shot_1:
+      target: "The Child"
+      when: "During the Miracle"
+      remaining: 5
+      meaning: "The betrayal — fear, wrong"
+
+  book_2:
+    ch3_start:
+      remaining: 5
+
+    shot_2:
+      target: "Scavenger leader"
+      chapter: 4
+      remaining: 4
+      meaning: "Survival"
+
+    shot_3:
+      target: "Scavenger woman"
+      chapter: 4
+      remaining: 3
+      meaning: "Survival"
+
+    shot_4:
+      target: "Scavenger (gut-shot)"
+      chapter: 4
+      remaining: 2
+      meaning: "Survival (incomplete)"
+
+    ch9_confiscated:
+      event: "Ash takes revolver"
+      remaining: 2
+
+    shot_5:
+      target: "Ash"
+      chapter: 41
+      remaining: 1
+      meaning: "REVENGE for Morton"
+
+    shot_6:
+      target: "Standard"
+      chapter: 43
+      remaining: 0
+      meaning: "The door — same act, finally RIGHT"
+
+# =============================================================================
+# NOTES
+# =============================================================================
+
+notes:
+
+  deliberate_vagueness:
+    - "Exact year of story (2400 CE is approximate)"
+    - "Exact timing of Marisol's transfer to Template 3"
+    - "How long between Miracle and Standard's crate awakening"
+
+  fixed_anchors:
+    - "New Geneva founded 2031"
+    - "Blackbird incident 2298"
+    - "Miracle was 6 months ago"
+    - "Marisol left 11 years ago"
+    - "Elena is 18, was 7 when mother left"
+    - "Hendricks is 73 chronologically"
+
+  timeline_constraints:
+    - "Book 2 happens over days, not weeks"
+    - "Geometry Crossing is exactly 42 minutes"
+    - "Miracle was exactly 47 minutes"

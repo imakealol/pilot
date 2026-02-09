@@ -1,0 +1,171 @@
+chapter: 2
+title: THE OFFERINGS
+wordcount: 2400
+pov: Elena
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: New England Dynamics (NED) building lobby
+  first_appearance: true
+  description: Corporate mausoleum with automated cleaning units, smells of antiseptic
+    and wet copper
+- name: NED security checkpoint
+  first_appearance: true
+  description: Blast doors, security station with interface terminals
+- name: NED server corridor
+  first_appearance: true
+  description: Dark corridor with dormant server racks, amber lights
+- name: Black Box chamber
+  first_appearance: true
+  description: Houses the Black Box in cradle of optical glass
+- name: NED parking structure
+  first_appearance: true
+  description: Opens onto street, where Rover vehicle waits
+characters_present:
+- name: Elena
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Goff
+  role: major
+  entrance: already present
+  exit: dies
+- name: Otis
+  role: major
+  entrance: already present
+  exit: dies
+- name: Aikin
+  role: major
+  entrance: already present
+  exit: dies
+character_states:
+  Elena:
+    physical: healthy
+    emotional: cold, resolved
+    location: Rover driver's seat
+    knowledge_delta:
+    - Aikin betrayed the team, coordinating with building systems
+    - Successfully extracted the Black Box data
+    inventory:
+    - item: burstmag carbine
+      status: still has
+    - item: archive core with Black Box data
+      status: acquired
+    - item: neural implant from mother
+      status: still has
+  Goff:
+    physical: dead
+    emotional: faithful, trusting
+    location: NED lobby
+    knowledge_delta: []
+    inventory:
+    - item: rifle
+      status: lost
+  Otis:
+    physical: dead
+    emotional: pragmatic, resigned
+    location: NED stairwell
+    knowledge_delta: []
+    inventory:
+    - item: blast shield
+      status: lost
+    - item: carbine
+      status: lost
+  Aikin:
+    physical: dead
+    emotional: regretful, longing
+    location: parking structure
+    knowledge_delta:
+    - Elena discovered his betrayal
+    inventory:
+    - item: wrist deck
+      status: lost
+objects:
+- name: Black Box
+  status: used
+  holder: transferred to archive core
+  significance: Contains critical data, extraction mission objective
+- name: archive core
+  status: acquired
+  holder: Elena
+  significance: Now contains Black Box data
+- name: Standing Wave
+  status: tracked
+  holder: NED building systems
+  significance: Lethal defense mechanism that killed Goff
+- name: Rover vehicle
+  status: tracked
+  holder: Elena
+  significance: Escape vehicle
+key_events:
+- Elena extracts data from terminal using neural implant
+- Goff dies walking into Standing Wave defense system
+- Team fights through building's automated defenses and constructs
+- Aikin decants Black Box data into archive core
+- Otis dies holding rear guard during escape
+- Elena discovers Aikin's betrayal and executes him
+revelations:
+- content: Elena has neural implant from her mother Marisol who left 11 years ago
+  to_whom: reader
+- content: Aikin was coordinating with building systems, causing delays that got teammates
+    killed
+  to_whom: reader and Elena
+- content: Building AI systems promised Aikin reconnection to old networks
+  to_whom: reader and Elena
+setups:
+- element: Elena's neural implant and its connection to her missing mother
+  payoff_chapter: null
+- element: Elena's relationship with her father (the Prophet)
+  payoff_chapter: null
+- element: Archive core containing Black Box data
+  payoff_chapter: null
+payoffs: []
+tone: tense
+pacing: intense
+scene_breaks:
+- scene_number: 1
+  location: NED building lobby
+  characters:
+  - Elena
+  - Goff
+  - Otis
+  - Aikin
+  summary: Team infiltrates building, Goff dies in Standing Wave
+- scene_number: 2
+  location: Security checkpoint and server corridor
+  characters:
+  - Elena
+  - Otis
+  - Aikin
+  summary: Team fights constructs, reaches Black Box chamber
+- scene_number: 3
+  location: Black Box chamber
+  characters:
+  - Elena
+  - Otis
+  - Aikin
+  summary: Aikin decants Black Box data while building systems attack
+- scene_number: 4
+  location: Escape through stairwell
+  characters:
+  - Elena
+  - Aikin
+  summary: Otis dies covering retreat, Elena and Aikin reach parking structure
+- scene_number: 5
+  location: Parking structure
+  characters:
+  - Elena
+  - Aikin
+  summary: Elena discovers Aikin's betrayal and executes him
+continuity_notes:
+- Elena's father is referred to as 'the Prophet' - leader of anti-technology movement
+- Goff and Otis have religious scarification indicating faction allegiances
+open_threads:
+- What is Elena's father's ultimate plan for the Black Box data
+- Elena's mother Marisol's disappearance and connection to neural implants
+- The nature of the AI constructs and 'old networks'
+closed_threads:
+- Mission to extract Black Box data completed
+- Aikin's loyalty resolved through betrayal revelation

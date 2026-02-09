@@ -1,0 +1,20 @@
+{"timestamp": "2026-01-17T22:19:26.102", "level": "DEBUG", "source": "demo", "message": "This is a debug message"}
+{"timestamp": "2026-01-17T22:19:26.102", "level": "INFO", "source": "demo", "message": "This is an info message"}
+{"timestamp": "2026-01-17T22:19:26.102", "level": "SUCCESS", "source": "demo", "message": "This is a success message"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "WARNING", "source": "demo", "message": "This is a warning message"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "ERROR", "source": "demo", "message": "This is an error message"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "INFO", "source": "demo", "message": "Analysis Results", "data": {"chapters_processed": 7, "issues_found": 12, "issues_fixed": 10, "breakdown": {"timeline": 3, "continuity": 5, "voice": 4}}}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "INFO", "source": "demo", "message": "Starting: Processing chapters"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "INFO", "source": "demo", "message": "Loading chapter 38"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "INFO", "source": "demo", "message": "Analyzing content"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "SUCCESS", "source": "demo", "message": "Found 3 issues"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "SUCCESS", "source": "demo", "message": "Completed: Processing chapters (0.00s)"}
+{"timestamp": "2026-01-17T22:19:26.103", "level": "INFO", "source": "demo", "message": "Analyzing with context", "context": {"agent": "continuity_editor", "chapter": 38}}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "INFO", "source": "demo", "message": "Still has context", "context": {"agent": "continuity_editor", "chapter": 38}}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "INFO", "source": "demo", "message": "Context cleared"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "INFO", "source": "demo", "message": "Log Summary: 14 total entries"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "DEBUG", "source": "demo", "message": "DEBUG: 1"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "INFO", "source": "demo", "message": "INFO: 8"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "SUCCESS", "source": "demo", "message": "SUCCESS: 3"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "WARNING", "source": "demo", "message": "WARNING: 1"}
+{"timestamp": "2026-01-17T22:19:26.104", "level": "ERROR", "source": "demo", "message": "ERROR: 1"}

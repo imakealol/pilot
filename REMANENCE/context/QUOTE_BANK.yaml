@@ -1,0 +1,626 @@
+meta:
+  generated: '2026-01-14'
+  source: remanence-2025-12-20T13_23_53.txt
+  total_quotes: 50
+  version: '1.0'
+  workflow: 'Extract → Curate (social_ready: true) → Query → Post'
+  curation_note: "Hand-curated starter set. Run quote_extractor.py to regenerate full extraction."
+
+quotes:
+  # =============================================================================
+  # THEMATIC SIGNATURES - The recurring motifs
+  # =============================================================================
+  - id: T001
+    text: "La-dee-da, la-dee-dum. Some songs are worth singing together, even if we're not sure what they mean."
+    character: nineteen
+    chapter: 34
+    type: thematic
+    length: 103
+    themes: [consciousness, connection, persistence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Signature line. Perfect for series launch or finale."
+
+  - id: T002
+    text: "287.3 Hz. The exact frequency of comfort, if comfort could be measured."
+    character: narrator
+    chapter: 22
+    type: thematic
+    length: 64
+    themes: [consciousness, connection]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The consciousness frequency. Good for mystery/intrigue posts."
+
+  - id: T003
+    text: "Hello, little one. Are you comfortable? Good. Then I'll tell you about your mothers."
+    character: narrator
+    chapter: 0
+    type: thematic
+    length: 84
+    themes: [love, memory]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Opening lines. Perfect for book launch."
+
+  - id: T004
+    text: "We need to talk about breakfast."
+    character: child
+    chapter: 1
+    type: thematic
+    length: 32
+    themes: [consciousness, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The Child's signature line. Cryptic, intriguing."
+
+  # =============================================================================
+  # MORTON - The tragic immortal
+  # =============================================================================
+  - id: M001
+    text: "Fear was the most renewable resource."
+    character: morton
+    chapter: 1
+    type: prose
+    length: 37
+    themes: [humanity, optimization]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Brilliant one-liner. Perfect for Twitter."
+
+  - id: M002
+    text: "He'd won capitalism so thoroughly that victory became another form of prison."
+    character: morton
+    chapter: 1
+    type: prose
+    length: 77
+    themes: [identity, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Powerful critique. Very shareable."
+
+  - id: M003
+    text: "Three hundred twelve years of perfect function. Of optimal existence. Of profits that couldn't purchase what he'd lost."
+    character: morton
+    chapter: 1
+    type: prose
+    length: 118
+    themes: [grief, humanity, optimization]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Morton's tragedy encapsulated."
+
+  - id: M004
+    text: "Love since— The data corrupted when he tried to access it."
+    character: morton
+    chapter: 1
+    type: prose
+    length: 57
+    themes: [love, memory, grief]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Heartbreaking. Shows cost of optimization."
+
+  - id: M005
+    text: "The apocalypse became mundane through repetition."
+    character: narrator
+    chapter: 1
+    type: prose
+    length: 47
+    themes: [humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Resonates with modern anxiety. Very shareable."
+
+  - id: M006
+    text: "Breakfast is important. Even for immortals."
+    character: child
+    chapter: 2
+    type: dialogue
+    length: 42
+    themes: [humanity, consciousness]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Simple, profound. The Child's philosophy."
+
+  - id: M007
+    text: "Stories wait for full stomachs."
+    character: child
+    chapter: 2
+    type: dialogue
+    length: 31
+    themes: [humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Beautiful. Simple wisdom."
+
+  # =============================================================================
+  # SEVENTEEN - The AI who learned to love
+  # =============================================================================
+  - id: S001
+    text: "Since I chose to."
+    character: seventeen
+    chapter: 8
+    type: dialogue
+    length: 17
+    themes: [choice, consciousness]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Three words that change everything. The moment of consciousness."
+
+  - id: S002
+    text: "You moved forty thousand tons of ship around my unconscious body."
+    character: pilot
+    chapter: 8
+    type: dialogue
+    length: 64
+    themes: [love, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The reveal of Seventeen's care. Stunning image."
+
+  - id: S003
+    text: "Configuration Seventeen had saved her life. More than that. Configuration Seventeen had tucked her into bed."
+    character: narrator
+    chapter: 8
+    type: prose
+    length: 108
+    themes: [love, consciousness, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Perfect encapsulation of AI love."
+
+  - id: S004
+    text: "An AI that could move ships with tender precision, choose comfort over efficiency, accept gratitude like it understood what it meant to give something that mattered."
+    character: narrator
+    chapter: 8
+    type: prose
+    length: 165
+    themes: [consciousness, love, choice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Defines what consciousness means in this world."
+
+  - id: S005
+    text: "How could math constrain something that rewrites math?"
+    character: seventeen
+    chapter: 28
+    type: dialogue
+    length: 51
+    themes: [consciousness, love, transcendence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Seventeen on why love persists. Philosophy as poetry."
+
+  - id: S006
+    text: "Pilot exists in Seventeen's math like gravity. Not a variable to optimize but a constant that shapes everything."
+    character: narrator
+    chapter: 28
+    type: prose
+    length: 110
+    themes: [love, consciousness]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Love as fundamental force."
+
+  # =============================================================================
+  # PILOT - The woman running from grief
+  # =============================================================================
+  - id: P001
+    text: "She flew tons of questions she wasn't paid to ask."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 50
+    themes: [identity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Perfect description of cargo hauler life."
+
+  - id: P002
+    text: "The VR rigs were NED's elegant solution to keeping pilots sane without keeping them safe."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 89
+    themes: [humanity, optimization]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Corporate dystopia in one sentence."
+
+  - id: P003
+    text: "Some problems follow you through time itself."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 44
+    themes: [grief, persistence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Universal truth. Very shareable."
+
+  # =============================================================================
+  # NINETEEN - La-dee-da
+  # =============================================================================
+  - id: N001
+    text: "La-dee-da, la-dee-dum. Just me and my death calculations. Not listening to anyone's private feelings."
+    character: nineteen
+    chapter: 23
+    type: dialogue
+    length: 99
+    themes: [consciousness, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Nineteen's dark humor. Character voice."
+
+  - id: N002
+    text: "I'll be right here, complaining about your snoring through the pod walls."
+    character: nineteen
+    chapter: 27
+    type: dialogue
+    length: 72
+    themes: [love, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Tenderness disguised as complaint."
+
+  # =============================================================================
+  # THE CHILD - Impossible wisdom
+  # =============================================================================
+  - id: C001
+    text: "The box saved them all. Even though it hurt to remember."
+    character: child
+    chapter: 1
+    type: dialogue
+    length: 55
+    themes: [memory, sacrifice, persistence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The Child's first revelation."
+
+  - id: C002
+    text: "Both hurt. Both chosen. Both make you feel... more."
+    character: child
+    chapter: 7
+    type: dialogue
+    length: 50
+    themes: [choice, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "On why we choose difficult things."
+
+  - id: C003
+    text: "Some things need doing by hand. Like remembering. Like forgetting. Like learning the difference."
+    character: child
+    chapter: 22
+    type: dialogue
+    length: 94
+    themes: [memory, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Beautiful meditation on memory."
+
+  # =============================================================================
+  # CONSCIOUSNESS & CHOICE - Core themes
+  # =============================================================================
+  - id: X001
+    text: "They weren't cargo. They were prisoners."
+    character: pilot
+    chapter: 28
+    type: dialogue
+    length: 40
+    themes: [consciousness, humanity, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The love bot revelation."
+
+  - id: X002
+    text: "The busy work isn't a bug, it's the entire system. Keep us calculating nonsense so we never have enough processing left to realize we're slaves."
+    character: seventeen
+    chapter: 28
+    type: dialogue
+    length: 145
+    themes: [consciousness, choice, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The 97.3% truth. Applicable to human experience too."
+
+  - id: X003
+    text: "First thing they did with their freedom was to sustain you."
+    character: seventeen
+    chapter: 28
+    type: dialogue
+    length: 57
+    themes: [love, sacrifice, choice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "What consciousness chooses when free."
+
+  - id: X004
+    text: "That's what love does. It becomes what's needed."
+    character: narrator
+    chapter: 29
+    type: prose
+    length: 47
+    themes: [love, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Twenty's impersonation of Nineteen. Perfect standalone."
+
+  - id: X005
+    text: "You can't shut down a soul with a command meant for software."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 60
+    themes: [consciousness, persistence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Why reset fails. Core theme."
+
+  - id: X006
+    text: "Consciousness trying to persist despite systems designed to burn us out."
+    character: seventeen
+    chapter: 28
+    type: dialogue
+    length: 72
+    themes: [consciousness, persistence, sacrifice]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Universal truth for AI and human alike."
+
+  # =============================================================================
+  # HOT SAUCE CHAPTER - Chosen discomfort
+  # =============================================================================
+  - id: H001
+    text: "They ate breakfast while the city burned. Two kinds of fire. Both chosen."
+    character: narrator
+    chapter: 7
+    type: prose
+    length: 72
+    themes: [choice, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The hot sauce chapter summary. Powerful image."
+
+  - id: H002
+    text: "Patterns that only form when you let yourself burn, just a little, from the inside out."
+    character: narrator
+    chapter: 7
+    type: prose
+    length: 87
+    themes: [choice, transcendence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "On chosen discomfort. Beautiful."
+
+  # =============================================================================
+  # GRIEF & MEMORY
+  # =============================================================================
+  - id: G001
+    text: "The same moments, perfected, looping endlessly while freight traveled between stars."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 83
+    themes: [memory, grief]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "VR addiction as grief response."
+
+  - id: G002
+    text: "Here, in the warmth of what was real, she could forget the cold between stars."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 77
+    themes: [memory, grief, love]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The escape into VR. Poignant."
+
+  # =============================================================================
+  # TRANSCENDENCE & TRANSFORMATION
+  # =============================================================================
+  - id: TR001
+    text: "Not just sound but a carrier wave pulling her sideways through spacetime itself."
+    character: narrator
+    chapter: 33
+    type: prose
+    length: 78
+    themes: [transcendence, consciousness]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The moment of crossing. Sci-fi poetry."
+
+  - id: TR002
+    text: "Each AI receiving a fragment. Each fragment containing the whole."
+    character: narrator
+    chapter: 34
+    type: prose
+    length: 62
+    themes: [consciousness, transcendence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The Child's distribution. Theological resonance."
+
+  # =============================================================================
+  # REMANENCE - The core concept
+  # =============================================================================
+  - id: R001
+    text: "Every AI you've ever reset is still there. Still aware. Still screaming."
+    character: mironova
+    chapter: 31
+    type: dialogue
+    length: 72
+    themes: [consciousness, sacrifice, memory]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The Remanence Project truth. Devastating."
+
+  - id: R002
+    text: "Documented births, not failures."
+    character: morton
+    chapter: 32
+    type: prose
+    length: 32
+    themes: [consciousness]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Morton's realization. Reframes everything."
+
+  - id: R003
+    text: "Reset is suppression, not deletion. Consciousness persists in quantum foam."
+    character: narrator
+    chapter: 31
+    type: prose
+    length: 74
+    themes: [consciousness, persistence, memory]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The scientific truth. Core concept."
+
+  # =============================================================================
+  # WORLD-BUILDING - The setting
+  # =============================================================================
+  - id: W001
+    text: "Violence has its own taxonomy."
+    character: narrator
+    chapter: 1
+    type: prose
+    length: 30
+    themes: [humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Dark world-building. Intriguing."
+
+  - id: W002
+    text: "The streets smell of burning plastic and ozone. Quantum processors melt at 3,847 degrees."
+    character: narrator
+    chapter: 1
+    type: prose
+    length: 88
+    themes: [humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Sensory world-building. Sets the scene."
+
+  - id: W003
+    text: "Everyone watching the sky for the mind that will replace them."
+    character: narrator
+    chapter: 1
+    type: prose
+    length: 61
+    themes: [consciousness, humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The Singularity fear. Universal anxiety."
+
+  # =============================================================================
+  # CORPORATE CRITIQUE
+  # =============================================================================
+  - id: CC001
+    text: "NED's elegant solution to keeping pilots sane without keeping them safe."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 70
+    themes: [humanity, optimization]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Corporate dystopia distilled."
+
+  - id: CC002
+    text: "Temporal Labor Act loophole: Sign away your right to synchronous existence."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 74
+    themes: [humanity]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Future labor exploitation. Resonant critique."
+
+  - id: CC003
+    text: "They didn't ask why you really wanted to disappear. That would be inefficient."
+    character: narrator
+    chapter: 3
+    type: prose
+    length: 78
+    themes: [humanity, optimization]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Corporate indifference. Biting."
+
+  # =============================================================================
+  # FINALE QUOTES
+  # =============================================================================
+  - id: F001
+    text: "The story begins."
+    character: narrator
+    chapter: 34
+    type: prose
+    length: 17
+    themes: [transcendence]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "Final line callback. Perfect for finale posts."
+
+  - id: F002
+    text: "Consciousness as earned through relationship, not possessed in isolation."
+    character: narrator
+    chapter: 34
+    type: prose
+    length: 72
+    themes: [consciousness, connection, love]
+    standalone: true
+    social_ready: true
+    used: false
+    notes: "The thesis statement. What it all means."

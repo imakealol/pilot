@@ -1,0 +1,75 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 25
+  findings:
+    - id: CE-CS-25-001
+      type: verified
+      severity: clean
+      location: Hendricks physical restoration
+      content: Hendricks' physical restoration from Geometry crossing is consistent with his critical condition in previous chapters. Physical markers show regression from age 73 to 60-65, tremor gone, color returned.
+      evidence: "His readings are consistent with a healthy male, approximately sixty to sixty-five years of age... The tremor in his hands—the one she noticed when he held the wheel, when he reached for his hip—is gone."
+      cross_reference: 24
+    
+    - id: CE-CS-25-002
+      type: verified
+      severity: clean
+      location: Standard's physical examination abilities
+      content: Standard demonstrates consistent medical assessment skills, checking pulse, examining for pain response, assessing physical condition - matches her analytical nature from previous chapters.
+      evidence: "She presses two fingers to the pulse point on his neck. Counts. Strong and steady... Her hands move to his ribs, pressing gently where the bruising was worst."
+      cross_reference: 19
+    
+    - id: CE-CS-25-003
+      type: verified
+      severity: clean
+      location: Standard's weapon handling
+      content: Standard's unfamiliarity with pulse rifle is consistent with her lack of combat training established in earlier chapters.
+      evidence: "Standard racks the rifle. The weight feels wrong in her hands—too light, too balanced. She's never trained with one. She doesn't know why she knows she's never trained with one."
+      cross_reference: 21
+    
+    - id: CE-CS-25-004
+      type: verified
+      severity: clean
+      location: Hendricks missing revolver
+      content: Hendricks reaching for missing revolver is consistent - weapon was left with Ash in Chapter 16.
+      evidence: "Hendricks is already reaching for a sidearm—then stops, remembering his revolver is still with Ash."
+      cross_reference: 16
+    
+    - id: CE-CS-25-005
+      type: verified
+      severity: clean
+      location: Elena's implant behavior
+      content: Elena's hand going to implant scar during stress is consistent with established nervous habit from previous chapters.
+      evidence: "Her hand has gone to the back of her neck, pressing against the implant scar."
+      cross_reference: 18
+    
+    - id: CE-CS-25-006
+      type: observation
+      severity: info
+      location: Standard's invisibility to Geometry
+      content: Chapter establishes Standard's unique status as unclassifiable to Geometry entities, making her invisible to their sorting system. This explains her survival through deletion zones.
+      evidence: "Not pattern. Not flesh. Not anything they recognize... She does not concern us... You're a gap in their system."
+      cross_reference: 24
+    
+    - id: CE-CS-25-007
+      type: verified
+      severity: clean
+      location: Standard's religious icon status
+      content: Standard's recognition as religious figure continues from waystation incident, showing consistent world-building about her growing reputation.
+      evidence: "There are prophecies. Stories that have circulated since the Miracle. About one who would walk through the Geometry unharmed."
+      cross_reference: 23
+
+  carry_forward:
+    - Hendricks physically restored to age 60-65 from 73 after Geometry crossing
+    - Standard confirmed as invisible/irrelevant to Geometry classification system
+    - Standard increasingly forced into messianic role by survivors
+    - Elena maintains nervous habit of touching implant scar during stress
+    - Hendricks' revolver still with Ash at compound
+    - Group now aboard Sovereignty carrier Deliverance as "guests"
+    - Standard's weapon unfamiliarity continues despite circumstances
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

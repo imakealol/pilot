@@ -1,0 +1,58 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard captured by Kael, being taken to Quiet Zone (Ash's territory)
+  - Elena, Hendricks, Four, and Dante escaped in VTOL heading to Geneva
+  - Six hour travel time established to Geneva
+  - Deliverance destroyed by Geometry
+  - Rescue team plans Geneva first, then return for Standard
+  chapter: 32
+  findings:
+  - content: Timeline flows correctly from Chapter 31 - Standard breaks free from
+      restraint frame as Geometry attack begins
+    cross_reference: 31
+    evidence: Her fingers are still reaching for the other restraint, still brushing
+      the clasp, almost there—and then she isn't reaching anymore
+    id: CE-TL-32-001
+    location: chapter opening
+    severity: clean
+    type: verified
+  - content: Kael's survival and capture of Standard follows logically from Chapter
+      31 setup where he flees during Geometry attack
+    cross_reference: 31
+    evidence: Half the chamber is gone—consumed by perfect planes, by angles that
+      shouldn't exist—and his delegation with it. But he's still here. He survived.
+    id: CE-TL-32-002
+    location: Kael's capture sequence
+    severity: clean
+    type: verified
+  - content: Timeline coordination between Standard's capture and Elena's imprisonment
+      is consistent - both happen during Deliverance's destruction
+    cross_reference: 31
+    evidence: The Terminist shuttle launched two minutes ago. Trajectory heading south-southeast.
+      The Quiet Zone.
+    id: CE-TL-32-003
+    location: shuttle departure timing
+    severity: clean
+    type: verified
+  - content: Elena and Hendricks' rescue from cells using Dante's codes follows established
+      setup from Chapter 30
+    cross_reference: 30
+    evidence: Dante's codes work. I can release the locks.
+    id: CE-TL-32-004
+    location: rescue sequence
+    severity: clean
+    type: verified
+  - content: Timeline properly establishes pursuit scenario - Standard captured and
+      taken to Quiet Zone while rescue team escapes to Geneva
+    cross_reference: null
+    evidence: 'Geneva first. Then we go back for her... Course confirmed. ETA: six
+      hours.'
+    id: CE-TL-32-005
+    location: chapter end
+    severity: clean
+    type: verified
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

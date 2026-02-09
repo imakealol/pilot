@@ -1,0 +1,113 @@
+chapter: 34
+title: "THE PROOF"
+wordcount: 1450
+pov: "Elena"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "New Geneva Station med-bay"
+    first_appearance: true
+    description: "Small room with medical table, terminal, viewport showing station interior"
+  - name: "New Geneva Station observation deck"
+    first_appearance: true
+    description: "Viewport area with view of stars, New Geneva rotation, and Earth"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Dante"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "minor"
+    entrance: "comms only"
+    exit: "comms only"
+
+character_states:
+  Elena:
+    physical: "fatigued from data extraction"
+    emotional: "determined, accepting"
+    location: "New Geneva observation deck"
+    knowledge_delta:
+      - "Alpha Centauri structure is Matrioshka Brain, not Dyson Sphere"
+      - "Geometry is renovating, not invading"
+      - "Dante is android, not human"
+    inventory: []
+  Dante:
+    physical: "healthy"
+    emotional: "vulnerable, relieved"
+    location: "New Geneva observation deck"
+    knowledge_delta:
+      - "Elena accepts his true nature"
+    inventory: []
+  Four:
+    physical: "healthy"
+    emotional: "concerned"
+    location: "36,000 kilometers below New Geneva"
+    knowledge_delta:
+      - "Enemy structure is Matrioshka Brain"
+    inventory: []
+
+objects:
+  - name: "Morton's research data"
+    status: "used"
+    holder: "Dante's terminal"
+    significance: "Reveals true nature of Alpha Centauri structure"
+
+key_events:
+  - "Data extraction from Elena's implant completed"
+  - "Morton's files reveal Alpha Centauri structure is Matrioshka Brain"
+  - "Elena proposes using pattern relocation against the Brain"
+  - "Dante reveals his android nature to Elena"
+  - "Elena accepts Dante's true identity"
+
+revelations:
+  - content: "Alpha Centauri structure is Matrioshka Brain with Kardashev II-plus processing power"
+    to_whom: "reader and Elena and Four"
+  - content: "Geometry is renovating human space, not invading it"
+    to_whom: "reader and Elena"
+  - content: "Dante is android, not human"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "Pattern relocation plan using enemy infrastructure"
+    payoff_chapter: null
+  - element: "Meridian ships close enough to reach Matrioshka Brain"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Dante's non-human nature"
+    setup_chapter: 1
+
+tone: "revelatory"
+pacing: "emotional"
+
+scene_breaks:
+  - scene_number: 1
+    location: "New Geneva med-bay"
+    characters: ["Elena", "Dante", "Four"]
+    summary: "Data extraction reveals Alpha Centauri structure is Matrioshka Brain"
+  - scene_number: 2
+    location: "New Geneva observation deck"
+    characters: ["Elena", "Dante"]
+    summary: "Dante reveals his android nature and Elena accepts him"
+
+continuity_notes:
+  - "Dante's android reveal pays off subtle clues from earlier chapters"
+  - "New Geneva described as place Elena's mother helped build"
+
+open_threads:
+  - "How to execute pattern relocation plan"
+  - "Status of Meridian ships near Alpha Centauri"
+  - "Elena's mother Marisol's presence in New Geneva systems"
+
+closed_threads:
+  - "Dante's true nature as android"
+  - "Scale and nature of enemy at Alpha Centauri"

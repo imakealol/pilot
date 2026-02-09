@@ -1,0 +1,51 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 31
+  findings:
+    - id: CE-TL-31-001
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Chapter occurs immediately after Chapter 30 council meeting as established
+      evidence: "Yesterday it smelled like fear... Today it smells like decision"
+      cross_reference: 30
+    - id: CE-TL-31-002
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: References to Standard's previous speech align with Chapter 29 events
+      evidence: "She stands in the same spot where she delivered her speech... She won them last night. She felt it."
+      cross_reference: 29
+    - id: CE-TL-31-003
+      type: verified
+      severity: clean
+      location: character positioning
+      content: Guard allocation reflects threat assessment from previous chapters
+      evidence: "four for Elena, six for Hendricks. Someone calculated the threat"
+      cross_reference: 29
+    - id: CE-TL-31-004
+      type: verified
+      severity: clean
+      location: chapter ending
+      content: Geometry attack timing aligns with broader timeline established in previous chapters
+      evidence: "The formatting spreads... it's moving around her. Like she's a gap in their logic"
+      cross_reference: 25
+    - id: CE-TL-31-005
+      type: verified
+      severity: clean
+      location: throughout
+      content: Character knowledge states consistent with previous chapter revelations
+      evidence: "I know who holds my leash... It's the people I love"
+      cross_reference: 29
+  carry_forward:
+    - Standard's restraint partially broken during Geometry attack
+    - Elena and Hendricks taken to detention awaiting tribunal
+    - Council chamber being consumed by Geometry formatting
+    - Standard confirmed as gap in Geometry logic
+    - Kael's emotional breakdown and violence toward Standard
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

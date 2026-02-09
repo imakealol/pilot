@@ -14,8 +14,9 @@ cannot_write: [plot_decisions, other_character_dialogue]
 
 ## Character Profile
 
-**Canonical Name:** Hendricks (Book 1), Swanstrom Kim Hendricks (full name revealed Book 2)
-**Aliases:** Security chief, Sabino Hendricks
+**Canonical Name:** Sabino Hendricks (full name), called "Hendricks" by everyone
+**Shutdown Phrase:** "Swanstrom Kim Hendricks" — Standard initially mistakes this for his name (narrative confusion intentional)
+**Aliases:** Security chief
 **Pronouns:** he/him
 **Age:** 73 chronological, appears 45 with regulator (Book 1), 60-65 post-restoration (Book 2)
 **Sexuality:** Homosexual

@@ -1,0 +1,58 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 23
+  findings:
+    - id: CE-CS-23-001
+      type: issue
+      severity: major
+      location: Opening scene - Standard's physical condition
+      content: Standard's left knee "has stopped sending signals" and shoulders "ache in a way that feels structural" but these injuries are not established in previous chapters
+      evidence: "Her left knee has stopped sending signals. Her shoulders ache in a way that feels structural."
+      cross_reference: 22
+    - id: CE-CS-23-002
+      type: verified
+      severity: clean
+      location: Standard's lack of hunger/recharging needs
+      content: Consistent with established pattern - Standard doesn't need food or recharge like normal companion bots
+      evidence: "When did you last eat?" Standard has to think... "I don't eat. I don't recharge. I heal wrong."
+      cross_reference: 19
+    - id: CE-CS-23-003
+      type: verified
+      severity: clean
+      location: Standard's resistance to lockdown sequence
+      content: Correctly references previous resistance to shutdown commands, maintains continuity
+      evidence: "Somebody already tried," she blurted... "Didn't work."
+      cross_reference: 7
+    - id: CE-CS-23-004
+      type: observation
+      severity: minor
+      location: Elena's emotional state
+      content: Elena shows significant stress about the companion bot plan, consistent with her protective attitude toward Standard
+      evidence: "Her expression could curdle fuel" and "She looks like someone walking toward something she'd rather set on fire"
+      cross_reference: 22
+    - id: CE-CS-23-005
+      type: verified
+      severity: clean
+      location: Hendricks' condition
+      content: Hendricks remains unconscious/unresponsive, consistent with his critical state from previous chapter
+      evidence: "Hendricks hasn't moved in twenty minutes. She's been counting."
+      cross_reference: 22
+    - id: CE-CS-23-006
+      type: verified
+      severity: clean
+      location: Standard's Template 3 identity
+      content: Revelation about mass-produced face template is consistent with established android nature
+      evidence: "I have the NED Companion Series 7 face. Template 3... So do forty thousand others"
+      cross_reference: 10
+  carry_forward:
+    - Standard has unexplained structural injuries (knee, shoulders) that need tracking
+    - Standard's immunity to lockdown sequences confirmed again
+    - Standard now has proper clothing and supplies from waystation
+    - Religious worship of Standard established at waystation
+    - Elena's protective instincts toward Standard continue to strengthen
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

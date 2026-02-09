@@ -1,0 +1,40 @@
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 38,\
+  \ column 7:\n        - id: CE-TL-2-005\n          ^\nexpected <block end>, but found\
+  \ '<scalar>'\n  in \"<unicode string>\", line 43, column 29:\n          evidence:\
+  \ \"How long?\" Elena asks. Aikin's eyes are on  ... \n                        \
+  \        ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 2\n  findings:\n    - id: CE-TL-2-001\n      type: verified\n      severity: clean\n\
+  \      location: chapter opening\n      content: Timeline flows correctly from Chapter\
+  \ 1 - Elena's team is conducting the extraction mission that was established as\
+  \ happening \"hours later\" from the previous chapter\n      evidence: \"Elena pulls\
+  \ her hand back from the terminal as footsteps echo behind her\"\n      cross_reference:\
+  \ 1\n\n    - id: CE-TL-2-002\n      type: verified\n      severity: clean\n    \
+  \  location: background exposition\n      content: Eleven-year timeframe for Marisol's\
+  \ departure is consistent and will need tracking\n      evidence: \"It was the last\
+  \ thing her mother, Marisol, gave her before she walked out the door eleven years\
+  \ ago\"\n      cross_reference: null\n\n    - id: CE-TL-2-003\n      type: verified\n\
+  \      severity: clean\n      location: building context\n      content: Timeline\
+  \ reference to \"the Miracle\" and NED shutdown is consistent with world-building\
+  \ - CEO murdered \"forty stories above\" creates clear spatial reference\n     \
+  \ evidence: \"NED had shuttered after their CEO was murdered forty stories above\
+  \ where they currently are\"\n      cross_reference: null\n\n    - id: CE-TL-2-004\n\
+  \      type: verified\n      severity: clean\n      location: mission execution\
+  \ sequence\n      content: Action sequence timing is internally consistent - Standing\
+  \ Wave encounter, checkpoint breach, and extraction follow logical temporal progression\n\
+  \      evidence: \"Three seconds. Maybe four. Blood fogs the visor from inside\"\
+  \n      cross_reference: null\n\n    - id: CE-TL-2-005\n      type: verified\n \
+  \     severity: clean\n      location: extraction process\n      content: Transfer\
+  \ timing creates appropriate tension - \"Two minutes. Maybe three\" stretched by\
+  \ Aikin's sabotage is believable\n      evidence: \"How long?\" Elena asks. Aikin's\
+  \ eyes are on the screen. \"Two minutes. Maybe three.\"\n      cross_reference:\
+  \ null\n\n    - id: CE-TL-2-006\n      type: verified\n      severity: clean\n \
+  \     location: chapter conclusion\n      content: Chapter ends with immediate transition\
+  \ setup - Elena alone in Rover sets up next chapter's beginning\n      evidence:\
+  \ \"She climbs into the driver's seat. Three seats behind her sit empty. She starts\
+  \ the engine.\"\n      cross_reference: null\n\n  carry_forward:\n    - Marisol\
+  \ departed eleven years ago (consistent reference point)\n    - Elena now has Black\
+  \ Box data in archive core\n    - Elena's team reduced from 4 to 1 (Goff and Otis\
+  \ dead, Aikin executed)\n    - NED building cleared, mission complete\n    - Timeline\
+  \ flows \"hours later\" from Chapter 1\n\n  self_check:\n    stayed_in_lane: true\n\
+  \    findings_cited: true\n```"

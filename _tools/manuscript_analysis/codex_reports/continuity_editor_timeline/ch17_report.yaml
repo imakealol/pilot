@@ -1,0 +1,40 @@
+_extracted_finding_ids:
+- CE-TL-17-001
+- CE-TL-17-002
+- CE-TL-17-003
+- CE-TL-17-004
+- CE-TL-17-005
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 30,\
+  \ column 7:\n        - id: CE-TL-17-004\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 35, column 41:\n     ... idence:\
+  \ \"This is Otis's shirt.\" / \"Otis is dead...She died for t ... \n           \
+  \                              ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 17\n  findings:\n    - id: CE-TL-17-001\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Chapter occurs immediately\
+  \ after Chapter 16 events - Ash turns from the confrontation to examine Standard\n\
+  \      evidence: \"Ash turns. He looks at the Rover. He looks at Standard. She is\
+  \ still in the driver's seat.\"\n      cross_reference: 16\n    \n    - id: CE-TL-17-002\n\
+  \      type: verified\n      severity: clean\n      location: mid-chapter dialogue\n\
+  \      content: Ash's knowledge timeline is consistent - he states he's known about\
+  \ sky threat \"for six hours\" which aligns with real-time progression\n      evidence:\
+  \ \"I've known for six hours...Since the first transmission came through.\"\n  \
+  \    cross_reference: null\n    \n    - id: CE-TL-17-003\n      type: verified\n\
+  \      severity: clean\n      location: Elena's reference to past events\n     \
+  \ content: Elena's account of checkpoint events matches established timeline from\
+  \ Chapter 5\n      evidence: \"The frequency. At the checkpoint. It hit everyone—guards,\
+  \ refugees, everyone. They all went down. She didn't.\"\n      cross_reference:\
+  \ 5\n    \n    - id: CE-TL-17-004\n      type: verified\n      severity: clean\n\
+  \      location: Otis shirt reference\n      content: Standard wearing Otis's clothes\
+  \ is consistent with acquisition in Chapter 8\n      evidence: \"This is Otis's\
+  \ shirt.\" / \"Otis is dead...She died for the Box.\"\n      cross_reference: 8\n\
+  \    \n    - id: CE-TL-17-005\n      type: verified\n      severity: clean\n   \
+  \   location: Box transport timeline\n      content: Reference to Box being \"carried\
+  \ into the tower\" is consistent with Chapter 16 events\n      evidence: \"Even\
+  \ the hum of the Box is gone now, carried into the tower.\"\n      cross_reference:\
+  \ 16\n\n  carry_forward:\n    - Standard taken to Examination Room for scanning\
+  \ and analysis\n    - Ash has known about sky threat for six hours via compound\
+  \ listeners/interpreters\n    - Elena's authority with her father is limited despite\
+  \ family relationship\n    - Eastern fields contain thousands of lobotomized refugees\
+  \ kept as \"quiet ones\"\n    - Box integration delayed while Standard is examined\n\
+  \n  self_check:\n    stayed_in_lane: true\n    findings_cited: true\n```"

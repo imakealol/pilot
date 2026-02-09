@@ -1,0 +1,65 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 4
+  findings:
+    - id: CE-TL-04-001
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Timeline continuity with Chapter 3 maintained - immediate continuation from apartment departure
+      evidence: "They descend" - picks up directly from end of Chapter 3 where they were leaving the apartment
+      cross_reference: 3
+
+    - id: CE-TL-04-002
+      type: observation
+      severity: info
+      location: revolver ammunition count
+      content: Ammunition tracking consistent with established count
+      evidence: "There are two rounds left. There were six."
+      cross_reference: 3
+
+    - id: CE-TL-04-003
+      type: verified
+      severity: clean
+      location: Hendricks' deteriorating condition
+      content: Physical condition progression consistent with previous chapter timeline
+      evidence: "He is getting worse" / "his breathing sounds wet" / "twice now she's seen his knee buckle"
+      cross_reference: 3
+
+    - id: CE-TL-04-004
+      type: observation
+      severity: info
+      location: descent through building levels
+      content: Specific floor progression documented for spatial continuity
+      evidence: "They pass Level 50... They pass Level 48... Level 42"
+      cross_reference: null
+
+    - id: CE-TL-04-005
+      type: verified
+      severity: clean
+      location: scanner reading of Standard
+      content: Standard's undetectable nature consistent with future revelations
+      evidence: "Reads empty. Full empty." / "No hum. No scar. No history."
+      cross_reference: 5
+
+    - id: CE-TL-04-006
+      type: observation
+      severity: minor
+      location: revolver usage
+      content: Combat sequence shows Hendricks using three rounds, leaving two - math checks out but doesn't account for one round used "on Child in Book 1" mentioned in codex
+      evidence: "Three shots from a hammer fanned as many times... There are two rounds left. There were six."
+      cross_reference: null
+
+  carry_forward:
+    - Hendricks has 2 rounds remaining in revolver
+    - Standard reads as "empty" on all technological scans
+    - Hendricks' condition is critical and deteriorating rapidly
+    - They are descending through building levels (currently below Level 42)
+    - Standard can withstand physical pain without normal human response
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

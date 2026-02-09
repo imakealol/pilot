@@ -1,0 +1,55 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Hendricks and Elena have separated - Hendricks heading to compound alone while
+    injured
+  - Elena heading to disable the Softing in 4 minutes
+  - Dante remains at orbital station to coordinate transmission
+  - Template 3s cannot enter Quiet Zone until Softing is disabled
+  - Both characters are injured from the tether fall and crash landing
+  chapter: 36
+  findings:
+  - content: Chapter follows immediately after Chapter 35 with Elena and Hendricks
+      descending the orbital tether
+    cross_reference: 35
+    evidence: The elevator car hums as it descends... Six hours to the base. Then
+      Four takes us the rest of the way.
+    id: CE-TL-36-001
+    location: opening sequence
+    severity: clean
+    type: verified
+  - content: Hendricks' repeated reaching for missing revolver maintains continuity
+      from previous chapters where weapon was lost to Ash
+    cross_reference: 35
+    evidence: His hand rests on the magpulse. The other keeps twitching toward his
+      empty hip, reaching for a revolver that isn't there... Each time his fingers
+      find nothing and he goes still
+    id: CE-TL-36-002
+    location: mid-chapter
+    severity: clean
+    type: verified
+  - content: Descent duration and altitude measurements are internally consistent
+    evidence: Six hours to the base... Twenty-eight thousand kilometers up... at eighteen
+      thousand meters... At six thousand meters
+    id: CE-TL-36-003
+    location: descent sequence
+    severity: clean
+    type: verified
+  - content: Softing bubble shrinkage timeline matches established continuity
+    cross_reference: 14
+    evidence: Every day, the bubble shrinks a little... At current rates? Eighteen
+      months.
+    id: CE-TL-36-004
+    location: Softing failure timeline
+    severity: clean
+    type: verified
+  - content: Chapter sets up immediate next phase with proper geographic positioning
+    evidence: Twelve kilometers west... Twelve kilometers east... Four minutes
+    id: CE-TL-36-005
+    location: chapter ending
+    severity: clean
+    type: verified
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

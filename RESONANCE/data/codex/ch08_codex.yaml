@@ -1,0 +1,162 @@
+chapter: 8
+title: WHAT'S IN A NAME
+wordcount: 2800
+pov: Standard
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: Trading Post Outpost
+  first_appearance: false
+  description: Tech stalls, clinic, supply cages, dwelling containers
+- name: Data Hawker's Ambulance
+  first_appearance: true
+  description: Gutted ambulance with cables, operates data extraction services
+- name: Shipping Container Dwelling
+  first_appearance: true
+  description: Home of May and her mother, carpet scraps, battery lights
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: May
+  role: minor
+  entrance: approaches Standard at tire stack
+  exit: remains at dwelling
+- name: May's Mother
+  role: minor
+  entrance: already present in dwelling
+  exit: remains at dwelling
+- name: Data Hawker
+  role: minor
+  entrance: already present at ambulance
+  exit: remains at post
+- name: Supply Officer
+  role: minor
+  entrance: already present at supply cage
+  exit: remains at post
+- name: Hendricks
+  role: mentioned
+  entrance: already present
+  exit: stabilizing in clinic
+- name: Abbey/Otis
+  role: mentioned
+  entrance: mentioned only
+  exit: mentioned only
+character_states:
+  Standard:
+    physical: fatigued but clothed in clean garments
+    emotional: confused, searching
+    location: Rover with Elena
+    knowledge_delta:
+    - Learned about motherhood and memory loss from May's mother
+    - Acquired clothes that belonged to someone named Abbey
+    - Discovered Elena recognizes the name stitched in the pocket
+    inventory:
+    - item: Abbey's clothes with OTIS stitched in pocket
+      status: acquired
+  Elena:
+    physical: exhausted, shaking
+    emotional: devastated, grief-stricken
+    location: Rover driving away from outpost
+    knowledge_delta:
+    - Learned Morton Kess left encrypted files in her implant
+    - Discovered The Geometry is a Matrioshka Brain that 'corrects' biological life
+    - Learned the singularity will trigger an attack from The Geometry
+    - Realized Standard is wearing Otis's clothes
+    inventory:
+    - item: Fusion cells
+      status: acquired
+    - item: Water rations
+      status: acquired
+    - item: Water vouchers
+      status: gave away
+objects:
+- name: Water Vouchers
+  status: transferred
+  holder: May's mother
+  significance: Elena's gift for Otis's mother, represents enormous value
+- name: Morton Kess's Encrypted Files
+  status: accessed
+  holder: Elena's implant
+  significance: Contains crucial information about The Geometry
+- name: Abbey's/Otis's Clothes
+  status: transferred
+  holder: Standard
+  significance: Triggers Elena's recognition and grief
+key_events:
+- May finds Standard and offers to help with clothing
+- Elena purchases supplies and learns about Abbey from supply officer
+- Elena has her implant read by data hawker, unlocking Morton's hidden files
+- Elena discovers The Geometry is a Matrioshka Brain that will 'correct' humanity
+- Standard receives clothes from May's mother who has lost her daughter Abbey
+- Elena recognizes OTIS stitched in the shirt pocket and realizes the connection
+- Elena leaves water vouchers for May's mother before departing
+revelations:
+- content: The Geometry is a Matrioshka Brain that reformats biological life as 'noise'
+  to_whom: Elena
+- content: Morton knew the singularity would trigger an attack from The Geometry
+  to_whom: Elena
+- content: Abbey was from this outpost and is now dead
+  to_whom: reader and Elena
+- content: Standard is wearing Otis's clothes (OTIS stitched in pocket)
+  to_whom: reader and Elena
+setups:
+- element: Standard wearing Otis's clothes creates connection to Elena's grief
+  payoff_chapter: null
+- element: The Geometry as Matrioshka Brain threat
+  payoff_chapter: null
+payoffs:
+- element: Elena's connection to someone named Otis revealed
+  setup_chapter: 7
+tone: melancholy
+pacing: slow burn
+scene_breaks:
+- scene_number: 1
+  location: Trading post
+  characters:
+  - Standard
+  - May
+  summary: May finds Standard and offers help with clothing.
+- scene_number: 2
+  location: Clinic and supply area
+  characters:
+  - Elena
+  - Supply Officer
+  - Medic
+  summary: Elena purchases supplies and learns about Abbey.
+- scene_number: 3
+  location: Data hawker's ambulance
+  characters:
+  - Elena
+  - Data Hawker
+  summary: Elena unlocks Morton's hidden files about The Geometry.
+- scene_number: 4
+  location: Shipping container dwelling
+  characters:
+  - Standard
+  - May
+  - May's Mother
+  summary: Standard receives clothes from grieving mother.
+- scene_number: 5
+  location: At the Rover
+  characters:
+  - Elena
+  - Standard
+  summary: Elena recognizes Otis's name and leaves vouchers for the mother.
+continuity_notes:
+- OTIS name connection between Standard's clothing and Elena's grief needs tracking
+- Morton's files about Matrioshka Brain directly connects to larger plot
+open_threads:
+- Who is Otis and what is their relationship to Standard and Elena?
+- How will The Geometry threat manifest?
+- Will Standard recover her memories?
+closed_threads:
+- What happened to the soldier Elena was traveling with (Abbey/Otis is dead)
+- What Morton discovered about The Geometry's true nature

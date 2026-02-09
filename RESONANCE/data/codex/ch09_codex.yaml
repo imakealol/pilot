@@ -1,0 +1,138 @@
+chapter: 9
+title: THE DEPO
+wordcount: 2000
+pov: Elena
+time:
+  relative_to_previous: hours later
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: Collapsed freeway interchange
+  first_appearance: true
+  description: Massive sinkhole with shattered asphalt and twisted steel girders,
+    flooded with gray mud
+- name: The compound
+  first_appearance: true
+  description: Destination with yellow perimeter searchlights visible on horizon
+characters_present:
+- name: Elena
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Standard
+  role: major
+  entrance: already present
+  exit: chapter ends
+character_states:
+  Elena:
+    physical: injured (blood on fatigues)
+    emotional: focused, tactical
+    location: driving Rover toward compound
+    knowledge_delta:
+    - Hendricks helped design NED's Quietus pistol
+    - Hendricks was NED Chief of Security before the Miracle
+    - Someone tipped off the scavengers about their route
+    inventory:
+    - item: burstmag rifle with targeting visor
+      status: still has
+    - item: magpulse weapon
+      status: gave to Hendricks
+  Hendricks:
+    physical: critical (bleeding, coughing blood)
+    emotional: relieved, secretive
+    location: in Rover
+    knowledge_delta:
+    - Elena has advanced military equipment and skills
+    inventory:
+    - item: Smith & Wesson revolver
+      status: still has
+    - item: magpulse weapon
+      status: acquired
+  Standard:
+    physical: healthy
+    emotional: observant, curious
+    location: in Rover
+    knowledge_delta:
+    - Hendricks used one unaccounted-for bullet before the stairs
+    - Elena can shoot around corners with her equipment
+    - Hendricks was relieved when the attack started
+objects:
+- name: Rover induction skids
+  status: used
+  holder: Elena
+  significance: Allows travel over buried metal infrastructure
+- name: Smith & Wesson revolver
+  status: tracked
+  holder: Hendricks
+  significance: Six chambers, mysterious missing round
+- name: Burstmag rifle with targeting visor
+  status: used
+  holder: Elena
+  significance: Allows bullets to curve around corners
+- name: Fusion core
+  status: tracked
+  holder: Rover
+  significance: Power dropping critically to 12%
+key_events:
+- Roads collapse, Elena activates induction skids to ride buried metal
+- Hendricks reveals he was NED Chief of Security, helped design weapons
+- Standard questions Hendricks about missing bullet from his revolver
+- Scavengers attack in technicals, someone tipped them off
+- Elena uses advanced targeting system to destroy attackers
+- Group reaches sight of compound with yellow searchlights
+revelations:
+- content: Hendricks was Chief of Security at NED before the Miracle
+  to_whom: reader and Elena
+- content: Hendricks fired one unaccounted-for bullet before the stairs
+  to_whom: reader and Standard
+- content: Elena has military-grade equipment that can bend bullets around corners
+  to_whom: reader and characters
+setups:
+- element: Hendricks' relief when attacked, connected to missing bullet
+  payoff_chapter: null
+- element: Someone tipped off scavengers about their route
+  payoff_chapter: null
+- element: Yellow lights of compound destination
+  payoff_chapter: null
+payoffs:
+- element: Elena's advanced military equipment and skills
+  setup_chapter: 8
+tone: action
+pacing: intense
+scene_breaks:
+- scene_number: 1
+  location: Collapsed interchange
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Roads give out, Elena activates induction skids
+- scene_number: 2
+  location: Traveling on skids
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Conversation reveals Hendricks' NED background and revolver mystery
+- scene_number: 3
+  location: Wasteland combat zone
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Scavenger attack, Elena demonstrates advanced combat skills
+continuity_notes:
+- Fusion power dropping critically from 24% to 12%
+- Hendricks' condition worsening - coughing blood
+open_threads:
+- What did Hendricks use the first bullet on?
+- Who tipped off the scavengers?
+- What is the compound they're approaching?
+- Why was Hendricks relieved when attacked?
+closed_threads:
+- How Elena has such advanced equipment (implied military background)
+- Hendricks' connection to NED Corporation

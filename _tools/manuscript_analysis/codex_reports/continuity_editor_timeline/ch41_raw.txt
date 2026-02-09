@@ -1,0 +1,60 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 41
+  findings:
+    - id: CE-TL-41-001
+      type: verified
+      severity: clean
+      location: opening crash sequence
+      content: VTOL crash occurs immediately after Chapter 40 events, maintaining continuous timeline
+      evidence: "The world is noise and fire and the scream of tearing metal. Standard braces against the cargo hold's frame as the VTOL tears through the throne room wall."
+      cross_reference: 40
+    - id: CE-TL-41-002
+      type: verified
+      severity: clean
+      location: bullet count tracking
+      content: Hendricks uses bullet 5 to kill Ash, consistent with established ammunition tracking
+      evidence: "That's five," he says. "One for Morton. Just like I promised."
+      cross_reference: 3
+    - id: CE-TL-41-003
+      type: verified
+      severity: clean
+      location: revolver possession
+      content: Ash has Hendricks' revolver as established in previous chapters
+      evidence: "Ash stands over her, the revolver in his hand—Hendricks' revolver, the one with two bullets left."
+      cross_reference: 34
+    - id: CE-TL-41-004
+      type: verified
+      severity: clean
+      location: Four's consciousness state
+      content: Four's deteriorating condition from Chapter 42 setup is consistent
+      evidence: "Four's voice is thin. Fragmented... Each jump strips something away. Memories. Processing capacity."
+      cross_reference: 42
+    - id: CE-TL-41-005
+      type: observation
+      severity: info
+      location: character injuries
+      content: Elena's blade wound timing aligns with fight sequence - injury occurred during combat with Ash
+      evidence: "The blood spreading beneath Elena's ribs... thought it was a glancing blow. It wasn't."
+      cross_reference: null
+    - id: CE-TL-41-006
+      type: verified
+      severity: clean
+      location: Jupiter carrier arrival
+      content: Jupiter's targeting of evacuation shuttles creates immediate stakes for Four's sacrifice mission
+      evidence: "Jupiter... Pragmatist battle carrier... It's targeting the evacuation shuttles"
+      cross_reference: 39
+  carry_forward:
+    - Ash is definitively dead - bullet 5 used by Hendricks
+    - One bullet remains in revolver (bullet 6)
+    - Elena has serious internal bleeding from blade wound
+    - Hendricks has ceramic blade still embedded, critical condition
+    - Four has begun consciousness transfer sequence to stop Jupiter
+    - Jupiter carrier threatens Template 3 evacuation shuttles
+    - Four warns she won't survive the transfer process intact
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

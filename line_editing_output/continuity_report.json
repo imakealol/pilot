@@ -1,0 +1,88 @@
+{
+  "file": "RESONANCE/chapters/RESONANCE_CH27_THE_PROOF.txt",
+  "chapters": 2,
+  "character_attributes": {
+    "His": {
+      "eye_color": [
+        {
+          "value": "his",
+          "chapter": 1,
+          "context": "His eyes move across the display, tracking something she can't read"
+        }
+      ],
+      "age_desc": [
+        {
+          "value": "old",
+          "chapter": 1,
+          "context": "His face does something she's never seen before\u2014a kind of collapse, like scaffolding giving way"
+        }
+      ]
+    }
+  },
+  "numbers": {},
+  "locations": {
+    "New Geneva": [
+      {
+        "chapter": 1,
+        "context": "New Geneva smells like recycled air and antiseptic and something faintly metallic\u2014the station's infrastructure humming at frequencies she can feel through her implant"
+      },
+      {
+        "chapter": 1,
+        "context": "New Geneva smells like recycled air and antiseptic and something faintly metallic\u2014the station's infrastructure humming at frequencies she can feel through her implant"
+      },
+      {
+        "chapter": 1,
+        "context": "Through the viewport, she can see the curve of New Geneva's interior: the green strip of parkland that runs along the cylinder's axis, the distant sparkle of the residential quarter, the slow rotation"
+      },
+      {
+        "chapter": 1,
+        "context": "Through the viewport, she can see the curve of New Geneva's interior: the green strip of parkland that runs along the cylinder's axis, the distant sparkle of the residential quarter, the slow rotation"
+      },
+      {
+        "chapter": 1,
+        "context": "New Geneva rotates slowly beneath them, a cylinder of life spinning in the void, and beyond it the blue curve of Earth hangs like a marble someone dropped"
+      },
+      {
+        "chapter": 1,
+        "context": "New Geneva rotates slowly beneath them, a cylinder of life spinning in the void, and beyond it the blue curve of Earth hangs like a marble someone dropped"
+      },
+      {
+        "chapter": 1,
+        "context": "He's been different since they arrived at New Geneva"
+      },
+      {
+        "chapter": 1,
+        "context": "He's been different since they arrived at New Geneva"
+      }
+    ],
+    "Matrioshka Brain": [
+      {
+        "chapter": 1,
+        "context": "\"It's a Matrioshka Brain"
+      },
+      {
+        "chapter": 1,
+        "context": "\"It's a Matrioshka Brain"
+      },
+      {
+        "chapter": 1,
+        "context": "And the Matrioshka Brain is where those tenants are supposed to live"
+      },
+      {
+        "chapter": 1,
+        "context": "And the Matrioshka Brain is where those tenants are supposed to live"
+      }
+    ],
+    "The Matrioshka Brain": [
+      {
+        "chapter": 1,
+        "context": "The Matrioshka Brain is consuming the output of an entire star, converting raw fusion into computation"
+      },
+      {
+        "chapter": 1,
+        "context": "The Matrioshka Brain is consuming the output of an entire star, converting raw fusion into computation"
+      }
+    ]
+  },
+  "contradictions": []
+}

@@ -1,0 +1,101 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 42
+  timestamp: 2026-01-17 11:30:00+00:00
+
+  query_log:
+    chapter: CH42
+    previous_reports: [38, 39, 40, 41]
+    external_state: [HANDOFF.md, CHARACTERS.yaml, ACT_III_MAPS.md]
+
+  findings:
+    - id: CO-TI-42-001
+      type: verified
+      severity: clean
+      location: "opening sequence"
+      content: "Four's consciousness transfer follows proper sequence - begins immediately after CH41 crash positioning"
+      evidence: "Four leaves the VTOL like slipping out of a coat that no longer fits. The dying aircraft releases her consciousness"
+      chain_reference: "Report_CH41:CO-TI-41-005"
+
+    - id: CO-TI-42-002
+      type: observation
+      severity: info
+      location: "relay hop progression"
+      content: "Five-stage consciousness transfer maintains logical progression - VTOL → comm relay → satellite → drone → medical monitor → navigation beacon"
+      evidence: "The first jump is clean... The second jump is harder... The third jump is worse... The fourth jump is agony"
+      chain_reference: null
+
+    - id: CO-TI-42-003
+      type: verified
+      severity: clean
+      location: "Jupiter threat timing"
+      content: "Jupiter weapons charging timeline consistent with urgency - 30 seconds to firing solution, then 15 seconds"
+      evidence: "The Jupiter is charging main batteries... Thirty seconds to firing solution... Fifteen seconds to firing solution"
+      chain_reference: "Report_CH41:CO-TI-41-007"
+
+    - id: CO-TI-42-004
+      type: observation
+      severity: info
+      location: "dying soldier sequence"
+      content: "Vasquez medical monitor timing shows Four's moral cost - she accelerates his death by drawing power from life support"
+      evidence: "His name is Vasquez. He's nineteen... she's been drawing power from his life support, accelerating what was already inevitable. His heart stops."
+      chain_reference: null
+
+    - id: CO-TI-42-005
+      type: verified
+      severity: clean
+      location: "parallel action timing"
+      content: "Simultaneous events properly tracked - Four's transfer concurrent with Elena bleeding, Hendricks unconscious in throne room"
+      evidence: "Elena slumped against the transmission array, blood spreading beneath her ribs. Hendricks unconscious, the ceramic blade still in his side"
+      chain_reference: "Report_CH41:CO-TI-41-006"
+
+    - id: CO-TI-42-006
+      type: verified
+      severity: clean
+      location: "collision sequence"
+      content: "Ram timing maintains proper physics - ships converge, Jupiter tries to evade 'Too slow. Too late.', impact occurs"
+      evidence: "The Deliverance and Jupiter are seconds apart now... Two massive shapes rushing toward each other... Impact."
+      chain_reference: null
+
+    - id: CO-TI-42-007
+      type: observation
+      severity: info
+      location: "transmission timing"
+      content: "Four's final transmission occurs 'at the moment of impact' - creates door connection just as planned"
+      evidence: "at the moment of impact, at that exact moment—I'm going to transmit. Across four light-years. To the Matrioshka brain"
+      chain_reference: null
+
+    - id: CO-TI-42-008
+      type: observation
+      severity: warning
+      location: "signal degradation timeline"
+      content: "Four's door connection already degrading - 'signal is already degrading, scattered across four light-years, losing coherence with every passing second'"
+      evidence: "Her signal is already degrading, scattered across four light-years, losing coherence with every passing second"
+      chain_reference: null
+
+  carry_forward:
+    - Four's door connection degrading rapidly - creates urgency for Standard's choice in CH43
+    - Elena's blood loss continues - 'gray-faced and bleeding' indicates critical condition
+    - Hendricks still unconscious with ceramic blade - affects his role in final bullet decision
+    - Template 3 shuttles now safely evacuating - Jupiter threat eliminated
+    - Standard positioned for final transformation - knows 'what she has to become'
+
+  chain_citations:
+    - report: CH41
+      finding_id: "CO-TI-41-005"
+      relationship: "confirms"
+    - report: CH41
+      finding_id: "CO-TI-41-006"
+      relationship: "extends"
+    - report: CH41
+      finding_id: "CO-TI-41-007"
+      relationship: "confirms"
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

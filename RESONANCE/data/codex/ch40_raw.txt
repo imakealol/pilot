@@ -1,0 +1,180 @@
+```yaml
+chapter: 40
+title: "THE PIT"
+wordcount: 2400
+pov: "Standard"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "The Pit/Cell"
+    first_appearance: true
+    description: "Dark underground cell with chains, cistern dripping water"
+  - name: "Compound corridors"
+    first_appearance: false
+    description: "Filled with smoke and chaos during Template 3 attack"
+  - name: "Motor pool"
+    first_appearance: true
+    description: "Compound section being secured by Template 3s"
+  - name: "Waystation"
+    first_appearance: true
+    description: "Location where Standard meets the waystation sister"
+  - name: "Crashed VTOL at perimeter"
+    first_appearance: false
+    description: "Wedged against collapsed watchtower, damaged but functional"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Kael"
+    role: "major"
+    entrance: "enters cell to interrogate Standard"
+    exit: "left crawling in cell after arm removal"
+  - name: "Template 3s"
+    role: "major"
+    entrance: "arrive as army attacking compound"
+    exit: "chapter ends"
+  - name: "Waystation Template 3"
+    role: "major"
+    entrance: "found at waystation"
+    exit: "returns to compound fight"
+  - name: "Four"
+    role: "major"
+    entrance: "already in crashed VTOL"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+  - name: "Elena"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+  - name: "Ash"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+
+character_states:
+  Standard:
+    physical: "injured but mobile, new arm attached from sister"
+    emotional: "determined, focused"
+    location: "crashing into tower in VTOL"
+    knowledge_delta:
+      - "Kael has augmented arm and is hypocrite"
+      - "Geometry language/code was implanted in her brain"
+      - "Template 3 army responded to her broadcast"
+      - "Hendricks, Elena, and Ash are in the tower"
+    inventory:
+      - item: "Template 3 sister's arm"
+        status: "acquired"
+  Kael:
+    physical: "critical - lost augmented arm, bleeding"
+    emotional: "broken, exposed"
+    location: "left in the pit cell"
+    knowledge_delta:
+      - "His augmentation hypocrisy exposed"
+    inventory: []
+  Four:
+    physical: "damaged VTOL systems failing"
+    emotional: "determined, loyal"
+    location: "piloting VTOL toward tower crash"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "Kael's augmented arm"
+    status: "transferred"
+    holder: "Standard (temporarily)"
+    significance: "Reveals Kael's hypocrisy, provides temporary function"
+  - name: "Template 3 sister's arm"
+    status: "transferred"
+    holder: "Standard"
+    significance: "Replacement arm, symbol of sisterhood"
+  - name: "Chains"
+    status: "destroyed"
+    holder: "broken by Standard"
+    significance: "Standard's imprisonment ended"
+  - name: "Damaged VTOL"
+    status: "used"
+    holder: "Four and Standard"
+    significance: "Transport to tower, will be destroyed in crash"
+  - name: "Revolver with special bullets"
+    status: "tracked"
+    holder: "Ash"
+    significance: "Hendricks' weapon now with enemy"
+
+key_events:
+  - "Standard interrogated and tortured by Kael in the pit"
+  - "Standard discovers Kael has augmented arm, exposing his hypocrisy"
+  - "Standard removes Kael's arm and temporarily uses it to break chains"
+  - "Template 3 army arrives attacking compound in response to broadcast"
+  - "Standard meets waystation sister who gives her own arm as replacement"
+  - "Standard reunites with Four in crashed VTOL"
+  - "Four pilots damaged VTOL toward tower for final crash approach"
+
+revelations:
+  - content: "Kael is augmented with mechanical arm despite Terminist beliefs"
+    to_whom: "reader and Standard"
+  - content: "Geometry implanted code/language in Standard's brain during scan"
+    to_whom: "reader and Standard"
+  - content: "Template 3s can detach and share body parts"
+    to_whom: "reader and Standard"
+  - content: "Hendricks' revolver is now with Ash in the tower"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Geometry code awakening in Standard's brain"
+    payoff_chapter: null
+  - element: "Template 3 army convergence on tower"
+    payoff_chapter: null
+  - element: "VTOL crash approach to tower"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Template 3s responding to Standard's broadcast"
+    setup_chapter: 39
+  - element: "Four's loyalty and connection to Standard"
+    setup_chapter: 35
+
+tone: "intense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "The Pit cell"
+    characters: ["Standard", "Kael"]
+    summary: "Standard tortured by Kael, discovers his augmented arm, removes it and escapes"
+  - scene_number: 2
+    location: "Compound during attack"
+    characters: ["Standard", "Template 3s"]
+    summary: "Standard emerges to find Template 3 army attacking compound"
+  - scene_number: 3
+    location: "Waystation"
+    characters: ["Standard", "Waystation Template 3"]
+    summary: "Sister gives Standard her arm to replace the stolen chrome one"
+  - scene_number: 4
+    location: "Crashed VTOL"
+    characters: ["Standard", "Four"]
+    summary: "Reunion and preparation for final crash approach to tower"
+
+continuity_notes:
+  - "Standard's arm replacement sequence needs tracking"
+  - "Geometry code implantation timeline from tetrahedron scan"
+
+open_threads:
+  - "What will happen when VTOL crashes into tower"
+  - "How will Geometry code in Standard's brain affect her"
+  - "Status of Hendricks and Elena inside tower"
+  - "Template 3 army's role in final confrontation"
+
+closed_threads:
+  - "Standard's escape from imprisonment"
+  - "Kael's fate and hypocrisy exposure"
+  - "Template 3s' response to broadcast call for help"
+```

@@ -1,0 +1,59 @@
+_extracted_finding_ids:
+- CE-CS-11-001
+- CE-CS-11-002
+- CE-CS-11-003
+- CE-CS-11-004
+- CE-CS-11-005
+- CE-CS-11-006
+- CE-CS-11-007
+- CE-CS-11-008
+- CE-CS-11-009
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 22,\
+  \ column 7:\n        - id: CE-CS-11-003\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 27, column 62:\n     ... dy...\
+  \ The withdrawal is still—\" and \"his voice is rough, but str ... \n          \
+  \                               ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 11\n  findings:\n    - id: CE-CS-11-001\n      type: verified\n      severity:\
+  \ clean\n      location: Opening scene\n      content: Standard's non-sleeping state\
+  \ consistent with established character trait\n      evidence: \"Standard doesn't\
+  \ sleep. She sits in the Rover through the night\"\n      cross_reference: 10\n\n\
+  \    - id: CE-CS-11-002\n      type: verified\n      severity: clean\n      location:\
+  \ Elena's appearance\n      content: Elena's exhausted state tracks properly from\
+  \ previous chapter events\n      evidence: \"She looks like she hasn't slept either—dark\
+  \ circles under her eyes, her movements stiff and careful\"\n      cross_reference:\
+  \ 10\n\n    - id: CE-CS-11-003\n      type: verified\n      severity: clean\n  \
+  \    location: Hendricks in clinic\n      content: Hendricks' recovery progression\
+  \ realistic from regulator withdrawal\n      evidence: \"He's not ready... The withdrawal\
+  \ is still—\" and \"his voice is rough, but stronger than yesterday\"\n      cross_reference:\
+  \ 10\n\n    - id: CE-CS-11-004\n      type: verified\n      severity: clean\n  \
+  \    location: Medical scanning scene\n      content: Standard's \"empty\" readings\
+  \ consistent with previous scanner results\n      evidence: \"No implants. No signal.\
+  \ No network echo... She's empty. Like she was never connected to anything\"\n \
+  \     cross_reference: 4\n\n    - id: CE-CS-11-005\n      type: verified\n     \
+  \ severity: clean\n      location: Geometry attack\n      content: Standard's immunity\
+  \ to frequency attack maintained consistently\n      evidence: \"Six people still\
+  \ moving. All of them within arm's reach of where she stood\"\n      cross_reference:\
+  \ 6\n\n    - id: CE-CS-11-006\n      type: observation\n      severity: info\n \
+  \     location: Kellerman's survival\n      content: Kellerman survives the Drop\
+  \ by being near Standard, establishing his protective field effect\n      evidence:\
+  \ \"Kellerman staggers, reaches for Standard's arm—and doesn't drop\"\n      cross_reference:\
+  \ 6\n\n    - id: CE-CS-11-007\n      type: verified\n      severity: clean\n   \
+  \   location: Elena's post-Drop state\n      content: Elena's unconscious state\
+  \ from frequency exposure tracks with established pattern\n      evidence: \"her\
+  \ eyes are rolled back, her body twitching with aftershocks\"\n      cross_reference:\
+  \ 5\n\n    - id: CE-CS-11-008\n      type: verified\n      severity: clean\n   \
+  \   location: Fuel situation\n      content: Rover's fuel depletion and emergency\
+  \ conversion maintains established resource constraints\n      evidence: \"The fuel\
+  \ gauge, dead since last night, flickers. Climbs. Stops at eighteen percent\"\n\
+  \      cross_reference: 10\n\n    - id: CE-CS-11-009\n      type: observation\n\
+  \      severity: info\n      location: End of chapter\n      content: Elena's strategic\
+  \ mindset shift shows character development under pressure\n      evidence: \"something\
+  \ has changed... something harder\" and \"We can use this\"\n\n  carry_forward:\n\
+  \    - Standard's protective field confirmed to work within arm's reach\n    - Six\
+  \ Array survivors now traveling with the group as witnesses\n    - Kellerman stays\
+  \ behind at Array with unconscious crowd members\n    - Water reserves completely\
+  \ depleted for emergency fuel conversion\n    - Elena developing strategic approach\
+  \ to Standard's reputation\n    - Rover fuel at 14% and dropping, approximately\
+  \ 50 miles range remaining\n\n  self_check:\n    stayed_in_lane: true\n    findings_cited:\
+  \ true\n```"

@@ -1,0 +1,36 @@
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 38,\
+  \ column 7:\n        - id: CE-TL-3-005\n          ^\nexpected <block end>, but found\
+  \ '<scalar>'\n  in \"<unicode string>\", line 43, column 43:\n     ... ence: \"\
+  Swanstrom Kim Hendricks\" / \"Hendricks. Just Hendricks\"\n                    \
+  \                     ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 3\n  findings:\n    - id: CE-TL-3-001\n      type: verified\n      severity: clean\n\
+  \      location: opening sequence\n      content: Chapter opens \"hours later\"\
+  \ from Chapter 2, maintaining proper temporal progression\n      evidence: \"The\
+  \ storm had been building for hours\"\n      cross_reference: 2\n\n    - id: CE-TL-3-002\n\
+  \      type: verified\n      severity: clean\n      location: revolver backstory\n\
+  \      content: Timeline of acquiring Morton's revolver aligns with established\
+  \ siege events\n      evidence: \"He'd taken it from the cabinet after, when the\
+  \ tower was full of Carbonists and Terminists laying siege to New England Dynamic\
+  \ Corporate City Tower\"\n      cross_reference: 2\n\n    - id: CE-TL-3-003\n  \
+  \    type: verified\n      severity: clean\n      location: node removal sequence\n\
+  \      content: 30-year timeline for neural node implantation is consistent\n  \
+  \    evidence: \"The node had grown roots. Thirty years of burrowing into him\"\n\
+  \      cross_reference: null\n\n    - id: CE-TL-3-004\n      type: verified\n  \
+  \    severity: clean\n      location: companion bot emergence\n      content: Companion\
+  \ bot emergence sequence matches Chapter 1 events from different POV\n      evidence:\
+  \ \"Behind him, the crate exploded. A woman is falling out of it—naked, bloody,\
+  \ gasping\"\n      cross_reference: 1\n\n    - id: CE-TL-3-005\n      type: verified\n\
+  \      severity: clean\n      location: character introduction\n      content: Hendricks\
+  \ gives his name as established in previous chapters\n      evidence: \"Swanstrom\
+  \ Kim Hendricks\" / \"Hendricks. Just Hendricks\"\n      cross_reference: 2\n\n\
+  \    - id: CE-TL-3-006\n      type: observation\n      severity: info\n      location:\
+  \ chapter ending\n      content: Chapter ends with decision to leave together, setting\
+  \ up immediate continuation for next chapter\n      evidence: \"We're leaving\"\n\
+  \      cross_reference: null\n\n  carry_forward:\n    - Hendricks has severe neck\
+  \ wound from botched node removal that will affect his condition going forward\n\
+  \    - Companion bot has complete amnesia and physical damage from crate escape\n\
+  \    - Timeline shows \"hours later\" progression from Chapter 2's immediate aftermath\n\
+  \    - Neural tracking node removed but caused significant blood loss\n    - Both\
+  \ characters now committed to traveling together toward unspecified destination\n\
+  \n  self_check:\n    stayed_in_lane: true\n    findings_cited: true\n```"

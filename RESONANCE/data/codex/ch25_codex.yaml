@@ -1,0 +1,174 @@
+chapter: 25
+title: DIVINE INTERVENTION
+wordcount: 2800
+pov: Standard
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: VTOL cargo bay
+  first_appearance: false
+  description: null
+- name: Sovereignty carrier Deliverance hangar bay
+  first_appearance: true
+  description: Massive military carrier with catwalks, service vehicles, rows of interceptor
+    craft
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Four
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Sovereignty Commander
+  role: major
+  entrance: walks between soldier rows on carrier
+  exit: chapter ends
+- name: Sovereignty soldiers
+  role: minor
+  entrance: positioned in carrier hangar
+  exit: chapter ends
+character_states:
+  Standard:
+    physical: healthy
+    emotional: disturbed, concerned
+    location: aboard Sovereignty carrier Deliverance
+    knowledge_delta:
+    - She is invisible to the Geometry entities - classified as irrelevant
+    - Sovereignty views her as prophesied messiah figure
+    - The Geometry sorts between pattern and flesh but she fits neither category
+    inventory:
+    - item: pulse rifle
+      status: acquired
+  Elena:
+    physical: healthy
+    emotional: panicked, calculating
+    location: aboard Sovereignty carrier Deliverance
+    knowledge_delta:
+    - They died and were reconstituted crossing the Geometry
+    - Standard is seen as religious figure by Sovereignty
+    inventory:
+    - item: pulse rifle
+      status: acquired
+  Hendricks:
+    physical: physically restored - appears 60-65 instead of 73
+    emotional: confused, grateful
+    location: aboard Sovereignty carrier Deliverance
+    knowledge_delta:
+    - His body has been physically restored to younger state
+    - Standard came back for him at the compound
+    inventory:
+    - item: pry bar
+      status: acquired
+  Four:
+    physical: operational but changed
+    emotional: subdued, protective
+    location: VTOL systems aboard carrier
+    knowledge_delta:
+    - Has reputation among Sovereignty
+    - Standard's invisibility to Geometry saved them all
+    inventory: []
+objects:
+- name: pulse rifles
+  status: used
+  holder: Standard and Elena
+  significance: Weapons for anticipated confrontation that didn't happen
+- name: navigation display
+  status: used
+  holder: VTOL systems
+  significance: Shows they crossed hundreds of kilometers of deletion zone
+key_events:
+- Team processes that they died and were reconstituted crossing the Geometry
+- Hendricks discovered to be physically restored to younger biological age
+- Four explains Standard is invisible to Geometry entities - classified as irrelevant
+  gap
+- Sovereignty carrier captures them with tractor beam
+- Sovereignty commander greets Standard as prophesied messiah figure
+- Elena forces Standard to play along with religious role
+- Commander and soldiers kneel before Standard in worship
+revelations:
+- content: The Geometry entities sort between pattern and flesh but Standard fits
+    neither category, making her invisible to them
+  to_whom: reader and characters
+- content: Hendricks has been physically restored to biological age 60-65 from 73
+  to_whom: reader and characters
+- content: Sovereignty has prophecies about one who would cross the Geometry unharmed
+  to_whom: reader and characters
+setups:
+- element: Standard forced into messianic role with Sovereignty
+  payoff_chapter: null
+- element: Four having a reputation among Sovereignty forces
+  payoff_chapter: null
+- element: Council that must be alerted about prophecy fulfillment
+  payoff_chapter: null
+payoffs:
+- element: Standard's unique nature allowing passage through Geometry
+  setup_chapter: 24
+tone: revelatory
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: VTOL cargo bay
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Four
+  summary: Team processes their death and reconstitution, discovers Hendricks' restoration
+    and Standard's immunity to Geometry
+- scene_number: 2
+  location: VTOL approaching carrier
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Four
+  summary: Sovereignty carrier captures them and they prepare for confrontation
+- scene_number: 3
+  location: Carrier hangar bay
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Four
+  - Sovereignty Commander
+  - soldiers
+  summary: Commander reveals Standard is viewed as prophesied messiah, forces worship
+    scenario
+continuity_notes:
+- Hendricks' physical restoration needs tracking for biological implications
+- Standard's messianic role with Sovereignty creates major political complications
+open_threads:
+- How will Standard handle being forced into messianic role
+- What does the Sovereignty Council want with Standard
+- Are they truly the same people who entered the Geometry
+- What are Four's multiple reputations with Sovereignty
+closed_threads:
+- How they survived crossing the Geometry zone
+- Why Hendricks appears healthier after the crossing
+
+language_thread:
+  status: WRITE
+  priority: MEDIUM
+  elements:
+    - element: "Four's observation"
+      detail: |
+        Four has watched Standard acquire languages.
+        "You're not learning languages. You're decoding them."
+        First explicit naming of her ability.
+      significance: "First explicit connection between language acquisition and her nature"
+    - element: "Sovereignty prophecy language"
+      detail: "Religious/prophetic register — Standard adapts to their vocabulary"
+    - element: "Military formality"
+      detail: "Sovereignty speech patterns — Standard adapts quickly to new register"

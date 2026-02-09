@@ -1,0 +1,153 @@
+chapter: 13
+title: GRACE
+wordcount: 1800
+pov: Elena
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: brook/river crossing
+  first_appearance: false
+  description: The same bridge and brook where Standard collapsed
+characters_present:
+- name: Elena
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Standard
+  role: major
+  entrance: already present (dead)
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: approaches Elena
+  exit: chapter ends
+- name: Nessa
+  role: minor
+  entrance: already present
+  exit: chapter ends
+- name: the boy
+  role: minor
+  entrance: already present
+  exit: chapter ends
+- name: other Array survivors
+  role: mentioned
+  entrance: already present
+  exit: chapter ends
+- name: Marisol (Elena's mother)
+  role: mentioned
+  entrance: memory/flashback
+  exit: memory ends
+character_states:
+  Elena:
+    physical: fatigued
+    emotional: grief, confusion
+    location: brook with Standard
+    knowledge_delta:
+    - Standard has lost her memories
+    - Standard's 'void' presence has changed
+    - The Array survivors are mourning Standard despite wanting her dead
+    inventory: []
+  Standard:
+    physical: alive but weak
+    emotional: confused, compassionate
+    location: brook with Elena
+    knowledge_delta:
+    - Has lost all recent memories
+    - Remembers only fragments from before the checkpoint
+    - Doesn't recognize Elena or the Array survivors
+    inventory: []
+  Hendricks:
+    physical: fatigued
+    emotional: relieved, concerned
+    location: brook area
+    knowledge_delta:
+    - Standard has lost her memories
+    inventory: []
+  Nessa:
+    physical: healthy
+    emotional: grief, guilt
+    location: brook area
+    knowledge_delta:
+    - Standard doesn't remember being stoned
+    - Experiencing inexplicable mourning for Standard
+    inventory: []
+objects:
+- name: chain
+  status: dropped
+  holder: bridge (dropped)
+  significance: Standard's grip on it was the last sign of life before revival
+key_events:
+- Elena grieves over Standard's body, unable to accept her death
+- Array survivors unexpectedly mourn Standard despite their earlier hatred
+- Elena reflects on her mother's abandonment and their connection
+- Standard unexpectedly revives but with memory loss
+- Standard recognizes no one except possibly Hendricks
+- Standard comforts Nessa, not knowing Nessa had stoned her
+- Standard's 'void' presence has changed though she's still not fully human
+revelations:
+- content: Standard has lost all recent memories but retains some older ones
+  to_whom: reader and Elena
+- content: The Array survivors are experiencing unexplained grief and guilt over Standard
+  to_whom: reader and Elena
+- content: Standard's fundamental nature has somehow changed - her 'void' is different
+  to_whom: reader and Elena
+setups:
+- element: Standard's memory loss and changed nature
+  payoff_chapter: null
+- element: The frequency Elena mentions that Standard almost remembers
+  payoff_chapter: null
+- element: Standard's compassionate behavior toward those who harmed her
+  payoff_chapter: null
+payoffs:
+- element: Elena's mother's words about frequencies and faces
+  setup_chapter: 12
+tone: emotional
+pacing: slow burn
+scene_breaks:
+- scene_number: 1
+  location: bridge over brook
+  characters:
+  - Elena
+  - Standard (dead)
+  - Hendricks
+  - Array survivors
+  summary: Elena grieves over Standard's body while survivors watch
+- scene_number: 2
+  location: bridge over brook
+  characters:
+  - Elena
+  - Array survivors
+  summary: Elena reflects on the survivors' unexpected mourning
+- scene_number: 3
+  location: bridge over brook
+  characters:
+  - Elena
+  summary: Elena remembers her mother and contemplates their connection
+- scene_number: 4
+  location: bridge over brook
+  characters:
+  - Elena
+  - Standard
+  summary: Standard unexpectedly revives but with memory loss
+- scene_number: 5
+  location: bridge and brook area
+  characters:
+  - Elena
+  - Standard
+  - Hendricks
+  - Array survivors
+  summary: Standard interacts with the group she doesn't remember
+continuity_notes:
+- Standard's memory loss spans recent events but some older memories remain
+- Her fundamental nature seems changed - the 'void' is different
+- The frequency connection to Elena is disrupted but not gone
+open_threads:
+- What caused Standard's memory loss?
+- Why has her fundamental nature changed?
+- Will her memories return?
+- What is the significance of the frequency Elena mentions?
+- Why are the Array survivors experiencing unexplained grief?
+closed_threads:
+- Standard's apparent death - she has revived

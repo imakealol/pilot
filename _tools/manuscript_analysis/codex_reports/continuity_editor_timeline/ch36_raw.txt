@@ -1,0 +1,55 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 36
+  findings:
+    - id: CE-TL-36-001
+      type: verified
+      severity: clean
+      location: opening sequence
+      content: Chapter follows immediately after Chapter 35 with Elena and Hendricks descending the orbital tether
+      evidence: "The elevator car hums as it descends... Six hours to the base. Then Four takes us the rest of the way."
+      cross_reference: 35
+
+    - id: CE-TL-36-002
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Hendricks' repeated reaching for missing revolver maintains continuity from previous chapters where weapon was lost to Ash
+      evidence: "His hand rests on the magpulse. The other keeps twitching toward his empty hip, reaching for a revolver that isn't there... Each time his fingers find nothing and he goes still"
+      cross_reference: 35
+
+    - id: CE-TL-36-003
+      type: verified
+      severity: clean
+      location: descent sequence
+      content: Descent duration and altitude measurements are internally consistent
+      evidence: "Six hours to the base... Twenty-eight thousand kilometers up... at eighteen thousand meters... At six thousand meters"
+
+    - id: CE-TL-36-004
+      type: verified
+      severity: clean
+      location: Softing failure timeline
+      content: Softing bubble shrinkage timeline matches established continuity
+      evidence: "Every day, the bubble shrinks a little... At current rates? Eighteen months."
+      cross_reference: 14
+
+    - id: CE-TL-36-005
+      type: verified
+      severity: clean
+      location: chapter ending
+      content: Chapter sets up immediate next phase with proper geographic positioning
+      evidence: "Twelve kilometers west... Twelve kilometers east... Four minutes"
+
+  carry_forward:
+    - Hendricks and Elena have separated - Hendricks heading to compound alone while injured
+    - Elena heading to disable the Softing in 4 minutes
+    - Dante remains at orbital station to coordinate transmission
+    - Template 3s cannot enter Quiet Zone until Softing is disabled
+    - Both characters are injured from the tether fall and crash landing
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

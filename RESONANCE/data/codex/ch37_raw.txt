@@ -1,0 +1,199 @@
+```yaml
+chapter: 37
+title: "THE FALL"
+wordcount: 3200
+pov: "omniscient"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "dawn"
+  duration: "hours"
+
+locations:
+  - name: "New Geneva Station - Broadcast Center"
+    first_appearance: true
+    description: "Room full of terminals and dead bodies, three Resonant technicians killed at consoles, main array intact"
+  - name: "New Geneva Station - Operations"
+    first_appearance: true
+    description: "Fallback position with emergency lighting, sealed bulkhead"
+  - name: "The Softing"
+    first_appearance: false
+    description: "Concrete bunker in Quiet Zone with maintenance entrance and control room"
+  - name: "Sky over Quiet Zone"
+    first_appearance: true
+    description: "Aerial combat zone with edited terrain, redaction bars, and Scrapyard of the Real"
+  - name: "Motor Pool Parking Lot"
+    first_appearance: true
+    description: "Crash site with abandoned vehicles where Four's VTOL goes down"
+
+characters_present:
+  - name: "Dante Reyes"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Director Okonkwo"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena Chen"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "major"
+    entrance: "already present"
+    exit: "crashed but alive"
+  - name: "Yusuf"
+    role: "minor"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Resonant personnel"
+    role: "minor"
+    entrance: "already present"
+    exit: "most killed in combat"
+  - name: "Pragmatist soldiers"
+    role: "minor"
+    entrance: "attacking station"
+    exit: "chapter ends"
+  - name: "Softing technician"
+    role: "minor"
+    entrance: "already present"
+    exit: "knocked unconscious"
+  - name: "Hendricks"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+  - name: "Standard"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+
+character_states:
+  Dante:
+    physical: "healthy but exhausted"
+    emotional: "determined, desperate"
+    location: "New Geneva Station Operations"
+    knowledge_delta:
+      - "Successfully transmitted the message calling for AI volunteers"
+      - "Station's broadcast array was destroyed by shaped charges"
+    inventory:
+      - item: "bolt rifle"
+        status: "still has"
+  Elena:
+    physical: "healthy"
+    emotional: "focused, horrified"
+    location: "approaching the compound"
+    knowledge_delta:
+      - "Successfully deactivated the Softing using childhood backdoor"
+      - "AIs are entering deletion zones en masse"
+      - "Pragmatists were waiting for the Softing to fall"
+    inventory:
+      - item: "carbine"
+        status: "still has"
+      - item: "knife"
+        status: "still has"
+  Four:
+    physical: "critically damaged - VTOL destroyed"
+    emotional: "calm, determined"
+    location: "crashed in motor pool parking lot"
+    knowledge_delta:
+      - "Engaged and destroyed three Pragmatist fighters"
+      - "Confirmed Hendricks and Standard's locations"
+    inventory: []
+  Director_Okonkwo:
+    physical: "healthy"
+    emotional: "professional, grim"
+    location: "New Geneva Station Operations"
+    knowledge_delta: []
+    inventory:
+      - item: "sidearm"
+        status: "still has"
+
+objects:
+  - name: "broadcast array"
+    status: "destroyed"
+    holder: "none"
+    significance: "Transmission system cut by shaped charges after message sent"
+  - name: "backdoor kill switch"
+    status: "used"
+    holder: "Elena"
+    significance: "Seven-year-old code used to destroy the Softing"
+  - name: "bolt rifle"
+    status: "tracked"
+    holder: "Dante"
+    significance: "Weapon taken from dead Resonant"
+
+key_events:
+  - "Dante broadcasts message calling for AI volunteers to enter deletion zones"
+  - "Pragmatists destroy New Geneva's broadcast array with shaped charges"
+  - "Elena infiltrates the Softing and uses childhood backdoor to destroy it"
+  - "Four engages eight Pragmatist fighters in aerial combat"
+  - "Four's VTOL crashes but she survives in motor pool"
+  - "AIs begin entering deletion zones across the Quiet Zone"
+  - "Station defenders fall back to Operations under heavy fire"
+
+revelations:
+  - content: "Elena's biometric access to the Softing was never revoked by her father"
+    to_whom: "reader and Elena"
+  - content: "Seven-year-old Elena built a kill switch into the Softing"
+    to_whom: "reader"
+  - content: "Pragmatists had forces waiting in orbit for the Softing to fall"
+    to_whom: "reader and Four"
+  - content: "AIs are voluntarily entering deletion zones en masse"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "AIs entering deletion zones appears like mass suicide to Elena"
+    payoff_chapter: null
+  - element: "Hendricks inside compound, Standard in holding cells"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Elena's childhood backdoor in the Softing"
+    setup_chapter: 31
+
+tone: "intense"
+pacing: "climactic"
+
+scene_breaks:
+  - scene_number: 1
+    location: "New Geneva Station corridors and broadcast center"
+    characters: ["Dante", "Director Okonkwo", "Resonant personnel"]
+    summary: "Fighting retreat to broadcast center where Dante transmits his message"
+  - scene_number: 2
+    location: "Four's VTOL approaching Quiet Zone"
+    characters: ["Four", "Elena"]
+    summary: "Four drops Elena at perimeter and heads for compound"
+  - scene_number: 3
+    location: "The Softing facility"
+    characters: ["Elena", "technician"]
+    summary: "Elena infiltrates and destroys the frequency barrier using old backdoor"
+  - scene_number: 4
+    location: "Sky over Quiet Zone"
+    characters: ["Four", "Pragmatist pilots"]
+    summary: "Four fights eight fighters in aerial combat and crashes"
+  - scene_number: 5
+    location: "New Geneva Station Operations"
+    characters: ["Dante", "Director Okonkwo", "Yusuf", "remaining personnel"]
+    summary: "Defenders fall back as station is overrun"
+  - scene_number: 6
+    location: "Quiet Zone terrain"
+    characters: ["Elena", "domestic units"]
+    summary: "Elena witnesses AIs entering deletion zones en masse"
+
+continuity_notes:
+  - "Four's crash site is 200 meters from compound where Standard and Hendricks are located"
+  - "Message transmission occurred but unknown if received due to array destruction"
+  - "Elena maintains comm contact with Four until the crash"
+
+open_threads:
+  - "Whether Dante's broadcast message reached its intended recipients"
+  - "Status of Hendricks and Standard inside the compound"
+  - "What happens to AIs entering deletion zones"
+  - "Survival of New Geneva Station defenders"
+  - "Elena's father's reaction to Softing's destruction"
+
+closed_threads:
+  - "How to destroy the Softing frequency barrier"
+  - "Whether Elena retained access to family systems"
+```

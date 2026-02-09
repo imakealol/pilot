@@ -1,0 +1,98 @@
+# CHAPTER CODEX SCHEMA
+# Canonical structured representation of each chapter
+# Used by analysis agents instead of raw prose for efficient querying
+
+# ============================================================
+# METADATA
+# ============================================================
+chapter: int                    # Chapter number (1-44)
+title: string                   # Chapter title
+wordcount: int                  # Approximate word count
+pov: string                     # POV character (or "omniscient")
+
+# ============================================================
+# TEMPORAL
+# ============================================================
+time:
+  relative_to_previous: string  # "immediate", "minutes later", "hours later", "days later", "weeks later", "flashback"
+  time_of_day: string           # "dawn", "morning", "midday", "afternoon", "dusk", "evening", "night", "unspecified"
+  duration: string              # How long does this chapter span? "minutes", "hours", "a day", etc.
+
+# ============================================================
+# SPATIAL
+# ============================================================
+locations:
+  - name: string                # Location name
+    first_appearance: bool      # Is this location introduced in this chapter?
+    description: string         # Brief description if new or significantly detailed
+
+# ============================================================
+# CHARACTERS
+# ============================================================
+characters_present:
+  - name: string                # Character name
+    role: string                # "pov", "major", "minor", "mentioned", "comms_only"
+    entrance: string            # How/when they enter the chapter (or "already present")
+    exit: string                # How/when they leave (or "chapter ends", "dies")
+
+character_states:               # End-of-chapter state for significant characters
+  CHARACTER_NAME:
+    physical: string            # Physical condition: "healthy", "fatigued", "injured (describe)", "critical", "dead"
+    emotional: string           # Emotional state in 2-3 words
+    location: string            # Where are they at chapter end
+    knowledge_delta:            # What they learned THIS chapter
+      - string
+    inventory:                  # Significant objects they possess
+      - item: string
+        status: string          # "acquired", "still has", "used", "lost", "gave away"
+
+# ============================================================
+# OBJECTS & PROPS
+# ============================================================
+objects:
+  - name: string                # Object name
+    status: string              # "introduced", "tracked", "used", "destroyed", "transferred"
+    holder: string              # Who has it (or location if not held)
+    significance: string        # Why it matters (brief)
+
+# ============================================================
+# PLOT
+# ============================================================
+key_events:                     # 3-7 major beats, in order
+  - string
+
+revelations:                    # Information revealed to reader or characters
+  - content: string             # What is revealed
+    to_whom: string             # "reader", "character name", or "reader and [character]"
+
+setups:                         # Foreshadowing planted
+  - element: string             # What is set up
+    payoff_chapter: int | null  # Where it pays off (if known), null if dangling
+
+payoffs:                        # Callbacks to earlier setups
+  - element: string             # What pays off
+    setup_chapter: int          # Where it was set up
+
+# ============================================================
+# CRAFT NOTES
+# ============================================================
+tone: string                    # Dominant tone: "tense", "quiet", "action", "emotional", "revelatory"
+pacing: string                  # "slow burn", "building", "intense", "climactic", "denouement"
+
+scene_breaks:                   # Scene structure
+  - scene_number: int
+    location: string
+    characters: [string]
+    summary: string             # One sentence
+
+# ============================================================
+# CONTINUITY FLAGS
+# ============================================================
+continuity_notes:               # Anything requiring cross-chapter verification
+  - string
+
+open_threads:                   # Unresolved questions at chapter end
+  - string
+
+closed_threads:                 # Questions resolved this chapter
+  - string

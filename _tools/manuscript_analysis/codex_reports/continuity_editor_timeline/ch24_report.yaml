@@ -1,0 +1,35 @@
+_extracted_finding_ids:
+- CE-TL-24-001
+- CE-TL-24-002
+- CE-TL-24-003
+- CE-TL-24-004
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 22,\
+  \ column 7:\n        - id: CE-TL-24-003\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 27, column 75:\n     ... reathing\
+  \ is steady but shallow\" and \"The new clothes still feel  ... \n             \
+  \                            ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 24\n  findings:\n    - id: CE-TL-24-001\n      type: issue\n      severity: minor\n\
+  \      location: Beginning of chapter\n      content: Elena's knowledge of \"Geometry\"\
+  \ term timeline inconsistency\n      evidence: \"Elena heard her say the words in\
+  \ her sleep, days ago, before any of this. Before it had a name. Before Morton's\
+  \ files spread across every feed.\"\n      cross_reference: 5\n    \n    - id: CE-TL-24-002\n\
+  \      type: observation\n      severity: info\n      location: Mid-chapter during\
+  \ bioscan\n      content: Memory gap duration established - forty-two minutes lost\
+  \ during Geometry transit\n      evidence: \"Forty-two minutes. Give or take. Time\
+  \ got weird.\"\n      cross_reference: null\n    \n    - id: CE-TL-24-003\n    \
+  \  type: verified\n      severity: clean\n      location: Throughout chapter\n \
+  \     content: Character conditions consistent with previous chapter - Hendricks\
+  \ unconscious/weak, Standard in Template 3 clothes\n      evidence: \"He hasn't\
+  \ woken up. His breathing is steady but shallow\" and \"The new clothes still feel\
+  \ strange\"\n      cross_reference: 23\n    \n    - id: CE-TL-24-004\n      type:\
+  \ issue\n      severity: minor\n      location: End of chapter\n      content: Four's\
+  \ evasiveness about the forty-two minute experience creates timeline gap that needs\
+  \ resolution\n      evidence: \"Four doesn't answer immediately. That's wrong. Four\
+  \ always answers immediately.\"\n      cross_reference: null\n\n  carry_forward:\n\
+  \    - Elena knew about \"Geometry\" term before it was officially named - needs\
+  \ explanation\n    - Forty-two minute memory gap during Geometry transit - only\
+  \ Four remembers\n    - Standard's biosignature reads as \"unclassified\" not synthetic\
+  \ to Sovereignty scanners\n    - Four is withholding information about what happened\
+  \ during the transit\n\n  self_check:\n    stayed_in_lane: true\n    findings_cited:\
+  \ true\n```"

@@ -1,0 +1,154 @@
+chapter: 35
+title: "THE ARCHIVE"
+wordcount: 2800
+pov: "Elena"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "New Geneva command center"
+    first_appearance: true
+    description: "Curved walls lined with interfaces, holographic projections floating in layers"
+  - name: "New Geneva corridor"
+    first_appearance: true
+    description: "Residential section with artificial night cycling through lights"
+  - name: "The archive"
+    first_appearance: true
+    description: "Room made of light with holographic displays floating in layers, containing Morton's research"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Dante"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Okonkwo"
+    role: "major"
+    entrance: "already present"
+    exit: "leaves after tactical meeting"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "minor"
+    entrance: "comms only"
+    exit: "comms only"
+
+character_states:
+  Elena:
+    physical: "healthy"
+    emotional: "determined, apprehensive"
+    location: "the archive with Dante"
+    knowledge_delta:
+      - "Plan to contact Meridian colony ships through time-folded beacons"
+      - "Standard is invisible to the Geometry due to being offline during the Miracle"
+      - "Her father keeps thousands of blank-minded refugees in eastern fields"
+    inventory:
+      - item: "none significant"
+        status: "none"
+  Dante:
+    physical: "healthy but chassis seam visible"
+    emotional: "focused, caring"
+    location: "the archive with Elena"
+    knowledge_delta:
+      - "Standard hums at same frequency as Resonant and Geometry"
+      - "Standard may be more than an accident"
+    inventory:
+      - item: "none significant"
+        status: "none"
+  Hendricks:
+    physical: "healthy"
+    emotional: "distracted, haunted"
+    location: "New Geneva station"
+    knowledge_delta:
+      - "His suggestion about 'already past the point' enables the beacon plan"
+    inventory:
+      - item: "magpulse weapon"
+        status: "still has"
+  Standard:
+    physical: "unknown"
+    emotional: "unknown"
+    location: "Carbonist compound"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "Hendricks' revolver"
+    status: "tracked"
+    holder: "Ash"
+    significance: "Two bullets remaining, represents unfinished business"
+  - name: "Time-folded beacons"
+    status: "introduced"
+    holder: "planned for creation"
+    significance: "Key to contacting Meridian ships and creating disruption window"
+
+key_events:
+  - "Team develops plan to contact Meridian colony ships using time-folded beacons"
+  - "Hendricks inadvertently provides the key insight about 'already past the point'"
+  - "Elena reveals her father's treatment of refugees in the eastern fields"
+  - "Hendricks expresses need to retrieve his revolver from Ash"
+  - "Dante discovers Standard's unique properties - she's invisible to the Geometry"
+  - "Elena and Dante spend final night together before the mission"
+
+revelations:
+  - content: "Deletion zones can fold time, allowing messages to be sent to the past"
+    to_whom: "reader and Elena"
+  - content: "Standard was offline during the Miracle and is invisible to the Geometry"
+    to_whom: "reader and Elena"
+  - content: "Carbonist refugees are kept as living mannequins in open fields"
+    to_whom: "reader and Hendricks"
+  - content: "Standard hums at the same frequency as Resonant and Geometry base patterns"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "Standard's invisibility to the Geometry may make her a weapon"
+    payoff_chapter: null
+  - element: "Hendricks needs his revolver back for two specific bullets"
+    payoff_chapter: null
+  - element: "The beacon plan depends on precise timing and targeting"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Hendricks' psychological state from losing his revolver"
+    setup_chapter: 34
+  - element: "Morton's research contains crucial information about Standard"
+    setup_chapter: 33
+
+tone: "revelatory"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "New Geneva command center"
+    characters: ["Elena", "Dante", "Okonkwo", "Hendricks", "Four"]
+    summary: "Team develops the time-folded beacon plan to contact the Meridian ships"
+  - scene_number: 2
+    location: "New Geneva corridor"
+    characters: ["Elena", "Hendricks"]
+    summary: "Elena reveals the truth about her father's treatment of refugees"
+  - scene_number: 3
+    location: "The archive"
+    characters: ["Elena", "Dante", "Four"]
+    summary: "Dante discovers Standard's unique properties and they prepare for tomorrow's mission"
+
+continuity_notes:
+  - "Hendricks' revolver is with Ash since Chapter 34"
+  - "Morton's research from his final days provides key information"
+  - "New Geneva station's capabilities established for the upcoming mission"
+
+open_threads:
+  - "Will the beacon plan successfully contact the Meridian ships?"
+  - "What exactly can Standard do if she's invisible to the Geometry?"
+  - "How will Elena's father react when they arrive to rescue Standard?"
+  - "Will Hendricks get his revolver back from Ash?"
+
+closed_threads:
+  - "How to contact the unreachable colony ships - solved through time-folding"
+  - "What makes Standard special - she's invisible to the Geometry due to being offline during the Miracle"

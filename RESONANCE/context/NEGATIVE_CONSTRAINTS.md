@@ -1,7 +1,7 @@
 # RESONANCE: NEGATIVE CONSTRAINTS
 
-**Version:** 1.2
-**Last Updated:** December 21, 2025
+**Version:** 1.3
+**Last Updated:** January 16, 2026
 **Purpose:** Explicit statements of what is NOT TRUE. The immune system of the story.
 
 ---
@@ -730,6 +730,33 @@ These constraints protect the core thesis: **"What if they offer something we do
 | WRONG | Explaining faction history in dialogue |
 | RIGHT | Show the object, let context explain |
 | RIGHT | Exposition through consequence, not lecture |
+
+---
+
+## Banned Names
+
+**Severity: BLOCKING**
+
+Names that cannot be used for new characters. Either overused in fiction, already claimed, or explicitly banned.
+
+| Name | Reason |
+|------|--------|
+| Chen | Overused SF default |
+| Marcus | Overused SF default |
+| Tien | Overused SF default |
+| Vasquez | Completely banned — replaced with Merced (Session 28) |
+| Merced | Reserved for Elena and Ash only |
+| Any additional Merced relatives | Family is Elena + Ash + absent Marisol |
+
+**Detection Patterns:**
+- New character named "Chen"
+- New character named "Marcus"
+- New character named "Tien"
+- New character named "Vasquez"
+- "Merced" applied to anyone other than Elena, Ash, or Marisol
+- New Merced relatives appearing
+
+**Note:** Yusuf replaced Chen in CH37, Okafor replaced Tien in CH28/CH31 (Session 25).
 
 ---
 

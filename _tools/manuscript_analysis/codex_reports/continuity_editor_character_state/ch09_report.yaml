@@ -1,0 +1,51 @@
+_extracted_finding_ids:
+- CONT-CHAR-09-001
+- CONT-CHAR-09-002
+- CONT-CHAR-09-003
+- CONT-CHAR-09-004
+- CONT-CHAR-09-005
+- CONT-CHAR-09-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 14,\
+  \ column 7:\n        - id: CONT-CHAR-09-002\n          ^\nexpected <block end>,\
+  \ but found '<scalar>'\n  in \"<unicode string>\", line 19, column 68:\n     ...\
+  \ leaving a red smear on his lip\" and \"His hand drifts toward his  ... \n    \
+  \                                     ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 9\n  findings:\n    - id: CONT-CHAR-09-001\n      type: verified\n      severity:\
+  \ clean\n      location: Throughout chapter\n      content: Elena's physical state\
+  \ consistent - injured (blood on fatigues) from previous combat, fatigued but functional\n\
+  \      evidence: \"She watches the blood spreading on Elena's fatigues\"\n     \
+  \ cross_reference: 8\n    \n    - id: CONT-CHAR-09-002\n      type: verified\n \
+  \     severity: clean\n      location: Throughout chapter\n      content: Hendricks'\
+  \ critical condition continues - coughing blood, weak, but conscious enough for\
+  \ conversation\n      evidence: \"Hendricks coughs, leaving a red smear on his lip\"\
+  \ and \"His hand drifts toward his coat\"\n      cross_reference: 8\n    \n    -\
+  \ id: CONT-CHAR-09-003\n      type: verified\n      severity: clean\n      location:\
+  \ Throughout chapter\n      content: Standard's emotional development continues\
+  \ - showing more curiosity and social awareness\n      evidence: \"there's something\
+  \ around her eyes—not quite a smile, but the architecture of one\" and \"You talk\
+  \ differently to him now\"\n      cross_reference: 8\n    \n    - id: CONT-CHAR-09-004\n\
+  \      type: observation\n      severity: info\n      location: Mid-chapter combat\
+  \ sequence\n      content: Hendricks shows relief when combat begins, consistent\
+  \ with his mysterious psychological state around the missing bullet\n      evidence:\
+  \ \"The first bullet hits the Rover like a hammer on a bell. Hendricks flinches.\
+  \ And then his whole body settles. The tension drains out of him... Like a man who'd\
+  \ been holding his breath and finally got permission to stop.\"\n      cross_reference:\
+  \ null\n    \n    - id: CONT-CHAR-09-005\n      type: verified\n      severity:\
+  \ clean\n      location: Weapon discussion\n      content: Ammunition count tracking\
+  \ correct - revolver started with 6, used 3 on scavengers (Ch4), has 2 remaining,\
+  \ 1 unaccounted for\n      evidence: \"Six chambers. Three spent on the scavengers.\
+  \ Two remaining... What did you use the first round on?\"\n      cross_reference:\
+  \ 4\n    \n    - id: CONT-CHAR-09-006\n      type: verified\n      severity: clean\n\
+  \      location: Elena's combat scene\n      content: Elena's advanced military\
+  \ equipment and skills consistent with previous demonstrations\n      evidence:\
+  \ \"The burstmag comes up in pieces... Her hands move without hesitation—muscle\
+  \ memory older than thought\" and bullet-curving capabilities\n      cross_reference:\
+  \ 8\n\n  carry_forward:\n    - Elena has blood on fatigues from combat injuries\
+  \ but remains functional\n    - Hendricks critical condition - coughing blood, needs\
+  \ medical attention\n    - Hendricks' missing bullet mystery deepens - he shows\
+  \ relief when combat interrupts the questioning\n    - Standard's emotional awareness\
+  \ growing - notices speech pattern changes between characters\n    - Fusion power\
+  \ critically low at 12% approaching compound\n    - Elena has high-end military\
+  \ equipment including targeting visor and curve-shot capabilities\n\n  self_check:\n\
+  \    stayed_in_lane: true\n    findings_cited: true\n```"

@@ -1,0 +1,152 @@
+```yaml
+chapter: 7
+title: "MAKING THE DEPOSIT"
+wordcount: 2200
+pov: "Elena"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "morning"
+  duration: "hours"
+
+locations:
+  - name: "Outpost on old I-95"
+    first_appearance: true
+    description: "Blister of shipping containers and tarps, fuel stop with triage tent, refuse settlement under black sky bars"
+  - name: "Triage tent"
+    first_appearance: true
+    description: "Medical facility within the outpost"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Standard"
+    role: "major" 
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Medic"
+    role: "minor"
+    entrance: "meets them at triage tent"
+    exit: "treating Hendricks"
+  - name: "Gray fatigues man"
+    role: "minor"
+    entrance: "approaches Standard"
+    exit: "backs away scared"
+  - name: "Synthetic woman"
+    role: "minor"
+    entrance: "standing in doorway"
+    exit: "frozen by shutdown command"
+
+character_states:
+  Elena:
+    physical: "fatigued"
+    emotional: "focused, distant"
+    location: "outpost triage tent"
+    knowledge_delta:
+      - "Standard wanders off against orders"
+      - "Hendricks' real name is Sabino"
+    inventory:
+      - item: "NED credentials"
+        status: "still has"
+  Standard:
+    physical: "healthy"
+    emotional: "confused, awakening"
+    location: "outpost courtyard"
+    knowledge_delta:
+      - "Hendricks lied about his name - real name is Sabino"
+      - "There are other synthetics being used as prostitutes"
+      - "Shutdown commands exist for synthetics"
+      - "She can defend herself physically"
+    inventory: []
+  Hendricks:
+    physical: "critical - regulator withdrawal"
+    emotional: "conscious, concerned"
+    location: "triage tent on stretcher"
+    knowledge_delta:
+      - "Standard saw the synthetic prostitute"
+    inventory: []
+
+objects:
+  - name: "NED credentials"
+    status: "used"
+    holder: "Elena"
+    significance: "Provides false name Sabino Hendricks"
+  - name: "Twisted-metal charms"
+    status: "introduced"
+    holder: "Prophet's followers"
+    significance: "Religious symbols of the Forgiven"
+
+key_events:
+  - "Elena wakes from geometric nightmare about being measured and found inefficient"
+  - "They arrive at outpost and take Hendricks to triage tent"
+  - "Elena gives medic false name Sabino Hendricks from NED credentials"
+  - "Standard realizes Hendricks lied about his name and wanders the outpost"
+  - "Standard encounters synthetic prostitute who looks like her"
+  - "Standard witnesses shutdown command demonstration on synthetic"
+  - "Standard physically defends herself from aggressive man"
+
+revelations:
+  - content: "Hendricks' real name is Sabino, not Swanstrom Kim"
+    to_whom: "Standard"
+  - content: "There are other synthetics being used as prostitutes in outposts"
+    to_whom: "reader and Standard"
+  - content: "Synthetics can be frozen with shutdown commands"
+    to_whom: "reader and Standard"
+  - content: "Standard has enhanced physical strength"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Elena's geometric dreams about being measured and corrected"
+    payoff_chapter: null
+  - element: "Prophet Ash and the Quiet Zone as sanctuary from Sky judgment"
+    payoff_chapter: null
+  - element: "The Forgiven inherit while connected burn"
+    payoff_chapter: null
+  - element: "Standard's growing awareness of deception and her nature"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Standard's physical capabilities hinted at earlier"
+    setup_chapter: 6
+
+tone: "revelatory"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Rover approaching outpost"
+    characters: ["Elena", "Standard"]
+    summary: "Elena wakes from nightmare, they arrive at outpost"
+  - scene_number: 2
+    location: "Outpost triage tent"
+    characters: ["Elena", "Standard", "Hendricks", "Medic"]
+    summary: "They deliver Hendricks for medical treatment using false identity"
+  - scene_number: 3
+    location: "Outpost courtyard and stalls"
+    characters: ["Standard", "various outpost residents"]
+    summary: "Standard explores alone and discovers synthetic prostitute and religious talk"
+  - scene_number: 4
+    location: "Outpost courtyard"
+    characters: ["Standard", "Gray fatigues man", "Hendricks"]
+    summary: "Standard confronts truth about her nature and defends herself"
+
+continuity_notes:
+  - "Hendricks conscious again and aware Standard saw the synthetic"
+  - "Elena still carrying NED credentials with false identity"
+
+open_threads:
+  - "What are the geometric dreams Elena is having"
+  - "Who is Prophet Ash and what is the Quiet Zone"  
+  - "What will Hendricks do now that Standard knows about other synthetics"
+  - "What are Standard's full capabilities"
+
+closed_threads:
+  - "Standard's growing suspicion about deception confirmed"
+  - "Standard's nature as synthetic revealed to her"
+```

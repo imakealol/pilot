@@ -1,0 +1,88 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 40
+  timestamp: 2026-01-17 11:00:00+00:00
+
+  query_log:
+    chapter: CH40
+    previous_reports: [38, 39]
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+
+  findings:
+    - id: CO-TI-40-001
+      type: observation
+      severity: info
+      location: "opening section"
+      content: "Standard's captivity duration measured by counting seconds - stopped at 4000 and started over"
+      evidence: "She stopped at four thousand and started over. The numbers mean nothing. They're just something to do while the stump of her right arm seeps clear fluid onto the stone floor."
+      chain_reference: null
+
+    - id: CO-TI-40-002
+      type: verified
+      severity: clean
+      location: "Kael confrontation sequence"
+      content: "Event sequence maintains proper causality - Kael enters, interrogates, attacks, Standard counters, arm swap occurs"
+      evidence: "The door opens... 'Brother Ash says I can ask my questions now'... He hits her again. And again... She hooks her ankles behind his right arm and torques her entire body"
+      chain_reference: null
+
+    - id: CO-TI-40-003
+      type: observation
+      severity: info
+      location: "Template 3 arrival timing"
+      content: "Template 3s arrive during Standard's escape - consistent with simultaneous operations from previous chapter"
+      evidence: "The compound is chaos when she emerges... Through a shattered window, she sees the sky filled with ships... Template 3s. Thousands of them."
+      chain_reference: "Report_CH39:CO-TI-39-002"
+
+    - id: CO-TI-40-004
+      type: verified
+      severity: clean
+      location: "waystation sister encounter"
+      content: "Waystation sister callback properly timed - references earlier clothing exchange from pre-Deliverance shuttle"
+      evidence: "'The shuttle,' Standard realizes. 'Before the Deliverance. You gave me clothes.' 'And a jacket.' The woman's tone is light. Almost teasing. 'Where's my jacket?'"
+      chain_reference: null
+
+    - id: CO-TI-40-005
+      type: observation
+      severity: info
+      location: "VTOL crash sequence"
+      content: "Four's VTOL damage consistent with previous battle - structural integrity at 40%, single flight capability remaining"
+      evidence: "'structural integrity at forty percent'... 'It'll get us there once. After that, it's a very expensive projectile.'"
+      chain_reference: "Report_CH39:CO-TI-39-003"
+
+    - id: CO-TI-40-006
+      type: observation
+      severity: info
+      location: "final crash timing"
+      content: "Chapter ends with tower crash - positions characters for final confrontations in subsequent chapters"
+      evidence: "The tower fills the viewport. They crash."
+      chain_reference: "Report_CH39:CO-TI-39-006"
+
+  carry_forward:
+    - Standard now has functional arm replacement - affects her capabilities in final confrontations
+    - VTOL crashed into tower - Four and Standard now inside for final sequence
+    - Template 3s securing compound - parallel rescue operation timing for remaining chapters
+    - Kael incapacitated with severed arm - removes him from final confrontation sequence
+    - Standard's "wet packet" beginning to unpack - Geometry interface capabilities developing
+
+  chain_citations:
+    - report: CH39
+      finding_id: "CO-TI-39-002"
+      relationship: "confirms"
+    - report: CH39
+      finding_id: "CO-TI-39-003"
+      relationship: "extends"
+    - report: CH39
+      finding_id: "CO-TI-39-006"
+      relationship: "confirms"
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

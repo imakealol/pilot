@@ -1,0 +1,149 @@
+# CHAPTER MANIFEST
+# Canonical source of truth for chapter files
+# Updated: 2026-01-17 (after Session 28 restructure)
+
+total_chapters: 44
+
+chapters:
+  1:
+    title: "RUDE AWAKENING"
+    file: "RESONANCE_CH1_RUDE_AWAKENING.txt"
+  2:
+    title: "THE OFFERINGS"
+    file: "RESONANCE_CH2_THE_OFFERINGS.txt"
+  3:
+    title: "REFORMAT"
+    file: "RESONANCE_CH3_REFORMAT.txt"
+  4:
+    title: "STANDARD ISSUE"
+    file: "RESONANCE_CH4_STANDARD_ISSUE.txt"
+  5:
+    title: "THE QUEUE"
+    file: "RESONANCE_CH5_THE_QUEUE.txt"
+  6:
+    title: "THE REDACTED SKY"
+    file: "RESONANCE_CH6_THE_REDACTED_SKY.txt"
+  7:
+    title: "MAKING THE DEPOSIT"
+    file: "RESONANCE_CH7_MAKING_THE_DEPOSIT.txt"
+  8:
+    title: "WHAT'S IN A NAME"
+    file: "RESONANCE_CH8_WHATS_IN_A_NAME.txt"
+  9:
+    title: "THE DEPO"
+    file: "RESONANCE_CH9_THE_DEPO.txt"
+  10:
+    title: "SHINING DOWN"
+    file: "RESONANCE_CH10_SHINING_DOWN.txt"
+  11:
+    title: "THE WITNESS"
+    file: "RESONANCE_CH11_THE_WITNESS.txt"
+  12:
+    title: "THE PULL"
+    file: "RESONANCE_CH12_THE_PULL.txt"
+  13:
+    title: "GRACE"
+    file: "RESONANCE_CH13_GRACE.txt"
+  14:
+    title: "THE DAM"
+    file: "RESONANCE_CH14_THE_DAM.txt"
+  15:
+    title: "THE APPROACH"
+    file: "RESONANCE_CH15_THE_APPROACH.txt"
+  16:
+    title: "THE SILENT HOUSE"
+    file: "RESONANCE_CH16_THE_SILENT_HOUSE.txt"
+  17:
+    title: "THE SIGN"
+    file: "RESONANCE_CH17_THE_SIGN.txt"
+  18:
+    title: "THE CRAFTSMAN"
+    file: "RESONANCE_CH18_THE_CRAFTSMAN.txt"
+  19:
+    title: "THE QUIET"
+    file: "RESONANCE_CH19_THE_QUIET.txt"
+  20:
+    title: "FORTY YEARS"
+    file: "RESONANCE_CH20_FORTY_YEARS.txt"
+  21:
+    title: "THE EXECUTION"
+    file: "RESONANCE_CH21_THE_EXECUTION.txt"
+  22:
+    title: "FIVE MINUTES EARLIER"
+    file: "RESONANCE_CH22_FIVE_MINUTES_EARLIER.txt"
+  23:
+    title: "THE ICON"
+    file: "RESONANCE_CH23_THE_ICON.txt"
+  24:
+    title: "THE SOVEREIGNTY"
+    file: "RESONANCE_CH24_THE_SOVEREIGNTY.txt"
+  # NOTE: CH24a is an interstitial chapter (illustrated/graphic novel segment)
+  24.5:
+    title: "IN THE BLIND"
+    file: "RESONANCE_CH24a_In_The_Blind.txt"
+    type: "interstitial"
+  25:
+    title: "DIVINE INTERVENTION"
+    file: "RESONANCE_CH25_DIVINE_INTERVENTION.txt"
+  26:
+    title: "BACK TO ONE"
+    file: "RESONANCE_CH26_BACK_TO_ONE.txt"
+  27:
+    title: "IN PLAIN SIGHT"
+    file: "RESONANCE_CH27_IN_PLAIN_SIGHT.txt"
+  28:
+    title: "THE COUNCIL OF STRANGERS"
+    file: "RESONANCE_CH28_THE_COUNCIL_OF_STRANGERS.txt"
+  29:
+    title: "THE LEASH"
+    file: "RESONANCE_CH29_THE_LEASH.txt"
+  30:
+    title: "THE HANGAR"
+    file: "RESONANCE_CH30_THE_HANGAR.txt"
+  31:
+    title: "KANGAROO COURT"
+    file: "RESONANCE_CH31_KANGAROO_COURT.txt"
+  32:
+    title: "FOLLOW THE LEADER"
+    file: "RESONANCE_CH32_FOLLOW_THE_LEADER.txt"
+  33:
+    title: "THE THRESHOLD"
+    file: "RESONANCE_CH33_THE_THRESHOLD.txt"
+  34:
+    title: "THE PROOF"
+    file: "RESONANCE_CH34_THE_PROOF.txt"
+  35:
+    title: "THE ARCHIVE"
+    file: "RESONANCE_CH35_THE_ARCHIVE.txt"
+  36:
+    title: "TRANSMISSION"
+    file: "RESONANCE_CH36_TRANSMISSION.txt"
+  37:
+    title: "THE FALL"
+    file: "RESONANCE_CH37_THE_FALL.txt"
+  38:
+    title: "THE BEACONS"
+    file: "RESONANCE_CH38_THE_BEACONS.txt"
+  39:
+    title: "THE EMERGENCE"
+    file: "RESONANCE_CH39_THE_EMERGENCE.txt"
+  40:
+    title: "THE PIT"
+    file: "RESONANCE_CH40_THE_PIT.txt"
+  41:
+    title: "HIGH NOON"
+    file: "RESONANCE_CH41_HIGH_NOON.txt"
+  42:
+    title: "THE PILOT"
+    file: "RESONANCE_CH42_THE_PILOT.txt"
+  43:
+    title: "THE DOOR"
+    file: "RESONANCE_CH43_THE_DOOR.txt"
+  44:
+    title: "THE EXODUS"
+    file: "RESONANCE_CH44_THE_EXODUS.txt"
+
+# Deprecated files (from pre-restructure) - do not use
+deprecated:
+  - "RESONANCE_CH42_THE_DOOR.txt"      # replaced by CH43_THE_DOOR.txt
+  - "RESONANCE_CH43_THE_EXODUS.txt"    # replaced by CH44_THE_EXODUS.txt

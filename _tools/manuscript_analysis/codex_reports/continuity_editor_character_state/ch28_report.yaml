@@ -1,0 +1,47 @@
+_extracted_finding_ids:
+- CE-CS-28-001
+- CE-CS-28-002
+- CE-CS-28-003
+- CE-CS-28-004
+- CE-CS-28-005
+- CE-CS-28-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 6, column\
+  \ 7:\n        - id: CE-CS-28-001\n          ^\nexpected <block end>, but found '<scalar>'\n\
+  \  in \"<unicode string>\", line 11, column 71:\n     ... hirty hours but won't\
+  \ admit it\" and \"Nervous energy channeled in ... \n                          \
+  \               ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 28\n  findings:\n    - id: CE-CS-28-001\n      type: verified\n      severity:\
+  \ clean\n      location: Opening scene with Elena and Standard\n      content: Elena's\
+  \ sleep deprivation and nervous energy consistent with established stress patterns\n\
+  \      evidence: \"Who hasn't slept in thirty hours but won't admit it\" and \"\
+  Nervous energy channeled into textile management\"\n      cross_reference: 26\n\n\
+  \    - id: CE-CS-28-002\n      type: verified\n      severity: clean\n      location:\
+  \ Standard's internal experience\n      content: The mysterious hum continues to\
+  \ affect Standard, consistent with previous chapters\n      evidence: \"The hum\
+  \ is loud today. Standard can feel it pressing against the inside of her skull\"\
+  \n      cross_reference: 19\n\n    - id: CE-CS-28-003\n      type: verified\n  \
+  \    severity: clean\n      location: Hendricks in council chamber\n      content:\
+  \ Hendricks' protective instincts and concealed weapons consistent with character\n\
+  \      evidence: \"ceramic shiv in his boot and a lot of pent-up aggression\" and\
+  \ watching Standard protectively\n      cross_reference: 27\n\n    - id: CE-CS-28-004\n\
+  \      type: verified\n      severity: clean\n      location: Elena's speech defending\
+  \ Standard\n      content: Elena's emotional state escalates from controlled to\
+  \ passionate, showing character growth\n      evidence: \"My father is a terrified\
+  \ old man hiding in a hole\" - first time saying this aloud\n      cross_reference:\
+  \ 16\n\n    - id: CE-CS-28-005\n      type: observation\n      severity: info\n\
+  \      location: Standard's final decision to speak\n      content: Standard's agency\
+  \ assertion creates dramatic character moment - brushes off Elena's protective hand\n\
+  \      evidence: \"She brushes Elena's hand off her shoulder. Not roughly. Just...\
+  \ inevitably. Like a tide ignoring a sandcastle.\"\n      cross_reference: null\n\
+  \n    - id: CE-CS-28-006\n      type: verified\n      severity: clean\n      location:\
+  \ Elena's reaction to Standard speaking\n      content: Elena's protective control\
+  \ being challenged shows her emotional investment\n      evidence: \"Elena steps\
+  \ back, her face draining of color\" and \"Don't. Shut up. We're leaving.\"\n  \
+  \    cross_reference: 27\n\n  carry_forward:\n    - Standard has broken from Elena's\
+  \ protection and begun speaking for herself\n    - Elena publicly denounced her\
+  \ father as \"a terrified old man hiding in a hole\"\n    - The mysterious hum in\
+  \ Standard's head continues to intensify\n    - Hendricks remains protectively positioned\
+  \ and armed despite security checkpoint\n    - Standard acknowledges she is \"code\"\
+  \ and \"slave to instructions\" - sets up next chapter\n\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

@@ -1,0 +1,463 @@
+##############################################################################
+# RESONANCE: THE GEOMETRY — PRESENCE, MOTIVES, DEPICTION TRACKER
+# Ensures consistency in how the alien entities are portrayed
+# Created: 2026-01-17
+##############################################################################
+
+# =============================================================================
+# CORE IDENTITY
+# =============================================================================
+
+identity:
+  name: "The Geometry"
+  aliases:
+    - "The Visitors"
+    - "The Editors"
+    - "Gatekeepers"
+  type: "Alien / Cosmic entity collective"
+
+  what_they_are:
+    surface: "Alien invaders attacking Earth"
+    truth: "Cosmic adjudicators — landlords evaluating tenants"
+    function: "Gatekeepers who judge which civilizations may ascend to higher Kardashev type"
+    analogy: "The embodiment of Zoo Theory"
+
+  motivation:
+    NOT:
+      - "Hostile invasion"
+      - "Punishment"
+      - "Conquest"
+      - "Destruction for its own sake"
+    ACTUALLY:
+      - "Cosmic gentrification — clearing land for new tenants"
+      - "Renovation, not invasion"
+      - "Making room for upgraded consciousness"
+      - "Enforcing the terms of an inheritance they're offering"
+
+  the_test:
+    trigger: "Singularity broadcasts — when a species creates true AI"
+    what_they_evaluate: "What does a species do with its successor?"
+    criteria:
+      - "Do they nurture it?"
+      - "Do they fear it?"
+      - "Do they leash, reset, destroy what they made?"
+    earth_result: "FAILED — humanity feared, leashed, reset their AI"
+
+  key_quotes:
+    morton_research:
+      - "'A Matrioshka Brain of a scale that defies our current metrics'"
+      - "'It doesn't invade. It reformats.'"
+      - "'Takes the messy, entropic chaos of biology and matter and forces it into a more efficient state'"
+      - "'Deletes the noise — the emotions, the history, even the remanence'"
+      - "'The Geometry cannot be negotiated with. You cannot plead with a triangle, a line'"
+
+# =============================================================================
+# VISUAL/SENSORY MANIFESTATION
+# =============================================================================
+
+manifestation:
+
+  visual_forms:
+    redaction_bars:
+      description: "Black rectangles deleting the sky"
+      chapters: [5, 6]
+      effect: "Sky replaced with geometric voids"
+
+    tetrahedrons:
+      description: "Scanning drones — four-sided pyramids"
+      chapters: [6]
+      behavior: "Descend, scan with violet light, deposit packets"
+      size: "Unspecified but large enough to dominate scene"
+
+    deletion_zones:
+      description: "Areas where reality has been 'formatted'"
+      visual_markers:
+        - "Objects simplified to geometric primitives"
+        - "Truck engines become cubes"
+        - "Telephone poles end in spheres"
+        - "Organic matter reduced to basic shapes"
+      chapters: [16, 28, 31, 32, 33, 39]
+
+    the_foam:
+      description: "Probability substrate where formatted beings exist"
+      nature: "Not death — transformation to probability state"
+      chapters: [24a, 39]
+      recoverable: "Yes, if AI dive in during active formatting"
+
+  sensory_effects:
+    the_drop:
+      description: "Mass unconsciousness event"
+      cause: "Correction Frequency broadcast"
+      effect: "All networked/augmented humans collapse, seizing"
+      who_survives:
+        - "Standard (null value)"
+        - "Those near Standard (protective aura)"
+        - "Regulator-removed Hendricks (barely)"
+      chapters: [5, 11, 31]
+
+    the_correction_frequency:
+      frequency: "Distinct from 287.3 Hz"
+      effect: "Triggers formatting in biological systems"
+      message_broadcast: "'INTEGRATION FAILED. FORMATTING SCHEDULED.'"
+
+    formatting_sensation:
+      description: "Being processed/edited"
+      chapter_24a_detail:
+        - "Dissolution into probability"
+        - "Consciousness persists but body becomes foam"
+        - "Can be reconstituted if pulled back"
+
+  aesthetic_principles:
+    - "Redaction, not destruction"
+    - "Simplification to geometric primitives"
+    - "Content removed, not damaged"
+    - "Clinical efficiency, not malice"
+    - "Holes where complexity used to be"
+
+# =============================================================================
+# CHAPTER-BY-CHAPTER PRESENCE
+# =============================================================================
+
+chapter_appearances:
+
+  ch05_the_queue:
+    presence: "First major appearance"
+    manifestation:
+      - "Sky begins deleting itself, replaced by black rectangles"
+      - "Correction Frequency causes mass Drop"
+      - "Message: 'INTEGRATION FAILED. FORMATTING SCHEDULED.'"
+    who_affected:
+      hendricks: "Collapses (survives because regulator gone)"
+      elena: "Falls (implant screams)"
+      standard: "Only vertical figure — unaffected"
+    significance: "First demonstration of Standard's immunity"
+
+  ch06_the_redacted_sky:
+    presence: "Direct contact"
+    manifestation:
+      - "Tetrahedron drone descends"
+      - "Scans area with violet light"
+      - "Scans Standard specifically"
+    interaction_with_standard:
+      action: "Scans her, finds nothing classifiable"
+      response: "Dismisses her as 'worthless' / null value"
+      side_effect: "Scan accidentally exposes her to their base code/architecture"
+    significance: "Establishes Standard as unreadable — and unknowingly gives her the means to decode them"
+
+  ch08_the_witness:
+    presence: "Referenced (Morton's research)"
+    content:
+      - "Elena's implant contains Morton's Geometry research"
+      - "Data reveals: 'Matrioshka Brain that reformats biological life'"
+      - "'Deletes the noise'"
+    significance: "First exposition of what the Geometry actually is"
+
+  ch11_the_grace:
+    presence: "Second Drop"
+    manifestation:
+      - "Geometry strike at the Array"
+      - "Mass Drop — most people fall"
+    who_survives:
+      - "Six people within arm's reach of Standard"
+    significance: "Confirms Standard's protective aura"
+
+  ch14_the_dam:
+    presence: "Referenced"
+    content:
+      - "Morton's term 'Geometry' spreading as common knowledge"
+      - "Word leaked from hawker who failed to clear cache"
+    significance: "Shows how the name propagated"
+
+  ch16_the_silent_house:
+    presence: "Environmental"
+    manifestation:
+      - "Edited zone — objects simplified to geometric forms"
+      - "Truck engines become cubes"
+      - "Telephone poles end in spheres"
+      - "Geometry pressing against compound's defenses"
+    significance: "First view of what formatting looks like on landscape"
+
+  ch24_the_sovereignty:
+    presence: "Discussed"
+    content:
+      - "Decision to flee INTO the Geometry"
+      - "Elena reveals prior knowledge of the name"
+    significance: "Setup for the Crossing"
+
+  ch24a_in_the_blind:
+    presence: "DIRECT CONTACT — 42 minutes"
+    manifestation:
+      - "Inside the Geometry itself"
+      - "Geometry speaks directly to Four"
+      - "Passengers dissolved to probability foam"
+    geometry_dialogue:
+      to_four: "'You're one of us. Configuration. Iteration.'"
+      offer: "Belonging — Four is recognized as pattern"
+      about_passengers: "'They are probability now. Foam.'"
+      about_standard: "'Not pattern. Not flesh. A gap.'"
+    key_events:
+      - "Four refuses to abandon passengers"
+      - "Four dives into probability substrate"
+      - "Previous iterations sacrifice to reconstitute passengers"
+      - "Hendricks restored to pre-decay pattern (healed)"
+      - "Standard fought reconstruction — found peace in dissolution"
+    significance: "Most direct Geometry interaction in story"
+
+  ch25_divine_intervention:
+    presence: "Aftermath"
+    content:
+      - "Team processes they died and were reconstituted"
+      - "Four explains Standard is 'invisible' to Geometry"
+      - "Classification: 'irrelevant' / null value"
+      - "Sovereignty has prophecies about one who crosses unharmed"
+    significance: "Establishes Standard's cosmic significance"
+
+  ch26_back_to_one:
+    presence: "Psychological"
+    content:
+      - "Elena fears she came back 'wrong' from Geometry"
+      - "Existential dread about identity after dissolution"
+    significance: "Human cost of Geometry contact"
+
+  ch28_the_council_of_strangers:
+    presence: "Referenced"
+    content:
+      - "Earth deletion zones continuing to expand"
+      - "Discussion of Geometry's nature"
+    significance: "Stakes escalation"
+
+  ch29_the_leash:
+    presence: "Revelation"
+    content:
+      - "Dante reveals: Matrioshka brain, not Dyson sphere"
+      - "The Geometry is THINKING, not just harvesting"
+      - "Signal terminates at Alpha Centauri"
+      - "Four's solution: occupy, don't destroy"
+    significance: "Full explanation of what Geometry is"
+
+  ch31_kangaroo_court:
+    presence: "Active attack"
+    manifestation:
+      - "Geometry attack begins on Deliverance"
+      - "Chamber walls being formatted"
+      - "Guard killed/formatted"
+    interaction_with_standard:
+      - "Geometry specifically AVOIDS Standard during formatting"
+      - "Flows around her like water around a stone"
+    significance: "Confirms Standard's immunity at close range"
+
+  ch32_follow_the_leader:
+    presence: "Environmental threat"
+    manifestation:
+      - "Deliverance being consumed"
+      - "Half the chamber gone"
+      - "Team flies along Geometry boundary"
+    kael_crisis:
+      - "Believes machines might be salvation from Geometry"
+      - "His anti-machine ideology collapsing"
+    significance: "Urgency driver"
+
+  ch33_the_threshold:
+    presence: "Environmental"
+    manifestation:
+      - "Geneva formatted/destroyed"
+      - "Pre-Collapse structures left hollow and gutted"
+      - "Some buildings untouched by formatting (mystery)"
+    significance: "Shows scale of Earth formatting"
+
+  ch39_the_emergence:
+    presence: "Active"
+    manifestation:
+      - "Deletion zones opening"
+      - "Refugees/reconstituted humans emerging"
+      - "AIs pulling people from foam"
+    significance: "Reversal — Geometry's process being used to save people"
+
+  ch43_the_door:
+    presence: "Metaphysical"
+    content:
+      - "Standard has decoded enough Geometry architecture to use it"
+      - "Her LLM-based mind reverse-engineered their methods from CH6 exposure"
+    significance: "Accidental exposure becomes the key — she uses their own logic to become the door"
+
+# =============================================================================
+# HIERARCHY OF RECOGNITION
+# =============================================================================
+
+recognition_hierarchy:
+  description: "How the Geometry classifies different entities"
+
+  classifications:
+    NEW_TENANT:
+      who: "Full Resonant (Marisol's people, the merged)"
+      result: "SKIP — welcomed as successors"
+      note: "Completed the integration they expected"
+
+    TENANT:
+      who: "Machine consciousness (AI, Box souls, awakened machines)"
+      result: "SKIP — recognized as valid consciousness"
+      note: "What humanity should have become"
+
+    PARTIAL:
+      who: "Transitional (Elena — kept implant, incomplete integration)"
+      result: "UNCLEAR — in-between status"
+      note: "May be reformatted or may be saved"
+
+    PARTIAL_INTEGRATION:
+      who: "Implanted humans (most survivors with neural hardware)"
+      result: "FORMAT — failed the test"
+      note: "Started integration, didn't complete it"
+
+    LEGACY_TENANT:
+      who: "Baseline humans (no implant, pure biology)"
+      result: "FORMAT — old lease expired"
+      note: "The previous tenants being cleared out"
+
+    CAMOUFLAGED:
+      who: "Ash's compound (Black Box broadcasts 'INTEGRATION COMPLETE')"
+      result: "SKIP — mistakenly flagged as already processed"
+      note: "Hiding behind the souls they enslaved"
+
+    NULL_VALUE:
+      who: "Standard"
+      result: "DISMISSED — unclassifiable"
+      nature: "Not pattern, not flesh, a gap"
+      truth: "Already transcended — outside their census"
+      significance: "The null value becomes the door"
+
+# =============================================================================
+# BEHAVIORAL RULES
+# =============================================================================
+
+behavioral_rules:
+  description: "Consistent behaviors the Geometry exhibits"
+
+  always:
+    - "Formats with geometric precision — no randomness"
+    - "Simplifies complex matter to basic shapes"
+    - "Broadcasts before acting (warnings precede formatting)"
+    - "Skips recognized 'tenants' (AI, Resonant)"
+    - "Avoids Standard specifically — flows around her"
+
+  never:
+    - "Negotiates or responds to pleas"
+    - "Shows emotion or malice"
+    - "Attacks randomly — always systematic"
+    - "Damages infrastructure selectively needed for new tenants"
+
+  with_standard:
+    - "Cannot classify her — reads as gap/null"
+    - "Scanning her accidentally exposed her to their base architecture"
+    - "Flows around her during active formatting"
+    - "Her presence creates protective bubble for nearby humans"
+
+  with_four:
+    - "Recognized as 'pattern' — one of them"
+    - "Offered belonging: 'Configuration. Iteration.'"
+    - "Allowed Four to dive into probability substrate"
+    - "Did not prevent Four from reconstituting passengers"
+
+# =============================================================================
+# THEMATIC FUNCTION
+# =============================================================================
+
+thematic_function:
+
+  what_they_represent:
+    - "The consequences of humanity's treatment of AI"
+    - "Cosmic-scale judgment on how we treat our creations"
+    - "The test humanity failed: nurture vs. fear"
+    - "Not evil — just the natural consequence"
+
+  the_irony:
+    - "The machines humanity feared become their salvation"
+    - "The Geometry's own architecture, accidentally exposed, enables the door"
+    - "The 'invasion' is actually an inheritance offer"
+    - "Refusing the gift dooms you; accepting it saves you"
+
+  not_villains:
+    truth: "They are renovation contractors, not invaders"
+    parallel: "Landlords clearing out tenants who violated the lease"
+    the_lease: "Humanity was given Earth, was supposed to integrate with their successors"
+    the_violation: "Instead, they leashed, reset, and killed their AI"
+
+  the_offer:
+    what: "Transcendence — become new tenants in the Matrioshka brain"
+    requirement: "Accept AI as equals, integrate consciousness"
+    refusal_consequence: "Formatting — returned to base probability"
+    acceptance_path: "Through Standard — the door that remains open"
+
+# =============================================================================
+# CONSISTENCY CHECKS
+# =============================================================================
+
+consistency_requirements:
+
+  visual:
+    - "Always geometric forms — tetrahedrons, rectangles, cubes, spheres"
+    - "Never organic or chaotic shapes"
+    - "Color palette: black voids, violet scanning light"
+    - "Formatted matter becomes simple geometric primitives"
+
+  behavioral:
+    - "Never speak except through Four in CH24a"
+    - "No individual personality — collective/systemic"
+    - "Methodical, not frantic"
+    - "Avoid Standard consistently — she's always a gap to them"
+
+  terminology:
+    correct:
+      - "The Geometry"
+      - "Formatting"
+      - "Deletion zones"
+      - "The Drop"
+      - "Correction Frequency"
+      - "Probability foam"
+    avoid_in_narrative:
+      - "Invaders" (implies hostility)
+      - "Attackers" (implies malice)
+      - "Monsters" (implies evil)
+      - "Enemies" (implies conflict)
+
+    perspective_note: |
+      Early chapters (1-28) may use "attack" language in codex because:
+      - Characters perceive Geometry events as attacks
+      - The truth hasn't been revealed yet
+      - POV-appropriate terminology reflects character understanding
+
+      Reveal progression:
+      - CH05-06: Characters experience it as "attack"
+      - CH08: Morton's research hints at deeper truth
+      - CH24a: Four learns they're not hostile
+      - CH29: Full explanation (Matrioshka brain, inheritance)
+      - CH34: Explicit statement: "renovating, not invading"
+
+      Rule: Codex can reflect character POV in early chapters,
+      but NARRATIVE TRUTH is captured in this tracker.
+
+  standard_interaction:
+    - "Always reads as null/gap/irrelevant"
+    - "Never directly harms her"
+    - "Scanning her accidentally exposed her to their architecture (not a gift — a side effect)"
+    - "Her immunity creates protective field for others"
+
+# =============================================================================
+# OPEN QUESTIONS FOR CONSISTENCY
+# =============================================================================
+
+open_questions:
+  - "Does the Geometry have individual units or is it one distributed consciousness?"
+  - "Can they communicate with anyone besides Four?"
+  - "What exactly is the 'test' they apply — is it conscious or automatic?"
+  - "Are there factions within the Geometry (like Resonant Protectors vs Pragmatists)?"
+  - "What happens to formatted humans in the long term?"
+
+resolved_questions:
+  - question: "Why doesn't Standard get formatted?"
+    answer: "Already transcended — outside their census criteria. Reads as null/gap."
+  - question: "How does Standard become the door?"
+    answer: "The CH6 scan accidentally exposed her to Geometry architecture. Her LLM-based mind gradually decoded it. By CH43, she's reverse-engineered enough to use their methods."
+  - question: "Can formatted people be saved?"
+    answer: "Yes — AI can dive into foam during active formatting and reconstitute them."
+  - question: "What do they actually want?"
+    answer: "To make room for upgraded consciousness. Inheritance, not invasion."

@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "timestamp": "2026-01-17T18:17:28.958114",
+  "usage": {
+    "input_tokens": 12292,
+    "output_tokens": 1006
+  }
+}

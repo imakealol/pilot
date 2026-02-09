@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Continuity Check Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .stat-box {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        .content { padding: 30px; }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contradiction-item {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #e74c3c;
+            border-radius: 4px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .severity-high {
+            border-left-color: #e74c3c;
+        }
+        .severity-medium {
+            border-left-color: #f39c12;
+        }
+        .severity-low {
+            border-left-color: #f1c40f;
+        }
+        .severity-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .severity-badge.high { background: #e74c3c; }
+        .severity-badge.medium { background: #f39c12; }
+        .severity-badge.low { background: #f1c40f; }
+        .context-box {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-size: 0.95em;
+        }
+        .chapter-tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin-right: 5px;
+        }
+        .character-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .character-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .attribute-list {
+            list-style: none;
+            padding: 0;
+        }
+        .attribute-list li {
+            padding: 5px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .attribute-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Continuity Check Report</h1>
+            <p>RESONANCE_CH27_THE_PROOF.txt</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-value">2</div>
+                <div class="stat-label">Chapters</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">1</div>
+                <div class="stat-label">Characters Tracked</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Potential Issues</div>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="section">
+                <h2>✅ No Obvious Contradictions</h2>
+                <p style="color: #666;">
+                    No clear contradictions were detected in tracked attributes.
+                    This doesn't mean there are none - manual review is still recommended.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>👥 Character Attributes Tracked</h2>
+                <p style="color: #666; margin-bottom: 20px;">
+                    Physical descriptions and attributes mentioned for each character.
+                </p>
+
+                <div class="character-card">
+                    <div class="character-name">His</div>
+                    <ul class="attribute-list">
+
+                        <li>
+                            <strong>Eye Color:</strong> his
+                            <span style="color: #999; font-size: 0.9em;">
+                                (mentioned in chapter 1)
+                            </span>
+                        </li>
+
+                        <li>
+                            <strong>Age Desc:</strong> old
+                            <span style="color: #999; font-size: 0.9em;">
+                                (mentioned in chapter 1)
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

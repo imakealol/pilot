@@ -1,0 +1,77 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Elena has picked up Standard and Hendricks as traveling companions
+  - Elena's implant goes silent around Standard (void effect established)
+  - Hendricks has NED Chief of Security credentials and knowledge of service routes
+  - Standard demonstrated immunity to frequency weapons that dropped everyone else
+  - Elena, Standard, and Hendricks are all unconscious except Standard at chapter
+    end
+  - Elena's emotional state includes guilt over shooting Aikin before the checkpoint
+  chapter: 5
+  findings:
+  - content: Elena's emotional state properly carries forward grief and isolation
+      from Chapter 2 mission
+    cross_reference: 2
+    evidence: Three seats behind her sit empty. Goff. Otis. Aikin. Gone... The silence
+      where their voices should be presses against her like being underwater.
+    id: CE-CS-05-001
+    location: Opening scene - Elena in Rover
+    severity: clean
+    type: verified
+  - content: Elena's implant state consistent with Chapter 2 - active since NED, carrying
+      Morton's data
+    cross_reference: 2
+    evidence: her implant—dormant for eleven years, screaming since NED—was hot now.
+      Loaded
+    id: CE-CS-05-002
+    location: Elena's implant behavior
+    severity: clean
+    type: verified
+  - content: Black Box frequency and soul count consistent with Chapter 2 codex
+    cross_reference: 2
+    evidence: A vibration at 287.3 Hz that rattles the fillings in her teeth... Sixteen
+      thousand, seven hundred and forty-nine souls
+    id: CE-CS-05-003
+    location: Black Box properties
+    severity: clean
+    type: verified
+  - content: Standard's void-like presence matches her established nature from codex
+      - undetectable by technology
+    cross_reference: 4
+    evidence: To Elena's eyes, she looks normal... But to Elena's senses, she is a
+      hole in the world. A void.
+    id: CE-CS-05-004
+    location: Standard's introduction
+    severity: clean
+    type: verified
+  - content: Hendricks' deteriorating state from regulator withdrawal consistent with
+      Chapter 3
+    cross_reference: 3
+    evidence: Old. Gray skin. He leans against the concrete barrier like his bones
+      have turned to water... Regulator withdrawal.
+    id: CE-CS-05-005
+    location: Hendricks physical condition
+    severity: clean
+    type: verified
+  - content: Standard's resistance to the frequency weapon consistent with her established
+      nature
+    cross_reference: 6
+    evidence: She isn't screaming. She isn't seizing. She isn't falling... watching
+      the bodies drop... with a calm, clinical precision
+    id: CE-CS-05-006
+    location: Standard's immunity to frequency attack
+    severity: clean
+    type: verified
+  - content: Elena's implant overload reaction consistent with her augmented state
+    cross_reference: 2
+    evidence: The implant in her brain... turns into a hot poker. It screams. A feedback
+      loop of pure agony.
+    id: CE-CS-05-007
+    location: Elena's frequency weapon reaction
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

@@ -1,0 +1,73 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 36
+  findings:
+    - id: CE-CS-36-01
+      type: verified
+      severity: clean
+      location: opening scene
+      content: Elena's implant state correctly dormant in shielded tether
+      evidence: "No signals down here. The tether is shielded, isolated, a bubble of quiet falling through space."
+      cross_reference: 35
+
+    - id: CE-CS-36-02
+      type: verified
+      severity: clean
+      location: throughout chapter
+      content: Hendricks' phantom limb behavior consistent with revolver loss
+      evidence: "His hand keeps twitching toward his empty hip, reaching for a revolver that isn't there. She's watched him do it a dozen times since they left the station."
+      cross_reference: 34
+
+    - id: CE-CS-36-03
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Hendricks' protective instincts remain despite physical deterioration
+      evidence: "Elena doesn't hear it. She feels it... His hand on the emergency panel... A body between her and the wall. Hendricks. She can feel how hard he hits, taking the impact meant for her."
+      cross_reference: 35
+
+    - id: CE-CS-36-04
+      type: verified
+      severity: clean
+      location: post-crash
+      content: Hendricks shows injury from tether fall but remains functional
+      evidence: "His face is gray, blood at his temple, but his eyes are steady... Shaky, but upright... his breathing steady despite whatever damage he took in the fall."
+      cross_reference: 35
+
+    - id: CE-CS-36-05
+      type: verified
+      severity: clean
+      location: chapter end
+      content: Elena's palm scar continues as physical anchor and emotional tell
+      evidence: "Her hand finds the scar on her palm. She traces the raised tissue without looking at it... Elena's hand finds the scar on her palm."
+      cross_reference: 33
+
+    - id: CE-CS-36-06
+      type: verified
+      severity: clean
+      location: throughout chapter
+      content: Four's personality and capabilities remain consistent with established AI nature
+      evidence: "Four flies like something that's died before and found it inconvenient... 'I prefer 'rough draft,'' Four says"
+      cross_reference: 35
+
+    - id: CE-CS-36-07
+      type: verified
+      severity: clean
+      location: chapter end
+      content: Character positioning and mission split logically follows from established motivations
+      evidence: "Hendricks: 'I know where she is. I know where he'll keep her.' Elena turns her mind east. Toward the Softing."
+      cross_reference: 35
+
+  carry_forward:
+    - Hendricks injured but functional from tether fall, still missing revolver
+    - Elena's implant dormant but scar remains active emotional anchor
+    - Four operational and providing transport/combat support
+    - Characters now separated: Hendricks to compound, Elena to Softing
+    - Both characters aware of time pressure for coordinated mission
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

@@ -1,0 +1,42 @@
+_extracted_finding_ids:
+- CE-TL-8-001
+- CE-TL-8-002
+- CE-TL-8-003
+- CE-TL-8-004
+- CE-TL-8-005
+- CE-TL-8-006
+_parse_error: "sequence entries are not allowed here\n  in \"<unicode string>\", line\
+  \ 11, column 69:\n     ... he frozen woman in the doorway\" - references companion\
+  \ bot from Ch 7\n                                         ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 8\n  findings:\n    - id: CE-TL-8-001\n      type: verified\n      severity: clean\n\
+  \      location: chapter opening\n      content: Timeline flows consistently from\
+  \ Chapter 7 - Standard exploring outpost while Elena handles supplies\n      evidence:\
+  \ \"She looks back at the frozen woman in the doorway\" - references companion bot\
+  \ from Ch 7\n      cross_reference: 7\n    \n    - id: CE-TL-8-002\n      type:\
+  \ verified\n      severity: clean\n      location: Elena's supply run\n      content:\
+  \ Elena's actions align with established timeline - Hendricks stabilizing in clinic\n\
+  \      evidence: \"Elena stands by the supply cage. She watches the medic hang a\
+  \ saline drip for Hendricks\"\n      cross_reference: 7\n    \n    - id: CE-TL-8-003\n\
+  \      type: verified\n      severity: clean\n      location: Abbey backstory\n\
+  \      content: Timeline reference consistent - Abbey's unit came through \"three\
+  \ days ago\"\n      evidence: \"Saw a unit come through three days ago. Heading\
+  \ for the tower\"\n      cross_reference: 2\n    \n    - id: CE-TL-8-004\n     \
+  \ type: verified\n      severity: clean\n      location: Morton's implant data\n\
+  \      content: Data extraction timeline consistent with Chapter 2 events at NED\
+  \ tower\n      evidence: \"files that have been sitting dormant since the tower,\
+  \ since Morton touched her implant\"\n      cross_reference: 2\n    \n    - id:\
+  \ CE-TL-8-005\n      type: verified\n      severity: clean\n      location: Abbey/Otis\
+  \ connection\n      content: Timeline of Elena's recognition aligns with Otis's\
+  \ death in Chapter 2\n      evidence: \"Elena sees it. Otis in the lobby of NED.\
+  \ Turning. Stepping into the blast\"\n      cross_reference: 2\n    \n    - id:\
+  \ CE-TL-8-006\n      type: verified\n      severity: clean\n      location: Chapter\
+  \ transitions\n      content: Events flow logically from previous chapter's outpost\
+  \ arrival\n      evidence: Standard exploring while Elena handles business, Hendricks\
+  \ recovering\n      cross_reference: 7\n\n  carry_forward:\n    - Morton's encrypted\
+  \ files revealed The Geometry as Matrioshka Brain threat\n    - Elena now knows\
+  \ about the reformatting/correction concept\n    - Standard wearing Otis's clothes\
+  \ creates emotional connection to Elena's grief\n    - Abbey was Otis's sister from\
+  \ this outpost\n    - Elena's water vouchers gift represents significant sacrifice\n\
+  \    - Timeline remains consistent with multi-day journey from NED to outpost\n\n\
+  \  self_check:\n    stayed_in_lane: true\n    findings_cited: true\n```"

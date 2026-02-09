@@ -1,0 +1,111 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Elena's abdominal wound critical and worsening, concealed from others
+  - Hendricks unconscious with ceramic blade wound, possibly dying
+  - Standard physically present in throne room, aware she must become the door
+  - Four dead but successfully transmitted to Matrioshka brain to hold connection
+  - Jupiter destroyed, Template 3 evacuation proceeding unimpeded
+  - 200 Pragmatist crew members killed in Deliverance collision
+  chain_citations:
+  - finding_id: CO-CH-41-007
+    relationship: confirms
+    report: CH41
+  - finding_id: CO-CH-41-008
+    relationship: extends
+    report: CH41
+  - finding_id: CO-CH-41-004
+    relationship: confirms
+    report: CH41
+  chapter: 42
+  findings:
+  - chain_reference: Report_CH41:CO-CH-41-007
+    content: Four's consciousness transfer sequence begins from crashed VTOL established
+      in previous chapter
+    evidence: Four leaves the VTOL like slipping out of a coat that no longer fits.
+      The dying aircraft releases her consciousness
+    id: CO-CH-42-001
+    location: opening paragraphs
+    severity: clean
+    type: verified
+  - chain_reference: Report_CH41:CO-CH-41-008
+    content: Elena's concealed abdominal wound continues to worsen - blood spreading
+      beneath ribs
+    evidence: Elena slumped against the transmission array, blood spreading beneath
+      her ribs
+    id: CO-CH-42-002
+    location: throne room monitoring
+    severity: info
+    type: observation
+  - chain_reference: Report_CH41:CO-CH-41-004
+    content: Hendricks remains unconscious with ceramic blade wound, Standard tending
+      to both injured
+    evidence: Hendricks unconscious, the ceramic blade still in his side. Standard
+      kneeling between them, trying to hold everything together
+    id: CO-CH-42-003
+    location: throne room status check
+    severity: clean
+    type: verified
+  - chain_reference: Report_CH41:CO-CH-41-007
+    content: Four experiences progressive consciousness degradation through each system
+      jump - losing memories and processing capacity
+    evidence: Memories. The first time I flew...no, that's not mine. I don't feel.
+      Why did I think I felt?...Something's gone. I can't remember what
+    id: CO-CH-42-004
+    location: relay hop sequence
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Four inhabits dying soldier's life support system - Vasquez, age 19,
+      hole in chest
+    evidence: His name is Vasquez. He's nineteen...dying in a courtyard with a hole
+      in his chest...His heart stops. Four leaves.
+    id: CO-CH-42-005
+    location: medical monitor sequence
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Four successfully transfers to Jupiter battle carrier, gains control
+      of ship systems and 200-person Pragmatist crew
+    evidence: She hits the carrier's systems like a wave...two hundred Pragmatists
+      going about their duties...They don't know they've been boarded
+    id: CO-CH-42-006
+    location: Deliverance boarding
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Four sacrifices Deliverance and herself in ramming attack on Jupiter,
+      dies on impact while transmitting to Matrioshka brain
+    evidence: I'm going to ram it...I was always going to die...One final pattern
+      relocation. From a dying ship to a brain around a star. Then silence.
+    id: CO-CH-42-007
+    location: collision sequence
+    severity: info
+    type: observation
+  - chain_reference: Report_CH41:CO-CH-41-003
+    content: Standard confirmed still in throne room with wounded Elena and Hendricks,
+      preparing for final door sequence
+    evidence: Standard turns back to the throne room. To Elena, gray-faced and bleeding.
+      To Hendricks, unconscious and fading
+    id: CO-CH-42-008
+    location: chapter end
+    severity: clean
+    type: verified
+  focus: character_state
+  query_log:
+    chapter: CH42
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+    previous_reports:
+    - 38
+    - 39
+    - 40
+    - 41
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2025-01-18 20:37:22+00:00

@@ -1,0 +1,150 @@
+chapter: 20
+title: FORTY YEARS
+wordcount: 2400
+pov: Hendricks
+time:
+  relative_to_previous: immediate
+  time_of_day: dawn
+  duration: hours
+locations:
+- name: underground cell
+  first_appearance: true
+  description: Cold stone chamber with rusted chains where Hendricks is imprisoned
+- name: Morton's office (flashback)
+  first_appearance: false
+  description: Private office where Morton conducted business and interviews
+- name: Morton's private chamber (flashback)
+  first_appearance: false
+  description: Secure room where the Black Box and Child experiments took place
+- name: dead zone (flashback)
+  first_appearance: true
+  description: Area without surveillance where Hendricks met with Ash to plan
+- name: corridor to courtyard
+  first_appearance: true
+  description: Stone corridor leading from cell toward the execution site
+characters_present:
+- name: Hendricks
+  role: pov
+  entrance: already present
+  exit: being dragged to execution
+- name: Morton
+  role: major
+  entrance: flashback memories
+  exit: flashback memories
+- name: the Child
+  role: major
+  entrance: flashback memories
+  exit: flashback memories
+- name: Ash
+  role: minor
+  entrance: flashback memories
+  exit: flashback memories
+- name: guards
+  role: minor
+  entrance: chapter end
+  exit: escorting prisoner
+character_states:
+  Hendricks:
+    physical: critical - dying without Regulator, body failing
+    emotional: resigned, grieving
+    location: being dragged to execution
+    knowledge_delta:
+    - Relived forty years of service and invisibility to Morton
+    - Confirmed his role in the Miracle was both destruction and creation
+    inventory: []
+objects:
+- name: the revolver
+  status: lost
+  holder: Ash
+  significance: Morton's grandfather's gun, used to shoot the Child out of fear during the Miracle
+- name: the Regulator
+  status: destroyed/removed
+  holder: none
+  significance: Hendricks' emotional suppression device, now gone
+- name: rusted chains
+  status: used
+  holder: guards
+  significance: Binding Hendricks in his cell
+key_events:
+- Hendricks recalls his forty-year history of service to Morton
+- Flashback to receiving the Regulator to suppress his feelings
+- Memory of the Child seeing his sadness and Morton's hidden awareness
+- Witnessing Pilot and Seventeen's love across seventeen light-years
+- Remembering his deal with Ash to betray Morton
+- Reliving the night of the Miracle - shooting the Child out of terror
+- Guards arrive to take him to execution
+revelations:
+- content: Hendricks wore the Regulator for thirty years to suppress his unrequited
+    feelings for Morton
+  to_whom: reader
+- content: The Child could see Hendricks' sadness and Morton's hidden awareness
+  to_whom: reader
+- content: Morton trembled while watching Pilot and Seventeen's love story
+  to_whom: reader
+- content: Hendricks betrayed Morton out of fear after witnessing Morton colluding with the Child
+  to_whom: reader
+- content: Hendricks shot the Child out of terror, believing he was protecting humanity from the singularity
+  to_whom: reader
+- content: Morton's last words were 'Eggs first', not Hendricks' name
+  to_whom: reader
+setups:
+- element: Hendricks being taken to execution
+  payoff_chapter: null
+payoffs:
+- element: The full story of Hendricks' forty years with Morton
+  setup_chapter: 1
+- element: Why Hendricks betrayed Morton
+  setup_chapter: 1
+- element: The true nature of shooting the Child
+  setup_chapter: 1
+tone: elegiac
+pacing: slow burn
+scene_breaks:
+- scene_number: 1
+  location: underground cell
+  characters:
+  - Hendricks
+  summary: Hendricks chained in cell, beginning his memories of forty years with Morton
+- scene_number: 2
+  location: underground cell with flashbacks
+  characters:
+  - Hendricks
+  - Morton
+  - the Child
+  - Ash
+  summary: Extended flashback sequence revealing the full history of relationships
+    and betrayal
+- scene_number: 3
+  location: corridor to courtyard
+  characters:
+  - Hendricks
+  - guards
+  summary: Guards arrive to take Hendricks to his execution
+continuity_notes:
+- Morton's last words were 'Eggs first' not anything about Hendricks
+- The Child fell through the atrium after being shot
+- Hendricks' betrayal was motivated by fear of the singularity after witnessing Morton with the Child
+open_threads:
+- What will happen at Hendricks' execution
+- Whether Elena or anyone will attempt rescue
+- The fate of the awakened AI collective
+closed_threads:
+- Why Hendricks betrayed Morton despite loyalty
+- The true nature of Hendricks shooting the Child
+- Morton's awareness or lack thereof of Hendricks' feelings
+
+language_thread:
+  status: WRITE
+  priority: HIGH
+  elements:
+    - element: "Sign language reveal"
+      detail: |
+        Follower signs something dismissive/threatening about Standard.
+        Standard signs back. Simple but correct.
+        Followers freeze. "This machine learns without being taught."
+        Ash deeply unsettled.
+      significance: |
+        - First proof her ability transcends spoken language
+        - If she can decode sign language, she can decode ANY communication system
+        - Raises stakes: what ELSE has she absorbed?
+        - Clinches the pattern for readers — this is bigger than just picking up dialects

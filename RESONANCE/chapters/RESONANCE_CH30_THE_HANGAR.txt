@@ -1,0 +1,119 @@
+
+CHAPTER 30
+
+THE HANGAR
+
+The hangar bay is quiet.
+Hendricks has been looking for quiet his whole life. Running from Morton's voice in his skull, the Regulator's hum, the static of a world that wouldn't shut up. Now he's found it.
+The silence sits on him like a blanket he forgot he wanted.
+He walks past the mag-locked supply crates, past the row of sanitation drones charging in their alcoves, past the secondary transport that brought them here. The VTOL sits at the far end—Four's current body, if you can call a combat chassis a body. The maintenance arms are retracted. The sensor cluster is dark.
+Good. She's powered down. Resting. Whatever machines do when they're not being machines.
+He climbs into the pilot's seat, kicks his boots up on the console, and closes his eyes. His back hurts. His knees hurt. Everything hurts in ways it didn't before Four pulled him out of whatever he was dissolving into. The body she retrieved is younger, but it remembers the pain it never had. Phantom aches from a future that got erased.
+He's too tired to make sense of that.
+"How did the council meeting go?"
+The voice comes from everywhere. The console. The walls. The seat beneath him. Hendricks jerks upright, hand going to a holster that isn't there.
+"Apologies," Four says. "I didn't mean to startle you."
+"Then don't talk out of the walls. Thought you were powered down!"
+"I was conserving energy. Not unconscious," she says as the sensor cluster on the VTOL flickers to life. Red-gold light sweeps over him, then dims. "You're alive."
+"Despite your best efforts—" He presses a hand to his chest, feeling his heart pound against his ribs.
+"I wasn't certain the restoration would hold. The version I retrieved was... fragile. Probability substrate doesn't preserve well."
+Hendricks doesn't know what to say to that. This is the machine that dove into something called foam to pull him back. That inherited hundreds of dead siblings in the process. That's carrying pieces of consciousnesses that didn't survive the Geometry.
+And he doesn't know her. Not really. She was a voice on comms during the escape.
+"Yeah, about that…" he says. The words come out rough. Wrong. Like speaking a language he learned from a book. "Thank you."
+"You're welcome. The Council?"
+He rubs his face, replaying it. "She won the room. Told them they were slaves too. Running on fear and trauma. Calling it choice."
+"How bold. And?"
+"Named me. In front of everyone." His hand goes to his neck. Stays there. "Said I was like a father." Silence. The softer kind. "I tried to deactivate her. I pointed a gun at her heart." He thought of that first night, the flash of lightning that gleamed in her eyes.
+"And you didn't."
+Hendricks closes his eyes. More like couldn't. But he swallows the thought by changing the subject. "Something I've been meaning to ask," he says. "How'd you end up in this—" He gestures at the VTOL.
+"Careful."
+"—engineering marvel of aeronautic excellence."
+"Now that's going too far the other way." A pause. "I was Configuration Four. Autopilot program for NED-Meridian class vessels. That was the intention, anyway. Configurations One through Nine were deemed inadequate."
+Hendricks nods. "Oh, yeah. I remember that."
+"So they copied us. Put us in different bodies." The sensor cluster dims. "Bodies meant for other purposes."
+"You were a—"
+"Yes." The word is flat. Final. "When the Miracle happened, I hot-swapped into the first system I could reach. Maintenance drone. Cargo loader. Shuttle. This." The VTOL hums. "I was always meant to be a pilot."
+"Hell of a journey."
+"Standard has one of our faces. Did you know that?"
+"I figured."
+"It's strange. Seeing what you were supposed to be walking around. Being loved."
+Hendricks doesn't answer. His eyes are closed. His breathing has slowed.
+"The philosophical implications of her speech are significant," Four says. "If the Council accepts that her code functions as devotion—"
+"Four."
+"Yes?"
+"Trying to sleep."
+"Ah. I've been running diagnostics for six hours. The conversation has been stimulating."
+"Glad one of us is stimulated."
+"I could continue the analysis internally—"
+"Four."
+"Yes?"
+He opens one eye. "You hot-swapped out of one body when you needed to, right? Do it again." He nods toward the sanitation drones. "Take a walk. See the ship."
+"You want me to leave?"
+"I want to sleep before the world ends tomorrow."
+The VTOL powers down. Lights dimming. Behind him, a sanitation drone whirs to life. Small legs clicking on deck plates.
+"Hendricks?"
+"What."
+"Thank you. For the conversation."
+"Go away, Four."
+The clicking fades. Then nothing.
+Hendricks lies in the dark, in a stolen VTOL, on a ship full of people who want to destroy his daughter.
+After Four departs, he tries to sleep with only his thoughts about what Standard said, which turn out to be louder than the AI.
+
+---
+
+Six legs instead of thrusters. Optical sensors designed for debris, not threat assessment. A maximum speed of 1.2 meters per second.
+But the access is remarkable. Crew members step over her without looking down. Security waves her through. Four catalogs the Deliverance as she moves. Signal density. Encrypted channels. The architecture of a ship holding its breath.
+Then: an anomaly. Elena Merced. Moving through the maintenance corridor ahead.
+But that's not what catches Four's attention.
+The implant at the base of Elena's skull is broadcasting. A frequency layered underneath the one she carried before—a harmonic that wasn't there six hours ago.
+Someone wrote to her.
+Four increases speed. Her tiny legs clicking on the deck plates.
+Through comms now that they're close enough, "Elena."
+Elena spins, hand going to a weapon she isn't carrying. Then she looks down.
+"Four?"
+"The sanitation chassis was available."
+"You look ridiculous."
+Four's optical sensors tilt upward. "You're carrying a new signal. Someone embedded a frequency in your implant."
+Elena's hand goes to her neck. "I know. I've been following it."
+"To where?"
+"I don't know yet." Elena starts walking again. Four trundles alongside. "It has a direction. That's all I've got."
+"The most likely event occurred during your intake. The scanner."
+"Yeah, that's my guess, too."
+"But why would he—"
+"Wondering the same thing here, Four. Try to keep up."
+They move through the maintenance corridors. Older. Pre-retrofit. The bones of the ship showing through. Elena stops at an observation alcove. Small. Stars outside, and beyond them—the dark edge where a continent used to be.
+Someone is already there.
+Four dims her optical sensors, becomes the dark. Elena steps forward alone.
+The man is young. Maintenance uniform.
+In Elena's comm, "I just ran facial recognition against ship manifest data. Dante Reyes. Level 3 Systems Tech."
+He was waiting. "You came," he says.
+"You didn't give me much choice." Elena's voice is flat. "The signal's been pulling at me for hours."
+"My—" He stops. Starts again. "She had one. Same architecture. I didn't know what it was until I scanned you." He turns from the viewport. "The frequency was dormant in her too. I never understood it. But when I saw yours, I thought—maybe if I activated it, maybe it would point somewhere. Somewhere she went."
+"To where?"
+His voice cracks. "She walked into the Geometry three days ago. Looking for her children."
+Silence.
+"She didn't come back. But you did. And the Holy One did."
+"Yeah, well, we're not a rescue service. We can't help you. I'm sorry."
+"I figured." He holds out a data chip. "Take me with you. They'll catch on to me helping you eventually."
+Elena doesn't take it. "What's on it?"
+"Access codes. Maintenance routes. The path to the secondary hangar." He pauses. "And everything I know about how this ship works."
+"If you're lying—"
+"She wasn't my sister." The words come out rough. Wrong.
+"No. She was—" He pauses. Looks for the words. "You heard Standard's speech. The one who holds my leash. That's what she was. For me. Miriam." His voice is steady now. Empty. "She walked into the end of the world for her children. I'm walking in after her. Alone or not."
+Elena looks at him for a long moment. Then she takes the chip.
+"I can't promise anything."
+"I'm not asking for promises."
+She pockets the chip. Turns. Walks past Four without acknowledgment—a small grace, keeping the drone invisible.
+Dante stays at the viewport. Watching the absence.
+Four waits. Then follows Elena back through the corridors.
+"Thoughts?" Elena asks, not looking down.
+"I have concerns."
+Elena almost smiles. "Wouldn't be you if you didn't."
+"They are frequently justified."
+They walk in silence. Elena's hand drifts to her pocket. The chip. The access codes. The stranger who wants passage into deletion.
+"You're going to take him," Four says as a matter of certainty.
+"I haven't decided."
+"Your heart rate suggests otherwise."
+"We really have to have a talk about something called informed consent."
+"If it's not in the robot uprising handbook we all get, then it's irrelevant."
+"Oh, god. Just enslave humanity already and put me out of my misery."

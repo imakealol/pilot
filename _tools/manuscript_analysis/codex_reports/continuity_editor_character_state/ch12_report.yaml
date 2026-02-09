@@ -1,0 +1,69 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard has died from overexertion after pulling 2-ton Rover 10 miles
+  - Death confirmed by Elena - no pulse, heartbeat, or response
+  - Standard's final act brought group to bridge with clean water
+  - Elena, Hendricks, and Array survivors all critically dehydrated but alive
+  - Standard's hands still gripping chain at death - symbolic of her determination
+  - Environment has improved from wasteland to living ecosystem with trees and water
+  chapter: 12
+  findings:
+  - content: Standard's physical capabilities consistent with established superhuman
+      strength
+    cross_reference: 10
+    evidence: The Rover weighs two tons, maybe more with the passengers. Standard
+      doesn't feel it. Her body was built for this—for carrying, for dragging, for
+      labor.
+    id: CE-CS-12-001
+    location: opening sequence
+    severity: clean
+    type: verified
+  - content: Standard's power system failure follows logical progression with established
+      internal warnings
+    cross_reference: 3
+    evidence: POWER CELL CRITICAL / MOTOR FUNCTION DEGRADED / SHUTDOWN RECOMMENDED
+    id: CE-CS-12-002
+    location: mile progression
+    severity: clean
+    type: verified
+  - content: 287.3 Hz frequency consistently maintained as Standard's core operating
+      frequency
+    cross_reference: 5
+    evidence: the low, constant frequency that lives somewhere behind her sternum.
+      287.3 Hz
+    id: CE-CS-12-003
+    location: throughout chapter
+    severity: clean
+    type: verified
+  - content: Standard's death state properly established - no pulse, no heartbeat,
+      no response
+    cross_reference: null
+    evidence: Elena presses her fingers to Standard's throat. Searches for a pulse.
+      Nothing.
+    id: CE-CS-12-004
+    location: final sequence
+    severity: clean
+    type: verified
+  - content: Standard continues functioning after power cell death, consistent with
+      earlier unusual capabilities
+    cross_reference: 11
+    evidence: Mile five. Her power cells die... A normal android would stop now...
+      Standard doesn't stop.
+    id: CE-CS-12-005
+    location: power cell failure sequence
+    severity: info
+    type: observation
+  - content: Elena and survivors' deteriorating conditions consistent with established
+      dehydration/exhaustion
+    cross_reference: 11
+    evidence: Hendricks hasn't spoken in an hour. His breathing is shallow, his lips
+      cracked and white. The survivors from the Array are worse
+    id: CE-CS-12-006
+    location: companion character states
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

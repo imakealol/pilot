@@ -1,0 +1,118 @@
+chapter: 3
+title: REFORMAT
+wordcount: 2400
+pov: Hendricks
+time:
+  relative_to_previous: hours later
+  time_of_day: night
+  duration: hours
+locations:
+- name: Hendricks' apartment in Vertical City
+  first_appearance: true
+  description: Sparse apartment with kitchen table, storm outside, sixty-four floors
+    up
+characters_present:
+- name: Hendricks
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Companion bot/woman
+  role: major
+  entrance: emerges from crate mid-chapter
+  exit: chapter ends
+character_states:
+  Hendricks:
+    physical: injured (severe neck wound from node removal, significant blood loss)
+    emotional: determined, deteriorating
+    location: apartment with companion
+    knowledge_delta:
+    - Node had grown organic roots after 30 years
+    - Companion unit is damaged/malfunctioning
+    inventory:
+    - item: Smith & Wesson Model 3 Schofield revolver
+      status: still has
+    - item: Neural node
+      status: acquired (removed from neck)
+    - item: Utility blade
+      status: still has
+  Companion:
+    physical: injured (torn hands, temple gash, various scrapes)
+    emotional: terrified, desperate
+    location: apartment with Hendricks
+    knowledge_delta:
+    - Has complete amnesia
+    - Hendricks plans to leave/abandon her
+    inventory:
+    - item: Hendricks' oversized clothes
+      status: acquired
+objects:
+- name: Neural tracking node
+  status: used
+  holder: Hendricks
+  significance: Removed leash but caused severe injury
+- name: Smith & Wesson revolver
+  status: tracked
+  holder: Hendricks
+  significance: Morton's inheritance, loaded with 5 rounds
+- name: Companion bot shipping crate
+  status: destroyed
+  holder: apartment
+  significance: Companion clawed way out, revealing damage
+key_events:
+- Hendricks contemplates suicide with inherited revolver during storm
+- Hendricks surgically removes neural tracking node from his neck
+- Companion bot breaks out of shipping crate, revealing injuries and amnesia
+- Companion threatens suicide, demanding Hendricks kill her rather than abandon her
+- Thunder crack causes Hendricks to freeze and reconsider
+- Hendricks decides to take companion with him on his mission
+revelations:
+- content: Neural node had grown organic roots after 30 years
+  to_whom: reader and Hendricks
+- content: Companion unit is damaged and has complete amnesia
+  to_whom: reader and Hendricks
+- content: Hendricks plans to kill a prophet at a compound
+  to_whom: reader
+setups:
+- element: Hendricks' severe blood loss from botched node removal
+  payoff_chapter: null
+- element: Companion's mysterious injuries and memory loss
+  payoff_chapter: null
+- element: Journey to compound to kill prophet
+  payoff_chapter: null
+payoffs: []
+tone: dark, tense, desperate
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: apartment kitchen
+  characters:
+  - Hendricks
+  summary: Hendricks contemplates suicide while examining Morton's revolver
+- scene_number: 2
+  location: apartment kitchen
+  characters:
+  - Hendricks
+  summary: Hendricks removes neural tracking node, causing severe injury
+- scene_number: 3
+  location: apartment
+  characters:
+  - Hendricks
+  - Companion
+  summary: Companion emerges from crate injured and amnesiac
+- scene_number: 4
+  location: apartment
+  characters:
+  - Hendricks
+  - Companion
+  summary: Confrontation over abandonment leads to suicide threat and decision to
+    travel together
+continuity_notes:
+- Hendricks' blood loss may affect his ability to complete mission
+- Companion's true nature and cause of injuries unexplained
+open_threads:
+- What caused the companion's injuries and amnesia?
+- Will Hendricks survive the blood loss long enough to reach the compound?
+- Who is the prophet Hendricks plans to kill and why?
+- What will happen at the checkpoints without the tracking node?
+closed_threads:
+- How Hendricks will escape NED tracking (removed node)

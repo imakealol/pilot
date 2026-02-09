@@ -1,0 +1,162 @@
+chapter: 10
+title: "SHINING DOWN"
+wordcount: 2400
+pov: "Standard"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "sunset"
+  duration: "several hours"
+
+locations:
+  - name: "The Array"
+    first_appearance: true
+    description: "A settlement built around solar panels and shipping containers, with a central power hub and charging station"
+  - name: "Array clinic"
+    first_appearance: true
+    description: "A converted shipping container serving as medical facility with cots and equipment"
+  - name: "Array common area"
+    first_appearance: true
+    description: "A container converted to communal dining space with benches and heating unit"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Kellerman"
+    role: "major"
+    entrance: "emerges from container as Array doctor"
+    exit: "chapter ends"
+  - name: "Gate guard"
+    role: "minor"
+    entrance: "steps out of Array gate"
+    exit: "after admitting them"
+  - name: "Coveralls woman"
+    role: "minor"
+    entrance: "hooks up charging cables"
+    exit: "after giving instructions"
+  - name: "Big man"
+    role: "minor"
+    entrance: "stands in common area"
+    exit: "chapter ends"
+
+character_states:
+  Standard:
+    physical: "injured hands, unnaturally strong, doesn't need food"
+    emotional: "confused, isolated"
+    location: "Array common area"
+    knowledge_delta:
+      - "She doesn't feel hunger or need food like humans do"
+      - "Her physical abilities are beyond normal human capacity"
+      - "Others suspect she's not human"
+    inventory:
+      - item: "borrowed clothes"
+        status: "still has"
+  Elena:
+    physical: "fatigued but functional"
+    emotional: "protective, defensive"
+    location: "Array common area"
+    knowledge_delta:
+      - "Standard's abnormal nature is becoming obvious to others"
+    inventory:
+      - item: "trade chips"
+        status: "used one for charging"
+      - item: "magpulse"
+        status: "still has but left in Rover"
+  Hendricks:
+    physical: "critical - fever, regulator withdrawal, barely conscious"
+    emotional: "vulnerable, recognition"
+    location: "Array clinic"
+    knowledge_delta:
+      - "Recognizes something about Kellerman"
+    inventory: []
+  Kellerman:
+    physical: "healthy"
+    emotional: "suspicious, curious"
+    location: "Array clinic"
+    knowledge_delta:
+      - "Standard exhibits non-human physiological traits"
+      - "Recognizes something about Hendricks"
+    inventory:
+      - item: "medical kit"
+        status: "still has"
+
+objects:
+  - name: "Rover"
+    status: "tracked"
+    holder: "charging at Array station"
+    significance: "Transportation, depleted fusion battery being recharged"
+  - name: "Black Box"
+    status: "tracked"
+    holder: "cargo bed of Rover"
+    significance: "Mysterious device from vault"
+  - name: "Trade chip"
+    status: "used"
+    holder: "given to Array for charging"
+    significance: "Payment for power"
+
+key_events:
+  - "Rover's fusion battery dies at sunset, stranding them"
+  - "They push the dead Rover to the Array settlement"
+  - "Elena trades a chip for charging time"
+  - "Kellerman treats Hendricks for regulator withdrawal"
+  - "Standard exhibits inhuman traits - no hunger, extraordinary strength, slow pulse"
+  - "Array residents become suspicious and hostile toward Standard"
+  - "Confrontation erupts over Standard's true nature"
+
+revelations:
+  - content: "Standard doesn't experience hunger or biological needs like humans"
+    to_whom: "reader and Standard"
+  - content: "Standard has abnormal physical capabilities and vital signs"
+    to_whom: "reader and Kellerman"
+  - content: "Hendricks and Kellerman appear to recognize each other"
+    to_whom: "reader"
+
+setups:
+  - element: "Connection between Hendricks and Kellerman"
+    payoff_chapter: null
+  - element: "Standard's increasingly obvious inhuman nature"
+    payoff_chapter: null
+  - element: "Hostility from survivors toward suspected non-humans"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "tense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "road to Array"
+    characters: ["Standard", "Elena", "Hendricks"]
+    summary: "Rover dies and they push it to the Array settlement"
+  - scene_number: 2
+    location: "Array clinic"
+    characters: ["Standard", "Hendricks", "Kellerman"]
+    summary: "Kellerman treats Hendricks and notices Standard's abnormalities"
+  - scene_number: 3
+    location: "Array common area"
+    characters: ["Standard", "Elena", "Kellerman", "Array residents"]
+    summary: "Standard's inability to eat normally triggers suspicion and hostility"
+
+continuity_notes:
+  - "Hendricks and Kellerman appear to have prior connection"
+  - "Standard's inhuman nature becoming undeniable"
+
+open_threads:
+  - "What is the relationship between Hendricks and Kellerman?"
+  - "What exactly is Standard if not human?"
+  - "Will the Array residents become violent?"
+  - "How long until Rover is charged enough to leave?"
+
+closed_threads:
+  - "Whether they would find the Array waystation"

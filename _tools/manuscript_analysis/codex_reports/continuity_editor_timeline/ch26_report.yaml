@@ -1,0 +1,45 @@
+_extracted_finding_ids:
+- CE-TL-26-01
+- CE-TL-26-02
+- CE-TL-26-03
+- CE-TL-26-04
+- CE-TL-26-05
+- CE-TL-26-06
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 14,\
+  \ column 7:\n        - id: CE-TL-26-02\n          ^\nexpected <block end>, but found\
+  \ '<scalar>'\n  in \"<unicode string>\", line 19, column 48:\n     ...  \"The preparation\
+  \ is complete,\" one of them says. \"The Vessel ma ... \n                      \
+  \                   ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 26\n  findings:\n    - id: CE-TL-26-01\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Timeline flows correctly\
+  \ from Chapter 25 ending - Elena and companions are aboard the Sovereignty carrier\
+  \ after being captured\n      evidence: \"The officer doesn't look back... The door\
+  \ to the quarters—the Vessel's chambers\"\n      cross_reference: 25\n\n    - id:\
+  \ CE-TL-26-02\n      type: verified\n      severity: clean\n      location: mid-chapter\n\
+  \      content: Standard's return timing is consistent - attendants mention preparation\
+  \ is complete for Council meeting\n      evidence: \"The preparation is complete,\"\
+  \ one of them says. \"The Vessel may rest before the Council convenes.\"\n     \
+  \ cross_reference: 25\n\n    - id: CE-TL-26-03\n      type: observation\n      severity:\
+  \ info\n      location: Elena's dialogue about performance\n      content: Elena's\
+  \ experience coaching Standard references their established relationship dynamic\
+  \ from previous chapters\n      evidence: \"When they kneel, you touch their forehead...\
+  \ Don't speak—let me speak for you\"\n      cross_reference: 25\n\n    - id: CE-TL-26-04\n\
+  \      type: verified\n      severity: clean\n      location: Elena's memories\n\
+  \      content: Reference to Four's explanation about crossing the Geometry maintains\
+  \ continuity with established events\n      evidence: \"After the recording. You\
+  \ asked Four how it knew it pulled back the right versions. Four said it didn't.\"\
+  \n      cross_reference: 25\n\n    - id: CE-TL-26-05\n      type: observation\n\
+  \      severity: info\n      location: Elena's implant changes\n      content: New\
+  \ frequency in Elena's implant suggests scanner modification, timing consistent\
+  \ with recent scanning scene\n      evidence: \"Something is different. The implant...\
+  \ it feels different... Something that wasn't there before the scanner.\"\n    \
+  \  cross_reference: 25\n\n    - id: CE-TL-26-06\n      type: verified\n      severity:\
+  \ clean\n      location: chapter ending\n      content: Council meeting timing remains\
+  \ consistent - still pending from Chapter 25\n      evidence: \"We should rest...\
+  \ The Council will convene soon.\"\n      cross_reference: 25\n\n  carry_forward:\n\
+  \    - Elena has new frequency/weight in her implant from the scanner\n    - Elena\
+  \ and Standard are in Vessel's quarters awaiting Council meeting\n    - Elena is\
+  \ coaching Standard on how to perform for the Council\n    - Elena's physical stress\
+  \ symptoms (shaking, sweating) from previous trauma\n\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

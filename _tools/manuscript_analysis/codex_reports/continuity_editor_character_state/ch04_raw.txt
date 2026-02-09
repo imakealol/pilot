@@ -1,0 +1,74 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 4
+  findings:
+    - id: CE-CS-04-001
+      type: verified
+      severity: clean
+      location: opening scene
+      content: Hendricks' deteriorating condition from Chapter 3 neck wound continues consistently
+      evidence: "He is not walking well. He leans on the railing, his weight heavy on his right side, his hand leaving a smear of sweat on the metal. The towel at his neck is dark with fresh blood."
+      cross_reference: 3
+    
+    - id: CE-CS-04-002
+      type: verified
+      severity: clean
+      location: woman's physical state
+      content: Woman's injured hands from Chapter 1 crate escape remain consistently damaged
+      evidence: "He grabs her hand—the left one, the ruined one. Squeezes the split palm... Blood wells up between his fingers."
+      cross_reference: 1
+    
+    - id: CE-CS-04-003
+      type: verified
+      severity: clean
+      location: stairwell descent
+      content: Hendricks' physical deterioration progresses logically - getting worse over time
+      evidence: "His left leg shakes when it hits the step. His breathing sounds wet... twice now she's seen his knee buckle before he catches herself."
+      cross_reference: 3
+    
+    - id: CE-CS-04-004
+      type: verified
+      severity: clean
+      location: scanner scene
+      content: Woman's "empty" readings consistent with Chapter 1 establishment of her unusual nature
+      evidence: "Silence. No beep. No tone... 'Ghost,' he mutters. 'Reads empty. Full empty.'"
+      cross_reference: 1
+    
+    - id: CE-CS-04-005
+      type: verified
+      severity: clean
+      location: gunfight aftermath
+      content: Hendricks' exhaustion after combat realistically portrayed given his condition
+      evidence: "Those three shots were everything he had left... His breathing is wrong—shallow, fast, like something is broken inside."
+      cross_reference: 3
+    
+    - id: CE-CS-04-006
+      type: verified
+      severity: clean
+      location: ammunition count
+      content: Revolver ammunition tracking is accurate - started Chapter 3 with 5, fires 3, has 2 remaining
+      evidence: "There are two rounds left. There were six."
+      cross_reference: 3
+    
+    - id: CE-CS-04-007
+      type: observation
+      severity: info
+      location: woman's pain tolerance
+      content: Woman shows no pain response to injury, consistent with unusual nature established in Chapter 1
+      evidence: "She feels the pressure. The damage. But she doesn't scream. Doesn't pull away. Just watches him with clear, steady eyes."
+      cross_reference: 1
+
+  carry_forward:
+    - Hendricks has 2 rounds remaining in revolver
+    - Hendricks' condition critical and deteriorating rapidly from neck wound
+    - Woman reads as "empty" on scanners, classified as "standard issue"
+    - Woman's hands remain severely damaged from crate escape
+    - Woman shows no normal pain responses to injury
+    - Both characters now descending building levels (currently Level 42)
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

@@ -1,0 +1,74 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 21
+  findings:
+    - id: CE-CS-21-001
+      type: verified
+      severity: clean
+      location: opening scene with guards
+      content: Standard's sign language acquisition follows established pattern of intuitive language learning
+      evidence: "how the patterns settled into her during three days of watching, how the grammar of gesture assembled itself in her mind the same way trade pidgin had, the same way Abbey's mother's tangled speech had"
+      cross_reference: 7
+    
+    - id: CE-CS-21-002
+      type: verified
+      severity: clean
+      location: armory scene
+      content: Elena's tactical expertise consistent with Chapter 2 combat experience
+      evidence: "Elena moves through it with the efficiency of someone who has done this before, who knows exactly which hook holds what, which drawer sticks"
+      cross_reference: 2
+    
+    - id: CE-CS-21-003
+      type: verified
+      severity: clean
+      location: motor pool scene
+      content: Standard's palm print access to advanced technology consistent with Chapter 22 revelation
+      evidence: "when she sees the palm-reader glowing faint blue beside the seal, she doesn't hesitate. She presses her hand to it. The lock opens."
+      cross_reference: 22
+    
+    - id: CE-CS-21-004
+      type: verified
+      severity: clean
+      location: Spanish conversation
+      content: Standard's Spanish comprehension payoff from Chapter 18 setup - Elena's shock at discovery is appropriate
+      evidence: "How long have you understood? Since the compound, she says. Maybe before. I don't always know when it starts."
+      cross_reference: 18
+    
+    - id: CE-CS-21-005
+      type: verified
+      severity: clean
+      location: Hendricks combat performance
+      content: Despite critical physical condition from Chapter 20, muscle memory allows effective combat performance
+      evidence: "Forty years of muscle memory don't care if the body is dying. Hendricks brings the rifle up, sights on Ash, and fires in one motion"
+      cross_reference: 20
+    
+    - id: CE-CS-21-006
+      type: verified
+      severity: clean
+      location: Elena's vest impact
+      content: Elena takes bullet to vest but remains functional - consistent with tactical gear protection established earlier
+      evidence: "A round catches Elena's vest—center mass, the impact spinning her sideways. She gasps, stays upright, keeps firing"
+      cross_reference: 21
+    
+    - id: CE-CS-21-007
+      type: verified
+      severity: clean
+      location: Standard's rescue arrival
+      content: Standard's superhuman abilities (flight/levitation) consistent with inhuman nature revealed throughout story
+      evidence: "Standard. Descending, arms spread wide. Falling from somewhere above the clouds... They lift from the courtyard like a breath returning to the sky"
+      cross_reference: 10
+
+  carry_forward:
+    - Standard has mastered sign language through observation, expanding her linguistic abilities
+    - Elena's Spanish comprehension by Standard is now known to Elena, changing their dynamic
+    - Standard can access advanced technology through palm scanners
+    - Hendricks maintains combat effectiveness despite critical physical condition
+    - Standard demonstrates flight/levitation abilities publicly for first time
+    - Religious followers now see Standard as divine/miraculous figure
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

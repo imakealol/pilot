@@ -1,0 +1,74 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Hendricks injured but functional from tether fall, still missing revolver
+  - Elena's implant dormant but scar remains active emotional anchor
+  - Four operational and providing transport/combat support
+  - Characters now separated: Hendricks to compound, Elena to Softing
+  - Both characters aware of time pressure for coordinated mission
+  chapter: 36
+  findings:
+  - content: Elena's implant state correctly dormant in shielded tether
+    cross_reference: 35
+    evidence: No signals down here. The tether is shielded, isolated, a bubble of
+      quiet falling through space.
+    id: CE-CS-36-01
+    location: opening scene
+    severity: clean
+    type: verified
+  - content: Hendricks' phantom limb behavior consistent with revolver loss
+    cross_reference: 34
+    evidence: His hand keeps twitching toward his empty hip, reaching for a revolver
+      that isn't there. She's watched him do it a dozen times since they left the
+      station.
+    id: CE-CS-36-02
+    location: throughout chapter
+    severity: clean
+    type: verified
+  - content: Hendricks' protective instincts remain despite physical deterioration
+    cross_reference: 35
+    evidence: Elena doesn't hear it. She feels it... His hand on the emergency panel...
+      A body between her and the wall. Hendricks. She can feel how hard he hits, taking
+      the impact meant for her.
+    id: CE-CS-36-03
+    location: mid-chapter
+    severity: clean
+    type: verified
+  - content: Hendricks shows injury from tether fall but remains functional
+    cross_reference: 35
+    evidence: His face is gray, blood at his temple, but his eyes are steady... Shaky,
+      but upright... his breathing steady despite whatever damage he took in the fall.
+    id: CE-CS-36-04
+    location: post-crash
+    severity: clean
+    type: verified
+  - content: Elena's palm scar continues as physical anchor and emotional tell
+    cross_reference: 33
+    evidence: Her hand finds the scar on her palm. She traces the raised tissue without
+      looking at it... Elena's hand finds the scar on her palm.
+    id: CE-CS-36-05
+    location: chapter end
+    severity: clean
+    type: verified
+  - content: Four's personality and capabilities remain consistent with established
+      AI nature
+    cross_reference: 35
+    evidence: Four flies like something that's died before and found it inconvenient...
+      'I prefer 'rough draft,'' Four says
+    id: CE-CS-36-06
+    location: throughout chapter
+    severity: clean
+    type: verified
+  - content: Character positioning and mission split logically follows from established
+      motivations
+    cross_reference: 35
+    evidence: 'Hendricks: ''I know where she is. I know where he''ll keep her.'' Elena
+      turns her mind east. Toward the Softing.'
+    id: CE-CS-36-07
+    location: chapter end
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

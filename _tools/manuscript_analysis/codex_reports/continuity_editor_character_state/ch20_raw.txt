@@ -1,0 +1,72 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 20
+  findings:
+    - id: CE-CS-20-001
+      type: verified
+      severity: clean
+      location: opening scene
+      content: Hendricks' physical deterioration consistent with previous chapters - chains, cold, dying without Regulator
+      evidence: "The chains are old. Hendricks can feel the rust against his wrists... Each exhale costs something he doesn't have left to spend."
+      cross_reference: 19
+    - id: CE-CS-20-002
+      type: verified
+      severity: clean
+      location: revolver reference
+      content: Hendricks' missing revolver properly tracked - taken by Ash in previous chapter
+      evidence: "His hand twitches toward his waist. Finds nothing. Twitches again. The revolver is gone. Ash has it now."
+      cross_reference: 16
+    - id: CE-CS-20-003
+      type: verified
+      severity: clean
+      location: Regulator timeline
+      content: Thirty-year timeline for Regulator wear matches established continuity
+      evidence: "He took the Regulator. He wore it for thirty years."
+      cross_reference: 3
+    - id: CE-CS-20-004
+      type: verified
+      severity: clean
+      location: physical symptoms
+      content: Hendricks' pain and physical collapse consistent with Regulator removal effects
+      evidence: "The Regulator is gone, and his body is remembering all the pain it was never allowed to feel."
+      cross_reference: 3
+    - id: CE-CS-20-005
+      type: verified
+      severity: clean
+      location: Child interaction timeline
+      content: Two-year timeline for first Child encounter matches established story chronology
+      evidence: "Two years ago. The first time he saw the Child."
+      cross_reference: 1
+    - id: CE-CS-20-006
+      type: verified
+      severity: clean
+      location: Morton's death scene
+      content: Morton's final words "Eggs first" consistent with established continuity - not Hendricks' name
+      evidence: "'He spoke at the end,' a kitchen assistant said... 'Eggs first.' That was all."
+      cross_reference: 1
+    - id: CE-CS-20-007
+      type: verified
+      severity: clean
+      location: execution preparation
+      content: Hendricks' physical inability to walk consistent with his critical condition
+      evidence: "His legs don't work anymore. They drag him anyway."
+      cross_reference: 19
+    - id: CE-CS-20-008
+      type: observation
+      severity: info
+      location: throughout chapter
+      content: Hendricks' emotional state progression from hidden feelings to open grief tracks consistently through timeline
+      evidence: "Forty years of service, silence, devotion... Something broke in Hendricks that day."
+      cross_reference: multiple
+  carry_forward:
+    - Hendricks physically unable to walk, being dragged to execution
+    - Morton's final words were "Eggs first" not Hendricks' name
+    - Hendricks killed the Child out of what he considered mercy
+    - Forty-year emotional arc from devotion to betrayal fully established
+    - Regulator suppressed physical and emotional pain for thirty years
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

@@ -1,0 +1,66 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 9
+  findings:
+    - id: CONT-CHAR-09-001
+      type: verified
+      severity: clean
+      location: Throughout chapter
+      content: Elena's physical state consistent - injured (blood on fatigues) from previous combat, fatigued but functional
+      evidence: "She watches the blood spreading on Elena's fatigues"
+      cross_reference: 8
+    
+    - id: CONT-CHAR-09-002
+      type: verified
+      severity: clean
+      location: Throughout chapter
+      content: Hendricks' critical condition continues - coughing blood, weak, but conscious enough for conversation
+      evidence: "Hendricks coughs, leaving a red smear on his lip" and "His hand drifts toward his coat"
+      cross_reference: 8
+    
+    - id: CONT-CHAR-09-003
+      type: verified
+      severity: clean
+      location: Throughout chapter
+      content: Standard's emotional development continues - showing more curiosity and social awareness
+      evidence: "there's something around her eyes—not quite a smile, but the architecture of one" and "You talk differently to him now"
+      cross_reference: 8
+    
+    - id: CONT-CHAR-09-004
+      type: observation
+      severity: info
+      location: Mid-chapter combat sequence
+      content: Hendricks shows relief when combat begins, consistent with his mysterious psychological state around the missing bullet
+      evidence: "The first bullet hits the Rover like a hammer on a bell. Hendricks flinches. And then his whole body settles. The tension drains out of him... Like a man who'd been holding his breath and finally got permission to stop."
+      cross_reference: null
+    
+    - id: CONT-CHAR-09-005
+      type: verified
+      severity: clean
+      location: Weapon discussion
+      content: Ammunition count tracking correct - revolver started with 6, used 3 on scavengers (Ch4), has 2 remaining, 1 unaccounted for
+      evidence: "Six chambers. Three spent on the scavengers. Two remaining... What did you use the first round on?"
+      cross_reference: 4
+    
+    - id: CONT-CHAR-09-006
+      type: verified
+      severity: clean
+      location: Elena's combat scene
+      content: Elena's advanced military equipment and skills consistent with previous demonstrations
+      evidence: "The burstmag comes up in pieces... Her hands move without hesitation—muscle memory older than thought" and bullet-curving capabilities
+      cross_reference: 8
+
+  carry_forward:
+    - Elena has blood on fatigues from combat injuries but remains functional
+    - Hendricks critical condition - coughing blood, needs medical attention
+    - Hendricks' missing bullet mystery deepens - he shows relief when combat interrupts the questioning
+    - Standard's emotional awareness growing - notices speech pattern changes between characters
+    - Fusion power critically low at 12% approaching compound
+    - Elena has high-end military equipment including targeting visor and curve-shot capabilities
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

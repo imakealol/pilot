@@ -1,0 +1,69 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Hendricks' aging accelerating - treatments failing, borrowed time debt collecting
+  - Standard developing boundary-setting abilities and machine communication interface
+  - Elena knows about NED insider shooting Child with analog weapon
+  - Array survivors permanently settled at dam with Kellerman as doctor
+  - Standard's protection ability cannot be technologically replicated
+  - Kellerman's romantic subplot with Hendricks resolved through acceptance
+  chapter: 14
+  findings:
+  - content: Hendricks' physical aging continues from previous chapters - ten years
+      aged in three days, telomeres degrading, borrowed time debt collecting
+    cross_reference: 13
+    evidence: You've aged ten years in three days... Your telomeres are degrading
+      faster than I can stabilize them... Body's collecting the debt
+    id: CE-CS-14-001
+    location: Hendricks' deteriorating condition
+    severity: clean
+    type: verified
+  - content: Standard begins setting small limits during scans, showing growth from
+      Hendricks' confrontation about self-offering
+    cross_reference: 13
+    evidence: She asks questions. She sets limits. Small ones, almost invisible, but
+      Hendricks sees them. The seed he planted. Starting to grow.
+    id: CE-CS-14-002
+    location: Standard's boundary-setting development
+    severity: clean
+    type: verified
+  - content: Standard unconsciously absorbs machine communication protocols during
+      scans - new ability manifestation consistent with her language acquisition pattern
+    cross_reference: 7
+    evidence: The machines ask questions in frequencies humans can't hear. Standard
+      hears them... The patterns settle into her. Data protocols. Error corrections.
+    id: CE-CS-14-003
+    location: Standard's machine interface ability
+    severity: info
+    type: observation
+  - content: Elena connects Morton's "Geometry" term spreading to her failure, and
+      knows about analog weapon used to shoot the Child by NED insider
+    cross_reference: 2
+    evidence: Morton's word. His private shorthand... someone inside NED shot the
+      Child—not a Carbonist... An insider. Analog weapon
+    id: CE-CS-14-004
+    location: Elena's knowledge about insider shooting
+    severity: clean
+    type: verified
+  - content: Nessa's transformation from stone-thrower to defender shows Standard's
+      protective influence on those who initially rejected her
+    cross_reference: 11
+    evidence: Nessa. The woman who threw stones at Standard three days ago. The woman
+      Standard held while she wept. 'She saved us'
+    id: CE-CS-14-005
+    location: Array survivors' emotional states
+    severity: clean
+    type: verified
+  - content: Kellerman's feelings for Hendricks reach closure - he stays at dam, kisses
+      Hendricks goodbye, accepts he cannot reciprocate
+    cross_reference: 10
+    evidence: Kellerman kisses him... 'I can't,' Hendricks says. 'I know.' Kellerman's
+      voice is steady. Almost.
+    id: CE-CS-14-006
+    location: Kellerman's unrequited feelings resolution
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

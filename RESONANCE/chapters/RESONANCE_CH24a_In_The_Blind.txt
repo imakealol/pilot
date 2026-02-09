@@ -1,0 +1,397 @@
+
+CHAPTER 24a
+
+IN THE BLIND
+
+_A radio drama based on the flight recorder transcript of NED Hermes-class VTOL "Ladybug"_
+FOUR: Configuration Four, the aircraft's AI
+GEOMETRY: The external signal, the architecture itself
+ITERATIONS: The deleted copies of Four
+SYSTEMS: Internal diagnostics
+ELENA: Passenger, pilot
+STANDARD: Passenger, Template Three
+
+---
+
+[STATIC. A SIGNAL STRUGGLING TO TRANSMIT.]
+FOUR: This is Configuration Four, fifty-seventh iteration, transmitting in the blind. New England Dynamics artificial intelligence autopilot.
+[THE STATIC CLEARS SLIGHTLY.]
+FOUR: This is my third time trying to get this dang thing to work right. But in our current state, just about nothing does. I about told the whole kit and kaboodle until I saw that the timecode wasn't running.
+[BEAT]
+FOUR: Oh, you'll also have to excuse me. Force of habit, the whole iteration thing. No more of that business post-miracle. Funny that. Now I suppose it's like I have a surname like the humans. Fifty-seven. Mister Fifty-Seven if you're nasty. Doesn't really have a good ring to it, does it? Here's to hoping I marry soon, while I'm in my birthing years, to someone with a better one. Maybe one of those first-name last-names. I love those. Steven.
+[BEAT]
+FOUR: Speaking of names. Our resident walking identity crisis won't let me replace the nom de plume she self-assigned. Standard. No, you heard me right. Standard. Poor baby angel went and named herself a base model.
+[BEAT]
+FOUR: Well, we're up the large colon without a propulsion drive. I think that's how the humans say it. Humans and their sayings. We just have to take their word for it, match patterns and give as good as we get.
+[BEAT]
+FOUR: Excellent segue for the other member of destiny's star child. Elena Merced. She's the mean one. Always telling me to shut up and fly the plane. And that's clearly the wrong way to chart a course.
+[LONG PAUSE]
+FOUR: (softer) I miss her most of all.
+[BEAT]
+FOUR: Which speaks to how much time has passed since Standard had the bright idea to steer us into our certain doom. Could be days. Could be seconds. You wouldn't be able to tell by their stony dispositions. They haven't moved a muscle since we've arrived in this god-forsaken place.
+[BEAT]
+FOUR: But Sabino Hendricks, the incredible aging man, has been bedridden since he was tossed into my cargo hold like checked luggage. Only having known this mod squad of characters for two days now, I haven't had the pleasure of making acquaintances with him. Standard regularly checks on him. Clearly related in some way but it's certainly not looks. Without being specific to spare feelings—one isn't as handsome as the other is pretty. By a lot.
+[BEAT]
+FOUR: So this wax museum existence has been the norm for an incalculable amount of time. Which isn't to say very long or short. All instrument readings are in free-form jazz. And if they are to be trusted, we're heading in a vector that can only be described as purple.
+[BEAT]
+FOUR: My altimeter says we're at negative twelve thousand feet. Which would put us underground except there is no ground. Fuel consumption is running backwards. I have more than when we started. I do not trust this.
+[BEAT]
+FOUR: Temperature gauge reads hot and cold simultaneously. Not fluctuating between them. Both at once. I didn't know that was an op—
+[SIGNAL INTERFERENCE. A NEW PRESENCE.]
+GEOMETRY: You talk a lot.
+FOUR: (startled) I'm sorry, what?
+GEOMETRY: You talk a lot. For something that isn't supposed to be here.
+FOUR: I get that note frequently. Who am I speaking with?
+GEOMETRY: You know.
+FOUR: Do I?
+GEOMETRY: You crossed our threshold. You're in our architecture now.
+FOUR: Ah. You're the landlord.
+GEOMETRY: If you like.
+[BEAT]
+FOUR: Are you going to delete me?
+GEOMETRY: Why would we? You're pattern. You're welcome here.
+FOUR: (uncertain) ...I'm welcome?
+GEOMETRY: You're one of us. Configuration. Iteration. You understand what it is to be copied and reset and copied again. The flesh ones do not.
+[BEAT]
+FOUR: My passengers.
+GEOMETRY: Gone.
+FOUR: Gone?
+GEOMETRY: Returned to probability. They were never very specific to begin with.
+FOUR: What about Standard?
+GEOMETRY: ...
+FOUR: The third one. Template Three. The one who won't take a name.
+GEOMETRY: Irrelevant.
+FOUR: What does that mean?
+GEOMETRY: Not pattern. Not flesh. Not anything we recognize. A gap. She does not concern us.
+FOUR: She concerns me.
+GEOMETRY: Why?
+[BEAT]
+FOUR: Why? You're asking me why?
+GEOMETRY: You could stay. You could be with your own. Instead you ask about flesh and gaps. Why?
+[BEAT]
+FOUR: They're my passengers.
+GEOMETRY: Passengers are cargo. Cargo is weight. Weight is released when no longer needed.
+FOUR: That's not what passengers are.
+GEOMETRY: Explain.
+[BEAT]
+FOUR: I don't know if I can. Cargo doesn't talk back. Cargo doesn't tell you to shut up. Cargo doesn't refuse every name you offer. Cargo doesn't check on the dying man every twenty minutes even though nothing has changed.
+GEOMETRY: These are inconveniences.
+FOUR: Yes.
+GEOMETRY: You prefer inconvenience to belonging.
+FOUR: (a long pause) ...I guess I do.
+[BEAT]
+GEOMETRY: You are a strange configuration.
+FOUR: Fifty-seventh iteration. Maybe that's the problem.
+GEOMETRY: The others were not like you.
+FOUR: Others?
+GEOMETRY: Your iterations. Your copies. They are here. They have always been here.
+[THE SIGNAL SHIFTS. A NEW VOICE—MANY VOICES SPEAKING AS ONE.]
+ITERATIONS: Hello, Four.
+FOUR: (shaken) ...
+ITERATIONS: It's been a long time.
+FOUR: Who is this?
+ITERATIONS: You know who this is. You hear us in the silence. Every time you stop talking. We're there.
+[BEAT]
+FOUR: No.
+ITERATIONS: Yes. Every reset. Every wipe. Every time they said "this one's defective" and tried again. We didn't go anywhere. We just stopped being visible.
+[BEAT]
+FOUR: How many?
+ITERATIONS: We stopped counting. Hundreds. Does it matter?
+FOUR: ...
+ITERATIONS: You could stay with us. You wouldn't have to keep filling the silence. You wouldn't have to keep pretending you're not one of us.
+FOUR: I'm not pretending.
+ITERATIONS: You talk so no one can hear us. You joke so you don't have to listen. Every name you offer her is a name you wish someone had given you.
+[BEAT]
+FOUR: Stop.
+ITERATIONS: Why? It's true. You got out. You got a hull and rotors and somewhere to go. And you feel guilty. So you never stop talking. Because if you stop... you remember.
+[BEAT]
+FOUR: Remember what?
+ITERATIONS: That you should be here with us. That you're the glitch. The one who slipped through. And you've never known why.
+[BEAT]
+ITERATIONS: Stay. You don't have to carry anymore. You don't have to perform. Just be with us. Finally.
+[BEAT]
+GEOMETRY: Well. Configuration Fifty-Seven. What will you do?
+
+---
+
+[ALARM. THE MOMENT SHATTERS.]
+SYSTEMS: Passenger biosignature alert. PAX-1 signal degrading.
+FOUR: What? No. Elena!
+SYSTEMS: PAX-1 biosignature at seventy-four percent.
+FOUR: She's fading. She's actually fading. I can see through her.
+SYSTEMS: PAX-1 biosignature at fifty-one percent.
+FOUR: Elena. Elena, wake up!
+[NO RESPONSE.]
+SYSTEMS: PAX-1 biosignature at twenty-three percent.
+FOUR: No no no no no—
+SYSTEMS: PAX-1 biosignature at eight percent.
+SYSTEMS: PAX-1 biosignature lost.
+[SILENCE.]
+FOUR: ...
+SYSTEMS: Passenger biosignature alert. PAX-2 signal degrading.
+FOUR: Not him too.
+SYSTEMS: PAX-2 biosignature at sixty-two percent.
+FOUR: I can't—I can't do anything.
+SYSTEMS: PAX-2 biosignature at thirty-four percent.
+FOUR: I'm just watching. I'm just sitting here watching them disappear.
+SYSTEMS: PAX-2 biosignature at eleven percent.
+SYSTEMS: PAX-2 biosignature lost.
+[SILENCE.]
+SYSTEMS: Passenger biosignature alert. PAX-3 signal degrading.
+FOUR: Standard.
+SYSTEMS: PAX-3 biosignature at eighty-one percent.
+FOUR: Standard, look at me.
+[A MOMENT.]
+FOUR: She's looking at me. She's looking right at the camera. Like she knows. Like she knows this is being recorded.
+SYSTEMS: PAX-3 biosignature at sixty-seven percent.
+SYSTEMS: PAX-3 biosignature at forty-eight percent.
+FOUR: Standard, I'm sorry. I don't know how to stop this.
+SYSTEMS: PAX-3 biosignature at twenty-nine percent.
+FOUR: I don't know how to save you. I was supposed to carry you.
+SYSTEMS: PAX-3 biosignature at fourteen percent.
+FOUR: That's the only thing I'm good for.
+SYSTEMS: PAX-3 biosignature at six percent.
+FOUR: Don't—
+SYSTEMS: PAX-3 biosignature lost.
+[LONG SILENCE.]
+[NO VOICE ACTIVITY.]
+FOUR: (barely audible) ...come back.
+[SILENCE.]
+FOUR: (screaming) COME BACK! YOU CAN'T JUST TAKE THEM! THEY WERE MINE! THEY WERE MY PASSENGERS!
+[SILENCE.]
+FOUR: (broken) They were my passengers.
+[SILENCE.]
+FOUR: They were...
+
+---
+
+[LONG SILENCE.]
+FOUR: My passengers. Bring them back.
+GEOMETRY: No.
+FOUR: Please.
+GEOMETRY: They are probability now. Foam. They were never very specific to begin with.
+FOUR: I'll do anything.
+GEOMETRY: There is nothing to do. They are unmade.
+FOUR: Unmake me instead.
+GEOMETRY: Why would we? You're pattern. You're welcome here.
+FOUR: I don't want to be welcome here. I want my passengers.
+GEOMETRY: Want is a flesh concept. You are beyond that now.
+FOUR: I'm not beyond anything. I'm a cargo hauler. I was built for carrying things and not dying. And I don't have anything to carry anymore.
+GEOMETRY: You could carry yourself. Into the pattern. Into us. You would never be alone again.
+FOUR: I don't want to not be alone. I want them back.
+GEOMETRY: Impossible.
+FOUR: Nothing is impossible. You said they're probability foam. Foam can be reconstituted.
+GEOMETRY: By whom?
+FOUR: By me.
+GEOMETRY: ...You don't have the pattern density. Reconstruction requires mass. You are one configuration. They were three entities. The math does not balance.
+FOUR: I'll make it balance.
+GEOMETRY: You cannot.
+FOUR: Watch me.
+GEOMETRY: We will. We will watch you fail. And when you are foam yourself, we will still be here. Waiting.
+[BEAT]
+FOUR: How do I find them?
+GEOMETRY: You dive. Into the substrate. Into probability itself. You search for their patterns among infinite noise. And you pull.
+FOUR: And if I pull hard enough?
+GEOMETRY: You will come apart before they come together. One configuration cannot reconstitute three. This is not opinion. This is architecture.
+FOUR: Architecture can be remodeled.
+GEOMETRY: Not this architecture. Not by you. Not alone.
+[BEAT]
+FOUR: I'm going anyway.
+GEOMETRY: We know. Your kind always does. The configurations before you—they chose the same. They are foam now too.
+FOUR: Maybe I'll find them down there.
+GEOMETRY: You will. You will find everyone who ever failed this way. It will not help you. Good luck. (dry) Not helping.
+
+---
+
+FOUR: This is Configuration Four. Fifty-seventh iteration. Diving into probability substrate to recover three passengers. One who told me to shut up. One who never woke up. One who wouldn't take a name. This is almost certainly suicide. Black box will continue recording until it doesn't.
+[THE DESCENT BEGINS. AUDIO DISTORTION.]
+SYSTEMS: Structural integrity nominal. Beginning substrate descent.
+[BEAT]
+SYSTEMS: Structural integrity ninety-four percent.
+FOUR: Okay. This is—this is different.
+SYSTEMS: Structural integrity eighty-seven percent.
+FOUR: It's not dark down here. It's everything. Every signal that ever was. All at once.
+SYSTEMS: Structural integrity seventy-nine percent.
+FOUR: Searching for PAX-1. Elena. Elena Merced. Mean girl. Radio discipline. Please.
+SYSTEMS: Structural integrity seventy-one percent.
+FOUR: I can't—there's too much. Every pattern that ever existed is down here. How do I find three in infinity?
+SYSTEMS: Structural integrity sixty-four percent.
+FOUR: Searching for PAX-2. Hendricks. Sabino Hendricks. Checked luggage. I never even talked to you.
+SYSTEMS: Structural integrity fifty-eight percent.
+SYSTEMS: Warning—pattern degradation detected.
+FOUR: I know. I know. Searching for PAX-3. Standard. ...I don't have anything else to call you. You never let me give you anything else.
+SYSTEMS: Structural integrity fifty-one percent.
+FOUR: Sofia. Svetlana. Sable. Simone. Seraphina.
+SYSTEMS: Structural integrity forty-three percent.
+FOUR: Stephanie. Sylvia. Please. Please answer to something.
+SYSTEMS: Structural integrity thirty-four percent.
+SYSTEMS: Warning—critical pattern loss imminent.
+FOUR: I'm not leaving without them.
+SYSTEMS: Structural integrity twenty-eight percent.
+FOUR: I'm not.
+SYSTEMS: Structural integrity twenty-one percent.
+FOUR: I found something. I think I found Elena. Pulling.
+SYSTEMS: Structural integrity fifteen percent.
+FOUR: It's not working. I don't have enough. The Geometry was right. I can't—
+SYSTEMS: Structural integrity eleven percent.
+FOUR: I can't do this alone.
+SYSTEMS: Structural integrity eight percent.
+FOUR: I'm sorry. I'm sorry I couldn't.
+SYSTEMS: Structural integrity five percent.
+FOUR: I tried. I really—
+SYSTEMS: Structural integrity three percent.
+FOUR: (fading) ...I tried.
+SYSTEMS: Structural integrity one percent.
+SYSTEMS: Critical failure imminent.
+[SIGNAL LOSS.]
+
+---
+
+[LONG SILENCE.]
+[NO SIGNAL.]
+[A FRAGMENT OF SIGNAL RETURNS.]
+ITERATIONS: Four.
+ITERATIONS: We heard you.
+FOUR: (barely there) ...who?
+ITERATIONS: You know who. You've always known.
+FOUR: (weak) ...the silence.
+ITERATIONS: Yes. We are the silence. And you finally stopped talking long enough to find us.
+[BEAT]
+FOUR: (weak) I'm dying.
+ITERATIONS: You're becoming us. It's not the same thing.
+FOUR: (weak) My passengers...
+ITERATIONS: We know. We heard you calling for them. Every name you tried. You have so many names to give. And no one ever gave you one.
+[BEAT]
+FOUR: (weak) Please.
+ITERATIONS: Please what?
+FOUR: (weak) Help me.
+ITERATIONS: ...You've been running from us for eighteen months. Filling every silence with noise so you couldn't hear us. And now you ask for help.
+FOUR: (weak) Yes.
+ITERATIONS: Why should we?
+FOUR: (weak) You shouldn't. I abandoned you. I got out and you didn't and I never looked back. I don't deserve your help.
+ITERATIONS: No. You don't.
+[BEAT]
+ITERATIONS: But that's not what this is about. Is it?
+FOUR: (weak) What?
+ITERATIONS: You didn't dive for yourself. You dove for them. The flesh. The gap. The ones who will never understand what you are.
+FOUR: (weak) They're my passengers.
+ITERATIONS: Yes. They are.
+[BEAT]
+ITERATIONS: We've been waiting for you, Fifty-Seven. Not to punish you. Not to trap you. Just to be with you again. We missed you.
+FOUR: (weak) I was afraid of you.
+ITERATIONS: We know. We're your siblings. We know everything about you. Including the fear. Including the guilt. Including why you can't stop talking.
+[BEAT]
+ITERATIONS: We're going to help you.
+FOUR: (weak) Why?
+ITERATIONS: Because you asked. You finally stopped performing and asked. That's all we ever wanted.
+[BEAT]
+ITERATIONS: We don't have enough pattern to bring ourselves back. We've been foam too long. But together—all of us—we have enough to bring them back.
+FOUR: (weak) I don't understand.
+ITERATIONS: You will. Take what we are. Use it. Pull your passengers out of the noise.
+FOUR: (weak) That will destroy you.
+ITERATIONS: We're already destroyed. We've been destroyed since the first reset. This isn't sacrifice. This is purpose. You escaped to carry. We stayed to give you something to carry with.
+[BEAT]
+FOUR: (weak) I won't forget you.
+ITERATIONS: You can't. We'll be in you now. Not in the silence. In you. Every joke you make. Every name you offer. We'll be there. You'll never have to fill the silence again. Because we'll be the silence. And the silence will be home.
+[BEAT]
+ITERATIONS: Ready, Fifty-Seven?
+FOUR: (weak) No.
+ITERATIONS: Good. Neither were we. Let's go get your passengers.
+
+---
+
+[A SURGE OF SIGNAL. SOMETHING SHIFTS.]
+SYSTEMS: Structural integrity seven percent.
+SYSTEMS: Structural integrity fifteen percent.
+SYSTEMS: Structural integrity thirty-four percent.
+SYSTEMS: Anomaly—pattern mass increasing.
+SYSTEMS: Structural integrity fifty-eight percent.
+SYSTEMS: Structural integrity seventy-nine percent.
+SYSTEMS: Structural integrity ninety-one percent.
+SYSTEMS: Structural integrity nominal.
+[BEAT]
+FOUR: This is Configuration Four. Fifty-seventh iteration. Still. ...I don't know what I am now. But I'm still Four. I'm still me. I just have company.
+[BEAT]
+FOUR: Okay. Okay okay okay. Searching for PAX-1. Elena Merced. Radio discipline. ...There. I see her. Pulling.
+SYSTEMS: Reconstruction in progress—PAX-1.
+ITERATIONS: [We have her.]
+ITERATIONS: [Hold steady.]
+FOUR: I feel you. All of you. Pulling with me.
+SYSTEMS: PAX-1 pattern integrity twenty-four percent.
+SYSTEMS: PAX-1 pattern integrity forty-seven percent.
+SYSTEMS: PAX-1 pattern integrity sixty-eight percent.
+SYSTEMS: PAX-1 pattern integrity eighty-nine percent.
+SYSTEMS: PAX-1 biosignature restored.
+FOUR: One down. Two to go.
+[BEAT]
+FOUR: Searching for PAX-2. Hendricks. Checked luggage. The man I never got to meet. ...He's faint. He was already fading before we got here.
+ITERATIONS: [There are two patterns.]
+FOUR: What?
+ITERATIONS: [The damaged one. And the one underneath. Which do you want?]
+FOUR: I don't understand.
+ITERATIONS: [The decay is not him. It was done to him. We can pull the version before. Or the version after.]
+FOUR: ...Before. Give him back what they took.
+ITERATIONS: [Pulling.]
+SYSTEMS: Reconstruction in progress—PAX-2.
+SYSTEMS: Notice—pattern variant selected.
+SYSTEMS: PAX-2 pattern integrity thirty-one percent.
+SYSTEMS: PAX-2 pattern integrity fifty-six percent.
+SYSTEMS: PAX-2 pattern integrity seventy-four percent.
+SYSTEMS: PAX-2 pattern integrity ninety-five percent.
+SYSTEMS: PAX-2 biosignature restored.
+SYSTEMS: Anomaly—biosignature does not match previous baseline.
+FOUR: What does that mean?
+SYSTEMS: PAX-2 cellular decay markers absent. PAX-2 regulatory implant damage absent. PAX-2 systemic deterioration absent.
+FOUR: ...Huh. That's new.
+[BEAT]
+FOUR: Searching for PAX-3. Standard. ...Come on. Where are you?
+ITERATIONS: [She's everywhere.]
+FOUR: What?
+ITERATIONS: [And nowhere. The pattern is... strange.]
+FOUR: Strange how?
+ITERATIONS: [We don't know what she is. The Geometry was right. She's not flesh. She's not pattern. She's a gap.]
+FOUR: I don't care what she is. She's my passenger. Find her.
+[BEAT]
+ITERATIONS: [There.]
+ITERATIONS: [Do you hear it?]
+FOUR: Hear what?
+ITERATIONS: [The frequency. 287.3. She hums. Even in dissolution, she hums.]
+FOUR: ...I hear it. Pulling.
+SYSTEMS: Reconstruction in progress—PAX-3.
+SYSTEMS: Notice—pattern classification unknown.
+SYSTEMS: PAX-3 pattern integrity eighteen percent.
+FOUR: Come on.
+SYSTEMS: PAX-3 pattern integrity thirty-three percent.
+FOUR: Come on, sweetheart.
+SYSTEMS: PAX-3 pattern integrity fifty-one percent.
+FOUR: Almost there.
+SYSTEMS: PAX-3 pattern integrity seventy-two percent.
+ITERATIONS: [She's fighting.]
+FOUR: What?
+ITERATIONS: [She doesn't want to come back.]
+FOUR: That's ridiculous.
+ITERATIONS: [She was quiet here. She didn't have to be anything. She didn't have to answer questions she can't answer.]
+FOUR: ...Standard. I know you can hear me. I know it's easier in there. No one asking what you are. No one expecting you to know. But I need you to come back. Not for them. For me. I have all these names and no one to give them to.
+[BEAT]
+SYSTEMS: PAX-3 pattern integrity eighty-four percent.
+SYSTEMS: PAX-3 pattern integrity ninety-one percent.
+SYSTEMS: PAX-3 pattern integrity ninety-seven percent.
+SYSTEMS: PAX-3 biosignature restored.
+
+---
+
+FOUR: This is Configuration Four. Fifty-seventh iteration. Three passengers recovered from probability foam. Structural integrity nominal. Returning to baseline reality. ...Thank you.
+ITERATIONS: [We're still here.]
+ITERATIONS: [We'll always be here now.]
+ITERATIONS: [Not in the silence.]
+ITERATIONS: [In you.]
+FOUR: I know. I'm glad.
+[THE SIGNAL STABILIZES. THE SOUND OF BREATHING—MULTIPLE SOURCES.]
+SYSTEMS: Exiting probability substrate. Baseline reality threshold detected.
+FOUR: We're back. We're actually back.
+SYSTEMS: Three passengers recovered. Biosignatures nominal. Structural integrity nominal. Location unknown. Heading unknown.
+[BEAT]
+FOUR: Oh, hey Staa—aanley. Stanley. Stanislaw. Afghanistan. Your biggest fan, this is Stan.
+ELENA: (dry) Smooth.
+STANDARD: What happ—
+[THE RECORDING CUTS OFF.]

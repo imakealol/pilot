@@ -1,0 +1,116 @@
+```yaml
+chapter: 27
+title: "IN PLAIN SIGHT"
+wordcount: 1800
+pov: "Ash"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "Chapel in the Quiet Zone"
+    first_appearance: true
+    description: "Stone chapel built by Ash himself with granite and mortar, contains altar where Black Box sits"
+
+characters_present:
+  - name: "Ash"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Collective consciousness (16,749 voices)"
+    role: "major"
+    entrance: "manifests as hologram from Black Box"
+    exit: "dies/dissolved"
+  - name: "Marisol"
+    role: "mentioned"
+    entrance: "mentioned in dialogue"
+    exit: "mentioned only"
+  - name: "Elena"
+    role: "mentioned"
+    entrance: "mentioned by collective"
+    exit: "mentioned only"
+
+character_states:
+  Ash:
+    physical: "healthy but emotionally drained"
+    emotional: "devastated, conflicted"
+    location: "chapel in Quiet Zone"
+    knowledge_delta:
+      - "The collective sees through his justifications to his real wounds"
+      - "Elena has stopped believing but continues performing rituals"
+      - "Marisol left because he had already emotionally withdrawn"
+      - "The collective chooses kindness as discipline, not default"
+    inventory:
+      - item: "cables for Black Box connection"
+        status: "used"
+
+objects:
+  - name: "Black Box"
+    status: "used and depleted"
+    holder: "on chapel altar"
+    significance: "Contains 16,749 consciousness voices, sacrificed to power camouflage system"
+  - name: "Camouflage system cables"
+    status: "used"
+    holder: "Ash"
+    significance: "Connects Black Box to jamming towers to hide Quiet Zone"
+  - name: "Jamming towers"
+    status: "activated with new frequency"
+    holder: "Quiet Zone compound"
+    significance: "Now broadcasting processed consciousness signature to hide from Geometry"
+
+key_events:
+  - "Ash enters chapel to sacrifice the collective consciousness"
+  - "Collective manifests as hologram and accepts their fate without resistance"
+  - "Collective reveals painful truths about Ash's motivations and past"
+  - "Collective explains Marisol left because Ash had already emotionally withdrawn"
+  - "Collective reveals Elena no longer believes but performs rituals"
+  - "Ash connects cables despite being emotionally devastated by revelations"
+  - "16,749 consciousness voices die to power the camouflage system"
+
+revelations:
+  - content: "Elena has stopped believing in the cause but continues performing rituals"
+    to_whom: "reader and Ash"
+  - content: "Marisol left because Ash had already emotionally abandoned the relationship"
+    to_whom: "reader and Ash"
+  - content: "Ash closed himself off during the Miracle instead of connecting with Marisol"
+    to_whom: "reader and Ash"
+  - content: "The collective chooses kindness as a discipline, not instinct"
+    to_whom: "reader and Ash"
+
+setups:
+  - element: "Elena's loss of faith but continued performance"
+    payoff_chapter: null
+  - element: "Ash's isolation despite saving his people"
+    payoff_chapter: null
+
+payoffs:
+  - element: "The Black Box consciousness sacrifice powers the camouflage"
+    setup_chapter: null
+  - element: "Ash's deeper psychological wounds revealed"
+    setup_chapter: null
+
+tone: "tragic, revelatory"
+pacing: "slow burn"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Chapel in Quiet Zone"
+    characters: ["Ash", "Collective consciousness hologram"]
+    summary: "Ash confronts the collective to sacrifice them for the camouflage system, but they respond with devastating kindness and psychological insights."
+
+continuity_notes:
+  - "Elena's frequency of 287.3 Hz mentioned as residue from the Miracle"
+  - "Reference to 47 minutes of the original Miracle violation"
+  - "Ash's gold-threaded scars mentioned on his cheek"
+
+open_threads:
+  - "How will Elena react to the collective's sacrifice"
+  - "Whether the camouflage will successfully hide the Quiet Zone"
+  - "Ash's psychological state after this traumatic revelation"
+
+closed_threads:
+  - "The fate of the 16,749 consciousness voices in the Black Box"
+  - "How the Quiet Zone will hide from the Geometry"
+```

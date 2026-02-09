@@ -1,0 +1,66 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard has alien packet/implant in brain from Geometry scan - source of future
+    abilities
+  - Elena's implant damaged, using dampeners to manage neural overload symptoms
+  - Hendricks critically injured but conscious, condition deteriorating
+  - Standard can intuitively operate vehicles despite no training
+  - Elena cannot shoot people, only carries cargo (personality limitation revealed)
+  - Standard claims Hendricks as father figure, protective relationship established
+  chapter: 6
+  findings:
+  - content: Standard maintains consistent physical state from Chapter 5 - dried blood
+      on cuticles from previous injury
+    cross_reference: 5
+    evidence: Standard checks her hands. The blood on her cuticles has dried to a
+      dark, flaking crust.
+    id: CE-CS-6-001
+    location: opening scene
+    severity: clean
+    type: verified
+  - content: Hendricks' critical condition continues consistently from Chapter 5 -
+      pulse described as thready, skin cold
+    cross_reference: 5
+    evidence: His skin is cold. The beat underneath is there, but it is thready. A
+      wire pulled too tight, vibrating in the wind.
+    id: CE-CS-6-002
+    location: mid-chapter
+    severity: clean
+    type: verified
+  - content: Elena's implant damage from frequency attack manifests as tremors and
+      visual tracking issues, consistent with neural trauma
+    evidence: Your hands. The tremor. It's in your eyes too—your pupils aren't tracking
+      together.
+    id: CE-CS-6-003
+    location: Elena's awakening
+    severity: clean
+    type: verified
+  - content: Standard receives alien implant/packet during violet light scan - this
+      needs tracking for future chapters
+    evidence: A heavy, wet packet settles in the base of her brain—something she doesn't
+      understand, something she doesn't know how to use.
+    id: CE-CS-6-004
+    location: Geometry scan sequence
+    severity: info
+    type: observation
+  - content: Elena uses medical dampener for neural overload, consistent with her
+      implant damage symptoms
+    evidence: Blue. The dampener. Neural overload... Elena slowly resumes finding
+      what she's looking for – a dampener, usually for implant rejections.
+    id: CE-CS-6-005
+    location: final scene
+    severity: clean
+    type: verified
+  - content: Standard demonstrates intuitive driving ability without training - new
+      capability emergence needs tracking
+    evidence: Her hands find the wheel. Her foot finds the pedal. The machine responds.
+      It feels natural. Like muscle memory she doesn't remember building.
+    id: CE-CS-6-006
+    location: driving sequence
+    severity: info
+    type: observation
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

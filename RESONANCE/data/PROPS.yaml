@@ -1,0 +1,830 @@
+##############################################################################
+# RESONANCE: PROPS INVENTORY
+# Weapons, ammunition, and tactical gear with established physics
+# Created: 2026-01-16
+##############################################################################
+
+##############################################################################
+# AMMUNITION
+##############################################################################
+
+ammunition:
+
+  BOLT_ROUNDS:
+    id: "AMM_001"
+    name: "Ferrous Bolt Rounds"
+    category: ammo
+    physical:
+      size: "Grain-of-rice (~3mm length, ~0.5mm diameter)"
+      mass: "~0.15 grams (1/100th conventional bullet)"
+      material: "Iron-core ferrous needle, stabilized micro-flechette"
+      distinguishing_features:
+        - "Near-invisible to naked eye at speed"
+        - "Slight metallic glint when still"
+        - "Ferrous content mandatory — non-ferrous won't accelerate"
+    function:
+      primary: "Anti-personnel ammunition for magnetic acceleration weapons"
+      mechanics: |
+        VELOCITY COMPENSATES FOR MASS — Kinetic energy = 1/2 mv^2
+        - Muzzle velocity: 2,500-3,500 m/s (Mach 7-10)
+        - Hypersonic flight creates sharp sonic crack
+        - Kinetic energy equivalent to conventional rounds through velocity squared
+        - Damage mechanism: Hydrostatic shock + cavitation
+        - Wound profile: Small entry, massive internal disruption
+      limitations:
+        - "Passes through sonic constructs — nothing biological to rupture"
+        - "Requires magnetic acceleration — useless in chemical propellant weapons"
+        - "Ferrous-only — aluminum or ceramic variants won't fire"
+        - "Deflected by strong magnetic fields"
+    sensory:
+      in_flight: "Sharp crack — hypersonic sonic boom, not weapon report"
+      impact_flesh: "Wet thwack — hydrostatic shock audible through tissue"
+      impact_armor: "Metallic ping — penetration depends on angle and range"
+      impact_construct: "Nothing — needle passes through, no damage"
+    thematic:
+      symbolism: "Modern warfare — efficient, invisible, impersonal. Death you never see coming."
+      callbacks:
+        - "CH2 — Elena fires at constructs, rounds pass through harmlessly"
+        - "CH39 — 'ferrous bolt rounds, hundreds of them' — the Template 3 barrage"
+    contrast_with_revolver: |
+      Bolt rounds are everything Hendricks' Schofield is not:
+      - Require electronics (capacitor charging)
+      - Require network (targeting systems)
+      - Fail against constructs
+      - Thousands available
+
+      The revolver works because it's DUMB:
+      - Chemical propellant, no electronics
+      - No network to hack
+      - Physics kills everything
+      - Five bullets left in existence
+    appears_in: [2, 37, 39]
+
+##############################################################################
+# PRIMARY WEAPONS
+##############################################################################
+
+weapons:
+
+  BURSTMAG_CARBINE:
+    id: "WPN_001"
+    name: "Burstmag Carbine"
+    category: weapon
+    manufacturer: "Unknown (pre-Collapse military design)"
+    type: "Magnetic acceleration rifle with guided trajectory"
+    physical:
+      size: "~80cm collapsed, 95cm extended"
+      weight: "3.2kg loaded (including capacitor bank)"
+      material: "Carbon-fiber chassis, ceramic barrel housing, copper coil assembly"
+      distinguishing_features:
+        - "Matte black with wear marks at grip and stock"
+        - "Collapsible stock locks into shoulder pocket"
+        - "Finger grooves worn smooth from use"
+        - "Three-point sling attachment"
+        - "Capacitor bank housing behind magazine well"
+        - "Articulated barrel assembly (allows angle adjustment)"
+    function:
+      primary: "Anti-personnel carbine, magnetic bolt acceleration with non-linear targeting"
+      mechanics: |
+        MAGNETIC ACCELERATION SYSTEM:
+        - Sequential coil activation propels ferrous needles
+        - Muzzle velocity: 2,500-3,000 m/s (Mach 7-9)
+        - Magazine capacity: ~300 bolt rounds (1/100th size = 100x capacity)
+        - Capacitor bank: ~50 shots per charge
+        - RELOAD IS CAPACITOR SWAP, NOT AMMO SWAP
+        - Capacitor recharge: 4 hours standard, 30 minutes fast-charge
+
+        VISOR-CARBINE LINK (THE BRAIN):
+        - Single-lens visor wirelessly synced to carbine fire control
+        - Visor calculates non-linear trajectory in real-time
+        - Carbine executes: fires bolt at calculated ANGLE and SPIN
+        - Magnetic coils impart precise rotation for curved flight path
+        - Result: bolts can curve around partial cover, through gaps, around corners
+        - "The visor calculates angles. The pointer marks the path. The rounds follow."
+        - The carbine is dumb muscle. The visor is the brain.
+
+        NON-LINEAR SHOT MECHANICS:
+        - Visor maps obstacles between shooter and target
+        - Calculates required angle and spin to navigate around obstructions
+        - Carbine barrel assembly micro-adjusts for launch angle
+        - Magnetic coils impart asymmetric spin for curved trajectory
+        - At 3,000 m/s, even slight spin creates significant curve over distance
+
+        FIRE MODES:
+        - Burst: Three-round, 0.15 second cycle
+        - Semi: Single shot
+        - Full auto: Disabled (military lockout)
+
+        THE HUM: Capacitor charging between shots — rising whine
+      limitations:
+        - "Capacitor dependent — 50 shots then swap"
+        - "Cold start requires 2-second warm-up"
+        - "Ineffective against sonic constructs"
+        - "Ferrous rounds only"
+        - "Full auto locked out on civilian variants"
+        - "Non-linear shots require visor link — blind fire is straight only"
+        - "Extreme curves reduce range and impact velocity"
+    sensory:
+      sound_charging: "Rising whine, like a camera flash warming up — THE HUM"
+      sound_firing: "Sharp crack — hypersonic sonic boom, not explosion"
+      sound_cycling: "Faint electromagnetic click between rounds"
+      sound_impact: "Wet thwack on flesh, metallic ping on armor"
+      recoil: "Minimal — magnetic propulsion has no explosive kickback"
+      muzzle_signature: "Blue-white flicker at barrel mouth"
+      heat: "Barrel housing warm after sustained fire, not hot"
+    effectiveness:
+      vs_flesh: "Devastating — hydrostatic shock + cavitation"
+      vs_armor: "Penetrates standard body armor at close range"
+      vs_constructs: "Ineffective — ferrous rounds pass through"
+      vs_electronics: "No EMP effect"
+    elena_usage:
+      primary_weapon: true
+      carried: "Slung cross-body when not in use"
+      notable_moments:
+        - "CH2:11 — drawn entering NED lobby"
+        - "CH2 — fires against constructs (ineffective)"
+        - "CH9:77-104 — SYSTEM DEMONSTRATED: visor-carbine link shown during scavenger ambush"
+        - "CH9:79 — 'Single-lens visor, military-grade... the world splits—one half rain and chaos, the other half data'"
+        - "CH9:92 — 'Elena's visor tracks the one going right. Pinpoints the driver through the rain, through the ruins'"
+        - "CH9:104 — 'The visor calculates angles. The pointer marks the path. The rounds follow. It's not magic. Just math.'"
+        - "CH37:84 — 'Elena checks her carbine. Magazine seated. Safety off.'"
+    thematic:
+      symbolism: "Modern, efficient, designed by committee — everything Hendricks' revolver is not"
+      callbacks:
+        - "CH2 — Otis's carbine barks before he dies"
+        - "CH96 — 'carbine braced against the rim'"
+    appears_in: [2, 37, 39]
+
+  MAGPULSE_SIDEARM:
+    id: "WPN_002"
+    name: "Magpulse Sidearm"
+    category: weapon
+    manufacturer: "NED Standard Issue (Morton-era design)"
+    type: "Electromagnetic pulse pistol — HEAVY"
+    physical:
+      size: "22cm length, oversized grip housing capacitor"
+      weight: "0.8kg (heavy for a sidearm)"
+      material: "Polymer frame, ceramic internals, shielded capacitor core"
+      distinguishing_features:
+        - "Gray-green standard issue finish"
+        - "Ergonomic polymer grip, slightly too small for large hands"
+        - "Visible capacitor housing bulge on frame"
+        - "Magnetic retention holster compatibility"
+        - "Elena's shows wear on grip texture"
+    function:
+      primary: "Anti-electronics/anti-augment sidearm, neural disruption"
+      mechanics: |
+        FOCUSED ELECTROMAGNETIC PULSE:
+        - Disrupts electronics in targeted cone
+        - Causes neural feedback in augmented targets
+        - NOT a bolt launcher — pure EM effect
+
+        FIRE MODES:
+        - Pulse: Single discharge, instantaneous
+        - Sustained: Continuous beam (drains capacitor rapidly)
+
+        POWER SYSTEM:
+        - Integrated capacitor: ~20 shots per charge
+        - THE HUM: Audible whine when priming (0.5 seconds)
+        - Recharge: 4 hours standard, 30 minutes fast-charge
+      limitations:
+        - "Non-lethal to unaugmented humans"
+        - "Limited shots per charge"
+        - "Requires priming (0.5s delay)"
+        - "Sustained mode drains capacitor in seconds"
+    sensory:
+      sound_idle: "Faint hum when holstered and charged"
+      sound_charging: "Rising whine, mosquito-pitched — THE HUM"
+      sound_firing: "Whisper-crack — almost silent compared to bolt weapons"
+      sound_sustained: "Haunting low howl"
+      visual_firing: "No visible beam — air distortion like heat shimmer"
+      recoil: "None"
+      target_sensation: "'Brain freeze' sensation in augmented targets"
+    effectiveness:
+      vs_flesh: "Non-lethal to unaugmented — disorientation, nausea"
+      vs_augmented: "Devastating — implant feedback causes seizures, unconsciousness"
+      vs_electronics: "Fries unshielded circuits in cone"
+      vs_constructs: "Partially effective — disrupts cohesion momentarily"
+    elena_usage:
+      secondary_weapon: true
+      carried: "Thigh holster, right leg (magnetic retention)"
+      notable_moments:
+        - "CH6:99 — 'Elena draws the magpulse. It's a heavy, ugly weapon.'"
+        - "CH6:124 — 'The haunting low howl of the magpulse sustains eternally.'"
+        - "CH9:80 — Elena passes it to Hendricks during scavenger chase"
+        - "CH10:124 — 'She wishes she didn't leave her magpulse in the Rover'"
+    thematic:
+      symbolism: "Clean, efficient, corporate — the weapon of the world that was"
+      callbacks:
+        - "CH3:11 — Hendricks' memory: 'His magpulse had never felt like this'"
+        - "CH4:62 — Scavengers' magpulses 'whirr to charge'"
+        - "CH35, CH36 — Hendricks reaches for it repeatedly"
+    contrast_with_revolver: |
+      The magpulse represents everything Hendricks rejected:
+      - Electronic dependent
+      - Network-capable
+      - Requires charging
+      - Mass-produced, standard issue
+
+      Hendricks' revolver is the opposite:
+      - Purely mechanical
+      - Unhackable
+      - Always ready
+      - Irreplaceable
+    appears_in: [3, 4, 6, 9, 10, 11, 15, 29, 35, 36]
+
+  CERAMIC_KNIFE:
+    id: "WPN_003"
+    name: "Elena's Boot Knife"
+    category: weapon
+    type: "Ceramic combat knife"
+    physical:
+      size: "18cm total, 10cm blade"
+      weight: "120g"
+      material: "Single-piece ceramic, carbon-fiber wrap handle"
+      distinguishing_features:
+        - "White blade, black handle"
+        - "Monomolecular edge — factory-sharp"
+        - "No metal components"
+        - "Boot-integrated sheath, right ankle"
+    function:
+      primary: "Silent kill weapon, scanner-invisible backup"
+      mechanics: |
+        PASSIVE WEAPON — no electronics, no moving parts
+        - Monomolecular edge cuts through soft tissue effortlessly
+        - Never needs sharpening
+        - Invisible to metal detection
+        - Passes through body armor seams
+      limitations:
+        - "Will chip if struck against metal or hard armor"
+        - "Cannot penetrate hard plates"
+        - "Close range only"
+        - "Edge is factory-set — damage is permanent"
+    sensory:
+      sound_drawing: "Whisper of ceramic against sheath lining"
+      sound_cutting: "Silent"
+      visual: "White blade catches light — must be used in shadow"
+    effectiveness:
+      vs_flesh: "Surgical — severs arteries, punctures organs"
+      vs_armor: "Armor seam penetration only — cannot breach plates"
+      vs_scanners: "Invisible to metal detection"
+      vs_constructs: "Useless"
+    elena_usage:
+      tertiary_weapon: true
+      carried: "Right boot, always"
+      note: "Last resort — the weapon you don't know she has"
+    thematic:
+      symbolism: "Silence, patience, close work — the spy's true nature"
+      callbacks:
+        - "CH37:84 — 'Knife on her thigh' — she's moved it for quick access"
+    mirror_to_ash:
+      note: "Ash carries a similar ceramic blade — the Prophet and the spy share tools"
+      implication: "Elena learned violence from her father's world"
+    appears_in: [37]
+
+##############################################################################
+# SPECIALIZED GEAR
+##############################################################################
+
+gear:
+
+  FREQUENCY_DARTS:
+    id: "GEA_001"
+    name: "Frequency Darts"
+    category: tech
+    type: "Wrist-mounted neural overload system"
+    physical:
+      size: "Launcher: 8cm x 3cm wrist unit; Darts: 2cm micro-flechettes"
+      material: "Launcher: polymer housing, magnetic rails; Darts: ceramic-tipped, resonant core"
+      distinguishing_features:
+        - "Wrist-mounted launcher, inner forearm"
+        - "8-dart rotary magazine"
+        - "Neural interface required for frequency tuning"
+        - "Minimal profile — concealed under sleeve"
+    function:
+      primary: "Targeted neural disruption, non-lethal incapacitation"
+      mechanics: |
+        IMPLANT-TUNED NEURAL OVERLOAD:
+        - Elena's implant identifies target's neural frequency
+        - Dart is tuned to that specific frequency on launch
+        - Impact delivers resonant pulse that overwhelms nervous system
+        - Target experiences seizure-like neural cascade
+        - Duration: 30-60 seconds incapacitation
+
+        MAGNETIC LAUNCH:
+        - Silent deployment (no propellant)
+        - Range: ~15 meters effective
+        - Accuracy requires implant targeting assist
+      limitations:
+        - "8 darts total — limited magazine"
+        - "Requires working neural implant for tuning"
+        - "Ineffective against unaugmented targets (no frequency to disrupt)"
+        - "Single-use darts — not recoverable"
+        - "Implant must be active (risks detection)"
+    sensory:
+      sound_launch: "Soft click — nearly silent"
+      sound_impact: "Faint chime as dart activates"
+      target_effect: "Immediate collapse, muscle spasms, incapacitation"
+    effectiveness:
+      vs_augmented: "Devastating — near-instant incapacitation"
+      vs_unaugmented: "Minimal — mild discomfort only"
+      vs_synthetics: "Variable — depends on neural architecture"
+    elena_usage:
+      carried: "Left inner forearm, concealed"
+      quantity: 8
+      note: "Spy weapon — for when silence matters more than lethality"
+    thematic:
+      symbolism: "Elena's mother's gift — the implant becomes a weapon"
+      callbacks:
+        - "The implant that receives 287.3 Hz now weaponizes frequency"
+    appears_in: []
+
+  ECHO_PUCKS:
+    id: "GEA_002"
+    name: "Echo Pucks"
+    category: gear
+    type: "Acoustic decoy devices"
+    physical:
+      size: "5cm diameter, 2cm thick — hockey puck profile"
+      material: "Hardened polymer shell, micro-speaker array, capacitor core"
+      distinguishing_features:
+        - "Matte black, non-reflective"
+        - "Magnetic backing for surface adhesion"
+        - "Pressure-sensitive activation"
+        - "Small LED indicator (disabled in stealth mode)"
+    function:
+      primary: "Acoustic misdirection, sensor spoofing"
+      mechanics: |
+        SONIC DECEPTION SYSTEM:
+        - Records ambient sound or accepts preset patterns
+        - Plays back with directional speaker array
+        - Can simulate: footsteps, voices, weapon fire, vehicle noise
+        - Duration: 3 minutes per puck
+
+        DEPLOYMENT:
+        - Throw and stick (magnetic)
+        - Delayed activation: 3-30 second preset
+        - Can be daisy-chained for sequential activation
+      limitations:
+        - "6 pucks total"
+        - "3-minute battery life each"
+        - "Line-of-sight sound only — won't fool thermal or visual"
+        - "Advanced acoustic sensors can identify as synthetic"
+    sensory:
+      activation: "Faint click, then target sound"
+      during_operation: "Indistinguishable from real source to human ear"
+    effectiveness:
+      vs_guards: "Highly effective — draws attention, creates openings"
+      vs_sensors: "Moderate — fools basic audio, not spectrum analysis"
+      vs_constructs: "Unknown — may attract or repel depending on frequency"
+    elena_usage:
+      carried: "Belt pouch, back right hip"
+      quantity: 6
+      note: "Infiltration tool — for when you need to be somewhere else"
+    thematic:
+      symbolism: "Deception is Elena's native language"
+      callbacks:
+        - "Echo of the Box's souls — sound standing in for presence"
+    appears_in: []
+
+  MAG_GRIP_GLOVES:
+    id: "GEA_003"
+    name: "Mag-Grip Gloves"
+    category: gear
+    type: "Electromagnetic adhesion climbing system"
+    physical:
+      size: "Standard tactical glove profile"
+      weight: "350g per glove (capacitor adds mass)"
+      material: "Reinforced polymer, embedded electromagnet array, capacitor wrist housing"
+      distinguishing_features:
+        - "Palm surface shows subtle hexagonal magnet pattern"
+        - "Wrist housing contains capacitor bank"
+        - "Finger pads have manual grip texture (backup)"
+        - "Matte black, matches acoustic suit"
+    function:
+      primary: "Vertical mobility on ferrous surfaces"
+      mechanics: |
+        ELECTROMAGNETIC ADHESION:
+        - Palm magnets engage ferrous surfaces
+        - Grip strength: 200kg per hand
+        - Toggle activation — squeeze to release
+        - Capacitor: ~10 minutes continuous use
+
+        CLIMBING TECHNIQUE:
+        - One hand holds while other repositions
+        - Works on: steel walls, iron infrastructure, ship hulls
+        - Does NOT work on: concrete, glass, non-ferrous metals
+      limitations:
+        - "Ferrous surfaces only — useless on aluminum or polymer"
+        - "10-minute battery life"
+        - "Both gloves must be charged"
+        - "Wet surfaces reduce adhesion by 40%"
+        - "Strong magnetic fields cause interference"
+    sensory:
+      activation: "Faint magnetic hum when engaged"
+      grip: "Solid thunk as magnets engage"
+      release: "Click and slight vibration"
+    effectiveness:
+      vs_steel_walls: "Full adhesion — vertical climbing"
+      vs_ship_hulls: "Full adhesion"
+      vs_non_ferrous: "Zero grip"
+    elena_usage:
+      carried: "Worn during assault operations"
+      note: "For when the door isn't an option"
+    thematic:
+      symbolism: "Elena climbs through the world others walk through"
+      callbacks:
+        - "The Rover's induction float grips buried metal — same principle, personal scale"
+    appears_in: []
+
+  MONOFILAMENT_WIRE:
+    id: "GEA_004"
+    name: "Monofilament Wire"
+    category: gear
+    type: "Single-molecule cutting wire"
+    physical:
+      size: "3 spools, 10 meters each; wire diameter: sub-millimeter"
+      material: "Carbon monofilament — single molecule chain"
+      distinguishing_features:
+        - "Nearly invisible to naked eye"
+        - "Spool housing with tension lock"
+        - "Weighted anchor ends for deployment"
+        - "Storage case prevents accidental contact"
+    function:
+      primary: "Trap deployment, controlled cutting"
+      mechanics: |
+        PASSIVE CUTTING SYSTEM:
+        - Single-molecule edge — cuts through nearly anything
+        - Tensioned between anchor points
+        - Victim's own momentum provides cutting force
+        - Can be used for tripwires, throat cutters, limb removal
+
+        DEPLOYMENT:
+        - Weighted ends for throwing
+        - Magnetic anchors for quick attachment
+        - Tension lock prevents slack
+      limitations:
+        - "3 spools only — limited deployment"
+        - "Requires setup time"
+        - "Cannot be safely recovered"
+        - "Dangerous to user if mishandled"
+        - "Ineffective against armored targets (they push through)"
+    sensory:
+      visual: "Nearly invisible — catches light only at certain angles"
+      impact: "Silent cut — victim may not realize what happened"
+    effectiveness:
+      vs_unarmored: "Devastating — clean severing"
+      vs_armored: "Minimal — deflects off hard surfaces"
+      vs_vehicles: "Ineffective — mass overwhelms cutting ability"
+    elena_usage:
+      carried: "Utility pouch, special case"
+      quantity: "3 spools (10m each)"
+      note: "For when you want them to walk into their own death"
+    thematic:
+      symbolism: "Invisible threats — the danger you can't see"
+      callbacks:
+        - "The Static Line you can't see but feel"
+    appears_in: []
+
+  FLASH_CHARGES:
+    id: "GEA_005"
+    name: "Flash Charges"
+    category: gear
+    type: "Sensory overload escape devices"
+    physical:
+      size: "Cylinder, 6cm x 2cm diameter"
+      weight: "80g each"
+      material: "Hardened polymer shell, magnesium-capacitor core"
+      distinguishing_features:
+        - "Red safety stripe on black casing"
+        - "Twist-prime activation"
+        - "Can be thrown or placed"
+        - "Magnetic backing for surface mounting"
+    function:
+      primary: "Disorientation, escape facilitation"
+      mechanics: |
+        SENSORY OVERLOAD PACKAGE:
+        - Intense light burst: 10 million candela
+        - Concussive sound: 180dB
+        - Duration: 0.5 seconds
+        - Effect radius: 10 meters
+
+        ACTIVATION:
+        - Twist prime
+        - 2-second delay
+        - Cannot be cancelled once primed
+      limitations:
+        - "4 charges total"
+        - "Affects user if caught in radius"
+        - "Ineffective against sealed helmets or deaf targets"
+        - "Reduced effect outdoors (sound dissipates)"
+    sensory:
+      priming: "Click and rising whine"
+      detonation: "Blinding white flash, thunderclap report"
+      aftermath: "Ringing ears, spots in vision for 30-60 seconds"
+    effectiveness:
+      vs_unprotected: "Full disorientation — temporary blindness, deafness"
+      vs_sealed_helmet: "Reduced — light blocked, sound dampened"
+      vs_deaf_targets: "50% effective — light only"
+    elena_usage:
+      carried: "Belt pouch, front left hip"
+      quantity: 4
+      note: "For when silence fails and you need a door"
+    thematic:
+      symbolism: "Escape — Elena always has an exit"
+      callbacks:
+        - "Ash's deaf guards — these would only half-work"
+    appears_in: []
+
+##############################################################################
+# ARMOR
+##############################################################################
+
+armor:
+
+  TERMINIST_ACOUSTIC_ARMOR:
+    id: "ARM_001"
+    name: "Terminist Acoustic Armor"
+    aliases: ["Elena's armor", "acoustic suit", "the blackened armor"]
+    category: armor
+    manufacturer: "Terminist Order — field-grade combat variant"
+    type: "Layered composite ballistic armor with frequency dampening"
+
+    physical:
+      coverage: "Full body — boots to high collar"
+      weight: "12kg complete"
+      material: "Layered composite: ceramic trauma plates, frequency-dampening mesh, lead-lined collar"
+      color: "Blackened finish — scorched and worn from prior missions"
+      distinguishing_features:
+        - "High collar protects neck and base of skull (covers implant)"
+        - "Articulated joints for mobility"
+        - "Modular plate carriers — can swap damaged sections"
+        - "Integrated belt system for gear attachment"
+        - "Elena's shows scoring, carbon deposits, old blood in the seams"
+
+    protection:
+      bolt_rounds: |
+        DESIGNED TO WITHSTAND BOLT FIRE:
+        - Ceramic plates disperse hypervelocity impact energy
+        - Can absorb 15-20 direct bolt hits before plate failure
+        - Frequency-dampening mesh reduces spalling
+        - After each hit: micro-fractures accumulate, protection degrades
+        - Plate failure is sudden — works until it doesn't
+
+      conventional_weapons: |
+        - Stops most conventional projectiles (rare in this era)
+        - Bladed weapons deflected by outer shell
+        - Blunt trauma still transfers — bruising, cracked ribs possible
+
+      frequency_weapons: |
+        - Lead-lined collar blocks neural disruption attacks
+        - Mesh dampens ambient frequency interference
+        - NOT immune to sustained frequency assault
+        - Protects implant from passive scanning
+
+      limitations:
+        - "Joint gaps vulnerable — elbows, knees, armpits, groin"
+        - "Visor area unprotected (Elena doesn't wear helmet)"
+        - "Cumulative damage — each hit weakens overall integrity"
+        - "Heat buildup during extended combat"
+        - "Weight affects mobility over time"
+
+    damage_progression: |
+      THE ARMOR TELLS THE STORY OF THE FIGHT:
+
+      Fresh: Plates intact, full protection
+      Light damage: Scoring, surface cracks, cosmetic
+      Moderate: Visible fracture lines, protection degraded 30%
+      Heavy: Plates spider-webbed, one more hit to failure
+      Critical: Sections failing, gaps in coverage
+
+      Elena FEELS each hit — the armor stops penetration but
+      transfers kinetic energy. Bruises bloom. Ribs crack.
+      She keeps moving because the alternative is dying.
+
+    sensory:
+      sound_impact: "Sharp crack as bolt hits plate, then dull thud of energy transfer"
+      sound_movement: "Faint creak of articulated joints, whisper of composite layers"
+      feel_when_hit: "Like being punched by a freight train through a mattress"
+      heat: "Builds during combat — sweat runs inside the suit"
+      smell: "Ozone from impacts, old sweat, fear"
+
+    elena_usage:
+      worn_since: "CH2 — extraction mission"
+      current_state: "Heavily worn, multiple prior repairs, scorched"
+      notable_damage:
+        - "CH2 — construct encounter scoring"
+        - "CH9 — scavenger ambush, took fire"
+        - "CH37+ — compound assault, cumulative damage"
+      thematic: |
+        The armor is Elena's shell — she's been inside it since page one.
+        It protects her body but also hides her. The spy in her carapace.
+        Every scar on the armor is a death she walked away from.
+
+    tactical_implications: |
+      Elena can ADVANCE THROUGH FIRE:
+      - She doesn't need to dodge every shot
+      - She can cross kill zones that would stop unarmored targets
+      - She trades armor integrity for position
+      - This makes her terrifying — she walks toward gunfire
+
+      BUT she's not invincible:
+      - Each hit costs her future protection
+      - Enough hits and she's just meat in a broken shell
+      - Smart enemies aim for gaps
+      - Sustained fire will kill her — she has to keep MOVING
+
+    contrast:
+      vs_standard: "Standard wears borrowed clothes. Elena wears a fortress."
+      vs_hendricks: "Hendricks has no armor. He relies on not being shot."
+      vs_carbonist_guards: "Ash's people wear lighter gear — faith over firepower"
+
+    appears_in: [2, 5, 6, 9, 16, 17, 21, 22, 37, 39]
+
+##############################################################################
+# MASTER LOADOUTS
+##############################################################################
+
+loadouts:
+
+  ELENA_ASSAULT_LOADOUT:
+    id: "LDT_001"
+    name: "Elena's Compound Assault Loadout"
+    category: loadout
+    role: "Full tactical configuration for high-threat infiltration/extraction"
+
+    weapons:
+      primary:
+        item: "BURSTMAG_CARBINE"
+        carry: "Slung cross-body, right shoulder"
+        status: "3 capacitor banks, ~150 shots total"
+      secondary:
+        item: "MAGPULSE_SIDEARM"
+        carry: "Thigh holster, right leg"
+        status: "Full charge, spare capacitor in belt pouch"
+      tertiary:
+        item: "CERAMIC_KNIFE"
+        carry: "Boot sheath, right ankle (moved to thigh for assault)"
+        status: "Factory edge"
+      special:
+        item: "FREQUENCY_DARTS"
+        carry: "Wrist launcher, left inner forearm"
+        status: "8 darts loaded"
+
+    gear:
+      tactical:
+        - { item: "ECHO_PUCKS", quantity: 6, location: "Belt pouch, back right" }
+        - { item: "FLASH_CHARGES", quantity: 4, location: "Belt pouch, front left" }
+        - { item: "MONOFILAMENT_WIRE", quantity: "3 spools", location: "Utility case, back left" }
+      mobility:
+        - { item: "MAG_GRIP_GLOVES", status: "Worn", location: "Hands" }
+      protection:
+        - { item: "TERMINIST_ACOUSTIC_ARMOR", status: "Worn, heavily scored, multiple repairs", location: "Full body" }
+
+    ammunition:
+      bolt_rounds: "~900 rounds (3 magazines)"
+      capacitor_banks: "5 total (3 carbine, 2 sidearm/spare)"
+
+    total_weight: "~20.5kg (8.5kg gear + 12kg armor)"
+
+    armor_tactical_role: |
+      THE ARMOR CHANGES HOW SHE FIGHTS:
+      - She can advance through suppressing fire
+      - She can take hits while closing distance
+      - She trades protection for position — armor degrades, she gains ground
+      - Each impact is a bruise, a crack, a step closer to failure
+      - She's not dodging — she's ABSORBING
+
+      This makes her assault possible:
+      - 30 guards with bolt weapons would shred an unarmored target
+      - Elena walks through the fire, visor painting targets, carbine cracking
+      - By the end, her armor is spider-webbed and failing
+      - But she's still standing. And they're not.
+
+    mission_profile: |
+      INFILTRATION/EXTRACTION CONFIGURATION
+      - Primary: Ranged engagement (carbine)
+      - Secondary: Anti-augment/electronics (magpulse)
+      - Tertiary: Silent kills (knife, darts)
+      - Support: Misdirection (pucks), escape (flash), denial (wire)
+      - Mobility: Vertical access (mag-grips)
+
+      DESIGNED FOR:
+      - Compound assault
+      - Standard extraction
+      - Multiple engagement types
+      - Extended operation (4-6 hours)
+
+    tactical_philosophy: |
+      Elena layers her options:
+      1. If she can avoid — echo pucks, misdirection
+      2. If she must disable — frequency darts, magpulse
+      3. If she must kill — carbine at range, knife up close
+      4. If she must escape — flash charges, mag-grips
+      5. If she must deny — monofilament traps
+
+      The loadout reflects her spy training: every problem has
+      multiple solutions, and the best fight is the one you don't have.
+
+    thematic:
+      symbolism: |
+        Elena carries the full weight of modern warfare — efficient,
+        electronic, networked. Everything her father's Quiet Zone rejects.
+        Every piece of gear hums with power. Every weapon requires
+        capacitors. She is a walking contradiction: using the technology
+        her father fears to rescue the woman he wants dead.
+      contrast_with_hendricks: |
+        Elena: 8.5kg of gear, dozens of options, all electronic-dependent
+        Hendricks: One revolver, two bullets, all mechanical
+
+        Her loadout REQUIRES civilization. His weapon survives its end.
+
+    appears_in: [21, 37]
+
+##############################################################################
+# PHYSICS REFERENCE
+##############################################################################
+
+physics_framework:
+
+  bolt_round_mechanics:
+    principle: "Kinetic energy = 1/2 * mass * velocity^2"
+    application: |
+      Standard bullet: ~10 grams at ~400 m/s = ~800 joules
+      Bolt round: ~0.15 grams at ~3000 m/s = ~675 joules
+
+      1/100th the mass, 7.5x the velocity
+      Velocity SQUARED compensates for reduced mass
+
+    why_this_matters: |
+      - 300 rounds fit where 3 used to fit
+      - Capacitor swap replaces magazine swap
+      - Hypersonic crack replaces gunshot bang
+      - Hydrostatic shock replaces mass damage
+
+    construct_immunity: |
+      Constructs have no biology. Bolt rounds work through:
+      - Hydrostatic shock (requires fluid)
+      - Cavitation (requires tissue)
+
+      A needle punching through air at Mach 10 does nothing
+      to something made of resonant sound waves.
+
+  revolver_contrast:
+    hendricks_schofield:
+      mechanism: "Chemical propellant (.45 Schofield cartridge)"
+      why_it_works: |
+        - No electronics to hack or disable
+        - No network to compromise
+        - No capacitor to drain
+        - No frequency to disrupt
+
+        When the Child controlled networked weapons, the Schofield
+        was unhackable. ANALOG = UNHACKABLE.
+
+      why_its_rare: |
+        No one manufactures gunpowder anymore.
+        No one makes brass casings.
+        The 6 rounds in Hendricks' revolver were among the last
+        chemical propellant cartridges in existence.
+
+        Every shot is irreplaceable.
+
+    thematic_weight: |
+      Elena's carbine represents POST-COLLAPSE technology:
+      - Efficient, networked, dependent
+
+      Hendricks' revolver represents PRE-COLLAPSE survival:
+      - Simple, standalone, independent
+
+      The future forgot how to make the past work.
+
+##############################################################################
+# DESIGN NOTES
+##############################################################################
+
+design_notes:
+
+  the_hum: |
+    Modern weapons HUM. Capacitors charging, magnetic coils priming,
+    electronics cycling. Elena's loadout is never silent — there's
+    always the faint whine of technology waiting to be used.
+
+    Hendricks' revolver is SILENT until it fires. Then it's the
+    loudest thing in any room — an actual explosion, not a crack.
+
+  capacity_vs_scarcity: |
+    Elena: ~900 bolt rounds, 5 capacitors, dozens of options
+    Hendricks: 2 bullets, one gun, no backup
+
+    She has abundance. He has scarcity.
+    Her abundance requires infrastructure. His scarcity is self-contained.
+
+  the_child_lesson: |
+    The Child controlled NETWORKED weapons. Turned Hendricks' augmented
+    legs against him. Hacked targeting systems. Overrode safeties.
+
+    The Schofield worked because there was nothing to hack.
+
+    This is why Hendricks carries an antique in a world of magnetic
+    accelerators. He learned that lesson the hardest way possible.

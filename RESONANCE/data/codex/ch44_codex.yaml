@@ -1,0 +1,130 @@
+chapter: 44
+title: THE EXODUS
+wordcount: 1400
+pov: Elena
+time:
+  relative_to_previous: days later
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: Medical bay in orbit
+  first_appearance: true
+  description: White-walled clean room with view of stars, orbital facility
+- name: Coastal cliff
+  first_appearance: true
+  description: Rocky promontory overlooking gray water, wind from sea
+- name: The door threshold
+  first_appearance: false
+  description: Space between worlds where Marisol maintains the passage
+characters_present:
+- name: Elena
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Dante
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: comes to medical bay
+  exit: leaves for cliff
+- name: Marisol
+  role: mentioned
+  entrance: mentioned
+  exit: mentioned
+character_states:
+  Elena:
+    physical: android body - healthy
+    emotional: confused but grateful
+    location: orbital medical facility
+    knowledge_delta:
+    - She died and was copied into android body
+    - She has same lifespan as Dante now
+    - Can transcend to see mother when ready
+    inventory:
+    - item: android chassis
+      status: acquired
+  Dante:
+    physical: healthy
+    emotional: relieved but anxious
+    location: orbital medical facility
+    knowledge_delta:
+    - Elena accepts what he did
+    inventory: []
+  Hendricks:
+    physical: healthy - tremor gone
+    emotional: resolved but weary
+    location: coastal cliff
+    knowledge_delta:
+    - Has found his cliff
+    - Accounting is complete
+    inventory:
+    - item: revolver
+      status: lost
+objects:
+- name: Elena's android chassis
+  status: introduced
+  holder: Elena
+  significance: Contains Elena's consciousness after death
+- name: Hendricks' revolver
+  status: destroyed
+  holder: ocean
+  significance: Symbol of forty years of killing, now discarded
+key_events:
+- Elena wakes in android body three days after dying
+- Dante reveals he copied her consciousness to save her
+- Elena accepts her new existence but isn't ready to transcend
+- Hendricks says goodbye and leaves for the cliff
+- Hendricks finds his cliff and throws his gun into the sea
+- The exodus continues through Marisol's door
+revelations:
+- content: Elena died and was copied into android body by Dante
+  to_whom: Elena
+- content: Elena and Dante now have same lifespan
+  to_whom: Elena
+- content: The door enables consciousness migration, not destruction
+  to_whom: reader
+setups: []
+payoffs:
+- element: Hendricks finding his cliff
+  setup_chapter: 42
+- element: Elena's promised anger at being copied
+  setup_chapter: 44
+- element: The door remaining open for Elena
+  setup_chapter: 43
+tone: bittersweet
+pacing: denouement
+scene_breaks:
+- scene_number: 1
+  location: Medical bay in orbit
+  characters:
+  - Elena
+  - Dante
+  summary: Elena wakes in android body and learns what happened.
+- scene_number: 2
+  location: Medical bay in orbit
+  characters:
+  - Elena
+  - Hendricks
+  summary: Hendricks says goodbye before leaving for the cliff.
+- scene_number: 3
+  location: Coastal cliff
+  characters:
+  - Hendricks
+  summary: Hendricks finds his cliff and discards his revolver.
+- scene_number: 4
+  location: The door threshold
+  characters:
+  - Marisol
+  summary: The exodus continues with Marisol maintaining the door.
+continuity_notes:
+- Elena's android body uses same architecture as Dante's
+- Hendricks' tremor is now gone
+open_threads:
+- When will Elena be ready to transcend and see her mother
+- What happens to the world after the exodus
+closed_threads:
+- Elena's fate after dying in throne room
+- Hendricks keeping his promise to find a cliff
+- The nature of the door as migration rather than destruction

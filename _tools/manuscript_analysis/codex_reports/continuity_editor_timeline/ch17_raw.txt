@@ -1,0 +1,57 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 17
+  findings:
+    - id: CE-TL-17-001
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Chapter occurs immediately after Chapter 16 events - Ash turns from the confrontation to examine Standard
+      evidence: "Ash turns. He looks at the Rover. He looks at Standard. She is still in the driver's seat."
+      cross_reference: 16
+    
+    - id: CE-TL-17-002
+      type: verified
+      severity: clean
+      location: mid-chapter dialogue
+      content: Ash's knowledge timeline is consistent - he states he's known about sky threat "for six hours" which aligns with real-time progression
+      evidence: "I've known for six hours...Since the first transmission came through."
+      cross_reference: null
+    
+    - id: CE-TL-17-003
+      type: verified
+      severity: clean
+      location: Elena's reference to past events
+      content: Elena's account of checkpoint events matches established timeline from Chapter 5
+      evidence: "The frequency. At the checkpoint. It hit everyone—guards, refugees, everyone. They all went down. She didn't."
+      cross_reference: 5
+    
+    - id: CE-TL-17-004
+      type: verified
+      severity: clean
+      location: Otis shirt reference
+      content: Standard wearing Otis's clothes is consistent with acquisition in Chapter 8
+      evidence: "This is Otis's shirt." / "Otis is dead...She died for the Box."
+      cross_reference: 8
+    
+    - id: CE-TL-17-005
+      type: verified
+      severity: clean
+      location: Box transport timeline
+      content: Reference to Box being "carried into the tower" is consistent with Chapter 16 events
+      evidence: "Even the hum of the Box is gone now, carried into the tower."
+      cross_reference: 16
+
+  carry_forward:
+    - Standard taken to Examination Room for scanning and analysis
+    - Ash has known about sky threat for six hours via compound listeners/interpreters
+    - Elena's authority with her father is limited despite family relationship
+    - Eastern fields contain thousands of lobotomized refugees kept as "quiet ones"
+    - Box integration delayed while Standard is examined
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

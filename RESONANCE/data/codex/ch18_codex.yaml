@@ -1,0 +1,160 @@
+chapter: 18
+title: THE CRAFTSMAN
+wordcount: 3200
+pov: Ash
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: examination room
+  first_appearance: true
+  description: Medical facility with steel slab, scanners, and acoustic dampening
+- name: isolation chamber
+  first_appearance: true
+  description: Full acoustic dampening facility for containment
+- name: corridor outside examination room
+  first_appearance: true
+  description: Hallway where Elena waits
+characters_present:
+- name: Ash
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Standard
+  role: major
+  entrance: already present on examination table
+  exit: moved to isolation
+- name: Carla
+  role: minor
+  entrance: already present as lead technician
+  exit: chapter ends
+- name: technicians
+  role: minor
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: minor
+  entrance: waiting outside
+  exit: chapter ends
+- name: Marisol
+  role: mentioned
+  entrance: flashback memories
+  exit: flashback memories
+character_states:
+  Ash:
+    physical: healthy but shaken
+    emotional: disturbed, questioning
+    location: walking toward tower
+    knowledge_delta:
+    - Standard absorbs signal like a sponge
+    - Standard walked through the Drop unharmed
+    - Standard resonates despite having no frequency
+    - Elena may be compromised like her mother
+    inventory: []
+  Standard:
+    physical: healthy, in medical gown
+    emotional: calm, patient
+    location: being moved to isolation chamber
+    knowledge_delta:
+    - Ash's wife left him for the signal
+    - Elena is grieving and afraid
+    inventory: []
+  Elena:
+    physical: healthy
+    emotional: worried, masked
+    location: corridor outside examination room
+    knowledge_delta: []
+    inventory: []
+objects:
+- name: bioscan tablet
+  status: used
+  holder: Carla
+  significance: Shows Standard's anomalous readings
+- name: acoustic dampeners
+  status: tracked
+  holder: technicians
+  significance: Allow silent communication
+key_events:
+- Ash observes Standard's medical examination
+- Scans reveal Standard is human but has anomalous frequency response
+- Extended flashback reveals Ash's marriage to Marisol and her obsession with consciousness
+  merger
+- Marisol abandoned Ash and young Elena to pursue signal research
+- Ash founded the Carbonist movement and built the compound
+- Standard questions Ash about his fear and mentions Elena's grief
+- Ash orders Standard moved to isolation
+revelations:
+- content: Standard absorbs signal frequency like a sponge rather than reflecting
+    it
+  to_whom: Ash and reader
+- content: Ash's wife Marisol left to pursue consciousness merger with machines
+  to_whom: reader
+- content: Elena was outside compound during the Miracle and was affected by it
+  to_whom: reader
+- content: Ash suspects Elena may be compromised like her mother
+  to_whom: reader
+setups:
+- element: Elena's true loyalty and hidden nature
+  payoff_chapter: null
+- element: Standard's unique relationship to the signal
+  payoff_chapter: null
+- element: Marisol's fate in Geneva
+  payoff_chapter: null
+payoffs:
+- element: The 287.3 Hz frequency significance
+  setup_chapter: null
+tone: revelatory
+pacing: slow burn
+scene_breaks:
+- scene_number: 1
+  location: examination room
+  characters:
+  - Ash
+  - Standard
+  - technicians
+  - Carla
+  summary: Medical examination reveals Standard's anomalous signal properties
+- scene_number: 2
+  location: examination room
+  characters:
+  - Ash
+  - Standard
+  summary: Conversation between Ash and Standard about identity and purpose
+- scene_number: 3
+  location: corridor
+  characters:
+  - Ash
+  - Elena
+  summary: Brief encounter where Ash realizes Elena may be compromised
+continuity_notes:
+- Elena was affected by the Miracle while outside the compound
+- Standard walked through the Drop unharmed
+- 287.3 Hz is the key frequency for consciousness merger
+open_threads:
+- What exactly is Standard and why is she immune to the signal?
+- Is Elena truly loyal or compromised like her mother?
+- What happened to Marisol in Geneva?
+- Why do the drones ignore Standard?
+closed_threads:
+- How Ash became the Prophet and founded the compound
+- Why Ash hates technology and connection
+- What happened to Elena's mother
+
+language_thread:
+  status: WRITE
+  priority: HIGH
+  elements:
+    - element: "Spanish between Elena and Ash"
+      detail: |
+        Private conversation — assume Standard can't understand.
+        Plant something significant said in Spanish.
+        Example: "No confíes en ella." / "Él no es lo que parece."
+      significance: |
+        - Sets up the Spanish reveal in Ch21
+        - Dramatic irony: Standard is absorbing this
+        - Recontextualizes everything when she reveals understanding
+    - element: "Standard uses Carbonist phrase correctly"
+      detail: "Ash notices — slight unease. She's learning faster than expected."
+    - element: "Ash's theological speech"
+      detail: "Formal, almost archaic register — Standard adapts"

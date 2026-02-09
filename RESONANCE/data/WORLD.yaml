@@ -546,34 +546,48 @@ objects:
     destroyed: "Chapter 1, when she breaks out"
     appears_in: [1, 3]
 
-  WET_PACKET:
+  GEOMETRY_IMPRINT:
     id: "OBJ_009"
-    name: "The Wet Packet"
-    aliases: ["the packet", "the stone", "the nausea"]
-    description: "Geometry code deposited in Standard's consciousness during Ch6 scan"
-    deposited: "Ch6 — tetrahedron drone scanned Standard, left the packet"
-    sensation: "A heavy, wet packet settles in the base of her brain—something she doesn't understand, something she doesn't know how to use. It feels like swallowing a stone."
-    contents:
-      - "Geometry's base architecture — their code for existing and interfacing"
-      - "Their 'language' — not words, but existence mechanics"
-      - "How they catalog gaps (null values)"
-    why_given:
-      surface: "The Geometry marked her as 'nothing' — this is how they catalog gaps"
-      truth: "They didn't know what to do with her. The packet is a placeholder."
-    mechanism:
-      - "Unpacks gradually over weeks — Standard doesn't notice the changes"
-      - "Marisol's residual intelligence helps her decipher the contents"
-      - "Eventually becomes fluent in Geometry existence mechanics"
+    name: "The Geometry Imprint"
+    aliases: ["the imprint", "code exposure", "the nausea"]
+    description: "Accidental exposure to Geometry architecture during CH6 scan"
+
+    the_exposure:
+      when: "Ch6 — tetrahedron drone scanned Standard"
+      what_happened: "The Geometry probed her, couldn't classify her"
+      side_effect: "In scanning her, they exposed her to their base code/architecture"
+      analogy: "Fingerprint left on glass while trying to read what's behind it"
+      NOT: "A deliberate gift or deposit — purely accidental"
+
+    sensation:
+      prose: "Something settles in the base of her brain — foreign, heavy, incomprehensible"
+      experience: "Nausea, disorientation, sense of something alien lodged in her mind"
+      note: "She doesn't understand what happened or what she now carries"
+
+    what_she_absorbed:
+      - "Geometry's base architecture — how they exist and interface"
+      - "Their 'language' — not words, but structural patterns"
+      - "The logic of how they categorize and process"
+
+    how_she_decodes_it:
+      mechanism: "Her LLM-based consciousness gradually recognizes patterns"
+      process: "The way language models learn structure from exposure — not unpacking a file, but decoding signal from noise"
+      accelerant: "Marisol's residual patterns help her process faster"
+      timeline: "Gradual over weeks — she doesn't consciously notice until late"
+
     culmination:
-      chapter: 33
-      what_happens: "Standard uses the packet to become the permanent threshold"
-      how: "She speaks their language. She uses their architecture. She becomes the door."
-      thematic: "The Geometry's own code becomes the tool of their defeat — or reframing"
+      chapter: 43
+      what_happens: "Standard has decoded enough to use their architecture"
+      how: "She reverse-engineers their methods — speaks their language"
+      result: "She becomes the door using the Geometry's own logic"
+      thematic: "Contact with the alien gives her the means to bridge worlds"
+
     tracking:
-      ch6: "Deposited — 'wet packet settles in the base of her brain'"
-      ch31: "SEED — Standard notices she can 'feel' the Geometry's architecture"
-      ch33: "PAYOFF — Standard uses the packet to become the door"
-    appears_in: [6, 31, 33]
+      ch6: "EXPOSURE — scan leaves imprint she doesn't understand"
+      ch31: "SEED — Standard notices she can 'feel' the Geometry's patterns"
+      ch43: "PAYOFF — decoded enough to become the threshold"
+
+    appears_in: [6, 31, 43]
 
   VTOL_AIRCRAFT:
     id: "OBJ_007"

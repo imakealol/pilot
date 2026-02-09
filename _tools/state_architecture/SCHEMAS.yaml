@@ -1,0 +1,235 @@
+# Go Squad Framework - State Schemas
+# Version: 1.0
+# Based on RLM principles: code for structure, LLM for semantics
+
+# =============================================================================
+# PROCESS LOG SCHEMA
+# =============================================================================
+# Every agent invocation creates a log entry
+process_log_entry:
+  required:
+    - timestamp       # ISO 8601
+    - agent_role      # From AGENT_ROLES
+    - agent_id        # Unique session ID
+    - action_type     # query | recommend | edit | validate | create
+    - target          # What was operated on (file, character, chapter, etc.)
+    - input_summary   # Brief description of input
+    - output_summary  # Brief description of output
+    - status          # success | partial | failed | blocked
+  optional:
+    - lane_scope      # For lane enforcement
+    - escalation      # If blocked, why and to whom
+    - tokens_used     # For cost tracking
+    - duration_ms     # Execution time
+    - parent_id       # For nested agent calls
+
+# =============================================================================
+# AGENT ROLES
+# =============================================================================
+agent_roles:
+  production_crew:
+    - id: continuity_editor
+      lane: fact_checking
+      can_read: [manuscripts, character_data, world_data, timelines]
+      can_write: [continuity_flags, error_reports]
+      cannot_write: [manuscript_prose, character_voice]
+
+    - id: prose_doctor
+      lane: line_editing
+      can_read: [manuscripts, style_guide]
+      can_write: [prose_suggestions, rhythm_analysis]
+      cannot_write: [plot_changes, character_decisions]
+
+    - id: tension_architect
+      lane: pacing
+      can_read: [manuscripts, chapter_outlines]
+      can_write: [pacing_analysis, tension_maps]
+      cannot_write: [prose_changes, dialogue]
+
+    - id: dialogue_coach
+      lane: dialogue
+      can_read: [manuscripts, character_voices]
+      can_write: [dialogue_suggestions, voice_consistency_flags]
+      cannot_write: [prose_narration, plot_decisions]
+
+    - id: theme_tracker
+      lane: thematic
+      can_read: [manuscripts, theme_registry]
+      can_write: [theme_analysis, symbol_tracking]
+      cannot_write: [prose_changes, explicit_themes]
+
+    - id: worldbuilder
+      lane: setting
+      can_read: [manuscripts, world_data, tech_specs]
+      can_write: [world_consistency_flags, tech_suggestions]
+      cannot_write: [character_changes, plot_decisions]
+
+    - id: emotional_barometer
+      lane: emotional_arc
+      can_read: [manuscripts, character_arcs]
+      can_write: [emotional_beat_analysis, arc_tracking]
+      cannot_write: [prose_changes, character_decisions]
+
+    - id: foreshadow_keeper
+      lane: callbacks
+      can_read: [manuscripts, setup_payoff_registry]
+      can_write: [callback_tracking, payoff_suggestions]
+      cannot_write: [prose_changes, new_setups]
+
+    - id: sensitivity_reader
+      lane: sensitivity
+      can_read: [manuscripts, sensitivity_guidelines]
+      can_write: [sensitivity_flags, alternative_suggestions]
+      cannot_write: [mandatory_changes]
+
+    - id: research_maven
+      lane: research
+      can_read: [manuscripts, external_sources]
+      can_write: [fact_checks, research_notes]
+      cannot_write: [prose_changes]
+
+    - id: quote_curator
+      lane: marketing
+      can_read: [manuscripts, quote_bank]
+      can_write: [quote_suggestions, social_ready_flags]
+      cannot_write: [manuscript_changes]
+
+    - id: synopsis_writer
+      lane: summary
+      can_read: [manuscripts, chapter_outlines]
+      can_write: [summaries, blurbs]
+      cannot_write: [manuscript_changes]
+
+  character_stewards:
+    # One per major character - voice guardians
+    schema:
+      - id: steward_{character_name}
+        character: "{character_name}"
+        lane: character_voice
+        can_read: [manuscripts, character_data, dialogue_history]
+        can_write: [voice_flags, dialogue_suggestions, consistency_notes]
+        cannot_write: [plot_decisions, other_character_dialogue]
+        voice_markers: []  # Populated per character
+        forbidden_phrases: []  # Things this character would never say
+
+# =============================================================================
+# CHARACTER STATE SCHEMA
+# =============================================================================
+character_state:
+  required:
+    - name
+    - aliases         # Other names they go by
+    - current_status  # alive | dead | transcended | unknown
+    - last_seen       # Chapter reference
+    - knowledge       # What they know (list of facts)
+    - relationships   # Map of character -> relationship type
+  optional:
+    - voice_markers   # Distinctive speech patterns
+    - forbidden       # Things they'd never say/do
+    - arc_position    # Where in their arc
+    - physical_state  # Injuries, transformations, etc.
+
+# =============================================================================
+# QUOTE BANK SCHEMA
+# =============================================================================
+quote:
+  required:
+    - id              # Unique identifier (e.g., T001, M003)
+    - text            # The quote itself
+    - character       # Speaker or POV
+    - chapter         # Source chapter
+    - type            # thematic | dialogue | prose
+    - length          # Character count
+    - themes          # List of theme tags
+    - standalone      # Can it stand alone without context?
+    - social_ready    # Curator-approved for posting
+    - used            # Has it been posted?
+  optional:
+    - notes           # Curator notes
+    - used_date       # When posted
+    - platforms       # Where it was posted
+
+# =============================================================================
+# LANE VIOLATION SCHEMA
+# =============================================================================
+lane_violation:
+  required:
+    - timestamp
+    - agent_role
+    - attempted_action
+    - violated_constraint
+    - blocked          # true if action was prevented
+  optional:
+    - override_by      # If human overrode
+    - override_reason
+
+# =============================================================================
+# MANUSCRIPT SECTION SCHEMA
+# =============================================================================
+manuscript_section:
+  required:
+    - path            # File path
+    - chapter_number  # Integer
+    - title           # Chapter title
+    - word_count
+    - pov_character
+    - status          # draft | revised | final
+  optional:
+    - summary
+    - callbacks_setup    # Setups planted here
+    - callbacks_payoff   # Payoffs delivered here
+    - emotional_beats    # Key emotional moments
+
+# =============================================================================
+# QUERY PATTERNS
+# =============================================================================
+# Standard queries the framework should support
+query_patterns:
+  - name: character_current_state
+    description: "Get current state of a character"
+    parameters: [character_name]
+    returns: character_state
+
+  - name: chapter_summary
+    description: "Get summary of a chapter"
+    parameters: [chapter_number]
+    returns: manuscript_section
+
+  - name: quotes_by_criteria
+    description: "Find quotes matching criteria"
+    parameters: [character?, theme?, max_length?, unused_only?]
+    returns: list[quote]
+
+  - name: callbacks_pending
+    description: "Find setups that haven't paid off"
+    parameters: [through_chapter?]
+    returns: list[callback]
+
+  - name: voice_check
+    description: "Validate dialogue against character voice"
+    parameters: [character_name, dialogue_text]
+    returns: voice_validation_result
+
+  - name: continuity_check
+    description: "Check for continuity issues in passage"
+    parameters: [passage, chapter_number]
+    returns: list[continuity_flag]
+
+# =============================================================================
+# RLM INTEGRATION
+# =============================================================================
+# How agents use code vs LLM calls
+rlm_patterns:
+  code_operations:
+    - file_search        # Glob, grep for specific content
+    - state_lookup       # Query YAML files
+    - word_count         # Metrics
+    - pattern_match      # Regex for known patterns
+    - timeline_math      # Chapter ordering, time calculations
+
+  llm_operations:
+    - semantic_match     # "Does this feel like X?"
+    - voice_validation   # "Would character say this?"
+    - theme_detection    # "What themes are present?"
+    - quality_judgment   # "Is this quote standalone?"
+    - suggestion_gen     # "How could this be improved?"

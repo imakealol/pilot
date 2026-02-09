@@ -1,0 +1,158 @@
+```yaml
+chapter: 31
+title: "KANGAROO COURT"
+wordcount: 2100
+pov: "Standard"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Council chamber"
+    first_appearance: false
+    description: "Same chamber as previous chapter, now prepared for execution/termination"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "dragged to detention"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "dragged to detention"
+  - name: "Kael"
+    role: "major"
+    entrance: "already present"
+    exit: "flees during Geometry attack"
+  - name: "Commander Whittaker"
+    role: "major"
+    entrance: "already present"
+    exit: "flees during Geometry attack"
+  - name: "Admiral Okafor"
+    role: "minor"
+    entrance: "already present"
+    exit: "flees during Geometry attack"
+  - name: "Technicians"
+    role: "minor"
+    entrance: "arrive to prepare termination"
+    exit: "scatter during Geometry attack"
+  - name: "Guards"
+    role: "minor"
+    entrance: "already present"
+    exit: "one formatted by Geometry, others flee"
+
+character_states:
+  Standard:
+    physical: "injured (cheek bleeding, shoulder torn from restraint struggle)"
+    emotional: "resigned but determined"
+    location: "Council chamber, partially freed from restraint frame"
+    knowledge_delta:
+      - "The verdict was predetermined despite her successful speech"
+      - "She is classified as 'invalid' and 'theological threat'"
+      - "Elena and Hendricks will face tribunal for heresy"
+    inventory:
+      - item: "none"
+        status: "restrained"
+  Elena:
+    physical: "healthy but shaking with rage"
+    emotional: "furious and grieving"
+    location: "detention"
+    knowledge_delta:
+      - "Standard has accepted her fate"
+      - "Standard knows 'who holds her leash'"
+    inventory: []
+  Hendricks:
+    physical: "healthy"
+    emotional: "resigned but protective"
+    location: "detention"
+    knowledge_delta:
+      - "Standard is at peace with the outcome"
+    inventory: []
+  Kael:
+    physical: "healthy"
+    emotional: "unmasked fear and grief"
+    location: "fleeing chamber"
+    knowledge_delta:
+      - "Standard sees through his theological justifications to his underlying fear"
+    inventory: []
+
+objects:
+  - name: "Termination frame"
+    status: "used"
+    holder: "technicians"
+    significance: "Device to restrain Standard during disassembly"
+  - name: "Disassembly tools"
+    status: "abandoned"
+    holder: "scattered"
+    significance: "Surgical instruments for taking Standard apart publicly"
+
+key_events:
+  - "Council delivers guilty verdict - Standard classified as invalid and theological threat"
+  - "Elena and Hendricks sentenced to detention and tribunal for heresy"
+  - "Standard refuses final statement opportunity"
+  - "Elena and Hendricks dragged to detention, Elena promises they're coming back"
+  - "Technicians prepare public termination procedure"
+  - "Kael confronts and slaps Standard, reveals his fear"
+  - "Geometry attack begins, formatting chamber walls and killing guard"
+  - "Standard breaks free from one restraint as Geometry spreads around her"
+
+revelations:
+  - content: "The verdict was predetermined - deliberation was theater"
+    to_whom: "reader and Standard"
+  - content: "Elena and Hendricks face 'heresy' charges under new Terminist legal frameworks"
+    to_whom: "reader and characters"
+  - content: "Kael has personally witnessed hundreds of android destructions"
+    to_whom: "reader and Standard"
+  - content: "The Geometry avoids Standard, treating her as a gap in their logic"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Elena's promise 'we're coming back'"
+    payoff_chapter: null
+  - element: "Standard's statement about knowing who holds her leash"
+    payoff_chapter: null
+  - element: "The Geometry treating Standard differently"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Council's predetermined verdict despite Standard's speech"
+    setup_chapter: 30
+
+tone: "tense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Council chamber"
+    characters: ["Standard", "Elena", "Hendricks", "Whittaker", "Kael", "Council members"]
+    summary: "Council delivers guilty verdict and sentences Standard to termination"
+  - scene_number: 2
+    location: "Council chamber"
+    characters: ["Standard", "technicians", "Kael", "guards"]
+    summary: "Technicians prepare public termination while Kael confronts Standard"
+  - scene_number: 3
+    location: "Council chamber"
+    characters: ["Standard", "all present"]
+    summary: "Geometry attack begins, chaos erupts, Standard starts breaking free"
+
+continuity_notes:
+  - "The Geometry specifically avoids Standard during formatting"
+  - "New legal framework allows Terminist heresy charges"
+
+open_threads:
+  - "Will Standard escape the Geometry attack"
+  - "What is Elena and Hendricks' rescue plan"
+  - "Why does the Geometry treat Standard differently"
+  - "What will happen to Elena and Hendricks at tribunal"
+
+closed_threads:
+  - "Council's verdict on Standard - guilty as charged"
+  - "Standard's fate if captured - public termination/disassembly"
+```

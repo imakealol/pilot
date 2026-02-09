@@ -1,0 +1,150 @@
+chapter: 15
+title: THE APPROACH
+wordcount: 2800
+pov: Elena
+time:
+  relative_to_previous: hours later
+  time_of_day: dawn
+  duration: overnight
+locations:
+- name: green zone road to Quiet Zone
+  first_appearance: true
+  description: Road narrows as it climbs, brown scrub giving way to grass, skeletal
+    trees thickening to forest
+- name: Quiet Zone markers
+  first_appearance: true
+  description: Hand-painted signs with Brother Ash's angular script marking approach
+    to compound
+characters_present:
+- name: Elena
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Standard
+  role: major
+  entrance: already present
+  exit: chapter ends
+character_states:
+  Elena:
+    physical: healthy
+    emotional: conflicted, torn
+    location: driving toward Quiet Zone checkpoint
+    knowledge_delta:
+    - Hendricks was at the compound 14 months ago and disabled failsafes
+    - Hendricks was going to the Quiet Zone to die before they met
+    - Hendricks likely killed the Child himself
+    inventory:
+    - item: magpulse weapon
+      status: still has
+    - item: Black Box
+      status: still has
+  Hendricks:
+    physical: aging rapidly
+    emotional: resigned, protective
+    location: approaching Quiet Zone checkpoint
+    knowledge_delta:
+    - Elena nearly shot him but chose not to
+    inventory: []
+  Standard:
+    physical: healthy
+    emotional: trusting, contemplative
+    location: approaching Quiet Zone checkpoint
+    knowledge_delta:
+    - She can choose where to go and what to want
+    - The signal changes near the Quiet Zone
+    inventory: []
+objects:
+- name: Black Box
+  status: tracked
+  holder: Elena
+  significance: Mission cargo being delivered to Brother Ash
+- name: magpulse weapon
+  status: used
+  holder: Elena
+  significance: Nearly used to kill Hendricks but Elena chose not to
+key_events:
+- Elena realizes Hendricks was going to the Quiet Zone anyway, not as her cargo
+- Hendricks reveals he was at the compound 14 months ago and disabled failsafes
+- Standard begins hearing different signals as they approach the Quiet Zone
+- Elena nearly shoots Hendricks after realizing he likely killed the Child
+- Elena chooses not to kill Hendricks and tells Standard she can choose her own path
+- They reach the Quiet Zone markers at dawn
+revelations:
+- content: Hendricks was at Brother Ash's compound 14 months ago and helped take down
+    the tower
+  to_whom: reader and Elena
+- content: Hendricks was heading to the Quiet Zone to die before Elena found him
+  to_whom: reader and Elena
+- content: Hendricks likely shot the Child personally during the siege
+  to_whom: reader and Elena
+setups:
+- element: Standard learning she can make choices and want things
+  payoff_chapter: null
+- element: Elena's internal conflict about her mission and loyalties
+  payoff_chapter: null
+- element: Hendricks' unfinished business with Brother Ash
+  payoff_chapter: null
+payoffs:
+- element: Hendricks' role in the siege 14 months ago
+  setup_chapter: 1
+tone: tense
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: road through green zone
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Elena realizes Hendricks was going to the Quiet Zone anyway as they drive
+    through changing landscape
+- scene_number: 2
+  location: road, continued driving
+  characters:
+  - Elena
+  - Hendricks
+  summary: Hendricks reveals he was at the compound 14 months ago and disabled failsafes
+- scene_number: 3
+  location: forest roadside stop
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: They stop at dusk, Elena realizes Hendricks was going there to die
+- scene_number: 4
+  location: driving through night
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Hendricks takes wheel, they discuss Standard's trust and autonomy
+- scene_number: 5
+  location: roadside stop
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Elena nearly shoots Hendricks but chooses not to
+- scene_number: 6
+  location: approach to Quiet Zone
+  characters:
+  - Elena
+  - Hendricks
+  - Standard
+  summary: Dawn breaks as they reach Quiet Zone markers, Elena tells Standard she
+    can choose her path
+continuity_notes:
+- Hendricks aging rapidly, now appears mid-fifties
+- Standard's increasing awareness and agency development
+- Elena's implant still humming at 287.3 Hz
+open_threads:
+- What is Hendricks' unfinished business with Brother Ash
+- How will Elena's true identity be revealed to her father
+- What will Standard choose for herself
+- What Elena will do when they reach the compound
+closed_threads:
+- How Hendricks knows about Brother Ash's compound procedures

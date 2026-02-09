@@ -1,0 +1,88 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard has discovered Hendricks lied about his name - this creates trust issues
+  - Standard's language processing ability now explicitly demonstrated with Abbey's
+    mother
+  - Standard shows increasing independence from Elena's direct control
+  - Standard has enhanced physical strength that can intimidate humans
+  - Elena continues having geometric nightmares with implant symptoms
+  - Hendricks conscious and aware Standard saw the shutdown demonstration
+  chapter: 7
+  findings:
+  - content: Elena's implant continues heating/pulsing consistently with previous
+      chapters
+    cross_reference: 5
+    evidence: Elena's hand goes to her temple. The implant pulses beneath her fingertips,
+      warm in a way it shouldn't be.
+    id: CE-CS-7-001
+    location: opening dream sequence
+    severity: clean
+    type: verified
+  - content: Hendricks' regulator withdrawal symptoms continue appropriately from
+      previous chapter
+    cross_reference: 3
+    evidence: His breath rattles loose and wet, a broken machine trying to cycle...
+      Regulator withdrawal. Systemic shock. Dehydrated.
+    id: CE-CS-7-002
+    location: Hendricks medical state
+    severity: clean
+    type: verified
+  - content: Standard realizes Hendricks lied about his name (said "Sabino" initially,
+      real name appears to be Swanstrom Kim Hendricks), but codex shows his real name
+      should be just "Hendricks" - creates continuity confusion
+    cross_reference: 1
+    evidence: Sabino. Not Swanstrom Kim... She thought it was his name... But now
+      there is another name, a real name
+    id: CE-CS-7-003
+    location: Hendricks name revelation
+    severity: major
+    type: issue
+  - content: Standard's enhanced strength demonstrated consistently with earlier hints
+    cross_reference: 4
+    evidence: Her hand comes up—fast, faster than she meant—and closes around his
+      wrist. She squeezes... His eyes are different now. Scared.
+    id: CE-CS-7-004
+    location: Standard's physical capabilities
+    severity: clean
+    type: verified
+  - content: Standard demonstrates her unique language decoding ability with Abbey's
+      mother's idiosyncratic speech patterns
+    cross_reference: 6
+    evidence: Standard lets the pattern settle into her. Lets it find its shape...
+      You just have to listen differently.
+    id: CE-CS-7-005
+    location: Standard's language processing ability
+    severity: clean
+    type: verified
+  - content: Standard shows increasing agency and curiosity, wandering from Elena's
+      direct orders
+    cross_reference: 6
+    evidence: There is nothing holding her to the seat. No voice. No anchor. Elena
+      said wait, but the word is dissolving
+    id: CE-CS-7-006
+    location: Standard's emotional development
+    severity: info
+    type: observation
+  - content: Standard's connection to Abbey/Otis from the heist is maintained - she
+      recognizes the name and knows how Abbey died
+    cross_reference: 2
+    evidence: Standard remembers. The heist. The woman in the corridor, reaching for
+      the door controls. The way she fell. Abbey Otis.
+    id: CE-CS-7-007
+    location: Abbey connection
+    severity: clean
+    type: verified
+  - content: Standard's Template 3 appearance confirmed by identical synthetic in
+      the outpost
+    cross_reference: 6
+    evidence: The woman has her face. Or very similar... the cheekbones. The jaw.
+      The distance between the eyes.
+    id: CE-CS-7-008
+    location: Standard's appearance
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

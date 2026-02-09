@@ -1,0 +1,98 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Four's consciousness transfer in progress - substrate hopping timeline toward
+    Deliverance carrier
+  - Elena's concealed serious wound - blood loss timeline affecting her survival
+  - One bullet remains in revolver for Standard's choice in final chapters
+  - Jupiter threatening Template 3 evacuations - creates urgency for Four's sacrifice
+    timing
+  - Hendricks critically wounded but alive - affects his role in final bullet decision
+  chain_citations:
+  - finding_id: CO-TI-40-006
+    relationship: confirms
+    report: CH40
+  - finding_id: CO-TI-39-002
+    relationship: extends
+    report: CH39
+  chapter: 41
+  findings:
+  - chain_reference: Report_CH40:CO-TI-40-006
+    content: Chapter opens immediately after CH40 crash - smooth temporal continuity
+      from 'They crash' to wreckage assessment
+    evidence: The VTOL stops. Smoke pours from every seam... Standard tears through
+      the crumpled cargo door
+    id: CO-TI-41-001
+    location: VTOL crash sequence
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Elena shows fresh injuries from recent combat - split lip, facial marks
+      'already darkening' indicates very recent violence
+    evidence: There's blood on her face, a split lip, the marks of violence already
+      darkening
+    id: CO-TI-41-002
+    location: Elena injury timing
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Hendricks has ceramic blade embedded - consistent with previous chapter's
+      stabbing, blood loss affects his capabilities
+    evidence: ceramic blade embedded in his side, blood pooling beneath him... The
+      wounds are too deep. The blood loss too severe
+    id: CO-TI-41-003
+    location: Hendricks wound continuity
+    severity: info
+    type: observation
+  - chain_reference: Report_CH40:CO-TI-40-001
+    content: Bullet 5 properly tracked - Ash killed, leaving one bullet remaining
+      for CH42-43 sequence
+    evidence: That's five... One for Morton. Just like I promised
+    id: CO-TI-41-004
+    location: Revolver bullet count
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Four's consciousness transfer begins - establishes timeline for substrate
+      hopping to reach Jupiter carrier
+    evidence: Each jump strips something away... Four is already moving—her consciousness
+      stretching toward the first relay point
+    id: CO-TI-41-005
+    location: Four's transfer sequence
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Elena conceals serious wound during crisis - blood 'spreading beneath
+      ribs' suggests ongoing blood loss timeline
+    evidence: The blood spreading beneath Elena's ribs... thought it was a glancing
+      blow. It wasn't... blood seeping through her own shirt
+    id: CO-TI-41-006
+    location: Elena's hidden injury
+    severity: warning
+    type: observation
+  - chain_reference: Report_CH39:CO-TI-39-002
+    content: Pragmatist carrier Jupiter arrives during confrontation - consistent
+      with external threat escalation pattern
+    evidence: Pragmatist battle carrier. They must have tracked us from the elevator...
+      targeting the evacuation shuttles
+    id: CO-TI-41-007
+    location: Jupiter arrival timing
+    severity: clean
+    type: verified
+  focus: timeline
+  query_log:
+    chapter: CH41
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+    previous_reports:
+    - 38
+    - 39
+    - 40
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2026-01-17 11:15:00+00:00

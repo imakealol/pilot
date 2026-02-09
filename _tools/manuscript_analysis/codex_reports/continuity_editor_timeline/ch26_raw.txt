@@ -1,0 +1,64 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 26
+  findings:
+    - id: CE-TL-26-01
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Timeline flows correctly from Chapter 25 ending - Elena and companions are aboard the Sovereignty carrier after being captured
+      evidence: "The officer doesn't look back... The door to the quarters—the Vessel's chambers"
+      cross_reference: 25
+
+    - id: CE-TL-26-02
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Standard's return timing is consistent - attendants mention preparation is complete for Council meeting
+      evidence: "The preparation is complete," one of them says. "The Vessel may rest before the Council convenes."
+      cross_reference: 25
+
+    - id: CE-TL-26-03
+      type: observation
+      severity: info
+      location: Elena's dialogue about performance
+      content: Elena's experience coaching Standard references their established relationship dynamic from previous chapters
+      evidence: "When they kneel, you touch their forehead... Don't speak—let me speak for you"
+      cross_reference: 25
+
+    - id: CE-TL-26-04
+      type: verified
+      severity: clean
+      location: Elena's memories
+      content: Reference to Four's explanation about crossing the Geometry maintains continuity with established events
+      evidence: "After the recording. You asked Four how it knew it pulled back the right versions. Four said it didn't."
+      cross_reference: 25
+
+    - id: CE-TL-26-05
+      type: observation
+      severity: info
+      location: Elena's implant changes
+      content: New frequency in Elena's implant suggests scanner modification, timing consistent with recent scanning scene
+      evidence: "Something is different. The implant... it feels different... Something that wasn't there before the scanner."
+      cross_reference: 25
+
+    - id: CE-TL-26-06
+      type: verified
+      severity: clean
+      location: chapter ending
+      content: Council meeting timing remains consistent - still pending from Chapter 25
+      evidence: "We should rest... The Council will convene soon."
+      cross_reference: 25
+
+  carry_forward:
+    - Elena has new frequency/weight in her implant from the scanner
+    - Elena and Standard are in Vessel's quarters awaiting Council meeting
+    - Elena is coaching Standard on how to perform for the Council
+    - Elena's physical stress symptoms (shaking, sweating) from previous trauma
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

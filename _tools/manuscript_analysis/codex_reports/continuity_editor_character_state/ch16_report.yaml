@@ -1,0 +1,83 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Elena's identity as Ash's daughter is now revealed to Hendricks
+  - Hendricks is imprisoned in "the Pit" and facing execution for killing "the Child"
+  - Elena's loyalties are torn between father and companions
+  - Standard continues absorbing sign language patterns unconsciously
+  - The Black Box is now in Ash's possession in the compound
+  - Hendricks' condition remains critical but he's conscious and aware
+  chapter: 16
+  findings:
+  - content: Hendricks' deteriorating physical condition is consistent with previous
+      chapters - still bleeding, weak, turning revolver over in hands
+    cross_reference: 15
+    evidence: He is turning the revolver over in his hands—not cleaning it, just holding
+      it. Feeling the weight.
+    id: CE-CS-16-001
+    location: Opening section
+    severity: clean
+    type: verified
+  - content: Elena's thigh wound and stiffness from previous combat are properly tracked
+    cross_reference: 15
+    evidence: There is dried blood on her fatigues—some of it hers, some of it not.
+      She shifts in her seat, and Standard notices the stiffness in her movement,
+      the way she favors her left leg. The bandage on her thigh is dark where it has
+      soaked through.
+    id: CE-CS-16-002
+    location: Elena's injuries
+    severity: clean
+    type: verified
+  - content: Standard's pattern of absorbing new languages continues with sign language
+      observation - consistent with established trait
+    cross_reference: 7
+    evidence: She finds herself tracking the movements, the way she tracked the trade
+      pidgin at the Depo', the way she tracked Abbey's mother's tangled speech patterns.
+      Her mind reaches for the structure underneath—the grammar of gesture, the syntax
+      of silence.
+    id: CE-CS-16-003
+    location: Standard's language learning ability
+    severity: clean
+    type: verified
+  - content: Hendricks' realization that Elena knew his identity all along is properly
+      shown through his physical reactions and internal processing
+    cross_reference: 15
+    evidence: His face changes. The exhaustion cracks, and underneath is something
+      colder. Calculation... She's not a refugee. She's not fleeing. She's coming
+      home.
+    id: CE-CS-16-004
+    location: Elena's identity revelation impact
+    severity: clean
+    type: verified
+  - content: Elena's conflicted loyalties and performance anxiety are consistently
+      maintained from previous chapters
+    cross_reference: 15
+    evidence: The desperation is real. The performance is collapsing... But the performance
+      is different now—not hiding, but code-switching. Sliding into a role that fits
+      her like old clothes.
+    id: CE-CS-16-005
+    location: Elena's emotional state
+    severity: clean
+    type: verified
+  - content: Elena's surprise at learning Hendricks killed "the Child" shows she was
+      not fully informed by her father about the true nature of their cargo
+    cross_reference: 2
+    evidence: Something moves behind her eyes—fast, uncontrolled. The mask cracking
+      before she can seal it. Not fear. Not guilt. Betrayal. Elena didn't know.
+    id: CE-CS-16-006
+    location: Ash-Hendricks confrontation
+    severity: info
+    type: observation
+  - content: Hendricks' physical state remains critical as he's dragged to imprisonment
+      - blood, weakness, but still conscious
+    cross_reference: 15
+    evidence: He lands on his knees in the dust, gasping, clutching his throat. Blood
+      drips from his lips—fresh, bright.
+    id: CE-CS-16-007
+    location: Hendricks at chapter end
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

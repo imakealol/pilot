@@ -1,0 +1,132 @@
+```yaml
+chapter: 6
+title: "THE REDACTED SKY"
+wordcount: 2400
+pov: "Standard"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "The Deposit (refugee queue area)"
+    first_appearance: false
+    description: "Now silent, filled with unconscious bodies after the alien frequency attack"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+
+character_states:
+  Standard:
+    physical: "healthy"
+    emotional: "determined, confused"
+    location: "driving the Rover"
+    knowledge_delta:
+      - "She can drive vehicles intuitively"
+      - "The alien geometry scanned but dismissed her as worthless"
+      - "She has some unexplained resistance to the frequency weapon"
+    inventory:
+      - item: "dried blood on cuticles"
+        status: "still has"
+  Elena:
+    physical: "injured (neural implant damage, tremors)"
+    emotional: "panicked, desperate"
+    location: "passenger seat, unconscious from dampener"
+    knowledge_delta:
+      - "Standard survived the alien scan"
+      - "Standard can drive when she cannot"
+      - "Hendricks saw through her bluff about violence"
+    inventory:
+      - item: "magpulse weapon"
+        status: "still has"
+      - item: "med kit dampener"
+        status: "used"
+  Hendricks:
+    physical: "critical (unconscious, weak pulse, cold skin)"
+    emotional: "barely conscious, observant"
+    location: "back seat of Rover"
+    knowledge_delta:
+      - "Elena doesn't actually shoot people"
+    inventory: []
+
+objects:
+  - name: "Black Box"
+    status: "tracked"
+    holder: "in Rover cargo bed"
+    significance: "Hummed during alien contact, responds to Standard's touch"
+  - name: "Alien tetrahedron"
+    status: "introduced"
+    holder: "departed to scan other areas"
+    significance: "Scanned and dismissed Standard, implanted something in her mind"
+  - name: "Magpulse weapon"
+    status: "used"
+    holder: "Elena"
+    significance: "Threat that failed due to Elena's bluff being called"
+
+key_events:
+  - "The sky is replaced by black rectangular redaction bars"
+  - "Alien tetrahedron descends and scans the area with violet light"
+  - "Standard survives the alien scan while others remain unconscious"
+  - "Elena awakens and threatens to abandon Hendricks"
+  - "Standard declares Hendricks is her father and refuses to leave him"
+  - "Elena draws her weapon but Hendricks exposes her bluff"
+  - "Standard takes control as driver while Elena medicates herself unconscious"
+
+revelations:
+  - content: "Standard has unexplained resistance to alien frequency weapons"
+    to_whom: "reader and Elena"
+  - content: "Standard can intuitively operate vehicles"
+    to_whom: "reader and Standard"
+  - content: "Elena doesn't actually shoot people, just carries boxes"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "Alien implant/packet in Standard's mind"
+    payoff_chapter: null
+  - element: "Standard's claim that Hendricks is her father"
+    payoff_chapter: null
+  - element: "Only one road for days ahead"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "apocalyptic, tense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Rover at the refugee queue"
+    characters: ["Standard", "Elena", "Hendricks"]
+    summary: "Standard observes the redacted sky and alien geometry scanning survivors."
+  - scene_number: 2
+    location: "Rover at the refugee queue"
+    characters: ["Standard", "Elena", "Hendricks"]
+    summary: "Elena awakens and threatens to abandon Hendricks, leading to a standoff resolved when Standard takes control."
+
+continuity_notes:
+  - "Standard's unexplained abilities need tracking across chapters"
+  - "The nature of the alien implant in Standard's mind"
+  - "Elena's damaged neural implant effects"
+
+open_threads:
+  - "What did the alien geometry implant in Standard's mind?"
+  - "Is Hendricks actually Standard's father?"
+  - "Where does the single road lead?"
+  - "Will Elena recover from the dampener?"
+
+closed_threads:
+  - "The immediate alien threat passes"
+  - "The power dynamic in the group shifts to Standard"
+```

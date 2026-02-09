@@ -1,0 +1,74 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 25
+  findings:
+    - id: CE-TL-25-001
+      type: verified
+      severity: clean
+      location: Chapter opening
+      content: Timeline flows correctly from Chapter 24's immediate ending
+      evidence: "Even Four wasn't speaking. The only sound is the grinding hum of the VTOL's propulsion."
+      cross_reference: 24
+
+    - id: CE-TL-25-002
+      type: observation
+      severity: info
+      location: Hendricks' condition improvement
+      content: Hendricks' rapid physical improvement is consistent with restoration mentioned in Chapter 24
+      evidence: "Six hours ago he couldn't stand without shaking. Now he's sitting upright, color in his face, voice steady."
+      cross_reference: 24
+
+    - id: CE-TL-25-003
+      type: verified
+      severity: clean
+      location: Age restoration details
+      content: Four's biometric readings support the physical restoration timeline
+      evidence: "His readings are consistent with a healthy male, approximately sixty to sixty-five years of age... I'm seventy-three."
+      cross_reference: 24
+
+    - id: CE-TL-25-004
+      type: verified
+      severity: clean
+      location: Geometry transit duration
+      content: The 42-minute transit time is consistent with Chapter 24's established gap
+      evidence: "Forty-two minutes of your guess being as good as mine"
+      cross_reference: 24
+
+    - id: CE-TL-25-005
+      type: observation
+      severity: info
+      location: Standard's compound rescue reference
+      content: Reference to Standard rescuing Hendricks from "the pit" maintains timeline continuity
+      evidence: "At the compound. When they had me in the pit. You came back for me."
+      cross_reference: 16
+
+    - id: CE-TL-25-006
+      type: verified
+      severity: clean
+      location: Missing revolver continuity
+      content: Hendricks' missing revolver reference correctly tracks from Chapter 16 where Ash took it
+      evidence: "Hendricks is already reaching for a sidearm—then stops, remembering his revolver is still with Ash"
+      cross_reference: 16
+
+    - id: CE-TL-25-007
+      type: verified
+      severity: clean
+      location: Sovereignty recognition
+      content: The Commander's reference to prophecies aligns with established Sovereignty religious beliefs
+      evidence: "There are prophecies. Stories that have circulated since the Miracle. About one who would walk through the Geometry unharmed."
+      cross_reference: 14
+
+  carry_forward:
+    - Hendricks physically restored to biological age 60-65 from 73
+    - Standard confirmed as "gap" in Geometry classification system
+    - Group now aboard Sovereignty carrier "Deliverance" 
+    - Standard being treated as prophesied messiah figure
+    - 42-minute Geometry transit with no memory of experience
+    - Elena suspects they may not be the same versions who entered
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

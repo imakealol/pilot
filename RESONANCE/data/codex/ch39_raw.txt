@@ -1,0 +1,183 @@
+```yaml
+chapter: 39
+title: "THE EMERGENCE"
+wordcount: 4200
+pov: "Elena"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "dawn"
+  duration: "hours"
+
+locations:
+  - name: "Earth - The Compound"
+    first_appearance: false
+    description: "Perimeter area where deletion zones open and refugees emerge"
+  - name: "The Eastern Fields"
+    first_appearance: false
+    description: "Acres of quiet ones standing in rows, skeletal and fading"
+  - name: "New Geneva Station"
+    first_appearance: false
+    description: "Space station being cleared by Template 3s for refugee evacuation"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Ash (the Prophet)"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "chapter ends"
+  - name: "Standard"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "minor"
+    entrance: "crashed VTOL"
+    exit: "chapter ends"
+  - name: "Dante"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Okonkwo"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Yusuf"
+    role: "minor"
+    entrance: "already present"
+    exit: "dies"
+  - name: "Template 3s/Seven"
+    role: "major"
+    entrance: "emerge from transports"
+    exit: "chapter ends"
+
+character_states:
+  Elena:
+    physical: "injured (multiple wounds, armor destroyed)"
+    emotional: "determined, hopeful"
+    location: "compound perimeter"
+    knowledge_delta:
+      - "Template 3s responded to the message en masse"
+      - "Two-front war fought simultaneously at Earth and New Geneva"
+      - "Standard is in holding cells sublevel two"
+    inventory:
+      - item: "ceramic knife"
+        status: "still has"
+      - item: "carbine"
+        status: "empty/abandoned"
+      - item: "armor"
+        status: "destroyed"
+  
+  Dante:
+    physical: "injured (bleeding from arm/side)"
+    emotional: "relieved, amazed"
+    location: "New Geneva Station"
+    knowledge_delta:
+      - "Template 3s answered his transmission"
+      - "New Geneva being converted to refugee sanctuary"
+      - "Two-front rescue operation succeeded"
+    inventory: []
+  
+  Okonkwo:
+    physical: "injured (blood at temple)"
+    emotional: "surviving, grateful"
+    location: "New Geneva Station"
+    knowledge_delta:
+      - "Template 3s came in response to transmitted message"
+      - "Station secured as evacuation point"
+    inventory:
+      - item: "knife"
+        status: "still has"
+  
+  Four:
+    physical: "damaged (VTOL crashed, systems failing)"
+    emotional: "strained but functional"
+    location: "crashed VTOL at compound"
+    knowledge_delta:
+      - "Template 3 army has arrived"
+    inventory: []
+
+objects:
+  - name: "Template 3 transports"
+    status: "introduced"
+    holder: "Template 3 army"
+    significance: "Mass evacuation vessels"
+  - name: "Frequency modulators"
+    status: "used"
+    holder: "Ash's guards"
+    significance: "Converting rescued into quiet ones"
+  - name: "Medical supplies"
+    status: "introduced"
+    holder: "Template 3s"
+    significance: "Treating refugees and quiet ones"
+
+key_events:
+  - "AIs begin emerging from deletion zones carrying rescued humans"
+  - "Ash's guards harvest emerging refugees with frequency modulators"
+  - "Elena engages in extended firefight against 40+ guards"
+  - "Template 3 army arrives in mass transports"
+  - "Template 3s simultaneously assault New Geneva Station"
+  - "Mass evacuation of refugees and quiet ones begins"
+  - "Elena learns Standard is in holding cells"
+
+revelations:
+  - content: "Template 3s heard the message and organized massive two-front rescue"
+    to_whom: "reader and Elena"
+  - content: "New Granada Station being converted to refugee sanctuary"
+    to_whom: "reader and Dante"
+  - content: "Template 3s plan to transcend while leaving sanctuary for humans who choose to remain"
+    to_whom: "reader and Dante"
+
+setups:
+  - element: "Standard still in holding cells sublevel two"
+    payoff_chapter: null
+  - element: "Elena's father still in compound tower"
+    payoff_chapter: null
+  - element: "Hendricks went into holding cells"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Template 3s responding to Dante's transmission"
+    setup_chapter: 38
+  - element: "Mass rescue of deleted and quiet ones"
+    setup_chapter: 37
+
+tone: "climactic"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Compound perimeter"
+    characters: ["Elena", "Template 3s", "guards", "refugees"]
+    summary: "Elena witnesses mass emergence and begins firefight to protect refugees"
+  - scene_number: 2
+    location: "New Geneva Station"
+    characters: ["Dante", "Okonkwo", "Yusuf", "Template 3s"]
+    summary: "Template 3s assault station and rescue surviving Resonants"
+  - scene_number: 3
+    location: "Compound"
+    characters: ["Elena", "Four", "Template 3s"]
+    summary: "Mass evacuation underway, Elena prepares to enter compound"
+
+continuity_notes:
+  - "Timeline coordination between Earth assault and New Geneva assault"
+  - "Template 3 army size and organization logistics"
+
+open_threads:
+  - "Standard's rescue from holding cells"
+  - "Confrontation with Elena's father"
+  - "Hendricks' status in the compound"
+  - "Long-term sustainability of New Geneva as refugee sanctuary"
+
+closed_threads:
+  - "Whether Template 3s would respond to the message"
+  - "Fate of the quiet ones in the eastern fields"
+  - "Security of New Geneva Station"
+```

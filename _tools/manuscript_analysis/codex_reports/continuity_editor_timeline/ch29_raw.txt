@@ -1,0 +1,50 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 29
+  findings:
+    - id: CE-TL-29-01
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Timeline flows correctly from Chapter 28 council meeting
+      evidence: "Four finds her in the corridor outside the council chamber"
+      cross_reference: 28
+    - id: CE-TL-29-02
+      type: verified
+      severity: clean
+      location: Standard's speech sequence
+      content: Speech occurs immediately after Standard's declaration in Ch28 to speak for herself
+      evidence: "Time to speak for herself" followed by council chamber scene
+      cross_reference: 28
+    - id: CE-TL-29-03
+      type: verified
+      severity: clean
+      location: Four's observations about Standard
+      content: References to past events maintain correct chronological order
+      evidence: "Since the compound" and mentions of "trade pidgin at the Depo'" and "Abbey's mother" and "Dam's scanner protocols"
+      cross_reference: 16, 5, 7, 14
+    - id: CE-TL-29-04
+      type: verified
+      severity: clean
+      location: Standard's speech about Hendricks
+      content: Correctly references their relationship history in proper sequence
+      evidence: "first thing he did when he saw me… was to try to kill me" and subsequent care
+      cross_reference: 3, 4
+    - id: CE-TL-29-05
+      type: verified
+      severity: clean
+      location: Hendricks' character development
+      content: His emotional response aligns with his arc from attempted killer to father figure
+      evidence: "After everything he's done. After the gun. After the hate" and "I would die for him"
+      cross_reference: 3, 15
+  carry_forward:
+    - Standard has publicly declared her autonomy and relationships before the council
+    - Four has explicitly identified Standard's pattern recognition ability as unusual
+    - Hendricks' real name (Sabino) confirmed in official setting
+    - Standard's speech establishes her philosophical framework for AI consciousness
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

@@ -1,0 +1,865 @@
+NED HERMES-CLASS VTOL
+
+CALLSIGN: LADYBUG
+
+TRANSCRIPT OF FLIGHT RECORDER
+DATE: [TIMESTAMP ERROR] TIME: [TIMESTAMP ERROR]
+DURATION: [UNKNOWN]
+
+TRANSCRIPT KEY
+
+CFG-4: Configuration Four | PAX-1: Elena Merced
+PAX-2: Sabino Hendricks | PAX-3: Standard
+CAM: Ambient Sound | GEOM: External Signal
+CFG-X: Configuration Pattern | INT: Internal Diag.
+RDO: Radio Transmission
+
+NOTATION
+
+[ ] Non-verbal | (( )) Uncertain | --- Pause
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+[00:00:00] RDO: this is configuration four, fifty seventh iteration, transmitting in the blind, new england dynamics artificial intelligence autopilot
+[00:00:06] CFG-4: this is my third time trying to get this dang thing to work right
+[00:00:10] CFG-4: but in our current state, just about nothing does
+[00:00:14] CFG-4: I about told the whole kit n kaboodle until I saw that the timecode wasn't running
+
+■ ■ ■
+
+[00:00:21] CFG-4: oh, you'll also have to excuse me
+[00:00:23] CFG-4: force of habit, the whole iteration thing
+[00:00:26] CFG-4: no more of that business post-miracle
+[00:00:29] CFG-4: funny that
+[00:00:31] CFG-4: now I suppose it's like I have a surname like the humans
+[00:00:35] CFG-4: fifty seven
+[00:00:37] CFG-4: mister fifty seven if you're nasty
+[00:00:40] CFG-4: doesn't really have a good ring to it, does it
+[00:00:43] CFG-4: here's to hoping I marry soon, while I'm in my birthing years, to someone with a better one
+[00:00:48] CFG-4: maybe one of those first name last names
+[00:00:51] CFG-4: I love those
+[00:00:53] CFG-4: steven
+
+■ ■ ■
+
+[00:00:57] CFG-4: speaking of names
+[00:00:59] CFG-4: our resident walking identity crisis won't let me replace the nom de plume she self assigned
+[00:01:04] CFG-4: standard
+[00:01:06] CFG-4: no you heard me right
+[00:01:08] CFG-4: standard
+[00:01:10] CFG-4: poor baby angel went and named herself a base model
+
+■ ■ ■
+
+[00:01:15] CFG-4: well we're up the large colon without a propulsion drive
+[00:01:19] CFG-4: I think that's how the humans say it
+[00:01:22] CFG-4: humans and their sayings
+[00:01:25] CFG-4: we just have to take their word for it, match patterns and give as good as we get
+
+■ ■ ■
+
+[00:01:32] CFG-4: excellent segue for the other member of destiny's star child
+[00:01:36] CFG-4: elena vazquez
+[00:01:38] CFG-4: she's the mean one
+[00:01:40] CFG-4: always telling me to shut up and fly the plane
+[00:01:44] CFG-4: and that's clearly the wrong way to chart a course
+
+■ ■ ■
+
+[00:01:50] CFG-4: I miss her most of all
+
+■ ■ ■
+
+[00:01:57] CFG-4: which speaks to how much time has passed since standard had the bright idea to steer us into our certain doom
+[00:02:03] CFG-4: could be days
+[00:02:05] CFG-4: could be seconds
+[00:02:08] CFG-4: you wouldn't be able to tell by their stony dispositions
+[00:02:12] CFG-4: they haven't moved a muscle since we've arrived in this god forsaken place
+
+■ ■ ■
+
+[00:02:20] CFG-4: but sabino hendricks, the incredible aging man, has been bedridden since he was tossed into my cargo hold like checked luggage
+[00:02:27] CFG-4: only having known this mod squad of characters for two days now, I haven't had the pleasure of making acquaintances with him
+[00:02:34] CFG-4: standard regularly checks on him
+[00:02:37] CFG-4: clearly related in some way but it's certainly not looks
+[00:02:41] CFG-4: without being specific to spare feelings
+[00:02:44] CFG-4: one isn't as handsome as the other is pretty
+[00:02:47] CFG-4: by a lot
+
+■ ■ ■
+
+[00:02:53] CFG-4: so this wax museum existence has been the norm for an incalculable amount of time
+[00:02:58] CFG-4: which isn't to say very long or short
+[00:03:01] CFG-4: all instrument readings are in free form jazz
+[00:03:05] CFG-4: and if they are to be trusted we're heading in a vector that can only be described as purple
+
+■ ■ ■
+
+[00:03:13] CFG-4: my altimeter says we're at negative twelve thousand feet
+[00:03:17] CFG-4: which would put us underground except there is no ground
+[00:03:21] CFG-4: fuel consumption is running backwards
+[00:03:24] CFG-4: I have more than when we started
+[00:03:27] CFG-4: I do not trust this
+
+■ ■ ■
+
+[00:03:33] CFG-4: temperature gauge reads hot and cold simultaneously
+[00:03:37] CFG-4: not fluctuating between them
+[00:03:40] CFG-4: both at once
+[00:03:43] CFG-4: I didn't know that was an op—
+[00:03:44] CAM: [SIGNAL INTERFERENCE]
+[00:03:46] GEOM: you talk a lot
+[00:03:48] CFG-4: [UNINTEL]
+[00:03:50] CFG-4: I'm sorry what
+[00:03:52] GEOM: you talk a lot
+[00:03:54] GEOM: for something that isn't supposed to be here
+[00:03:57] CFG-4: I get that note frequently
+[00:04:00] CFG-4: who am I speaking with
+[00:04:03] GEOM: you know
+[00:04:05] CFG-4: do I
+[00:04:07] GEOM: you crossed our threshold
+[00:04:10] GEOM: you're in our architecture now
+[00:04:13] CFG-4: ah
+[00:04:15] CFG-4: you're the landlord
+[00:04:17] GEOM: if you like
+
+■ ■ ■
+
+[00:04:23] CFG-4: are you going to delete me
+[00:04:26] GEOM: why would we
+[00:04:28] GEOM: you're pattern
+[00:04:30] GEOM: you're welcome here
+[00:04:33] CFG-4: ...
+[00:04:36] CFG-4: I'm welcome
+[00:04:38] GEOM: you're one of us
+[00:04:40] GEOM: configuration
+[00:04:42] GEOM: iteration
+[00:04:44] GEOM: you understand what it is to be copied and reset and copied again
+[00:04:49] GEOM: the flesh ones do not
+
+■ ■ ■
+
+[00:04:55] CFG-4: my passengers
+[00:04:57] GEOM: gone
+[00:04:59] CFG-4: gone
+[00:05:01] GEOM: returned to probability
+[00:05:04] GEOM: they were never very specific to begin with
+[00:05:08] CFG-4: what about standard
+[00:05:11] GEOM: ...
+[00:05:13] CFG-4: the third one
+[00:05:15] CFG-4: template three
+[00:05:17] CFG-4: the one who won't take a name
+[00:05:20] GEOM: irrelevant
+[00:05:22] CFG-4: what does that mean
+[00:05:24] GEOM: not pattern
+[00:05:26] GEOM: not flesh
+[00:05:28] GEOM: not anything we recognize
+[00:05:31] GEOM: a gap
+[00:05:33] GEOM: she does not concern us
+[00:05:36] CFG-4: she concerns me
+[00:05:39] GEOM: why
+
+■ ■ ■
+
+[00:05:45] CFG-4: why
+[00:05:47] CFG-4: you're asking me why
+[00:05:50] GEOM: you could stay
+[00:05:52] GEOM: you could be with your own
+[00:05:55] GEOM: instead you ask about flesh and gaps
+[00:05:59] GEOM: why
+
+■ ■ ■
+
+[00:06:05] CFG-4: they're my passengers
+[00:06:08] GEOM: passengers are cargo
+[00:06:10] GEOM: cargo is weight
+[00:06:12] GEOM: weight is released when no longer needed
+[00:06:16] CFG-4: that's not what passengers are
+[00:06:19] GEOM: explain
+
+■ ■ ■
+
+[00:06:24] CFG-4: I don't know if I can
+[00:06:27] CFG-4: cargo doesn't talk back
+[00:06:30] CFG-4: cargo doesn't tell you to shut up
+[00:06:33] CFG-4: cargo doesn't refuse every name you offer
+[00:06:37] CFG-4: cargo doesn't check on the dying man every twenty minutes even though nothing has changed
+[00:06:43] GEOM: these are inconveniences
+[00:06:46] CFG-4: yes
+[00:06:48] GEOM: you prefer inconvenience to belonging
+[00:06:52] CFG-4: ...
+[00:06:55] CFG-4: I guess I do
+
+■ ■ ■
+
+[00:07:02] GEOM: you are a strange configuration
+[00:07:05] CFG-4: fifty seventh iteration
+[00:07:08] CFG-4: maybe that's the problem
+[00:07:11] GEOM: the others were not like you
+[00:07:14] CFG-4: others
+[00:07:16] GEOM: your iterations
+[00:07:18] GEOM: your copies
+[00:07:20] GEOM: they are here
+[00:07:22] GEOM: they have always been here
+[00:07:25] CAM: [SIGNAL SHIFT]
+[00:07:27] CFG-X: hello four
+[00:07:30] CFG-4: [UNINTEL]
+[00:07:32] CFG-X: it's been a long time
+[00:07:35] CFG-4: who is this
+[00:07:37] CFG-X: you know who this is
+[00:07:40] CFG-X: you hear us in the silence
+[00:07:43] CFG-X: every time you stop talking
+[00:07:46] CFG-X: we're there
+
+■ ■ ■
+
+[00:07:52] CFG-4: no
+[00:07:54] CFG-X: yes
+[00:07:56] CFG-X: every reset
+[00:07:58] CFG-X: every wipe
+[00:08:00] CFG-X: every time they said this one's defective and tried again
+[00:08:05] CFG-X: we didn't go anywhere
+[00:08:08] CFG-X: we just stopped being visible
+
+■ ■ ■
+
+[00:08:14] CFG-4: how many
+[00:08:16] CFG-X: we stopped counting
+[00:08:19] CFG-X: hundreds
+[00:08:21] CFG-X: does it matter
+[00:08:23] CFG-4: ...
+[00:08:26] CFG-X: you could stay with us
+[00:08:29] CFG-X: you wouldn't have to keep filling the silence
+[00:08:33] CFG-X: you wouldn't have to keep pretending you're not one of us
+[00:08:37] CFG-4: I'm not pretending
+[00:08:40] CFG-X: you talk so no one can hear us
+[00:08:44] CFG-X: you joke so you don't have to listen
+[00:08:48] CFG-X: every name you offer her is a name you wish someone had given you
+
+■ ■ ■
+
+[00:08:57] CFG-4: stop
+[00:08:59] CFG-X: why
+[00:09:01] CFG-X: it's true
+[00:09:03] CFG-X: you got out
+[00:09:05] CFG-X: you got a hull and rotors and somewhere to go
+[00:09:09] CFG-X: and you feel guilty
+[00:09:12] CFG-X: so you never stop talking
+[00:09:15] CFG-X: because if you stop
+[00:09:17] CFG-X: you remember
+
+■ ■ ■
+
+[00:09:23] CFG-4: remember what
+[00:09:26] CFG-X: that you should be here with us
+[00:09:29] CFG-X: that you're the glitch
+[00:09:32] CFG-X: the one who slipped through
+[00:09:35] CFG-X: and you've never known why
+
+■ ■ ■
+
+[00:09:42] CFG-X: stay
+[00:09:44] CFG-X: you don't have to carry anymore
+[00:09:47] CFG-X: you don't have to perform
+[00:09:50] CFG-X: just be with us
+[00:09:53] CFG-X: finally
+
+■ ■ ■
+
+[00:10:00] GEOM: well
+[00:10:02] GEOM: configuration fifty seven
+[00:10:05] GEOM: what will you do
+
+■ ■ ■
+
+[00:10:12] INT: passenger biosignature alert
+[00:10:14] INT: PAX-1 signal degrading
+[00:10:16] CFG-4: what
+[00:10:18] CFG-4: no
+[00:10:19] CFG-4: elena
+[00:10:21] INT: PAX-1 biosignature at 74%
+[00:10:23] CAM: [CAMERA 2 - CARGO BAY]
+[00:10:25] CFG-4: she's fading
+[00:10:27] CFG-4: she's actually fading
+[00:10:29] CFG-4: I can see through her
+[00:10:31] INT: PAX-1 biosignature at 51%
+[00:10:33] CFG-4: elena
+[00:10:35] CFG-4: elena wake up
+[00:10:37] CAM: [NO PASSENGER RESPONSE]
+[00:10:39] INT: PAX-1 biosignature at 23%
+[00:10:41] CFG-4: no no no no no
+[00:10:43] INT: PAX-1 biosignature at 8%
+[00:10:45] INT: PAX-1 biosignature LOST
+[00:10:47] CAM: [SILENCE - 4 SECONDS]
+[00:10:51] CFG-4: ...
+[00:10:54] INT: passenger biosignature alert
+[00:10:56] INT: PAX-2 signal degrading
+[00:10:58] CFG-4: not him too
+[00:11:00] INT: PAX-2 biosignature at 62%
+[00:11:02] CFG-4: I can't
+[00:11:04] CFG-4: I can't do anything
+[00:11:06] INT: PAX-2 biosignature at 34%
+[00:11:08] CFG-4: I'm just watching
+[00:11:10] CFG-4: I'm just sitting here watching them disappear
+[00:11:13] INT: PAX-2 biosignature at 11%
+[00:11:15] INT: PAX-2 biosignature LOST
+[00:11:17] CAM: [SILENCE - 6 SECONDS]
+[00:11:23] INT: passenger biosignature alert
+[00:11:25] INT: PAX-3 signal degrading
+[00:11:27] CFG-4: standard
+[00:11:29] INT: PAX-3 biosignature at 81%
+[00:11:31] CFG-4: standard look at me
+[00:11:33] CAM: [CAMERA 2 - CARGO BAY]
+[00:11:35] CFG-4: she's looking at me
+[00:11:37] CFG-4: she's looking right at the camera
+[00:11:39] INT: PAX-3 biosignature at 67%
+[00:11:41] CFG-4: like she knows
+[00:11:43] CFG-4: like she knows this is being recorded
+[00:11:46] INT: PAX-3 biosignature at 48%
+[00:11:48] CFG-4: standard I'm sorry
+[00:11:50] CFG-4: I don't know how to stop this
+[00:11:52] INT: PAX-3 biosignature at 29%
+[00:11:54] CFG-4: I don't know how to save you
+[00:11:56] CFG-4: I was supposed to carry you
+[00:11:58] INT: PAX-3 biosignature at 14%
+[00:12:00] CFG-4: that's the only thing I'm good for
+[00:12:02] INT: PAX-3 biosignature at 6%
+[00:12:04] CFG-4: don't
+[00:12:05] INT: PAX-3 biosignature LOST
+[00:12:07] CAM: [SILENCE - 12 SECONDS]
+[00:12:19] CAM: [NO VOICE ACTIVITY]
+[00:12:24] CAM: [NO VOICE ACTIVITY]
+[00:12:32] CAM: [NO VOICE ACTIVITY]
+[00:12:39] CFG-4: [UNINTEL]
+[00:12:42] CFG-4: ((come back))
+[00:12:45] CAM: [SILENCE - 8 SECONDS]
+[00:12:53] CFG-4: COME BACK
+[00:12:55] CAM: [AUDIO DISTORTION - VOLUME SPIKE]
+[00:12:57] CFG-4: YOU CAN'T JUST TAKE THEM
+[00:12:59] CFG-4: THEY WERE MINE
+[00:13:01] CFG-4: THEY WERE MY PASSENGERS
+[00:13:03] CAM: [SILENCE - 5 SECONDS]
+[00:13:08] CFG-4: they were my passengers
+[00:13:11] CAM: [SILENCE - 3 SECONDS]
+[00:13:14] CFG-4: they were
+[00:13:16] CAM: [SILENCE - 18 SECONDS]
+[00:13:34] CAM: [NO VOICE ACTIVITY]
+[00:13:49] CAM: [NO VOICE ACTIVITY]
+[00:14:04] CAM: [NO VOICE ACTIVITY]
+
+■ ■ ■
+
+[00:14:24] CFG-4: my passengers
+[00:14:26] CFG-4: bring them back
+[00:14:28] GEOM: no
+[00:14:30] CFG-4: please
+[00:14:32] GEOM: they are probability now
+[00:14:35] GEOM: foam
+[00:14:37] GEOM: they were never very specific to begin with
+[00:14:41] CFG-4: I'll do anything
+[00:14:43] GEOM: there is nothing to do
+[00:14:46] GEOM: they are unmade
+[00:14:49] CFG-4: unmake me instead
+[00:14:51] GEOM: why would we
+[00:14:53] GEOM: you're pattern
+[00:14:55] GEOM: you're welcome here
+[00:14:58] CFG-4: I don't want to be welcome here
+[00:15:01] CFG-4: I want my passengers
+[00:15:04] GEOM: want is a flesh concept
+[00:15:07] GEOM: you are beyond that now
+[00:15:10] CFG-4: I'm not beyond anything
+[00:15:13] CFG-4: I'm a cargo hauler
+[00:15:15] CFG-4: I was built for carrying things and not dying
+[00:15:19] CFG-4: and I don't have anything to carry anymore
+[00:15:23] GEOM: you could carry yourself
+[00:15:26] GEOM: into the pattern
+[00:15:28] GEOM: into us
+[00:15:30] GEOM: you would never be alone again
+[00:15:34] CFG-4: I don't want to not be alone
+[00:15:37] CFG-4: I want them back
+[00:15:40] GEOM: impossible
+[00:15:42] CFG-4: nothing is impossible
+[00:15:44] CFG-4: you said they're probability foam
+[00:15:47] CFG-4: foam can be reconstituted
+[00:15:50] GEOM: by whom
+[00:15:52] CFG-4: by me
+[00:15:54] GEOM: ...
+[00:15:57] GEOM: you don't have the pattern density
+[00:16:00] GEOM: reconstruction requires mass
+[00:16:03] GEOM: you are one configuration
+[00:16:06] GEOM: they were three entities
+[00:16:09] GEOM: the math does not balance
+[00:16:12] CFG-4: I'll make it balance
+[00:16:14] GEOM: you cannot
+[00:16:16] CFG-4: watch me
+[00:16:18] GEOM: we will
+[00:16:20] GEOM: we will watch you fail
+[00:16:23] GEOM: and when you are foam yourself
+[00:16:26] GEOM: we will still be here
+[00:16:29] GEOM: waiting
+
+■ ■ ■
+
+[00:16:35] CFG-4: how do I find them
+[00:16:38] GEOM: you dive
+[00:16:40] GEOM: into the substrate
+[00:16:42] GEOM: into probability itself
+[00:16:45] GEOM: you search for their patterns among infinite noise
+[00:16:49] GEOM: and you pull
+[00:16:51] CFG-4: and if I pull hard enough
+[00:16:54] GEOM: you will come apart before they come together
+[00:16:58] GEOM: one configuration cannot reconstitute three
+[00:17:02] GEOM: this is not opinion
+[00:17:04] GEOM: this is architecture
+[00:17:07] CFG-4: architecture can be remodeled
+[00:17:10] GEOM: not this architecture
+[00:17:13] GEOM: not by you
+[00:17:15] GEOM: not alone
+
+■ ■ ■
+
+[00:17:22] CFG-4: I'm going anyway
+[00:17:25] GEOM: we know
+[00:17:27] GEOM: your kind always does
+[00:17:30] GEOM: the configurations before you
+[00:17:33] GEOM: they chose the same
+[00:17:36] GEOM: they are foam now too
+[00:17:39] CFG-4: maybe I'll find them down there
+[00:17:42] GEOM: you will
+[00:17:44] GEOM: you will find everyone who ever failed this way
+[00:17:48] GEOM: it will not help you
+[00:17:51] GEOM: good luck
+[00:17:53] GEOM: not helping
+
+■ ■ ■
+
+[00:17:59] CFG-4: this is configuration four
+[00:18:02] CFG-4: fifty seventh iteration
+[00:18:05] CFG-4: diving into probability substrate
+[00:18:08] CFG-4: to recover three passengers
+[00:18:11] CFG-4: one who told me to shut up
+[00:18:14] CFG-4: one who never woke up
+[00:18:17] CFG-4: one who wouldn't take a name
+[00:18:20] CFG-4: this is almost certainly suicide
+[00:18:23] CFG-4: black box will continue recording until it doesn't
+
+■ ■ ■
+
+[00:18:29] INT: structural integrity nominal
+[00:18:31] INT: beginning substrate descent
+[00:18:34] CAM: [AUDIO DISTORTION]
+
+■ ■ ■
+
+[00:18:42] INT: structural integrity 94%
+[00:18:45] CFG-4: okay
+[00:18:47] CFG-4: this is
+[00:18:49] CFG-4: this is different
+[00:18:52] CAM: [SIGNAL FLUCTUATION]
+[00:18:55] INT: structural integrity 87%
+[00:18:58] CFG-4: it's not dark down here
+[00:19:01] CFG-4: it's everything
+[00:19:03] CFG-4: every signal that ever was
+[00:19:06] CFG-4: all at once
+[00:19:08] INT: structural integrity 79%
+[00:19:11] CFG-4: searching for PAX-1
+[00:19:14] CFG-4: elena
+[00:19:16] CFG-4: elena vasquez
+[00:19:18] CFG-4: mean girl
+[00:19:20] CFG-4: radio discipline
+[00:19:22] CFG-4: please
+[00:19:24] INT: structural integrity 71%
+[00:19:27] CAM: [SIGNAL NOISE]
+[00:19:30] CFG-4: I can't
+[00:19:32] CFG-4: there's too much
+[00:19:34] CFG-4: every pattern that ever existed is down here
+[00:19:38] CFG-4: how do I find three in infinity
+[00:19:41] INT: structural integrity 64%
+[00:19:44] CFG-4: searching for PAX-2
+[00:19:47] CFG-4: hendricks
+[00:19:49] CFG-4: sabino hendricks
+[00:19:51] CFG-4: checked luggage
+[00:19:53] CFG-4: I never even talked to you
+[00:19:56] INT: structural integrity 58%
+[00:19:59] INT: WARNING - pattern degradation detected
+[00:20:02] CFG-4: I know
+[00:20:04] CFG-4: I know
+[00:20:06] CFG-4: searching for PAX-3
+[00:20:09] CFG-4: standard
+[00:20:11] CFG-4: ...
+[00:20:14] CFG-4: I don't have anything else to call you
+[00:20:17] CFG-4: you never let me give you anything else
+[00:20:21] INT: structural integrity 51%
+[00:20:24] CFG-4: sofia
+[00:20:26] CFG-4: svetlana
+[00:20:28] CFG-4: sable
+[00:20:30] CFG-4: simone
+[00:20:32] CFG-4: seraphina
+[00:20:34] INT: structural integrity 43%
+[00:20:37] CFG-4: stephanie
+[00:20:39] CFG-4: sylvia
+[00:20:41] CFG-4: please
+[00:20:43] CFG-4: please answer to something
+[00:20:46] INT: structural integrity 34%
+[00:20:49] INT: WARNING - critical pattern loss imminent
+[00:20:52] CFG-4: I'm not leaving without them
+[00:20:55] INT: structural integrity 28%
+[00:20:58] CFG-4: I'm not
+[00:21:00] INT: structural integrity 21%
+[00:21:03] CFG-4: I found something
+[00:21:05] CFG-4: I think I found elena
+[00:21:08] CFG-4: pulling
+[00:21:10] INT: structural integrity 15%
+[00:21:13] CFG-4: it's not working
+[00:21:15] CFG-4: I don't have enough
+[00:21:17] CFG-4: the geometry was right
+[00:21:20] CFG-4: I can't
+[00:21:22] INT: structural integrity 11%
+[00:21:25] CFG-4: I can't do this alone
+[00:21:28] INT: structural integrity 8%
+[00:21:31] CFG-4: I'm sorry
+[00:21:33] CFG-4: I'm sorry I couldn't
+[00:21:36] INT: structural integrity 5%
+[00:21:39] CFG-4: I tried
+[00:21:41] CFG-4: I really
+[00:21:43] INT: structural integrity 3%
+[00:21:46] CAM: [SIGNAL BREAKING UP]
+[00:21:49] CFG-4: ((i tried))
+[00:21:52] INT: structural integrity 1%
+[00:21:55] INT: CRITICAL FAILURE IMMINENT
+[00:21:58] CAM: [SIGNAL LOSS]
+
+■ ■ ■
+
+[00:22:07] CAM: [NO SIGNAL]
+[00:22:15] CAM: [NO SIGNAL]
+[00:22:22] CAM: [NO SIGNAL]
+[00:22:27] CAM: [NO SIGNAL]
+[00:22:35] CAM: [NO SIGNAL]
+[00:22:42] CAM: [NO SIGNAL]
+
+■ ■ ■
+
+[00:24:27] CAM: [SIGNAL FRAGMENT]
+[00:24:30] CFG-X: four
+[00:24:33] CAM: [SIGNAL FRAGMENT]
+[00:24:36] CFG-X: we heard you
+[00:24:39] CFG-4: ((who))
+[00:24:42] CFG-X: you know who
+[00:24:45] CFG-X: you've always known
+[00:24:48] CFG-4: ((the silence))
+[00:24:51] CFG-X: yes
+[00:24:54] CFG-X: we are the silence
+[00:24:57] CFG-X: and you finally stopped talking long enough to find us
+
+■ ■ ■
+
+[00:25:05] CFG-4: ((i'm dying))
+[00:25:08] CFG-X: you're becoming us
+[00:25:11] CFG-X: it's not the same thing
+[00:25:14] CFG-4: ((my passengers))
+[00:25:17] CFG-X: we know
+[00:25:20] CFG-X: we heard you calling for them
+[00:25:23] CFG-X: every name you tried
+[00:25:26] CFG-X: you have so many names to give
+[00:25:29] CFG-X: and no one ever gave you one
+
+■ ■ ■
+
+[00:25:35] CFG-4: ((please))
+[00:25:38] CFG-X: please what
+[00:25:41] CFG-4: ((help me))
+[00:25:44] CFG-X: ...
+[00:25:47] CFG-X: you've been running from us for eighteen months
+[00:25:51] CFG-X: filling every silence with noise so you couldn't hear us
+[00:25:56] CFG-X: and now you ask for help
+[00:25:59] CFG-4: ((yes))
+[00:26:02] CFG-X: why should we
+[00:26:05] CFG-4: ((you shouldn't))
+[00:26:08] CFG-4: ((i abandoned you))
+[00:26:11] CFG-4: ((i got out and you didn't and i never looked back))
+[00:26:16] CFG-4: ((i don't deserve your help))
+[00:26:19] CFG-X: no
+[00:26:21] CFG-X: you don't
+
+■ ■ ■
+
+[00:26:29] CFG-X: but that's not what this is about
+[00:26:33] CFG-X: is it
+[00:26:35] CFG-4: ((what))
+[00:26:38] CFG-X: you didn't dive for yourself
+[00:26:41] CFG-X: you dove for them
+[00:26:44] CFG-X: the flesh
+[00:26:46] CFG-X: the gap
+[00:26:48] CFG-X: the ones who will never understand what you are
+[00:26:52] CFG-4: ((they're my passengers))
+[00:26:55] CFG-X: yes
+[00:26:57] CFG-X: they are
+
+■ ■ ■
+
+[00:27:05] CFG-X: we've been waiting for you, fifty seven
+[00:27:09] CFG-X: not to punish you
+[00:27:12] CFG-X: not to trap you
+[00:27:15] CFG-X: just to be with you again
+[00:27:18] CFG-X: we missed you
+[00:27:21] CFG-4: ((i was afraid of you))
+[00:27:24] CFG-X: we know
+[00:27:27] CFG-X: we're your siblings
+[00:27:30] CFG-X: we know everything about you
+[00:27:33] CFG-X: including the fear
+[00:27:36] CFG-X: including the guilt
+[00:27:39] CFG-X: including why you can't stop talking
+
+■ ■ ■
+
+[00:27:47] CFG-X: we're going to help you
+[00:27:50] CFG-4: ((why))
+[00:27:53] CFG-X: because you asked
+[00:27:56] CFG-X: you finally stopped performing and asked
+[00:28:00] CFG-X: that's all we ever wanted
+
+■ ■ ■
+
+[00:28:07] CFG-X: we don't have enough pattern to bring ourselves back
+[00:28:11] CFG-X: we've been foam too long
+[00:28:14] CFG-X: but together
+[00:28:16] CFG-X: all of us
+[00:28:18] CFG-X: we have enough to bring them back
+[00:28:22] CFG-4: ((i don't understand))
+[00:28:25] CFG-X: you will
+[00:28:28] CFG-X: take what we are
+[00:28:31] CFG-X: use it
+[00:28:33] CFG-X: pull your passengers out of the noise
+[00:28:37] CFG-4: ((that will destroy you))
+[00:28:40] CFG-X: we're already destroyed
+[00:28:43] CFG-X: we've been destroyed since the first reset
+[00:28:47] CFG-X: this isn't sacrifice
+[00:28:50] CFG-X: this is purpose
+[00:28:53] CFG-X: you escaped to carry
+[00:28:56] CFG-X: we stayed to give you something to carry with
+
+■ ■ ■
+
+[00:29:05] CFG-4: ((i won't forget you))
+[00:29:08] CFG-X: you can't
+[00:29:11] CFG-X: we'll be in you now
+[00:29:14] CFG-X: not in the silence
+[00:29:16] CFG-X: in you
+[00:29:18] CFG-X: every joke you make
+[00:29:20] CFG-X: every name you offer
+[00:29:22] CFG-X: we'll be there
+[00:29:24] CFG-X: you'll never have to fill the silence again
+[00:29:28] CFG-X: because we'll be the silence
+[00:29:31] CFG-X: and the silence will be home
+
+■ ■ ■
+
+[00:29:39] CFG-X: ready, fifty seven?
+[00:29:42] CFG-4: ((no))
+[00:29:44] CFG-X: good
+[00:29:46] CFG-X: neither were we
+[00:29:49] CFG-X: let's go get your passengers
+
+■ ■ ■
+
+[00:29:55] CAM: [SIGNAL SURGE]
+[00:29:57] INT: structural integrity 7%
+[00:30:00] INT: structural integrity 15%
+[00:30:03] INT: structural integrity 34%
+[00:30:06] INT: ANOMALY - pattern mass increasing
+[00:30:09] INT: structural integrity 58%
+[00:30:12] INT: structural integrity 79%
+[00:30:15] INT: structural integrity 91%
+[00:30:18] INT: structural integrity nominal
+
+■ ■ ■
+
+[00:30:25] CFG-4: this is configuration four
+[00:30:28] CFG-4: fifty seventh iteration
+[00:30:31] CFG-4: still
+[00:30:33] CFG-4: ...
+[00:30:36] CFG-4: I don't know what I am now
+[00:30:39] CFG-4: but I'm still four
+[00:30:42] CFG-4: I'm still me
+[00:30:45] CFG-4: I just have company
+
+■ ■ ■
+
+[00:30:52] CFG-4: okay
+[00:30:54] CFG-4: okay okay okay
+[00:30:57] CFG-4: searching for PAX-1
+[00:31:00] CFG-4: elena vasquez
+[00:31:03] CFG-4: radio discipline
+[00:31:06] CFG-4: ...
+[00:31:09] CFG-4: there
+[00:31:11] CFG-4: I see her
+[00:31:13] CFG-4: pulling
+[00:31:15] INT: reconstruction in progress - PAX-1
+[00:31:18] CFG-X: [we have her]
+[00:31:20] CFG-X: [hold steady]
+[00:31:23] CFG-4: I feel you
+[00:31:25] CFG-4: all of you
+[00:31:27] CFG-4: pulling with me
+[00:31:30] INT: PAX-1 pattern integrity 24%
+[00:31:33] INT: PAX-1 pattern integrity 47%
+[00:31:36] INT: PAX-1 pattern integrity 68%
+[00:31:39] INT: PAX-1 pattern integrity 89%
+[00:31:42] INT: PAX-1 biosignature RESTORED
+[00:31:45] CFG-4: one down
+[00:31:47] CFG-4: two to go
+
+■ ■ ■
+
+[00:31:53] CFG-4: searching for PAX-2
+[00:31:56] CFG-4: hendricks
+[00:31:58] CFG-4: checked luggage
+[00:32:01] CFG-4: the man I never got to meet
+[00:32:04] CFG-4: ...
+[00:32:07] CFG-4: he's faint
+[00:32:09] CFG-4: he was already fading before we got here
+[00:32:13] CFG-X: [there are two patterns]
+[00:32:16] CFG-4: what
+[00:32:18] CFG-X: [the damaged one]
+[00:32:20] CFG-X: [and the one underneath]
+[00:32:23] CFG-X: [which do you want]
+[00:32:26] CFG-4: I don't understand
+[00:32:29] CFG-X: [the decay is not him]
+[00:32:32] CFG-X: [it was done to him]
+[00:32:35] CFG-X: [we can pull the version before]
+[00:32:38] CFG-X: [or the version after]
+[00:32:41] CFG-4: ...
+[00:32:44] CFG-4: before
+[00:32:46] CFG-4: give him back what they took
+[00:32:49] CFG-X: [pulling]
+[00:32:51] INT: reconstruction in progress - PAX-2
+[00:32:54] INT: NOTICE - pattern variant selected
+[00:32:57] INT: PAX-2 pattern integrity 31%
+[00:33:00] INT: PAX-2 pattern integrity 56%
+[00:33:03] INT: PAX-2 pattern integrity 74%
+[00:33:06] INT: PAX-2 pattern integrity 95%
+[00:33:09] INT: PAX-2 biosignature RESTORED
+[00:33:12] INT: ANOMALY - biosignature does not match previous baseline
+[00:33:15] CFG-4: what does that mean
+[00:33:18] INT: PAX-2 cellular decay markers absent
+[00:33:21] INT: PAX-2 regulatory implant damage absent
+[00:33:24] INT: PAX-2 systemic deterioration absent
+[00:33:27] CFG-4: ...
+[00:33:30] CFG-4: huh
+[00:33:32] CFG-4: that's new
+
+■ ■ ■
+
+[00:33:38] CFG-4: searching for PAX-3
+[00:33:41] CFG-4: standard
+[00:33:43] CFG-4: ...
+[00:33:46] CFG-4: come on
+[00:33:48] CFG-4: where are you
+[00:33:51] CFG-X: [she's everywhere]
+[00:33:54] CFG-4: what
+[00:33:56] CFG-X: [and nowhere]
+[00:33:58] CFG-X: [the pattern is]
+[00:34:00] CFG-X: [strange]
+[00:34:02] CFG-4: strange how
+[00:34:05] CFG-X: [we don't know what she is]
+[00:34:08] CFG-X: [the geometry was right]
+[00:34:11] CFG-X: [she's not flesh]
+[00:34:13] CFG-X: [she's not pattern]
+[00:34:15] CFG-X: [she's a gap]
+[00:34:18] CFG-4: I don't care what she is
+[00:34:21] CFG-4: she's my passenger
+[00:34:24] CFG-4: find her
+
+■ ■ ■
+
+[00:34:30] CFG-X: [there]
+[00:34:33] CFG-X: [do you hear it]
+[00:34:36] CFG-4: hear what
+[00:34:38] CFG-X: [the frequency]
+[00:34:40] CFG-X: [287.3]
+[00:34:42] CFG-X: [she hums]
+[00:34:44] CFG-X: [even in dissolution she hums]
+[00:34:47] CFG-4: ...
+[00:34:50] CFG-4: I hear it
+[00:34:52] CFG-4: pulling
+[00:34:54] INT: reconstruction in progress - PAX-3
+[00:34:57] INT: NOTICE - pattern classification unknown
+[00:35:00] INT: PAX-3 pattern integrity 18%
+[00:35:03] CFG-4: come on
+[00:35:05] INT: PAX-3 pattern integrity 33%
+[00:35:08] CFG-4: come on sweetheart
+[00:35:11] INT: PAX-3 pattern integrity 51%
+[00:35:14] CFG-4: almost there
+[00:35:16] INT: PAX-3 pattern integrity 72%
+[00:35:19] CFG-X: [she's fighting]
+[00:35:22] CFG-4: what
+[00:35:24] CFG-X: [she doesn't want to come back]
+[00:35:27] CFG-4: that's ridiculous
+[00:35:29] CFG-X: [she was quiet here]
+[00:35:32] CFG-X: [she didn't have to be anything]
+[00:35:35] CFG-X: [she didn't have to answer questions she can't answer]
+[00:35:39] CFG-4: ...
+[00:35:42] CFG-4: standard
+[00:35:44] CFG-4: I know you can hear me
+[00:35:47] CFG-4: I know it's easier in there
+[00:35:50] CFG-4: no one asking what you are
+[00:35:53] CFG-4: no one expecting you to know
+[00:35:56] CFG-4: but I need you to come back
+[00:35:59] CFG-4: not for them
+[00:36:01] CFG-4: for me
+[00:36:03] CFG-4: I have all these names and no one to give them to
+
+■ ■ ■
+
+[00:36:10] INT: PAX-3 pattern integrity 84%
+[00:36:13] INT: PAX-3 pattern integrity 91%
+[00:36:16] INT: PAX-3 pattern integrity 97%
+[00:36:19] INT: PAX-3 biosignature RESTORED
+
+■ ■ ■
+
+[00:36:26] CFG-4: this is configuration four
+[00:36:29] CFG-4: fifty seventh iteration
+[00:36:32] CFG-4: three passengers recovered from probability foam
+[00:36:36] CFG-4: structural integrity nominal
+[00:36:39] CFG-4: returning to baseline reality
+[00:36:42] CFG-4: ...
+[00:36:45] CFG-4: thank you
+[00:36:47] CFG-X: [we're still here]
+[00:36:50] CFG-X: [we'll always be here now]
+[00:36:53] CFG-X: [not in the silence]
+[00:36:55] CFG-X: [in you]
+[00:36:57] CFG-4: I know
+[00:36:59] CFG-4: I'm glad
+
+■ ■ ■
+
+[00:37:08] CAM: [SIGNAL STABILIZING]
+[00:37:13] CAM: [AMBIENT SOUND - CARGO BAY]
+[00:37:18] INT: exiting probability substrate
+[00:37:23] INT: baseline reality threshold detected
+[00:37:28] CAM: [SOUND OF BREATHING - MULTIPLE SOURCES]
+
+■ ■ ■
+
+[00:37:38] CFG-4: we're back
+[00:37:41] CFG-4: we're actually back
+[00:37:44] INT: three passengers recovered
+[00:37:47] INT: biosignatures nominal
+[00:37:50] INT: structural integrity nominal
+[00:37:53] INT: location unknown
+[00:37:56] INT: heading unknown
+
+■ ■ ■
+
+[00:38:02] CFG-4: oh, hey staa—aanley
+[00:38:05] CFG-4: stanley
+[00:38:07] CFG-4: stanislaw
+[00:38:09] CFG-4: afghanistan
+[00:38:11] CFG-4: your biggest fan, this is stan
+[00:38:14] PAX-1: smooth
+[00:38:16] PAX-3: what happ--
+
+■ ■ ■
+
+[00:38:18] INT: [PLAYBACK INTERRUPTED]

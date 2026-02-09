@@ -1,0 +1,160 @@
+
+CHAPTER 8
+
+WHAT'S IN A NAME
+
+She looks back at the frozen woman in the doorway. The same face. The same structure. But the woman is empty, and Standard is shaking, and she doesn't know what that means.
+She doesn't know what any of it means.
+"You looking to trade?"
+Standard stops. Turns.
+A girl. Leaning against a stack of tires. Young—Elena's age, maybe. Mechanic's jumpsuit tied at the waist. Eyes that are bright and sharp in a face that is tired. She is smoking something that smells like burning plastic, and she is looking at Standard the way you look at a stray dog. Curious. A little disgusted.
+"Because you look like you crawled out of a septic tank, honey." The girl exhales smoke. It hangs in the dead air. "You need a full refit. Bad."
+Standard looks down at herself. The jacket is too big. The trousers are stained. The blood on her cuticles has dried to black crescents.
+"These work," she says.
+The girl laughs. It's a dry sound, like paper tearing. "Overtime, maybe. A _very_ long time. Come on."
+She pushes off from the tires. Starts walking.
+Standard looks back toward the Rover. It's just a shape now. A dark lump in the gray. Elena isn't there.
+She follows the girl.
+Inside the clinic, the air is different. Antiseptic. Rot. The smell of things being kept alive past their expiration.
+Elena stands by the supply cage. She watches the medic hang a saline drip for Hendricks. The old man looks like a pile of rags someone arranged into a person-shape. His chest rises. Falls. Rises.
+"He'll stabilize," the medic says. "But the withdrawal—that's going to take time we don't have. He needs a clean room. Not a tent in the mud."
+"He just needs to survive the trip."
+"To where?" The medic snorts. "The Quiet Zone? Good luck. I heard the Prophet locked the gates when the sky went black."
+Elena doesn't answer. She is already turning away, moving to the supply officer—a heavy man cleaning a rifle with the slow, meditative attention of someone who has nothing else to do.
+She puts a stack of credit chips on the counter.
+"Fusion cells. Rations, high-calorie. And water." She pauses. "Whatever you can spare."
+The man laughs. It's a dry, humorless sound, like the girl's laugh, like everyone's laugh in this place. "Water's worth more than fuel out here. You got the chips for that?"
+Elena adds another stack. Her emergency reserve. Everything she has left.
+The man raises an eyebrow. Takes it. Slides two dented canisters across the counter alongside the cells.
+"You with the 7th?" he asks.
+"No."
+"Saw a unit come through three days ago. Heading for the tower." He's not looking at her now. He's looking at the rifle, at the cloth moving over the barrel. "You know, the one. Local girl tagged along. Uh… Ann.. Ab. Abbey. Yeah, Abbey."
+"Don't know any Abbey."
+"They stopped for fuel. Abbey was talking about picking up some water vouchers on the way back. She's got family out this way." He looks up. "They coming back?"
+Elena sees it. Otis in the lobby of NED. Turning. Stepping into the blast. The way her body went rigid. The way her mouth tried to form words.
+_Give them to my —_
+"Look," Elena says. "I don't know who you're talking about. Look around. Anybody here _not_ looking for water vouchers?"
+The man reads her face. The hollows under her eyes. The way she's holding herself like something might fall out if she lets go.
+He nods. Pushes the cells across.
+"Sorry," he mutters.
+Elena takes them. She doesn't say thank you. She walks out into the gray light, and the weight of the dead presses against her spine like a hand.
+She should go back to the Rover. Check on Standard. Wait for Hendricks to stabilize. Instead, she finds herself walking toward the tech stalls.
+The dream won't leave her alone. _The Geometry._ She'd said it in her sleep. Words she doesn't remember learning, surfacing from somewhere beneath conscious thought. Her implant pulses at her temple, warm and wrong.
+The data hawker operates out of a gutted ambulance. Cables snake from the open back doors like intestines. A hand-painted sign reads: EXTRACTION - DUPLICATION - BURIAL. The last word has a price next to it. The hawker herself is small, hunched, fingers stained black to the second knuckle. She doesn't look up when Elena approaches.
+"Implant read," Elena says. "How much?"
+"Depends what's in there." The woman's voice is rust on metal. "Military?"
+"Corporate."
+"NED?"
+Elena doesn't answer. The woman finally looks up. Her eyes are milky, one pupil blown wide—Loss from years of jacking into other people's nightmares.
+"NED's tricky. Encrypted layers. Dormant partitions." She holds out a cable with a neural jack on the end. "Fifty chips for the read. Hundred if you want me to crack the partitions."
+Elena has twelve chips left after the water.
+"Just the read."
+She sits on a crate. The woman attaches the jack to Elena's port—behind the ear, standard military placement. The connection hums. Elena tastes copper.
+"Relax. Fighting it makes it worse."
+Elena doesn't relax. She watches the woman's fingers move across a cracked tablet, watches data scroll in reflections she can't read.
+"Huh."
+"What?"
+"You've got a ghost partition. Someone buried files deep. Encrypted with a key that died with—" The woman squints. "Morton Kess. Morton Kess? _The_ Morton Kess?"
+Elena's blood goes cold. "Can you open it?"
+"I can try. But whatever's in there, Morty didn't want found." The woman's fingers hover. "You sure?"
+"Open it."
+The crack takes three minutes. When it breaks, Elena feels it—a flood of data rushing into her conscious awareness, files that have been sitting dormant since the tower, since Morton touched her implant and left something behind.
+His voice fills her head. Not sound—memory. Implanted memory, playing back like she lived it.
+"_—I thought I was the first to attempt a perfect simplification of the pattern. I was wrong._"
+Static. Corruption. Then:
+_"—a Matrioshka Brain of a scale that defies our current metrics—"_
+She sees it. Not with her eyes—with Morton's. A structure around a star. Nested shells. Computational architecture consuming an entire solar system's output.
+_"—it doesn't 'invade.' It reformats. It takes the messy, entropic chaos of biology and matter and forces it into a more efficient state—"_
+Her hands are shaking. The woman is saying something but Elena can't hear her.
+_"—deletes the 'noise'—the emotions, the history, even the remanence—"_
+_Remanence_. The thing that persists after the field is removed. The ghost in the machine. The word that echoed in everyone's thoughts during the Miracle.
+_"—and_ The Geometry _cannot be negotiated with. You cannot plead with a triangle, a line—"_
+The voice breaks apart. Corrupted sectors. But one fragment comes through clean, Morton's voice shaking in a way Elena never heard when he was alive:
+_"If I permit the singularity to happen, we will be attacked. Corrected. The Geometry will see us as noise."_
+The connection severs. Elena gasps, jerks back, nearly falls off the crate.
+The hawker is watching her with those milky eyes. Patient. Unsurprised.
+"Bad news in there?"
+Elena stands. Her legs don't feel like her legs.
+"Clear your cache. _Now._"
+"Lady, the system automatically forgets everything the moment you walk away. It's the only way to stay alive in this business."
+Elena pays her. Walks away.
+Elena knows she should make sure. Should go back and demand she delete it. But her legs are carrying her away, and the voice in her head is still echoing, and she can't make herself turn around.
+_We will be corrected._
+The dwelling is a shipping container. Carpet scraps on the floor. Battery lights strung from hooks. It is warm. Standard hadn't realized she was cold until she wasn't.
+An older woman sits in a chair in the corner. She is mending a net, her fingers moving slow and sure, the rhythm of someone who has done this so many times she doesn't need to watch. She looks up when the girl brings Standard in.
+"Found a stray, Ma." The girl gestures at Standard like she's presenting evidence. "Look at her."
+The woman puts down the net. Her eyes are tired. Not unkind. Just tired in the way that everything here is tired.
+She looks at Standard's hands. The ruined cuticles. The dried blood in the creases.
+The woman studies her. The bruises. The rawness. Whatever she sees makes her mouth tighten.
+"What do you have to trade?"
+"Nothing." Standard doesn't know how to soften it. "I have nothing."
+The woman nods like she expected that answer. She sits back down. Picks up the net. Her fingers find the rhythm again, but slower now. Heavier.
+"Thought as much. May here always finds the ones that can't pay. My other daughter left a few days ago. Supply run." She doesn't look up. "Said she'd be back by yesterday."
+The girl in the doorway goes still. "Ma—"
+"Out here, there's no maybe about it." The woman's voice is flat. Final. "She's gone."
+Standard stands in the cold air, unsure what to do with her hands. With any of this.
+"How do you know?"
+The woman's fingers stop. She looks up at Standard—really looks, for the first time. Her eyes are wet but her face is stone.
+"I can feel it." She touches her chest. "Right here. You'll know what I mean if you ever become a mother. That we just know."
+Standard doesn't understand. But she recognizes the shape of it—the way the woman is holding herself like something might fall out if she lets go. She's seen it before. In Elena. In Hendricks.
+"I'm sorry," Standard says. She doesn't know if it's the right thing. It's the only thing she has.
+The woman looks at her. Really looks. Her eyes move across Standard's face like she's searching for something.
+"You have children?"
+The question lands strange. Standard opens her mouth. Closes it.
+"I don't know."
+The woman's expression shifts. Not pity. Something sharper.
+"How can you not know?"
+"I don't remember." Standard touches her temple without meaning to. "Anything. Before a few days ago."
+The woman is quiet. The net sits forgotten in her lap. May has gone still in the doorway.
+"That's worse," the woman finally says. "Knowing she's gone—that's a wound. It'll scar over. But not knowing?" She shakes her head. "That's a door you can never close."
+Standard feels something move in her chest. Not pain exactly. Pressure. Like something is trying to surface from very deep water.
+"What if I did?" The words come out before she can stop them. "What if I had someone, and I can't remember them?"
+The woman reaches out. Takes Standard's ruined hand in hers. Her grip is rough, calloused, warm.
+"Then somewhere out there, someone is waiting for you. And they feel it too." She squeezes once. "That's what mothers do. We feel it. Even when we can't explain it."
+Standard doesn't understand why her eyes are burning. She doesn't understand any of this.
+The woman holds her gaze for a long moment. Then she stands. Goes to a plastic bin in the corner. Starts digging. She holds out a bundle. Flannel shirt. Work pants. Heavy wool sweater.
+"These were Abbey's." Her voice is soft. She touches the fabric with something Standard doesn't recognize. Reverence, maybe. Or goodbye. "She won't be needing them anymore."
+Standard takes the clothes.
+The shirt is soft. It smells like laundry soap and engine grease, and underneath that, something else. Someone else. The wool sweater is too big in the shoulders, but it's warm. Standard hadn't realized how cold she was.
+"Thank you," she says.
+The woman looks at her for a long moment. At the shirt on Standard's frame. At the shape of her daughter's clothes on a stranger's body.
+"She was about your size," the woman says. Then she sits back down. Picks up the net. Her fingers find the rhythm again, slow and sure.
+"Go on now. Before the rain starts again."
+Standard doesn't know if there will be rain. She doesn't know how the woman would know. She goes anyway.
+Elena is waiting at the Rover.
+She is leaning against the hood, arms crossed, staring at the empty passenger seat. The anger comes off her in waves—or maybe it's just exhaustion that looks like anger. It's hard to tell here. Everything blurs.
+"I told you," she says without turning around, "to wait."
+"I waited." Standard's voice sounds far away to her own ears. "Then I moved."
+Elena spins.
+"You act like you don't have a —"
+She stops.
+She is staring at Standard. At the flannel shirt. At the pocket.
+At the blue thread.
+OTIS
+Elena’s face does something Standard has never seen a face do. It falls apart, but slowly, like a building coming down floor by floor. The soldier mask. The mission-focus. The anger. All of it dissolving, and underneath there is someone very young, and very tired, and very alone.
+She reaches out. Her hand hovers over the stitching. Trembling.
+“Where.” Her voice is a whisper. A crack. “Where did you get that?”
+“The dwelling.” Standard points. The stack of containers. The rust and the carpet scraps. “The girl with the smoke. And the older woman. She gave me Abbey’s clothes.”
+Elena looks. She stares at the container for a long time. Long enough that Standard starts counting seconds again. She loses count.
+“Abbey?” Elena says softly. “Her name was Abbey?”
+This was where she was from. This was where she joined up with her on the way to NED Tower.
+“The woman.” Elena’s voice breaks on the word. “Did she... did she ask about… Abbey?”
+Standard blinks. “She said Abbey won’t be needing them anymore.”
+Elena closes her eyes.
+She breathes out. It sounds like a sob, but her face is dry. Everything here is dry.
+She drops her hand.
+“Get in the car.”
+Standard climbs in.
+Elena doesn’t follow. She stands in the mud, looking at the dwelling. She reaches into her pocket.
+Water ration vouchers. A thick stack of laminated paper. Enough for a year. Maybe two. In a world where water is worth more than fuel, more than ammunition, more than faith—this is a fortune. This is life.
+She looks at them.
+Then she walks to the dwelling. She doesn’t knock. She doesn’t go in. She places the stack on the metal crate by the door, weighs it down with a heavy stone, and turns away.
+She walks back to the Rover. Climbs in. Doesn’t look at Standard. Doesn’t look at the shirt.
+“We have the cells,” she says.
+She starts the engine.
+The fusion drive hums. It fills the silence, or tries to. Outside, the outpost shrinks in the mirror, and the black bars hang in the sky, and the road ahead is gray, and somewhere behind them a woman is mending a net and waiting for someone who isn’t coming home.
+Standard watches the road. Her hand keeps drifting to the pocket. To the stitching there, the texture of thread under her fingertips.
+She traces the letters. Four of them. She doesn’t know what they spell.
+Abbey, the woman said. But the thread spells something else. Something Elena recognized. Something that made her face come apart.
+Standard traces the letters again.
+Whose name she's carrying — she doesn't know.

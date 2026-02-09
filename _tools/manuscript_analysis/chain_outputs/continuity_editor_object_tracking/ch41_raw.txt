@@ -1,0 +1,103 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: object_tracking
+  chapter: 41
+  timestamp: 2026-01-17 23:58:00+00:00
+
+  query_log:
+    chapter: CH41
+    previous_reports: [38, 39]
+    external_state:
+      - HANDOFF.md
+      - CHARACTERS.yaml
+      - ACT_III_MAPS.md
+
+  findings:
+    - id: CO-OB-41-001
+      type: verified
+      severity: clean
+      location: "Ash has revolver section"
+      content: "Revolver present with Ash - bullet count confirmed at 2 remaining"
+      evidence: "Ash stands over her, the revolver in his hand—Hendricks' revolver, the one with two bullets left"
+      chain_reference: Report_CH39:CO-OB-39-001
+
+    - id: CO-OB-41-002
+      type: verified
+      severity: clean
+      location: "Elena disarms Ash section"
+      content: "Elena shoots revolver from Ash's hand - bullet 5 used for Ash headshot"
+      evidence: "Elena fires first. The bullet catches the revolver's cylinder. The gun spins out of Ash's hand... He fires. The bullet passes two inches from Standard's ear... That's five"
+      chain_reference: null
+
+    - id: CO-OB-41-003
+      type: verified
+      severity: clean
+      location: "Hendricks near wall section"
+      content: "Ceramic blade still embedded in Hendricks from previous chapter"
+      evidence: "Hendricks himself lies near the far wall, ceramic blade embedded in his side, blood pooling beneath him"
+      chain_reference: Report_CH39:CO-OB-39-002
+
+    - id: CO-OB-41-004
+      type: observation
+      severity: info
+      location: "throughout chapter"
+      content: "Standard's arms not specifically referenced - no mention of which arm configuration she currently has"
+      evidence: "Standard moves and fights but no arm details given"
+      chain_reference: Report_CH39:CO-OB-39-003
+
+    - id: CO-OB-41-005
+      type: verified
+      severity: clean
+      location: "Elena implant section"
+      content: "Elena's implant actively used to boost Four's signal transmission"
+      evidence: "Tell Elena to boost the signal... Her implant. The Resonant frequency. It'll help me hold together through the jumps"
+      chain_reference: Report_CH39:CO-OB-39-004
+
+    - id: CO-OB-41-006
+      type: verified
+      severity: clean
+      location: "VTOL crash and Four departure"
+      content: "Four's VTOL crashes into throne room - Four departs via consciousness transfer"
+      evidence: "The VTOL tears through the throne room wall... Four is already moving—her consciousness stretching toward the first relay point... Four is gone"
+      chain_reference: Report_CH39:CO-OB-39-005
+
+    - id: CO-OB-41-007
+      type: verified
+      severity: clean
+      location: "Jupiter arrival section"
+      content: "New major vehicle object introduced - Jupiter Pragmatist battle carrier"
+      evidence: "Jupiter... Pragmatist battle carrier. They must have tracked us from the elevator... massive. Angular. The kind of ship that doesn't land so much as occupy"
+      chain_reference: null
+
+    - id: CO-OB-41-008
+      type: verified
+      severity: clean
+      location: "Four's transfer plan"
+      content: "Sovereignty carrier Deliverance mentioned as Four's target for consciousness transfer"
+      evidence: "There's a Sovereignty carrier in orbit. The Deliverance. If I can reach it—"
+      chain_reference: null
+
+  carry_forward:
+    - Revolver now has 1 bullet remaining (bullet 6) - will be critical for Standard's transformation
+    - Ceramic blade still in Hendricks - affects his survival status
+    - Standard's arm configuration still unspecified - may be relevant in final confrontations
+    - Elena's implant functioning and boosting signals - available for continued technical operations
+    - Four departed from VTOL to attempt Jupiter intercept via Deliverance - VTOL chassis abandoned
+    - Jupiter battle carrier now major threat to evacuation - new primary vehicle object
+    - Deliverance carrier in orbit as Four's transfer target
+
+  chain_citations:
+    - report: CH39
+      finding_id: CO-OB-39-001
+      relationship: extends
+    - report: CH39
+      finding_id: CO-OB-39-005
+      relationship: extends
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

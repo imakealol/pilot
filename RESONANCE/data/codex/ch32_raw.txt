@@ -1,0 +1,183 @@
+```yaml
+chapter: 32
+title: "FOLLOW THE LEADER"
+wordcount: 2400
+pov: "Standard"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "Council chamber (Deliverance)"
+    first_appearance: false
+    description: "Being consumed by Geometry, half the chamber gone"
+  - name: "Deliverance corridors"
+    first_appearance: false
+    description: "Emergency lighting, bodies, some geometrized"
+  - name: "Service hangar (Deliverance)"
+    first_appearance: true
+    description: "Smaller dock with single Terminist shuttle"
+  - name: "Terminist shuttle"
+    first_appearance: true
+    description: "Cramped, built for speed"
+  - name: "Holding cells (Deliverance)"
+    first_appearance: true
+    description: "Small, dark cells with magnetic cuffs"
+  - name: "Main hangar (Deliverance)"
+    first_appearance: false
+    description: "Chaotic with crew fighting for escape pods"
+  - name: "VTOL in flight"
+    first_appearance: false
+    description: "Flying along Geometry boundary toward Geneva"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "captured, taken to shuttle"
+  - name: "Kael"
+    role: "major"
+    entrance: "grabs Standard's throat"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "imprisoned in cell"
+    exit: "escaping in VTOL"
+  - name: "Four"
+    role: "major"
+    entrance: "through drone in vent"
+    exit: "piloting VTOL"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "imprisoned in cell"
+    exit: "in VTOL"
+  - name: "Dante"
+    role: "minor"
+    entrance: "meets group in corridor"
+    exit: "in VTOL"
+  - name: "Terminist soldiers"
+    role: "minor"
+    entrance: "prepping shuttle"
+    exit: "with Kael and Standard"
+
+character_states:
+  Standard:
+    physical: "injured - torn shoulder, throat bruised, wrist cut by restraint"
+    emotional: "patient, calculating"
+    location: "Terminist shuttle, bound"
+    knowledge_delta:
+      - "Kael wants to know why she can survive Geometry"
+      - "Kael thinks machines might be the only salvation"
+    inventory:
+      - item: "broken restraint"
+        status: "still attached"
+  Elena:
+    physical: "fatigued but functional"
+    emotional: "determined, worried"
+    location: "VTOL heading to Geneva"
+    knowledge_delta:
+      - "Standard has been captured by Kael"
+      - "Kael is taking her to the Quiet Zone"
+    inventory: []
+  Kael:
+    physical: "healthy but grief-stricken"
+    emotional: "wild, desperate"
+    location: "Terminist shuttle with Standard"
+    knowledge_delta:
+      - "Standard survived the Geometry passage"
+      - "His worldview is cracking"
+    inventory:
+      - item: "cable restraints"
+        status: "used on Standard"
+  Four:
+    physical: "distributed across systems"
+    emotional: "focused, determined"
+    location: "piloting VTOL"
+    knowledge_delta:
+      - "Learned to fly aggressively from Standard"
+    inventory: []
+
+objects:
+  - name: "Magnetic cuffs"
+    status: "used"
+    holder: "removed from Elena/Hendricks"
+    significance: "Standard Sovereignty restraints"
+  - name: "Dante's codes"
+    status: "used"
+    holder: "Four"
+    significance: "Allowed cell escape"
+  - name: "Terminist shuttle"
+    status: "tracked"
+    holder: "Kael"
+    significance: "Standard's prison"
+  - name: "VTOL"
+    status: "tracked"
+    holder: "Four/rescue team"
+    significance: "Escape vehicle"
+
+key_events:
+  - "Kael captures Standard as Geometry consumes the Council chamber"
+  - "Kael takes Standard to Terminist shuttle, reveals his crisis of faith"
+  - "Four rescues Elena and Hendricks from cells using Dante's codes"
+  - "The team escapes the dying Deliverance in their VTOL"
+  - "Four flies along Geometry boundary to avoid detection"
+  - "Elena decides to go to Geneva first, then rescue Standard"
+
+revelations:
+  - content: "Kael believes machines might be humanity's only salvation from Geometry"
+    to_whom: "reader and Standard"
+  - content: "Kael is taking Standard to the Quiet Zone (Ash's territory)"
+    to_whom: "reader and Elena"
+  - content: "Elena has people and resources in Geneva"
+    to_whom: "reader and Hendricks"
+
+setups:
+  - element: "Elena's mysterious connections in Geneva"
+    payoff_chapter: null
+  - element: "Standard as 'cargo' that 'can be recovered'"
+    payoff_chapter: null
+  - element: "Kael's crisis about machines being salvation"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Four learning to fly aggressively from Standard"
+    setup_chapter: 29
+
+tone: "intense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Council chamber to shuttle"
+    characters: ["Standard", "Kael", "Terminist soldiers"]
+    summary: "Kael captures Standard and takes her to his shuttle"
+  - scene_number: 2
+    location: "Terminist shuttle"
+    characters: ["Standard", "Kael"]
+    summary: "Kael reveals his crisis of faith about machines and Geometry"
+  - scene_number: 3
+    location: "Holding cells to hangar"
+    characters: ["Elena", "Four", "Hendricks", "Dante"]
+    summary: "Four rescues the team and they escape the dying Deliverance"
+  - scene_number: 4
+    location: "VTOL in flight"
+    characters: ["Elena", "Four", "Hendricks", "Dante"]
+    summary: "Team escapes along Geometry boundary and decides on Geneva"
+
+continuity_notes:
+  - "Standard still has broken restraint attached to wrist"
+  - "Deliverance is being consumed by Geometry"
+  - "Timeline of shuttle vs VTOL departure needs tracking"
+
+open_threads:
+  - "What will Kael do with Standard in the Quiet Zone?"
+  - "Who are Elena's people in Geneva?"
+  - "How will they rescue Standard from Ash's territory?"
+  - "What is Kael's plan regarding machines and Geometry?"
+
+closed_threads:
+  - "How the team escapes the Deliverance"
+  - "Whether Four can pilot the VTOL effectively"
+```

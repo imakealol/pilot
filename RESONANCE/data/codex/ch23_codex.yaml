@@ -1,0 +1,152 @@
+chapter: 23
+title: THE ICON
+wordcount: 2400
+pov: Standard
+time:
+  relative_to_previous: hours later
+  time_of_day: afternoon
+  duration: a few hours
+locations:
+- name: VTOL cockpit
+  first_appearance: false
+  description: Damaged controls, flickering displays, thirty-one percent fuel
+- name: Waystation
+  first_appearance: true
+  description: Neutral trading post with prefab structures, solar collectors, smell
+    of diesel and desperation
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Four
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: mentioned
+  entrance: already present
+  exit: chapter ends
+- name: Companion bot (Standard's face)
+  role: major
+  entrance: discovered at waystation
+  exit: stays at waystation
+- name: Waystation crowd
+  role: minor
+  entrance: at waystation
+  exit: chapter ends
+character_states:
+  Standard:
+    physical: injured (left knee not responding, structural shoulder aches)
+    emotional: confused, questioning identity
+    location: waystation
+    knowledge_delta:
+    - She has the NED Companion Series 7 face, Template 3
+    - Forty thousand others have the same face
+    - She doesn't need to eat or recharge like other bots
+    - People at the waystation see her as holy
+    inventory:
+    - item: new clothes from bot
+      status: acquired
+    - item: pack with three changes of clothes
+      status: acquired
+  Elena:
+    physical: healthy but exhausted
+    emotional: tense, calculating
+    location: waystation
+    knowledge_delta:
+    - Standard doesn't eat or recharge normally
+    - Standard resisted a lockdown sequence
+    inventory: []
+  Four:
+    physical: damaged (starboard rotor failing)
+    emotional: sarcastic, concerned
+    location: parked half kilometer from waystation
+    knowledge_delta:
+    - Standard resisted a hard-coded lockdown sequence
+    inventory: []
+objects:
+- name: Lockdown sequence words
+  status: used
+  holder: waystation man
+  significance: Can freeze companion bots, but didn't work on Standard
+- name: Fuel vouchers
+  status: acquired
+  holder: Standard's group
+  significance: Needed to continue their journey
+key_events:
+- VTOL running low on fuel, forced to land at waystation
+- Elena suggests Standard pose as available companion bot for trade
+- Standard refuses, both women disguise themselves instead
+- Standard discovers companion bot with identical face at waystation
+- Standard learns she's Template 3 of NED Companion Series 7
+- Witnesses lockdown sequence used on labor bot, reveals she resisted one
+- Waystation crowd recognizes Standard as holy figure from compound
+- Crowd kneels in worship, Standard gains new role as religious icon
+revelations:
+- content: Standard has a mass-produced face template shared by 40,000 others
+  to_whom: Standard and reader
+- content: Standard doesn't need to eat or recharge like normal companion bots
+  to_whom: Elena and reader
+- content: Standard resisted a hard-coded lockdown sequence
+  to_whom: reader and Four
+- content: Standard is recognized as a holy figure by wasteland survivors
+  to_whom: Standard and reader
+setups:
+- element: Standard's new role as religious icon
+  payoff_chapter: null
+- element: Standard's resistance to lockdown sequences
+  payoff_chapter: null
+payoffs:
+- element: Standard's unusual healing and lack of normal bot needs
+  setup_chapter: 22
+tone: revelatory
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: VTOL cockpit
+  characters:
+  - Standard
+  - Four
+  - Elena
+  - Hendricks
+  summary: Group discusses fuel shortage and Elena suggests trading Standard as companion
+    bot
+- scene_number: 2
+  location: Approaching waystation
+  characters:
+  - Standard
+  - Elena
+  summary: Both women disguise themselves after Standard refuses original plan
+- scene_number: 3
+  location: Waystation yard
+  characters:
+  - Standard
+  - Elena
+  - Four
+  - Companion bot
+  - Waystation crowd
+  summary: Standard discovers her identical companion bot and learns about her template
+    origins
+- scene_number: 4
+  location: Waystation departure
+  characters:
+  - Standard
+  - Elena
+  - Four
+  - Waystation crowd
+  summary: Crowd recognizes and worships Standard as holy figure from the compound
+continuity_notes:
+- Standard's resistance to lockdown sequences needs follow-up
+- Her lack of need for food/recharge distinguishes her from other companion bots
+open_threads:
+- What exactly is Standard if she's not a normal companion bot
+- How will her new role as religious icon affect their mission
+- What are the implications of the lockdown sequence resistance
+closed_threads:
+- How they will get fuel to continue their journey
+- Why Standard looks familiar to people

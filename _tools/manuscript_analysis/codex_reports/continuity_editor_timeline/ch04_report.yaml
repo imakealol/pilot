@@ -1,0 +1,42 @@
+_extracted_finding_ids:
+- CE-TL-04-001
+- CE-TL-04-002
+- CE-TL-04-003
+- CE-TL-04-004
+- CE-TL-04-005
+- CE-TL-04-006
+_parse_error: "sequence entries are not allowed here\n  in \"<unicode string>\", line\
+  \ 11, column 32:\n          evidence: \"They descend\" - picks up directly from\
+  \ end of  ... \n                                   ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 4\n  findings:\n    - id: CE-TL-04-001\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Timeline continuity with\
+  \ Chapter 3 maintained - immediate continuation from apartment departure\n     \
+  \ evidence: \"They descend\" - picks up directly from end of Chapter 3 where they\
+  \ were leaving the apartment\n      cross_reference: 3\n\n    - id: CE-TL-04-002\n\
+  \      type: observation\n      severity: info\n      location: revolver ammunition\
+  \ count\n      content: Ammunition tracking consistent with established count\n\
+  \      evidence: \"There are two rounds left. There were six.\"\n      cross_reference:\
+  \ 3\n\n    - id: CE-TL-04-003\n      type: verified\n      severity: clean\n   \
+  \   location: Hendricks' deteriorating condition\n      content: Physical condition\
+  \ progression consistent with previous chapter timeline\n      evidence: \"He is\
+  \ getting worse\" / \"his breathing sounds wet\" / \"twice now she's seen his knee\
+  \ buckle\"\n      cross_reference: 3\n\n    - id: CE-TL-04-004\n      type: observation\n\
+  \      severity: info\n      location: descent through building levels\n      content:\
+  \ Specific floor progression documented for spatial continuity\n      evidence:\
+  \ \"They pass Level 50... They pass Level 48... Level 42\"\n      cross_reference:\
+  \ null\n\n    - id: CE-TL-04-005\n      type: verified\n      severity: clean\n\
+  \      location: scanner reading of Standard\n      content: Standard's undetectable\
+  \ nature consistent with future revelations\n      evidence: \"Reads empty. Full\
+  \ empty.\" / \"No hum. No scar. No history.\"\n      cross_reference: 5\n\n    -\
+  \ id: CE-TL-04-006\n      type: observation\n      severity: minor\n      location:\
+  \ revolver usage\n      content: Combat sequence shows Hendricks using three rounds,\
+  \ leaving two - math checks out but doesn't account for one round used \"on Child\
+  \ in Book 1\" mentioned in codex\n      evidence: \"Three shots from a hammer fanned\
+  \ as many times... There are two rounds left. There were six.\"\n      cross_reference:\
+  \ null\n\n  carry_forward:\n    - Hendricks has 2 rounds remaining in revolver\n\
+  \    - Standard reads as \"empty\" on all technological scans\n    - Hendricks'\
+  \ condition is critical and deteriorating rapidly\n    - They are descending through\
+  \ building levels (currently below Level 42)\n    - Standard can withstand physical\
+  \ pain without normal human response\n\n  self_check:\n    stayed_in_lane: true\n\
+  \    findings_cited: true\n```"

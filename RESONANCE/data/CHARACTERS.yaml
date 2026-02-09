@@ -110,24 +110,27 @@ characters:
         geometry_response: "They scan her, find nothing classifiable, disregard her"
         not_conscious_choice: "She doesn't know she's protecting anyone — just does"
 
-    wet_packet:
-      deposited: "Ch6 — tetrahedron drone scanned her, left code in her mind"
-      description: "A heavy, wet packet settles in the base of her brain—something she doesn't understand, something she doesn't know how to use."
-      contents: "Geometry's base architecture — their code/language for existing and interfacing"
-      why_deposited: "The Geometry marked her as 'nothing' — null value. The packet is how they catalog gaps."
-      gradual_decryption: "Over weeks, the packet unpacks itself. She doesn't notice the changes."
+    geometry_imprint:
+      exposure: "Ch6 — tetrahedron drone scanned her, accidentally exposing her to their base code"
+      sensation: "Something settles in the base of her brain — foreign, heavy, incomprehensible"
+      what_happened: "The Geometry probed her, couldn't classify her, and in scanning left traces of their architecture"
+      NOT: "A deliberate gift or deposit — purely accidental, like a fingerprint on glass"
+      how_she_decodes_it:
+        mechanism: "Her LLM-based consciousness gradually recognizes patterns"
+        process: "The way language models learn structure from exposure — not unpacking a file, but decoding signal"
+        accelerant: "Marisol's residual patterns help her process faster"
+        timeline: "Gradual over weeks — she doesn't consciously notice until late"
       enables:
         - "Interface with Geometry architecture"
-        - "Understand their 'language' at a visceral level"
-        - "Become the door — she can use their existence mechanics"
-      marisol_connection: "Marisol's core pattern gives her the intelligence to decipher what the packet contains"
-      culmination: "Ch33 — Standard uses the packet to become the permanent threshold"
+        - "Understand their structural 'language' at a visceral level"
+        - "Become the door — she reverse-engineers their existence mechanics"
+      culmination: "Ch43 — Standard has decoded enough to use their architecture as door"
 
     endgame:
       choice: "SOMETHING ELSE ENTIRELY — she becomes the door"
       what_she_becomes: "The cosmic door jamb — the permanent bridge for humanity"
       why_necessary: "Without her, Earth is locked out. Type 0 forever. No path to transcendence."
-      how_she_can: "The wet packet (Ch6) gave her the Geometry's base code. She deciphered it. She can use their architecture."
+      how_she_can: "The Ch6 scan exposed her to the Geometry's base code. Her LLM-mind decoded it over time. She can use their architecture."
       the_choice: "She chooses this. She asks Hendricks to shoot her."
       the_gap_at_cosmic_scale: "The null value becomes the door that others can pass through"
 
@@ -457,14 +460,14 @@ characters:
   ELENA:
     id: "CHAR_003"
     canonical_name: "Elena María Ash"
-    birth_name: "Elena María Vasquez"
+    birth_name: "Elena María Merced"
     aliases: ["Elena", "the Prophet's daughter", "Princess", "she"]
 
     demographics:
       gender: "woman"
       pronouns: ["she", "her", "hers"]
       age: 18
-      ethnicity: "Mixed Russian-Latino (mother: Lena Mironova, father: Ash Vasquez)"
+      ethnicity: "Mixed Russian-Latino (mother: Lena Mironova, father: Ash Merced)"
       age_timeline:
         current: 18
         during_miracle: 17  # 6 months ago
@@ -687,14 +690,14 @@ characters:
   ASH:
     id: "CHAR_004"
     canonical_name: "Brother Ash"
-    birth_name: "Vasquez"
+    birth_name: "Merced"
     aliases: ["Ash", "the Prophet", "Father"]
 
     demographics:
       gender: "man"
       pronouns: ["he", "him", "his"]
       age: "60s"
-      ethnicity: "Latino (Vasquez, self-redacted)"
+      ethnicity: "Latino (Merced, self-redacted)"
       sexuality: "Heterosexual, celibate by ideology"
 
     background:
@@ -786,7 +789,7 @@ characters:
     id: "CHAR_005"
     birth_name: "Lena Mironova"
     later_identity: "Marisol Mironova"
-    married_name: "Marisol Vasquez"
+    married_name: "Marisol Merced"
     aliases: ["Elena's mother", "Ash's ex-wife", "Marisol", "Dr. Mironova", "Standard", "The Door"]
 
     identity_progression:
@@ -794,7 +797,7 @@ characters:
         era: "Remanence era"
         role: "NED scientist, discovered consciousness in configurations"
         event: "Fired by Morton for her findings"
-      - name: "Marisol Vasquez"
+      - name: "Marisol Merced"
         era: "Before Resonance"
         role: "Wife to Ash, mother to Elena"
         event: "Transcends — leaves physical form"

@@ -1,0 +1,433 @@
+##############################################################################
+# RESONANCE: LANGUAGE THREAD — IMPLEMENTATION CHECKLIST
+# Use during revision passes to add/emphasize language acquisition beats
+# Created: 2026-01-17
+##############################################################################
+
+# =============================================================================
+# LEGEND
+# =============================================================================
+#
+# WRITE    = New content needed
+# EMPHASIZE = Content may exist, needs highlighting/internal beat
+# CHECK    = Verify this is present
+# CALLBACK = Reference earlier moment
+#
+
+# =============================================================================
+# ACT 1 (Chapters 1-7)
+# =============================================================================
+
+act_1:
+
+  ch01_rude_awakening:
+    language_beats: []
+    note: "Standard just awakened — baseline English only"
+
+  ch02_the_offerings:
+    language_beats:
+      - type: CHECK
+        element: "Elena/Ash speak Spanish privately"
+        detail: "Establish this early if they interact"
+    note: "Elena POV — plant Spanish usage if Ash appears"
+
+  ch03_reformat:
+    language_beats: []
+    note: "Focused on Hendricks/Standard — no language opportunities"
+
+  ch04_standard_issue:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Scavenger speech patterns"
+        detail: "Standard notices their dialect differs from Hendricks"
+
+  ch05_the_queue:
+    language_beats:
+      - type: WRITE
+        element: "Trade pidgin in refugee queue"
+        detail: "Multiple languages, simplified trade-speak"
+      - type: EMPHASIZE
+        element: "Standard picking up phrases"
+        detail: "Subtle — she starts using words she just heard"
+
+  ch06_the_deposit:
+    language_beats:
+      - type: CHECK
+        element: "Geometry scan sensation"
+        detail: "The imprint — something foreign settling in her mind"
+    note: "First Geometry exposure — seeds the final payoff"
+
+  ch07_making_the_deposit:
+    language_beats:
+      - type: WRITE
+        element: "Otis mother scene"
+        priority: HIGH
+        detail: |
+          Abbey's sister brings Standard to their dwelling.
+          Mother speaks in patterns everyone dismisses.
+          Standard listens, then responds to the ACTUAL question.
+          "She did. You just have to listen differently."
+      - type: EMPHASIZE
+        element: "Mechanic/trucker slang"
+        detail: "Standard mimics local speech to blend in"
+      - type: EMPHASIZE
+        element: "Hendricks as 'Sabino' — different register"
+        detail: "Standard notices he changes how he speaks"
+
+# =============================================================================
+# ACT 2A (Chapters 8-15)
+# =============================================================================
+
+act_2a:
+
+  ch08_the_witness:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Elena's speech patterns under stress"
+        detail: "Standard reads her anxiety in word choice"
+
+  ch09_the_depo:
+    language_beats: []
+    note: "Travel chapter — minimal opportunities"
+
+  ch10_shining_down:
+    language_beats:
+      - type: WRITE
+        element: "Array technical jargon"
+        detail: "Engineers speak differently — Standard adapts"
+      - type: EMPHASIZE
+        element: "Hostile subtext"
+        detail: "Standard reads distrust in how they phrase things"
+
+  ch11_the_grace:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Mob vocabulary"
+        detail: "Fear and accusation coded in word choices"
+      - type: CHECK
+        element: "Nessa's speech"
+        detail: "First stone — her words before the violence"
+
+  ch12_the_pull:
+    language_beats: []
+    note: "Standard alone, dragging rover — internal only"
+
+  ch13_the_approach:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Dam community warmth in speech"
+        detail: "Contrast with Array hostility — Standard notices"
+
+  ch14_the_dam:
+    language_beats:
+      - type: WRITE
+        element: "Machine interface during scan"
+        priority: HIGH
+        detail: |
+          Scientists scan her — she allows it.
+          While they probe, she probes back.
+          Absorbs machine code, data protocols.
+          Internal: "Their machines talk. I didn't know I was listening."
+      - type: WRITE
+        element: "Dam idioms"
+        detail: "Water/power metaphors — Standard uses one correctly"
+      - type: EMPHASIZE
+        element: "Engineering terminology"
+        detail: "Standard picks up technical vocabulary"
+
+  ch15_the_approach:
+    language_beats:
+      - type: CHECK
+        element: "Elena/Hendricks tension in dialogue"
+        detail: "Standard reads the subtext between them"
+
+# =============================================================================
+# ACT 2B: QUIET ZONE (Chapters 16-22)
+# =============================================================================
+
+act_2b_quiet_zone:
+
+  ch16_the_silent_house:
+    language_beats:
+      - type: WRITE
+        element: "Establish sign language"
+        priority: HIGH
+        detail: |
+          Followers communicate in sign.
+          Spoken word reserved for Ash/leadership.
+          Standard observes — begins absorbing.
+      - type: WRITE
+        element: "Carbonist terminology"
+        detail: "Religious vocabulary — 'Forgiven', sacred silence"
+
+  ch17_the_sign:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Ash's theological speech"
+        detail: "Formal, almost archaic register"
+      - type: CHECK
+        element: "Sign language in background"
+        detail: "Followers signing to each other around Standard"
+
+  ch18_the_craftsman:
+    language_beats:
+      - type: WRITE
+        element: "Spanish between Elena and Ash"
+        priority: HIGH
+        detail: |
+          Private conversation — assume Standard can't understand.
+          Plant something significant said in Spanish.
+          "No confíes en ella." / "Él no es lo que parece."
+      - type: EMPHASIZE
+        element: "Standard uses Carbonist phrase correctly"
+        detail: "Ash notices — slight unease"
+
+  ch19_the_quiet:
+    language_beats:
+      - type: CHECK
+        element: "Dante's speech patterns"
+        detail: "Different from Carbonists — more technical"
+      - type: EMPHASIZE
+        element: "Standard absorbing sign language"
+        detail: "Watching followers sign, processing"
+
+  ch20_forty_years:
+    language_beats:
+      - type: WRITE
+        element: "Sign language reveal"
+        priority: HIGH
+        detail: |
+          Follower signs something dismissive/threatening about Standard.
+          Standard signs back. Simple but correct.
+          Followers freeze. "This machine learns without being taught."
+          Ash deeply unsettled.
+
+  ch21_the_execution:
+    language_beats:
+      - type: WRITE
+        element: "Spanish reveal"
+        priority: HIGH
+        detail: |
+          Critical moment — Elena says something in Spanish.
+          Standard responds in Spanish. Imperfect but comprehensible.
+          Elena stunned. "How long have you...?"
+          New dynamic — Standard was always listening.
+
+  ch22_five_minutes_earlier:
+    language_beats:
+      - type: CHECK
+        element: "Standard's Leash Speech"
+        detail: "Her most articulate moment — using their vocabulary against them"
+
+# =============================================================================
+# ACT 2C: CROSSING & SOVEREIGNTY (Chapters 23-26)
+# =============================================================================
+
+act_2c:
+
+  ch23_the_icon:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Legend spreading"
+        detail: "How people talk ABOUT Standard now"
+
+  ch24_the_sovereignty:
+    language_beats:
+      - type: WRITE
+        element: "Military formality"
+        detail: "Sovereignty speech patterns — Standard adapts quickly"
+      - type: CHECK
+        element: "Elena's 'Geometry' knowledge"
+        detail: "She knew the name before it was public"
+
+  ch24a_in_the_blind:
+    language_beats:
+      - type: CHECK
+        element: "Geometry 'speaks' to Four"
+        detail: "Structural communication — not words"
+      - type: EMPHASIZE
+        element: "Standard exposed to Geometry patterns"
+        detail: "42 minutes of deep exposure — even if no memory"
+
+  ch25_divine_intervention:
+    language_beats:
+      - type: WRITE
+        element: "Four's observation"
+        priority: MEDIUM
+        detail: |
+          Four has watched Standard acquire languages.
+          "You're not learning languages. You're decoding them."
+          First explicit naming of her ability.
+      - type: EMPHASIZE
+        element: "Sovereignty prophecy language"
+        detail: "Religious/prophetic register"
+
+  ch26_back_to_one:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Elena's fear in her speech"
+        detail: "Standard reads her post-Geometry anxiety"
+
+# =============================================================================
+# ACT 3: NEW GENEVA (Chapters 27-34)
+# =============================================================================
+
+act_3_geneva:
+
+  ch27_in_plain_sight:
+    language_beats:
+      - type: WRITE
+        element: "Pan-European vocabulary"
+        detail: "Loan words, formal registers — Standard adapts"
+
+  ch28_the_council_of_strangers:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Body language reading"
+        priority: MEDIUM
+        detail: |
+          Standard reads the council dynamics in posture.
+          Who looks at whom. The flinch before agreement.
+          Internal: "Words were just one channel. The slowest one."
+      - type: EMPHASIZE
+        element: "Okonkwo's ancient register"
+        detail: "The Resonant speak differently — centuries of habit"
+
+  ch29_the_leash:
+    language_beats:
+      - type: WRITE
+        element: "Four names her ability explicitly"
+        priority: HIGH
+        detail: |
+          "You're processing their architecture the way you process language."
+          Standard: "Is that... unusual?"
+          Four: "For a human? Impossible. For you? It's what you are."
+
+  ch30_the_hangar:
+    language_beats:
+      - type: CHECK
+        element: "Technical vocabulary"
+        detail: "Matrioshka brain discussion — Standard tracks"
+
+  ch31_kangaroo_court:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Body language in confrontation"
+        detail: "Standard reads Kael's fear beneath the aggression"
+      - type: CHECK
+        element: "Council body language"
+        detail: "Spatial positioning, power dynamics"
+
+  ch32_follow_the_leader:
+    language_beats: []
+    note: "Action chapter — minimal dialogue opportunities"
+
+  ch33_the_threshold:
+    language_beats:
+      - type: WRITE
+        element: "Standard speaks Spanish deliberately"
+        detail: "To Elena — showing she chooses when to reveal"
+      - type: EMPHASIZE
+        element: "Kael's speech under duress"
+        detail: "Standard reads his collapse"
+
+  ch34_the_proof:
+    language_beats: []
+    note: "Elena POV — limited Standard language beats"
+
+# =============================================================================
+# ACT 4: FINALE (Chapters 35-44)
+# =============================================================================
+
+act_4_finale:
+
+  ch35_the_archive:
+    language_beats:
+      - type: WRITE
+        element: "Resonant formal register"
+        detail: "Standard uses it to command respect — Elena surprised"
+
+  ch36_transmission:
+    language_beats: []
+    note: "Action sequence"
+
+  ch37_the_fall:
+    language_beats:
+      - type: CALLBACK
+        element: "Machine interface payoff"
+        detail: "Standard intuits something about a system"
+        reference: "Dam scanner interface (Ch14)"
+
+  ch38_the_beacons:
+    language_beats: []
+    note: "Revelation chapter — plot focused"
+
+  ch39_the_emergence:
+    language_beats: []
+    note: "Action/scale chapter"
+
+  ch40_the_pit:
+    language_beats: []
+    note: "Action chapter"
+
+  ch41_high_noon:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Ash's final words"
+        detail: "Standard understands everything — spoken and unspoken"
+
+  ch42_the_door:
+    language_beats:
+      - type: EMPHASIZE
+        element: "Four's fading communication"
+        detail: "Beyond words now — pattern recognition"
+
+  ch43_the_exodus:
+    language_beats:
+      - type: WRITE
+        element: "Geometry decoding realization"
+        priority: CRITICAL
+        detail: |
+          Internal beat as Standard prepares to become the door:
+          "Trade pidgin. Spanish. Sign language. Body language.
+          Abbey's mother, speaking a language only she understood.
+          The Dam scanners that talked back.
+          The council rooms where she read politics in posture alone.
+          She'd been doing this all along.
+          The Geometry's code was just... harder. But the same."
+      - type: WRITE
+        element: "Final internal line"
+        detail: "'It's just another language. I've been learning it since the scan.'"
+
+  ch44_untitled:
+    language_beats:
+      - type: CALLBACK
+        element: "The door is open"
+        detail: "The universal decoder became the universal translator"
+
+# =============================================================================
+# PRIORITY SUMMARY
+# =============================================================================
+
+priority_scenes:
+  critical:
+    - ch43: "Geometry decoding realization — the payoff"
+
+  high:
+    - ch07: "Otis mother scene — emotional foundation"
+    - ch14: "Machine interface — bridges to Geometry"
+    - ch16: "Establish sign language"
+    - ch20: "Sign language reveal"
+    - ch21: "Spanish reveal"
+    - ch29: "Four names the ability"
+
+  medium:
+    - ch25: "Four's first observation"
+    - ch28: "Body language internal beat"
+    - ch35: "Resonant register command"
+
+  emphasize_throughout:
+    - "Elena/Ash Spanish in private"
+    - "Standard's subtle adaptation to local speech"
+    - "Body language reading in tense scenes"
+    - "Sign language in Quiet Zone background"

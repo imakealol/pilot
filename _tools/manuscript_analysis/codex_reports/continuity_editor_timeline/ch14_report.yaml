@@ -1,0 +1,42 @@
+_extracted_finding_ids:
+- CE-TL-14-001
+- CE-TL-14-002
+- CE-TL-14-003
+- CE-TL-14-004
+- CE-TL-14-005
+_parse_error: "sequence entries are not allowed here\n  in \"<unicode string>\", line\
+  \ 34, column 42:\n     ... tent: \"The scans take two days\" - this duration needs\
+  \ tracking f ... \n                                         ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 14\n  findings:\n    - id: CE-TL-14-001\n      type: issue\n      severity: minor\n\
+  \      location: Opening section - \"three days ago\"\n      content: Nessa's stone-throwing\
+  \ is referenced as \"three days ago\" but timeline tracking suggests this may be\
+  \ inconsistent with chapter-to-chapter progression\n      evidence: \"The woman\
+  \ who threw stones at Standard three days ago\"\n      cross_reference: 11\n   \
+  \ \n    - id: CE-TL-14-002\n      type: observation\n      severity: info\n    \
+  \  location: Hendricks aging progression\n      content: Hendricks' physical deterioration\
+  \ is accelerating - \"aged ten years in three days\" - consistent with established\
+  \ regulator withdrawal timeline\n      evidence: \"You've aged ten years in three\
+  \ days... Your telomeres are degrading faster than I can stabilize them\"\n    \
+  \  cross_reference: 13\n    \n    - id: CE-TL-14-003\n      type: verified\n   \
+  \   severity: clean\n      location: Morton's \"Geometry\" term spread\n      content:\
+  \ Elena's recognition of the term \"Geometry\" spreading from Morton's private cache\
+  \ correctly references her earlier exposure\n      evidence: \"Morton's word. His\
+  \ private shorthand for something he couldn't name. She'd heard it in her own voice,\
+  \ bleeding from her implant in that filthy Rover\"\n      cross_reference: 8\n \
+  \   \n    - id: CE-TL-14-004\n      type: observation\n      severity: info\n  \
+  \    location: Two-day scan duration\n      content: \"The scans take two days\"\
+  \ - this duration needs tracking for overall mission timeline pressure\n      evidence:\
+  \ \"The scans take two days. Non-invasive, like Reyes promised\"\n      cross_reference:\
+  \ null\n    \n    - id: CE-TL-14-005\n      type: verified\n      severity: clean\n\
+  \      location: Hendricks' mission timeline awareness\n      content: Hendricks'\
+  \ reference to \"Two bullets and a promise\" correctly tracks his ongoing mission\
+  \ parameters\n      evidence: \"Two bullets and a promise he made to himself before\
+  \ Standard opened her eyes in that crate\"\n      cross_reference: 3\n\n  carry_forward:\n\
+  \    - Hendricks' physical deterioration accelerating - \"ten years in three days\"\
+  \n    - Array survivors (including Nessa) and Kellerman remain at the dam\n    -\
+  \ Standard beginning to set boundaries and ask questions\n    - Elena carrying guilt\
+  \ about Morton's \"Geometry\" term spreading\n    - Two-day delay at dam for scanning\
+  \ adds to mission timeline\n    - Hendricks still carrying revolver with remaining\
+  \ bullets for unfinished business\n\n  self_check:\n    stayed_in_lane: true\n \
+  \   findings_cited: true\n```"

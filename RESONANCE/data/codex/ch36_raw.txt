@@ -1,0 +1,152 @@
+```yaml
+chapter: 36
+title: "TRANSMISSION"
+wordcount: 2400
+pov: "Elena"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "dawn"
+  duration: "hours"
+
+locations:
+  - name: "Elevator car on orbital tether"
+    first_appearance: true
+    description: "Small cargo elevator descending the tether, metal walls with viewport"
+  - name: "Orbital tether"
+    first_appearance: true
+    description: "Carbon nanotube ribbon connecting station to Earth"
+  - name: "Four's VTOL cargo bay"
+    first_appearance: false
+    description: "Amber-lit cargo bay used for dramatic midair rescue"
+  - name: "The Scrapyard"
+    first_appearance: true
+    description: "Half-rendered terrain below - simplified mountains, geometric shapes, incomplete geography"
+  - name: "Quiet Zone"
+    first_appearance: false
+    description: "Unedited reality within the Softing's protection bubble"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "leaves for compound alone"
+  - name: "Four"
+    role: "major"
+    entrance: "voice only via comms"
+    exit: "chapter ends"
+  - name: "Dante"
+    role: "mentioned"
+    entrance: "mentioned only"
+    exit: "mentioned only"
+
+character_states:
+  Elena:
+    physical: "injured (bruised from crash landing)"
+    emotional: "determined, focused"
+    location: "Four's VTOL heading to Softing"
+    knowledge_delta:
+      - "Pragmatists had sleeper agents at the station"
+      - "The Geometry creates redaction bars over population centers"
+      - "The Softing bubble shrinks daily and will fail in 18 months"
+    inventory:
+      - item: "scar on palm"
+        status: "still has"
+  Hendricks:
+    physical: "injured (head wound, internal damage from impacts)"
+    emotional: "focused, determined"
+    location: "on foot heading to compound"
+    knowledge_delta:
+      - "Pragmatists destroyed the tether"
+      - "Template 3s cannot enter Quiet Zone while Softing is active"
+    inventory:
+      - item: "magpulse"
+        status: "still has"
+  Four:
+    physical: "healthy"
+    emotional: "relieved, professional"
+    location: "piloting VTOL"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "Orbital tether"
+    status: "destroyed"
+    holder: "none"
+    significance: "Transportation link severed by Pragmatists"
+  - name: "Magpulse"
+    status: "tracked"
+    holder: "Hendricks"
+    significance: "Primary weapon for compound assault"
+  - name: "The Softing"
+    status: "tracked"
+    holder: "Elena's father's compound"
+    significance: "Must be disabled for Template 3 reinforcements"
+
+key_events:
+  - "Elena and Hendricks descend orbital tether toward Earth"
+  - "Pragmatist sleeper agents detonate charges, destroying tether sections"
+  - "Elevator car breaks free and falls toward Earth"
+  - "Four performs midair rescue, catching them in VTOL cargo bay"
+  - "They navigate through redaction bars in the Scrapyard"
+  - "Landing in Quiet Zone, Hendricks heads to compound alone"
+  - "Elena heads to disable the Softing"
+
+revelations:
+  - content: "Pragmatists had sleeper agents at the orbital station"
+    to_whom: "Elena and Hendricks"
+  - content: "The Geometry creates denser redaction bars over population centers"
+    to_whom: "reader and Elena"
+  - content: "The Softing bubble shrinks daily and will completely fail in 18 months"
+    to_whom: "reader and Hendricks"
+
+setups:
+  - element: "Hendricks going to compound alone while injured"
+    payoff_chapter: null
+  - element: "Elena must disable the Softing for Template 3 reinforcements"
+    payoff_chapter: null
+  - element: "Dante preparing orbital transmission to all AIs"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Four's piloting skills saving Elena and Hendricks"
+    setup_chapter: 34
+
+tone: "intense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Elevator car on tether"
+    characters: ["Elena", "Hendricks"]
+    summary: "Elena and Hendricks descend the orbital tether, discussing the plan."
+  - scene_number: 2
+    location: "Falling elevator car"
+    characters: ["Elena", "Hendricks", "Four"]
+    summary: "Pragmatists destroy the tether and the car falls toward Earth."
+  - scene_number: 3
+    location: "Four's VTOL"
+    characters: ["Elena", "Hendricks", "Four"]
+    summary: "Four rescues them midair and navigates through the Scrapyard."
+  - scene_number: 4
+    location: "Quiet Zone landing site"
+    characters: ["Elena", "Hendricks", "Four"]
+    summary: "They land in the Quiet Zone and split up for final objectives."
+
+continuity_notes:
+  - "Hendricks repeatedly reaches for missing revolver, establishing his discomfort"
+  - "Elena's palm scar continues as recurring physical anchor"
+
+open_threads:
+  - "Will Hendricks survive the compound assault while injured"
+  - "Can Elena successfully disable the Softing"
+  - "Will Dante's transmission reach the Template 3s in time"
+  - "What is Standard's current condition at the compound"
+
+closed_threads:
+  - "How Elena and Hendricks will reach Earth from the station"
+```

@@ -1,0 +1,188 @@
+```yaml
+chapter: 21
+title: "THE EXECUTION"
+wordcount: 2200
+pov: "omniscient"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "dawn"
+  duration: "minutes"
+
+locations:
+  - name: "armory closet"
+    first_appearance: true
+    description: "A closet converted to equipment storage with racks of body armor, helmets, and weapons"
+  - name: "service alley"
+    first_appearance: true
+    description: "Narrow gray corridor behind the compound"
+  - name: "compound courtyard"
+    first_appearance: false
+    description: "Stone courtyard with acoustic dampeners and execution platform at center"
+  - name: "motor pool"
+    first_appearance: true
+    description: "Field of asphalt with rovers, trucks, and aircraft under floodlights"
+
+characters_present:
+  - name: "Standard"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "bound on execution platform"
+    exit: "chapter ends"
+  - name: "Ash"
+    role: "major"
+    entrance: "preaching at execution"
+    exit: "watching from courtyard edge"
+  - name: "executioner"
+    role: "minor"
+    entrance: "on platform with blade"
+    exit: "dies"
+  - name: "guards"
+    role: "minor"
+    entrance: "stationed throughout compound"
+    exit: "multiple die, survivors surrender"
+  - name: "the faithful congregation"
+    role: "minor"
+    entrance: "gathered for execution"
+    exit: "flee during gunfight"
+
+character_states:
+  Standard:
+    physical: "healthy, equipped with tactical gear"
+    emotional: "determined, instinctive"
+    location: "ascending with Elena and Hendricks"
+    knowledge_delta:
+      - "Can operate aircraft with palm scanner"
+      - "Has superhuman physical abilities"
+    inventory:
+      - item: "magpulse rifle"
+        status: "still has"
+      - item: "tactical vest and boots"
+        status: "still has"
+  Elena:
+    physical: "injured (shot in vest), fatigued"
+    emotional: "resolute, grim"
+    location: "ascending with Standard"
+    knowledge_delta:
+      - "Father's hold over followers is breaking"
+    inventory:
+      - item: "magpulse rifle"
+        status: "still has"
+      - item: "sidearm"
+        status: "still has"
+      - item: "knife"
+        status: "used"
+  Hendricks:
+    physical: "critical condition, leg injury"
+    emotional: "resigned, determined"
+    location: "ascending with Standard"
+    knowledge_delta: []
+    inventory:
+      - item: "magpulse rifle"
+        status: "acquired"
+  Ash:
+    physical: "healthy"
+    emotional: "shocked, abandoned"
+    location: "compound courtyard"
+    knowledge_delta:
+      - "His authority is collapsing"
+      - "Standard has unexplained abilities"
+    inventory:
+      - item: "megaphone"
+        status: "still has"
+
+objects:
+  - name: "tactical vests and equipment"
+    status: "used"
+    holder: "Standard and Elena"
+    significance: "Protection and disguise"
+  - name: "magpulse rifles"
+    status: "used"
+    holder: "Standard, Elena, Hendricks"
+    significance: "Weapons for rescue attempt"
+  - name: "execution blade"
+    status: "dropped"
+    holder: "execution platform"
+    significance: "Symbol of failed execution"
+  - name: "aircraft with palm scanner"
+    status: "used"
+    holder: "Standard"
+    significance: "Escape vehicle that responds to Standard"
+  - name: "megaphone"
+    status: "used"
+    holder: "Ash"
+    significance: "Authority symbol, then abandoned"
+
+key_events:
+  - "Elena equips Standard with tactical gear and weapons"
+  - "Standard finds aircraft that responds to her palm print"
+  - "Elena infiltrates execution ceremony and shoots executioner"
+  - "Elena and Hendricks fight guards in coordinated gunbattle"
+  - "Standard descends from sky and lifts them to safety"
+  - "Faithful witnesses interpret rescue as divine intervention"
+  - "Ash's authority collapses as followers abandon him"
+
+revelations:
+  - content: "Standard can operate advanced technology instinctively"
+    to_whom: "reader and Standard"
+  - content: "Standard has superhuman physical abilities including flight/levitation"
+    to_whom: "reader and all characters"
+  - content: "Ash's hold over his followers is fragile and breaking"
+    to_whom: "reader and Ash"
+
+setups:
+  - element: "Standard's unexplained abilities and technology interface"
+    payoff_chapter: null
+  - element: "Collapse of Ash's religious authority"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Standard's inhuman nature hinted at throughout story"
+    setup_chapter: 1
+
+tone: "action"
+pacing: "climactic"
+
+scene_breaks:
+  - scene_number: 1
+    location: "armory closet"
+    characters: ["Standard", "Elena"]
+    summary: "Elena equips Standard with tactical gear and weapons for the rescue."
+  - scene_number: 2
+    location: "service alley and courtyard"
+    characters: ["Standard", "Elena"]
+    summary: "They observe the execution setup and Elena sends Standard to find transport."
+  - scene_number: 3
+    location: "motor pool"
+    characters: ["Standard"]
+    summary: "Standard finds an aircraft that responds to her palm print."
+  - scene_number: 4
+    location: "compound courtyard"
+    characters: ["Elena", "Hendricks", "Ash", "executioner", "guards", "congregation"]
+    summary: "Elena attacks during the execution and fights alongside freed Hendricks."
+  - scene_number: 5
+    location: "compound courtyard"
+    characters: ["Standard", "Elena", "Hendricks", "Ash", "guards", "congregation"]
+    summary: "Standard descends from sky to rescue them, appearing divine to witnesses."
+
+continuity_notes:
+  - "Standard's palm print works on advanced technology"
+  - "Physical capabilities beyond human normal"
+  - "Religious followers interpret rescue as miracle"
+
+open_threads:
+  - "What is Standard's true nature and origin"
+  - "How will Ash respond to loss of authority"
+  - "Where will the trio go now"
+
+closed_threads:
+  - "Hendricks' execution prevented"
+  - "Elena's infiltration of compound completed"
+```

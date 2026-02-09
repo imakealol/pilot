@@ -1,0 +1,81 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Six Array survivors now know Standard can protect people from Geometry attacks
+  - Water reserves completely depleted for emergency fuel conversion
+  - Story of Standard surviving Drop will spread as Elena plans to use reputation
+  - Kellerman remains at Array with unconscious crowd members
+  - Fuel at 14% with roughly 40 miles range remaining
+  chapter: 11
+  findings:
+  - content: Timeline flows correctly from Chapter 10 - group arrived at Array at
+      sunset, chapter begins "through the night"
+    cross_reference: 10
+    evidence: She sits in the Rover through the night, watching the compound through
+      the windshield
+    id: CONT-TIME-11-001
+    location: Chapter opening
+    severity: clean
+    type: verified
+  - content: Kellerman's medical checks follow logical overnight timeline
+    cross_reference: 10
+    evidence: Kellerman checked on him twice—once at midnight, once near dawn
+    id: CONT-TIME-11-002
+    location: Night sequence
+    severity: clean
+    type: verified
+  - content: Morning departure timing aligns with fuel sabotage discovery
+    cross_reference: 10
+    evidence: The sky begins to gray... Elena emerges from the common area. She looks
+      like she hasn't slept either
+    id: CONT-TIME-11-003
+    location: Dawn departure
+    severity: clean
+    type: verified
+  - content: Fuel timeline is internally consistent - "two hours of hydrogen" becomes
+      "eighteen percent" after water conversion, roughly 50-60 miles range
+    cross_reference: null
+    evidence: We've got maybe two hours of hydrogen in the tank... The fuel gauge...
+      Climbs. Stops at eighteen percent
+    id: CONT-TIME-11-004
+    location: Fuel calculations
+    severity: info
+    type: observation
+  - content: Scanner results build logically on established timeline of Standard's
+      unusual nature
+    cross_reference: 10
+    evidence: She's empty. Like she was never connected to anything
+    id: CONT-TIME-11-005
+    location: Medical scan sequence
+    severity: clean
+    type: verified
+  - content: Drop event mirrors previous frequency attacks with consistent symptoms
+      and Standard's immunity
+    cross_reference: 6
+    evidence: Standard has felt this before. At the checkpoint. Before the Drop
+    id: CONT-TIME-11-006
+    location: Geometry frequency event
+    severity: clean
+    type: verified
+  - content: Six survivors standing near Standard matches the protective radius established
+      in earlier Drop events
+    cross_reference: 6
+    evidence: Six. Six people still moving. All of them within arm's reach of where
+      she stood
+    id: CONT-TIME-11-007
+    location: Survival count
+    severity: clean
+    type: verified
+  - content: Distance and fuel consumption align - "ten-mile marker" with fuel dropping
+      from 18% to 14% suggests consistent consumption rate
+    cross_reference: null
+    evidence: Elena wakes somewhere around the ten-mile marker... fuel gauge drops
+      to fourteen percent
+    id: CONT-TIME-11-008
+    location: Chapter end
+    severity: clean
+    type: verified
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

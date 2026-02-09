@@ -1,0 +1,62 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Four is AutoPilot system with memory gaps from extended dormancy
+  - Standard demonstrates intuitive piloting abilities without training
+  - Ash was signaling during the rescue (potential coordination with other forces)
+  - Standard's physical capabilities include enhanced strength but she experiences
+    injury and fatigue
+  - Geneva established as destination (3000km through hostile airspace)
+  chapter: 22
+  findings:
+  - content: Chapter titled "FIVE MINUTES EARLIER" but occurs immediately after previous
+      chapter events, not as flashback
+    cross_reference: 21
+    evidence: Chapter 21 ends with Standard ascending with Elena and Hendricks. Chapter
+      22 opens with Standard in VTOL cockpit already present, suggesting simultaneous
+      not earlier events
+    id: CE-TL-22-01
+    location: Chapter title and opening
+    severity: major
+    type: issue
+  - content: Execution timeline matches previous chapter - "five minutes, maybe less"
+      aligns with Chapter 21 urgency
+    cross_reference: 21
+    evidence: Based on movement patterns? Five minutes. Maybe less.
+    id: CE-TL-22-02
+    location: Execution timing reference
+    severity: info
+    type: observation
+  - content: Ninety-second stealth window matches rapid action sequence described
+    evidence: The compound's radar would lose track of us for ninety seconds before
+      they recalibrate
+    id: CE-TL-22-03
+    location: Rappelling sequence duration
+    severity: clean
+    type: verified
+  - content: Four's confusion about time passage suggests significant gap since last
+      operation, but no specific timeframe established
+    evidence: How long was I out? What year is it?
+    id: CE-TL-22-04
+    location: Four's awakening dialogue
+    severity: minor
+    type: observation
+  - content: Altitude increase is logically paced - "One hundred feet. Two hundred...
+      Three hundred feet. Four hundred"
+    id: CE-TL-22-05
+    location: Flight altitude progression
+    severity: clean
+    type: verified
+  - content: If chapter shows events "five minutes earlier," the rescue sequence should
+      precede Chapter 21's conclusion, but narrative flow suggests these are the same
+      events from different POV
+    evidence: Chapter shows Standard rescuing Elena and Hendricks, which is the same
+      rescue described in Chapter 21
+    id: CE-TL-22-06
+    location: Chapter structure vs title
+    severity: minor
+    type: issue
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

@@ -1,0 +1,65 @@
+_extracted_finding_ids:
+- CE-CS-32-001
+- CE-CS-32-002
+- CE-CS-32-003
+- CE-CS-32-004
+- CE-CS-32-005
+- CE-CS-32-006
+- CE-CS-32-007
+- CE-CS-32-008
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 6, column\
+  \ 7:\n        - id: CE-CS-32-001\n          ^\nexpected <block end>, but found '<scalar>'\n\
+  \  in \"<unicode string>\", line 11, column 114:\n     ... ushing the clasp, almost\
+  \ there\" and \"her shoulder is torn from p ... \n                             \
+  \            ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 32\n  findings:\n    - id: CE-CS-32-001\n      type: verified\n      severity:\
+  \ clean\n      location: opening scene\n      content: Standard's physical state\
+  \ consistent with Chapter 31 - still partially restrained, injured shoulder from\
+  \ struggling against termination frame\n      evidence: \"Her fingers are still\
+  \ reaching for the other restraint, still brushing the clasp, almost there\" and\
+  \ \"her shoulder is torn from pulling\"\n      cross_reference: 31\n\n    - id:\
+  \ CE-CS-32-002\n      type: verified\n      severity: clean\n      location: Kael's\
+  \ capture of Standard\n      content: Kael's emotional state tracks from Chapter\
+  \ 31 - grief cracked open, wild with rage after losing delegation to Geometry\n\
+  \      evidence: \"His face is wild. The grief cracked open now, the rage pouring\
+  \ through. Half the chamber is gone—consumed by perfect planes, by angles that shouldn't\
+  \ exist—and his delegation with it.\"\n      cross_reference: 31\n\n    - id: CE-CS-32-003\n\
+  \      type: verified\n      severity: clean\n      location: Elena in detention\n\
+  \      content: Elena's imprisonment state consistent with Chapter 31 setup - magnetic\
+  \ cuffs, confined after heresy charges\n      evidence: \"her hands are bound in\
+  \ front of her—magnetic cuffs, standard Sovereignty issue\"\n      cross_reference:\
+  \ 31\n\n    - id: CE-CS-32-004\n      type: observation\n      severity: info\n\
+  \      location: Elena's implant change\n      content: Elena notes new frequency\
+  \ in her implant - \"Dante's frequency\" - tracking from Chapter 30 setup where\
+  \ Dante embedded signal\n      evidence: \"the implant at the base of her skull\
+  \ is humming with a frequency that wasn't there before. Dante's frequency. Pointing\
+  \ somewhere she can't reach.\"\n      cross_reference: 30\n\n    - id: CE-CS-32-005\n\
+  \      type: verified\n      severity: clean\n      location: Standard's restraint\
+  \ status\n      content: Standard's broken restraint from termination frame consistently\
+  \ tracked - still attached to right wrist throughout chapter\n      evidence: \"\
+  the broken restraint on her right wrist clanks against the floor with every step,\
+  \ a chain she can't shed\" and \"The broken restraint is still attached to her right\
+  \ arm\"\n      cross_reference: 31\n\n    - id: CE-CS-32-006\n      type: verified\n\
+  \      severity: clean\n      location: Four's mobility\n      content: Four's ability\
+  \ to transfer between systems consistent with established capabilities - uses sanitation\
+  \ drone to reach Elena through vents\n      evidence: \"The sanitation drone was\
+  \ the only thing small enough to fit through the ducts\" and \"This is deeply undignified\"\
+  \n      cross_reference: 30\n\n    - id: CE-CS-32-007\n      type: observation\n\
+  \      severity: info\n      location: Standard as \"cargo\"\n      content: Standard's\
+  \ self-assessment as \"cargo\" that \"can be recovered\" sets up rescue mission\
+  \ and maintains her strategic thinking despite capture\n      evidence: \"She is\
+  \ cargo again. But cargo can be recovered.\"\n      cross_reference: null\n\n  \
+  \  - id: CE-CS-32-008\n      type: verified\n      severity: clean\n      location:\
+  \ Hendricks' condition\n      content: Hendricks appears functional after Chapter\
+  \ 31 events - no mention of serious injuries, consistent with his restored physical\
+  \ state from Geometry passage\n      evidence: \"Hendricks is stumbling out of the\
+  \ adjacent cell, his face gray but his eyes sharp\"\n      cross_reference: 25\n\
+  \n  carry_forward:\n    - Standard captured by Kael, taken to Quiet Zone via Terminist\
+  \ shuttle\n    - Standard still has broken restraint attached to right wrist\n \
+  \   - Elena has new frequency implant from Dante pointing toward Geneva\n    - Hendricks,\
+  \ Elena, Four, and Dante escaped dying Deliverance in VTOL\n    - Elena claims to\
+  \ have \"people\" and \"resources\" in Geneva\n    - Kael's worldview cracking -\
+  \ considering machines might be salvation\n    - Standard's shoulder injury from\
+  \ restraint struggle continues\n\n  self_check:\n    stayed_in_lane: true\n    findings_cited:\
+  \ true\n```"

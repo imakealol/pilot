@@ -1,0 +1,139 @@
+chapter: 4
+title: "STANDARD ISSUE"
+wordcount: 1200
+pov: "omniscient"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "service stairwell"
+    first_appearance: true
+    description: "Cold concrete throat with sodium lights, graffiti-covered walls, descending through building levels"
+  - name: "Level 50"
+    first_appearance: true
+    description: "Stairwell level with thicker air tasting of wet iron"
+  - name: "Level 48"
+    first_appearance: true
+    description: "Another stairwell level in their descent"
+  - name: "Level 42 service corridor"
+    first_appearance: true
+    description: "Where scavengers emerge from shadows"
+
+characters_present:
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "the woman"
+    role: "major" 
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "scavenger leader"
+    role: "minor"
+    entrance: "emerges from service corridor at Level 42"
+    exit: "dies"
+  - name: "wire-thin scavenger woman"
+    role: "minor"
+    entrance: "emerges from service corridor at Level 42"
+    exit: "dies"
+  - name: "third scavenger"
+    role: "minor"
+    entrance: "emerges from service corridor at Level 42"
+    exit: "dies"
+
+character_states:
+  Hendricks:
+    physical: "critical - deteriorating rapidly, barely mobile"
+    emotional: "determined but failing"
+    location: "stairwell being supported by woman"
+    knowledge_delta:
+      - "Woman doesn't register on scanners"
+    inventory:
+      - item: "revolver"
+        status: "still has"
+  the woman:
+    physical: "injured hands but mobile"
+    emotional: "protective and puzzled"
+    location: "stairwell supporting Hendricks"
+    knowledge_delta:
+      - "She doesn't register on tech scanners"
+      - "Hendricks has significant combat skills"
+      - "She is called 'standard issue'"
+    inventory: []
+
+objects:
+  - name: "revolver"
+    status: "used"
+    holder: "Hendricks"
+    significance: "Weapon that scavengers dismissed as junk but proved lethal"
+  - name: "scanner"
+    status: "used"
+    holder: "dead scavenger leader"
+    significance: "Cannot detect the woman - reads her as empty"
+  - name: "magpulse weapons"
+    status: "tracked"
+    holder: "dead scavengers"
+    significance: "Modern weapons that couldn't be fired before owners died"
+
+key_events:
+  - "Hendricks and woman descend stairwell through building levels"
+  - "Woman asks three questions about their situation - Hendricks refuses to answer"
+  - "Three scavengers demand toll and scan them both"
+  - "Scanner reads Hendricks as human but woman as completely empty"
+  - "Scavengers threaten to dissect the woman"
+  - "Hendricks kills all three scavengers with revolver"
+  - "Woman helps critically injured Hendricks continue descent"
+
+revelations:
+  - content: "The woman doesn't register on technological scanners at all"
+    to_whom: "reader and scavengers"
+  - content: "Hendricks has exceptional gunfighting skills despite his condition"
+    to_whom: "reader and woman"
+  - content: "The woman is referred to as 'standard issue'"
+    to_whom: "reader and woman"
+
+setups:
+  - element: "Woman's inability to be scanned by technology"
+    payoff_chapter: null
+  - element: "Reference to 'standard issue' regarding the woman"
+    payoff_chapter: null
+  - element: "Two rounds left in Hendricks' revolver"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Hendricks' combat training despite deteriorating condition"
+    setup_chapter: 3
+
+tone: "tense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "stairwell levels 50-48"
+    characters: ["Hendricks", "the woman"]
+    summary: "Descent with woman asking unanswered questions about their situation"
+  - scene_number: 2
+    location: "Level 42 service corridor"
+    characters: ["Hendricks", "the woman", "three scavengers"]
+    summary: "Scavenger confrontation reveals woman's undetectable nature and ends in gunfight"
+  - scene_number: 3
+    location: "stairwell"
+    characters: ["Hendricks", "the woman"]
+    summary: "Woman supports critically injured Hendricks to continue their escape"
+
+continuity_notes:
+  - "Revolver ammunition count: started Ch3 with 5 (one used on Child in Book 1), fired 3 at scavengers, now has 2 remaining"
+  - "Hendricks' condition continues deteriorating from previous chapter"
+
+open_threads:
+  - "Why doesn't the woman register on scanners"
+  - "What does 'standard issue' mean in reference to the woman"
+  - "Where are they going in their descent"
+  - "Who is pursuing them"
+  - "What is causing Hendricks' deteriorating condition"
+
+closed_threads:
+  - "Whether Hendricks would abandon the woman"

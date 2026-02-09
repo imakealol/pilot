@@ -1,0 +1,89 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 11
+  findings:
+    - id: CE-CS-11-001
+      type: verified
+      severity: clean
+      location: Opening scene
+      content: Standard's non-sleeping state consistent with established character trait
+      evidence: "Standard doesn't sleep. She sits in the Rover through the night"
+      cross_reference: 10
+
+    - id: CE-CS-11-002
+      type: verified
+      severity: clean
+      location: Elena's appearance
+      content: Elena's exhausted state tracks properly from previous chapter events
+      evidence: "She looks like she hasn't slept either—dark circles under her eyes, her movements stiff and careful"
+      cross_reference: 10
+
+    - id: CE-CS-11-003
+      type: verified
+      severity: clean
+      location: Hendricks in clinic
+      content: Hendricks' recovery progression realistic from regulator withdrawal
+      evidence: "He's not ready... The withdrawal is still—" and "his voice is rough, but stronger than yesterday"
+      cross_reference: 10
+
+    - id: CE-CS-11-004
+      type: verified
+      severity: clean
+      location: Medical scanning scene
+      content: Standard's "empty" readings consistent with previous scanner results
+      evidence: "No implants. No signal. No network echo... She's empty. Like she was never connected to anything"
+      cross_reference: 4
+
+    - id: CE-CS-11-005
+      type: verified
+      severity: clean
+      location: Geometry attack
+      content: Standard's immunity to frequency attack maintained consistently
+      evidence: "Six people still moving. All of them within arm's reach of where she stood"
+      cross_reference: 6
+
+    - id: CE-CS-11-006
+      type: observation
+      severity: info
+      location: Kellerman's survival
+      content: Kellerman survives the Drop by being near Standard, establishing his protective field effect
+      evidence: "Kellerman staggers, reaches for Standard's arm—and doesn't drop"
+      cross_reference: 6
+
+    - id: CE-CS-11-007
+      type: verified
+      severity: clean
+      location: Elena's post-Drop state
+      content: Elena's unconscious state from frequency exposure tracks with established pattern
+      evidence: "her eyes are rolled back, her body twitching with aftershocks"
+      cross_reference: 5
+
+    - id: CE-CS-11-008
+      type: verified
+      severity: clean
+      location: Fuel situation
+      content: Rover's fuel depletion and emergency conversion maintains established resource constraints
+      evidence: "The fuel gauge, dead since last night, flickers. Climbs. Stops at eighteen percent"
+      cross_reference: 10
+
+    - id: CE-CS-11-009
+      type: observation
+      severity: info
+      location: End of chapter
+      content: Elena's strategic mindset shift shows character development under pressure
+      evidence: "something has changed... something harder" and "We can use this"
+
+  carry_forward:
+    - Standard's protective field confirmed to work within arm's reach
+    - Six Array survivors now traveling with the group as witnesses
+    - Kellerman stays behind at Array with unconscious crowd members
+    - Water reserves completely depleted for emergency fuel conversion
+    - Elena developing strategic approach to Standard's reputation
+    - Rover fuel at 14% and dropping, approximately 50 miles range remaining
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

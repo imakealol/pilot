@@ -1,0 +1,142 @@
+chapter: 12
+title: THE PULL
+wordcount: 1200
+pov: Standard
+time:
+  relative_to_previous: immediate
+  time_of_day: midday
+  duration: hours
+locations:
+- name: Desert Road
+  first_appearance: false
+  description: Empty bleached road stretching through wasteland
+- name: The Bridge
+  first_appearance: true
+  description: Old concrete bridge over a clear brook, surrounded by living trees
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: dies
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: minor
+  entrance: already present
+  exit: chapter ends
+- name: Array survivors (boy and woman)
+  role: minor
+  entrance: already present
+  exit: chapter ends
+character_states:
+  Standard:
+    physical: dead
+    emotional: determined, fading
+    location: kneeling on the bridge
+    knowledge_delta:
+    - discovered her internal power systems and warnings
+    - experienced the hum frequency (287.3 Hz) that sustains her
+    inventory:
+    - item: tow chain
+      status: still gripping
+  Elena:
+    physical: exhausted, dehydrated
+    emotional: devastated, desperate
+    location: on the bridge beside Standard
+    knowledge_delta:
+    - Standard sacrificed herself to save them
+    inventory: []
+  Hendricks:
+    physical: critical condition
+    emotional: barely conscious
+    location: getting out of Rover
+    knowledge_delta: []
+    inventory: []
+objects:
+- name: Rover
+  status: tracked
+  holder: Elena and survivors
+  significance: Transportation that ran out of fuel
+- name: Tow chain
+  status: used
+  holder: Standard (still gripping)
+  significance: Tool of Standard's sacrifice
+- name: Emergency hydrogen fuel
+  status: destroyed
+  holder: null
+  significance: Depleted faster than predicted
+key_events:
+- Rover runs out of fuel at noon
+- Standard begins pulling the two-ton Rover by chain
+- Standard's power systems begin failing with warnings
+- Standard continues pulling even after power cells die
+- Standard reaches a bridge over clean water after ten miles
+- Standard collapses and dies on the bridge
+- Elena discovers Standard is dead but they've reached water
+revelations:
+- content: Standard has internal warnings and power systems she can perceive
+  to_whom: reader and Standard
+- content: Standard has a constant internal hum at 287.3 Hz
+  to_whom: reader and Standard
+- content: Standard can continue functioning even after power cell failure
+  to_whom: reader
+- content: Standard has died from the exertion
+  to_whom: reader and Elena
+setups:
+- element: Clean water and living ecosystem beyond the wasteland
+  payoff_chapter: null
+- element: Standard's ultimate sacrifice establishing her humanity
+  payoff_chapter: null
+payoffs:
+- element: Standard's extraordinary physical capabilities
+  setup_chapter: 1
+- element: The group's desperate need for water
+  setup_chapter: 11
+tone: sacrificial
+pacing: building to climactic
+scene_breaks:
+- scene_number: 1
+  location: Desert Road - Rover stops
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Array survivors
+  summary: The Rover runs out of fuel and Standard begins pulling it.
+- scene_number: 2
+  location: Desert Road - miles 1-5
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Array survivors
+  summary: Standard pulls the Rover while her systems begin failing.
+- scene_number: 3
+  location: Desert Road - miles 6-10
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Array survivors
+  summary: Standard continues despite power failure as landscape changes.
+- scene_number: 4
+  location: The Bridge
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Array survivors
+  summary: Standard reaches water but dies from the exertion.
+continuity_notes:
+- Fuel consumption rate (18% lasted 40 miles, not predicted 60)
+- Standard's body remains on the bridge
+- Group now has access to clean water
+open_threads:
+- How will the group survive without Standard
+- What is the significance of this oasis area
+- Will Standard's body be recoverable or repairable
+closed_threads:
+- The group's immediate need for water and shelter
+- Standard's ultimate purpose and sacrifice

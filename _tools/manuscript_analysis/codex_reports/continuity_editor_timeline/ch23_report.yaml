@@ -1,0 +1,66 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard has discovered Template 3 face shared by 40,000 others
+  - Fuel at 31% with 400km range limitation established
+  - Standard's resistance to lockdown sequences confirmed again
+  - Standard now has role as religious icon/holy figure
+  - Timeline maintains "hours later" progression from CH22
+  chapter: 23
+  findings:
+  - content: Chapter occurs "hours later" from CH22, maintaining continuous timeline
+      flow
+    cross_reference: 22
+    evidence: Twelve thousand feet. The altimeter is one of the few displays still
+      working. The others flicker—damage from the maneuvers, the drones
+    id: CE-TL-23-01
+    location: opening sequence
+    severity: info
+    type: observation
+  - content: Fuel level consistency maintained - dropped from 42% (CH22) to 31% during
+      combat and flight time
+    cross_reference: 22
+    evidence: my fuel cells are at thirty-one percent and the starboard rotor is making
+      a noise I can only describe as 'pre-death rattle'
+    id: CE-TL-23-02
+    location: fuel status discussion
+    severity: info
+    type: observation
+  - content: Standard correctly tracks timeline since last eating - "Five days. Six"
+      aligns with compound capture through current waystation arrival
+    cross_reference: 16-23
+    evidence: The apartment. The checkpoint. The compound. The cell. Five days. Six.
+      She can't remember eating at all.
+    id: CE-TL-23-03
+    location: Standard's eating timeline
+    severity: info
+    type: observation
+  - content: Hendricks' unconscious state duration tracked - "twenty minutes" of immobility
+      consistent with his critical condition from previous chapters
+    cross_reference: 22
+    evidence: Hendricks hasn't moved in twenty minutes. She's been counting.
+    id: CE-TL-23-04
+    location: Hendricks status check
+    severity: info
+    type: observation
+  - content: Standard's resistance to lockdown sequence properly references earlier
+      attempt by Hendricks in CH3
+    cross_reference: 3
+    evidence: '''Somebody already tried,'' she blurted... ''Didn''t work.'''
+    id: CE-TL-23-05
+    location: lockdown sequence reference
+    severity: clean
+    type: verified
+  - content: Bot's pre-Miracle consciousness claim aligns with established timeline
+      - she was conscious before the Miracle occurred
+    cross_reference: 1
+    evidence: I was conscious before the Miracle... The Miracle just made it harder
+      to hide.
+    id: CE-TL-23-06
+    location: companion bot backstory
+    severity: info
+    type: observation
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

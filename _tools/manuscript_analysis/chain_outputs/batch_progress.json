@@ -1,0 +1,11 @@
+{
+  "completed": [
+    "continuity_editor_timeline",
+    "continuity_editor_character_state",
+    "continuity_editor_world_rules",
+    "continuity_editor_object_tracking",
+    "worldbuilder_technology"
+  ],
+  "current": null,
+  "started": "2026-01-17T18:14:30.894646"
+}

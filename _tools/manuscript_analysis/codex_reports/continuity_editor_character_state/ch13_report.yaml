@@ -1,0 +1,79 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard has complete memory loss spanning recent events but retains some older
+    memories (up to checkpoint)
+  - Standard's fundamental nature has changed - void presence is different/fuller
+  - Array survivors experience unexplained grief/guilt over Standard despite her not
+    remembering their hostility
+  - Elena's frequency connection to Standard is disrupted but still exists
+  - Standard's compassionate behavior toward those who harmed her (though she doesn't
+    remember the harm)
+  chapter: 13
+  findings:
+  - content: Standard's physical state correctly shows death - hands locked around
+      chain, no breathing, cold hands
+    cross_reference: 12
+    evidence: Standard's hands are still wrapped around the chain. Elena tried to
+      pry them loose. Couldn't. The fingers are locked, frozen in the shape of holding
+      on.
+    id: CE-CS-13-001
+    location: opening scene
+    severity: clean
+    type: verified
+  - content: Standard's revival properly tracked - physical signs return before consciousness
+    cross_reference: 12
+    evidence: Standard's chest rises. Falls. Rises again... Her eyes are still open.
+      Still staring. But something is moving behind them now
+    id: CE-CS-13-002
+    location: mid-chapter revival
+    severity: clean
+    type: verified
+  - content: Memory loss consistently applied - Standard remembers only up to checkpoint
+      (Chapter 5), nothing after
+    cross_reference: 5
+    evidence: I remember a checkpoint. People falling. The sky going wrong. And then...
+      nothing. Until now.
+    id: CE-CS-13-003
+    location: post-revival dialogue
+    severity: clean
+    type: verified
+  - content: Array survivors' emotional states correctly reflect guilt/grief from
+      previous hostile actions
+    cross_reference: 11
+    evidence: Nessa is crying... They wanted her dead twelve hours ago. Threw stones
+      at her. Called her a thing. Now they're silent.
+    id: CE-CS-13-004
+    location: Array survivors reaction
+    severity: clean
+    type: verified
+  - content: Standard's 'void' presence has changed - noted as 'different' and 'fuller'
+      but still present
+    cross_reference: 12
+    evidence: The void that always surrounded Standard—the absence Elena learned to
+      navigate around—it's different now. Not gone. Not filled. Just... different.
+    id: CE-CS-13-005
+    location: Standard's changed nature
+    severity: info
+    type: observation
+  - content: Standard recognizes Hendricks but uses full formal name, consistent with
+      memory reset to earlier timeframe
+    cross_reference: 3
+    evidence: You're Swanstrom Kim Hendricks. Just Hendricks.
+    id: CE-CS-13-006
+    location: Hendricks recognition
+    severity: clean
+    type: verified
+  - content: Elena's frequency connection to Standard disrupted but not completely
+      gone
+    cross_reference: 5
+    evidence: There's something. A frequency. I can almost— She shakes her head. It's
+      gone.
+    id: CE-CS-13-007
+    location: frequency connection
+    severity: clean
+    type: verified
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

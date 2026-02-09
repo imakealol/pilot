@@ -1,0 +1,94 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 39
+  timestamp: 2025-01-18 19:47:22+00:00
+
+  query_log:
+    chapter: CH39
+    previous_reports: [38]
+    external_state: [HANDOFF.md, CHARACTERS.yaml, ACT_III_MAPS.md]
+
+  findings:
+    - id: CO-CH-39-001
+      type: observation
+      severity: info
+      location: "emergence sequence"
+      content: "New character group introduced - rescued humans emerging from deletion zones"
+      evidence: "In its arms: a human. Unconscious. Alive. Someone who was deleted days ago, maybe hours ago, someone who shouldn't exist anymore."
+      chain_reference: null
+
+    - id: CO-CH-39-002
+      type: observation
+      severity: info
+      location: "compound battle sequence"
+      content: "Elena's physical deterioration tracked through combat - armor failing, multiple wounds, exhaustion"
+      evidence: "Her armor takes another hit. Then another. The chest plate is spider-webbed now...She's on her back. Looking up at the sky."
+      chain_reference: null
+
+    - id: CO-CH-39-003
+      type: verified
+      severity: clean
+      location: "Template 3 army description"
+      content: "Standard's face template origin confirmed and expanded - Template 3s have Standard's face but different customized bodies"
+      evidence: "The same face. Standard's face. Repeated across an army...The Template 3 was the base model—the face, the voice, the core architecture. But buyers wanted options."
+      chain_reference: "Report_CH38:CO-CH-38-001"
+
+    - id: CO-CH-39-004
+      type: observation
+      severity: info
+      location: "New Geneva rescue sequence"
+      content: "Dante and Okonkwo survive Pragmatist attack, rescued by Template 3s"
+      evidence: "Template 3s pour through the breach...One of them crouches beside Dante...'Configuration Seven,' she says. 'We received your transmission.'"
+      chain_reference: "Report_CH38:CO-CH-38-004"
+
+    - id: CO-CH-39-005
+      type: observation
+      severity: info
+      location: "quiet ones rescue"
+      content: "Template 3s actively rescuing the 'quiet ones' from eastern fields with medical equipment"
+      evidence: "A contingent of Template 3s breaking off from the main group...Heading east. Toward the fields...They had brought IV lines. Hydration packs. Stretchers."
+      chain_reference: null
+
+    - id: CO-CH-39-006
+      type: verified
+      severity: clean
+      location: "Four's status check"
+      content: "Four confirmed alive but damaged in crashed VTOL"
+      evidence: "'Alive. Mostly.' A pause. Something grinding...structural integrity at forty percent"
+      chain_reference: null
+
+    - id: CO-CH-39-007
+      type: observation
+      severity: warning
+      location: "chapter end"
+      content: "Standard, Hendricks, and Ash locations confirmed but not visually verified - Elena heading toward compound cells"
+      evidence: "'Standard's still in the holding cells. Hendricks went in'...'Standard is still in there. Hendricks is still in there. Her father is still in there.'"
+      chain_reference: "Report_CH38:CO-CH-38-003"
+
+  carry_forward:
+    - Standard confirmed in holding cells (sublevel two, west corridor) per Template 3 intelligence
+    - Hendricks confirmed to have entered compound to find Standard
+    - Ash location unconfirmed but implied to be in compound tower
+    - Elena wounded but mobile, heading to compound cells
+    - Four alive but heavily damaged in crashed VTOL
+    - Template 3 army has secured both Earth compound and New Geneva station
+    - Thousands of rescued humans (deleted and quiet ones) being evacuated to New Geneva
+    - Dante and Okonkwo survived, now at secured New Geneva station
+
+  chain_citations:
+    - report: CH38
+      finding_id: CO-CH-38-003
+      relationship: extends
+
+    - report: CH38
+      finding_id: CO-CH-38-004
+      relationship: extends
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

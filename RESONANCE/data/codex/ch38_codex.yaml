@@ -1,0 +1,145 @@
+chapter: 38
+title: THE BEACONS
+wordcount: 2100
+pov: omniscient
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: minutes
+locations:
+- name: New Geneva Station
+  first_appearance: false
+  description: null
+- name: Deep Space - Multiple Locations
+  first_appearance: false
+  description: Various coordinates where beacons emerge across time and space
+- name: NED-MERIDIAN ships
+  first_appearance: false
+  description: Multiple cargo vessels at different points in their journeys
+characters_present:
+- name: Dante
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Okonkwo
+  role: major
+  entrance: appears mid-chapter
+  exit: chapter ends
+- name: Yuki Tanaka
+  role: minor
+  entrance: beacon sequence
+  exit: accepts mission
+- name: Koji Nakamura
+  role: minor
+  entrance: beacon sequence
+  exit: accepts mission
+- name: Adaora Eze
+  role: minor
+  entrance: beacon sequence
+  exit: accepts mission
+- name: Dayo Oyelaran
+  role: minor
+  entrance: beacon sequence
+  exit: accepts mission
+- name: Amara Osei
+  role: minor
+  entrance: beacon sequence
+  exit: accepts mission
+- name: Diego Reyes
+  role: minor
+  entrance: beacon sequence
+  exit: dies
+- name: Soo-Yun Park
+  role: minor
+  entrance: beacon sequence
+  exit: dies
+character_states:
+  Dante:
+    physical: healthy
+    emotional: focused, concerned
+    location: New Geneva Station
+    knowledge_delta:
+    - Beacon deployment results - ten successful, three failures, one anomaly
+    - A ship called Blackbird was knocked off course in 2298
+    inventory:
+    - item: targeting calculations
+      status: used
+  Elena:
+    physical: healthy
+    emotional: confused, overwhelmed
+    location: New Geneva Station
+    knowledge_delta:
+    - The beacons were sent backwards through time
+    - Some targeting was imperfect, causing casualties
+    inventory: []
+  Okonkwo:
+    physical: healthy
+    emotional: analytical, accepting
+    location: New Geneva Station
+    knowledge_delta:
+    - Blackbird disappeared from NED tracking in 2298
+    inventory: []
+objects:
+- name: Time-displacement beacons
+  status: used
+  holder: deployed across spacetime
+  significance: Recruit volunteer ships for the mission
+- name: Blackbird cargo hauler
+  status: tracked
+  holder: lost in 2298
+  significance: Accidentally affected by beacon deployment, creates temporal loop
+key_events:
+- Dante launches fourteen beacons backwards through time to intercept Meridian ships
+- Multiple ships across different years receive the volunteer message
+- Ten crews decide to accept the dangerous mission
+- Three beacons fail catastrophically, destroying ships and crews
+- One beacon accidentally clips the Blackbird in 2298, knocking it off course
+- Dante discovers the anomaly and learns the Blackbird disappeared
+revelations:
+- content: The beacons were sent backwards through time to recruit volunteers
+  to_whom: Elena and reader
+- content: Ten ships volunteered, but three were destroyed by targeting errors
+  to_whom: reader and characters
+- content: The Blackbird was accidentally affected in 2298 and disappeared
+  to_whom: reader and characters
+setups:
+- element: The Blackbird's displacement creates a temporal loop
+  payoff_chapter: null
+- element: Ten volunteer ships are now coming to help
+  payoff_chapter: null
+payoffs:
+- element: The volunteer message that motivated earlier characters
+  setup_chapter: null
+tone: revelatory
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: New Geneva Station
+  characters:
+  - Dante
+  summary: Dante launches the beacons into the deletion zones
+- scene_number: 2
+  location: Various ships across time
+  characters:
+  - Multiple ship crews
+  summary: Beacons arrive at different ships with varying results
+- scene_number: 3
+  location: New Geneva Station
+  characters:
+  - Dante
+  - Elena
+  - Okonkwo
+  summary: Results analyzed - successes, failures, and the Blackbird anomaly
+continuity_notes:
+- The Blackbird incident in 2298 may connect to earlier story elements
+- Frequency 287.3 Hz is consistent across all beacon transmissions
+open_threads:
+- What happened to the Blackbird after it was knocked off course?
+- How will the ten volunteer ships reach the rendezvous?
+- What is the significance of the temporal loop created?
+closed_threads:
+- How the volunteer ships were contacted and recruited

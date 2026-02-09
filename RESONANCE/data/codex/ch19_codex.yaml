@@ -1,0 +1,123 @@
+chapter: 19
+title: THE QUIET
+wordcount: 2100
+pov: Standard
+time:
+  relative_to_previous: immediate
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: isolation cell
+  first_appearance: true
+  description: 8x8 feet room with gray sound-absorbing panels, metal grating floor
+    over darkness, contains only a thin cot
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: leaves with Elena
+- name: Elena
+  role: major
+  entrance: opens cell door at chapter end
+  exit: chapter ends
+character_states:
+  Standard:
+    physical: healing abnormally fast, no pain sensation, cold but not shivering
+    emotional: confused, patient
+    location: leaving isolation cell with Elena
+    knowledge_delta:
+    - experiencing a hum in her chest that started at the checkpoint
+    - healing faster than normal human biology
+    - has no pain response
+    - received vision/memory of unknown woman with dark hair
+    - learned/heard an unpronounceable word/name
+    inventory:
+    - item: thin paper gown
+      status: wearing (all other possessions confiscated)
+  Elena:
+    physical: exhausted, looks like she hasn't slept
+    emotional: fearful, determined
+    location: isolation cell corridor
+    knowledge_delta:
+    - Hendricks is in the pit and scheduled for execution at dawn
+    - her father doesn't intend to release Standard
+    - notices something changed about Standard's appearance
+    inventory: []
+objects:
+- name: Otis garment
+  status: confiscated
+  holder: Ash's forces
+  significance: Standard's original clothing taken during processing
+- name: boots
+  status: confiscated
+  holder: Ash's forces
+  significance: Standard now barefoot on cold metal
+key_events:
+- Standard experiences profound isolation in soundproof cell
+- Standard discovers abnormal healing and lack of pain response
+- Standard experiences mysterious hum in her chest that started at checkpoint
+- Standard has vision of unknown woman with dark hair saying 'mija'
+- Standard learns/hears an unpronounceable word or name
+- Elena arrives to rescue Standard
+- Elena reveals Hendricks faces execution at dawn
+revelations:
+- content: Standard heals abnormally fast and has no pain response
+  to_whom: reader and Standard
+- content: Standard is experiencing mysterious internal hum since violet light exposure
+  to_whom: reader and Standard
+- content: Standard receives visions/memories that aren't her own
+  to_whom: reader and Standard
+- content: Hendricks is scheduled for execution at dawn
+  to_whom: reader and Standard
+- content: Ash never intended to release Standard
+  to_whom: reader and Standard
+setups:
+- element: unpronounceable word/name Standard learned
+  payoff_chapter: null
+- element: vision of woman with dark hair and the word 'mija'
+  payoff_chapter: null
+- element: Standard's abnormal healing and lack of pain
+  payoff_chapter: null
+- element: mysterious hum connected to violet light exposure
+  payoff_chapter: null
+payoffs:
+- element: violet light's effect on Standard manifesting as internal hum
+  setup_chapter: 18
+tone: introspective
+pacing: slow burn
+scene_breaks:
+- scene_number: 1
+  location: isolation cell
+  characters:
+  - Standard
+  summary: Standard experiences profound isolation and discovers the mysterious hum
+    in her chest
+- scene_number: 2
+  location: isolation cell
+  characters:
+  - Standard
+  summary: Standard experiments with self-harm and discovers abnormal healing and
+    pain responses
+- scene_number: 3
+  location: isolation cell
+  characters:
+  - Standard
+  summary: Standard has visions of an unknown woman and learns a mysterious word
+- scene_number: 4
+  location: isolation cell
+  characters:
+  - Standard
+  - Elena
+  summary: Elena arrives to rescue Standard and reveals Hendricks faces execution
+continuity_notes:
+- Standard's healing rate and pain response abnormality needs tracking
+- Internal hum connected to violet light exposure from checkpoint
+- Vision of woman saying 'mija' - identity and significance unclear
+open_threads:
+- What is the mysterious hum in Standard's chest?
+- Who is the woman in Standard's vision and what does 'mija' mean?
+- What is the unpronounceable word/name Standard learned?
+- Why is Standard healing abnormally fast with no pain response?
+- Can Elena and Standard rescue Hendricks before dawn execution?
+closed_threads:
+- Standard's immediate fate in isolation (Elena arrives to rescue her)

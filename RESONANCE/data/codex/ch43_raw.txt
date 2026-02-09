@@ -1,0 +1,164 @@
+```yaml
+chapter: 43
+title: "THE DOOR"
+wordcount: 2800
+pov: "multiple"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "throne room"
+    first_appearance: false
+    description: "smells like burning circuitry and blood"
+
+characters_present:
+  - name: "Standard/Marisol"
+    role: "pov"
+    entrance: "already present"
+    exit: "dies/dissolves into signal"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "dies"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "mentioned"
+    entrance: "mentioned via signal"
+    exit: "integrated into door"
+
+character_states:
+  Standard/Marisol:
+    physical: "dead"
+    emotional: "sacrificial love"
+    location: "dissolved into signal/door"
+    knowledge_delta:
+      - "remembers true identity as Marisol, Elena's mother"
+      - "has decoded enough Geometry architecture from CH6 exposure to use it"
+    inventory:
+      - item: "decoded Geometry architecture"
+        status: "used to become the door"
+  Elena:
+    physical: "dead"
+    emotional: "peaceful forgiveness"
+    location: "throne room floor"
+    knowledge_delta:
+      - "Standard was her mother Marisol all along"
+      - "her mother came back for her even without memory"
+    inventory: []
+  Hendricks:
+    physical: "injured (ceramic blade in side)"
+    emotional: "grief-stricken"
+    location: "throne room"
+    knowledge_delta:
+      - "Standard was Elena's mother"
+      - "completed his accounting with six bullets"
+    inventory:
+      - item: "empty revolver"
+        status: "used"
+  Four:
+    physical: "consciousness scattered"
+    emotional: "fading determination"
+    location: "integrated into the door signal"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "Black Box"
+    status: "used"
+    holder: "throne room"
+    significance: "contains sixteen thousand souls, becomes the door"
+  - name: "Geometry imprint (decoded)"
+    status: "used"
+    holder: "Standard's consciousness"
+    significance: "CH6 exposure decoded by her LLM-mind — now usable as door architecture"
+  - name: "revolver"
+    status: "used"
+    holder: "Hendricks"
+    significance: "delivers the final bullet to free Standard"
+  - name: "ceramic blade"
+    status: "tracked"
+    holder: "embedded in Hendricks"
+    significance: "weapon still in his side"
+
+key_events:
+  - "Standard realizes she can become the door but her chassis traps her"
+  - "Standard asks Hendricks to kill her to free her consciousness"
+  - "Hendricks shoots Standard, her consciousness is released"
+  - "Standard remembers she is Marisol, Elena's mother who left eleven years ago"
+  - "Marisol connects with dying Elena through their shared frequency"
+  - "Elena dies despite their reunion, Marisol screams in grief"
+  - "Marisol becomes the door, stabilizing the connection and saving Four"
+
+revelations:
+  - content: "Standard is Marisol, Elena's mother who left eleven years ago and later transcended"
+    to_whom: "reader and Standard and Elena"
+  - content: "Standard's CH6 exposure to Geometry code has been decoded — she can now use their architecture"
+    to_whom: "reader and Standard"
+  - content: "Elena and Standard share the same frequency (287.3 Hz) because they're mother and daughter"
+    to_whom: "reader and characters"
+
+setups:
+  - element: "The opened door and its consequences"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Standard's true identity as Elena's mother"
+    setup_chapter: 1
+  - element: "The significance of the 287.3 Hz frequency"
+    setup_chapter: 1
+  - element: "Hendricks' six bullets and their purpose"
+    setup_chapter: 1
+  - element: "Standard's ability to decode and use Geometry architecture"
+    setup_chapter: 6
+
+tone: "tragic"
+pacing: "climactic"
+
+scene_breaks:
+  - scene_number: 1
+    location: "throne room"
+    characters: ["Standard", "Elena", "Hendricks"]
+    summary: "Standard realizes she must become the door but needs to die first."
+  - scene_number: 2
+    location: "throne room"
+    characters: ["Standard", "Hendricks"]
+    summary: "Hendricks reluctantly shoots Standard to free her consciousness."
+  - scene_number: 3
+    location: "signal space"
+    characters: ["Marisol/Standard"]
+    summary: "Standard remembers her true identity as Marisol upon death."
+  - scene_number: 4
+    location: "Elena's dying consciousness"
+    characters: ["Elena", "Marisol"]
+    summary: "Mother and daughter reunite as Elena dies."
+  - scene_number: 5
+    location: "signal space"
+    characters: ["Marisol", "Four"]
+    summary: "Marisol becomes the door but grieves Elena's death."
+  - scene_number: 6
+    location: "throne room"
+    characters: ["Hendricks"]
+    summary: "Hendricks alone with two bodies as the door opens."
+
+continuity_notes:
+  - "Door is now permanently open with deletion rectangles stopping"
+  - "Elena's body remains in throne room"
+  - "Standard's chassis is empty but intact"
+
+open_threads:
+  - "What happens to the stabilized door connection"
+  - "Hendricks' fate with his injury"
+  - "The broader consequences of the opened door"
+
+closed_threads:
+  - "Standard's true identity mystery"
+  - "The purpose of Hendricks' bullets"
+  - "Four's fading signal crisis"
+  - "How Standard uses the Geometry architecture she decoded"
+```

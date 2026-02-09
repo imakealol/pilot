@@ -1,0 +1,95 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Four's consciousness transfer in progress - degradation mechanics active
+  - Elena wounded with internal bleeding - medical condition established
+  - Hendricks critically wounded but alive - ceramic blade still embedded
+  - Standard's memory fragments about loving someone confirmed
+  - Template 3 evacuation ongoing under Jupiter threat
+  chain_citations:
+  - finding_id: CO-WO-40-008
+    relationship: confirms
+    report: CH40
+  - finding_id: CO-WO-39-006
+    relationship: confirms
+    report: CH39
+  - finding_id: CO-WO-39-007
+    relationship: confirms
+    report: CH39
+  chapter: 41
+  findings:
+  - chain_reference: Report_CH40:CO-WO-40-008
+    content: Vehicle damage mechanics consistent with CH40 - VTOL performs one-time
+      flight as established, structural failure on impact
+    evidence: The VTOL stops. Smoke pours from every seam. Warning lights die one
+      by one... crumpled cargo door... shattered cockpit glass
+    id: CO-WO-41-001
+    location: VTOL crash sequence
+    severity: clean
+    type: observation
+  - chain_reference: null
+    content: Ammunition tracking consistent - revolver established with 'two bullets
+      left' in previous chapters, Elena disarms it (bullet 5), Hendricks uses final
+      bullet (bullet 6)
+    evidence: the revolver in his hand—Hendricks' revolver, the one with two bullets
+      left... The bullet catches the revolver's cylinder... 'That's five,' he says.
+      'One for Morton.'
+    id: CO-WO-41-002
+    location: Hendricks' revolver mechanics
+    severity: clean
+    type: observation
+  - chain_reference: Report_CH39:CO-WO-39-006
+    content: Four's consciousness hop/transfer mechanics working as established -
+      substrate-to-substrate jumps with degradation cost
+    evidence: I can hop. Substrate to substrate. Each one boosting me to the next...
+      Each jump strips something away. Memories. Processing capacity. Pieces of me
+      I'll never get back.
+    id: CO-WO-41-003
+    location: AI consciousness transfer mechanics
+    severity: clean
+    type: observation
+  - chain_reference: Report_CH39:CO-WO-39-007
+    content: Elena's implant frequency boosting capability consistent with established
+      communications technology
+    evidence: Tell Elena to boost the signal... Her implant. The Resonant frequency.
+      It'll help me hold together through the jumps
+    id: CO-WO-41-004
+    location: Resonant frequency technology
+    severity: clean
+    type: observation
+  - chain_reference: Report_CH40:CO-WO-40-005
+    content: Android physical capabilities consistent - Standard can tackle/fight
+      Ash but doesn't demonstrate superhuman invulnerability
+    evidence: She hits Ash low, driving him off Elena, rolling with the momentum...
+      lets him grab her throat, lets him slam her back
+    id: CO-WO-41-005
+    location: Standard's android strength
+    severity: clean
+    type: observation
+  - chain_reference: Report_CH40:CO-WO-40-008
+    content: Ship-to-ship combat follows established rules - battle carrier Jupiter
+      can threaten evacuation shuttles, requires another capital ship to counter
+    evidence: Pragmatist battle carrier... It's targeting the evacuation shuttles...
+      There's a Sovereignty carrier in orbit. The Deliverance. If I can reach it—
+    id: CO-WO-41-006
+    location: Space combat mechanics
+    severity: clean
+    type: observation
+  focus: world_rules
+  query_log:
+    chapter: CH41
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+    - GEOMETRY_VISUAL_LANGUAGE.md
+    previous_reports:
+    - 38
+    - 39
+    - 40
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2026-01-17 11:15:00+00:00

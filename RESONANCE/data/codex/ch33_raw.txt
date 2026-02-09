@@ -1,0 +1,170 @@
+```yaml
+chapter: 33
+title: "THE THRESHOLD"
+wordcount: 1650
+pov: "Elena"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "VTOL cargo bay"
+    first_appearance: false
+    description: null
+  - name: "Geneva (formatted/destroyed)"
+    first_appearance: true
+    description: "Corpse of a city - conference center, diplomatic quarter converted to perfect geometric planes, empty streets"
+  - name: "Stone building in Geneva"
+    first_appearance: true
+    description: "Pre-Collapse structure left untouched by Geometry formatting, hollow and gutted inside"
+  - name: "Orbital shaft/tether"
+    first_appearance: true
+    description: "Carbon-black, seamless pre-Collapse tech shaft extending into orbit"
+  - name: "New Geneva (O'Neill Cylinder)"
+    first_appearance: true
+    description: "Orbital habitat with green fields curving upward, buildings, rivers, populated with people"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "major"
+    entrance: "already present"
+    exit: "stays with VTOL"
+  - name: "Dante Reyes"
+    role: "major"
+    entrance: "discovered as stowaway"
+    exit: "chapter ends"
+
+character_states:
+  Elena:
+    physical: "healthy"
+    emotional: "determined, anticipatory"
+    location: "New Geneva O'Neill Cylinder"
+    knowledge_delta:
+      - "New Geneva orbital habitat exists"
+      - "Her mother left her this place"
+      - "The implant was guiding her here all along"
+    inventory:
+      - item: "implant (humming at 287.3 Hz)"
+        status: "still has"
+      - item: "nanolattice scar"
+        status: "still has"
+  Hendricks:
+    physical: "healthy but tense"
+    emotional: "protective, confused"
+    location: "New Geneva O'Neill Cylinder"
+    knowledge_delta:
+      - "Dante stowed away on their VTOL"
+      - "Secret orbital habitat exists"
+    inventory:
+      - item: "maintenance wrench"
+        status: "acquired"
+  Four:
+    physical: "operational"
+    emotional: "grieving, curious"
+    location: "VTOL in Geneva"
+    knowledge_delta:
+      - "Detected Dante's presence hours ago"
+      - "Aware of orbital destination"
+    inventory: []
+  Dante:
+    physical: "healthy but shaken"
+    emotional: "grieving, seeking answers"
+    location: "New Geneva O'Neill Cylinder"
+    knowledge_delta:
+      - "Elena has connections to advanced pre-Collapse technology"
+      - "Secret orbital habitat exists"
+    inventory: []
+
+objects:
+  - name: "Access codes chip"
+    status: "used"
+    holder: "Elena"
+    significance: "Allowed escape from Deliverance brig"
+  - name: "Maintenance wrench"
+    status: "acquired"
+    holder: "Hendricks"
+    significance: "Improvised weapon"
+  - name: "Orbital platform mechanism"
+    status: "used"
+    holder: "building in Geneva"
+    significance: "Transport to orbital habitat"
+
+key_events:
+  - "Dante Reyes discovered as stowaway on VTOL"
+  - "Group arrives at formatted Geneva"
+  - "Elena's implant guides them to intact pre-Collapse building"
+  - "Hidden orbital platform mechanism activates"
+  - "47-minute ascent through orbital tether"
+  - "Arrival at New Geneva O'Neill Cylinder"
+  - "Elena realizes this is what her mother left her"
+
+revelations:
+  - content: "Dante stowed away and has been hidden for hours"
+    to_whom: "reader and Elena and Hendricks"
+  - content: "VTOL is 70 kilos heavier than expected"
+    to_whom: "Hendricks and Elena"
+  - content: "Secret orbital habitat New Geneva exists"
+    to_whom: "reader and all characters"
+  - content: "Elena's mother left her this orbital facility"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "New Geneva orbital habitat with living population"
+    payoff_chapter: null
+  - element: "Elena's mother's connection to pre-Collapse orbital infrastructure"
+    payoff_chapter: null
+  - element: "Dante's knowledge and potential usefulness to the group"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Elena's implant frequency leading somewhere specific"
+    setup_chapter: 1
+  - element: "Elena's mother leaving her something important"
+    setup_chapter: 1
+
+tone: "revelatory"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "VTOL cargo bay"
+    characters: ["Elena", "Hendricks", "Four", "Dante"]
+    summary: "Dante discovered as stowaway, confronted and accepted by group"
+  - scene_number: 2
+    location: "Geneva surface"
+    characters: ["Elena", "Hendricks", "Dante"]
+    summary: "Group lands in formatted Geneva and Elena's implant guides them to intact building"
+  - scene_number: 3
+    location: "Stone building interior"
+    characters: ["Elena", "Hendricks", "Dante"]
+    summary: "Hidden orbital platform mechanism activates and group begins ascent"
+  - scene_number: 4
+    location: "Orbital shaft/New Geneva"
+    characters: ["Elena", "Hendricks", "Dante"]
+    summary: "47-minute climb to orbit and arrival at New Geneva habitat"
+
+continuity_notes:
+  - "Elena's palm scar responding to environmental frequency"
+  - "Four staying behind with VTOL while others ascend"
+  - "Dante's mention of 'The Geometry' name bothering Elena suggests her connection to the naming"
+
+open_threads:
+  - "What is New Geneva and who lives there"
+  - "What was Elena's mother's role in creating this facility"
+  - "How will they use this orbital base to rescue Ash"
+  - "What is Dante's full background and capabilities"
+
+closed_threads:
+  - "Where Elena's implant frequency was leading her"
+  - "What Elena's mother left for her"
+```

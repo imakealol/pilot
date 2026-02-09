@@ -1,0 +1,78 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Hendricks has 2 rounds remaining in revolver
+  - Hendricks' condition critical and deteriorating rapidly from neck wound
+  - Woman reads as "empty" on scanners, classified as "standard issue"
+  - Woman's hands remain severely damaged from crate escape
+  - Woman shows no normal pain responses to injury
+  - Both characters now descending building levels (currently Level 42)
+  chapter: 4
+  findings:
+  - content: Hendricks' deteriorating condition from Chapter 3 neck wound continues
+      consistently
+    cross_reference: 3
+    evidence: He is not walking well. He leans on the railing, his weight heavy on
+      his right side, his hand leaving a smear of sweat on the metal. The towel at
+      his neck is dark with fresh blood.
+    id: CE-CS-04-001
+    location: opening scene
+    severity: clean
+    type: verified
+  - content: Woman's injured hands from Chapter 1 crate escape remain consistently
+      damaged
+    cross_reference: 1
+    evidence: He grabs her hand—the left one, the ruined one. Squeezes the split palm...
+      Blood wells up between his fingers.
+    id: CE-CS-04-002
+    location: woman's physical state
+    severity: clean
+    type: verified
+  - content: Hendricks' physical deterioration progresses logically - getting worse
+      over time
+    cross_reference: 3
+    evidence: His left leg shakes when it hits the step. His breathing sounds wet...
+      twice now she's seen his knee buckle before he catches herself.
+    id: CE-CS-04-003
+    location: stairwell descent
+    severity: clean
+    type: verified
+  - content: Woman's "empty" readings consistent with Chapter 1 establishment of her
+      unusual nature
+    cross_reference: 1
+    evidence: Silence. No beep. No tone... 'Ghost,' he mutters. 'Reads empty. Full
+      empty.'
+    id: CE-CS-04-004
+    location: scanner scene
+    severity: clean
+    type: verified
+  - content: Hendricks' exhaustion after combat realistically portrayed given his
+      condition
+    cross_reference: 3
+    evidence: Those three shots were everything he had left... His breathing is wrong—shallow,
+      fast, like something is broken inside.
+    id: CE-CS-04-005
+    location: gunfight aftermath
+    severity: clean
+    type: verified
+  - content: Revolver ammunition tracking is accurate - started Chapter 3 with 5,
+      fires 3, has 2 remaining
+    cross_reference: 3
+    evidence: There are two rounds left. There were six.
+    id: CE-CS-04-006
+    location: ammunition count
+    severity: clean
+    type: verified
+  - content: Woman shows no pain response to injury, consistent with unusual nature
+      established in Chapter 1
+    cross_reference: 1
+    evidence: She feels the pressure. The damage. But she doesn't scream. Doesn't
+      pull away. Just watches him with clear, steady eyes.
+    id: CE-CS-04-007
+    location: woman's pain tolerance
+    severity: info
+    type: observation
+  focus: character_state
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

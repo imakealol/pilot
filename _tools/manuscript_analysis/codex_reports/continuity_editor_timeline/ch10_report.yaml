@@ -1,0 +1,39 @@
+_extracted_finding_ids:
+- CE-TL-10-001
+- CE-TL-10-002
+- CE-TL-10-003
+- CE-TL-10-004
+- CE-TL-10-005
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 20,\
+  \ column 7:\n        - id: CE-TL-10-003\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 25, column 43:\n     ... ence:\
+  \ \"How long since removal?\" \"I don't know. Days.\"\n                        \
+  \                 ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 10\n  findings:\n    - id: CE-TL-10-001\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Fusion gauge progression\
+  \ consistent with previous usage rates\n      evidence: \"The fusion gauge dies\
+  \ at sunset. Not a gradual fade—a hard stop. The number blinks from 3% to ERROR\
+  \ to nothing\"\n      cross_reference: 9\n    - id: CE-TL-10-002\n      type: verified\n\
+  \      severity: clean\n      location: mid-chapter\n      content: Hendricks' deteriorating\
+  \ condition follows established timeline from regulator withdrawal\n      evidence:\
+  \ \"He's been drifting in and out for the last hundred miles, his breathing wet\
+  \ and wrong. The bandage on his neck has soaked through again.\"\n      cross_reference:\
+  \ 3\n    - id: CE-TL-10-003\n      type: verified\n      severity: clean\n     \
+  \ location: medical examination scene\n      content: Kellerman's diagnosis of \"\
+  days\" since regulator removal aligns with Chapter 3 timeline\n      evidence: \"\
+  How long since removal?\" \"I don't know. Days.\"\n      cross_reference: 3\n  \
+  \  - id: CE-TL-10-004\n      type: verified\n      severity: clean\n      location:\
+  \ end of chapter\n      content: Standard's lack of hunger/eating needs consistent\
+  \ with established inhuman traits\n      evidence: \"She doesn't need it. The way\
+  \ Elena needs it, the way Hendricks needed the injection—that desperate biological\
+  \ imperative. It isn't there.\"\n      cross_reference: 7\n    - id: CE-TL-10-005\n\
+  \      type: observation\n      severity: info\n      location: charging station\
+  \ interaction\n      content: Twelve-hour charging time establishes duration constraint\
+  \ for next chapter\n      evidence: \"That'll get you a trickle... Twelve hours.\
+  \ Maybe enough to limp to the next station\"\n      cross_reference: null\n  carry_forward:\n\
+  \    - Rover will be charged for 12 hours at the Array\n    - Hendricks is under\
+  \ medical care with Kellerman (who appears to recognize him)\n    - Standard's inhuman\
+  \ nature is becoming undeniable to Array residents\n    - Array residents are hostile\
+  \ to suspected non-humans due to trauma from \"the Drop\"\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

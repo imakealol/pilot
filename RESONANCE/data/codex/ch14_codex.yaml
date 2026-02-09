@@ -1,0 +1,191 @@
+chapter: 14
+title: THE DAM
+wordcount: 1600
+pov: multiple
+time:
+  relative_to_previous: hours later
+  time_of_day: unspecified
+  duration: three days
+locations:
+- name: The Dam Settlement
+  first_appearance: true
+  description: Engineering settlement with crude concrete dam, Faraday shelters, and
+    frequency scramblers
+- name: Reservoir
+  first_appearance: true
+  description: Water reservoir created by the dam
+characters_present:
+- name: Hendricks
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Elena
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Standard
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Chen
+  role: minor
+  entrance: greets group at dam
+  exit: stays at dam
+- name: Kellerman
+  role: minor
+  entrance: already present
+  exit: stays at dam
+- name: Nessa
+  role: minor
+  entrance: already present
+  exit: stays at dam
+character_states:
+  Hendricks:
+    physical: deteriorating rapidly
+    emotional: resigned acceptance
+    location: leaving dam in Rover
+    knowledge_delta:
+    - His aging treatments are failing
+    - Body collecting thirty years of borrowed time debt
+    inventory:
+    - item: analog revolver
+      status: still has
+  Elena:
+    physical: healthy
+    emotional: calculating suspicion
+    location: driving Rover away from dam
+    knowledge_delta:
+    - Morton's term 'Geometry' is spreading as common knowledge
+    - Someone inside NED shot the Child with analog weapon
+    inventory: []
+  Standard:
+    physical: healthy
+    emotional: evolving awareness
+    location: leaving dam in Rover
+    knowledge_delta:
+    - Beginning to understand she can set boundaries
+    - Her protection ability cannot be replicated by technology
+    inventory: []
+  Kellerman:
+    physical: healthy
+    emotional: heartbroken resolved
+    location: staying at dam
+    knowledge_delta:
+    - Hendricks cannot reciprocate his feelings
+    inventory:
+    - item: medical kit
+      status: still has
+objects:
+- name: Power cells
+  status: acquired
+  holder: Elena's group
+  significance: Payment for attempted study of Standard
+- name: Medical scanners
+  status: used
+  holder: Dam engineers
+  significance: Could not detect source of Standard's protection
+key_events:
+- Group arrives at dam settlement following water upstream
+- Engineers want to study Standard's protection ability
+- Hendricks confronts Standard about constantly offering herself
+- Medical scans reveal Standard reads empty on all metrics
+- Kellerman reveals Hendricks' treatments are failing
+- Array survivors and Kellerman stay at dam
+- Kellerman kisses Hendricks goodbye, who cannot reciprocate
+revelations:
+- content: Morton's term 'Geometry' has spread as common knowledge
+  to_whom: Elena
+- content: Someone inside NED shot the Child with analog weapon
+  to_whom: Elena
+- content: Hendricks' body is collecting thirty years of borrowed time debt
+  to_whom: Hendricks and Kellerman
+- content: Standard's protection cannot be technologically replicated
+  to_whom: everyone
+setups:
+- element: Elena's knowledge of insider shooting the Child
+  payoff_chapter: null
+- element: Hendricks' deteriorating condition
+  payoff_chapter: null
+payoffs:
+- element: Standard beginning to set boundaries
+  setup_chapter: 13
+tone: emotional
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: Approaching the dam
+  characters:
+  - Hendricks
+  - Elena
+  - Standard
+  - Array survivors
+  summary: Group discovers engineering settlement and meets Chen
+- scene_number: 2
+  location: Dam settlement
+  characters:
+  - Elena
+  - Standard
+  - Chen
+  - engineers
+  summary: Engineers propose studying Standard's protection ability
+- scene_number: 3
+  location: Dam settlement
+  characters:
+  - Hendricks
+  - Standard
+  - Elena
+  - Chen
+  summary: Hendricks confronts Standard about offering herself
+- scene_number: 4
+  location: Reservoir overlook
+  characters:
+  - Hendricks
+  - Kellerman
+  summary: Kellerman reveals Hendricks' failing condition
+- scene_number: 5
+  location: Dam settlement
+  characters:
+  - Standard
+  - Chen
+  - engineers
+  summary: Scans reveal nothing detectable about Standard's abilities
+- scene_number: 6
+  location: Dam departure
+  characters:
+  - Hendricks
+  - Kellerman
+  - Elena
+  - Standard
+  summary: Kellerman stays behind and kisses Hendricks goodbye
+continuity_notes:
+- Elena connects Morton's 'Geometry' term to hawker cache failure
+- Hendricks' analog weapon significant for Child assassination
+open_threads:
+- How will Elena use knowledge about insider NED shooter
+- How long does Hendricks have before complete deterioration
+- What is Standard's true nature if undetectable by technology
+closed_threads:
+- Array survivors find permanent settlement
+- Kellerman's feelings for Hendricks resolved
+
+language_thread:
+  status: WRITE
+  priority: HIGH
+  elements:
+    - element: "Machine interface during scan"
+      detail: |
+        Scientists scan her — she allows it.
+        While they probe, she probes back.
+        Absorbs machine code, data protocols, system architecture.
+        Internal: "Their machines talk. I didn't know I was listening."
+      significance: |
+        - First non-human language she decodes
+        - Bridges human communication → machine communication
+        - Foreshadows: Geometry code is just a harder machine language
+        - Later payoff: intuits something about a system she shouldn't understand
+    - element: "Dam idioms"
+      detail: "Water/power metaphors — Standard uses one correctly"
+    - element: "Engineering terminology"
+      detail: "Standard picks up technical vocabulary, code-switches with engineers"
+    - element: "Community warmth in speech"
+      detail: "Contrast with Array hostility — Standard notices the difference in tone"

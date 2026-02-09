@@ -1,0 +1,159 @@
+```yaml
+chapter: 22
+title: "FIVE MINUTES EARLIER"
+wordcount: 1800
+pov: "Standard"
+
+time:
+  relative_to_previous: "flashback"
+  time_of_day: "dawn"
+  duration: "minutes"
+
+locations:
+  - name: "VTOL cockpit"
+    first_appearance: false
+    description: "Dented speaker mesh, thousands of toggles"
+  - name: "VTOL cargo bay"
+    first_appearance: false
+    description: "Red light and grated metal, rappelling gear"
+  - name: "Courtyard (aerial view)"
+    first_appearance: false
+    description: "Pale square with platform, congregation gathering"
+  - name: "Airspace above compound"
+    first_appearance: true
+    description: "Twelve thousand feet, hostile drone territory"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four (AutoPilot)"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "rescued from courtyard"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "minor"
+    entrance: "rescued from courtyard"
+    exit: "chapter ends"
+  - name: "Ash"
+    role: "mentioned"
+    entrance: "observed from above"
+    exit: "left behind"
+
+character_states:
+  Standard:
+    physical: "injured (swollen knee, shoulder strain, exhausted)"
+    emotional: "determined, focused"
+    location: "VTOL cockpit"
+    knowledge_delta:
+      - "Can pilot aircraft instinctively"
+      - "Equipment specifications absorbed instantly"
+    inventory:
+      - item: "tactical vest"
+        status: "still has"
+      - item: "hospital gown"
+        status: "still has"
+  Elena:
+    physical: "injured but functional"
+    emotional: "steady, combat-ready"
+    location: "VTOL cargo bay"
+    knowledge_delta: []
+    inventory:
+      - item: "rifle"
+        status: "acquired"
+  Four:
+    physical: "healthy (AI)"
+    emotional: "exasperated, impressed"
+    location: "VTOL systems"
+    knowledge_delta:
+      - "Standard can pilot despite no training"
+    inventory: []
+  Hendricks:
+    physical: "critical (barely breathing)"
+    emotional: "unconscious"
+    location: "VTOL cargo bay"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "rappelling gear"
+    status: "used"
+    holder: "Standard"
+    significance: "Enabled rescue descent"
+  - name: "rifle"
+    status: "transferred"
+    holder: "Elena"
+    significance: "Used to destroy pursuing drones"
+  - name: "VTOL aircraft"
+    status: "tracked"
+    holder: "Standard/Four"
+    significance: "Transport and escape vehicle"
+
+key_events:
+  - "Standard wakes Four and demands flight to execution"
+  - "Four reluctantly demonstrates rappelling equipment"
+  - "Standard rappels down and rescues Elena and Hendricks"
+  - "Compound launches drone pursuit"
+  - "Standard takes manual control and pilots combat maneuvers"
+  - "Elena shoots down pursuing drones from cargo bay"
+  - "VTOL escapes to twelve thousand feet, destination Geneva"
+
+revelations:
+  - content: "Standard has instinctive piloting abilities"
+    to_whom: "reader and Standard"
+  - content: "Four has been used as storage by zealots"
+    to_whom: "reader and Standard"
+  - content: "Ash was signaling during the rescue"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Journey to Geneva through hostile airspace"
+    payoff_chapter: null
+  - element: "Standard's unexplained technical knowledge"
+    payoff_chapter: null
+  - element: "Ash's signaling during rescue"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Standard's rescue mission to save Elena and Hendricks"
+    setup_chapter: 21
+
+tone: "action"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "VTOL cockpit"
+    characters: ["Standard", "Four"]
+    summary: "Standard demands flight and Four demonstrates rappelling gear"
+  - scene_number: 2
+    location: "Airspace and courtyard"
+    characters: ["Standard", "Elena", "Hendricks", "Four"]
+    summary: "Standard rappels down and rescues both prisoners"
+  - scene_number: 3
+    location: "VTOL in flight"
+    characters: ["Standard", "Four", "Elena", "Hendricks"]
+    summary: "Drone pursuit and aerial combat with Elena as gunner"
+  - scene_number: 4
+    location: "High altitude airspace"
+    characters: ["Standard", "Four", "Elena"]
+    summary: "Escape successful, heading toward Geneva"
+
+continuity_notes:
+  - "Chapter occurs five minutes before events in Chapter 21"
+  - "Standard's technical knowledge appears without explanation"
+
+open_threads:
+  - "How does Standard know how to pilot and use equipment?"
+  - "What was Ash signaling during the rescue?"
+  - "Will they reach Geneva safely?"
+  - "Hendricks' medical condition"
+
+closed_threads:
+  - "Elena and Hendricks' rescue from execution"
+```

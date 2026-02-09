@@ -1,0 +1,56 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 13
+  findings:
+    - id: CE-TL-13-001
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Chapter follows immediately after Chapter 12 events at the bridge
+      evidence: "Elena doesn't know how long she sits there... Standard's hands are still wrapped around the chain"
+      cross_reference: 12
+    
+    - id: CE-TL-13-002
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Standard's memory loss spans recent events but retains some older memories, consistent with Chapter 12 codex
+      evidence: "I remember a checkpoint. People falling. The sky going wrong... And then... nothing. Until now."
+      cross_reference: 12
+    
+    - id: CE-TL-13-003
+      type: verified
+      severity: clean
+      location: Standard's dialogue
+      content: Standard remembers Hendricks' name correctly from earlier chapters
+      evidence: "You're Swanstrom Kim Hendricks. Just Hendricks."
+      cross_reference: 3
+    
+    - id: CE-TL-13-004
+      type: verified
+      severity: clean
+      location: Array survivors reaction
+      content: Timeline of Array survivors' hostility followed by mourning is consistent
+      evidence: "They wanted Standard dead twelve hours ago. Threw stones at her... Now they're silent... Nessa is crying"
+      cross_reference: 11
+    
+    - id: CE-TL-13-005
+      type: verified
+      severity: clean
+      location: Elena's backstory
+      content: Elena's age and mother's departure timeline remains consistent
+      evidence: "Eighteen years old and she's spent eleven of them chasing a ghost"
+      cross_reference: 2
+
+  carry_forward:
+    - Standard has memory loss spanning recent events but remembers checkpoint/violet light exposure
+    - Standard's fundamental nature has changed - the void presence is "different now"
+    - Array survivors are experiencing unexplained grief/guilt over Standard
+    - Elena's emotional connection to Standard has deepened significantly
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

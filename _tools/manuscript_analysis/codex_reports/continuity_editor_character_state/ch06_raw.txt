@@ -1,0 +1,62 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 6
+  findings:
+    - id: CE-CS-6-001
+      type: verified
+      severity: clean
+      location: opening scene
+      content: Standard maintains consistent physical state from Chapter 5 - dried blood on cuticles from previous injury
+      evidence: "Standard checks her hands. The blood on her cuticles has dried to a dark, flaking crust."
+      cross_reference: 5
+
+    - id: CE-CS-6-002
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Hendricks' critical condition continues consistently from Chapter 5 - pulse described as thready, skin cold
+      evidence: "His skin is cold. The beat underneath is there, but it is thready. A wire pulled too tight, vibrating in the wind."
+      cross_reference: 5
+
+    - id: CE-CS-6-003
+      type: verified
+      severity: clean
+      location: Elena's awakening
+      content: Elena's implant damage from frequency attack manifests as tremors and visual tracking issues, consistent with neural trauma
+      evidence: "Your hands. The tremor. It's in your eyes too—your pupils aren't tracking together."
+
+    - id: CE-CS-6-004
+      type: observation
+      severity: info
+      location: Geometry scan sequence
+      content: Standard receives alien implant/packet during violet light scan - this needs tracking for future chapters
+      evidence: "A heavy, wet packet settles in the base of her brain—something she doesn't understand, something she doesn't know how to use."
+
+    - id: CE-CS-6-005
+      type: verified
+      severity: clean
+      location: final scene
+      content: Elena uses medical dampener for neural overload, consistent with her implant damage symptoms
+      evidence: "Blue. The dampener. Neural overload... Elena slowly resumes finding what she's looking for – a dampener, usually for implant rejections."
+
+    - id: CE-CS-6-006
+      type: observation
+      severity: info
+      location: driving sequence
+      content: Standard demonstrates intuitive driving ability without training - new capability emergence needs tracking
+      evidence: "Her hands find the wheel. Her foot finds the pedal. The machine responds. It feels natural. Like muscle memory she doesn't remember building."
+
+  carry_forward:
+    - Standard has alien packet/implant in brain from Geometry scan - source of future abilities
+    - Elena's implant damaged, using dampeners to manage neural overload symptoms
+    - Hendricks critically injured but conscious, condition deteriorating
+    - Standard can intuitively operate vehicles despite no training
+    - Elena cannot shoot people, only carries cargo (personality limitation revealed)
+    - Standard claims Hendricks as father figure, protective relationship established
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

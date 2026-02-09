@@ -1,0 +1,74 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 40
+  findings:
+    - id: CE-TL-40-001
+      type: verified
+      severity: clean
+      location: Chapter opening
+      content: Timeline follows immediately from Chapter 39 events - Standard imprisoned in pit after Kael captured her from compound
+      evidence: "The dark has weight. Standard hangs from the chains, counting seconds."
+      cross_reference: 39
+
+    - id: CE-TL-40-002
+      type: verified
+      severity: clean
+      location: Kael's interrogation sequence
+      content: References established backstory from Deliverance encounter, maintaining consistency
+      evidence: "Standard has heard this before. On the Deliverance. The same obsession. The same cracked voice."
+      cross_reference: 32
+
+    - id: CE-TL-40-003
+      type: verified
+      severity: clean
+      location: Template 3 army arrival
+      content: Army arrival follows logically from Dante's broadcast in Chapter 37 - allows sufficient travel time
+      evidence: "Template 3s. Thousands of them. Her face repeated across the horizon, descending on the Quiet Zone like a wave. The army Elena called."
+      cross_reference: 37
+
+    - id: CE-TL-40-004
+      type: verified
+      severity: clean
+      location: VTOL crash site
+      content: Four's crashed VTOL location consistent with Chapter 37 where she was shot down near compound
+      evidence: "The VTOL is wedged against a collapsed watchtower."
+      cross_reference: 37
+
+    - id: CE-TL-40-005
+      type: verified
+      severity: clean
+      location: Hendricks and Elena status update
+      content: References to Hendricks and Elena already inside tower/compound align with previous chapter movements
+      evidence: "Hendricks went in. Elena's already inside."
+      cross_reference: 39
+
+    - id: CE-TL-40-006
+      type: verified
+      severity: clean
+      location: Revolver tracking
+      content: Maintains continuity of Hendricks' revolver now being with Ash, established in previous chapters
+      evidence: "And your father— Ash. He's got the revolver. The one with the bullets Hendricks was saving."
+      cross_reference: 35
+
+    - id: CE-TL-40-007
+      type: observation
+      severity: info
+      location: Geometry code activation
+      content: References the "wet packet" from tetrahedron scan - this connects to Chapter 6 encounter but timeline works
+      evidence: "Something that's been sitting at the base of her brain since the tetrahedron scanned her months ago. The wet packet."
+      cross_reference: 6
+
+  carry_forward:
+    - Standard has escaped pit with new arm from waystation sister
+    - Template 3 army has arrived and is securing compound
+    - Four's VTOL is critically damaged but operational for one flight
+    - Hendricks and Elena are inside tower, Ash has the revolver
+    - Standard and Four are about to crash into the tower
+    - Geometry code in Standard's brain is beginning to activate
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

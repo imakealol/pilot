@@ -1,0 +1,104 @@
+chapter: 26
+title: "BACK TO ONE"
+wordcount: 1350
+pov: "Elena"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Standard's quarters/Vessel's chambers"
+    first_appearance: false
+    description: "Beautiful room with soft light, real fabric, and window full of stars"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Officer"
+    role: "minor"
+    entrance: "already present"
+    exit: "leaves after escorting Elena"
+  - name: "Standard"
+    role: "major"
+    entrance: "returns to quarters with attendants"
+    exit: "chapter ends"
+  - name: "Attendants"
+    role: "minor"
+    entrance: "accompany Standard"
+    exit: "leave after announcing preparation complete"
+
+character_states:
+  Elena:
+    physical: "healthy but shaking, sweating"
+    emotional: "anxious, paranoid"
+    location: "Standard's quarters"
+    knowledge_delta:
+      - "Something was added to her implant during scanning"
+      - "New frequency/weight in her skull that feels familiar"
+    inventory: []
+  Standard:
+    physical: "healthy"
+    emotional: "observant, patient"
+    location: "her quarters"
+    knowledge_delta:
+      - "Elena is afraid she came back wrong from the Geometry"
+      - "How to perform for the Council using Elena's guidance"
+    inventory: []
+
+objects: []
+
+key_events:
+  - "Officer escorts Elena to Standard's quarters without explanation"
+  - "Elena waits alone, expecting trap or punishment that doesn't come"
+  - "Standard returns and observes Elena's physical distress"
+  - "Elena coaches Standard on how to perform for the Council"
+  - "Standard reassures Elena she's still herself despite Geometry exposure"
+  - "Elena discovers new frequency/implant addition from the scanning"
+
+revelations:
+  - content: "Elena suspects the scanner may have added something to her implant"
+    to_whom: "reader and Elena"
+  - content: "Elena fears she might be changed/wrong after the Geometry encounter"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "New frequency/weight in Elena's implant from scanning"
+    payoff_chapter: null
+  - element: "Elena's coaching Standard for Council performance"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "tense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Ship corridors"
+    characters: ["Elena", "Officer"]
+    summary: "Officer escorts Elena through ship corridors to Standard's quarters."
+  - scene_number: 2
+    location: "Standard's quarters"
+    characters: ["Elena"]
+    summary: "Elena waits alone, paranoid about why she wasn't punished."
+  - scene_number: 3
+    location: "Standard's quarters"
+    characters: ["Elena", "Standard", "Attendants"]
+    summary: "Standard returns and Elena coaches her on performing for the Council while discovering changes to her implant."
+
+continuity_notes:
+  - "Elena's implant has been modified during scanning process"
+  - "Scanner tech's blank reaction suggests planned outcome"
+
+open_threads:
+  - "What was added to Elena's implant during scanning"
+  - "Why Elena wasn't punished for heretical readings"
+  - "What the Council will demand from Standard"
+  - "Whether Elena is truly unchanged from Geometry exposure"
+
+closed_threads:
+  - "Elena's immediate fate after scanning - she's temporarily safe"

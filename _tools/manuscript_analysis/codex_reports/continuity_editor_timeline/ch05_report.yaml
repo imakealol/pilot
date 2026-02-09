@@ -1,0 +1,77 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Elena arrives at checkpoint "hours later" after Chapter 4 events
+  - Standard and Hendricks picked up at checkpoint during frequency attack
+  - Elena's implant goes silent around Standard (void effect)
+  - Hendricks has NED Chief of Security credentials and knowledge of service corridors
+  - Frequency attack drops everyone except Standard who observes clinically
+  - Timeline: Chapter 3 (hours later) → Chapter 4 (immediate) → Chapter 5 (hours later)
+  chapter: 5
+  findings:
+  - content: Timeline correctly shows Elena alone after shooting Aikin in Chapter
+      2, with three empty seats representing dead team members
+    cross_reference: 2
+    evidence: Three seats behind her sit empty. Goff. Otis. Aikin. Gone. Left in the
+      server room at NED while she drove away with their mission and without their
+      bodies.
+    id: CE-TL-05-001
+    location: opening sequence
+    severity: clean
+    type: verified
+  - content: Elena's implant timeline consistent - dormant for eleven years, active
+      since NED mission
+    cross_reference: 2
+    evidence: her implant—dormant for eleven years, screaming since NED—was hot now
+    id: CE-TL-05-002
+    location: implant status reference
+    severity: clean
+    type: verified
+  - content: 287.3 Hz frequency established consistently with previous chapters
+    cross_reference: 2
+    evidence: A vibration at 287.3 Hz that rattles the fillings in her teeth
+    id: CE-TL-05-003
+    location: Black Box frequency reference
+    severity: clean
+    type: verified
+  - content: Timeline flows correctly from Chapter 3 - Hendricks appears as dying
+      old man with regulator withdrawal
+    cross_reference: 3
+    evidence: Old. Gray skin. He leans against the concrete barrier like his bones
+      have turned to water. He's shaking. Probably dying... Regulator withdrawal.
+    id: CE-TL-05-004
+    location: Hendricks introduction
+    severity: clean
+    type: verified
+  - content: Timeline flows correctly from Chapter 4 - Standard appears as the unnamed
+      woman from Hendricks' apartment
+    cross_reference: 4
+    evidence: A woman in an oversized jacket that swallows her frame... Her eyes are
+      clear. Empty.
+    id: CE-TL-05-005
+    location: Standard introduction
+    severity: clean
+    type: verified
+  - content: Timeline correctly shows immediate transition from Chapter 4's stairwell
+      escape to checkpoint arrival, with frequency attack occurring "hours later"
+      as indicated in codex
+    cross_reference: 4
+    evidence: Then the sound hits. It isn't a noise. It's a frequency... Elena's hands
+      fly to her temples
+    id: CE-TL-05-006
+    location: frequency attack sequence
+    severity: clean
+    type: verified
+  - content: Standard's resistance to frequency attack consistent with her anomalous
+      nature established in previous chapters
+    cross_reference: 4
+    evidence: She isn't screaming. She isn't seizing. She isn't falling... She moves
+      far enough ahead for Elena's full view
+    id: CE-TL-05-007
+    location: Standard's immunity
+    severity: clean
+    type: verified
+  focus: timeline
+  self_check:
+    findings_cited: true
+    stayed_in_lane: true

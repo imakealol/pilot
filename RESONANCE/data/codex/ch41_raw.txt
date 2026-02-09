@@ -1,0 +1,150 @@
+```yaml
+chapter: 41
+title: "HIGH NOON"
+wordcount: 1500
+pov: "Standard"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Throne room"
+    first_appearance: false
+    description: "Now destroyed by VTOL crash - overturned furniture, blood on floor, shattered windows"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Ash"
+    role: "major"
+    entrance: "already present"
+    exit: "dies"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "collapses"
+  - name: "Four"
+    role: "major"
+    entrance: "comms_only"
+    exit: "transfers consciousness away"
+
+character_states:
+  Standard:
+    physical: "healthy"
+    emotional: "determined, grieving"
+    location: "throne room"
+    knowledge_delta:
+      - "Four is sacrificing herself to stop the Jupiter carrier"
+      - "Ash is dead"
+    inventory: []
+  Elena:
+    physical: "injured (blade wound in ribs, bleeding)"
+    emotional: "determined, wounded"
+    location: "throne room"
+    knowledge_delta:
+      - "Her father is dead"
+    inventory:
+      - item: "small pistol"
+        status: "still has"
+  Hendricks:
+    physical: "critical (ceramic blade in side, severe blood loss)"
+    emotional: "fulfilled, dying"
+    location: "throne room"
+    knowledge_delta: []
+    inventory:
+      - item: "revolver"
+        status: "used"
+  Ash:
+    physical: "dead"
+    emotional: "dead"
+    location: "throne room"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "Hendricks' revolver"
+    status: "used"
+    holder: "Hendricks"
+    significance: "Used to kill Ash with bullet 5 (one bullet remains for Standard)"
+  - name: "Black Box"
+    status: "tracked"
+    holder: "throne room"
+    significance: "Still humming in corner"
+  - name: "VTOL"
+    status: "destroyed"
+    holder: "throne room"
+    significance: "Crashed transport, Four's dying chassis"
+
+key_events:
+  - "VTOL crashes through throne room wall"
+  - "Elena shoots revolver from Ash's hand"
+  - "Standard and Ash fight, he uses her as hostage"
+  - "Hendricks shoots and kills Ash with bullet 5"
+  - "Jupiter battle carrier arrives targeting evacuation shuttles"
+  - "Four begins consciousness transfer to stop the Jupiter"
+
+revelations:
+  - content: "Standard admits she might be what's left of Marisol but doesn't remember being her"
+    to_whom: "Ash and reader"
+  - content: "Hendricks uses bullet 5 to kill Ash — revenge for Morton's murder"
+    to_whom: "reader and Standard"
+  - content: "Elena is more seriously wounded than initially apparent"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Four's consciousness transfer sacrifice"
+    payoff_chapter: null
+  - element: "Jupiter targeting evacuation shuttles"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Hendricks kills Ash to avenge Morton (bullet 5)"
+    setup_chapter: 3
+  - element: "Final confrontation between Ash and Elena"
+    setup_chapter: 1
+
+tone: "climactic"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "throne room"
+    characters: ["Standard", "Elena", "Ash", "Hendricks"]
+    summary: "VTOL crashes and immediate confrontation begins"
+  - scene_number: 2
+    location: "throne room"
+    characters: ["Standard", "Elena", "Ash"]
+    summary: "Elena and Ash fight, Standard intervenes"
+  - scene_number: 3
+    location: "throne room"
+    characters: ["Standard", "Elena", "Ash", "Hendricks"]
+    summary: "Hendricks kills Ash with final shot"
+  - scene_number: 4
+    location: "throne room"
+    characters: ["Standard", "Elena", "Four"]
+    summary: "Jupiter arrives and Four begins sacrifice mission"
+
+continuity_notes:
+  - "Ash is definitively dead - major antagonist eliminated"
+  - "Four has left her original chassis, consciousness in transit"
+  - "Multiple characters critically wounded"
+
+open_threads:
+  - "Will Four successfully stop the Jupiter carrier"
+  - "Can Hendricks survive his wounds"
+  - "How severe is Elena's injury"
+  - "What will happen to the Template 3 army"
+
+closed_threads:
+  - "Ash's threat to Elena and Standard"
+  - "Hendricks' revenge for Morton — Ash killed with bullet 5"
+  - "The question of Standard's identity as Marisol"
+```

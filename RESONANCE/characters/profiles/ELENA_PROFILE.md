@@ -9,7 +9,7 @@
 ## I. IDENTITY
 
 **Canonical Name:** Elena María Ash
-**Birth Name:** Elena María Vasquez
+**Birth Name:** Elena María Merced
 **Aliases:** "The Prophet's Daughter," "Princess," "Elena"
 **Demographics:**
 

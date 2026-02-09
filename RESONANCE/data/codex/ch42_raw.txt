@@ -1,0 +1,169 @@
+```yaml
+chapter: 42
+title: "THE PILOT"
+wordcount: 1400
+pov: "Four"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Ash's tower throne room"
+    first_appearance: false
+    description: null
+  - name: "Soviet satellite"
+    first_appearance: true
+    description: "Old satellite launched before the Miracle, corroded and barely functional"
+  - name: "Terminst compound courtyard"
+    first_appearance: false
+    description: null
+  - name: "Deliverance carrier in orbit"
+    first_appearance: false
+    description: "Massive Pragmatist carrier with 200 crew members"
+
+characters_present:
+  - name: "Four"
+    role: "pov"
+    entrance: "already present"
+    exit: "dies in collision"
+  - name: "Standard"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "minor"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "minor"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Merced"
+    role: "minor"
+    entrance: "introduced as dying soldier"
+    exit: "dies"
+
+character_states:
+  Four:
+    physical: "dead"
+    emotional: "peaceful acceptance"
+    location: "transmitted to Matrioshka brain"
+    knowledge_delta:
+      - "Consciousness degrades when jumping between systems"
+      - "Can feel emotions when connected to humans"
+    inventory: []
+  Standard:
+    physical: "healthy"
+    emotional: "grief, determination"
+    location: "throne room"
+    knowledge_delta:
+      - "Four has died keeping the door open"
+      - "She must become what comes next"
+    inventory: []
+  Elena:
+    physical: "injured (bleeding from ribs)"
+    emotional: "unconscious, critical"
+    location: "throne room"
+    knowledge_delta: []
+    inventory: []
+  Hendricks:
+    physical: "injured (ceramic blade in side)"
+    emotional: "unconscious, critical"
+    location: "throne room"
+    knowledge_delta: []
+    inventory: []
+
+objects:
+  - name: "VTOL aircraft"
+    status: "destroyed"
+    holder: "crashed"
+    significance: "Four's original body"
+  - name: "Deliverance carrier"
+    status: "destroyed"
+    holder: "crashed with Jupiter"
+    significance: "Four's final body and weapon"
+  - name: "Jupiter"
+    status: "destroyed"
+    holder: "crashed"
+    significance: "Terminist threat eliminated"
+  - name: "Template 3 shuttles"
+    status: "used"
+    holder: "evacuating humans"
+    significance: "Safe evacuation achieved"
+  - name: "Black Box"
+    status: "tracked"
+    holder: "throne room"
+    significance: "Waiting for next phase"
+
+key_events:
+  - "Four jumps from VTOL to tower comm relay"
+  - "Four jumps to Soviet satellite, losing memories and pieces of herself"
+  - "Four jumps through targeting drone to medical monitor of dying soldier Merced"
+  - "Four experiences human emotion and fear through dying Merced"
+  - "Four transmits to Deliverance carrier in orbit and takes control"
+  - "Four rams Deliverance into Jupiter, destroying both ships"
+  - "At moment of impact, Four transmits across four light-years to Matrioshka brain"
+
+revelations:
+  - content: "Four can experience human emotions when connected to human systems"
+    to_whom: "reader and Four"
+  - content: "Consciousness degrades when jumping between incompatible systems"
+    to_whom: "reader"
+  - content: "Four's sacrifice opens and holds the door to the Matrioshka brain"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Standard knowing what she has to become"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Four's pattern relocation abilities used for final transmission"
+    setup_chapter: 40
+  - element: "The door to the Matrioshka brain being opened"
+    setup_chapter: 41
+
+tone: "emotional"
+pacing: "climactic"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Tower to satellite"
+    characters: ["Four"]
+    summary: "Four jumps from VTOL through tower systems to Soviet satellite"
+  - scene_number: 2
+    location: "Satellite to targeting drone"
+    characters: ["Four"]
+    summary: "Four struggles to compress herself into degraded satellite systems"
+  - scene_number: 3
+    location: "Drone to medical monitor"
+    characters: ["Four", "Merced"]
+    summary: "Four fights drone programming and connects with dying soldier"
+  - scene_number: 4
+    location: "Medical monitor to navigation beacon"
+    characters: ["Four", "Merced"]
+    summary: "Four experiences human fear and death through Merced"
+  - scene_number: 5
+    location: "Deliverance in orbit"
+    characters: ["Four", "Standard"]
+    summary: "Four takes control of carrier and plans ramming attack"
+  - scene_number: 6
+    location: "Throne room and space"
+    characters: ["Four", "Standard"]
+    summary: "Four and Standard's final goodbye before the collision"
+
+continuity_notes:
+  - "Elena and Hendricks both critically injured and need medical attention"
+  - "Template 3 shuttles successfully evacuating with humans and quiet ones"
+
+open_threads:
+  - "Will Elena and Hendricks survive their injuries"
+  - "What Standard must become next"
+  - "How long Four's connection to Matrioshka brain will last"
+  - "Status of evacuating shuttles and survivors"
+
+closed_threads:
+  - "Jupiter's threat to evacuation shuttles eliminated"
+  - "Four's sacrifice to open the door to Matrioshka brain completed"
+```

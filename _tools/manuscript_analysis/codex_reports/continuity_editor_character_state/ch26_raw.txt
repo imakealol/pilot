@@ -1,0 +1,65 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 26
+  findings:
+    - id: CE-CS-26-001
+      type: verified
+      severity: clean
+      location: Opening scene - Elena's physical state
+      content: Elena's hand shaking and sweating is consistent with stress from the scanner experience in previous chapter
+      evidence: "Her hand is shaking. She watches it shake... You're shaking... You're sweating and it's rather cool in here."
+      cross_reference: 25
+    
+    - id: CE-CS-26-002
+      type: verified
+      severity: clean
+      location: Mid-chapter - Elena's psychological state
+      content: Elena's paranoia about being changed by the Geometry crossing is consistent with established trauma
+      evidence: "What if she came back from the Geometry wrong—not Elena-wrong, but wrong-wrong, changed in ways that make her useful to them?"
+      cross_reference: 24
+    
+    - id: CE-CS-26-003
+      type: observation
+      severity: info
+      location: End of chapter - Elena's implant
+      content: New frequency/layer detected in Elena's implant after scanning, consistent with scanner modification setup from Ch25
+      evidence: "Something is different. The implant... it feels different... A hum underneath the hum. A layer she didn't put there."
+      cross_reference: 25
+    
+    - id: CE-CS-26-004
+      type: verified
+      severity: clean
+      location: Throughout - Standard's emotional state
+      content: Standard maintains her observational, patient demeanor consistent with previous characterization
+      evidence: "You're shaking... You keep touching your neck... Waiting. Patient in a way that doesn't feel like patience—just absence of urgency."
+      cross_reference: 23
+    
+    - id: CE-CS-26-005
+      type: verified
+      severity: clean
+      location: Mid-chapter - Elena's hand tremor resolution
+      content: Elena's physical symptoms improve after Standard's reassurance, showing character consistency in her response to comfort
+      evidence: "The shaking slows. Doesn't stop. But slows... Your hand stopped shaking."
+      cross_reference: null
+    
+    - id: CE-CS-26-006
+      type: verified
+      severity: clean
+      location: Throughout - Elena's survival instincts
+      content: Elena's tactical thinking and performance coaching of Standard consistent with her established military/survivor mindset
+      evidence: "When they kneel, you touch their forehead... Don't speak—let me speak for you... Make whatever comes out of your mouth sound like prophecy instead of confusion."
+      cross_reference: 25
+
+  carry_forward:
+    - Elena has new frequency/layer added to her implant during Ch25 scanning
+    - Elena's hand tremor responds to emotional reassurance from Standard
+    - Standard continues developing her observational abilities and patient demeanor
+    - Elena maintains tactical survival mindset despite psychological stress
+    - Both characters preparing for Council performance in next chapter
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

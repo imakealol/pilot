@@ -1,0 +1,72 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 11
+  findings:
+    - id: CONT-TIME-11-001
+      type: verified
+      severity: clean
+      location: Chapter opening
+      content: Timeline flows correctly from Chapter 10 - group arrived at Array at sunset, chapter begins "through the night"
+      evidence: "She sits in the Rover through the night, watching the compound through the windshield"
+      cross_reference: 10
+    - id: CONT-TIME-11-002
+      type: verified
+      severity: clean
+      location: Night sequence
+      content: Kellerman's medical checks follow logical overnight timeline
+      evidence: "Kellerman checked on him twice—once at midnight, once near dawn"
+      cross_reference: 10
+    - id: CONT-TIME-11-003
+      type: verified
+      severity: clean
+      location: Dawn departure
+      content: Morning departure timing aligns with fuel sabotage discovery
+      evidence: "The sky begins to gray... Elena emerges from the common area. She looks like she hasn't slept either"
+      cross_reference: 10
+    - id: CONT-TIME-11-004
+      type: observation
+      severity: info
+      location: Fuel calculations
+      content: Fuel timeline is internally consistent - "two hours of hydrogen" becomes "eighteen percent" after water conversion, roughly 50-60 miles range
+      evidence: "We've got maybe two hours of hydrogen in the tank... The fuel gauge... Climbs. Stops at eighteen percent"
+      cross_reference: null
+    - id: CONT-TIME-11-005
+      type: verified
+      severity: clean
+      location: Medical scan sequence
+      content: Scanner results build logically on established timeline of Standard's unusual nature
+      evidence: "She's empty. Like she was never connected to anything"
+      cross_reference: 10
+    - id: CONT-TIME-11-006
+      type: verified
+      severity: clean
+      location: Geometry frequency event
+      content: Drop event mirrors previous frequency attacks with consistent symptoms and Standard's immunity
+      evidence: "Standard has felt this before. At the checkpoint. Before the Drop"
+      cross_reference: 6
+    - id: CONT-TIME-11-007
+      type: verified
+      severity: clean
+      location: Survival count
+      content: Six survivors standing near Standard matches the protective radius established in earlier Drop events
+      evidence: "Six. Six people still moving. All of them within arm's reach of where she stood"
+      cross_reference: 6
+    - id: CONT-TIME-11-008
+      type: verified
+      severity: clean
+      location: Chapter end
+      content: Distance and fuel consumption align - "ten-mile marker" with fuel dropping from 18% to 14% suggests consistent consumption rate
+      evidence: "Elena wakes somewhere around the ten-mile marker... fuel gauge drops to fourteen percent"
+      cross_reference: null
+  carry_forward:
+    - Six Array survivors now know Standard can protect people from Geometry attacks
+    - Water reserves completely depleted for emergency fuel conversion  
+    - Story of Standard surviving Drop will spread as Elena plans to use reputation
+    - Kellerman remains at Array with unconscious crowd members
+    - Fuel at 14% with roughly 40 miles range remaining
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

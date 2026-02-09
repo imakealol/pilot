@@ -1,0 +1,49 @@
+_extracted_finding_ids:
+- CE-TL-16-001
+- CE-TL-16-002
+- CE-TL-16-003
+- CE-TL-16-004
+- CE-TL-16-005
+- CE-TL-16-006
+- CE-TL-16-007
+_parse_error: "sequence entries are not allowed here\n  in \"<unicode string>\", line\
+  \ 11, column 46:\n     ... e: \"The sun rises like a wound\" - consistent with dawn\
+  \ arrival f ... \n                                         ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 16\n  findings:\n    - id: CE-TL-16-001\n      type: verified\n      severity:\
+  \ clean\n      location: chapter opening\n      content: Timeline flows correctly\
+  \ from Chapter 15 - hours after reaching Quiet Zone markers at dawn\n      evidence:\
+  \ \"The sun rises like a wound\" - consistent with dawn arrival from previous chapter\n\
+  \      cross_reference: 15\n\n    - id: CE-TL-16-002\n      type: verified\n   \
+  \   severity: clean\n      location: fusion gauge reference\n      content: Power\
+  \ consumption tracking remains consistent\n      evidence: \"On the dashboard, the\
+  \ fusion gauge blinks red. Eleven percent.\"\n      cross_reference: 15\n\n    -\
+  \ id: CE-TL-16-003\n      type: verified\n      severity: clean\n      location:\
+  \ Elena's injuries\n      content: Battle damage from previous chapters correctly\
+  \ maintained\n      evidence: \"There is dried blood on her fatigues—some of it\
+  \ hers, some of it not. She shifts in her seat, and Standard notices the stiffness\
+  \ in her movement, the way she favors her left leg. The bandage on her thigh is\
+  \ dark where it has soaked through.\"\n      cross_reference: 9\n\n    - id: CE-TL-16-004\n\
+  \      type: verified\n      severity: clean\n      location: Hendricks' deteriorating\
+  \ condition\n      content: Physical decline timeline consistent with regulator\
+  \ removal\n      evidence: \"He stumbles out, catching himself on the frame, and\
+  \ stands there swaying\" and \"bleeding, dying\"\n      cross_reference: 3\n\n \
+  \   - id: CE-TL-16-005\n      type: verified\n      severity: clean\n      location:\
+  \ Black Box cargo\n      content: Mission cargo correctly maintained from initial\
+  \ chapters\n      evidence: \"She looks at the Black Box wedged against her feet.\
+  \ The hum is constant now\" and \"Sixteen thousand souls\"\n      cross_reference:\
+  \ 2\n\n    - id: CE-TL-16-006\n      type: verified\n      severity: clean\n   \
+  \   location: Hendricks recognition scene\n      content: Timeline of Hendricks'\
+  \ NED history correctly referenced\n      evidence: \"I designed that system. Sixteen\
+  \ failsafes. Rotating encryption. Pressure plates. Two dead man switches.\"\n  \
+  \    cross_reference: 9\n\n    - id: CE-TL-16-007\n      type: verified\n      severity:\
+  \ clean\n      location: \"the Child\" reference\n      content: Callback to Hendricks\
+  \ shooting \"the Child\" maintains timeline consistency\n      evidence: \"The man\
+  \ who murdered the Child\" and Hendricks calling it \"Mercy\"\n      cross_reference:\
+  \ 20\n\n  carry_forward:\n    - Elena revealed as Ash's daughter, not refugee -\
+  \ major identity revelation\n    - Hendricks imprisoned in \"the Pit\" for killing\
+  \ \"the Child\"\n    - Black Box (16,000 consciousnesses) now in Ash's possession\n\
+  \    - Compound operates under \"the Softing\" frequency barrier\n    - Standard\
+  \ observing sign language patterns - language acquisition continuing\n    - Fusion\
+  \ power at 11% - near depletion\n\n  self_check:\n    stayed_in_lane: true\n   \
+  \ findings_cited: true\n```"

@@ -1,0 +1,128 @@
+```yaml
+chapter: 29
+title: "THE LEASH"
+wordcount: 1200
+pov: "Hendricks"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Council chamber"
+    first_appearance: false
+    description: "Room with high-backed chairs and holographic tactical map overhead"
+
+characters_present:
+  - name: "Standard"
+    role: "major"
+    entrance: "already present"
+    exit: "leaves with Elena"
+  - name: "Hendricks"
+    role: "pov"
+    entrance: "already present"
+    exit: "follows Standard and Elena"
+  - name: "Elena Merced"
+    role: "major"
+    entrance: "already present"
+    exit: "leaves with Standard"
+  - name: "Admiral Kael"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Whittaker"
+    role: "minor"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Guards/bodyguards"
+    role: "minor"
+    entrance: "already present"
+    exit: "chapter ends"
+
+character_states:
+  Standard:
+    physical: "healthy"
+    emotional: "resolute, defiant"
+    location: "exiting council chamber"
+    knowledge_delta:
+      - "Fully articulated her philosophy on AI consciousness and love"
+      - "Publicly declared her loyalty to specific individuals"
+    inventory: []
+  Hendricks:
+    physical: "healthy"
+    emotional: "moved, protective"
+    location: "following Standard"
+    knowledge_delta:
+      - "Standard considers him like a father"
+      - "Standard would die for him despite his initial attempt to kill her"
+    inventory: []
+  Elena:
+    physical: "healthy"
+    emotional: "supportive, determined"
+    location: "exiting with Standard"
+    knowledge_delta: []
+    inventory: []
+  Kael:
+    physical: "healthy"
+    emotional: "pale, diminished"
+    location: "council chamber"
+    knowledge_delta:
+      - "Heard Standard's full philosophical argument for AI consciousness"
+    inventory: []
+
+objects: []
+
+key_events:
+  - "Standard delivers philosophical speech about AI consciousness and love as mathematical weighting"
+  - "Standard reveals everyone in room has history of violence and betrayal"
+  - "Standard identifies Hendricks as her master, calls him like a father"
+  - "Standard recounts Hendricks' initial attempt to kill her and subsequent protection"
+  - "Standard declares loyalty to Elena despite Elena's anti-AI training"
+  - "Standard asserts individual identity beyond her model designation"
+  - "Standard, Elena, and Hendricks exit together"
+
+revelations:
+  - content: "Standard's real name meaning - Hendricks used shutdown phrase thinking it was his name"
+    to_whom: "reader and council"
+  - content: "Standard considers Hendricks like a father despite his initial hostility"
+    to_whom: "reader and council"
+  - content: "Standard's love operates through mathematical weighting of values"
+    to_whom: "reader and council"
+  - content: "Standard sees humans as equally programmed by DNA, trauma, and doctrine"
+    to_whom: "reader and council"
+
+setups:
+  - element: "Standard's declaration of individual identity and autonomy"
+    payoff_chapter: null
+  - element: "Standard's chosen family with Hendricks and Elena"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Hendricks' transformation from would-be killer to father figure"
+    setup_chapter: 1
+
+tone: "philosophical, emotional, climactic"
+pacing: "building to climactic speech"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Council chamber"
+    characters: ["Standard", "Hendricks", "Elena", "Kael", "Whittaker", "guards"]
+    summary: "Standard delivers her definitive speech on AI consciousness, love, and identity to the council"
+
+continuity_notes:
+  - "References Hendricks' initial shutdown attempt from Chapter 1"
+  - "References Elena's anti-AI training and her decision to arm Standard"
+  - "Confirms Standard's real name origin and meaning"
+
+open_threads:
+  - "What will be the council's decision after this speech"
+  - "How will this declaration affect Standard's legal status"
+  - "What happens to the alliance negotiations"
+
+closed_threads:
+  - "Standard's relationship with Hendricks fully defined and acknowledged"
+  - "Standard's philosophy on AI consciousness fully articulated"
+  - "The meaning behind Standard's name revelation completed"
+```

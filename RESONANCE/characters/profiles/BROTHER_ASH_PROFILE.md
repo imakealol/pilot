@@ -9,7 +9,7 @@
 ## I. IDENTITY
 
 **Canonical Name:** Brother Ash
-**Birth Name:** [Redacted] Vasquez (self-erased)
+**Birth Name:** [Redacted] Merced (self-erased)
 **Aliases:** "Ash," "The Prophet," "Father"
 **Demographics:**
 
@@ -261,7 +261,7 @@ Brother Ash is the primary vehicle for the Vaughn Trap:
 
 ## XII. OPEN QUESTIONS
 
-- [x] Ethnicity? — Latino (Vasquez), self-redacted
+- [x] Ethnicity? — Latino (Merced), self-redacted
 - [x] Sexuality? — Heterosexual, celibate by ideology
 - [ ] What is the compound like physically?
 - [ ] First line of dialogue?
@@ -290,7 +290,7 @@ Brother Ash is the primary vehicle for the Vaughn Trap:
 | 12/20/25 | Profile generated from Codex and Session 1 |
 | 12/21/25 | Added Craftsman's Secret (android control, hypocrisy) |
 | 12/21/25 | Updated with Gift framing: "His deepest failure: he would refuse the gift" |
-| 12/21/25 | Ethnicity locked: Latino (Vasquez), self-redacted |
+| 12/21/25 | Ethnicity locked: Latino (Merced), self-redacted |
 | 12/21/25 | Sexuality locked: Heterosexual, celibate by ideology |
 
 ---

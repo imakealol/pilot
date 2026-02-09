@@ -1,0 +1,92 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: object_tracking
+  chapter: 40
+  timestamp: 2026-01-18 00:05:00+00:00
+
+  query_log:
+    chapter: CH40
+    previous_reports: [38, 39]
+    external_state: [HANDOFF.md, CHARACTERS.yaml, ACT_III_MAPS.md]
+
+  findings:
+    - id: CO-OB-40-001
+      type: verified
+      severity: clean
+      location: "Kael confrontation sequence"
+      content: "Standard's arm situation advances - loses Kael's mechanical arm, receives sister's biological arm"
+      evidence: "She presses the ragged end against her own stump... The arm clicks. Locks. Integrates." then "The waystation sister reaches up to her own shoulder... 'Now you look like one of us.'"
+      chain_reference: Report_CH39:CO-OB-39-003
+
+    - id: CO-OB-40-002
+      type: observation
+      severity: info
+      location: "throughout chapter"
+      content: "Revolver absent from chapter - remains with Ash per previous tracking"
+      evidence: "Four mentions 'He's got the revolver. The one with the bullets Hendricks was saving' but weapon not directly shown"
+      chain_reference: Report_CH39:CO-OB-39-001
+
+    - id: CO-OB-40-003
+      type: observation
+      severity: info
+      location: "throughout chapter"
+      content: "Ceramic blade absent from chapter - no reference to Hendricks' wound"
+      evidence: "Chapter focuses on Standard's escape and arm acquisition, no scenes with Hendricks or the blade"
+      chain_reference: Report_CH39:CO-OB-39-002
+
+    - id: CO-OB-40-004
+      type: observation
+      severity: info
+      location: "throughout chapter"
+      content: "Elena's implant not referenced - no Elena POV scenes in this chapter"
+      evidence: "Chapter follows Standard's POV exclusively, Elena mentioned only in passing"
+      chain_reference: Report_CH39:CO-OB-39-004
+
+    - id: CO-OB-40-005
+      type: verified
+      severity: clean
+      location: "final sequences"
+      content: "Four's VTOL transitions from damaged to mission-critical - used for tower assault"
+      evidence: "'The VTOL is wedged against a collapsed watchtower. Smoke pours from one engine... Can you fly?' / 'Once. It'll get us there once.'"
+      chain_reference: Report_CH39:CO-OB-39-005
+
+    - id: CO-OB-40-006
+      type: verified
+      severity: clean
+      location: "wet packet sequence"
+      content: "Standard's wet packet (deposited CH6) begins activating during arm integration"
+      evidence: "Something that's been sitting at the base of her brain since the tetrahedron scanned her months ago. The wet packet. The stone she swallowed without knowing. It shifts. Unpacks."
+      chain_reference: null
+
+    - id: CO-OB-40-007
+      type: verified
+      severity: clean
+      location: "Kael's cybernetic arm reveal"
+      content: "New significant object introduced - Kael's concealed mechanical arm, temporarily acquired by Standard"
+      evidence: "The arm comes off at the shoulder. Wires spark. Hydraulic fluid sprays... revealing chrome skeleton underneath"
+      chain_reference: null
+
+  carry_forward:
+    - Standard now has biological arm from waystation sister - third arm in sequence (lost original, stole Kael's, received sister's)
+    - Revolver still with Ash - approaching final confrontation per Four's intelligence
+    - Ceramic blade embedded in Hendricks - status unknown, not referenced this chapter
+    - Elena's implant available but unused this chapter
+    - Four's VTOL now committed to kamikaze tower assault - "once" flight remaining
+    - Standard's wet packet actively unpacking Geometry architecture - will enable door transformation
+    - Template 3 transports establishing massive rescue operation across compound
+
+  chain_citations:
+    - report: CH39
+      finding_id: CO-OB-39-003
+      relationship: extends
+    - report: CH39
+      finding_id: CO-OB-39-005
+      relationship: extends
+
+  self_check:
+    query_log_present: true
+    findings_cited: true
+    chain_referenced: true
+    stayed_in_lane: true
+```

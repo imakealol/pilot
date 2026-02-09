@@ -1,0 +1,53 @@
+_extracted_finding_ids:
+- CE-CS-22-001
+- CE-CS-22-002
+- CE-CS-22-003
+- CE-CS-22-004
+- CE-CS-22-005
+- CE-CS-22-006
+- CE-CS-22-007
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 6, column\
+  \ 7:\n        - id: CE-CS-22-001\n          ^\nexpected <block end>, but found '<scalar>'\n\
+  \  in \"<unicode string>\", line 11, column 117:\n     ... ontrols she doesn't understand\"\
+  \ vs later \"Her fingers don't shak ... \n                                     \
+  \    ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 22\n  findings:\n    - id: CE-CS-22-001\n      type: verified\n      severity:\
+  \ clean\n      location: Opening scene with Four\n      content: Standard's emotional\
+  \ state progression tracked well - from desperate urgency to focused determination\n\
+  \      evidence: \"Standard's voice cracks the cockpit. Her hands are shaking on\
+  \ the controls she doesn't understand\" vs later \"Her fingers don't shake anymore\"\
+  \n      cross_reference: null\n\n    - id: CE-CS-22-002\n      type: verified\n\
+  \      severity: clean\n      location: Rappelling sequence\n      content: Standard's\
+  \ physical injuries properly established and maintained\n      evidence: \"Her left\
+  \ knee shifts wrong—a pop, something moving that shouldn't\" and later \"Her left\
+  \ knee is already swelling, the joint hot and tight inside its skin\"\n      cross_reference:\
+  \ null\n\n    - id: CE-CS-22-003\n      type: verified\n      severity: clean\n\
+  \      location: Rescue execution\n      content: Physical strain and limitations\
+  \ realistically portrayed during rescue\n      evidence: \"Her shoulders scream.\
+  \ Something in her lower back feels like tearing\" and \"her fingers simply stop\
+  \ obeying\"\n      cross_reference: null\n\n    - id: CE-CS-22-004\n      type:\
+  \ verified\n      severity: clean\n      location: Elena and Hendricks rescue\n\
+  \      content: Both characters appropriately incapacitated from previous torture/injuries\n\
+  \      evidence: \"Elena gasps—a high, sharp sound. Hendricks makes a noise that\
+  \ isn't human\" and \"Hendricks is prone beside her, barely breathing\"\n      cross_reference:\
+  \ 21\n\n    - id: CE-CS-22-005\n      type: verified\n      severity: clean\n  \
+  \    location: Combat sequence\n      content: Elena's recovery to functional combat\
+  \ state tracks with her established resilience\n      evidence: \"Elena is braced\
+  \ in the cargo doorway, one hand on the frame, the other wrapped around the rifle.\
+  \ Her hair whips in the wind. Her face is set\"\n      cross_reference: 21\n\n \
+  \   - id: CE-CS-22-006\n      type: observation\n      severity: info\n      location:\
+  \ Standard's piloting abilities\n      content: Standard's instant technical knowledge\
+  \ continues pattern of unexplained capabilities\n      evidence: \"She's never seen\
+  \ any of this before, and she understands all of it. The knowledge settles into\
+  \ her like water finding cracks\"\n      cross_reference: 21\n\n    - id: CE-CS-22-007\n\
+  \      type: verified\n      severity: clean\n      location: Four's character consistency\n\
+  \      content: Four's personality remains consistent - sarcastic but ultimately\
+  \ loyal\n      evidence: \"I hate you... I want that on the record\" combined with\
+  \ providing tactical support throughout\n      cross_reference: 20\n\n  carry_forward:\n\
+  \    - Standard has sustained left knee injury (swollen, immobile) that needs tracking\n\
+  \    - Elena has recovered enough to function in combat situations\n    - Hendricks\
+  \ remains in critical condition from torture injuries\n    - Standard's unexplained\
+  \ technical abilities continue expanding\n    - Four maintains sarcastic but protective\
+  \ relationship with Standard\n\n  self_check:\n    stayed_in_lane: true\n    findings_cited:\
+  \ true\n```"

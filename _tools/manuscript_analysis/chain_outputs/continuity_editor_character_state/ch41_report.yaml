@@ -1,0 +1,113 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Hendricks critically wounded with ceramic blade in side, conscious but collapsed
+  - Elena has serious abdominal wound she's concealing while helping others
+  - Ash confirmed dead from Hendricks' fifth bullet
+  - Standard experienced partial memory recovery about loving someone
+  - Four departed VTOL to attempt relay hop to Deliverance, identity fragmentation
+    expected
+  - Jupiter battle carrier threatening evacuation forces outside
+  - Elena's implant being used to boost Four's signal during transfer
+  chain_citations:
+  - finding_id: CO-CH-40-006
+    relationship: confirms
+    report: CH40
+  - finding_id: CO-CH-40-005
+    relationship: extends
+    report: CH40
+  - finding_id: CO-CH-39-007
+    relationship: confirms
+    report: CH39
+  chapter: 41
+  findings:
+  - chain_reference: Report_CH40:CO-CH-40-006
+    content: Standard's location confirmed in crashed VTOL cargo hold in throne room
+    evidence: Standard braces against the cargo hold's frame as the VTOL tears through
+      the throne room wall...Standard tears through the crumpled cargo door
+    id: CO-CH-41-001
+    location: opening paragraph
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Character positions established - Elena on floor injured, Ash standing
+      over her with revolver, Hendricks wounded near wall with ceramic blade
+    evidence: Elena is on the floor, pulling herself up from debris. Ash stands over
+      her, the revolver in his hand...Hendricks himself lies near the far wall, ceramic
+      blade embedded in his side
+    id: CO-CH-41-002
+    location: throne room scene setup
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Elena sustains facial injuries from fight with Ash, later reveals deeper
+      wound to ribs
+    evidence: There's blood on her face, a split lip, the marks of violence already
+      darkening...The blood spreading beneath Elena's ribs. Not from her face. From
+      lower. Darker.
+    id: CO-CH-41-003
+    location: Elena's injuries
+    severity: info
+    type: observation
+  - chain_reference: Report_CH39:CO-CH-39-007
+    content: Hendricks critically wounded but conscious - ceramic blade in side, severe
+      blood loss, able to make final shot
+    evidence: ceramic blade embedded in his side, blood pooling beneath him...It shouldn't
+      be possible. The wounds are too deep. The blood loss too severe. But he drags
+      himself toward the revolver
+    id: CO-CH-41-004
+    location: Hendricks' condition
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Ash killed by Hendricks' fifth bullet - headshot while using Standard
+      as shield
+    evidence: The bullet passes two inches from Standard's ear...hole in his forehead,
+      expression frozen in disbelief. Dead before he hits the ground.
+    id: CO-CH-41-005
+    location: Ash's death
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Standard experiences partial memory recovery - remembers loving someone
+      but not who
+    evidence: I remember loving someone. I just don't remember who...But I remember
+      what it felt like to love you.
+    id: CO-CH-41-006
+    location: Standard's memory fragments
+    severity: info
+    type: observation
+  - chain_reference: Report_CH40:CO-CH-40-005
+    content: Four departs VTOL chassis to attempt relay hop to Deliverance, warns
+      of memory/identity loss
+    evidence: Each jump strips something away. Memories. Processing capacity. Pieces
+      of me I'll never get back...I won't be coming back. Not as me.
+    id: CO-CH-41-007
+    location: Four's final transfer
+    severity: clean
+    type: verified
+  - chain_reference: null
+    content: Elena concealing severity of abdominal wound while helping others
+    evidence: The blood spreading beneath Elena's ribs...She's not fine. Standard
+      saw Ash's blade during the fight—thought it was a glancing blow. It wasn't.
+    id: CO-CH-41-008
+    location: Elena's hidden injury
+    severity: warning
+    type: observation
+  focus: character_state
+  query_log:
+    chapter: CH41
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+    previous_reports:
+    - 38
+    - 39
+    - 40
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2025-01-18 20:28:45+00:00

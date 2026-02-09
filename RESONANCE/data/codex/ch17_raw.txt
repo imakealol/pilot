@@ -1,0 +1,122 @@
+chapter: 17
+title: "THE SIGN"
+wordcount: 2100
+pov: "omniscient"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "Quiet Zone courtyard"
+    first_appearance: false
+    description: null
+  - name: "Examination Room"
+    first_appearance: true
+    description: "Low building without windows, opens into darkness"
+  - name: "Eastern fields"
+    first_appearance: true
+    description: "Where thousands of quiet ones stand with blank minds, slowly dying"
+
+characters_present:
+  - name: "Standard"
+    role: "major"
+    entrance: "already present"
+    exit: "taken to Examination Room"
+  - name: "Ash"
+    role: "major"
+    entrance: "already present"
+    exit: "enters tower"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Guards"
+    role: "minor"
+    entrance: "already present"
+    exit: "escorting Standard"
+
+character_states:
+  Standard:
+    physical: "healthy"
+    emotional: "resigned, accepting"
+    location: "entering Examination Room"
+    knowledge_delta:
+      - "Ash sees her as either signal or error, not salvation"
+      - "The Quiet Zone has been expecting the apocalypse"
+    inventory: []
+  Ash:
+    physical: "healthy"
+    emotional: "coldly certain"
+    location: "inside tower"
+    knowledge_delta:
+      - "Standard walked through frequency weapons unharmed"
+      - "She doesn't need dampeners"
+    inventory: []
+  Elena:
+    physical: "healthy"
+    emotional: "defeated, lost"
+    location: "courtyard"
+    knowledge_delta:
+      - "Father has known about the sky threat for hours"
+      - "The eastern fields contain thousands of lobotomized people"
+      - "Standard will be examined and possibly destroyed"
+    inventory: []
+
+objects:
+  - name: "Box of ghosts"
+    status: "tracked"
+    holder: "in tower"
+    significance: "Contains Morton's consciousness and data, delayed for examination"
+  - name: "Otis's shirt"
+    status: "tracked"
+    holder: "Standard"
+    significance: "Symbol of Standard wearing the dead's identity"
+
+key_events:
+  - "Ash examines Standard and questions what she is"
+  - "Elena describes Standard as a 'sign' who walked through frequency weapons"
+  - "Ash reveals he's known about the sky threat for six hours"
+  - "Ash explains the Quiet Zone philosophy and the eastern fields of lobotomized people"
+  - "Standard is taken to the Examination Room for testing"
+
+revelations:
+  - content: "Ash has known about the sky threat for six hours and has been expecting it"
+    to_whom: "reader and Elena"
+  - content: "Thousands of people with implants are kept lobotomized in the eastern fields"
+    to_whom: "reader and Elena"
+  - content: "Ash sees the apocalypse as inevitable and offers only 'clean death'"
+    to_whom: "reader and Elena"
+
+setups:
+  - element: "Standard being taken for examination and scanning"
+    payoff_chapter: null
+  - element: "The Box being delayed for integration"
+    payoff_chapter: null
+  - element: "Ash's fatalistic acceptance of the coming end"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "cold, philosophical"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Quiet Zone courtyard"
+    characters: ["Standard", "Ash", "Elena", "Guards"]
+    summary: "Ash examines Standard and debates her nature with Elena before ordering her to be tested."
+
+continuity_notes:
+  - "Standard still wearing Otis's shirt from previous chapters"
+  - "Reference to Morton as the executioner connects to earlier events"
+
+open_threads:
+  - "What will the Examination Room reveal about Standard?"
+  - "Will the Box data be integrated?"
+  - "How will Elena respond to her father's philosophy?"
+
+closed_threads:
+  - "Why Ash built the Quiet Zone - revealed as preparation for apocalypse"
+  - "What happened to people with implants who sought sanctuary"

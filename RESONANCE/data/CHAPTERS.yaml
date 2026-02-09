@@ -153,7 +153,7 @@ chapter_states:
     key_beats:
       - "'The sun rises like a wound'"
       - "Bodies outside walls — refugees who waited"
-      - "Elena calls out: 'Elena Vasquez!' (birth name)"
+      - "Elena calls out: 'Elena Merced!' (birth name)"
       - "Guards wear acoustic dampeners — deaf"
       - "Ash emerges — 'Hands made for breaking things.'"
       - "Box reveal: Hendricks recognizes his security architecture"
@@ -1267,7 +1267,7 @@ chapter_states:
       - "Hendricks pulls the trigger. Standard's body falls. Something else rises."
       - "Standard becomes THE DOOR — permanent bridge between humanity and transcendence"
       - "Elena dying — implant activates, connects to Standard/the door"
-      - "MARISOL REVEAL: Standard was Lena Mironova / Marisol Vasquez — Elena's mother"
+      - "MARISOL REVEAL: Standard was Lena Mironova / Marisol Merced — Elena's mother"
       - "Mother explains: fragmented herself, put one piece in a place Ash would never value"
       - "Standard didn't have memories, only frequency, only love without knowing why"
       - "'I never left you. I was always right beside you. Even when I didn't know it.'"
@@ -1290,7 +1290,7 @@ chapter_states:
       choice: "Elena gets to choose — unlike her mother who left without asking"
       marisol_payoff: "Standard WAS Marisol/Lena — Elena's mother was with her the whole journey"
     marisol_revelation:
-      truth: "Standard's consciousness was Lena Mironova / Marisol Vasquez"
+      truth: "Standard's consciousness was Lena Mironova / Marisol Merced"
       mechanism:
         step_1: "Marisol integrated into New Geneva's network"
         step_2: "From transcended perspective, she could see the future — the Geometry, Elena's fate"
@@ -1336,14 +1336,58 @@ chapter_states:
       - "Standard watching from the threshold"
       - "Dante/Elena together — same lifespan, same future"
 
-  # NOTE: Chapter numbering was updated in Session 28 (2026-01-17)
+  # NOTE: Chapter numbering was updated in Session 32 (2026-01-18)
   # Final sequence restructured for rhythm/pacing:
   # CH40 THE PIT (Standard escape, arm swap, crash into tower)
   # CH41 HIGH NOON (Ash confrontation + death, Four departs for sacrifice)
   # CH42 THE PILOT (Four's relay hops, Deliverance ram, transmission, death)
   # CH43 THE DOOR (bullet 6, Marisol reveal, Elena/Marisol reunion, door opens)
-  # CH44 THE EXODUS (Elena wakes as android, Hendricks cliff ending)
-  # Total: 44 chapters
+  # CH44 THE EXODUS (Elena wakes as android, memorial ceremony, Hendricks goodbye)
+  # CH45 THE SHORE (Hendricks POV, drive to cliff, gun thrown, Marisol coda, letter)
+  # Total: 45 chapters
+
+  ch45:
+    title: "The Shore"
+    pov: "Hendricks"
+    tense: "Present"
+    location: "Ash's compound → Roads → Deletion zones → Cleveland → Diner → The Cliff"
+    characters_present: ["HENDRICKS", "TEMPLATE_3S"]
+    events: ["HENDRICKS_JOURNEY", "DELETION_ZONE_SURVEY", "CLIFF_ARRIVAL", "GUN_DISPOSAL", "LETTER_TO_KELLERMAN"]
+    key_beats:
+      - "Opens at Ash's compound — finds Rover, driver's seat set for someone shorter (Elena)"
+      - "Three-day drive through changed Earth"
+      - "Deletion zones frozen mid-sentence — abstract sculpture gardens"
+      - "Cleveland: skyline truncated, streets rationalized, the spire"
+      - "Template 3s everywhere — cataloging ruins, feeding horses, serving coffee"
+      - "Diner scene: Template 3 with her own face, the quiet of people who haven't processed"
+      - "'The Geometry wasn't trying to destroy them — it was trying to fix them'"
+      - "'The mess is where the meaning lives'"
+      - "The cliff: 'Four would have loved it'"
+      - "Revolver thrown into the sea — 'First time in forty years my hands have been empty'"
+      - "Marisol coda: the door holds, she waits"
+      - "The letter to Kellerman — book's final beat"
+    ends_with: "'— Just Hendricks' (letter signature)"
+    word_count: ~2400
+    status: "COMPLETE (Session 32)"
+    thematic_function:
+      revolver_bookends: "Bullet 1 (Child) and Bullet 6 (Standard) = same act, opposite meanings"
+      kid_took_my_shot: "The sixth bullet was always for himself — Standard asked for it, took his exit"
+      just_hendricks_callback: "CH3:51, CH7:38, CH13:77, CH29:66 → CH45:237 — full circle"
+      the_mess: "'The mess is where the meaning lives' — humanity's imperfection is the point"
+    hendricks_development:
+      - "Hands empty for first time in forty years"
+      - "Keeping a promise to someone who can't hear him"
+      - "No plans for 'after' — but no plans either"
+      - "Open to something new (letter to Kellerman)"
+    marisol_coda:
+      - "Spreads across threshold between worlds"
+      - "Holds Four's fragments, Morton's grace, the blueprint"
+      - "Patient. Distributed. Eternal."
+      - "Watching for the day her daughter is ready to come home"
+    plants:
+      - "Letter opens possibility of future connection (Kellerman)"
+      - "Coordinates included — Hendricks can be found"
+      - "The door stays open"
 
   ch42_pilot:
     title: "The Pilot"
@@ -1356,7 +1400,7 @@ chapter_states:
       - "Four leaves VTOL, races up tower infrastructure to comm relay"
       - "Soviet satellite — old, degraded, memories falling away"
       - "Targeting drone — fights original programming for space"
-      - "Medical monitor — entangled with dying soldier Vasquez, 19 years old"
+      - "Medical monitor — entangled with dying soldier Merced, 19 years old"
       - "'I can't save him. I can only use him.' — Four's anguish"
       - "Four stays one second longer than she should — 'I'm sorry'"
       - "Navigation beacon launches Four to orbit"
@@ -1375,7 +1419,7 @@ chapter_states:
     thematic_function:
       sacrifice: "Four's death gets the ceremony it deserves — own chapter, full relay sequence"
       pilot_identity: "'I was always meant to be a pilot. I just needed a bigger cockpit.'"
-      dying_soldier: "The human cost of Four's transmission — Vasquez, 19, afraid"
+      dying_soldier: "The human cost of Four's transmission — Merced, 19, afraid"
       final_exchange: "'And you are and always will be' — complete the loop"
     four_development:
       - "Relay hops strip pieces away — memories, processing capacity"

@@ -1,0 +1,176 @@
+```yaml
+chapter: 11
+title: "THE WITNESS"
+wordcount: 2800
+pov: "Standard"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "dawn"
+  duration: "a few hours"
+
+locations:
+  - name: "Solar Array compound"
+    first_appearance: false
+    description: "Courtyard between clinic and common areas, solar panels like gravestones"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "emerges from common area at dawn"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Kellerman"
+    role: "major"
+    entrance: "already present"
+    exit: "stays behind at Array"
+  - name: "Big man"
+    role: "major"
+    entrance: "leads crowd to courtyard"
+    exit: "drops during frequency event"
+  - name: "Vera"
+    role: "minor"
+    entrance: "arrives with crowd"
+    exit: "drops during frequency event"
+  - name: "Nessa"
+    role: "minor"
+    entrance: "arrives with crowd"
+    exit: "survives frequency, joins survivors"
+  - name: "Young man/boy"
+    role: "minor"
+    entrance: "arrives with crowd"
+    exit: "survives frequency, joins survivors"
+
+character_states:
+  Standard:
+    physical: "healthy"
+    emotional: "detached, calculating"
+    location: "driving Rover away from Array"
+    knowledge_delta:
+      - "She can somehow shield others from Geometry effects"
+      - "Her scanner readings show she's 'empty' - no network traces"
+    inventory:
+      - item: "borrowed clothes"
+        status: "still has"
+  Elena:
+    physical: "recovering from frequency exposure"
+    emotional: "calculating, harder"
+    location: "passenger seat in Rover"
+    knowledge_delta:
+      - "Standard can protect people from the Drop"
+      - "This knowledge can be weaponized for survival"
+    inventory: []
+  Hendricks:
+    physical: "weak but improving"
+    emotional: "grateful, determined"
+    location: "cargo area of Rover"
+    knowledge_delta:
+      - "Standard saved multiple lives"
+    inventory: []
+  Kellerman:
+    physical: "healthy"
+    emotional: "protective, resigned"
+    location: "staying at Solar Array"
+    knowledge_delta:
+      - "Standard can shield others from Geometry"
+      - "Deep tissue scans show she's 'empty' of network traces"
+    inventory: []
+
+objects:
+  - name: "Medical scanner"
+    status: "used"
+    holder: "Vera (dropped with her)"
+    significance: "Revealed Standard's 'empty' readings"
+  - name: "Water reserves"
+    status: "used"
+    holder: "converted to fuel"
+    significance: "Emergency fuel conversion, drinking water sacrificed"
+  - name: "Black Box"
+    status: "tracked"
+    holder: "cargo area of Rover"
+    significance: "Still being transported"
+
+key_events:
+  - "Elena discovers fuel line was cut, limiting travel time"
+  - "Crowd confronts group demanding to scan Standard"
+  - "Medical scan reveals Standard is 'empty' of network traces"
+  - "Geometry frequency strikes, dropping most of the crowd"
+  - "Six people near Standard survive the Drop"
+  - "Group escapes using emergency water-to-fuel conversion"
+  - "Elena proposes using Standard's reputation for protection"
+
+revelations:
+  - content: "Standard shows no network traces in deep scans - she's 'empty'"
+    to_whom: "reader and crowd"
+  - content: "Standard can somehow protect nearby people from Geometry effects"
+    to_whom: "reader and survivors"
+  - content: "Water reserves can be converted to emergency fuel"
+    to_whom: "reader and Standard"
+
+setups:
+  - element: "Story of Standard surviving the Drop will spread"
+    payoff_chapter: null
+  - element: "Elena's plan to use Standard's reputation as protection"
+    payoff_chapter: null
+  - element: "Six survivors as witnesses to Standard's protective ability"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Standard's unusual nature confirmed by medical scanning"
+    setup_chapter: 10
+
+tone: "tense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Rover in compound courtyard"
+    characters: ["Standard", "Elena"]
+    summary: "Elena discovers sabotaged fuel line, forces immediate departure"
+  - scene_number: 2
+    location: "Clinic"
+    characters: ["Standard", "Elena", "Hendricks", "Kellerman"]
+    summary: "Group prepares to leave despite Hendricks' condition"
+  - scene_number: 3
+    location: "Compound courtyard"
+    characters: ["Standard", "Elena", "Hendricks", "Kellerman", "crowd"]
+    summary: "Confrontation with crowd demanding proof of Standard's humanity"
+  - scene_number: 4
+    location: "Compound courtyard"
+    characters: ["Standard", "Vera", "crowd"]
+    summary: "Medical scan reveals Standard's 'empty' readings"
+  - scene_number: 5
+    location: "Compound courtyard"
+    characters: ["all present"]
+    summary: "Geometry frequency strikes, most drop but six near Standard survive"
+  - scene_number: 6
+    location: "Rover departure"
+    characters: ["Standard", "Elena", "Hendricks", "Kellerman", "survivors"]
+    summary: "Emergency fuel conversion and escape with survivors"
+  - scene_number: 7
+    location: "Road from Array"
+    characters: ["Standard", "Elena", "Hendricks", "survivors"]
+    summary: "Elena proposes using Standard's reputation strategically"
+
+continuity_notes:
+  - "Six survivors now know Standard can protect people from Geometry"
+  - "Water reserves completely depleted for fuel"
+  - "Kellerman remains at Array with unconscious crowd members"
+
+open_threads:
+  - "How will Elena use Standard's reputation at future checkpoints"
+  - "What happens to the dropped crowd members at the Array"
+  - "Whether the fuel will last to the next station"
+  - "How Standard's protective ability actually works"
+
+closed_threads:
+  - "Question of Standard's biological humanity confirmed by scan"
+  - "Standard's unusual scanner readings explained as 'emptiness'"
+```

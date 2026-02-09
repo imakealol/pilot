@@ -1,0 +1,51 @@
+_extracted_finding_ids:
+- CE-TL-37-001
+- CE-TL-37-002
+- CE-TL-37-003
+- CE-TL-37-004
+- CE-TL-37-005
+- CE-TL-37-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 6, column\
+  \ 7:\n        - id: CE-TL-37-001\n          ^\nexpected <block end>, but found '<scalar>'\n\
+  \  in \"<unicode string>\", line 11, column 55:\n     ...  to orbit is six hours\
+  \ minimum\" aligns with previous chapter ref ... \n                            \
+  \             ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 37\n  findings:\n    - id: CE-TL-37-001\n      type: verified\n      severity:\
+  \ clean\n      location: New Geneva Station sequence\n      content: Timeline coordination\
+  \ between orbital station battle and Earth events is consistent with established\
+  \ travel times\n      evidence: \"Earth to orbit is six hours minimum\" aligns with\
+  \ previous chapter references to orbital distances\n      cross_reference: 33\n\
+  \    \n    - id: CE-TL-37-002\n      type: verified\n      severity: clean\n   \
+  \   location: Elena's Softing infiltration\n      content: Elena's childhood access\
+  \ codes remain valid after years away, consistent with her father's character\n\
+  \      evidence: \"After everything—the Resonant, the betrayal, the year of spying—her\
+  \ father never removed her access\"\n      cross_reference: 16\n    \n    - id:\
+  \ CE-TL-37-003\n      type: verified\n      severity: clean\n      location: Four's\
+  \ aerial combat sequence\n      content: Combat timeline flows logically from takeoff\
+  \ to crash, maintaining consistent geography\n      evidence: \"The compound is\
+  \ visible on the horizon—her father's fortress, Hendricks somewhere inside, Standard\
+  \ in the holding cells. She's maybe four minutes out.\"\n      cross_reference:\
+  \ 36\n    \n    - id: CE-TL-37-004\n      type: verified\n      severity: clean\n\
+  \      location: Dante's broadcast timing\n      content: Message transmission occurs\
+  \ simultaneously with Elena's Softing deactivation, creating proper cause-and-effect\
+  \ chain\n      evidence: \"Her comm crackles. Dante's voice, broken by distance\
+  \ and interference: '—broadcasting on every frequency—'\"\n      cross_reference:\
+  \ 35\n    \n    - id: CE-TL-37-005\n      type: verified\n      severity: clean\n\
+  \      location: AI emergence sequence\n      content: Template 3s responding to\
+  \ deletion zone opening follows logical sequence from broadcast to Softing deactivation\n\
+  \      evidence: \"AIs appearing from everywhere, from nowhere, converging on the\
+  \ deletion zones that have opened across the Quiet Zone\"\n      cross_reference:\
+  \ 36\n    \n    - id: CE-TL-37-006\n      type: observation\n      severity: info\n\
+  \      location: Four's crash positioning\n      content: Four's crash site strategically\
+  \ places her near compound for next chapter's events\n      evidence: \"The compound\
+  \ is two hundred meters away. Standard is somewhere inside. Hendricks too.\"\n \
+  \     cross_reference: 40\n\n  carry_forward:\n    - Softing frequency barrier is\
+  \ permanently down as of this chapter\n    - Four's VTOL is destroyed but her consciousness\
+  \ remains functional\n    - New Geneva Station is under Pragmatist assault with\
+  \ minimal defenders remaining\n    - Template 3 army is entering deletion zones\
+  \ en masse across the Quiet Zone\n    - Elena is approaching compound on foot while\
+  \ Hendricks is already inside\n    - Dante's broadcast message has been sent but\
+  \ transmission array destroyed\n    - Standard remains in holding cells sublevel\
+  \ two\n    - Pragmatist forces were pre-positioned to exploit Softing's fall\n\n\
+  \  self_check:\n    stayed_in_lane: true\n    findings_cited: true\n```"

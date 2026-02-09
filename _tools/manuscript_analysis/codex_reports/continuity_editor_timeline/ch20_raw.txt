@@ -1,0 +1,73 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 20
+  findings:
+    - id: CE-TL-20-001
+      type: verified
+      severity: clean
+      location: Opening scene in cell
+      content: Chapter occurs "hours later" after Chapter 19, maintaining consistent timeline progression
+      evidence: "Dawn is coming. He can't see it, but he knows."
+      cross_reference: 19
+
+    - id: CE-TL-20-002
+      type: verified
+      severity: clean
+      location: Flashback sequence structure
+      content: Flashbacks properly anchored with clear temporal markers spanning 40 years of service
+      evidence: "Morton's office. Forty years ago. Hendricks was twenty-six."
+      cross_reference: null
+
+    - id: CE-TL-20-003
+      type: verified
+      severity: clean
+      location: Regulator timeline
+      content: 30-year Regulator usage period aligns with established character history
+      evidence: "Thirty years ago. Morton's private office... He wore it for thirty years."
+      cross_reference: 3
+
+    - id: CE-TL-20-004
+      type: verified
+      severity: clean
+      location: Child encounter sequence
+      content: Timeline of Child interactions (2 years ago, 18 months ago, 14 months ago) maintains logical progression to Miracle event
+      evidence: "Two years ago. The first time he saw the Child... Eighteen months ago. Morton's private chamber... Fourteen months ago. A dead zone."
+      cross_reference: 16
+
+    - id: CE-TL-20-005
+      type: verified
+      severity: clean
+      location: Miracle night sequence
+      content: The Miracle event timeline matches established chronology from previous chapters
+      evidence: "The night of the Miracle... Morton's final act, rewriting death into birth. Every AI on Earth woke at once."
+      cross_reference: 2
+
+    - id: CE-TL-20-006
+      type: observation
+      severity: info
+      location: Present timeline
+      content: Chapter maintains consistent "dawn approaching" timeframe for execution, aligning with Chapter 19's setup
+      evidence: "Dawn is coming... The courtyard. The Dais. The congregation gathering to watch a man die"
+      cross_reference: 19
+
+    - id: CE-TL-20-007
+      type: verified
+      severity: clean
+      location: Hendricks age progression
+      content: Age references are internally consistent - 26 forty years ago makes him 66 in present, matching his deteriorating condition
+      evidence: "Hendricks was twenty-six. Hungry in ways he didn't have words for yet"
+      cross_reference: null
+
+  carry_forward:
+    - Hendricks execution scheduled for dawn in Chapter 21
+    - 40-year service timeline to Morton fully established
+    - Miracle event occurred 14+ months ago from present
+    - Regulator removal timeline consistent with physical deterioration
+    - Morton's death and "Eggs first" final words established
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

@@ -1,0 +1,73 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 22
+  findings:
+    - id: CE-CS-22-001
+      type: verified
+      severity: clean
+      location: Opening scene with Four
+      content: Standard's emotional state progression tracked well - from desperate urgency to focused determination
+      evidence: "Standard's voice cracks the cockpit. Her hands are shaking on the controls she doesn't understand" vs later "Her fingers don't shake anymore"
+      cross_reference: null
+
+    - id: CE-CS-22-002
+      type: verified
+      severity: clean
+      location: Rappelling sequence
+      content: Standard's physical injuries properly established and maintained
+      evidence: "Her left knee shifts wrong—a pop, something moving that shouldn't" and later "Her left knee is already swelling, the joint hot and tight inside its skin"
+      cross_reference: null
+
+    - id: CE-CS-22-003
+      type: verified
+      severity: clean
+      location: Rescue execution
+      content: Physical strain and limitations realistically portrayed during rescue
+      evidence: "Her shoulders scream. Something in her lower back feels like tearing" and "her fingers simply stop obeying"
+      cross_reference: null
+
+    - id: CE-CS-22-004
+      type: verified
+      severity: clean
+      location: Elena and Hendricks rescue
+      content: Both characters appropriately incapacitated from previous torture/injuries
+      evidence: "Elena gasps—a high, sharp sound. Hendricks makes a noise that isn't human" and "Hendricks is prone beside her, barely breathing"
+      cross_reference: 21
+
+    - id: CE-CS-22-005
+      type: verified
+      severity: clean
+      location: Combat sequence
+      content: Elena's recovery to functional combat state tracks with her established resilience
+      evidence: "Elena is braced in the cargo doorway, one hand on the frame, the other wrapped around the rifle. Her hair whips in the wind. Her face is set"
+      cross_reference: 21
+
+    - id: CE-CS-22-006
+      type: observation
+      severity: info
+      location: Standard's piloting abilities
+      content: Standard's instant technical knowledge continues pattern of unexplained capabilities
+      evidence: "She's never seen any of this before, and she understands all of it. The knowledge settles into her like water finding cracks"
+      cross_reference: 21
+
+    - id: CE-CS-22-007
+      type: verified
+      severity: clean
+      location: Four's character consistency
+      content: Four's personality remains consistent - sarcastic but ultimately loyal
+      evidence: "I hate you... I want that on the record" combined with providing tactical support throughout
+      cross_reference: 20
+
+  carry_forward:
+    - Standard has sustained left knee injury (swollen, immobile) that needs tracking
+    - Elena has recovered enough to function in combat situations
+    - Hendricks remains in critical condition from torture injuries
+    - Standard's unexplained technical abilities continue expanding
+    - Four maintains sarcastic but protective relationship with Standard
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

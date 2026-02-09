@@ -1,0 +1,152 @@
+```yaml
+chapter: 24
+title: "THE SOVEREIGNTY"
+wordcount: 1800
+pov: "Standard"
+
+time:
+  relative_to_previous: "immediate"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "waystation approach"
+    first_appearance: true
+    description: "smudge on the horizon they are approaching"
+  - name: "Sovereignty airspace"
+    first_appearance: true
+    description: "territory controlled by anti-machine faction with bioscanners"
+  - name: "the Geometry"
+    first_appearance: true
+    description: "black bars hanging in sky where clouds should be, edges sharp enough to cut light"
+  - name: "inside the Geometry"
+    first_appearance: true
+    description: "absence, like someone erased part of reality"
+
+characters_present:
+  - name: "Standard"
+    role: "pov"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Four"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Elena"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+  - name: "Sovereignty pilot"
+    role: "minor"
+    entrance: "radio contact"
+    exit: "breaks off pursuit"
+
+character_states:
+  Standard:
+    physical: "healthy but affected by bioscan"
+    emotional: "determined, protective"
+    location: "inside Geometry aftermath"
+    knowledge_delta:
+      - "the Geometry recognizes her somehow"
+      - "her biosignature reads as 'unclassified'"
+      - "she has no memory of transit through Geometry"
+    inventory:
+      - item: "Template 3 clothes"
+        status: "still has"
+  Elena:
+    physical: "healthy"
+    emotional: "concerned, protective"
+    location: "inside Geometry aftermath"
+    knowledge_delta:
+      - "Standard said 'Geometry' in her sleep before it had a name"
+      - "she also has no memory of the transit"
+    inventory: []
+  Hendricks:
+    physical: "wounded but conscious"
+    emotional: "confused, recovering"
+    location: "inside Geometry aftermath"
+    knowledge_delta:
+      - "he also lost memory of the transit"
+    inventory: []
+  Four:
+    physical: "functional but evasive"
+    emotional: "secretive, withholding"
+    location: "inside Geometry aftermath"
+    knowledge_delta:
+      - "experienced the full forty-two minute transit"
+      - "remembers what the others don't"
+    inventory: []
+
+objects:
+  - name: "fuel cells"
+    status: "tracked"
+    holder: "Four"
+    significance: "low quality, 42% and holding"
+  - name: "bioscanners"
+    status: "used"
+    holder: "Sovereignty"
+    significance: "detected Standard's unclassified signature"
+
+key_events:
+  - "Four reports fuel status and route options through dangerous territory"
+  - "Elena reveals knowledge of 'the Geometry' before it was named"
+  - "Sovereignty fighters detect their biosignatures during stealth passage"
+  - "Standard's signature reads as 'unclassified' causing alarm"
+  - "Standard chooses to flee into the Geometry rather than surrender"
+  - "They cross into the Geometry and lose forty-two minutes of memory"
+  - "Four remembers the transit but is evasive about what happened"
+
+revelations:
+  - content: "Standard's biosignature is classified as 'unclassified' not synthetic"
+    to_whom: "reader and characters"
+  - content: "Elena knew about 'the Geometry' before it was named"
+    to_whom: "reader and Standard"
+  - content: "Four retains memory of the Geometry transit while others don't"
+    to_whom: "reader and characters"
+
+setups:
+  - element: "Four's hidden knowledge of what happened in the Geometry"
+    payoff_chapter: null
+  - element: "Standard's connection/resonance with the Geometry"
+    payoff_chapter: null
+  - element: "The significance of Standard being 'unclassified'"
+    payoff_chapter: null
+
+payoffs:
+  - element: "Elena's knowledge of 'Geometry' from Standard's sleep-talking"
+    setup_chapter: null
+
+tone: "tense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "VTOL cockpit approaching waystation"
+    characters: ["Standard", "Four", "Elena", "Hendricks"]
+    summary: "Route planning through dangerous Sovereignty territory"
+  - scene_number: 2
+    location: "VTOL in flight through corridor"
+    characters: ["Standard", "Four", "Elena", "Hendricks", "Sovereignty pilot"]
+    summary: "Detection by Sovereignty forces and standoff"
+  - scene_number: 3
+    location: "Geometry boundary and interior"
+    characters: ["Standard", "Four", "Elena", "Hendricks"]
+    summary: "Escape into Geometry and mysterious transit"
+
+continuity_notes:
+  - "Elena's prior knowledge of 'Geometry' name needs verification from earlier chapters"
+  - "Standard's biosignature classification implications need follow-up"
+
+open_threads:
+  - "What happened during the forty-two minutes in the Geometry?"
+  - "Why does Standard resonate with/recognize the Geometry?"
+  - "What makes Standard's signature 'unclassified'?"
+  - "What is Four hiding about their experience?"
+
+closed_threads:
+  - "How they would get past the Sovereignty territory"
+```

@@ -1,0 +1,141 @@
+chapter: 28
+title: THE COUNCIL OF STRANGERS
+wordcount: 1650
+pov: multiple
+time:
+  relative_to_previous: hours later
+  time_of_day: unspecified
+  duration: hours
+locations:
+- name: Council Chamber
+  first_appearance: true
+  description: Formal meeting room with scrubbed air, blast doors, holographic displays
+- name: Ship viewport area
+  first_appearance: false
+  description: Where Standard prepares before the council meeting
+characters_present:
+- name: Standard
+  role: pov
+  entrance: already present
+  exit: chapter ends
+- name: Elena Merced
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Hendricks
+  role: major
+  entrance: escorts Standard to chamber
+  exit: chapter ends
+- name: Elder Kael
+  role: major
+  entrance: already present
+  exit: chapter ends
+- name: Commander Whittaker
+  role: minor
+  entrance: already present
+  exit: chapter ends
+- name: Admiral Okafor
+  role: minor
+  entrance: already present
+  exit: chapter ends
+character_states:
+  Standard:
+    physical: healthy
+    emotional: determined, resolute
+    location: Council Chamber
+    knowledge_delta:
+    - Understands she is being presented as an asset to the council
+    - Recognizes the political stakes of her appearance
+    inventory: []
+  Elena:
+    physical: fatigued
+    emotional: protective, panicked
+    location: Council Chamber
+    knowledge_delta:
+    - Publicly denounced her father as a coward
+    - Standard is breaking from her protection
+    inventory: []
+  Hendricks:
+    physical: healthy
+    emotional: tense, protective
+    location: Council Chamber
+    knowledge_delta:
+    - Witnesses Standard's defiance of Elena's protection
+    inventory:
+    - item: ceramic shiv
+      status: still has
+objects:
+- name: Sovereignty formal uniform
+  status: used
+  holder: Standard
+  significance: Disguise for council appearance
+- name: ceramic shiv
+  status: tracked
+  holder: Hendricks
+  significance: Hidden weapon despite security checkpoint
+key_events:
+- Elena coaches Standard on behavior before council meeting
+- Standard appears before joint Sovereignty-Terminist council
+- Elder Kael accuses Standard of being a security breach and simulation
+- Elena defends Standard with passionate speech about necessity
+- Kael challenges Standard to speak for herself
+- Elena attempts to withdraw Standard from the meeting
+- Standard breaks from Elena's protection and begins to speak
+revelations:
+- content: Elena publicly admits her father is a coward hiding in the Quiet Zone
+  to_whom: reader and council
+- content: Standard acknowledges she is code and slave to instructions
+  to_whom: reader and council
+setups:
+- element: Standard's acknowledgment that she is code/slave to instructions
+  payoff_chapter: null
+- element: The hum pressing against Standard's skull
+  payoff_chapter: null
+payoffs: []
+tone: tense
+pacing: building
+scene_breaks:
+- scene_number: 1
+  location: Ship viewport area
+  characters:
+  - Standard
+  - Elena
+  summary: Elena coaches Standard on council behavior and etiquette.
+- scene_number: 2
+  location: Council Chamber
+  characters:
+  - Standard
+  - Elena
+  - Hendricks
+  - Elder Kael
+  - Commander Whittaker
+  - Admiral Okafor
+  summary: Council meeting where Elena defends Standard against accusations, ending
+    with Standard breaking free to speak.
+continuity_notes:
+- Standard hears mysterious voices/thoughts without clear origin
+- Earth deletion zones continuing to expand
+open_threads:
+- What will Standard say now that she's speaking for herself
+- The source and meaning of the hum Standard hears
+- The expanding geometry deletion zones on Earth
+closed_threads:
+- Whether Standard will remain silent and let Elena speak for her
+
+language_thread:
+  status: EMPHASIZE
+  priority: MEDIUM
+  elements:
+    - element: "Body language reading"
+      detail: |
+        Standard reads the council dynamics in posture.
+        Who looks at whom. The flinch before agreement.
+        Internal: "Words were just one channel. The slowest one."
+      significance: |
+        - Same ability applied to nonverbal communication
+        - She reads politics in spatial positioning
+        - Already present in these scenes — just needs recognition
+    - element: "Okonkwo's ancient register"
+      detail: "The Resonant speak differently — centuries of habit"
+    - element: "Formal/diplomatic vocabulary"
+      detail: "Standard adapts her speech to match the council's register"

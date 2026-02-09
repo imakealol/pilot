@@ -1,0 +1,145 @@
+```yaml
+chapter: 5
+title: "THE QUEUE"
+wordcount: 2400
+pov: "Elena"
+
+time:
+  relative_to_previous: "hours later"
+  time_of_day: "unspecified"
+  duration: "hours"
+
+locations:
+  - name: "The Depo'"
+    first_appearance: true
+    description: "Riot of desperate biology with tents clinging to seawalls, neon signs, thousands pressing toward Static Line"
+  - name: "Static Line"
+    first_appearance: true
+    description: "The only gate that matters, where people wait for the Softing scan"
+  - name: "Priority lane"
+    first_appearance: true
+    description: "Joke priority area with degrees of delay rather than actual priority"
+  - name: "Service corridor"
+    first_appearance: false
+    description: "Maintenance access under seawall that Terminists don't know exists"
+
+characters_present:
+  - name: "Elena"
+    role: "pov"
+    entrance: "already present"
+    exit: "unconscious"
+  - name: "Terminist guard"
+    role: "minor"
+    entrance: "steps out at perimeter"
+    exit: "waves her through"
+  - name: "Standard"
+    role: "major"
+    entrance: "spotted in crowd as void anomaly"
+    exit: "standing while others fall"
+  - name: "Hendricks"
+    role: "major"
+    entrance: "with Standard at barrier"
+    exit: "unconscious in back seat"
+
+character_states:
+  Elena:
+    physical: "unconscious"
+    emotional: "overwhelmed, desperate"
+    location: "Priority lane at checkpoint"
+    knowledge_delta:
+      - "Standard is a void anomaly that silences her implant"
+      - "Hendricks is NED Chief of Security with access to service corridor"
+      - "Something catastrophic is happening to the sky and people"
+    inventory:
+      - item: "Black Box"
+        status: "still has"
+      - item: "stolen Rover"
+        status: "still has"
+  Standard:
+    physical: "unaffected by the frequency attack"
+    emotional: "calm, clinical"
+    location: "Priority lane at checkpoint"
+    knowledge_delta:
+      - "Observed mass collapse event with scientific precision"
+    inventory: []
+  Hendricks:
+    physical: "unconscious from regulator withdrawal and frequency attack"
+    emotional: "desperate, calculating"
+    location: "back seat of Rover"
+    knowledge_delta:
+      - "Revealed his identity and knowledge of service corridor to Elena"
+    inventory:
+      - item: "NED Chief of Security credentials"
+        status: "gave away"
+
+objects:
+  - name: "Black Box"
+    status: "tracked"
+    holder: "Elena (cargo bed)"
+    significance: "Contains 16,749 souls, hums at 287.3 Hz"
+  - name: "NED Chief of Security credentials"
+    status: "transferred"
+    holder: "Elena"
+    significance: "Reveals Hendricks' identity and access level"
+
+key_events:
+  - "Elena reaches checkpoint with stolen Rover and Black Box"
+  - "Elena discovers Standard, a void anomaly that silences her implant"
+  - "Elena picks up Standard and dying old man to help them"
+  - "Old man reveals he's Hendricks, NED Chief of Security with knowledge of service corridor"
+  - "Sky begins deleting itself, replaced by black rectangles"
+  - "Frequency attack drops everyone except Standard"
+  - "Elena loses consciousness while Standard observes calmly"
+
+revelations:
+  - content: "Standard is a void anomaly that creates absolute silence in Elena's implant"
+    to_whom: "Elena"
+  - content: "The old man is Hendricks, NED Chief of Security"
+    to_whom: "Elena"
+  - content: "There's a service corridor under the seawall unknown to Terminists"
+    to_whom: "Elena"
+
+setups:
+  - element: "Standard's immunity to the frequency attack and clinical observation"
+    payoff_chapter: null
+  - element: "Service corridor route under seawall"
+    payoff_chapter: null
+  - element: "Sky deletion and frequency weapon"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "tense"
+pacing: "building"
+
+scene_breaks:
+  - scene_number: 1
+    location: "Priority lane approach"
+    characters: ["Elena", "Terminist guard"]
+    summary: "Elena arrives at checkpoint with stolen credentials and Black Box"
+  - scene_number: 2
+    location: "Priority lane queue"
+    characters: ["Elena", "Standard", "Hendricks"]
+    summary: "Elena discovers Standard anomaly and picks up both strangers"
+  - scene_number: 3
+    location: "Inside Rover"
+    characters: ["Elena", "Standard", "Hendricks"]
+    summary: "Hendricks reveals identity and service corridor knowledge"
+  - scene_number: 4
+    location: "Priority lane during attack"
+    characters: ["Elena", "Standard", "Hendricks"]
+    summary: "Reality breaks as frequency weapon drops everyone except Standard"
+
+continuity_notes:
+  - "Elena's implant went from screaming to silent around Standard"
+  - "Standard appears immune to frequency attacks that affect everyone else"
+
+open_threads:
+  - "What is Standard and why is she immune to the frequency attack"
+  - "What caused the sky deletion and frequency weapon"
+  - "Will Elena and companions survive to use the service corridor"
+  - "What is Morton's data in Elena's implant"
+
+closed_threads:
+  - "How Elena will get past the checkpoint without Aikin as scapegoat"
+```

@@ -1,0 +1,94 @@
+report:
+  agent: worldbuilder
+  carry_forward:
+  - 287.3 Hz beacon frequency - specific technical parameter
+  - Fold technology precision limitations and failure modes
+  - 'NED ship design: numbered AI navigators, magnetic containment reactors'
+  - Quantum burst communication system
+  - Beacon frequency integration into damaged ship systems
+  chain_citations: []
+  chapter: 38
+  findings:
+  - chain_reference: null
+    content: Beacons emerge via 'fold' technology - space-time manipulation for instantaneous
+      positioning
+    evidence: The beacons fall into the folds... The beacon emerges three hundred
+      meters off the port bow
+    id: WO-TE-38-001
+    location: lines 14-17
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Beacon broadcasts at 287.3 Hz frequency - specific technical parameter
+      established
+    evidence: It's... broadcasting. Some kind of frequency. 287.3 Hz.
+    id: WO-TE-38-002
+    location: Yuki Tanaka section
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: NED vessels use numbered AI navigators as standard crew (Eighteen, Thirteen,
+      Twenty-Five, etc.)
+    evidence: Her navigator—a NED unit she calls Eighteen... 'Thirteen,' he says to
+      his navigator... Twenty-Five—has been patient
+    id: WO-TE-38-003
+    location: multiple ship sections
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Fold technology has precision limitations - small targeting errors cause
+      catastrophic hull breaches
+    evidence: The fold opens wrong—a fraction of a degree, a miscalculation across
+      light-years—and the transmitter materializes in the space where the pilot's
+      chair should be
+    id: WO-TE-38-004
+    location: Diego Reyes section
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Ships use quantum burst communication for long-range messaging
+    evidence: He found out via quantum burst, the words cold and clinical
+    id: WO-TE-38-005
+    location: multiple sections
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: NED ships use magnetic containment reactors - breach causes stellar-level
+      explosion
+    evidence: the fold's edge catches the engine housing, shears through the magnetic
+      containment, turns the reactor into a brief new star
+    id: WO-TE-38-006
+    location: Soo-Yun Park section
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Beacon frequency (287.3 Hz) can integrate into ship systems when damaged
+    evidence: Somewhere in its damaged systems, a beacon's frequency echoes. 287.3
+      Hz. A message meant for someone else, now woven into the ship's bones
+    id: WO-TE-38-007
+    location: Blackbird section
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Fold-based time travel has targeting accuracy issues affecting deployment
+      success
+    evidence: Fourteen beacons launched. Ten successful deployments... Three failures—Loss
+      of signal. No response. The cold silence of miscalculation
+    id: WO-TE-38-008
+    location: lines 286-294
+    severity: info
+    type: observation
+  focus: technology
+  query_log:
+    chapter: CH38
+    external_state:
+    - HANDOFF.md
+    - PROPS.yaml
+    - GEOMETRY_VISUAL_LANGUAGE.md
+    previous_reports: []
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2026-01-17 10:15:32+00:00

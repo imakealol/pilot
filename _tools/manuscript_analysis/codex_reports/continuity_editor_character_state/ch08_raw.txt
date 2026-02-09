@@ -1,0 +1,72 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 8
+  findings:
+    - id: CE-CS-8-001
+      type: verified
+      severity: clean
+      location: opening scene with frozen synthetic
+      content: Standard's emotional/physical state consistent with previous chapter trauma
+      evidence: "she is shaking, and she doesn't know what that means"
+      cross_reference: 7
+    - id: CE-CS-8-002
+      type: verified
+      severity: clean
+      location: Standard's appearance description
+      content: Physical deterioration consistent with recent ordeal
+      evidence: "The jacket is too big. The trousers are stained. The blood on her cuticles has dried to black crescents."
+      cross_reference: 7
+    - id: CE-CS-8-003
+      type: verified
+      severity: clean
+      location: Hendricks in clinic
+      content: Critical condition matches withdrawal from regulator removal
+      evidence: "The old man looks like a pile of rags someone arranged into a person-shape"
+      cross_reference: 3
+    - id: CE-CS-8-004
+      type: verified
+      severity: clean
+      location: Elena's emotional state
+      content: Grief and exhaustion consistent with losing Otis at NED
+      evidence: "The weight of the dead presses against her spine like a hand"
+      cross_reference: 2
+    - id: CE-CS-8-005
+      type: verified
+      severity: clean
+      location: Elena's implant symptoms
+      content: Implant distress matches post-NED trauma
+      evidence: "Her implant pulses at her temple, warm and wrong"
+      cross_reference: 2
+    - id: CE-CS-8-006
+      type: observation
+      severity: info
+      location: Standard's memory gaps
+      content: Amnesia remains consistent - no sudden recovery of memories
+      evidence: "I don't remember. Anything. Before a few days ago."
+      cross_reference: 1
+    - id: CE-CS-8-007
+      type: verified
+      severity: clean
+      location: Elena's reaction to OTIS stitching
+      content: Emotional breakdown matches pattern of suppressed grief throughout story
+      evidence: "Elena's face does something Standard has never seen a face do. It falls apart, but slowly"
+      cross_reference: 2
+    - id: CE-CS-8-008
+      type: verified
+      severity: clean
+      location: Elena's financial depletion
+      content: Resource expenditure consistent with previous chapters
+      evidence: "Her emergency reserve. Everything she has left... Elena has twelve chips left after the water"
+      cross_reference: 7
+  carry_forward:
+    - Standard wearing Otis's clothes (OTIS stitching) - Elena recognizes connection to deceased teammate
+    - Elena has Morton's hidden files about The Geometry/Matrioshka Brain now accessible in her implant
+    - Hendricks stabilizing but still critical from regulator withdrawal
+    - Elena spent all remaining resources on supplies
+    - Standard's amnesia remains complete regarding her past identity
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

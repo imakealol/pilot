@@ -1,0 +1,38 @@
+_extracted_finding_ids:
+- CE-TL-12-001
+- CE-TL-12-002
+- CE-TL-12-003
+- CE-TL-12-004
+- CE-TL-12-005
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 13,\
+  \ column 7:\n        - id: CE-TL-12-002\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 18, column 42:\n     ... dence:\
+  \ \"The Rover dies at noon\" following directly from previous ... \n           \
+  \                              ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 12\n  findings:\n    - id: CE-TL-12-001\n      type: verified\n      severity:\
+  \ clean\n      location: opening - fuel consumption\n      content: Fuel consumption\
+  \ rate matches established pattern from Chapter 11\n      evidence: \"Eighteen percent\
+  \ lasted forty miles, not sixty\"\n      cross_reference: 11\n    - id: CE-TL-12-002\n\
+  \      type: verified\n      severity: clean\n      location: throughout chapter\n\
+  \      content: Timeline flows directly from Chapter 11 events with immediate continuity\n\
+  \      evidence: \"The Rover dies at noon\" following directly from previous chapter's\
+  \ fuel concerns\n      cross_reference: 11\n    - id: CE-TL-12-003\n      type:\
+  \ observation\n      severity: info\n      location: Standard's ten-mile journey\n\
+  \      content: The journey spans approximately 2-3 hours based on walking pace\
+  \ while pulling weight\n      evidence: \"Mile four. Mile five... Mile ten\"\n \
+  \     cross_reference: null\n    - id: CE-TL-12-004\n      type: verified\n    \
+  \  severity: clean\n      location: character conditions\n      content: Character\
+  \ physical states consistent with previous chapter - Hendricks critical, Array survivors\
+  \ deteriorating\n      evidence: \"His breathing is shallow, his lips cracked and\
+  \ white. The survivors from the Array are worse\"\n      cross_reference: 11\n \
+  \   - id: CE-TL-12-005\n      type: verified\n      severity: clean\n      location:\
+  \ Standard's power failure sequence\n      content: Power system failure follows\
+  \ logical progression over time/distance\n      evidence: \"Mile five. Her power\
+  \ cells die... The warnings stop scrolling\"\n      cross_reference: null\n  carry_forward:\n\
+  \    - Standard has died from system failure after pulling Rover ten miles\n   \
+  \ - Group has reached clean water and living ecosystem beyond wasteland\n    - Fuel\
+  \ completely exhausted, water supplies burned for emergency fuel\n    - Hendricks\
+  \ remains critically injured, Array survivors in poor condition\n    - Elena now\
+  \ faces survival without Standard's protection abilities\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

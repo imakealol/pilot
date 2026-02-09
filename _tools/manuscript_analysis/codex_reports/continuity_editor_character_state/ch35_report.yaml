@@ -1,0 +1,48 @@
+_extracted_finding_ids:
+- CE-CS-35-001
+- CE-CS-35-002
+- CE-CS-35-003
+- CE-CS-35-004
+- CE-CS-35-005
+- CE-CS-35-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 20,\
+  \ column 7:\n        - id: CE-CS-35-003\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 25, column 38:\n     ...  evidence:\
+  \ \"Her voice flattens\" when describing the eastern fiel ... \n               \
+  \                          ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 35\n  findings:\n    - id: CE-CS-35-001\n      type: observation\n      severity:\
+  \ info\n      location: opening scene, tactical room\n      content: Hendricks'\
+  \ compulsive reaching for missing revolver creates strong physical continuity anchor\n\
+  \      evidence: \"his hand going to his hip where the magpulse sits. Not the revolver.\
+  \ The revolver is with Ash. Elena watches him reach for it three times before he\
+  \ catches himself, each time his fingers closing on empty air\"\n      cross_reference:\
+  \ 16\n    - id: CE-CS-35-002\n      type: verified\n      severity: clean\n    \
+  \  location: throughout chapter\n      content: Hendricks' mental state correctly\
+  \ reflects loss of his defining weapon - distracted, not fully present\n      evidence:\
+  \ \"He's not listening. He's somewhere else—Morton's body on the floor, maybe, or\
+  \ the gun that isn't there\"\n      cross_reference: 34\n    - id: CE-CS-35-003\n\
+  \      type: verified\n      severity: clean\n      location: corridor scene with\
+  \ Elena\n      content: Elena's emotional state appropriately hardened from recent\
+  \ revelations about her father\n      evidence: \"Her voice flattens\" when describing\
+  \ the eastern fields refugees\n      cross_reference: 27\n    - id: CE-CS-35-004\n\
+  \      type: verified\n      severity: clean\n      location: archive scene\n  \
+  \    content: Dante's physical description maintains consistent android characteristics\n\
+  \      evidence: \"The blue light from his chassis bleeds through his shirt\" and\
+  \ \"light bleeding between them where his chassis never quite closed\"\n      cross_reference:\
+  \ 34\n    - id: CE-CS-35-005\n      type: observation\n      severity: info\n  \
+  \    location: archive scene\n      content: Standard's unique properties (287.3\
+  \ Hz frequency, invisible to Geometry) correctly maintained from established continuity\n\
+  \      evidence: \"She hums at 287.3 Hz. Same as the Resonant. Same as the Geometry's\
+  \ base frequency\" and \"air-gapped during the Miracle\"\n      cross_reference:\
+  \ 6\n    - id: CE-CS-35-006\n      type: verified\n      severity: clean\n     \
+  \ location: final scene\n      content: Elena's emotional connection to Dante appropriately\
+  \ developed from previous intimate scenes\n      evidence: \"She kisses him. Light\
+  \ bleeding between them\" and \"Tonight, she holds onto what she has\"\n      cross_reference:\
+  \ 34\n  carry_forward:\n    - Hendricks compulsively reaches for missing revolver\
+  \ - strong physical tell of psychological state\n    - Elena's voice \"flattens\"\
+  \ when discussing her father's atrocities - emotional hardening\n    - Dante's chassis\
+  \ seam still visible and glowing - ongoing physical detail\n    - Standard established\
+  \ as invisible to Geometry due to being offline during Miracle\n    - Standard hums\
+  \ at 287.3 Hz frequency - key to her nature and connection to larger plot\n  self_check:\n\
+  \    stayed_in_lane: true\n    findings_cited: true\n```"

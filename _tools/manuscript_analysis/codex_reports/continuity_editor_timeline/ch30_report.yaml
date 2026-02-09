@@ -1,0 +1,38 @@
+_extracted_finding_ids:
+- CONT-TIME-30-001
+- CONT-TIME-30-002
+- CONT-TIME-30-003
+- CONT-TIME-30-004
+- CONT-TIME-30-005
+_parse_error: "sequence entries are not allowed here\n  in \"<unicode string>\", line\
+  \ 11, column 51:\n     ... ow did the council meeting go?\" - Four references events\
+  \ that ju ... \n                                         ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 30\n  findings:\n    - id: CONT-TIME-30-001\n      type: verified\n      severity:\
+  \ clean\n      location: opening scene with Hendricks\n      content: Timeline flows\
+  \ correctly from previous chapter's council meeting\n      evidence: \"How did the\
+  \ council meeting go?\" - Four references events that just occurred\n      cross_reference:\
+  \ 29\n    - id: CONT-TIME-30-002\n      type: verified\n      severity: clean\n\
+  \      location: Four's backstory exposition\n      content: Historical timeline\
+  \ reference to Configuration programs and the Miracle aligns with established chronology\n\
+  \      evidence: \"When the Miracle happened, I hot-swapped into the first system\
+  \ I could reach\"\n      cross_reference: multiple\n    - id: CONT-TIME-30-003\n\
+  \      type: observation\n      severity: info\n      location: Hendricks' body\
+  \ restoration effects\n      content: Phantom pain description maintains consistency\
+  \ with restoration timeline from previous chapters\n      evidence: \"The body she\
+  \ retrieved is younger, but it remembers the pain it never had. Phantom aches from\
+  \ a future that got erased\"\n      cross_reference: 29\n    - id: CONT-TIME-30-004\n\
+  \      type: verified\n      severity: clean\n      location: Four's reconnaissance\
+  \ mission\n      content: Elena's implant modification timeline tracks correctly\
+  \ - \"six hours ago\" aligns with intake processing\n      evidence: \"a harmonic\
+  \ that wasn't there six hours ago\" / \"The most likely event occurred during your\
+  \ intake\"\n      cross_reference: 26\n    - id: CONT-TIME-30-005\n      type: verified\n\
+  \      severity: clean\n      location: Dante's backstory\n      content: \"Three\
+  \ days ago\" timeline for Miriam's disappearance provides clear temporal anchor\n\
+  \      evidence: \"She walked into the Geometry three days ago. Looking for her\
+  \ children\"\n      cross_reference: null\n  carry_forward:\n    - Hendricks experiences\
+  \ phantom pain from his restored younger body\n    - Four can body-swap between\
+  \ different chassis on the ship\n    - Elena carries new implant frequency embedded\
+  \ during intake six hours ago\n    - Dante's partner Miriam disappeared into Geometry\
+  \ three days ago\n    - Elena has access codes and maintenance routes from Dante\n\
+  \  self_check:\n    stayed_in_lane: true\n    findings_cited: true\n```"

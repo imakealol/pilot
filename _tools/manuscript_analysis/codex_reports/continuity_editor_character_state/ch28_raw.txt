@@ -1,0 +1,65 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: character_state
+  chapter: 28
+  findings:
+    - id: CE-CS-28-001
+      type: verified
+      severity: clean
+      location: Opening scene with Elena and Standard
+      content: Elena's sleep deprivation and nervous energy consistent with established stress patterns
+      evidence: "Who hasn't slept in thirty hours but won't admit it" and "Nervous energy channeled into textile management"
+      cross_reference: 26
+
+    - id: CE-CS-28-002
+      type: verified
+      severity: clean
+      location: Standard's internal experience
+      content: The mysterious hum continues to affect Standard, consistent with previous chapters
+      evidence: "The hum is loud today. Standard can feel it pressing against the inside of her skull"
+      cross_reference: 19
+
+    - id: CE-CS-28-003
+      type: verified
+      severity: clean
+      location: Hendricks in council chamber
+      content: Hendricks' protective instincts and concealed weapons consistent with character
+      evidence: "ceramic shiv in his boot and a lot of pent-up aggression" and watching Standard protectively
+      cross_reference: 27
+
+    - id: CE-CS-28-004
+      type: verified
+      severity: clean
+      location: Elena's speech defending Standard
+      content: Elena's emotional state escalates from controlled to passionate, showing character growth
+      evidence: "My father is a terrified old man hiding in a hole" - first time saying this aloud
+      cross_reference: 16
+
+    - id: CE-CS-28-005
+      type: observation
+      severity: info
+      location: Standard's final decision to speak
+      content: Standard's agency assertion creates dramatic character moment - brushes off Elena's protective hand
+      evidence: "She brushes Elena's hand off her shoulder. Not roughly. Just... inevitably. Like a tide ignoring a sandcastle."
+      cross_reference: null
+
+    - id: CE-CS-28-006
+      type: verified
+      severity: clean
+      location: Elena's reaction to Standard speaking
+      content: Elena's protective control being challenged shows her emotional investment
+      evidence: "Elena steps back, her face draining of color" and "Don't. Shut up. We're leaving."
+      cross_reference: 27
+
+  carry_forward:
+    - Standard has broken from Elena's protection and begun speaking for herself
+    - Elena publicly denounced her father as "a terrified old man hiding in a hole"
+    - The mysterious hum in Standard's head continues to intensify
+    - Hendricks remains protectively positioned and armed despite security checkpoint
+    - Standard acknowledges she is "code" and "slave to instructions" - sets up next chapter
+
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

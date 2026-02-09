@@ -459,7 +459,7 @@ characters:
   ELENA:
     id: "CHAR_003"
     canonical_name: "Elena María Ash"
-    birth_name: "Elena María Vasquez"
+    birth_name: "Elena María Merced"
     aliases: ["Elena", "the Prophet's daughter", "Princess", "she"]
 
     demographics:
@@ -580,14 +580,14 @@ characters:
   ASH:
     id: "CHAR_004"
     canonical_name: "Brother Ash"
-    birth_name: "Vasquez"  # Self-erased, took "Ash" as rebirth
+    birth_name: "Merced"  # Self-erased, took "Ash" as rebirth
     aliases: ["Ash", "the Prophet", "Father"]
 
     demographics:
       gender: "man"
       pronouns: ["he", "him", "his"]
       age: "60s"
-      ethnicity: "Latino (Vasquez, self-redacted)"
+      ethnicity: "Latino (Merced, self-redacted)"
       sexuality: "Heterosexual, celibate by ideology"
 
     background:
@@ -651,7 +651,7 @@ characters:
 
   MARISOL:
     id: "CHAR_005"
-    canonical_name: "Marisol Vasquez"
+    canonical_name: "Marisol Merced"
     aliases: ["Elena's mother", "Ash's ex-wife"]
 
     demographics:
@@ -664,7 +664,7 @@ characters:
       profession: "Engineer at NED (consciousness research division)"
       achievement: "Solved the haptic feedback problem"
       obsession: "287.3 Hz — the resonance frequency"
-      marriage: "Married to Ash (then Vasquez), had Elena"
+      marriage: "Married to Ash (then Merced), had Elena"
       departure:
         when: "Elena was 7"
         reason: "Left to build the lifeboat. Geneva consortium. Full integration research."
@@ -1997,7 +1997,7 @@ chapter_states:
     key_beats:
       - "'The sun rises like a wound' — approach to compound"
       - "Bodies outside walls — refugees who waited for a door that never opened"
-      - "Elena calls out: 'Elena Vasquez!' (birth name)"
+      - "Elena calls out: 'Elena Merced!' (birth name)"
       - "Guards salute as Rover passes — recognition, not challenge"
       - "Hendricks' cascade: 'She's not a refugee. She's not fleeing. She's coming home.'"
       - "Guards wear acoustic dampeners — deaf to the world"

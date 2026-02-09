@@ -1,0 +1,114 @@
+```yaml
+chapter: 1
+title: "RUDE AWAKENING"
+wordcount: 750
+pov: "unnamed woman"
+
+time:
+  relative_to_previous: null
+  time_of_day: "unspecified"
+  duration: "minutes"
+
+locations:
+  - name: "kitchen with crate"
+    first_appearance: true
+    description: "Kitchen with table containing bloody towel, utility blade, gin bottle, hand mirror; wooden crate that woman emerges from"
+
+characters_present:
+  - name: "unnamed woman"
+    role: "pov"
+    entrance: "emerges from crate"
+    exit: "chapter ends"
+  - name: "unnamed man"
+    role: "major"
+    entrance: "already present"
+    exit: "chapter ends"
+
+character_states:
+  unnamed woman:
+    physical: "injured (bleeding fingertips, temple gash, scraped forearms, naked)"
+    emotional: "panicked, relieved"
+    location: "kitchen floor"
+    knowledge_delta:
+      - "She was trapped in a wooden crate"
+      - "A strange man is present and has been injured"
+      - "The man seems to have expected her emergence"
+    inventory: []
+
+  unnamed man:
+    physical: "injured (bleeding neck wound, pale, trembling)"
+    emotional: "resigned, unsurprised"
+    location: "kitchen table"
+    knowledge_delta: []
+    inventory:
+      - item: "bloody towel"
+        status: "still has"
+
+objects:
+  - name: "wooden crate"
+    status: "destroyed"
+    holder: "kitchen floor"
+    significance: "Woman's prison/coffin that she escaped from"
+  - name: "utility blade"
+    status: "tracked"
+    holder: "on kitchen table"
+    significance: "Bloody, potentially used for man's neck wound"
+  - name: "gin bottle"
+    status: "tracked"
+    holder: "on kitchen table"
+    significance: "Bloody, possibly used for cleaning wound"
+  - name: "hand mirror"
+    status: "tracked"
+    holder: "on kitchen table"
+    significance: "Bloody, purpose unclear"
+
+key_events:
+  - "Woman awakens trapped in wooden crate believing she's buried alive"
+  - "Woman manages breathing exercises to calm panic and conserve air"
+  - "Woman discovers groove/seam in crate and forces it open with prayer hands"
+  - "Woman violently emerges from crate, injuring herself in process"
+  - "Woman discovers she's naked in kitchen with injured stranger"
+  - "Man shows no surprise at her emergence, tracks her injuries clinically"
+
+revelations:
+  - content: "The woman was trapped in a wooden crate, not buried underground"
+    to_whom: "reader and unnamed woman"
+  - content: "The man expected her to emerge from the crate"
+    to_whom: "reader and unnamed woman"
+
+setups:
+  - element: "Man's lack of surprise suggests he knew she would escape"
+    payoff_chapter: null
+  - element: "Bloody implements on table suggest recent violence"
+    payoff_chapter: null
+  - element: "Man's neck wound and the utility blade connection"
+    payoff_chapter: null
+
+payoffs: []
+
+tone: "tense"
+pacing: "intense"
+
+scene_breaks:
+  - scene_number: 1
+    location: "inside wooden crate"
+    characters: ["unnamed woman"]
+    summary: "Woman awakens trapped and panicking in wooden crate"
+  - scene_number: 2
+    location: "kitchen"
+    characters: ["unnamed woman", "unnamed man"]
+    summary: "Woman emerges injured from crate to find wounded man who seems unsurprised"
+
+continuity_notes:
+  - "Woman's identity and how she got in crate unexplained"
+  - "Man's identity and relationship to situation unexplained"
+  - "Nature and cause of man's injuries unexplained"
+
+open_threads:
+  - "Who is the woman and how did she end up in the crate?"
+  - "Who is the man and what is his role in this situation?"
+  - "What caused the man's neck wound?"
+  - "Why does the man seem to have expected her escape?"
+
+closed_threads: []
+```

@@ -1,0 +1,47 @@
+_extracted_finding_ids:
+- CE-CS-23-001
+- CE-CS-23-002
+- CE-CS-23-003
+- CE-CS-23-004
+- CE-CS-23-005
+- CE-CS-23-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 13,\
+  \ column 7:\n        - id: CE-CS-23-002\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 18, column 42:\n     ... dence:\
+  \ \"When did you last eat?\" Standard has to think... \"I don' ... \n          \
+  \                               ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: character_state\n  chapter:\
+  \ 23\n  findings:\n    - id: CE-CS-23-001\n      type: issue\n      severity: major\n\
+  \      location: Opening scene - Standard's physical condition\n      content: Standard's\
+  \ left knee \"has stopped sending signals\" and shoulders \"ache in a way that feels\
+  \ structural\" but these injuries are not established in previous chapters\n   \
+  \   evidence: \"Her left knee has stopped sending signals. Her shoulders ache in\
+  \ a way that feels structural.\"\n      cross_reference: 22\n    - id: CE-CS-23-002\n\
+  \      type: verified\n      severity: clean\n      location: Standard's lack of\
+  \ hunger/recharging needs\n      content: Consistent with established pattern -\
+  \ Standard doesn't need food or recharge like normal companion bots\n      evidence:\
+  \ \"When did you last eat?\" Standard has to think... \"I don't eat. I don't recharge.\
+  \ I heal wrong.\"\n      cross_reference: 19\n    - id: CE-CS-23-003\n      type:\
+  \ verified\n      severity: clean\n      location: Standard's resistance to lockdown\
+  \ sequence\n      content: Correctly references previous resistance to shutdown\
+  \ commands, maintains continuity\n      evidence: \"Somebody already tried,\" she\
+  \ blurted... \"Didn't work.\"\n      cross_reference: 7\n    - id: CE-CS-23-004\n\
+  \      type: observation\n      severity: minor\n      location: Elena's emotional\
+  \ state\n      content: Elena shows significant stress about the companion bot plan,\
+  \ consistent with her protective attitude toward Standard\n      evidence: \"Her\
+  \ expression could curdle fuel\" and \"She looks like someone walking toward something\
+  \ she'd rather set on fire\"\n      cross_reference: 22\n    - id: CE-CS-23-005\n\
+  \      type: verified\n      severity: clean\n      location: Hendricks' condition\n\
+  \      content: Hendricks remains unconscious/unresponsive, consistent with his\
+  \ critical state from previous chapter\n      evidence: \"Hendricks hasn't moved\
+  \ in twenty minutes. She's been counting.\"\n      cross_reference: 22\n    - id:\
+  \ CE-CS-23-006\n      type: verified\n      severity: clean\n      location: Standard's\
+  \ Template 3 identity\n      content: Revelation about mass-produced face template\
+  \ is consistent with established android nature\n      evidence: \"I have the NED\
+  \ Companion Series 7 face. Template 3... So do forty thousand others\"\n      cross_reference:\
+  \ 10\n  carry_forward:\n    - Standard has unexplained structural injuries (knee,\
+  \ shoulders) that need tracking\n    - Standard's immunity to lockdown sequences\
+  \ confirmed again\n    - Standard now has proper clothing and supplies from waystation\n\
+  \    - Religious worship of Standard established at waystation\n    - Elena's protective\
+  \ instincts toward Standard continue to strengthen\n  self_check:\n    stayed_in_lane:\
+  \ true\n    findings_cited: true\n```"

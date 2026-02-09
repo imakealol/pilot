@@ -1,0 +1,50 @@
+```yaml
+report:
+  agent: continuity_editor
+  focus: timeline
+  chapter: 10
+  findings:
+    - id: CE-TL-10-001
+      type: verified
+      severity: clean
+      location: chapter opening
+      content: Fusion gauge progression consistent with previous usage rates
+      evidence: "The fusion gauge dies at sunset. Not a gradual fade—a hard stop. The number blinks from 3% to ERROR to nothing"
+      cross_reference: 9
+    - id: CE-TL-10-002
+      type: verified
+      severity: clean
+      location: mid-chapter
+      content: Hendricks' deteriorating condition follows established timeline from regulator withdrawal
+      evidence: "He's been drifting in and out for the last hundred miles, his breathing wet and wrong. The bandage on his neck has soaked through again."
+      cross_reference: 3
+    - id: CE-TL-10-003
+      type: verified
+      severity: clean
+      location: medical examination scene
+      content: Kellerman's diagnosis of "days" since regulator removal aligns with Chapter 3 timeline
+      evidence: "How long since removal?" "I don't know. Days."
+      cross_reference: 3
+    - id: CE-TL-10-004
+      type: verified
+      severity: clean
+      location: end of chapter
+      content: Standard's lack of hunger/eating needs consistent with established inhuman traits
+      evidence: "She doesn't need it. The way Elena needs it, the way Hendricks needed the injection—that desperate biological imperative. It isn't there."
+      cross_reference: 7
+    - id: CE-TL-10-005
+      type: observation
+      severity: info
+      location: charging station interaction
+      content: Twelve-hour charging time establishes duration constraint for next chapter
+      evidence: "That'll get you a trickle... Twelve hours. Maybe enough to limp to the next station"
+      cross_reference: null
+  carry_forward:
+    - Rover will be charged for 12 hours at the Array
+    - Hendricks is under medical care with Kellerman (who appears to recognize him)
+    - Standard's inhuman nature is becoming undeniable to Array residents
+    - Array residents are hostile to suspected non-humans due to trauma from "the Drop"
+  self_check:
+    stayed_in_lane: true
+    findings_cited: true
+```

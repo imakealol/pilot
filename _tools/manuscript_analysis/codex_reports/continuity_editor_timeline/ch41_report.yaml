@@ -1,0 +1,46 @@
+_extracted_finding_ids:
+- CE-TL-41-001
+- CE-TL-41-002
+- CE-TL-41-003
+- CE-TL-41-004
+- CE-TL-41-005
+- CE-TL-41-006
+_parse_error: "while parsing a block mapping\n  in \"<unicode string>\", line 13,\
+  \ column 7:\n        - id: CE-TL-41-002\n          ^\nexpected <block end>, but\
+  \ found '<scalar>'\n  in \"<unicode string>\", line 18, column 32:\n          evidence:\
+  \ \"That's five,\" he says. \"One for Morton. Just l ... \n                    \
+  \               ^"
+_raw: "```yaml\nreport:\n  agent: continuity_editor\n  focus: timeline\n  chapter:\
+  \ 41\n  findings:\n    - id: CE-TL-41-001\n      type: verified\n      severity:\
+  \ clean\n      location: opening crash sequence\n      content: VTOL crash occurs\
+  \ immediately after Chapter 40 events, maintaining continuous timeline\n      evidence:\
+  \ \"The world is noise and fire and the scream of tearing metal. Standard braces\
+  \ against the cargo hold's frame as the VTOL tears through the throne room wall.\"\
+  \n      cross_reference: 40\n    - id: CE-TL-41-002\n      type: verified\n    \
+  \  severity: clean\n      location: bullet count tracking\n      content: Hendricks\
+  \ uses bullet 5 to kill Ash, consistent with established ammunition tracking\n \
+  \     evidence: \"That's five,\" he says. \"One for Morton. Just like I promised.\"\
+  \n      cross_reference: 3\n    - id: CE-TL-41-003\n      type: verified\n     \
+  \ severity: clean\n      location: revolver possession\n      content: Ash has Hendricks'\
+  \ revolver as established in previous chapters\n      evidence: \"Ash stands over\
+  \ her, the revolver in his hand—Hendricks' revolver, the one with two bullets left.\"\
+  \n      cross_reference: 34\n    - id: CE-TL-41-004\n      type: verified\n    \
+  \  severity: clean\n      location: Four's consciousness state\n      content: Four's\
+  \ deteriorating condition from Chapter 42 setup is consistent\n      evidence: \"\
+  Four's voice is thin. Fragmented... Each jump strips something away. Memories. Processing\
+  \ capacity.\"\n      cross_reference: 42\n    - id: CE-TL-41-005\n      type: observation\n\
+  \      severity: info\n      location: character injuries\n      content: Elena's\
+  \ blade wound timing aligns with fight sequence - injury occurred during combat\
+  \ with Ash\n      evidence: \"The blood spreading beneath Elena's ribs... thought\
+  \ it was a glancing blow. It wasn't.\"\n      cross_reference: null\n    - id: CE-TL-41-006\n\
+  \      type: verified\n      severity: clean\n      location: Jupiter carrier arrival\n\
+  \      content: Jupiter's targeting of evacuation shuttles creates immediate stakes\
+  \ for Four's sacrifice mission\n      evidence: \"Jupiter... Pragmatist battle carrier...\
+  \ It's targeting the evacuation shuttles\"\n      cross_reference: 39\n  carry_forward:\n\
+  \    - Ash is definitively dead - bullet 5 used by Hendricks\n    - One bullet remains\
+  \ in revolver (bullet 6)\n    - Elena has serious internal bleeding from blade wound\n\
+  \    - Hendricks has ceramic blade still embedded, critical condition\n    - Four\
+  \ has begun consciousness transfer sequence to stop Jupiter\n    - Jupiter carrier\
+  \ threatens Template 3 evacuation shuttles\n    - Four warns she won't survive the\
+  \ transfer process intact\n  self_check:\n    stayed_in_lane: true\n    findings_cited:\
+  \ true\n```"

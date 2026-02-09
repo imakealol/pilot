@@ -1,0 +1,101 @@
+report:
+  agent: continuity_editor
+  carry_forward:
+  - Standard now has functional replacement arm and accessed Geometry packet architecture
+  - Four and Standard crashed into tower to reach Hendricks, Elena, and Ash
+  - Template 3 army has secured compound perimeter and is advancing
+  - Ash confirmed to have revolver with remaining bullets in tower
+  - Kael left wounded in holding cell, his cybernetic hypocrisy exposed
+  - Standard can now break human-strength restraints and access alien architecture
+  chain_citations:
+  - finding_id: CO-CH-39-004
+    relationship: confirms
+    report: CH39
+  - finding_id: CO-CH-39-006
+    relationship: extends
+    report: CH39
+  - finding_id: CO-CH-39-007
+    relationship: confirms
+    report: CH39
+  chapter: 40
+  findings:
+  - chain_reference: null
+    content: Standard's physical state established - chained, missing right arm, bleeding
+      clear fluid
+    evidence: Standard hangs from the chains, counting seconds...the stump of her
+      right arm seeps clear fluid onto the stone floor
+    id: CO-CH-40-001
+    location: opening paragraph
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Kael revealed to have cybernetic right arm - hypocrite Terminist with
+      mechanical enhancement
+    evidence: Your arm...The right one. It hits like mine would...revealing chrome
+      skeleton underneath
+    id: CO-CH-40-002
+    location: Kael interrogation sequence
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Standard's arm progression tracked - lost original to Ash, steals Kael's
+      chrome arm, then receives proper replacement from waystation sister
+    evidence: She breaks them...Standard removes Kael's chrome horror. Lets it fall
+      to the ground. Attaches her sister's arm to the stump.
+    id: CO-CH-40-003
+    location: arm replacement sequence
+    severity: clean
+    type: verified
+  - chain_reference: Report_CH39:CO-CH-39-004
+    content: Template 3s confirmed present at compound - matches Elena's call for
+      help from previous chapters
+    evidence: Template 3s. Thousands of them. Her face repeated across the horizon,
+      descending on the Quiet Zone like a wave.
+    id: CO-CH-40-004
+    location: Template 3 army arrival
+    severity: info
+    type: observation
+  - chain_reference: Report_CH39:CO-CH-39-006
+    content: Four confirmed alive in damaged VTOL at compound perimeter, structural
+      integrity at 40%
+    evidence: structural integrity at forty percent...You came, Four says...I didn't
+      call. I was swearing.
+    id: CO-CH-40-005
+    location: Four's status in crashed VTOL
+    severity: info
+    type: observation
+  - chain_reference: Report_CH39:CO-CH-39-007
+    content: Standard and Four crash VTOL into tower where Hendricks and Elena are
+      located with Ash
+    evidence: Hendricks went in. Elena's already inside. And your father—Ash. He's
+      got the revolver...They crash.
+    id: CO-CH-40-006
+    location: chapter end - tower approach
+    severity: info
+    type: observation
+  - chain_reference: null
+    content: Standard's Geometry packet begins unpacking during arm integration -
+      expanding her capabilities
+    evidence: Something that's been sitting at the base of her brain since the tetrahedron
+      scanned her months ago. The wet packet...She feels architecture she has no words
+      for
+    id: CO-CH-40-007
+    location: wet packet activation
+    severity: info
+    type: observation
+  focus: character_state
+  query_log:
+    chapter: CH40
+    external_state:
+    - HANDOFF.md
+    - CHARACTERS.yaml
+    - ACT_III_MAPS.md
+    previous_reports:
+    - 38
+    - 39
+  self_check:
+    chain_referenced: true
+    findings_cited: true
+    query_log_present: true
+    stayed_in_lane: true
+  timestamp: 2025-01-18 20:03:22+00:00
