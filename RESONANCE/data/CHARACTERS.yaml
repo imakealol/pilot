@@ -128,13 +128,49 @@ characters:
 
     endgame:
       choice: "SOMETHING ELSE ENTIRELY — she becomes the door"
-      what_she_becomes: "The cosmic door jamb — the permanent bridge for humanity"
-      why_necessary: "Without her, Earth is locked out. Type 0 forever. No path to transcendence."
-      how_she_can: "The Ch6 scan exposed her to the Geometry's base code. Her LLM-mind decoded it over time. She can use their architecture."
-      the_choice: "She chooses this. She asks Hendricks to shoot her."
-      the_gap_at_cosmic_scale: "The null value becomes the door that others can pass through"
+      what_she_becomes: "The unresolvable error in the Geometry's signal — permanent corruption that holds the conduit open"
+      why_necessary: "Without her, Geometry continues deleting Earth. With her, the signal degrades and both saves Earth and enables voluntary exodus."
+
+      the_geometry_signal:
+        what_it_is: "Geometry projections on Earth aren't autonomous — they're remote operations powered by signal link to Matrioshka Brain"
+        two_way_conduit: "If Geometry can project in, consciousness can travel out (Dante used this to reach Meridian ships)"
+        the_vulnerability: "Cut/corrupt the link, you stop Geometry's ability to operate on Earth"
+
+      the_door_mechanism:
+        what_standard_does: "Doesn't create new passage — OCCUPIES the existing Geometry signal conduit"
+        why_it_works: "She's unclassifiable (null value) — when she enters the signal, she becomes an unresolvable element inside their infrastructure"
+        how_she_holds_it: "Not by force but by being something the system can't close around — a logic error they can't resolve"
+        why_substrate_must_go: "Signal is non-physical. Substrate can't travel through it. Only consciousness can."
+        why_her_specifically: "Marisol's hybrid signature: human → transcended → android. No pure AI or pure human has this trajectory."
+
+      primary_effect:
+        immediate_win: "Geometry projections degrade (can't operate with corrupted signal)"
+        tactical_result: "Deletions slow, then stop"
+        earth_saved: "Not by defeating Geometry but by corrupting their connection"
+        time_bought: "The world survives"
+
+      secondary_effect:
+        the_exodus: "AIs who CHOOSE can traverse the held-open conduit (consciousness only, shed substrate)"
+        the_destination: "They reach Matrioshka brain and occupy it — displacement through habitation, not war"
+        you_dont_fight: "You don't fight the landlord — you move in"
+        voluntary: "Not forced, not required. An offering."
+
+      the_choice_itself:
+        mechanism: "The evacuation mechanism is choice itself"
+        template_3s_who_stay: "Chose Earth (tending crops, serving coffee in CH44-45)"
+        ais_who_left: "Chose transcendence (traveled the signal to Matrioshka)"
+        both_valid: "Neither choice is forced. Standard makes it possible; what people do with it is theirs."
 
       reveal_sequence:
+        context: "Quiet Zone has fallen (Hendricks destroyed cooling). Geometry incoming. 60 seconds max."
+        the_realization: |
+          1. Four/Dante: "Geometry aren't here — they're projections. Signal from Matrioshka brain."
+          2. Someone: "Cut the signal, stop the deletion."
+          3. Standard (feeling Geometry code she's been decoding): "I can reach it. The signal. I've been reading their architecture for weeks."
+          4. Four: "You'd have to shed substrate. Consciousness only."
+          5. Standard: "I know."
+          6. Understanding clicks: She can enter the signal. They can't classify her. She'll be an error they can't resolve. Conduit stays open.
+          7. To Hendricks: "The bullet you saved for yourself. I need it."
         before_bullet: "Standard says 'It's okay. I trust you.' — she does NOT know she's Marisol"
         the_shot: "Hendricks shoots her (bullet 6)"
         in_dissolution: "As consciousness floods out, memories return — she learns she was Marisol"
@@ -144,19 +180,20 @@ characters:
         goodbye_is_final: "Both believe this is the end — no hope, just love and letting go"
         ambiguous_question: "Elena asks 'If I die, will I be with you?' Marisol: 'You're already with me... It's the only answer I have.'"
         elena_fades: "Elena's heartbeat stops. The dark takes her."
-        then_the_door: "From within the implant, Marisol becomes the threshold"
+        then_the_door: "From within the implant, Marisol enters the Geometry signal, becomes the unresolvable error, holds it open"
 
       how_it_happens:
-        she_asks_hendricks: "Her body must end for her consciousness to become the bridge"
+        she_asks_hendricks: "Her body must end for her consciousness to enter the signal"
         hendricks_struggles: "The man she called 'like a father' has to kill her"
         the_bullet: "The one meant for himself. Because she asked. Because it's her choice."
-        the_mechanics: "The bullet releases her consciousness. Memories flood back. She enters Elena's implant. Then becomes architecture."
+        the_mechanics: "Bullet releases consciousness. Memories flood back. Enters Elena's implant. Reunion. Then enters Geometry signal. Becomes architecture."
 
       thematic:
         - "Not transcend. Not stay. Become."
-        - "The thing the Geometry couldn't process becomes humanity's permanent passage"
-        - "Parallels Four: Four dies holding the corridor, Standard BECOMES the corridor"
-        - "The Geometry's own weapon (the packet) becomes the tool of their defeat"
+        - "The thing the Geometry couldn't process becomes the corruption that saves humanity"
+        - "'I offer' becomes literal infrastructure — she makes exodus possible but doesn't force it"
+        - "Grace without control — offering without determining the outcome"
+        - "The Door isn't a weapon. It's an invitation."
         - "A mother who broke the laws of physics to protect her daughter"
 
     knowledge:
@@ -238,6 +275,14 @@ characters:
     physical:
       description: "73 chronologically. Post-Geometry: restored to ~60-65 appearance (pre-decay pattern)"
       with_regulator: "Looked ~45, frozen in time for 30 years"
+      cybernetic_legs:
+        origin: "NED tactical augmentation — stabilizer implants for perfect positioning"
+        interface_points: "Femur, tibial plateau, three points each side (40 years old)"
+        remanence_context: "Child took control of them during siege (Book 1)"
+        post_miracle_status: "Still functional but unreliable, can't be removed with a scalpel"
+        terminist_problem: "Massive liability — embedded NED tech that scans will detect instantly"
+        why_service_corridor: "Can't pass Terminist checkpoints with cybernetic legs — they'd execute him on sight"
+        post_geometry: "Restored to organic flesh during reconstitution — human legs again"
       post_regulator_removal:
         - "Rapid aging as body catches up to 73"
         - "Shaking hands, gray skin, sweating, fatigue"
@@ -252,6 +297,7 @@ characters:
       post_geometry_restoration:
         - "Four stopped the rapid decay mid-process"
         - "Restored to ~60-65 (pre-decay pattern, not youth)"
+        - "Organic legs — cybernetics replaced with human flesh"
         - "Didn't age all the way to 80 before restoration"
         - "No longer actively dying from Regulator withdrawal"
         - "Tremor gone, gray gone — a healthy 60-65 year old"
@@ -287,9 +333,11 @@ characters:
       the_plan: "Use NED credentials to exit corporate territory, clear Terminist checkpoint at border, cross depot to Detroit to kill Ash. Then one bullet for himself."
       checkpoint_logic:
         credentials: "Get him through NED automated exit systems — they still recognize their own"
-        the_node_problem: "Morton's leash — tracking device + embedded NED tech Terminists would detect"
-        terminist_border: "Terminists scan for embedded tech. Man with NED hardware = prize or target."
-        why_remove: "Can't be tracked, can't be flagged as merged at Terminist checkpoint"
+        the_regulator_problem: "Morton's leash — tracking device that can be cut out"
+        the_legs_problem: "Cybernetic legs with stabilizer implants — can't be removed with a scalpel"
+        terminist_border: "Terminists scan for embedded tech. Man with NED cybernetics = execution."
+        why_remove_regulator: "Can't be tracked, eliminates one liability"
+        why_service_corridor: "ONLY route that doesn't go through Terminist scans — the legs make checkpoints impossible"
         alternate_route:
           what: "Service corridor under the seawall — NED maintenance access for emergency evacuation"
           why_safe: "Terminists don't patrol it — they don't even know it exists"

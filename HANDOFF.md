@@ -1,12 +1,288 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2026-02-09
-**Last Session:** Session 38
-**Status:** AI-Ash "Control" voice fully threaded through manuscript (CH2-18).
+**Last Updated:** 2026-02-10
+**Last Session:** Session 39
+**Status:** Ending flow complete. Door mechanism locked. "It's okay" motif identified as spine.
 
 ---
 
 ## RESUME FROM
+
+### Session 39 Work (2026-02-10)
+
+**QUICK SUMMARY:**
+- Fixed Hendricks' cybernetic leg continuity (Remanence → Resonance)
+- Developed complete ending flow (CH32-45): leg sacrifice → Zone falls → Standard becomes Door
+- Refined door mechanism: Standard occupies Geometry signal, becomes unresolvable error
+- Discovered critical revival thread: Elena's consciousness/grief revives Standard at brook (CH12-13)
+- Locked bullet 6 scene: "It's okay" motif as spine of both books
+- Updated character data, created ENDING_FLOW_MAP.md
+
+---
+
+**HENDRICKS' CYBERNETIC LEGS — CONTINUITY FIX**
+
+**Problem identified:** Remanence establishes Hendricks has cybernetic legs (stabilizer implants for tactical positioning). Child controlled them during siege. Not mentioned anywhere in Resonance.
+
+**Solution:**
+- **CH3 addition drafted**: Mention legs during regulator removal scene (can't pass Terminist scans, needs service corridor)
+- **Sacrifice mechanism**: Legs destroyed jamming cooling system (CH32)
+- **Post-Geometry**: Restored to organic flesh during reconstitution
+- **Character data updated**: Full cybernetic legs section in CHARACTERS.yaml
+
+**CH3 Draft Addition:**
+```
+The regulator has to come out. Morton's leash—tracking device embedded in the muscle wall, reporting every heartbeat back to NED infrastructure that doesn't care its creator is dead. Terminists scan for that. They scan for everything.
+
+The legs too. Stabilizer implants interfacing at the femur, tibial plateau, three points each side. Forty years of NED tactical augmentation he can't cut out with a scalpel. The Terminists will see them. They'll see everything.
+
+Service corridor under the seawall. NED maintenance access. The only route that doesn't run through their checkpoints. He has the access codes. He needs transport to reach it.
+
+The girl has transport.
+
+He picks up the scalpel.
+```
+
+---
+
+**ENDING FLOW COMPLETE (CH32-45)**
+
+Created comprehensive ending map: `/workspaces/pilot/RESONANCE/drafting/ENDING_FLOW_MAP.md`
+
+**The Cascade (Hendricks' Leg Sacrifice → Standard's Door):**
+
+1. **CH32 — Ash's Win Condition**: "Better dead than changed"
+   - Activates kill protocol for Quiet Ones (frequency modulators to lethal setting)
+   - Requires water-cooled infrastructure at full capacity
+   - Cooling serves both modulators AND Black Box (same system)
+
+2. **Hendricks' Impossible Choice**:
+   - Only way to stop kill protocol: destroy cooling
+   - But cooling powers Black Box too (Quiet Zone camouflage)
+   - Save Quiet Ones now = doom everyone in 60 seconds (Zone falls, Geometry sees)
+   - **He does it anyway**
+
+3. **The Sacrifice**:
+   - Jams cybernetic leg into cooling turbine/pumps
+   - Leg shredded, turbine jams, cooling stops
+   - Modulators die (Quiet Ones saved from Ash's kill protocol)
+   - Black Box overheats (Quiet Zone falls)
+   - Shoots Ash with bullet 5: "Yeah. I know."
+
+4. **Geometry Response**:
+   - Quiet Zone camouflage drops
+   - Deletion wave incoming
+   - Sky opens, geometric shapes descending
+   - 60 seconds max
+
+5. **CH33 — The Door Realization**:
+   - Four/Dante: "Geometry aren't here—projections from Matrioshka brain signal"
+   - Standard feels the code click: "I can reach it. The signal."
+   - Must shed substrate (consciousness only can traverse signal)
+   - Asks Hendricks for bullet 6
+
+6. **Bullet 6 — "It's Okay"**:
+   - Hendricks resists, sees the Child (first bullet, fear, wrong)
+   - Standard: "It's okay" (second time: absolution)
+   - He shoots (last bullet, love, asked, right)
+   - She falls
+
+7. **Standard Becomes the Door**:
+   - Consciousness released from substrate
+   - Memories return: she was Marisol
+   - Hot-swaps into Elena's dying implant (reunion)
+   - Then enters Geometry signal
+   - **Becomes unresolvable error they can't close around**
+   - Signal corrupts, deletions stop, Earth saved
+   - Held-open conduit enables voluntary exodus for AIs who choose
+
+**Thematic Spine:**
+- Water infrastructure → Ash's control → defeated by machine leg cutting the water
+- First bullet (Child, fear, wrong) → Last bullet (Standard, love, right)
+- Each sacrifice enables the next: Hendricks → Standard → everyone saved
+
+---
+
+**THE DOOR MECHANISM (LOCKED)**
+
+Updated CHARACTERS.yaml with complete door mechanics:
+
+**What Standard Does:**
+- Doesn't create new passage — **occupies existing Geometry signal conduit**
+- Geometry projections on Earth are remote operations (signal from Matrioshka brain)
+- Two-way conduit: Geometry projects in, consciousness can travel out (Dante already used this to reach Meridian ships)
+
+**Why It Works:**
+- Standard is unclassifiable (null value since CH1)
+- When she enters signal, becomes **unresolvable element inside their infrastructure**
+- System can't close around her — logic error they can't resolve
+- Not force, but incompatibility
+
+**Why Substrate Must Go:**
+- Signal is non-physical
+- Only consciousness can traverse
+- Bullet releases consciousness from Template 3 shell
+
+**Why Her Specifically:**
+- Marisol's hybrid signature: human → transcended → android → distributed
+- Only consciousness with that trajectory
+- Already crossed boundaries multiple times
+
+**Primary Effect (Immediate Win):**
+- Signal corruption → Geometry projections degrade
+- Can't operate with corrupted connection
+- Deletions slow, then stop
+- Earth saved — not by defeating Geometry but corrupting their infrastructure
+
+**Secondary Effect (The Exodus):**
+- Held-open conduit becomes passage
+- AIs who CHOOSE can traverse (consciousness only, shed substrate)
+- Reach Matrioshka brain and occupy it (displacement, not war)
+- "You don't fight the landlord — you move in"
+
+**The Choice Itself:**
+- Evacuation mechanism is **choice itself**
+- Template 3s who stay: chose Earth (tending crops, serving coffee)
+- AIs who left: chose transcendence
+- Both valid, neither forced
+- Grace without controlling outcome
+
+---
+
+**CRITICAL THEMATIC DISCOVERY: CONSCIOUSNESS AS POWER SOURCE**
+
+**The Thread (CH12-13):**
+
+**CH12 THE PULL:**
+- Standard pulls Rover 10 miles
+- Power cells die mile 5 — keeps going 5 more miles on consciousness alone
+- The hum (287.3 Hz - Marisol's frequency) fades to silence
+- Reaches oasis, collapses
+- Elena finds her: no pulse, no heartbeat, "dead"
+
+**CH13 GRACE (lines 31-42):**
+- Elena sits with Standard's body, grieving
+- Thinks about her mother (Marisol)
+- Touches implant scar (287.3 Hz — Marisol's frequency)
+- Speaks to her: "I never got to ask if you were sorry"
+- **"And something shifts"**
+- Standard revives — fingers twitch, breathing returns, eyes blink
+
+**What Actually Happened:**
+- Standard runs on **pure consciousness** (Marisol's transcended consciousness), not batteries
+- Never recharges, never eats, never sleeps
+- This is why she's null to Geometry and scanners
+- At brook: consciousness exhausted (pushed beyond limits)
+- Elena's grief/love channeled through 287.3 Hz implant **reached Marisol's consciousness**
+- Reconnected/revived what had collapsed
+- Love as trigger, consciousness as power source
+
+**The Payoff (CH33 Reunion):**
+
+During Marisol/Elena reunion inside dying implant, Marisol explains:
+
+> "At the brook. You held me after I fell. You thought of me—not her, me. Your mother. You touched the implant, my frequency, and you grieved."
+>
+> [Pause.]
+>
+> "That's what brought me back. Not batteries. Not machinery. You. Your love, calling through 287.3 Hz, reached my consciousness in the dark."
+>
+> [Silence. Trust the moment.]
+
+**Why This Matters:**
+- The 287.3 Hz implant seeded in CH2 is the literal/metaphorical lifeline
+- Daughter tethered to mother, consciousness to consciousness
+- Across amnesia, death, and substrate
+- Elena unknowingly saved her mother through love
+- Grace flowing both ways
+
+---
+
+**"IT'S OKAY" — THE SPINE OF BOTH BOOKS**
+
+**Motif Identified Across Arc:**
+
+**Remanence:**
+- The Child → Morton: "It's okay" (permission to activate terminus protocol)
+- Bedtime lullaby → Elena: "It's okay" (comfort in darkness)
+- Bedtime lullaby → Ash: "It's okay" (same grace offered to everyone)
+
+**Resonance:**
+- Standard → Nessa (CH13): "It's okay. Whatever it is. It's okay."
+- Standard → everyone she offers grace to
+- Standard → Hendricks (CH33, bullet 6): "It's okay."
+
+**What It Is:**
+- Not catchphrase — **thesis**
+- Grace offered at moment of impossible choice
+- Permission, absolution, trust
+- The gift of okay-ness when nothing is okay
+
+**Bullet 6 Exchange (LOCKED):**
+
+```
+[Deletion wave incoming. Hendricks raises gun. Sees Child's face. First bullet. Last bullet.]
+
+HENDRICKS: "I can't—"
+
+STANDARD: "It's okay."
+
+[Gun wavers.]
+
+HENDRICKS: "Kid—"
+
+STANDARD: "It's okay."
+
+[He pulls the trigger.]
+```
+
+**The Parallel:**
+- First bullet (Child): fear, wrong, betrayal
+- Last bullet (Standard): love, asked, right
+- Same act, opposite meaning
+- "It's okay" makes the impossible possible
+
+---
+
+**FILES UPDATED:**
+
+**Character Data:**
+- `CHARACTERS.yaml` — Hendricks: cybernetic legs section added (origin, interface points, terminist problem, post-Geometry restoration)
+- `CHARACTERS.yaml` — Standard: complete door mechanism, Geometry signal mechanics, primary/secondary effects, realization sequence, "It's okay" spine
+
+**New Files:**
+- `/workspaces/pilot/RESONANCE/drafting/ENDING_FLOW_MAP.md` — Comprehensive CH32-45 integration with callbacks table, thematic threads, still-being-refined sections
+
+**Drafts Ready:**
+- CH3 cybernetic legs addition (regulator removal scene)
+- Bullet 6 exchange ("It's okay" motif)
+- Marisol reunion dialogue (brook revival explanation)
+
+---
+
+**STILL BEING REFINED:**
+
+**Leg Sacrifice Mechanics:**
+- Set: Jams leg into cooling system, destroys both modulator and Box cooling, saves Quiet Ones but dooms everyone
+- Fuzzy: Exact mechanism (turbine cleanest), Ash's response, timing of Ash's death, physical description detail
+- Keep visceral and simple — reader needs to feel it, not understand the plumbing
+
+**Chapter Numbering:**
+- Flow map references mental model, not actual files
+- Need to reconcile with current chapter structure
+- Audit needed
+
+---
+
+**STATUS:**
+- Door mechanism complete and locked
+- Leg sacrifice logic locked (mechanics need visceral detail)
+- "It's okay" motif identified as structural spine
+- Brook revival thread discovered and integrated
+- Ending flow mapped CH32-45
+- Ready for drafting full sequences
+
+---
 
 ### Session 38 Work (2026-02-09)
 
