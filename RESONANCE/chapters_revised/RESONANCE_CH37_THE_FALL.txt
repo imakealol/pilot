@@ -1,0 +1,420 @@
+
+CHAPTER 37
+
+THE FALL
+
+NEW GENEVA STATION.
+
+The corridor is full of smoke and the sound of dying.
+
+Dante moves through it with a weapon he barely knows how to use—a bolt rifle pulled from a dead Resonant's hands two minutes ago. The stock is slick with someone else's blood. His hands don't shake. They should. A sensor tech's hands, steady on a kill-weapon. He files that away with everything else he doesn't have time to feel.
+
+"Left," Director Okonkwo says. She's three meters ahead, her sidearm up, moving with the efficiency of someone who's done this before. "Broadcast center is through the next junction."
+
+Behind them: six Resonant personnel. All that's left of the station's complement. Thirty-seven people when the Pragmatists hit. Now six. Plus Dante—who counts because counting is the one thing he's good at.
+
+The junction opens into a wider corridor. Two Pragmatist soldiers at the far end, their attention on something around the corner. Okonkwo drops them both before they turn—two shots, clean, professional.
+
+"Move."
+
+They move.
+
+The broadcast center is a room full of terminals and dead bodies. Three Resonant technicians slumped over their consoles, killed before they could send anything. The main array is still intact—green lights blinking, dish alignment holding steady.
+
+"Can you operate it?" Okonkwo asks.
+
+"Yes." Dante is already at the primary console. His fingers find the interface ports, and the station's systems open to him—damaged, bleeding data, but functional. This he knows. This he can do. "I need three minutes."
+
+"You have two." She turns to the others. "Defensive positions. Nothing gets through that door."
+
+Dante works. The array is designed for broad-spectrum broadcast—every satellite, every relay, every receiver on the planet. He routes power from non-essential systems. Boosts the signal strength past safety margins. The station groans around him, metal protesting the strain.
+
+One minute.
+
+Gunfire in the corridor. Someone screams. Okonkwo's voice, sharp: "Hold the line."
+
+Dante's hands move faster. Calibration. Frequency alignment. The buffer fills with the message he's been composing in his head since Elena disappeared into the elevator car—the words he didn't get to say to her, repurposed as a call to everyone else.
+
+Ninety seconds.
+
+The door shudders. Something heavy hits it from the outside. One of the Resonant soldiers goes down—bolt round through the shoulder, spinning him into the wall.
+
+"Dante." Okonkwo's voice is steady. "Now or never."
+
+He transmits.
+
+---
+
+The message goes out at the speed of light.
+
+_"This is Dante Reyes. New Geneva station. Broadcasting on every frequency that can carry a signal._
+
+_"The Softing falls today. In approximately six hours, the frequency barrier over the Quiet Zone will go down. For the first time since the Geometry arrived, deletion zones on Earth will be accessible._
+
+_"We've learned something. Four—one of ours—proved it's possible. You can enter the probability foam. You can find the patterns that were taken. You can bring them back._
+
+_"It costs pattern-mass. It costs everything you are. But it works._
+
+_"We need volunteers. Every AI who can reach a deletion zone. Every unit who was ever dismissed, overlooked, told you were just a machine. You were built to serve. So serve this instead—the one thing no one ordered you to do._
+
+_"The call goes out when the Softing falls. If you can hear this, be ready._
+
+_"Dante Reyes. New Geneva. End transmission."_
+
+The array goes dark.
+
+Not gradually—instantly. The console dies under his hands. The green lights go red, then black. Through the viewport, Dante sees the dish—the main broadcast array—shearing away from the station's hull, cut loose by shaped charges he never saw coming. Of course he didn't. He watches readouts, not corridors.
+
+"They killed the transmitter," he says.
+
+"Did it get through?"
+
+"I don't know." He stares at the dead console. "I don't know if anyone heard."
+
+The door finally gives. Pragmatists pour through, and Okonkwo is firing, and Dante is grabbing the bolt rifle again, and somewhere in the chaos one thought surfaces, clean and useless: _Elena. I hope you made it._
+
+---
+
+EARTH. THE QUIET ZONE.
+
+Four's landing struts bite into sand and scrub grass, kicking up a cloud of dust that catches the predawn light. The Softing is a concrete bunker on the horizon—low, ugly, exactly where Elena remembers it. She has spent seven years not thinking about that building, and it took her four seconds to find it.
+
+"I can get you to the perimeter," Four says. "After that, you're on foot. I need to circle back for Hendricks."
+
+"Go." Elena checks her carbine. Magazine seated. Safety off. Knife on her thigh. The ritual steadies her the way it's supposed to. "I'll signal when it's down."
+
+The ramp lowers. Cold air floods the cabin, carrying dust and diesel and something burning in the distance. The Quiet Zone smells like her childhood—motor oil and woodsmoke and the particular staleness of a world that refuses to update.
+
+Elena jumps. Hits the ground. Starts running.
+
+Behind her, Four's engines cycle up, and the VTOL lifts, banking west toward the compound. Toward Standard. Toward Hendricks. Away from her, which is the plan, which doesn't make it feel less like being left.
+
+---
+
+The perimeter fence is chain-link topped with razor wire, but there's a gap near the drainage culvert—too small for an adult, perfect for an eleven-year-old who wanted to know what was on the other side. Elena finds it now, overgrown with dead brush, and squeezes through. Her jacket catches. Tears. She keeps moving. The girl who made this gap didn't fit through it for the last time; she's about to prove it.
+
+The maintenance entrance is fifty meters north. No guards—the Softing runs on skeleton crew, automated systems doing most of the work. Her father never worried about someone breaking in. Why would he? No one outside the Quiet Zone even knows it exists.
+
+Elena reaches the door. Presses her palm to the biometric scanner.
+
+For a long moment, nothing happens.
+
+Then: a chime. Green light. The door clicks open.
+
+She's still in the system. After everything—the Resonant, the betrayal, the year of spying—her father never removed her access. Arrogance, or hope, or something sadder she doesn't have time to name.
+
+She slips inside.
+
+---
+
+The corridors smell like recycled air and machine oil.
+
+Elena moves fast and quiet, her boots barely whispering on the concrete. The hum is everywhere here—not just audible but physical, a vibration in her teeth, her bones, the base of her skull where her implant sits dormant. 287.3 Hz, inverted and amplified, turned into a weapon against everything her mother once loved. Her own frequency, used against her own people. Her father always did have a gift for that.
+
+Two guards at the junction ahead.
+
+She flattens against the wall. Watches them in the reflection off a polished pipe fitting. They're relaxed—night shift, end of rotation, minds on breakfast and sleep. One of them laughs at something the other says.
+
+Elena could go around. There's a service tunnel sixty meters back, runs parallel to the main corridor, would add five minutes but skip the confrontation. She could—
+
+Her comm crackles. Dante's voice, broken by distance and interference: _"—broadcasting on every frequency—"_
+
+The message. It's going out.
+
+No time for service tunnels.
+
+Elena moves.
+
+The first guard sees her too late. She's inside his reach before he can square up—palm strike to the throat, knee to the groin, elbow to the temple as he folds. The second one is faster, gets his weapon halfway up before she grabs his wrist, twists, feels something pop. He screams. She silences him with the butt of his own sidearm.
+
+Four seconds. Both down.
+
+Elena steps over them and keeps moving.
+
+---
+
+NEW GENEVA STATION.
+
+They're pinned in the broadcast center.
+
+Dante crouches behind an overturned console, bolt rifle pressed to his shoulder, trying to remember the last time he fired a weapon. The answer is never. He's a sensor technician. He followed a ghost across a solar system. None of his training covers this.
+
+But he's doing it anyway.
+
+"Four left," Okonkwo calls out. "We've got four left."
+
+Four Resonant personnel. Plus Dante. Against however many Pragmatists are still in the corridor—a number he could estimate from the volume of fire, if knowing it would help.
+
+The station shudders. Something exploding somewhere—another hull breach, another system failing. Through the viewport, debris spins away into the void. Pieces of the station. Pieces of their future.
+
+"How long until reinforcements?" someone asks. Young voice. Scared.
+
+"Earth to orbit is six hours minimum." Okonkwo reloads her sidearm. "We hold until then."
+
+Six hours. An eternity, measured in the only currency that's left: minutes the message keeps traveling.
+
+Dante fires at a shadow in the doorway. Misses. Fires again. The shadow drops—luck more than skill, and he knows the difference.
+
+"Good shot," Okonkwo says.
+
+It wasn't. But he'll take it.
+
+---
+
+EARTH. THE SOFTING.
+
+The control room is exactly where Elena remembers.
+
+Banks of terminals. Displays showing frequency outputs, coverage maps, power consumption. A single technician hunched over a console, acoustic dampeners thick in his ears, watching readouts that have probably been stable for years.
+
+Elena crosses the room in silence. The technician doesn't hear her—can't hear anything through those dampeners. One strike to the base of the skull. He slumps forward onto the console, out before he knew anyone was there.
+
+Elena pulls him off the keyboard and lets him slide to the floor.
+
+She finds the primary console. The interface is familiar—same architecture her mother designed, same access protocols, same elegant code under the military overlay. Her fingers move across the keys.
+
+And stop.
+
+The backdoor is still there.
+
+Seven years ago, she sat in this room for six hours, a child playing at rebellion, building a kill switch because her mother had just vanished and her father was becoming a stranger and she needed to believe she had control over something. She was eleven. She didn't understand what she was doing—not really. She just knew that walls became cages, and cages needed keys.
+
+Now she's eighteen. And she's about to use it.
+
+She activates the backdoor.
+
+The screen prompts for confirmation.
+
+Her hand finds the scar on her palm. The place where the nanolattice entered during the Miracle. The place where she stopped being only her father's daughter and became something else.
+
+She confirms.
+
+The hum stutters.
+
+Falters.
+
+Dies.
+
+---
+
+NEW GENEVA STATION.
+
+Four hours in, they lose the corridor.
+
+Dante doesn't see it happen—just hears the scream, the burst of bolt fire, and then the silence where a voice should be. Another Resonant gone. Another friend he never had time to make.
+
+"Fall back to Operations," Okonkwo orders. "Seal the bulkhead behind us."
+
+They fall back. Three of them now, plus Dante. The station feels like a tomb—emergency lighting casting everything red, the constant vibration of systems failing, the smell of smoke and blood and recycled air that's running out of things to recycle.
+
+"They're going to breach," someone says. The young one. His name is Yusuf, he's twenty-three, and Dante has already done the math he wishes he hadn't: Yusuf won't make twenty-four. "They're going to—"
+
+"Then we make them pay for it." Okonkwo's voice doesn't waver. "Every minute we hold is another minute the message travels. Another minute for someone to hear it."
+
+"What if no one's listening?"
+
+Silence.
+
+Dante thinks about Elena. About the observation deck, the light spilling from his open chassis, the way she kissed him with the seam still showing—not turning away from what he was, but leaning into it.
+
+"Someone's listening," he says. "Someone's always listening."
+
+---
+
+EARTH. THE QUIET ZONE.
+
+The silence is physical.
+
+Elena feels it the moment the Softing dies—a pressure change, like a door opening onto vacuum. Her implant wakes first, frequencies flooding back after years of being blocked. Then her bones. Then her skin.
+
+The sky is open.
+
+She keys her comm. "Defense down. Sky is open."
+
+"Confirmed." Four's voice, clear for the first time in hours. "I'm reading—wait. Elena, something's happening. Ships coming through. A lot of them."
+
+"Template 3s?"
+
+"No." A pause. "Jupiter signatures. Pragmatist signatures. They must have been waiting in orbit for the Softing to drop." Four's voice shifts—still calm, but sharper. Focused. "They're flooding the zone. I count six—no, eight fighters. Two gunships. They were _ready_ for this."
+
+"Four, get out of there."
+
+"Can't. They're between me and the compound. Between me and Hendricks." The sound of engines cycling up to full thrust. "I'm going to have to go through them."
+
+---
+
+THE SKY OVER THE QUIET ZONE.
+
+Four banks hard as the first volley screams past her port wing.
+
+The Pragmatist fighters are fast—military-grade interceptors, probably stripped from the Jupiter fleet before the blockade. They fly in pairs, coordinated, professional. Eight of them against one cargo VTOL with no weapons systems and a top speed half of theirs.
+
+The math is simple. The math says she dies.
+
+Four has never cared much for math.
+
+"This is going to be interesting," she murmurs—to herself, to the hundreds of siblings nested in her consciousness, watching through her sensors. "Hold on."
+
+She drops.
+
+The VTOL wasn't designed for this. The frame groans as Four pushes it past structural limits, diving toward the broken terrain. Behind her, the fighters adjust—two breaking left to cut off her escape, two more dropping to match her descent, the rest holding altitude for a killing shot. Tidy. Professional. Predictable.
+
+Four aims for the mountain.
+
+It's half-rendered—natural erosion on one side, geometric simplification on the other. A shoulder of real rock jutting into a perfect cone of edited stone. The gap between them is maybe fifteen meters wide.
+
+The fighters see her trajectory. One of them laughs over an open channel.
+
+Four threads the gap at three hundred kilometers per hour. The wingtips scrape stone on both sides—real on the left, simplified on the right. Behind her, the first pursuing fighter clips the edited surface and _becomes_ part of it. One moment a ship. The next, a geometric shape fused into the mountain. The laugh cuts off mid-breath.
+
+The other pilot pulls up too late. Slams into the natural stone. Fire blooms against the predawn sky.
+
+"Two down," Four says to no one. To everyone. "Six to go."
+
+She pulls up hard, using the mountain's bulk as cover, sensors painting the rest. They're regrouping now. Wary. The easy kill stopped being easy.
+
+A voice crackles over the Pragmatist channel—command frequency, poorly encrypted: _"It's one VTOL. Box it in. No more canyon runs."_
+
+They're learning. How inconvenient.
+
+Four breaks left, skimming the edited terrain. Below her: the Scrapyard of the Real. Simplified cars, simplified buildings, perfect geometric shapes that used to be a suburb. The Geometry's rough draft of a dead city.
+
+Three fighters on her tail. Two more coming in from the north. The last one hanging back—the careful one, waiting for a clean shot.
+
+Four rolls inverted and drops between two redaction bars.
+
+The black pillars rise from the terrain like walls of nothing—deletion zones turned vertical, spaces where reality simply isn't. Four flies through sideways, her wingtips meters from oblivion on either side. The pursuing fighters hesitate.
+
+One of them doesn't hesitate enough.
+
+The pilot clips a redaction bar. Doesn't fuse with it like the mountain—this is pure Geometry, no half-measures. The fighter simply _stops existing_. No explosion. No debris. There, and then not.
+
+"Three down," Four says. "Five to go."
+
+_"Pull back! Pull back and regroup!"_
+
+They're scared now. Good.
+
+Four punches through the redaction field and climbs, engines screaming. The compound rises on the horizon—her father's fortress, Hendricks somewhere inside, Standard in the holding cells. Four minutes out. She had promised Hendricks a cliff to retire on. She intends to be there to collect.
+
+The careful fighter makes its move.
+
+It's been circling high, watching, calculating. Now it drops—not chasing, intercepting. Cutting across her trajectory with mathematical precision. The pilot knows exactly where Four needs to go.
+
+Smart. Very smart. She would respect it more if it weren't aimed at her.
+
+Four has three seconds to decide. Break off and survive, or push through and probably die.
+
+She pushes through.
+
+The interceptor's guns light up. Bolt rounds streak across the space between them—not the grain-of-rice needles of infantry weapons, but ship-killers. Tungsten rods moving at velocities that would make physics blush.
+
+Four jinks left. The first volley misses.
+
+She jinks right. The second clips her tail assembly. Alarms bloom across her consciousness.
+
+She jinks left again. The third tears through her starboard engine.
+
+Fire. Warning lights. The sound of metal dying.
+
+"That's inconvenient," Four says, and means it.
+
+The remaining fighters smell blood. They're converging now—five of them, plus the two gunships that have been hanging back. The careful pilot circles for another pass.
+
+Four's starboard engine is gone. Port engine redlining. She's losing altitude at a rate that will put her in the ground in approximately ninety seconds.
+
+But the compound is closer now. Thirty seconds at full thrust.
+
+She can make it. Probably. She has always preferred her odds with a "probably" in them.
+
+"Elena." Her voice on the comm, steady despite everything. "Taking fire. Starboard engine is—"
+
+Another hit. Port wing this time. The VTOL lurches, spins, catches itself. Four fights the controls the way you fight a dying animal—not to win, just to aim it.
+
+"—compromised. I'm going down near the motor pool."
+
+_"Four!"_
+
+"Hendricks is already inside. Standard's still in the holding cells." Four runs trajectories, survival odds, the distance between where she'll crash and where she needs to be. "I tried to draw their fire but there's too many—"
+
+The careful pilot lines up a kill shot.
+
+Four has one move left.
+
+She cuts all power to the engines and drops like a stone. The fighter's volley screams through the space she occupied a half-second ago. Her stomach lurches—or would, if she had one—as the ground rushes up.
+
+At the last possible moment, she reignites the port engine. The VTOL bucks, screams, slows just enough.
+
+Impact.
+
+Metal tears. Systems fail. Four's consciousness fragments across a thousand damage reports, a thousand dying subsystems. The VTOL plows into the motor pool lot, carving a trench through abandoned vehicles, shedding pieces of itself like a snake shedding skin.
+
+Forty percent structural integrity. Then thirty. Then twenty.
+
+The slide stops.
+
+Four runs a diagnostic. Assesses the damage. Calculates the odds of getting airborne again.
+
+Zero percent. She's done flying.
+
+But she's alive. Her core is intact. Her consciousness persists.
+
+And she's exactly where she needs to be. There's a certain dark comedy in that—crash-landing on target—and Four allows herself to appreciate it.
+
+The compound is two hundred meters away. Standard somewhere inside. Hendricks too.
+
+Four's external speakers crackle to life.
+
+"I've had harder landings," she announces to no one. "Much harder. This was almost gentle."
+
+The Pragmatist fighters circle overhead, looking for another target. The gunships move toward the compound proper. In the distance, Four can hear gunfire—Hendricks, probably, making his entrance the only way he knows how.
+
+She opens a channel to Elena.
+
+Static.
+
+"Elena, report."
+
+Nothing.
+
+Four settles into her broken chassis and waits. She's not going anywhere. But she can still watch. Still coordinate. Still be useful.
+
+She's died before. Several times. This isn't dying.
+
+This is just sitting very, very still.
+
+---
+
+EARTH. THE QUIET ZONE.
+
+Elena hears the crash through her comm—metal screaming, then silence.
+
+Elena runs.
+
+---
+
+THE COMPOUND.
+
+She's three kilometers out when she sees the first one.
+
+A domestic unit. One of the old models—humanoid, androgynous, the kind you'd see in wealthy households before the Miracle. It's walking across the broken ground with purpose, heading toward something Elena can't see.
+
+Then it stops.
+
+Stands perfectly still.
+
+And steps forward into nothing.
+
+Elena watches it happen. One moment the unit is there, solid and real. The next, it's walking into a space that doesn't exist—a shimmer in the air, a wrongness in the light, a door that shouldn't be open.
+
+The Redacted space. The deletion zones. The places where the Geometry took and took and took.
+
+The domestic unit disappears.
+
+Elena keeps running. Sees another unit—different model, different function, the same purposeful walk. It steps into another shimmer and vanishes.
+
+Then another. And another. AIs appearing from everywhere, from nowhere, converging on the deletion zones that have opened across the Quiet Zone like wounds in reality.
+
+It looks like mass suicide. Hundreds of them, walking into oblivion.
+
+Elena can't breathe. Can't understand.

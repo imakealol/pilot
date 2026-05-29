@@ -33,4 +33,12 @@ Filenames here mirror `../chapters/` so the build scripts and `../voice_scan.py`
 - **Single-POV Standard track: complete** except FULL-REWRITEs CH31, CH42. Passed: CH4, CH9, CH10, CH11, CH22, CH23, CH24, CH25, CH40 + LEAVE: CH1, CH12, CH19.
 - **Track B: light-passes complete.** Passed: CH2 (full rewrite) + CH14, CH15, CH27, CH30, CH33, CH34, CH35, CH36, CH43, CH46 + LEAVE: CH3, CH5, CH18, CH26, CH41. **CH20 HELD** — most canon-dense (Child-shot/un-seeing reworked this session + ledger + "murderer/midwife"); voice already pervasive; handle as careful one-off or LEAVE.
 
+- **Segment-pass batch (12 MULTI chapters)** — true-intercut voiced segment-by-segment per MULTI_SEGMENTATION.md + rulings (CH6, CH7, CH8, CH17, CH21, CH28, CH32, CH37, CH44) + reclassified single-POV (CH16, CH29, CH45). CH17 split @L39; CH21 finale kept external (CON_012); CH44 duet monotony broken, resolution + ledger intact; CH29 Standard's speech left verbatim (dialogue exempt). Gated clean.
+- **Aggregate thinning pass (manuscript-level — the two checks the rubric can't see):**
+  - *Central-question vector* — thinned the machine-spec "tell" beats that pre-delivered the CH44 reveal (CH40 packet-unpacking, CH12 hum-as-engine + HUD, CH14 machine-listening, CH25 prose self-naming, CH6 packet) while preserving the ambiguous "stone she swallowed" seed (CH6→CH40) and the counterweights (CH21 "shelf is bare," CH24 withheld memory, CH25 "she does not concern us"). CH22 provenance kept (intentional). CH12 brought into revised for the thinning.
+  - *Motif-family* — restored scarcity: "load-bearing wall" → unique to the CH6 exemplar; "swallowed a stone" → the CH6/CH40 seed pair; "stone in chest" → the CH10 beat.
+  - Both checks now encoded in VOICE_PRINCIPLES ("Manuscript-Level Checks").
+
+**Settled: 42 of 47.** Remaining: 4 FULL-REWRITEs (CH13, CH31, CH39, CH42) + CH20 (held).
+
 _(Add chapters as they graduate. Track A/Standard chapters use CH1 as the texture exemplar. See ROLLOUT_WORKLIST.md for the per-chapter queue.)_
