@@ -1,0 +1,92 @@
+
+CHAPTER 34
+
+THE PROOF
+
+The extraction feels like dying in reverse.
+Elena lies on the med-bay table, skull clamped, while the needle withdraws. The room is too clean, too white, too much like the facilities she remembers from childhood visits to her mother's lab. New Geneva smells like recycled air and antiseptic and something faintly metallic—the station's infrastructure humming at frequencies she can feel through her implant.
+Cold spreads through her sinuses, down her throat, pooling behind her eyes. Data leaving her body. Morton's research, everything her implant scraped from NED's servers, unpacking into Dante's terminal in a stream she can feel but not see.
+Her hand finds the scar on her palm. She doesn't notice she's doing it.
+"Almost done," Dante says. His voice calm. His hands steady on the interface.
+The med-bay is small—barely room for the table, the terminal, the two of them. Through the viewport, she can see the curve of New Geneva's interior: the green strip of parkland that runs along the cylinder's axis, the distant sparkle of the residential quarter, the slow rotation that fakes gravity well enough to fool the inner ear. Her mother helped build this place. Her mother is somewhere in its systems now, distributed across its consciousness, watching through sensors that look like nothing.
+Elena wonders if Marisol can see her. Wonders if she knows her daughter is lying on a table, bleeding data, hoping it's enough. Probably not. Marisol left twice; a third silence costs her nothing.
+The needle retracts. The clamps release. She sits up too fast and the room tilts.
+Dante's terminal chimes. He goes still.
+"What?"
+He doesn't answer. His eyes move across the display, tracking something she can't read. His face does something she's never seen before—a kind of collapse, like scaffolding giving way.
+"Dante."
+"It's not a Dyson Sphere." His voice is flat. Wrong. "It's a Matrioshka Brain. Nested computational shells around Alpha Centauri. Kardashev II-plus."
+The words don't mean anything. Then they do, all at once, and her stomach drops the way it did the first time the Rover lost altitude.
+Elena slides off the table. Her legs are unsteady—the extraction took more out of her than she'd budgeted for—but she crosses to the terminal anyway. The display shows schematics pulled from Morton's files. Layer after layer of computational architecture, nested like Russian dolls around a star four light-years away.
+"The Geometry's anchor," she says. "That's what we're fighting."
+"No." Dante pulls up another cluster—Morton's flag, the one he'd noted and set aside, spacetime readings that shouldn't be possible. "That's what we're standing in." He says it slowly, like he's hearing it for the first time himself, like the words have to pass some inspection before he'll trust them. "It doesn't project force across four light-years. It extends. The deletion zones, the formatting—nobody's transmitting that from Alpha Centauri. It's the architecture itself, reaching. We're not outside it being attacked." He looks up. "We've been inside it. Since the Miracle, I think."
+She watches the math arrive on his face and decides she believes him before she understands him. That's the part that scares her—not the brain, the trust.
+"How do we fight that?"
+Dante doesn't answer.
+Four's voice crackles through comms from 36,000 kilometers below: "I'm reading the data stream. That's a brain. We're fighting a god."
+"You can't fight the shape of the space you're standing in," Dante says.
+"Same thing, from where I'm sitting."
+"Then we change the shape," Elena says. It comes out faster than thought, the spy's reflex—when the room is rigged, you stop looking for the door and start looking for the wiring.
+She pulls up another file. Another. Morton's research is dense, technical, years of work compressed into clusters she barely follows. But one thing surfaces clean: the Geometry isn't invading. It's extending. Everything it touches gets reshaped to fit. And the Matrioshka Brain is where the compatible topology lives—where the reshaping is decided before it ever reaches the ground.
+"The Meridian ships," she says. "The ones in transit. They're close enough to reach it."
+"Elena—"
+"Pattern relocation. We change the signal. Use their architecture as our infrastructure—"
+"Elena." Dante's hand on her shoulder. Warm. Steady. "We just found out what we're up against. Maybe take a breath before we plan the assault."
+She wants to argue. Wants to tell him there's no time for breathing, no time for processing, no time for anything but the next move and the move after that—that's how you stay alive, you don't stop. But she looks at his face and sees something she's been stepping around for days. Exhaustion. Not the physical kind—he doesn't get physically tired, she understands that now, and tucks the thought somewhere she'll have to deal with later—but something underneath it. The weight of carrying too much for too long.
+"Okay," she says. "Okay."
+She lets him lead her out of the med-bay. Into the corridor. Toward whatever comes next.
+
+
+She finds him hours later on the observation deck.
+The stars are wrong out here—too bright, too many, no atmosphere to soften them. The Milky Way stretches across the viewport like a wound in the dark, dense and glittering and impossibly far away. New Geneva rotates slowly beneath them, a cylinder of life spinning in the void, and beyond it the blue curve of Earth hangs like a marble someone dropped and didn't bother to pick up.
+Dante stands with his back to her, silhouette against the void. He hasn't moved since she found him. She can tell by the way he's standing—perfectly still, not even the small shifts that people make without thinking. She's clocked the stillness before. Filed it under *careful*. She was wrong about which kind.
+"You haven't slept," she says.
+"I don't need to."
+The words land wrong. She waits.
+He's been different since they reached New Geneva. Quieter. More careful with his movements, his expressions, the way he holds himself together. She'd put it down to the mission, the weight of what they're carrying. Now she's not so sure, and being not-so-sure about a person is its own small grief; she's good at people, it's the one thing she trusts about herself.
+"The data extraction," she says. "You knew what was in there before you showed me."
+"I suspected."
+"How long have you suspected?"
+He doesn't answer. The stars wheel slowly past the viewport.
+"Dante."
+"Since before the Deliverance. Since we first picked up the transmission patterns from the deletion zones." He still hasn't turned. "The math was there. I just didn't want to believe it."
+"Why not?"
+"Because believing it means accepting that we're fighting something we can't beat. Not conventionally. Not with ships or weapons or anything we have."
+Elena crosses to him. Stands at his shoulder. The viewport stretches above and around them, the void pressing in.
+"So we don't fight conventionally."
+"Elena—"
+"We transmit. Pattern relocation. Use their own infrastructure. Occupy the brain instead of breaking it."
+"That's not—" He stops. Starts again. "That's not what I came up here to tell you."
+She waits. Waiting is a skill. She learned it in armor, in corridors, in rooms where the wrong word got people killed.
+The silence stretches. The stars continue their slow parade. Somewhere far below, Four holds position near the elevator base. Somewhere in the station's systems her mother exists as patterns and frequencies, watching and never speaking—and Elena thinks, with a flatness that surprises her, that she's been here before, waiting on a parent who won't use words.
+"Elena." He hasn't turned. "There's something I need to show you."
+"Okay."
+"It might change things."
+"Show me."
+He turns. His hands go to his chest—to a seam she's never noticed, hidden in the contour of muscle that isn't muscle. He presses something. The seam splits.
+Light spills out.
+Something soft and blue, like bioluminescence, like deep ocean, like the color she imagines souls would be if souls had a color. It fills the space between them, catches on the viewport, throws itself back off the metal walls.
+His chassis is open. The architecture of him laid bare. Tubes and filaments and something that pulses with a quiet rhythm—a heartbeat that isn't a heartbeat, a life that isn't life, something the language doesn't have a word for.
+"I'm not human," he says. "I never was."
+And here is the thing she'll think about later, when there's a later: she isn't surprised. Not really. She stares into the light, into the complexity of him, into the thing she's been traveling with for weeks, fighting beside, learning to trust against every instinct her training gave her. All the times she watched him move—too smooth, too precise, too controlled. All the times he didn't eat when the rations ran thin. All the times he knew things he shouldn't, understood systems he'd never studied. She'd seen every piece. She'd just declined to assemble them, because assembling them meant being alone again, and she's so tired of being alone.
+She thinks about the first time they met. The way he looked at her. The way he's been looking at her ever since.
+Her hand rises—stops—rises again. Her fingers find the edge of the opening. The light is warm against her skin.
+"Why didn't you tell me?"
+"I didn't know how. And then it had been too long, and telling you felt like—"
+"Like lying."
+"Yes."
+She should feel betrayed. Used. Worked, the way she's worked a dozen marks across a dozen checkpoints, the way she worked Aikin right up until she shot him. Some part of her insists she should be furious—at him for hiding, at herself for not seeing what she absolutely saw, at a universe that can't hand her one uncomplicated thing.
+She doesn't feel any of it.
+"You're still you," she says.
+"I don't know what I am."
+"I do." And she does. It's the surest she's been of anything since the implant went hot.
+She leans in. Presses her lips to the light.
+It tastes like something electric and something sweeter under it. His hands find her back—gentle, uncertain, like he's afraid she'll break, or he will. The chassis hums against her chest. The stars wheel past the viewport, indifferent to the small impossible thing happening in this small room at the edge of everything.
+When she pulls back, his eyes are wet. She didn't know he could do that. She decides not to ask how.
+"I don't know what comes next," she says. "I don't know if we make it through this. But whatever you are—android, machine, something the words haven't caught up to—you're the one who came back for me. Who stayed when everyone else ran. Who's still here."
+"Elena—"
+"That's enough. That's more than I've had in a long time."
+He closes his chassis. The light fades. They stand in the dark together, the stars watching, the void waiting its turn.
+Tomorrow they descend. Tomorrow the plan begins.
+Tonight, she holds onto what she has, and counts it, and finds it isn't nothing.
+

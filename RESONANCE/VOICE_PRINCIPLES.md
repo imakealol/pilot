@@ -73,6 +73,12 @@ Standard cannot editorialize. Her roughness comes from rendering a (possibly-syn
 
 6. **Suppress the smooth tics inside her head.** In Standard POV specifically: ration the scene-button one-liner, cut the "not X, but Y" antithesis, and never let her italics become ironic quips. Her interiority should read *earlier-drafted and rougher* than the external narration around it.
 
+**Two calibration rules (from the CH4 Track A pilot):**
+
+- **Alternate the textures; don't repeat one device.** Pervasive is the target — but *identical* pervasive is its own metronome (the Earned-by-Contrast / spike-don't-sustain logic applies inside Track A too). CH1 alternates command (1) / count (2) / cold deduction (5). Don't run two adjacent high-load beats on the same device — e.g. two endurance beats both on italic imperatives ("hold… hold…"); the second diminishes the first. Vary by the cognitive *shape* of the moment: an acute involuntary flinch is command-driven; a sustained effort runs on count + reasoning. The **A5 reasoning seam is the prized connective** — surface it to break a run of imperatives (CH4 palm-squeeze: "the flinch is the answer the scanner wouldn't give him").
+
+- **A3 (coarsening) scales with person and state.** CH1's profanity ("shut the fuck up") lives in *first-person hysteria*. In third-person, composed-under-load Standard, the same swear reads as Track B attitude, not coarsened register — there the ceiling is bodily-blunt monosyllables. Match the coarsening to POV-distance and her state.
+
 **Exemplar to re-read before any Standard pass:** CH1, entire. It does 1–6 simultaneously, without a single opinion or self-diagnosis — proof that the third register can be visceral and rough without editorializing.
 
 ---
