@@ -2,106 +2,66 @@ CHAPTER 12
 
 THE PULL
 
-The Rover dies at noon.
-Not the dramatic death of the Array—no flickering gauges, no final shudder. Just silence. One moment the engine is humming, the next it isn't. Standard feels the weight shift as the vehicle settles onto cracked asphalt.
-Elena tries the ignition. Nothing. Tries again. Nothing.
-"Fuel's gone." Her voice is sandpaper. They burned through the emergency hydrogen faster than Kellerman predicted. Eighteen percent lasted forty miles, not sixty.
-In the back, Hendricks hasn't spoken in an hour. His breathing is shallow, his lips cracked and white. The survivors from the Array are worse—the boy is unconscious, the woman's eyes have stopped tracking.
-They have no water. They burned it all to escape.
-Standard opens her door. Steps out into the heat.
-The road stretches ahead, empty and bleached. The black bars overhead drink the light, but down here, the sun still finds them. Still cooks them. The air tastes like dust and old metal.
-"What are you doing?" Elena's voice, from far away.
-Standard walks to the front of the Rover. Finds the tow hook beneath the bumper. Wraps her hands around the chain.
-"Standard. What are you—"
+The fuel dies two miles out.
+The engine just stops. No gauge ticking down, no warning light—none of the long decline of the day before. The Rover rolls a few feet on momentum and settles onto broken asphalt.
+The Array is visible behind them. A smear of solar panels on the horizon, catching the early light.
+Elena tries the ignition. Nothing. Tries again.
+“That’s it,” Kellerman says from the back. “Reservoir’s hydrogen, not fusion mix. Burns faster. Dirty fuel.”
+Elena’s hand stays on the key. Then she takes it out.
+Outside, the wasteland is flat and pale in the morning cool, the black bars overhead pulling at the light. In every direction: shapes. Concrete shells, half-fallen. Twists of steel rusted the color of the dirt. Something long and sideways at the limit of sight. None of it green. None of it moving.
+Standard opens her door.
+Hendricks takes the wheel. He can steer but not push—his legs won’t hold him in the open air for long and everyone knows it without saying so. He rolls the window down.
+Elena takes the left side. Standard takes the right, wrapping the tow hook around both hands. Kellerman falls in beside Elena. The survivors—those who can stand—spread along the back and sides, palms flat against the hull.
+The canteens are dry.
+They push.
+The morning is cool enough that it feels survivable.
+The boy is first.
+He doesn’t fall. He just slows, and his hands slide off the hull, and he stands there in the road with his arms hanging. His eyes are open. He looks like a man listening for something he can’t hear.
+Kellerman is beside him in three steps. Gets his arm over his shoulder. Opens the cargo door and puts him in the shade.
+When Kellerman comes back, he doesn’t say anything. He puts his hands back on the Rover.
+They keep pushing.
+The sun comes up properly around the third hour.
+The black bars drink the light but not the heat. The heat comes anyway, radiating off the asphalt, rising from the pale dirt on either side of the road. The wasteland holds it like a bowl.
+Nessa goes next. Then one of the other survivors—Standard doesn’t know his name. He makes it another half mile before Kellerman puts him in.
+Four pushing now. Then three.
+They push.
+Elena doesn’t say she’s stopping. She just isn’t pushing anymore.
+Standard feels it in the weight—a subtle increase, the load redistributing. She looks left. Elena is walking beside the Rover with her hands at her sides, her face down.
+“Get in,” Standard says.
+“I’m fine.”
+“You’re not pushing.”
+Elena looks at her hands like she’s surprised to find them empty. Then she gets in without arguing.
+The last survivor stops somewhere after that. Standard becomes aware of it only as weight—a little more, redistributed again.
+Two.
+Kellerman holds until midafternoon.
+He doesn’t decide to stop. Standard sees him slow, sees his hands drift lower on the hull, sees the tremor start in his arms. He keeps going after the tremor starts. He keeps going after it gets worse.
+Then he stops. Both hands braced on the Rover’s side, head down, breathing.
+“Keep east,” he says. “If there’s anything out here it’ll be east. Lower ground.”
+Standard nods.
+He opens the door and gets in.
+Red text begins scrolling at the edge of her vision—warnings in a language she doesn’t know how to read. She blinks them away. They come back. She blinks them away again.
+Her right knee catches. Locks. Releases. She adjusts her stride.
+The hum inside her is quieter than it was this morning.
+It has always been there—a low, constant thing behind her sternum. Background. The sound of something running. She only knows it’s getting quieter, the way a voice gets quieter when someone walks away.
+The warnings fill more of her vision. She can’t blink them away anymore. She moves through them.
+Her left leg stutters. She locks it straight and drags it and it carries her and she keeps moving.
+The hum is almost gone.
+There’s nothing to think. The weight is behind her and the road is ahead of her and those are the only facts that have any surface to hold.
 She pulls.
-
----
-
-The first mile is easy.
-The Rover weighs two tons, maybe more with the passengers. Standard doesn't feel it. Her body was built for this—for carrying, for dragging, for labor. The chain bites into her palms and she pulls, and the wheels turn, and the road unspools behind them.
-Elena tries to argue. Standard doesn't listen. There's nothing to discuss. They move or they die. She can move. So she moves.
-The sun beats down. The black bars pulse overhead, slow and patient. Standard pulls.
-The second mile is harder.
-Something flickers at the edge of her vision—a warning she doesn't understand. Red text in a language she can't read, scrolling across her peripheral awareness. She blinks it away. Keeps pulling.
-Her hands are bleeding. She notices this the way she might notice the color of a rock. Information without meaning. The blood makes the chain slick. She adjusts her grip. Keeps pulling.
-The third mile, her legs start to stutter.
-It's subtle at first—a hitch in her stride, a microsecond delay between intention and action. Her right knee locks, unlocks, locks again. She stumbles. Catches herself. Keeps pulling.
-The hum inside her is getting quieter.
-She's never noticed it before—the low, constant frequency that lives somewhere behind her sternum. 287.3 Hz. She doesn't know the number, just knows the feeling. It's always been there. Background noise. The sound of being alive.
-Now it's fading.
-
----
-
-Mile four. The warnings multiply.
-POWER CELL CRITICAL
-MOTOR FUNCTION DEGRADED
-SHUTDOWN RECOMMENDED
-The words scroll across her vision in red, then yellow, then red again. Standard doesn't know how to read them. Doesn't know what they mean. Just knows they're wrong.
-She's not shutting down. She can't. Elena is in the Rover. Hendricks is in the Rover. The boy who survived the Drop is in the Rover.
+Something changes underfoot.
+Her vision has narrowed to the chain and the three feet of road directly ahead. But her feet feel it. The asphalt is different. Less give, then a different give. Not the packed dryness she’s been moving on for hours.
 She keeps pulling.
-Her vision narrows. Colors washing out at the edges, the world becoming a tunnel of gray and white. The chain in her hands. The road beneath her feet. The weight behind her.
-That's all there is. That's all that matters.
-Mile five. Her power cells die.
-She knows this because something inside her goes dark—a warmth she didn't know she had, extinguished. The warnings stop scrolling. The red text vanishes. Everything vanishes except the chain and the road and the weight.
-A normal android would stop now. Would fold like a puppet with cut strings, systems offline, body inert.
-Standard doesn't stop.
-She doesn't know how to stop.
-
----
-
-Mile six. Mile seven.
-The world is very far away now. Standard can hear Elena's voice—calling her name, maybe, or screaming it—but the sound doesn't connect to meaning. Just noise. Just vibration.
-Her legs move because they've always moved. Her hands grip because they've always gripped. She is a thing that pulls, and so she pulls.
-The hum is almost gone. A whisper now, where it used to be a song. She can feel herself getting... less. Smaller. The edges of her awareness dissolving like salt in water.
-This should frighten her. It doesn't. It feels like the crate. The darkness before she opened her eyes. The quiet that was home before she had a name.
-She didn't want to leave that place either.
-But Elena is in the Rover.
-So she pulls.
-
----
-
-Mile eight. The road changes.
-Standard doesn't notice at first. Her vision has collapsed to a single point—the chain, her hands, the cracked asphalt directly beneath her feet. But something is different. The air is different. Cooler. Wetter.
-The ground softens. The dead brown scrub gives way to something else. Something green.
-She pulls.
-Mile nine. There are trees.
-Real trees. Not the skeletal husks of the wasteland, but living things with leaves that move in a breeze she can barely feel. The black bars overhead seem thinner here, or maybe that's just her vision failing further.
-She pulls.
-Mile ten. She hears water.
-It's faint—a sound beneath the silence, beneath the scrape of the Rover's tires, beneath the ragged whisper of her own breathing. Running water. Moving water.
-The hum inside her flickers. Almost gone, but not quite. Holding on.
-She pulls.
-
----
-
-The bridge appears like a dream.
-Old concrete, cracked but standing. A guardrail rusted to lace. And beneath it—
-A brook. Clear and cold and alive, threading through rocks and fallen logs, catching fragments of light that filter through the canopy.
-Standard stops at the edge of the bridge. Her hands are still wrapped around the chain. Her legs are still locked in position. But she's stopped.
-She's done.
+The scrub at the roadside changes. She doesn’t notice. Different dead things than before. Things that dried slower.
+The ground darkens.
+A shade. Then another. The road surface changes color under her feet—pale gray to something with more brown in it, then darker, then darker again.
+Her feet leave prints.
+The ground goes soft.
+Her right foot sinks an inch. Her left. She keeps moving.
+Darker. Wetter. The ground pulling at her feet now.
+She stops.
+Something ahead. The ground becomes something else—a surface that reflects. Low and still, the color of old pewter.
+She goes down.
+A cessation. Her knees find mud. Her hands, still curled around the shape of the chain, press into the soft ground. Her cheek presses into it too.
 The hum goes silent.
-
----
-
-Elena finds her on her knees.
-The chain is still in her hands—she hasn't let go, hasn't figured out how to let go. Her head is bowed. Her body is still.
-"Standard." Elena's voice is cracked, desperate. She half-falls out of the Rover, stumbles toward the figure on the bridge. "Standard, we made it. There's water. Standard—"
-She touches Standard's shoulder.
-No response.
-"Standard?"
-Elena circles around, drops to her knees in front of her. Standard's eyes are open, but they're not seeing anything. Not tracking. Not blinking.
-"No. No, no, no—"
-Elena presses her fingers to Standard's throat. Searches for a pulse.
-Nothing.
-She grabs Standard's wrist. Holds it. Counts.
-Nothing.
-She puts her ear to Standard's chest, the way she's seen in old movies, the way people used to check before the scanners did it for them. Listens for a heartbeat, a hum, a whisper of machinery.
-Nothing.
-Standard's skin is cool. Her body is still. Her eyes stare at something Elena can't see.
-"You fucking—" Elena's voice breaks. "You stupid, stubborn—you can't just—"
-Behind her, Hendricks is pulling himself out of the Rover. The survivors are stirring, drawn by the sound of water. Someone is crying. Someone is laughing.
-Elena doesn't hear any of it.
-She's holding a dead woman's hands, still wrapped around a chain, on a bridge over the first clean water they've seen in a hundred miles.
-The brook keeps running.
-The trees keep swaying.
-And Standard doesn't move.
+The water is at her fingertips.
+She doesn’t know.

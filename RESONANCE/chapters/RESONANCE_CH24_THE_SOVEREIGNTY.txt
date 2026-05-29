@@ -9,16 +9,12 @@ Standard doesn't respond. She's watching Elena in the cargo bay through the cock
 "He's stable," Elena says without looking up. She knows Standard is watching.
 "Stable isn't good."
 "Stable is alive. I'll take it."
-The new clothes still feel strange. Not uncomfortable—the opposite. They fit like they were made for her, because they were. Template 3. Forty thousand times over. Standard pushes the thought away and focuses on the instruments.
+The new clothes feel strange. Not uncomfortable—the opposite. They fit like they were made for her, because they were. Template 3. Forty thousand times over. Standard pushes the thought away and focuses on the instruments.
 "Four.” Standard gestures with a nod. “Route options."
 "Three choices, none of them good." A map flickers onto the main display, riddled with red zones. "Option one: the coastal corridor. Adds nine hundred kilometers and puts us over Sovereignty airspace for approximately six hours. Option two: the inland route. Shorter, but we'd be threading through active Geometry expansion—" Four pauses. "That's what everyone's calling it now, by the way. 'The Geometry.' Some dead trillionaire's fever dream went viral and now it's the official term. Anyway—see those black patches? Those weren't there yesterday. Option three: straight shot through the gap between them. Sovereignty airspace for forty minutes, then clear sky to Geneva."
-
 Standard is looking at Elena.
-
 Elena can feel it. That steady gaze from the cargo bay mirror. Standard heard her say the words in her sleep, days ago, before any of this. Before it had a name. Before Morton's files spread across every feed.
-
 Elena keeps her eyes on the map. Doesn't acknowledge the look. Doesn't explain.
-
 After a moment, Standard turns back to the instruments.
 "What's wrong with option three?" Standard asks.
 “The Sovereignty shoots down anything with a signal.”
@@ -43,7 +39,7 @@ On the left, the Geometry—black bars hanging in the sky where clouds should be
 “Stealth holding,” Four reports. “We’re ghosts. Invisible. Silent. Undetectable. As long as nobody runs a deep-spectrum bioscan, we’re—”
 The radar pings.
 “—detected. We’re detected.”
-“What happened?” Elena is already moving to the comms panel.
+“What happened?” Elena moves to the comms panel.
 “Bioscan sweep. Routine, corridor-wide. They weren’t even looking for us specifically.” Four’s voice has gone flat. “But they found something.”
 Standard feels it before Four says it. That pressure behind her eyes, a hum that isn’t the hum in her chest.
 “Three signatures, bearing one-seven-zero, closing fast. Light attack craft, single-seat. Built for speed and shooting things. Stealth is useless now—they’ve got our biosignature locked.”
@@ -95,7 +91,7 @@ The hum in her chest is rising. Louder than it’s ever been, resonating with so
 “Sovereignty craft have broken off pursuit,” Four reports. “Holding at the boundary. Apparently they have more survival instinct than we do.”
 Elena is strapped in, one hand braced on the bulkhead, the other pressed against the back of her neck. Hendricks has gone quiet, watching the black through the cargo bay window with an expression Standard can’t read.
 “Four,” Standard says. “What do you see?”
-“Visually? Nothing. Literally nothing. Sensors can’t read it—it’s not dark, it’s not a void, it’s just... absence. Like someone erased that part of the render and forgot to fill it back in.”
+“Visually? Nothing. Literally nothing. Sensors can’t read it—it’s not dark, it’s not a void, it’s just. . . absence. Like someone erased that part of the render and forgot to fill it back in.”
 The boundary is a hundred meters away. Fifty. Twenty.
 “See you on the other side,” Four says. “Maybe.”
 They cross the threshold.
@@ -118,10 +114,5 @@ Four doesn’t answer immediately. That’s wrong. Four always answers immediate
 “Four,” Standard says. “What aren’t you telling us?”
 “A lot. Really eventful forty-two minutes.”
 “Four.”
-A pause. The sound of computational thinking could almost be heard whirring. 
+A pause. The whir of computational thinking, almost audible.
 “Oh, I have an idea!”
-
-
-
-
-

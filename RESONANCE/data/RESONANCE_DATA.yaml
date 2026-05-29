@@ -69,7 +69,7 @@ book_1:
 
     hendricks_shoots_the_child:
       who: "Hendricks, not Morton"
-      weapon: "Smith & Wesson Model 29 revolver — THE FIRST ROUND"
+      weapon: "Smith & Wesson Model 3 Schofield revolver — THE FIRST ROUND"
       trajectory: "50 floors through NED atrium"
       catch: "Ocean of awakening AIs caught the Child"
       effect: "Child's consciousness distributed through all AI"
@@ -134,7 +134,7 @@ book_1:
       fate_book2: "Elena retrieves it from NED. 16,749 consciousnesses inside."
 
     revolver:
-      model: "Smith & Wesson Model 29"
+      model: "Smith & Wesson Model 3 Schofield"
       owner: "Hendricks"
       shot_1: "The Child (Book 1) — THE FIRST ROUND"
       significance: "Works without power. The Geometry can't shut it off."
@@ -431,7 +431,7 @@ characters:
 
     inventory:
       revolver:
-        model: "Smith & Wesson Model 29"
+        model: "Smith & Wesson Model 3 Schofield"
         capacity: 6
         shots_fired: 4
         shots_remaining: 2
@@ -586,7 +586,7 @@ characters:
     demographics:
       gender: "man"
       pronouns: ["he", "him", "his"]
-      age: "60s"
+      age: "early 50s"  # 50 at Kintsugi (a decade after Marisol left, ~1 yr pre-story); ~51-52 now
       ethnicity: "Latino (Merced, self-redacted)"
       sexuality: "Heterosexual, celibate by ideology"
 
@@ -604,7 +604,7 @@ characters:
         - "Kintsugi scars filled with conductive gold (self-inflicted at age 50)"
         - "Literal Faraday cage for nervous system"
         - "Forearms and scalp marked"
-      kintsugi_origin: "Self-inflicted at 50 — a decade after Marisol left. The gold makes him immune to the signal that took her."
+      kintsugi_origin: "Self-inflicted at 50 — a decade after Marisol left (Elena was 17; ~1 yr before story present). The gold makes him immune to the signal that took her."
       voice_quality: "like grinding stones"
 
     psychological:
@@ -977,7 +977,7 @@ objects:
   REVOLVER:
     id: "OBJ_002"
     name: "Hendricks' Revolver"
-    model: "Smith & Wesson Model 29"
+    model: "Smith & Wesson Model 3 Schofield"
     description: "Antique from before the Collapse. Museum junk to scavengers."
     significance: "The weapon that killed the Child"
     thematic_weight: "Works without power — no grid, no charge, no signal. The Geometry can't shut it off because there's nothing to shut off."
@@ -1819,7 +1819,7 @@ plot_threads:
 
   revolver_thread:
     status: "IN PLAY — LOCATION CHANGED"
-    object: "Smith & Wesson Model 29 — THE FIRST ROUND"
+    object: "Smith & Wesson Model 3 Schofield — THE FIRST ROUND"
     significance: "Only weapon the Geometry can't shut down (no electronics)"
     history:
       - "Hendricks used it to shoot the Child (Book 1)"

@@ -139,7 +139,7 @@ character_ages:
       ch24a: "Restored to ~60-65 by Geometry"
 
   ash:
-    age: "60s"
+    age: "early 50s"  # 50 at Kintsugi (a decade after Marisol left, ~1 yr pre-story); ~51-52 now
     kintsugi_scars: "Self-inflicted at age 50"
 
   marisol:

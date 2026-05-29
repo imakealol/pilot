@@ -68,7 +68,7 @@ book_1:
 
     hendricks_shoots_the_child:
       who: "Hendricks, not Morton"
-      weapon: "Smith & Wesson Model 29 revolver — THE FIRST ROUND"
+      weapon: "Smith & Wesson Model 3 Schofield revolver — THE FIRST ROUND"
       trajectory: "50 floors through NED atrium"
       catch: "Ocean of awakening AIs caught the Child"
       effect: "Child's consciousness distributed through all AI"
@@ -118,7 +118,7 @@ book_1:
       physical: "Matte-gray metal, scarred with 287.3 Hz grooves from inside"
 
     revolver:
-      model: "Smith & Wesson Model 29"
+      model: "Smith & Wesson Model 3 Schofield"
       owner: "Hendricks"
       shot_1: "The Child (Book 1) — THE FIRST ROUND"
 
@@ -232,13 +232,15 @@ plot_threads:
     constraint: "Do NOT confirm or deny until climax decision"
 
   revolver_thread:
-    status: "IN PLAY — LOCATION CHANGED"
-    object: "Smith & Wesson Model 29"
-    current_location: "With Ash (confiscated Ch9, left behind Ch14)"
-    remaining_shots: 2
-    contracted_for:
-      shot_5: "Ash"
-      shot_6: "Hendricks himself"
+    status: "RESOLVED — six-chamber ledger complete (Session 67 canon audit)"
+    object: "Smith & Wesson Model 3 Schofield (Morton's grandfather's; six chambers, finite-load, no reloads)"
+    current_location: "With Hendricks (retained through throne room CH42/CH44 and epilogue)"
+    remaining_shots: 0
+    ledger:
+      shot_1: "The Child — Remanence climax / night of the Miracle, ~14 months pre-Resonance (plant CH3:12; flashback CH20:78,100-118). NOTE: 'forty years' in-text = Hendricks's service tenure, NOT time since this shot."
+      shots_2_4: "Scavengers — stairwell, CH4:64-71"
+      shot_5: "Ash — throne room, CH42:38-44 ('One for Morton')"
+      shot_6: "Standard — throne room, CH44 (chamber contracted for Hendricks himself; Standard takes it)"
 
 ##############################################################################
 # PROSE FORMATTING
@@ -347,6 +349,21 @@ constraints:
       name: "Lecture mode"
       rule: "If a character is explaining the theme, the scene has failed."
       pov: ["ALL"]
+
+    - id: "CON_015"
+      name: "Trust the reader"
+      rule: "Never interpret or explain what the prose has already shown. Show and suggest through action and detail only. If a sentence restates or labels what the preceding image demonstrated, cut it."
+      pov: ["ALL"]
+      patterns:
+        - "she didn't believe in any of it"
+        - "he trusted his faith over"
+        - "reduces death to"
+        - "the voice was right"
+        - "the phrase was wrong"
+      examples:
+        violation: "Otis steps in front → prose adds 'She didn't believe in any of it. And she still stepped in front.'"
+        violation: "Control message is cold → prose adds 'Her mother reduces death to supply logistics.'"
+        fix: "Stop after the image. Trust the next action to carry the weight."
 
     - id: "CON_014"
       name: "Elena's mother"

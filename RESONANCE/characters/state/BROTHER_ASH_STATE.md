@@ -106,7 +106,7 @@
 ## KEY OBJECTS IN POSSESSION
 
 **Hendricks' Revolver:** Confiscated in Ch 9
-- Smith & Wesson Model 29, antique
+- Smith & Wesson Model 3 Schofield, antique
 - 2 rounds remaining
 - The weapon that killed the Child
 

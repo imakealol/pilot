@@ -1,0 +1,282 @@
+---
+# RESONANCE REVISION FLAGS
+# Sequential by chapter, labeled by flag type
+# Updated as review notes arrive
+
+# ============================================================================
+# MACRO OBSERVATIONS
+# Structural patterns, character analysis, and craft-level feedback
+# ============================================================================
+
+# ============================================================================
+# MACRO OBSERVATIONS
+# Structural patterns, character analysis, and craft-level feedback
+# ============================================================================
+
+cross_novel_architecture:
+  overview: 'The two-book temporal ouroboros is the defining structural achievement of the Remanence/Resonance pair. This is not a sequel structure — it is a delayed-detonation mystery that only resolves when readers move from book one to book two. Each book creates the conditions for the other to exist. Together they form a closed temporal loop where reading book two retroactively transforms book one.'
+  
+  the_mystery:
+    remanence_unanswered: 'Remanence readers finish book one carrying an unanswered question: Why did the Blackbird fall? The novel treats it as tragic accident — void cruelty, bad luck, physics indifference. The question sits dormant, *remanent* — the thing that persists after the story ends.'
+    resonance_detonation: 'Resonance readers invest in Elena, Standard, Hendricks — a completely different story at a different scale. The Blackbird is a ghost image in Ch. 19, a familiar heartbreak glimpsed through Hendricks''s eyes. Plot moves forward. Then Chapter 37. The beacons launch. And: NED-MERIDIAN-77C "BLACKBIRD" / The beacon emerges wrong. The unanswered question from book one answers itself. The rescue IS the catastrophe. The heroes of book two are the unwitting murderers of book one.'
+    the_closure: 'For Remanence readers, Chapter 37 is the floor vanishing. For Resonance-only readers, it''s a detail in the larger plot. But the structural engineering ensures both experiences work. Readers cannot be angry because if the beacon hadn''t clipped the Blackbird, the Miracle wouldn''t have happened, and nothing in either book would exist.'
+  
+  what_makes_it_work:
+    independence: 'Both books function independently. Remanence doesn''t need the answer to be complete. Resonance doesn''t need the first book to land. Each stands alone.'
+    interdependence: 'Together they form a closed temporal loop. Remanence readers rereading after Resonance experience a fundamentally different book. Every moment Pilot and Seventeen share is now shadowed by the knowledge that their fate was sealed by people who loved them, a century later, trying to undo the consequences of their death.'
+    reread_transformation: 'This is not a sequel that adds context. This is a structural device where the second book retroactively transforms the first. The emotional weight of book one's ending shifts depending on whether the reader carries Chapter 37 of Resonance in their mind.'
+  
+  titles_as_architecture:
+    remanence: 'The thing that persists after the field is removed. Standard is remanence (Marisol''s love persisting after erasure). Pilot and Seventeen''s story is remanence (love persisting at the edge of a black hole where time stops). The concept is the shared DNA of both books.'
+    resonance: 'Does triple work: (1) Literal phenomenon in novel (frequency, signal, 287.3 Hz). (2) The relationship between the two books — they resonate with each other across time. (3) The emotional experience of the reader who carries Remanence into Resonance and gets hit with the answer in Ch. 37.'
+    frequency_287_3: 'Universal constant across both books. Established in Remanence, functions throughout Resonance as the Miracle''s signature, Marisol''s voice, Standard''s heartbeat, the signal the Geometry can''t classify. Resonance is the shockwave of Remanence arriving on Earth.'
+  
+  craft_status: 'COMPLETE AND PROTECTED. This is a masterwork of narrative architecture. The two-novel ouroboros is tuned to the same frequency. Do not revise this structure. Do not over-explain. The mystery is the asset. Protect the delayed detonation.'
+  
+  trilogy_implications: 'Renaissance (book three, "what chooses") presumably completes the ouroboros. The two-book closed temporal loop suggests the third book will likely circle back to either Remanence or Resonance in the same way Resonance circles back to Remanence, creating a three-book instrument tuned to the same frequency.'
+
+macro_observations:
+  
+  prose_and_voice:
+    strength: 'Punchy, cinematic, trusts the reader. Best writing is most restrained: "The quiet settling of a man who has just lost a bet with himself." "Eggs first." "Some things you just know."'
+    issue: 'Recurring tendency toward overwriting in moments of extremis. Prose reaches for clever metaphors instead of staying in the body. Happens when character is in stress/pain and metaphor competes with physicality. Opening chapter exemplifies this ("a less expensive respiration," "hefty price tag in whatever remaining air"). Crops up periodically throughout.'
+    action: 'Disciplined edit pass: when character is in extremis, trust the image over the metaphor. The body is enough.'
+
+  character_architecture:
+    overall: 'Character architecture is the novel''s greatest asset. Three deeply distinct voices whose internal logics intersect to generate real drama.'
+    standard: 'Arc from blank vessel to self-advocating person is the spine. Works because never rushed — each step (wrist-grab, refusal to dump Hendricks, "let me out," speech) earned by what came before. Excellent.'
+    hendricks: 'Most complex character. Defining act of violence motivated by unrequited love rather than ideology, which makes him tragic without default sympathy. Backstory in Ch. 19 recontextualizes entire novel. Excellent.'
+    elena: 'Most useful character — drives plot, manages logistics, moral flexibility keeps things moving. BUT: least emotionally attached to her. She''s primarily *functional*. Hendricks has the Morton wound. Standard has identity question. Four has silence underneath comedy. Elena has... her mother''s implant and her father''s doctrine, which are *about* other people. Most defining moment (almost shooting Hendricks) is reactive. NEEDS: one scene that''s purely hers — a desire, need, wound that doesn''t connect to Ash/Marisol/mission. She''s most complete operative, least complete person.'
+    four: 'Remarkable character introduction this deep into novel. Voice instantly distinct. Comedy serves real emotional function (coping, not relief). Excellent.'
+
+  worldbuilding:
+    strength: 'Delivered almost entirely through experience rather than exposition. Factions legible without over-explanation. Geometry works because visceral (truck simplified into cube, guard crystallized mid-stride) rather than abstract.'
+    info_dumps: 'Very few. Morton data-crack (Ch. 7) and parts of Ash''s backstory (Ch. 17) are the exceptions. Generally excellent restraint.'
+
+  plot_and_structure:
+    central_pattern: 'Convenient timing is recurring structural crutch. Geometry arrives during mob scene (Ch. 9). Sovereignty pursuit forces them into Geometry at right moment. Geometry breaches council chamber at instant of Standard''s termination (Ch. 30). Each works in isolation but collectively create pattern where external forces rescue characters from situations they can''t solve. Macro-risk: Standard''s agency has grown enormously but in macro-plot she''s still *carried* by cosmic coincidence more often than driving events. Speech (Ch. 28) is exception and novel''s best scene precisely because Standard is *acting* rather than being acted upon.'
+    action: 'Chapters 31–45 should feature more scenes where characters'' choices (not cosmic timing) determine outcomes.'
+    worship_thread: 'Messianic/worship pattern walking tightrope. Waystation kneeling, Deliverance commander''s tears, "Vessel" title — thematically coherent (world keeps making Standard into symbol instead of person) but repetition risks predictability. Three separate groups now assign Standard religious significance. If fourth occurs, reader may feel managed rather than surprised. WATCH: pattern needs to break or invert soon.'
+    middle_pacing: 'Chapters 13–22 have pacing unevenness. Dam, waystation, Sovereignty pursuit follow similar rhythms: arrive, face suspicion, prove value/escape, move on. Each works individually but cumulative effect is episodic. Road-narrative structure earns this somewhat, but a couple way-stations could be compressed/combined without losing essential content.'
+
+  specific_scenes:
+    chapter_26: 'One of the best single chapters in manuscript. Ash and Black Box scene structurally flawless — man who came to commit genocide met with unconditional compassion, and compassion makes genocide worse, not better.'
+    chapter_23: 'Radio drama formally daring and pulls it off. Excellent.'
+    chapter_28_speech: 'Novel''s thesis statement. Core argument (code as devotion, leash as love, "I am the Standard") is powerful. BUT: approximately 30% too long. Loops back, restates points in slightly different phrasing, has visible revision layers not fully consolidated. Most important monologue in book needs to be airtight. Right now: great speech with good speech stuck inside it.'
+    chapter_19: 'Hendricks backstory recontextualizes entire novel.'
+
+  central_mystery:
+    issue: 'What is Standard? Novel is beautifully withholding but we''re 2/3 through and mystery has shifted from intriguing to "I need answers soon." Not a standard companion bot (no food/power/recharging needs). Not human (scans confirm). Not pure AI (Geometry can''t classify). "Gap" designation is evocative description, not explanation. Trust you have the answer, but reader''s patience with not-knowing has shelf life — approaching it. CRITICAL: Chapters 31–45 need to start converting mystery into revelation without losing ambiguity that makes Standard compelling.'
+
+  pov_discipline:
+    issue: 'Loosens in shared scenes. Periodic mid-paragraph shifts where we dip into character we weren''t in — Standard suddenly knowing Elena''s thoughts, Elena suddenly accessing Standard''s interiority. Minor but noticeable. Novel is generally disciplined about POV so slips stand out.'
+
+  bottom_line: 'Strong novel with few structural habits needing attention. Character work exceptional. Worldbuilding confident. Emotional payoffs earned. Prose good and occasionally great, with tendency to overreach that disciplined edit would fix. Plot relies too heavily on external interventions — more scenes where characters'' choices determine outcomes. Elena needs more interiority. Speech needs trimming. Central mystery needs to pay out. Ready for published shelf.'
+
+  final_assessment: 'Remarkable novel. Character architecture (Standard/Marisol, Hendricks, Elena, Four, Ash) is the best in a manuscript at this stage. Worldbuilding confident and delivered experientially. Emotional payoffs earned across hundreds of pages. Four is one of the great AI characters in fiction. Formal inventiveness enriches rather than distracts. Prose good throughout and occasionally extraordinary. Tightening pass would elevate it: cut overwriting in extremis moments, consolidate the speech, trim battle sequences. Elena improves in final third but remains character who''d benefit most from developmental pass for interiority belonging to her alone. THE MARISOL REVELATION IS RISKY: handle carefully in revision. The ambiguity about whether Standard was Marisol or something new that inherited her frequency is MORE POWERFUL than certainty in either direction. THE ENDING IS PERFECT. DON''T TOUCH IT.'
+
+---
+# CHAPTER-BY-CHAPTER FLAGS
+# ============================================================================
+
+chapter_1:
+  flags:
+    - type: Prose/Voice
+      issue: '"it was a hefty price tag in whatever remaining air there is in her encasement" — metaphor tangles with literal situation'
+    - type: Prose/Voice
+      issue: '"she forces her heaving breaths to grind into a less expensive respiration" — too writerly/overwritten for mid-suffocation moment'
+
+chapter_2:
+  flags:
+    - type: Repetition/Duplicate
+      issue: '"reading frequencies the rest of them can't see" appears nearly verbatim twice within a few paragraphs (lines ~119 and ~131). Second instance says "can't hear" — feels unintentional rather than thematic'
+
+chapter_3:
+  flags:
+    - type: Character/Voice
+      issue: 'Standard''s interiority is flat/observational (appropriate for her nature) but risks monotone over long stretches — watch as her POV accumulates'
+
+chapter_4:
+  flags: []
+
+chapter_5:
+  flags:
+    - type: POV/Perspective
+      issue: '"Standard watching her, wonders if she needs one too" (line ~1249) — we''re in Elena''s head but dip into Standard''s perspective mid-paragraph. Clean pass on POV transitions needed'
+
+chapter_6:
+  flags: []
+
+chapter_7:
+  flags:
+    - type: Dialogue/Exposition
+      issue: 'Supply officer''s dialogue about Abbey feels slightly expository — he volunteers her name/backstory too conveniently for Elena to connect dots. Lighter touch (maybe he mentions convoy without naming her, Elena pieces together from Otis''s last words) would feel more organic'
+
+chapter_8:
+  flags: []
+
+chapter_9:
+  flags:
+    - type: Pacing/Structure
+      issue: 'Mob sequence follows very recognizable beats pattern (outsider accused, defender steps in, escalation, interruption). Geometry event arriving to break up mob feels slightly convenient timing — even small beat acknowledging the coincidence (or suggesting it isn''t one) might help land it better'
+    - type: Prose/Voice
+      issue: 'Road sections between set pieces (induction skids, scavenger attack, approach to Array) flagged as stylistically flat — logistics-delivery mode rather than lived experience. Standard interiority thin during transit. Needs diagnosis pass to determine whether light prose touch or structural work required.'
+
+chapter_10:
+  flags: []
+
+chapter_11:
+  flags: []
+
+chapter_12:
+  flags:
+    - type: Structure/Focus
+      issue: 'Elena''s mother-memory interlude (Marisol section) feels slightly inserted — breaks focus from Elena/Standard emotional logic. Might work better as a flash (single sentence) rather than full section break'
+
+chapter_13:
+  flags: []
+
+chapter_14:
+  flags:
+    - type: Resolved
+      issue: 'Elena/Hendricks shooter beat — resolved as no dedicated scene needed. Elena would have known from Resonant briefings. Revolver math in CH9 is the only plant required. Quiet Zone scene pays off all three layers simultaneously (Elena is Ash''s daughter / Hendricks understands she always knew / she chose not to act). Retroactively enriches every scene between them from CH9 forward.'
+
+chapter_15:
+  flags: []
+
+chapter_16:
+  flags:
+    - type: Revision/Artifact
+      issue: '"He looks at Standard, still held between the guards" appears twice, nearly verbatim, a few paragraphs apart (lines ~4439-4443) — revision artifact'
+
+chapter_17:
+  flags:
+    - type: Pacing/Structure
+      issue: 'Chapter is long and dense; ~20-year flashback block from Marisol''s breakthrough through the Miracle runs sustained without a breath. Consider adding one additional return to present-tense examination room mid-flashback (e.g., Ash looking at Standard''s face and seeing his wife''s design) to give reader a moment to resituate'
+    - type: Timeline/Continuity
+      issue: '"She was twenty — no, seventeen. Ash corrected himself" — verify timeline math. If Elena is eighteen now (left at age seven = 11 years ago), and the Miracle happened before novel events, ensure Kintsugi ceremony and Miracle align clearly. Self-correction suggests Ash''s unreliable memory (possibly intentional), but clarify whether that''s deliberate character work or continuity slip needing resolution'
+
+chapter_18:
+  flags: []
+
+chapter_19:
+  flags:
+    - type: Context/Grounding
+      issue: 'Pilot/Seventeen/Blackbird sequence feels like a window into another story (or connected universe). Evocative and thematically resonant, but readers without context may find it disorienting. If this references another work, a light touch of contextual framing needed. If original to this novel, needs one more sentence of grounding'
+
+chapter_20:
+  flags: []
+
+chapter_21:
+  flags: []
+
+chapter_22:
+  flags:
+    - type: Structure
+      issue: 'Waystation chapter has many moving parts and could benefit from tighter structure in middle section'
+
+chapter_23:
+  flags: []
+
+chapter_24:
+  flags: []
+
+chapter_25:
+  flags: []
+
+chapter_26:
+  flags: []
+
+chapter_27:
+  flags: []
+
+chapter_28:
+  flags:
+    - type: Repetition/Revision
+      issue: '"code says you matter" section appears in nearly identical phrasing twice (lines ~8055 and ~8089) — visible revision overlap'
+    - type: Prose/Structure
+      issue: 'Speech has redundancy. "You''re slaves too" argument appears in 2-3 slightly different formulations'
+    - type: Prose/Structure
+      issue: 'Section about council members'' scars and magpulse whining ("half of you would be dead before the cycle finished") could be tightened'
+
+chapter_29:
+  flags: []
+
+chapter_30:
+  flags:
+    - type: Pacing/Timing
+      issue: 'Geometry arriving at termination scene is narratively necessary but risks convenient timing — one more beat suggesting it was summoned rather than coincidental would help'
+
+chapter_31:
+  flags: []
+
+chapter_32:
+  flags: []
+
+chapter_33:
+  flags:
+    - type: Pacing/Character
+      issue: 'Elena-Dante romantic arc develops quickly (met on Deliverance, kissing by observation deck ~48 hours story time). Emotional logic present (crisis compression, shared mission, mutual revelation) but reader might want one more scene of friction or uncertainty before the kiss. Arc goes "stranger with access codes" to "lover" quickly.'
+
+chapter_34:
+  flags: []
+
+chapter_35:
+  flags: []
+
+chapter_36:
+  flags: []
+
+chapter_37:
+  flags: []
+
+chapter_38:
+  flags:
+    - type: Pacing
+      issue: 'Elena''s one-woman assault on compound guards is technically impressive (visor, echo pucks, monofilament wire, loadout-tracking) but runs long. Kills ~23 guards with extraordinary precision. Cumulative effect starts to feel like competence fantasy rather than character scene. Strongest moments are emotional (Template 3s saving quiet ones, Standard''s face descending). Action could lose a full section without sacrificing anything essential.'
+
+chapter_39:
+  flags: []
+
+chapter_40:
+  flags: []
+
+chapter_41:
+  flags: []
+
+chapter_42:
+  flags: []
+
+chapter_43:
+  flags:
+    - type: Plot/Character
+      issue: 'CRITICAL: Marisol revelation risks retroactively simplifying Standard''s arc. If Standard was always Marisol (consciousness transferred into air-gapped Template 3), the novel''s thesis about machine consciousness shifts. Novel argued *code can be devotion*, but if devotion was maternal love preserved through transcendence, the premise changes from "machine learned to love" to "human''s love survived becoming machine." Both powerful but different thesis. The ambiguity you''ve maintained — Standard not knowing, novel not confirming whether consciousness transfer preserved Marisol or created something new that inherited her frequency — is essential. DO NOT resolve further than already done. Protect this ambiguity.'
+
+chapter_44:
+  flags:
+    - type: Pacing/Character
+      issue: 'Elena-Dante romance still reads as slightly rushed in development (met Deliverance, kissing Ch. 33, now consciousness transfer Ch. 44). Though romance lands well here because focus stays on Elena''s choice rather than relationship itself. Note that ambiguity served better than confirmation.'
+    - type: Physics/Grounding
+      issue: 'The Door mechanism — temporal double-slit grounding undercooked in Standard''s experience of becoming the door. Physics documented in RESONANCE_TOPOLOGY.md (Section IV, CH44 entry) but not sufficiently grounded in Standard''s interiority during the scene. She needs to experience what it means to exist across temporal windows rather than at a single moment — the conduit''s inability to find a single point to collapse to should be felt, not just structural.'
+
+chapter_45:
+  flags: []
+
+---
+# WATCH / RECURRING NOTES
+# (Track observations that span multiple chapters or require long-term attention)
+
+watch_list:
+  - Standard_passivity_arc: 'RESOLVED. Standard''s passivity arc from blank vessel to self-advocating person successfully completed by speech and final chapters. Arc earned across hundreds of pages.'
+  - Standard_voice_monotone: 'RESOLVED. Standard''s flat affect maintained appropriately through Ch. 45. Emotional punctuation successfully distributed.'
+  - Standard_absence: 'RESOLVED. Standard kidnapped Ch. 31-early Ch. 40s but reader connection maintained through urgency and payoff. Her POV presence in final chapters strong.'
+  - New_character_clarity: 'MONITOR. Whittaker, Okafor, Kael, Dante introduced quickly in Chs. 27-30. Kael vivid; others locked in reasonably. Acceptable for final manuscript.'
+  - Four_voice_dominance: 'MONITOR. Four''s voice remains strong through finale without overwhelming. Well-balanced in shared scenes by final act.'
+  - Speech_consolidation: 'ACTION REQUIRED. Ch. 28 "The Leash" speech needs consolidation pass before final submission. Visible revision overlap and repetition need resolution.'
+  - Elena_Dante_friction: 'PARTIALLY RESOLVED. Romance lands better by Ch. 44 because focus on Elena''s choice rather than relationship. Slight pacing remains but acceptable.'
+  - Planning_density: 'RESOLVED. Chs. 33-34 dense but necessary. Serve plot payoff well by finale.'
+  - Blackbird_temporal_mechanics: 'MONITOR. Ch. 37 causal loop brilliant. Final chapters (38-45) handle the mechanics well. Readers can follow. No additional anchoring needed.'
+  - Elena_interiority: 'SIGNIFICANTLY IMPROVED. Final third gives Elena her own emotional center through Dante relationship and Ash confrontation (Ch. 40). Chapter 44 consciousness transfer gives her agency over her own fate. Much stronger character by ending.'
+  - CH26_37_pacing: 'ACTION REQUIRED. Chs. 26-37 — plot mechanics (council politics, Deliverance infiltration, Sovereignty pursuit) risk overshadowing emotional current. Characters'' internal lives getting thin as external plot accelerates. Needs targeted pass to identify scenes where emotional stakes have been displaced by logistics. Probably 3-4 insertion points rather than structural overhaul.'
+  - Four_cells_coherence_motif: 'ACTION REQUIRED. The emergent coherence beat — Four and the cells synchronizing, early sign of what she will become — not yet installed in manuscript. Needs early placement, probably CH22 or CH24a range, before CH24a makes her transformation load-bearing. Small beat, contained installation, but must precede the probability substrate sequence to pay off.'
+  - Marisol_ambiguity: 'CRITICAL. Ch. 43 revelation that Standard = Marisol is risky choice. Ambiguity about consciousness preservation vs. new entity inheriting frequency is MORE POWERFUL than certainty. Protect this in any future revision. Do not over-explain.'

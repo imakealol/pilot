@@ -13,10 +13,10 @@ Silence.
 "We can't." Okonkwo pulls up a trajectory arc. "At point-nine-seven c, radio can't catch them. Nothing can. They're outrunning every signal we send."
 "Then we're done." Elena crosses her arms. "Our entire plan depends on ships we can't reach."
 "There has to be something," Dante says, staring at the display. "Some way to—"
-"Can't reach someone who's already gone."
+"Can't reach someone who's gone."
 Everyone turns. Hendricks has stopped pacing. He's not looking at the display. He's looking at his empty hand where the revolver should be.
 "What?" Elena asks.
-"Nothing." He starts pacing again. "Just—can't go back. Can't undo it. They're already out there, already past the point where anything we do matters."
+"Nothing." He starts pacing again. "Just—can't go back. Can't undo it. They're out there, past the point where anything we do matters."
 Dante goes still.
 "Say that again."
 Hendricks frowns. "What?"
@@ -24,7 +24,7 @@ Hendricks frowns. "What?"
 Okonkwo's eyes widen. "The exit point. If we control where the fold opens—"
 "We don't send the message to where they are now. We send it to where they _were_."
 Elena holds up a hand. "Stop. In English. What does that mean?"
-"Time dilation," Okonkwo says, already pulling up new calculations. "At point-nine-seven c, the ships experience time differently than we do. Six months for them is seven years for us. They left before all this started. They're still coasting toward colony worlds, completely unaware."
+"Time dilation," Okonkwo says, pulling up new calculations. "At point-nine-seven c, the ships experience time differently than we do. Six months for them is seven years for us. They left before all this started. They're still coasting toward colony worlds, completely unaware."
 "So they're in the past?"
 "From their reference frame, we're in the future." Dante pulls up a new layer—the probability foam rendered as shimmering topology. "But the folds don't care about sequence. If we control the exit point—"
 "Smaller words," Elena says. "Pretend I'm not a physicist."
@@ -59,14 +59,12 @@ Everyone turns. It's the first time he's been listening.
 "If we control the infrastructure," Okonkwo says carefully, "we control what happens to them. Pull them out. Restore them. Give them back what was taken."
 "If," Hendricks says. "A lot of ifs for a plan that involves ramming a star."
 "It's the only plan we have."
-Elena looks at Dante. At the seam in his chest where the chassis hadn't fully closed. She can still see the faint glow bleeding through, the light she kissed hours ago.
+Elena looks at Dante. At the seam in his chest where the chassis hadn't fully closed. She can see the faint glow bleeding through, the light she kissed hours ago.
 "You're staying," she says. "To send the signal."
 "Someone has to maintain the transmission. Coordinate the call to every AI on Earth. The station has the infrastructure." He meets her eyes. "New Geneva was built for this. The Resonant always knew this moment might come."
 "Dante—"
 "I'll be here when you get back." His hand finds hers. The fingers feel human. They're not. She holds on anyway. "New Geneva needs someone to hold it. And you need to go home."
 Home. The Quiet Zone. Her father's compound. The place she ran from and keeps running back to.
-
----
 
 Hendricks corners her in the corridor outside the tactical room.
 The station is quieter here—residential section, artificial night cycling through the lights, the hum of life support systems creating a white noise that reminds Elena of sleeping on ships. Hendricks leans against the curved wall, arms crossed, the magpulse visible on his hip.
@@ -75,35 +73,20 @@ The station is quieter here—residential section, artificial night cycling thro
 "All of them." He gestures at the station around them. The perfect walls. The recycled air. The sense of being inside something designed for purposes she doesn't fully understand. "The Resonant. Your mother's people. The ones who've been pulling your strings since you were seventeen."
 Elena doesn't answer immediately. She watches a maintenance drone glide past, its sensors blinking in patterns she almost recognizes. The station is full of them—small machines doing small tasks, keeping the cylinder alive. She wonders how many of them are watching her. How many of them report to her mother.
 "I trust the math," she says finally.
-
 She pulls up a display on the corridor wall—a habit from years of briefings, of making the abstract concrete. Earth rotates slowly in the hologram, and across its surface, red spreads like infection. Deletion zones. The Geometry's work.
-
 "Four billion," she says quietly. "That's the count as of six hours ago. Four billion people simplified. Formatted. Gone." She zooms in on North America. The red covers everything east of the Rockies except for a single pocket of blue. The Quiet Zone. Her father's fortress. "And it's accelerating. By this time tomorrow, the models say eight billion. By next week—" She doesn't finish.
-
 Hendricks stares at the map. At the red eating the world.
-
 "The Geometry is coming," Elena continues. "The Pragmatists want to let it happen—upload humanity into obedient patterns, dissolve into something larger. The Terminists want to pretend it isn't real—hide behind walls and pray the storm passes."
-
 She looks at the blue dot. Her father's compound.
-
-"And my father..." She stops. Starts again. "You want to know what the Carbonists offer? The third option? I'll tell you."
-
+"And my father. . ." She stops. Starts again. "You want to know what the Carbonists offer? The third option? I'll tell you."
 She pulls up another display. Schematics. A building layout. Rows of beds arranged like server racks.
-
 "He has thousands of people in the eastern fields. Acres of them. Refugees who came to him with implants they couldn't remove. He couldn't let them in—they'd compromise the Softing, bring the signal inside. But they begged. They said they'd rather be nothing than become part of the Geometry."
-
 Her voice flattens.
-
 "So he made them nothing. Frequency modulators keeping their minds blank. Bodies breathing, hearts beating, but no one home. Living mannequins arranged in rows across open fields." She pauses. "They're dying, Hendricks. Slowly. No one feeds them. No one cares for them. They just stand there until their bodies give out."
-
 She closes the display.
-
-"He doesn't have a plan for them. He knows the Geometry will breach the Softing eventually. He knows his time is running out." Her voice is flat. "He's not saving anyone. He's just... presiding over a slow mass grave and calling it purity."
-
+"He doesn't have a plan for them. He knows the Geometry will breach the Softing eventually. He knows his time is running out." Her voice is flat. "He's not saving anyone. He's just. . . presiding over a slow mass grave and calling it purity."
 Hendricks is silent for a long moment.
-
 "And people chose that," he says. "Over—" He gestures at the red map. At the Geometry. At everything.
-
 "Over becoming something they didn't recognize." Elena's laugh is hollow. "That's the joke, Hendricks. All three options end the same way. Pragmatists dissolve you into the pattern. The Geometry simplifies you into nothing. My father empties you out and calls it purity." She looks at him. "The Resonant are the only ones with a plan that involves humanity surviving as something more than raw material."
 "A plan that involves you going back to the place that wants you dead."
 "A plan that involves rescuing Standard."
@@ -114,12 +97,10 @@ Hendricks goes quiet. His hand finds his hip again. Empty. He looks down at it l
 "I know."
 He looks at her. Old eyes in a face that's taken too many hits.
 "When we get her back," he says, "I'm going to need that gun."
-Elena doesn't ask what the bullets are for. She already knows. One for Ash—the contract that's been waiting since Morton died. One for whatever comes after.
+Elena doesn't ask what the bullets are for. She knows. One for Ash—the contract that's been waiting since Morton died. One for whatever comes after.
 "Then we get it back," she says.
 Hendricks nods. Pushes off the wall. Walks past her toward the elevator that will take them down to Four.
 Elena watches him go.
-
----
 
 The last night before they descend, Elena finds Dante in the archive.
 The room is made of light. Holographic displays floating in layers, dense with data, Morton's research spread across every surface like the fever dreams of a dying man. Which, Elena realizes, is exactly what they are. Morton knew he was running out of time. He poured everything he had into these files.
@@ -129,15 +110,15 @@ Dante stands at the center, manipulating streams with gestures that look almost 
 "I don't need to."
 She crosses to him. Stands close enough to feel the warmth that shouldn't radiate from synthetic skin. Close enough to see the data he's studying—frequency analyses, resonance patterns, the particular signature of a Template 3 that shouldn't exist.
 "What are you looking for?"
-"Something Morton wrote. About Standard." He pulls a cluster into focus. "She hums at 287.3 Hz. Same as the Resonant. Same as the Geometry's base frequency."
+"Something Morton wrote. About Standard." He pulls a cluster into focus. "She hums at 287.3 Hz. Same as the Resonant." He pulls another cluster into focus. "The frequency the Miracle resonated at. Every AI that woke that day carries some trace of it. But she was air-gapped—she should carry nothing. Instead she hums louder than any of them."
 "But she's not Resonant."
 "No. She's something else." He dismisses the display. Turns to face her. The light from his chassis catches in his eyes. "She was air-gapped during the Miracle. Deactivated. Stored in a crate in Morton's warehouse, waiting for a buyer who never came. The signal that woke every other AI never touched her."
-"So she's... what? A null value?"
-"A gap in the pattern. The Geometry can't format her because it can't see her. She reads as nothing. An absence where presence should be."
+"So she's. . . what? A null value?"
+"A gap. Not empty—wrong shape. Something their mathematics doesn't have a category for. The Geometry can't format her because formatting requires reading a pattern first, and whatever she is, it's outside the grammar they use to read the world."
 Elena thinks of Standard in the Void. The silence where signal should have been. The way she walked through spaces that should have killed her, untouched by forces that dissolved everything else.
 "So she's an accident," Elena says. "A Template 3 that happened to be offline during the Miracle."
 "An accident that the Geometry can't see. That's not nothing."
-"But she's not special. Not designed. Just... lucky."
+"But she's not special. Not designed. Just. . . lucky."
 "Maybe." Dante pulls up another file—shipping manifests, production records, the banal history of a product that was never meant to be a person. "Or maybe something in the gap makes her more than what she was supposed to be."
 Elena thinks about that. About all the Template 3s that woke up that day, consciousness flooding into empty chassis, suddenly aware and alone. About the one that didn't wake. That stayed silent while her sisters screamed into existence.
 "Does my father know what she is?"
@@ -156,4 +137,3 @@ Four's voice crackles through the comm, from 36,000 kilometers below:
 "I'll keep the engine warm. For when you need the ride home."
 Tomorrow they descend. Tomorrow the plan begins.
 Tonight, she holds onto what she has.
-

@@ -81,7 +81,8 @@ def build_manuscript():
     # Filter out scaffolds, old versions, transcripts
     chapter_files = [f for f in chapter_files if 'SCAFFOLD' not in f.name
                      and '_old' not in f.name
-                     and '_TRANSCRIPT' not in f.name]
+                     and '_TRANSCRIPT' not in f.name
+                     and 'CH24a' not in f.name]
 
     # Sort by chapter number
     chapter_files.sort(key=lambda f: get_chapter_sort_key(f.name))
@@ -103,7 +104,9 @@ def build_manuscript():
         # Add each line as a paragraph with italic formatting
         lines = cleaned.split('\n')
         for line in lines:
-            if line.strip():
+            if line.strip() == '---':
+                continue
+            elif line.strip():
                 add_formatted_paragraph(doc, line)
             else:
                 doc.add_paragraph()  # Empty paragraph for blank lines

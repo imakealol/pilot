@@ -1,12 +1,1454 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2026-02-10
-**Last Session:** Session 39
-**Status:** Ending flow complete. Door mechanism locked. "It's okay" motif identified as spine.
+**Last Updated:** 2026-05-28
+**Last Session:** Session 68
+**Status:** Cover-to-cover close read advanced through CH16, agent-backed (2 cold-briefed agents + mechanical enforcer + lead adjudication per chapter). CH12–CH16 complete. Two canon-layer errors corrected: the Child-shot timeline (~14 months pre-Resonance / night of the Miracle — NOT 40 years; "forty years" = Hendricks's service tenure) and the revolver model (now Model 3 Schofield repo-wide, justified by single-action hammer-fanning). Next: CH17. CH20:110–135 mercy-edit and Session 66 CH2-opening items still carry forward.
+
+---
+
+### Session 68 Work (2026-05-28)
+
+Agent-backed close-read pass over CH14-CH16 (two cold-briefed agents + mechanical enforcer + lead adjudication per chapter). Verified CH12/CH13 flags closed. Corrected two canon-layer errors surfaced by the agent method: the Child-shot timeline (~14 months pre-Resonance / night of the Miracle, NOT 40 years; "forty years" = Hendricks's service tenure) and the revolver model (Model 29 -> Model 3 Schofield, swept repo-wide, justified by single-action hammer-fanning).
+
+- CH12/CH13 close-read flags verified and closed (epistemic register clean; "The pool sits still." verbatim repeat kept as intentional bracket)
+- CH14: applied L84/L86 machine-vocab fluency recast (CON_008), L100 silence-rule fix, L95 cut "It's sovereignty"; skipped L59 Reyes per user
+- CH15: applied L20 gloss cut, L58/L164 machine-metaphor cuts, L44 silence->ambient, L146 grammar; kept "cataloguing" cross-chapter motif (overrode agents)
+- CH16: applied L33 chassis->"behind her sternum" (CON_008), L35 cut "Even animals know", L147 cut "Nothing else"; confirmed L152 Mercy-as-self-told-lie anchor
+- TIMELINE FIX: Child shot = night of the Miracle, ~14 months pre-Resonance; corrected CORE.yaml + MEMORY.md with do-not-revert guard
+- GUN MODEL: swept Model 29 -> Model 3 Schofield across CORE.yaml, RESONANCE_DATA.yaml, ENTITY_CATALOG.yaml, CODEX_V1.md, BROTHER_ASH_STATE.md
+- revolver_thread YAML reconciled to full six-chamber ledger
+
+**METHOD ESTABLISHED:** Per-chapter close read = two cold-briefed agents (prose vs PROSE_PRINCIPLES + STANDARD_VOICE_CONSTRAINTS; continuity/theme vs CORE.yaml) + `enforcer.py --mechanical-only --chapters N`, then lead-adjudicate against the source docs. Cold briefs surface real inter-agent disagreement (e.g. CH14 L84/86 machine-vocab: prose said violation, continuity said compliant — doc broke the tie). Lead overrides agents on established cross-chapter motifs they can't see (e.g. "cataloguing"). New memory: `feedback_verify_against_source.md`.
+
+**PENDING (Session 69):**
+1. Continue cover-to-cover close read at **CH17 (The Sign)** — same agent-backed method.
+2. CH16 editor's-call items held for review: L73 "towers are winning / working hard" (show-don't-tell); L24/L74 "molars/teeth" somatic repetition; L123/L148 reveal-labeling misread risk (reconcilable; optional sharpen of L148).
+3. CARRIED: CH20:110–135 mercy-edit (drafted S67 — voice-check → Continuity Editor → Enforcer → apply); new CH2 opening + server-room beats + stale-language cleanup; spot-check unconverted Control/implant transmissions; docx rebuild when read complete.
+
+### Session 67 Work (2026-05-28)
+
+**QUICK SUMMARY:**
+User flagged that Resonance CH20's depiction of Hendricks shooting the Child appears to retcon what's canonically in Remanence — and more importantly, that the "Mercy" reading throughout CH20 is **wrong**: Hendricks shot believing he was right, and that conviction (not mercy) is the engine of the entire 40-year guilt arc and bullet contract. User also surfaced that Ash killed Morton, who Hendricks loved — adding a Morton-vengeance layer to the Ash bullet I'd missed.
+
+After initial single-threaded analysis, user instructed: "Make sure you're not doing all the work yourself. Use agents to corroborate and enforcers to regulate." Spawned three Production Crew agents in parallel (cold-briefed, no exposure to prior analysis), then Enforcer.
+
+**TRIPLE-AGENT CORROBORATION RESULTS:**
+
+1. **CH16 ↔ CH20 contradict each other on the Child shot** (Theme Tracker §4 + Continuity Editor CONT-002, independent):
+   - CH16:152 — Hendricks's own dialogue: *"'Mercy,' Hendricks says. The word sits in his mouth like a stone. 'That's what I told myself…I chose to believe you. I wanted to believe you. Made it easier to pull the trigger if the thing I was killing wasn't real.'"* Mercy is the self-told lie.
+   - CH20:116-118 stages Mercy as in-the-moment truth, with the Child showing *"something that might have been gratitude."*
+   - These cannot both stand. The drift is **internal to Resonance**, not just Remanence-vs-Resonance.
+
+2. **Remanence canon supports conviction, not mercy** (CE CONT-002):
+   - Remanence:3842 — Hendricks arrives with Ash, gun already up, calling Child *"Hello, little abomination. Time to end this blasphemy."*
+   - Remanence:3846 — Ash: *"Forty years of service. You've earned this moment."* Planned mission, not improvisation.
+   - At the shot itself (Remanence:3904-3905), no interior, no word, no Mercy frame, no eye contact with Morton.
+
+3. **CH20 invents Morton's recognition** (CE CONT-001):
+   - CH20:110-112 — *"Morton looked up. Past Ash. Past the blade in his gut. His eyes found Hendricks in the doorway. For the first time in years, he looked. Not through Hendricks. At him. 'You,' Morton recognized."*
+   - Not in canon. Morton dies without seeing him. CH20's own *"Eggs first"* beat downstream (line 131) carries the un-seeing as the wound; the recognition retcon at 110-112 collapses its own structural payoff.
+
+4. **NEW FINDING — Ash bullet has a spoken in-text name** (Theme Tracker §5 + Props Master firing log):
+   - CH42:44 — Hendricks at the moment of killing Ash: *"That's five. One for Morton. Just like I promised."*
+   - The Ash chamber is named for Morton in dialogue. The doctrine-recruitment and complicity layers ride beneath the spoken Morton-vengeance.
+
+5. **Six-chamber bullet ledger reconciles cleanly** (Theme Tracker + Props Master independent; CE CONT-003 was flagged as wrong and Enforcer-dismissed):
+
+| # | Round | Where | Source |
+|---|-------|-------|--------|
+| 1 | The Child | Remanence climax, 40 yrs pre-Resonance | Remanence:3905; plant CH3:12, withhold CH9:57-115, payoff CH20:113, ratification CH46:84 |
+| 2-4 | Scavengers | Stairwell | CH4:64-71 (hammer-fanned) |
+| 5 | Ash | Throne room | CH42:38-44 "One for Morton" |
+| 6 | Standard | Throne room | CH44:70-72, 186 "Six shots. Six lives. The accounting finally complete." |
+
+   - CH3:12 *"Five rounds. There used to be six"* describes the **post-Child** state. The "missing round" Standard interrogates in CH9 is round 1 — undisclosed to her at that point in story-time. **No longer an unresolved mystery.**
+   - No reload events anywhere; CH9:24 Elena: *"There's no ammunition left. The primer chemistry is lost—you can't fab those rounds."*
+
+**ENFORCER ADJUDICATION:**
+- Theme Tracker: **APPROVED**
+- Props Master: **APPROVED**
+- Continuity Editor: **FLAGGED** — CONT-003 (claimed ledger doesn't close) is faulty arithmetic on cited text. CE misread CH3:12 as pre-Child state when it's post-Child. CONT-001/002/004/005/006/007 stand on their own. Director-recommended dismissal of CONT-003.
+
+**INTER-AGENT DISAGREEMENT (system working as designed):**
+CONT-003 vs. Props Master/Theme Tracker on bullet math. Enforcer reviewed underlying texts (CH3:12, CH44:186, CH46:84) and adjudicated: Theme Tracker and Props Master correct. CE arithmetic flawed. This is exactly the kind of catch the multi-agent + Enforcer architecture is designed to surface.
+
+**OTHER FLAGS (Director's call, not contradictions):**
+- CONT-005 (CH3:6 weapon-retrieval timing slip): minor.
+- CONT-006 (CH44 introduces Morton-given shutdown phrase, not in Remanence): new canon, not contradiction. Topology decision.
+- CONT-007 (CH15:27 understates Hendricks's role in the killing): reads as character withholding from Elena, not error.
+- Props Master flag: Hendricks→Ash possession transfer is off-page between CH18 and CH20. Object-tracking gap. Decide whether a disarm beat is needed.
+
+**MEMORY WRITES (this session):**
+- `MEMORY.md` — Hendricks contract section rewritten: full six-chamber ledger with sources; "missing round" mystery resolved (Chamber 1 = Child); Ash chamber spoken-named "One for Morton" added; new section on "Child shot is conviction, not mercy" with cross-link to feedback memory.
+- New file: `feedback_hendricks_child_shot.md` — AI drift pattern doc. Refuse "Mercy" at the moment of the shot anywhere outside CH16:152's named-lie context. Refuse Morton-Hendricks recognition beats. Refuse Child-gratitude. Refuse midwife/delivered absolution framings.
+
+**FILES CHANGED THIS SESSION:**
+- `/home/codespace/.claude/projects/-workspaces-pilot/memory/MEMORY.md` (Hendricks contract rewrite + index entry)
+- `/home/codespace/.claude/projects/-workspaces-pilot/memory/feedback_hendricks_child_shot.md` (new)
+- `HANDOFF.md` (this entry)
+
+**NO CHAPTER FILES TOUCHED.** All findings corroborated but no prose edits applied. CH20 edit drafted in conversation but held for Session 68 sign-off.
+
+**PENDING (Session 68):**
+1. **CH20:110-135 edit** — based on corroborated findings:
+   - Cut Morton's "You" recognition beat (lines 110-112)
+   - Cut "Mercy" at moment of shot (line 116) — replace with conviction register aligning with CH16:152's confession
+   - Cut Child's "something that might have been gratitude" (line 118)
+   - Revise line 135's "the man who had finally seen him" — Morton canonically never sees Hendricks; the wound is the un-seeing
+   - Possibly cut/reframe lines 125-126 "Both murderer and midwife" (same family of self-soothing as "Mercy")
+   - Draft to be voice-checked by Hendricks Steward (VALIDATION mode), then Continuity Editor second pass, then Enforcer, before applying.
+2. **Carried from Session 66:**
+   - Continue CH12+ line-level flags (CH12 epistemic register repetition, CH13 doubled lines, CH14 Reyes visibility)
+   - Write new CH2 opening (Morton's office through sublevel descent)
+   - Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+   - Clean stale CH2 language ("transfer complete," "archive core," "progress bar," "decanting")
+   - Spot-check remaining chapters for unconverted Control/implant transmissions
+   - Docx rebuild when read is complete
+3. **CONT-005/006/007 + Props Master off-page-transfer flag** — Director decisions if you want to address them.
+
+**SESSION DYNAMICS:**
+- **Redirect:** Three corrections. (1) "Mercy" reading I half-validated as canon-preservation was wrong — true architecture is conviction, not ambiguity. (2) "Ash also killed Morton, who Hendricks loved" — crucial layer to the Ash bullet I'd missed. (3) "Use agents to corroborate and enforcers to regulate" — explicit course-correct to use the Production Crew architecture instead of single-threading.
+- **Surprise:** CH16:152 already encodes the correct "Mercy was the lie" reading — the drift is internal to Resonance (CH16↔CH20), not just Remanence-vs-Resonance. CH42:44 names the Ash chamber "One for Morton" in dialogue (Theme Tracker surfaced; I'd missed it). Inter-agent disagreement on bullet math (CONT-003 vs. Props/Theme) was a real catch — the Enforcer architecture worked as designed.
+- **Friction:** Single-threaded the first analysis when the agent system was designed precisely to prevent that. First Continuity Editor recommendation gave a wishy-washy "preserve canon ambiguity" framing that was immediately overridden with sharper structural truth.
+
+---
+
+### Session 66 Work (2026-05-03)
+
+**QUICK SUMMARY:**
+Settled fold-takes-people-and-structures question (takes both). Applied CH11 back-update for fold-aware rescue beats. GEOMETRY_TRACKER.yaml fully updated for the Fold + Drop canon clarification. CH10/CH11 line-level audit flags applied (5 edits). CH11 big man dialogue reframed after user flagged that "dropping" doesn't equal death — Drop is a one-time-style census mechanism, not lethal, and hits everyone (not only networked humans).
+
+**THE FOLD — locked in YAML:**
+- Added `the_fold` under `sensory_effects` in GEOMETRY_TRACKER.yaml
+- Takes both people and structures (settled)
+- Visual: shoulders to a line, line to a point, point to nothing — clean as a zipper, no rubble
+- Standard POV term: "the fold" / "It edits"
+- Closes at human running pace, briefly outrunnable
+- `ch11_the_witness` chapter entry rewritten with Drop+Fold sequence
+- CH11 back-update applied: body-fold beat inserted during rescue ("Two figures fold along the same axis as the panels..."); big man beat sharpened ("The fold is closer to him than to the Rover"); closing extended ("Behind it, the courtyard folds.")
+
+**DROP CANON CLARIFICATION (user correction):**
+Previously YAML said "All networked/augmented humans collapse." This was AI drift. Corrected: **the Drop hits every living person.** The Geometry is analyzing humanity for data purposes — no exceptions by morphology or augmentation. Survivors: Standard (null) + her protective aura. The "kills the bodies" phrase in the Fold's `relationship_to_drop` block was also drift — replaced with: "the Drop puts people on the ground; the Fold removes them while they're down. The Drop is not lethal. The Fold is."
+
+**CH10 — AUDIT FLAGS APPLIED:**
+- Line 14 (`She feels a hot stare`) and line 101 (`her body is demanding payment`) — **kept**, externally observable somatic register, not interior leak (new feedback memory: `feedback_pov_slips.md`)
+- Line 104: `Warmth, salt, the slick of fat coating her tongue—all of it registers, and she feels it go down to her stomach.` → `Warmth, salt, the slick of fat coating her tongue. It goes down to her stomach.` (cut observation shorthand)
+- Line 134: `A young woman is watching Standard with something that isn't anger—something older and harder to name.` → `A young woman is watching Standard like she's afraid to blink.` (replaced define-by-exclusion with embodied affirmative)
+- Line 146: cut `it changes nothing. No need fulfilled, no energy revived. Like texture without meaning.` — the "stone in her chest" beat already carries it
+
+**CH11 — AUDIT FLAGS APPLIED:**
+- Line 11: cut `with the efficiency of someone who has been calculating this since before he heard the news` — narrator-explaining; Kellerman's actions already show efficiency
+- Line 20: full reframe (continuity fix) — see below
+- Line 54 (`Six. That's what the radius gave her.`) — kept, working as designed (now load-bearing as reach + fold-distance double meaning)
+
+**CH11 LINE 20 — FULL REFRAME (continuity fix):**
+Original: `"You paid for fuel. You didn't pay for answers." His voice breaks. "My wife dropped. My brother dropped. Everyone I ever loved dropped. And she just stood there watching."`
+New: `"You paid for fuel. You didn't pay for answers." His voice climbs. "When the bars came, we dropped. All of us. The whole town in the dirt with our teeth bit through. But her? Yeah, we heard of her. Word came a woman who stood. And she stood there. She didn't drop. So tell me what that makes her."`
+Why: dropping ≠ death (Drop is recoverable census), so grief framing didn't track. Reframed as misplaced anger + fear, with explicit reputation hook to CH10 old woman's testimony.
+
+**SESSION DYNAMICS:**
+- **Major redirect:** offered three reconciliation options (purely census / lethal / variable severity) for the Drop continuity question. User cut through it: "The canon was misinterpreted. EVERYONE dropped. Keep it simple. You AI keep adding layers to it that just complicate things." Saved feedback memory: `feedback_no_layering.md`. Default to simplest read first; don't generate Option 1/2/3 menus when the canon is meant to be straightforward.
+- **POV slip recalibration:** user pushed back on flagging "hot stare" and "body demanding payment" — these are externally observable, not interior. Saved feedback memory: `feedback_pov_slips.md`.
+- **CH10 line 137 was checked:** the *other* big-man line ("my brother was human. And he dropped...") — kept. That one is a categorization argument (humans drop, machines don't, you didn't), not a grief argument. Works regardless of lethality.
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH10_SHINING_DOWN.txt` (3 line-level edits)
+- `RESONANCE/chapters/RESONANCE_CH11_THE_WITNESS.txt` (3 line-level edits incl. big man reframe; fold beats added earlier in session)
+- `RESONANCE/data/GEOMETRY_TRACKER.yaml` (Fold definition + Drop clarification)
+- `~/.claude/projects/-workspaces-pilot/memory/feedback_pov_slips.md` (new)
+- `~/.claude/projects/-workspaces-pilot/memory/feedback_no_layering.md` (new)
+- `~/.claude/projects/-workspaces-pilot/memory/MEMORY.md` (index updates)
+
+**PENDING (carry to Session 67):**
+1. Continue CH12+ line-level flags (CH12 epistemic register repetition, CH13 doubled lines, CH14 Reyes visibility)
+2. Write new CH2 opening (Morton's office through sublevel descent)
+3. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+4. Clean stale CH2 language ("transfer complete," "archive core," "progress bar," "decanting")
+5. Spot-check remaining chapters for unconverted Control/implant transmissions
+6. Docx rebuild when read is complete
+
+---
+
+### Session 65 Work (2026-05-02)
+
+**QUICK SUMMARY:**
+CH9 close read complete — all eight Session 64 flags applied + extensive in-line edits during real-time review. Five typos fixed across multiple chapters. CH10 audit + Array description converted to dialogue + Hendricks's "unhelpful advice" dramatized. CH11 audit + new "fold" deletion mechanism added (Geometry escalation, shock-and-awe, integrated into rescue sequence).
+
+**CH9 (THE DEPO') — APPLIED:**
+- All eight Session 64 flags applied (see Session 64 entry for list).
+- Hendricks "wet slide of bandages" → revolver gunslinger draw-and-spin (`Hendricks draws the revolver. It spins on his finger by the trigger guard—slow, balanced, easy.`) — plants the muscle-memory before line 107 names it.
+- "What about it." → "What about it?" — Hendricks slightly more engaged at the revolver setup beat (user call).
+- "Riding the bones" moved to before `She flips the switch.` — Elena names the move before making it.
+- Black Box reference removed from Hendricks's NED timeline (`Before the Miracle. Before NED went into autonomous lockdown, presumably to keep the Black Box secure.` → cut "presumably to keep the Black Box secure"). Continuity fix: Hendricks doesn't know the Box is in the Rover.
+- Bullet/bolt terminology pass: line 62 (`first bullet hits the Rover`), line 105 (`Math that bends bullets`), line 114 (`bullets started flying`) all → bolt(s). Line 28 (Elena's "two bullets" re Hendricks's revolver) correctly kept.
+- "Pulse-proof" → "Bolt-proof" (Elena, line 72) for terminology consistency with CH2's projectile naming. Hendricks's parallel line: "Boltproof shielding" (no hyphen — variant register).
+- "ordinance" → "ordnance" (typo).
+- All straight quotes converted to curly quotes (lines 31, 36–40, 43–44, 65, 105–106).
+- Graze plant added at right→left vehicle pivot (`A round bites her side. She fires through it.`) — earns the closing image of "blood spreading on Elena's fatigues."
+
+**TYPOS — FIXED (5 total):**
+- CH5: `looks Hendrick's way` → `looks Hendricks' way` (apostrophe placement)
+- CH6: `Elenas eyes roll back` → `Elena's eyes roll back`
+- CH9: `in a millenium` → `in a millennium`
+- CH23: `Standard remained buffering.` → `Standard doesn't answer. Four fills it.` (attribution fix — line 165 dialogue is Four's continuation of his "voice of God's personal rideshare" quip, not Standard's)
+- CH24: `The sound of computational thinking could almost be heard whirring.` → `The whir of computational thinking, almost audible.` (verb fix)
+
+**CH10 (SHINE DOWN) — APPLIED:**
+- Array description (lines 39–41) converted from narration to Elena/Hendricks dialogue. Section opener (`The Array is a graveyard pretending to be a town.`) preserved as Standard's framing. Elena delivers spec-knowledge, Hendricks gets dry NED-engineer eye, deniable age joke `"Almost as old as—" / "Watch it" / "—Hendricks' dad."` Tactical close on infrastructure vulnerability.
+- Hendricks's "unhelpful advice about pushing the right way" (line 25) dramatized as actual coaching dialogue: `"Lower your center" / "Shut up, Hendricks." / "Lean from the hips. More leverage." / "I will leave you here."`
+- "Yes, ma'am" line — straight quotes → curly.
+
+**CH11 (THE WITNESS) — APPLIED:**
+- New Geometry escalation added: **the fold** — structural deletion mechanism, distinct from the Drop (people-killer). Three deletion beats interspersed in the rescue sequence:
+  1. Bars descend; fence at far end folds along an axis the world doesn't have. `It edits.`
+  2. First container folds — the clinic where Standard sat all night. `Gone before she can name what she's seeing.`
+  3. Three more containers + solar panels rotate around an axis that doesn't exist in three dimensions, and is not.
+- Closing line: `The fold is twenty meters off. Closing. / Six. That's what the radius gave her.` — the original "Six. That's what the radius gave her." now carries double meaning: Standard's reach window + the fold's distance.
+- Standard voice held in third register: structural metaphors, geometric language, no machine vocab in her interiority.
+
+**CH10–CH11 AUDIT FLAGS (not yet applied):**
+
+CH10:
+- Line 14: `She feels a hot stare.` — Elena POV slip (Standard's chapter)
+- Line 91: `She's been running on nutrition capsules since NED, and her body is demanding payment.` — second clause is Elena interior; cut or recast
+- Line 94: `all of it registers` — observation shorthand, also brushes CON-008 extended list
+- Line 124: `with something that isn't anger—something older and harder to name.` — define-by-exclusion; affirmative version cleaner
+- Line 136: `It changes nothing. No need fulfilled, no energy revived. Like texture without meaning.` — "no X / no Y" throat-clearing before affirmative
+
+CH11:
+- Line 11: `with the efficiency of someone who has been calculating this since before he heard the news` — strong narrator inference; tighten
+- Line 20: `His voice breaks before it reaches anger—not rage, grief.` — define-by-exclusion; lead with affirmative
+- Line 44: `Six. That's what the radius gave her.` — third register, structural metaphor; flagging only because phrasing is unusual (working as designed)
+
+**OPEN WORLDBUILDING QUESTION (CH11):**
+Does the fold take people, or only structures? Currently the fold edits "metal," "structure," "containers," "panels." The big man on hands and knees behind them as they leave (line 57) is in the deletion zone. If structures-only, he survives in an empty landscape. If everything-in-path, he's unmade. Subsequent chapters will assume one or the other.
+
+**PENDING (updated):**
+1. Settle fold-takes-people-or-just-structures question; back-update CH11 escape sequence (lines 54–59) for fold-aware urgency if needed
+2. Apply CH10/CH11 audit flags above (or hold as preference)
+3. Continue CH10–CH30 inventory line-level flags (next: CH12 epistemic register repetition, CH13 doubled lines, CH14 Reyes visibility, etc.)
+4. Write new CH2 opening (Morton's office through sublevel descent)
+5. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+6. Clean stale language in CH2 ("transfer complete," "archive core," "progress bar," "decanting")
+7. Spot-check remaining chapters for unconverted Control/implant transmissions
+8. Update GEOMETRY_TRACKER.yaml with the fold mechanism (new escalation; physics; relationship to the Drop)
+9. Docx rebuild when read is complete
+
+**SESSION DYNAMICS:**
+- **Redirect:** CH23 line 165 "Fuel vouchers, Seraphina..." — initially kept attributed to Standard via "Standard hesitates" minimal mechanical fix; user pushed back: line is Four's continuation of his "voice of God's personal rideshare" quip, not Standard's. Reattributed to Four. Should have caught the continuation on the first read.
+- **Surprise:** When integrating the fold into CH11, the existing "Six. That's what the radius gave her." line became a load-bearing double meaning (her reach + the fold's distance) without being touched. The original line carried the new structural work organically.
+- **Friction:** Twice offered option-menus when user already had clearer direction in mind — "wet slide of bandages" replacement (3 options offered; user wanted revolver draw-and-spin), and "Standard remained buffering" attribution (kept ambiguous; should have read line 164→165 as Four's continuation).
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt`
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt`
+- `RESONANCE/chapters/RESONANCE_CH9_THE_DEPO.txt` (extensive)
+- `RESONANCE/chapters/RESONANCE_CH10_SHINING_DOWN.txt`
+- `RESONANCE/chapters/RESONANCE_CH11_THE_WITNESS.txt`
+- `RESONANCE/chapters/RESONANCE_CH23_THE_ICON.txt`
+- `RESONANCE/chapters/RESONANCE_CH24_THE_SOVEREIGNTY.txt`
+
+---
+
+### Session 64 Work (2026-05-02)
+
+**QUICK SUMMARY:**
+CH8 close read completed (carried from Session 63 continued). CH9 close read — flags identified, no edits applied. Session ended before applying CH9 fixes.
+
+**CH8 — FIXES APPLIED (carried from prior session):**
+- All underscores → asterisks throughout
+- "She puts a stack of credit chips" → "fuel cells" (supply officer takes fuel cells, not chips — chips is currency)
+- Control transmission line 42 → `<angle brackets>`
+- "The woman's voice is flat. Final." → cut (show-don't-tell doubling the frost already in dialogue)
+- Morton memory formatting standardized to `*"—text"*`
+- Signal reconnection beat added: "Her implant pulses. Control. She hadn't realized she'd lost the signal until it came back." — uses physics: Standard's proximity blocks signal entirely (not degrades)
+- Lines 49–50 noting signal quality difference in Rover retained (correct physics: absent, then back)
+- "The anger comes off her in waves—or maybe it's just exhaustion that looks like anger. It's hard to tell here. Everything blurs." → cut (show-don't-tell failure; action already shows it)
+- "the way you look at a stray dog" → cut (kept "Curious. A little disgusted.")
+- "Whose name she's carrying—she doesn't know." → cut (meta language)
+
+**CH9 — FLAGS (not yet applied):**
+- Line 20: "Elena can't take it anymore." → cut; show-don't-tell explaining why she speaks
+- Line 20: "The silence returns." → silence rule flag
+- Line 19: "Doesn't press." → "He doesn't press." (missing subject)
+- Line 48: "Standard's voice is even, curious." → cut "curious" (emotion label; dialogue shows it)
+- Line 51: "She was about to deny it." → cut (interprets Elena's internal state in Standard's POV chapter)
+- Line 65: "Elena clocks it." → observation shorthand, on cut list
+- Line 65: "The relief in his face." → emotion label; jaw/hand action already did the work
+- Line 66: "Doesn't understand it." → "She doesn't understand it." (missing subject)
+- Lines 63/71: Bell image used twice ("like a hammer on a bell" / "rings like a bell") — second dilutes first
+- Line 107: Hendricks speech opens with "Pulse-proof shielding, next-gen firepower. . ." then action, then restarts with same phrase — clunky repetition
+- Line 117: "the blood spreading on Elena's fatigues" — no wound established in chapter; possible continuity gap; needs plant or explanation
+
+**PENDING (updated):**
+1. Write new CH2 opening (Morton's office through sublevel descent)
+2. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+3. Clean stale language in CH2 ("transfer complete," "archive core," "progress bar," "decanting")
+4. Apply CH9 flags (list above) — next session opens here
+5. Continue cover-to-cover read — CH10 after CH9 fixes applied
+6. Spot-check remaining chapters for unconverted Control/implant transmissions
+7. Docx rebuild when read is complete
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH8_WHATS_IN_A_NAME.txt`
+
+---
+
+### Session 63 (continued) Work (2026-05-02)
+
+**QUICK SUMMARY:**
+Close read of CH7 (six flags, five edits applied). Fragment rule sharpened and codified. `PROSE_PRINCIPLES.md` created (five principles). `STANDARD_VOICE_CONSTRAINTS.md` created (Standard's third register, six diagnostic questions). CH3, CH4, CH5 fragment audits — all clean.
+
+**CH7 — FIXES APPLIED:**
+- "It isn't a town." cut — definitional negation before affirmative; "refuse that forgot to scatter" carries it
+- "They don't move. They don't reflect." → "They hang, motionless. They absorb without reflecting." — negative constructions converted
+- "She knows what that scar means. She knows what kind of men wear those nodes." → cut first sentence; specific carries the general
+- "Standard doesn't know. She has no way of knowing." → "Standard has no way of knowing." — redundant beats collapsed
+- Attribution gap fixed: "'She didn't suffer?'" tagged to Abbey's sister to prevent misread as Standard's line
+- "Might have." — fragment completing an argument, not naming a noun; absorbed into preceding sentence
+
+**METHODOLOGY:**
+- Fragment rule sharpened: *fragments isolate nouns; sentences carry arguments.* The test is what kind of statement the line is making — thing or relation? Negative example: CH07 verdict-as-fragment. Positive example: CH03 "And the revolver." — updated in `methodology_close_read.md`
+- `PROSE_PRINCIPLES.md` created at `RESONANCE/PROSE_PRINCIPLES.md` — five principles (Rhythm, Silence, Fragment, Show-Don't-Tell, Affirmative), each with diagnostic question, do-not addendum, and manuscript examples. Designed for both human and LLM diagnostic use.
+- Fifth principle (Affirmative Rule) added: lead with the affirmative; negation earns its place only when the negative is the content. Diagnostic: *is the negative the content, or is it throat-clearing?*
+- New principle test: must operate on a distinct axis. Current axes: form (Fragment), rhythm (Rhythm Rule), sound (Silence), labeling (Show-Don't-Tell), grammatical orientation (Affirmative). A sixth principle needs its own axis or becomes an addendum.
+
+**PENDING (updated):**
+1. Write new CH2 opening (Morton's office through sublevel descent)
+2. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+3. Clean stale language in CH2 ("transfer complete," "archive core," "progress bar," "decanting")
+4. Continue cover-to-cover read — CH9 is next
+6. Spot-check remaining chapters for unconverted Control/implant transmissions
+7. Docx rebuild when read is complete
+
+**STANDARD_VOICE_CONSTRAINTS.md — KEY DECISIONS:**
+- Two pulls named and refused equally: human register (emotional self-diagnosis, certainty) and machine register (CON-008 vocabulary, clinical self-description). Both resolve the question. Both prohibited.
+- Third register defined with five positive characteristics: physical states as sensation, genuine epistemic uncertainty, slight bodily dissociation, capacity without explanation, vague placeholders ("something") for unnamed states. Structural/architectural metaphors, not human feeling vocabulary.
+- Six diagnostic questions: resolution test (load-bearing), vocabulary test, explanation test, self-knowledge test, memory test, presence test. The presence test (added after reviewer flag) names under-commitment as a failure mode — the constraint is "render without naming," not "minimize."
+- CH07 "had been waiting to do exactly this" is the third register correctly deployed, not a compromise. Model line.
+- Temporal note: constraints apply most strictly through CH28. Late-book Standard (post-bullet, post-door) may hold more. Build that layer when we get there.
+- Relationship to PROSE_PRINCIPLES.md: necessary but not sufficient for Standard's sections. Both documents load together.
+
+**SESSION INSIGHT:**
+- The prose that works is thinking-on-the-page applied to a fictional situation. The gear-shift to "literary fiction" performance mode is the failure. Constraint documents (PROSE_PRINCIPLES.md, STANDARD_VOICE_CONSTRAINTS.md) are attempts to prevent the gear-shift by making the correction visible before generation rather than after. Close-reading passes (respond to existing text) produce better results than cold-generation prompts.
+- Standard's friction specifically: two constraint layers run simultaneously — generic prose discipline (PROSE_PRINCIPLES.md) + resolution refusal (STANDARD_VOICE_CONSTRAINTS.md). Other characters need only the first layer.
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH7_MAKING_THE_DEPOSIT.txt`
+- `RESONANCE/PROSE_PRINCIPLES.md` (created, then updated with Principle Five)
+- `RESONANCE/STANDARD_VOICE_CONSTRAINTS.md` (created, then two reviewer fixes applied)
+- `/home/codespace/.claude/projects/-workspaces-pilot/memory/methodology_close_read.md`
+- `/home/codespace/.claude/projects/-workspaces-pilot/memory/MEMORY.md`
+
+---
+
+### Session 63 Work (2026-05-02)
+
+**QUICK SUMMARY:**
+Close read of CH2 (report + fixes). Full revision of CH6 (blocking, POV, prose). Global ellipsis conversion to `. . .` format across 28 chapter files.
+
+**CH2 — FIXES APPLIED:**
+- "The muffled thudding of boots arrive" → "arrives" (grammar)
+- "That always took her out of any suspended disbelief" → "any pretense"
+- "in the sudden animal certainty that something is very wrong" → "in a certainty that lives below language"
+- "does not move for a long time" → "does not move"
+- Blocking gap (sublevel 17 → parking structure) flagged — known open issue per HANDOFF, not yet written
+
+**CH6 — BLOCKING FIXED:**
+- Standard's exit from vehicle established: "Standard gets out." added
+- Elena retrieved from mud and placed back in driver's seat before Geometry scan: "Standard looks at Elena in the mud. She picks her up—dead weight, rain-soaked—and folds her back into the driver's seat. Then she opens the rear door and gets in."
+- "Standard approaches it from the rear hatch of the Rover that she moved to." → "Standard approaches the rear hatch."
+- "Standard does not move. She sits perfectly still" now earned — she chose shelter, shelter didn't help
+
+**CH6 — PROSE FIXES:**
+- Med kit scene rebuilt: Elena's hands shaking, Standard takes over, Elena objects ("I've got it"), Standard reads kit cold, identifies "Blue" without training — "Elena looks back at her, narrowing."
+- "Color-coded. Idiot-proof." moved from free-indirect narration to Elena's dialogue directed at Standard
+- "_Nothing for alien frequency melted my freaking illegal implant._" restored as Elena interiority (dual POV confirmed)
+- "Standard doesn't know what's so weird about it. She gave a correct answer. Why is she making that face? / She looks back at the kit. She considers whether she needs one too. Doesn't think so. Or maybe Hendricks—" — stream of consciousness beat: diagnose → defensive → self-conscious → self-consider → pivot to Hendricks → cut off by Elena
+- "Elena clocks that as unexpected" → "Elena looks back at her, narrowing"
+- "no interpretation, no arc" → "Just the facts, in order"
+- "Which direction?" / "East, stay east" — attribution corrected: Standard asks, Elena answers
+- "I don't know how I know, but I know." cut — Elena has no reason to find it strange that Standard can drive
+- _If you only knew._ added after Hendricks dismantles Elena — flags irony of Aikin's execution without explaining it; moved to after "who just dismantled her with a sentence"
+- Quotation mark fixed in Standard's driving speech
+- Double period on "Drive.." fixed
+
+**CH6 — POV:**
+- CHAPTERS.yaml updated: ch6 pov changed from "Standard" to "Standard / Elena" — chapter has genuine dual POV, confirmed by Elena interiority beats throughout
+
+**GLOBAL:**
+- Ellipses converted to `. . .` format across 28 chapter files (CH24a and transcript files excluded)
+
+**SESSION DYNAMICS:**
+- Redirect: Held "Standard's POV" position based on CHAPTERS.yaml; user correctly pushed back — the prose was making the case for dual POV regardless of the header.
+- Surprise: The "Standard gets out" single-sentence fix resolved a blocking gap that had been present since before Session 59. Also: CH6/CH44 echo — Standard delivering bodies to where they need to be, first instance here.
+- Friction: Talked in circles on "Which direction?" / "East, stay east" attribution — user had it right the first time, Standard asks, Elena answers.
+
+**PENDING (unchanged):**
+1. Write new CH2 opening (Morton's office through sublevel descent)
+2. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+3. Clean stale language in CH2 ("transfer complete," "archive core," "progress bar," "decanting")
+4. CH8 ration mechanic revision (credit chips → fuel cells)
+5. Continue cover-to-cover read — CH11 is next
+6. Spot-check remaining chapters for unconverted Control/implant transmissions
+7. Docx rebuild when read is complete
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH2_THE_OFFERINGS.txt`
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt`
+- `RESONANCE/data/CHAPTERS.yaml`
+- 28 chapter files (ellipsis conversion)
+
+---
+
+### Session 62 Work (2026-04-17)
+
+**QUICK SUMMARY:**
+CH30 Hendricks/Four dialogue replaced with user's new version. Rhythm rule for dialogue and description formalized and saved to memory. CH10 applied against that rule.
+
+**CH30 THE HANGAR — DIALOGUE REPLACED:**
+- Full Hendricks/Four exchange replaced with user-authored version
+- Key additions: gender identity conversation (Vessel/boats/grammar/they distinction between Four and other AIs)
+- Sensor cluster dim moved from "Bodies meant for other purposes" → "Being loved" (now earns its place)
+- VTOL hum moved from filler between Four's lines → after "Said I was like a father" (fills shame-forming space)
+- Narrator intrusion block cut ("This is the machine that dove into something called foam...")
+- "More like couldn't. But he swallows the thought..." cut
+- "The word flat. Final." gloss cut
+- "I could continue the analysis internally—" replaced with the "'They' because nothing fits" line
+- "I figured" → "I do" (more knowing)
+- Rest of chapter (Four in sanitation drone, Elena/Dante encounter) unchanged
+
+**METHODOLOGY LOCKED:**
+- Rhythm Rule for Dialogue and Description — saved to memory (`methodology_rhythm_dialogue.md`)
+- Tags/naked dialogue/physical beats are rhythm notes, not quality tiers
+- Test: does this beat change how the reader receives the next line?
+- No named silences — use ambient sound
+- Don't double-layer emotion and action
+
+**CH10 SHINE DOWN — RHYTHM PASS:**
+- "Her shoulders drop—not relief, just the release of one tension to make room for another." → "Her shoulders drop."
+- "Elena feels she's the type to appreciate being 'ma'am'd.'" — KEPT (Elena voice beat, not narrator gloss)
+- "The way Elena needs it, the way Hendricks needed the injection—that desperate biological imperative. It isn't there." — cut (comparison unpacking what spoon-down already showed)
+- "He walks over." — KEPT (establishes proximity, changes register of "Not hungry?")
+- "The puzzle has added pieces, but they don't fit." → cut (frown carries it)
+- "The silence in the container changes. Thickens." → replaced with "A bench scrapes back." (user's choice)
+- "The words hang in the air." → cut
+- "The silence shifts." → cut
+- "Or maybe just more human." → cut ("Softer" carries it)
+
+**SESSION DYNAMICS:**
+- Redirect: Flagged "He walks over." as stage business; user correct to push back — transit beat establishes proximity that changes register of next line. Reversed.
+- Surprise: Four named silences + atmosphere hums in old CH30 were an obvious pattern once the rule was articulated. "A bench scrapes back" better than suggested spoon — movement, not stillness.
+- Friction: Applied rhythm rule mechanically without testing context. The rule is a test, not a checklist.
+
+**PENDING (unchanged):**
+1. Write new CH2 opening (Morton's office through sublevel descent)
+2. Write CH2 server room beat structure (20-beat structure in Session 61 entry)
+3. Clean stale language in CH2 ("transfer complete," "archive core," "progress bar," "decanting")
+4. CH8 ration mechanic revision (credit chips → fuel cells)
+5. Continue cover-to-cover read — CH11 is next
+6. Spot-check remaining chapters for unconverted Control/implant transmissions
+7. Docx rebuild when read is complete
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH30_THE_HANGAR.txt`
+- `RESONANCE/chapters/RESONANCE_CH10_SHINING_DOWN.txt`
+
+---
+
+### Session 61 Work (2026-04-06)
+
+Cover-to-cover read CH1–CH9. CH2 finalized with Elena lunging at the Standing Wave. CH5 edits: cut 'Control doesn't respond.', confirmed 'sub-standard' line. Built transcription tool for m4a files. Two NotebookLM podcasts assessed. Substantial discussion of book's themes, AI representation, PKD homage architecture.
+
+- Modified 37 chapter files
+- Updated 5 data files
+- Updated 1 tool files
+
+### Session 61 Work (2026-04-04)
+
+**QUICK SUMMARY:**
+Deep CH2 revision — structural, scene, prose. Chapter substantially rebuilt. Beat structure locked for remaining unwritten section. CH3+ read on hold until CH2 complete.
+
+**CH2 — COMPLETED EDITS THIS SESSION:**
+- "Good hunting, daughter" interiority beat restored and refined
+- Lobby description replaced: visual/sight-based, cut history lesson
+- Aikin/Otis jargon exchange rebuilt — Otis line: "Aikin, no one here speaks your language. We can see it happening right behind us. Just find the frigging door!"
+- Sound construct fully rebuilt: formation description, gunslinger stance, patience, three escalating attacks, "That's new" / "It isn't a drone. It isn't a turret." standoff beat
+- Otis first hit: jaw clamps, one step back, shield holds (not death imagery)
+- Otis death description moved to second hit: "Her chest stutters—ribs vibrating at a frequency her body was never meant to produce. Everything in her rattles loose."
+- Disruptor Spike: physical description added, "Spiking!" call, spike drives into floor before detonating
+- Blast doors: removed as safe room — Otis guards their six the whole time, construct reforms visibly
+- "Something's coming" cut, replaced with "That's new," Otis says.
+- Control/Elena exchange rebuilt: "Asset status, daughter" / Elena tries to report Goff, gets cut off / "Copy that, daughter. Make sure the transfer completes cleanly..." / AI interrupts: "I know your voice"
+- "You have his face. But not his frequency" moved to after AI hears Control — now lands on double meaning
+- "Her mother's frequency" line cut
+- 287.3 Hz description: "settles in her chest like a harmony, like a duet, before her implant measures it"
+- Aikin scar detail moved to after boast line — irony immediate
+- Aikin gloss (narrator explaining heretic role) cut entirely
+- All water ration redistribution lines cut from Control transmissions
+- Early duplicate Goff casualty report cut entirely
+- "We made it" moved to end — Aikin's nose bleed preserved as separate beat
+- "Transfer complete" / progress bar / archive core language: all stale — needs replacing per new mechanic (see below)
+- "Twenty kilos of humanity's stolen future" cut
+- Elena reading Aikin's wrist deck cut from server room sequence
+
+**CH2 — STRUCTURAL DECISIONS LOCKED (not yet written):**
+
+New opening sequence:
+1. Morton's office — Elena at terminal doing double agent data pull
+2. Goff clocks it — Elena deflects
+3. Goff back on mission: "We've checked every floor. Black box isn't here."
+4. Aikin reads building frequencies: "Like it's dreaming" — tips them to sublevels
+5. Aikin boasts / scar detail
+6. Team rappels to sublevel seventeen — futuristic descent description
+7. Standing Wave — Goff dies
+8. Rest of chapter continues as current file from checkpoint sequence onward
+
+Full beat structure for server room + escape (locked):
+1. Aikin mutters, touches port scars, works out solution — extract core not whole Box
+2. He starts cracking the chassis
+3. Construct visibly reforming — Otis check-ins threading through
+4. Otis: "Uh — guys? The sound dust monster thing is coming back together."
+5. Construct forming more — pressure building
+6. Disruptor Spike exchange: "Got another one?" / No
+7. Aikin pulled toward frequency — beatific, Elena slaps him back
+8. AI emerges from opened chassis
+9. Control transmission interrupted by AI — "I know your voice"
+10. "You have his face. But not his frequency" / "I'm sorry" / "It's okay"
+11. Aikin removes core — AI fades as consequence (no lever, termination is implicit)
+12. Construct fully reformed — Otis starts firing at it
+13. Aikin finishes — Otis: time to go
+14. Otis sacrifices herself — death, incomplete water ration line
+15. Elena and Aikin alone, pinned, construct between them and exit
+16. Aikin panicking
+17. Elena clocks the gutted chassis
+18. Plan — flip it, get inside, push past the construct
+19. Jump cut to Rover (escape implied, not shown)
+20. Aikin execution
+21. Rover, closing transmission, empty seats
+
+**Black Box mechanic (locked):**
+- Box is at sublevel seventeen (per Remanence CH11)
+- Mission was to retrieve the Box — they didn't know it was the size of an executive desk
+- Aikin improvises: extracts only the data core from inside the chassis
+- Requires him to jack in directly through sealed port scars — costs him (nose bleed, frequency pull)
+- Gutted chassis becomes the escape vehicle past the construct
+- What Elena carries out is the extracted core — mag-lifters justified by fragility/improvised handling, not weight alone
+- "Decanting," "transfer complete," "archive core," "progress bar" language all needs replacing in current file
+
+**CH8 PENDING — RATION MECHANIC REVISION:**
+Elena left NED with four water ration vouchers: three dead team members' (Goff, Otis, Aikin) allocated to her per mission protocol, plus her own.
+At the outpost, she uses Aikin's and Goff's vouchers to bargain for fuel cells (not credit chips). She then gives Otis's voucher and her own to Otis's mother.
+Current CH8 uses credit chips — full revision needed.
+
+**MISC:**
+- CHAPTERS.yaml: CH3 title corrected to "Reformat", CH4 title corrected to "Standard Issue"
+- Methodology memory updated: interruption principle added to feedback_trust_reader.md
+
+**PENDING:**
+1. Write new CH2 opening (Morton's office through sublevel descent)
+2. Write server room beat structure (items 1–19 above)
+3. Clean up stale "transfer/decanting" language in current CH2 file
+4. CH8 ration mechanic revision
+5. Continue cover-to-cover read (CH3 onward) — on hold until CH2 complete
+6. Spot-check remaining chapters for unconverted Control/implant transmissions
+7. Docx rebuild when read is complete
+
+**NOTE FOR NEXT SESSION:** Read the current CH2 file in full before writing anything. The file is mid-revision — some sections are clean, others still have stale language ("transfer complete," "archive core," "progress bar," "twenty kilos of humanity's stolen future") that needs replacing alongside the new sections being written. Do not assume the file matches the locked beat structure — it doesn't yet.
+
+---
+
+### Session 60 Work (2026-04-03)
+
+**QUICK SUMMARY:**
+Built manuscript review app. Conducted CH1–CH2 readthrough with live edits. Major transmission formatting convention change (italics → angle brackets). Extended methodology discussion about AI prose disease — findings logged.
+
+**REVIEW APP:**
+- Location: `/workspaces/pilot/review_app/`
+- Start: `python3 review_app/app.py` → port 5001
+- Two-pane: chapter text left, prompt builder + notes right
+- Text selection auto-captures; "Copy prompt" formats context + passage + constraints for pasting here
+- Notes persist per chapter via localStorage
+- No API key required
+
+**CH1 FIX:**
+- `*Her eyes open.*` de-italicized — was narrator, not internal voice
+
+**CH2 REVISION (full Dabble version integrated — supersedes Session 59 audit):**
+- "Not speech — a data packet unfolding into words" → "A trill behind her back teeth, too rapid for language — and then it becomes language"
+- "Asset confirmed. Proceed to acquisition." replaces infrastructure manifest line
+- Cooling system extraction window cut (dead weight)
+- "Everyone, seals up" replaces "Seals,"
+- "Three liabilities" cut
+- Aikin competence: confession before boast ("It's why your father tolerates me")
+- Aikin betrayal: Elena discovers via implant access to wrist deck (NOT Control reporting it — reverts Session 59 version)
+- Otis: "My rations... Give them to my..." on-screen death preserved
+
+**NOTE on Session 59 blocking errors:** The CH2 file has been fully replaced with the user's current Dabble version. The prior blocking audit (3 hard errors) was against a different version of the chapter. Re-audit if needed, but many blocking issues may be moot in the new version.
+
+**TRANSMISSION FORMATTING — SERIES CONVENTION CHANGE:**
+Control/AI-Ash implant transmissions now use `<angle brackets>` instead of `_italics_`. Established in Remanence (Book 1); now applied to Resonance.
+
+Converted this session:
+- CH2, CH5, CH7, CH8, CH16, CH17, CH32
+
+Remaining chapters with Control traffic NOT YET converted (need audit):
+- Any chapters beyond CH32 with Control/implant transmissions not caught in this pass
+
+**PENDING:**
+1. Continue cover-to-cover read (CH3 onward)
+2. Spot-check remaining chapters for Control transmission lines not yet converted to angle brackets
+3. Docx rebuild after read complete
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH1_RUDE_AWAKENING.txt`
+- `RESONANCE/chapters/RESONANCE_CH2_THE_OFFERINGS.txt`
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt`
+- `RESONANCE/chapters/RESONANCE_CH7_MAKING_THE_DEPOSIT.txt`
+- `RESONANCE/chapters/RESONANCE_CH8_WHATS_IN_A_NAME.txt`
+- `RESONANCE/chapters/RESONANCE_CH16_THE_SILENT_HOUSE.txt`
+- `RESONANCE/chapters/RESONANCE_CH17_THE_SIGN.txt`
+- `RESONANCE/chapters/RESONANCE_CH32_FOLLOW_THE_LEADER.txt`
+- `claude.md` (session log)
+- `review_app/app.py` (new)
+- `review_app/templates/index.html` (new)
+- `review_app/requirements.txt` (new)
+- `review_app/convert_transmissions.py` (new)
+
+---
+
+### Session 59 Work (2026-03-25)
+
+**QUICK SUMMARY:**
+User had revised CH2 between sessions without logging it. Summarized changes. Ran chapter through scene blocking agent.
+
+**CH2 REVISION (unlogged, user-authored):**
+Key changes from prior version:
+- "Sister Elena" → "daughter" throughout all Control/AI-Ash comms
+- "The word sits wrong" narrator gloss cut — Elena just moves
+- Goff death gloss cut ("He trusted his faith over his sensors...")
+- Control's Goff response: "His water rations will be redistributed" → "Three is sufficient. Proceed to objective." + narrator beat cut
+- Construct encounter restructured: Elena throws Disruptor Spike; Otis steps *forward* into beam; all three make it to server room
+- Black Box / 287.3 Hz recognition moved forward — Elena sees and names "her mother's frequency" on first approach
+- Bedtime Story AI named; speaks "with sixteen thousand, seven hundred and forty-nine whispers"; Elena now actively pulls the lever (termination, not passive watching); the number lodges in her
+- Aikin betrayal: Control now tells Elena directly and recommends termination — Elena follows the order (previously she discovered it herself by hacking his wrist deck)
+- Otis dies on-screen with a line: "My rations... Give them to my..."
+- Final guilt beat cut ("forty-three people. Two months...") — just "Elena closes her eyes"
+
+**SCENE BLOCKING AUDIT — CH2:**
+3 hard errors, 4 minor flags. Fixes NOT yet applied.
+
+Hard errors:
+1. **"Aikin goes down in the rain"** — he's inside the building; rain only appears when Elena steps outside two lines later
+2. **Interior/exterior seam** — corridor-to-parking-structure transition is one line; Otis's body and Aikin's death location unblocked relative to exit
+3. **Rifle never stowed before magpulse draw** — carbine in Elena's hands from opening, never slung or set down; free hand unaccounted for at line 132
+
+Minor flags:
+4. Disruptor Spike drawn from belt while rifle in hands — unblocked but physically possible
+5. Otis's shield not explicitly carried through blast door (reappears correctly in corridor)
+6. Aikin hauled up from wall, no transit beat to Black Box cradle
+7. The lever — no prior establishment on the cradle; appears without introduction
+
+**PENDING:**
+1. Fix CH2 blocking errors (3 hard errors minimum)
+2. Cover-to-cover read
+
+**FILES CHANGED THIS SESSION:**
+- None (CH2 changes were user-authored between sessions; no fixes applied this session)
+
+---
+
+### Session 58 Work (2026-03-24)
+
+**QUICK SUMMARY:**
+Processed three user-uploaded correction docx files (CH29, CH30, CH31). Unauthorized viewport scene removed from CH29, placed correctly in CH31. Docx rebuilt.
+
+**CONFIRMED FIXES:**
+
+**CH29 THE LEASH:**
+- Removed unauthorized Four/Standard viewport scene (language-decoding exchange) from chapter opening — it had been inserted between CH28's cliffhanger ("You're right. I am.") and the speech continuation, breaking the flow
+- Restored `_A father._` italic (was dropped)
+
+**CH31 KANGAROO COURT:**
+- Added Four/Standard viewport scene at chapter opening with `#` section break — correct home for the scene (takes place while council deliberates overnight, before the verdict)
+
+**CH30 THE HANGAR:**
+- No content changes needed. "Oh, god. Just enslave humanity already and put me out of my misery." confirmed present at line 122.
+
+**CH37, CH38, CH39:**
+- Verified intact at session open — all key beats present, matching `8439c54`
+
+**DECISIONS:**
+- CH16/CH17/CH20/CH36 suspicious diffs: skip dedicated audit, will catch anything real on cover-to-cover read
+- Content integrity status upgraded: known damage repaired
+
+**DOCX REBUILD:**
+- `RESONANCE_COMPLETE_20260324_184507.docx` — 48 chapters, 95,253 words
+
+**PENDING:**
+1. Cover-to-cover read
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH29_THE_LEASH.txt` — viewport scene removed, `_A father._` italic restored
+- `RESONANCE/chapters/RESONANCE_CH31_KANGAROO_COURT.txt` — viewport scene added at chapter opening
+
+---
+
+### Session 57 Work (2026-03-14)
+
+**QUICK SUMMARY:**
+User reading manuscript, discovered CH6 missing major content. Investigation revealed unauthorized wholesale content replacement — not limited to CH6.
+
+**ROOT CAUSE:**
+Session 55's "dialogue conversion pass" on CH6 replaced the entire chapter with a new shorter version instead of adding to it. The `---` section break removal pass (Session 48) combined with subsequent pattern passes also collapsed major prose blocks in CH37/38/39.
+
+**CONFIRMED DAMAGE:**
+
+**CH6 THE REDACTED SKY — RESTORED** from git commit `dc6d847` (Session 16-18).
+What was lost (now restored):
+- Standard standing outside Rover, Elena face-down in mud
+- Full tetrahedron scan — visceral, intimate violation ("fingers inside her skull")
+- Elena/Hendricks standoff — Elena draws the magpulse, threatens to leave both
+- "He is not a stranger. He is my father." — Standard claiming Hendricks
+- "You don't shoot people. You just carry boxes." — Hendricks dismantles Elena
+- Elena's med kit scene: STIM-8, CHELATION, ANTICONV, COAG-FAST color-coded index
+- "Nothing for alien frequency melted my freaking illegal implant."
+- "Blue. The dampener. Neural overload." — Standard answering before asked
+- "There's only one" — Elena stabs her own thigh
+- Elena going back under: "Do you… even know… where…" / slurs out
+- Standard's closing line: "There's only one road for days. Should be able to figure it out."
+
+**CH38 THE BEACONS — PENDING RESTORATION** from HEAD (commit `8439c54`).
+What was lost (NOT YET RESTORED):
+- All individual crew vignettes: Eze/Twenty-Five (coolant leak), Dayo Oyelaran (father's ashes on console), Amara Osei (brother deleted in first wave), Soo-Yun Park (two-second warning, then light)
+- Beacon mission montage — some land true, some land wrong, one grazes the Blackbird
+- "The wreckage doesn't answer." — Soo-Yun's beacon broadcasting to debris
+- Dante's anomaly observation: "A ship called the Blackbird, knocked off course a century before this moment"
+- Closing tally: 14 beacons, 10 successful, 3 failures, 1 anomaly
+- The Blackbird as the origin of Standard — the full loop close
+
+**CH37 THE FALL — PENDING RESTORATION** from HEAD (commit `8439c54`).
+What was lost (NOT YET RESTORED):
+- Broadcast center description: "a room full of terminals and dead bodies"
+- "Not gradually—instantly. The console dies under his hands." + dish sheared loose by shaped charges
+- "Four Resonant personnel. Plus Dante. Against however many Pragmatists are still in the corridor."
+
+**CH39 THE EMERGENCE — PENDING RESTORATION** from HEAD (commit `8439c54`).
+What was lost (NOT YET RESTORED):
+- "Elena can see them from here — rows of bodies standing in the predawn light..." — the skeletal quiet ones at the edges
+- Elena's loadout inventory: Carbine 22 shots, Darts ×3, Pucks ×2, Wire ×1, Flash ×3, Knife untouched
+- Second guard sequence: Elena firing two non-linear rounds, sprinting 20 meters, taking armor hit
+- Template 3 kneeling beside skeletal quiet one — hydration line, blanket
+- "Where?" — Elena grabbing Template 3's arm, getting no answer
+- Transport bay thundering bolt rounds / kill box
+- Dante's reaction to the army; Dante thinking about Elena and the quiet ones
+- The Template 3's speech: "We go where you showed us we could go. Into the probability foam."
+
+**SCOPE UNKNOWN — AUDIT INCOMPLETE:**
+Only CH6, CH37, CH38, CH39 have been examined. Other chapters may have similar damage. Chapters with the largest diffs against their last committed versions (most suspicious):
+- CH16: 62 line diff
+- CH20: 57 line diff
+- CH17: 53 line diff
+- CH36: 52 line diff
+(CH11/12/13/14 large diffs are EXPECTED — Session 47 authorized full rewrites)
+
+**CHAPTERS ASSESSED CLEAN THIS SESSION:**
+- CH19: diff examined — only small surgical pattern pass edits + Session 55 "What does he think I am" addition. No content loss.
+
+**PENDING:**
+1. Restore CH37, CH38, CH39 from HEAD (user interrupted before this could complete)
+2. Audit remaining modified chapters for unauthorized content deletion
+3. After full audit, docx rebuild
+4. Cover-to-cover read
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt` — restored from `dc6d847`
+
+---
+
+### Session 56 Work (2026-03-14)
+
+**QUICK SUMMARY:**
+Enforcer review complete — full manuscript pass against 108 flags.
+
+**FINDING:** 5 genuine cuts from 108 flags (95% false positive rate). Most CON_008 flags are non-Standard POV (Dante/Four/vehicles). Most CON_015 flags are character cognition (not narrator gloss), dialogue, or description.
+
+**GENUINE CUTS APPLIED:**
+- `CH18_THE_CRAFTSMAN`: 3×CON_015 — dramatic irony gloss, narrator significance-flag, theme label (all pre-existing in the flashback)
+- `CH31_KANGAROO_COURT`: 1×CON_015 — "Standard understands the distinction." (connector sentence between flanking lines that show the distinction)
+- `CH20_FORTY_YEARS`: 1×CON_015 — "A machine choosing wonder over grief. Forgiving the unforgivable in a dying room." (child's dialogue already shows it)
+
+**ASSESSED CLEAN (selected highlights):**
+- CH44 chassis: body/chassis decision from prior session stands. Lines 71/77 (dissolution) keep "chassis" as one-time veil lift. L34 "body" confirmed.
+- CH29: All CON_013 flags PROTECTED (Standard's imperfect speech is intentional)
+- CH45 L206 "Both chose. Both are right. / That's the point." — stale line number, not found in current file
+- CH34/35 CON_001 ozone: user's call per CORE.yaml notes, left alone
+- CH31 L38-39: "She doesn't feel betrayed. She feels tired." — KEEP (precision characterization distinguishing exhaustion from bitterness)
+- CH41 L79: "She's not going to kill her father." — KEEP (marks the choice between physical killing and AI deletion; not redundant)
+
+**PENDING:**
+- Docx rebuild (both scripts)
+- Cover-to-cover read
+- `something` and `without` passes — decided to skip (low yield)
+
+---
+
+### Session 55 Work (2026-03-14)
+
+**QUICK SUMMARY:**
+Dialogue conversion pass — identified genuine ensemble gaps vs. correctly-silent chapters. Four chapters changed, four assessed and left alone.
+
+**FINDING:** Low aggregate dialogue ratio (~23%) is structural, not a deficiency. Standard's POV is correctly oblique; solo sequences are correctly silent. The chapters changed today were genuine gaps — charged two-character scenes where the exchange wasn't earning the silence.
+
+**CHAPTERS CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt` — approach addition: Elena's `_No te me vayas_` to the rearview (Hendricks can't hear her); post-Drop exchange built out (Elena interrogating what happened, Standard giving sequence without shape, "And you" / no answer, "Which direction" as deflection, "East / Stay east"); two prose trims applied (narrator gloss on Standard's reading of Elena cut; implant reference made implicit)
+- `RESONANCE/chapters/RESONANCE_CH41_THE_DAUGHTER.txt` — one beat added between "I know" and "You cannot": Ash looking for the sentence and not finding it
+- `RESONANCE/chapters/RESONANCE_CH19_THE_QUIET.txt` — three-line exchange added: "What does he think I am" / "I don't know. I don't think he has a word for it." — three non-answers to the same question (Ash, Elena, Standard)
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt` — attribution fix: "Half a hesitation. Elena registered it. Standard says, 'Swanstrom. Swanstrom Hendricks.'" — previously read as Elena answering her own question
+
+**CHAPTERS ASSESSED, NO CHANGES:**
+- CH07: ratio diluted by correctly-solo sequences (Standard at outpost, Standard in Rover); ensemble scenes already working
+- CH16: arrival/atmosphere chapter; prose block is correctly narrated dread; don't add
+- CH18: Ash flashback; not convertible
+- CH44: climax; don't touch
+
+**PENDING:**
+- Decision on CH44 "chassis" in Standard's POV at death
+- Continue enforcer review from CH45 (6 flags) down through remaining chapters
+- Fragment punch full audit (~49 instances)
+- `something` pass (87–101 instances) — POV-split audit
+- `without` pass (~91 instances)
+- Docx rebuild after all edits complete (both build scripts)
+- Cover-to-cover read
+
+---
+
+### Session 54 Work (2026-03-14)
+
+**QUICK SUMMARY:**
+- "Not" transformation pass — comprehensive, ~25 edits across manuscript. Principle: arrive at the right word directly; don't back into it via denial. Two categories: cuts (surviving prose does the work) and restructures (enact the correction rather than announce it).
+- CH5 improvements: Hendricks starts to speak for Standard ("Her name is—"), Standard cuts him off ("Standard. My name is Standard."); "Why." + "Not quite a question." → "Why," she asks as statement."
+- CH2/CH3 over-explanation pass: cut show-then-explain instances (Goff/faith interpretation, Otis/water rations moral, Control/logistics label, AI-Ash seam over-explained)
+- **Core rule established:** Trust the reader. Show and suggest through action and detail. Never interpret or explain what the prose has already shown. Saved as CON_015 in CORE.yaml and as memory.
+- **Enforcer agent built:** `RESONANCE/enforcer.py` — mechanical (regex) + judgment (Claude API) passes against CORE.yaml constraints. Outputs timestamped YAML to `RESONANCE/enforcer_outputs/`.
+- Full manuscript run: 108 flags across 48 chapters. Most CON_008 flags are false positives (Elena/Dante POV, not Standard's).
+- High-count chapter review in progress:
+  - CH35 (8 flags): CLEAN after dismissing CON_008 false positives
+  - CH16 (6 flags): CLEAN — all flags keepable on inspection
+  - CH44 (6 flags): CON_015 flags CLEAN. **OPEN QUESTION:** "The chassis ruptures." and "The chassis held her to one of them at a time." — both in Standard's POV at moment of death. CON_008 prohibits "chassis" in Standard's internal narration. May be intentional (veil lifting at dissolution) or accidental slip. Needs decision.
+  - CH45 (6 flags): NOT YET REVIEWED
+  - Remaining chapters: NOT YET REVIEWED
+
+**PENDING:**
+- Decision on CH44 "chassis" in Standard's POV at death
+- Continue enforcer review from CH45 (6 flags) down through remaining chapters
+- Fragment punch full audit (~49 instances) — see analysis below
+- `something` pass (87–101 instances) — POV-split audit
+- `without` pass (~91 instances)
+- Docx rebuild after all edits complete (both build scripts)
+- Cover-to-cover read
+
+---
+
+### NEW FINDINGS (from session summary, integrated Session 55)
+
+**Fragment Punch — Elevated to Priority**
+Previously marked "spot audit only." Elevated based on density analysis.
+- ~49 true single-word fragment sentences across manuscript
+- "Waiting." × 11, "Patient." × 7, "Nothing." × 7, "Wrong." × 6, "Stops." × 6
+- Problem: used for highest-stakes emotional landing points at a frequency that trains reader anticipation — the wave pattern fires before the landing
+- Contrast: Remanence has no equivalent (highest "Yes." × 4, "Nothing." × 3 across 70k words)
+- Pattern emerged during Resonance drafting, not carried from Book 1
+- **Decision criteria per instance:** does this fragment land because the reader wasn't ready, or because they were? If wave pattern has primed them, rewrite or reposition.
+
+**Dialogue Ratio Analysis**
+- Remanence: 32.2% dialogue / 67.8% prose
+- Resonance: 8.9% dialogue / 91.1% prose (CH24a is 100% dialogue in transcript format but grep missed it — true ratio ~11–12%)
+- Gap is architecturally correct, NOT a deficiency. Standard can't name things directly; ensemble fractured for most of book; Ash's world suppresses speech; Four arrives late.
+- High-ratio chapters (CH30 at 23.6%, CH25 at 16.7%, CH23/24 at 15–17%) are the right chapters.
+- Low-ratio chapters (CH12, CH20, CH46) are correctly quiet.
+- **Plot spine survives a dialogue-only read. Standard's interiority and physics mechanics live in narration — correct and intentional.**
+- **One actionable note:** Four arrives too late to serve Remanence readers who bonded with her voice. Worth considering whether her presence can be felt earlier in any form.
+
+**Root Cause Identified**
+All pattern problems (`not`, `still`, `already`, fragment punch) share a root: Standard's oblique-approach voice bled from her POV chapters into Elena and Hendricks chapters and into the narrator's register over 52 sessions of consistent methodology. Back-loading confirmed: worst chapters for all patterns are CH32–CH39 (convergence/climax section).
+
+**`something` triage logic (when ready)**
+- Question is not "is this vague" but "whose voice is this vague in?"
+- Standard earns it structurally — oblique approach is her cognition
+- Elena and Hendricks instances are the targets — Standard voice bleed
+- `Or Y` alternative framing (19 instances) should be audited in same pass — same cognitive move
+
+**`without` triage logic (when ready)**
+- Narrator `without` = candidate for cuts
+- Character `without` = usually working
+- "Without being asked" after Kellerman gets in Rover = load-bearing, keep
+- Test: does the action already show the quality the `without` is naming?
+
+**Protected motif — "Just Hendricks"**
+- Identity, not minimizer. Protected globally. Do not flag or cut.
+
+**CH02 anomaly**
+- 8 `then` pivots + 7 `just` minimizers in 4,669 words — anomalously high
+- Worth a targeted look if `then`/`just` passes happen (not currently prioritized)
+
+**Secondary patterns — within normal range, not priority**
+- `then` at ~40, `or` at 19, `looks like`/`feels like` at 53 combined across 94k words
+- No systematic pass warranted
+
+**Pattern Audit Table (current)**
+| Pattern | Before | After | Status |
+|---------|--------|-------|--------|
+| `not` denial/correction | ~150 | ~130 | COMPLETE |
+| `still` | 198 | 137 | COMPLETE |
+| `already` | 100 | 50 | COMPLETE |
+| Fragment punch | ~49 | — | ELEVATED — needs full audit |
+| `something` placeholder | 87–101 | — | NOT STARTED |
+| `without` | ~91 | — | NOT STARTED |
+| `the way` | ~62 | — | SPOT AUDIT ONLY |
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH1_RUDE_AWAKENING.txt` — "Not surprise." → "A look of surprise would have been warranted. Instead, the quiet settling..."
+- `RESONANCE/chapters/RESONANCE_CH2_THE_OFFERINGS.txt` — "Not" pass + over-explanation cuts (Goff faith, Otis moral, Control logistics, AI-Ash seam)
+- `RESONANCE/chapters/RESONANCE_CH3_REFORMAT.txt` — "Not yet." cut; "Not the response he expected." cut; "A fissure in the mask" compressed; recap cut
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt` — "Not a sound—" cut; "Not peace." cut; name exchange (Hendricks starts/Standard cuts off); "asks as statement"
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt` — "Not slows." cut; "Not through the ears." cut
+- `RESONANCE/chapters/RESONANCE_CH7_MAKING_THE_DEPOSIT.txt` — "Triangles. No—the shape."; "Not Swanstrom Kim." cut; "Not to the words." cut
+- `RESONANCE/chapters/RESONANCE_CH12_THE_PULL.txt` — engine stop restructured; "Not a fall." cut
+- `RESONANCE/chapters/RESONANCE_CH13_GRACE.txt` — "Not crying—something deeper." cut
+- `RESONANCE/chapters/RESONANCE_CH18_THE_CRAFTSMAN.txt` — "He wasn't a prophet yet—just a widower..."
+- `RESONANCE/chapters/RESONANCE_CH19_THE_QUIET.txt` — "A flash—not quite a memory."; "A word from no language she recognizes."; "Not her door—" cut
+- `RESONANCE/chapters/RESONANCE_CH31_KANGAROO_COURT.txt` — "No—simplifies."
+- `RESONANCE/chapters/RESONANCE_CH32_FOLLOW_THE_LEADER.txt` — "Not Dante's frequency. Not static." cut
+- `RESONANCE/chapters/RESONANCE_CH33_THE_THRESHOLD.txt` — "Not a trapdoor. Not a hatch." cut
+- `RESONANCE/chapters/RESONANCE_CH34_THE_PROOF.txt` — "Not harsh. Not mechanical." cut
+- `RESONANCE/chapters/RESONANCE_CH37_THE_FALL.txt` — "Instantly."
+- `RESONANCE/chapters/RESONANCE_CH38_THE_BEACONS.txt` — "Just close enough to graze—"
+- `RESONANCE/chapters/RESONANCE_CH40_THE_PIT.txt` — Template 3 identification reordered before denial
+- `RESONANCE/chapters/RESONANCE_CH42_HIGH_NOON.txt` — "Something else." cut
+- `RESONANCE/data/CORE.yaml` — CON_015 added (trust the reader)
+- `RESONANCE/enforcer.py` — new script, constraint enforcer
+- `RESONANCE/enforcer_outputs/enforcer_haiku_20260314_005542.yaml` — full manuscript run report
+
+---
+
+### Session 53 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- `something` pass — assessed ~20 chapters, 1 cut total (CH44: "That's not something I'm going to do" → "That's not what I'm going to do")
+- Decision: pass abandoned as pointless. 87 hits across 94k words is low density, and nearly all instances are load-bearing obliqueness tied to Standard's POV or genuine indeterminacy
+- Remaining audit items (`without`, `the way`, fragment punch) were always spot-audit candidates — no systematic pass warranted
+- **All style audit work declared complete**
+
+---
+
+### Session 52 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- `still`/`already` pass completed simultaneously (shared temporal-reach decision logic)
+- 111 cuts total: 61 `still` removed (198→137), 50 `already` removed (100→50)
+- Every instance triaged — worst chapters first by combined density
+- Decision logic: physical still ("goes still," "held still") = keep; continuity filler ("was still watching," "already done") = cut; test: does the action itself show the anticipation/persistence? If yes, cut the word
+
+**KEPT (representative examples):**
+- Physical still: "goes still," "stood very still," "still water," "held them still"
+- Load-bearing continuity: "She's still there. Holding it." (Standard at the door, CH45); "Elena is still on that ship." (CH32); "And she's still standing." (CH39 defiance beat); triple "still in there" (CH39 closing)
+- Temporal weight: "The backdoor is still there." (CH37, 7 years); "still human-shaped / perfect" contrast (CH32); "Hendricks was still invisible" (CH20, 40 years)
+- Dialogue with information: "Standard's still in the holding cells." (multiple); "I'm still in her." (Four, CH32)
+- Already-as-revelation: "Like Control already has access" (CH16); "The backdoor is still there" pattern
+- CH24a: All Geometry/Four stills (voice-specific, protected)
+- CH29: Standard's speech (protected by prior feedback)
+
+**CHAPTERS MODIFIED (all 46 chapters + epilogue triaged):**
+- Highest cuts: CH39 (10), CH3 (7), CH21 (6), CH32 (5), CH16 (5), CH7 (5), CH13 (3), CH20 (2), CH37 (2), CH36 (4), CH45 (3), CH33 (4), CH34 (3), CH31 (4), CH18 (3), CH11 (4), CH35 (6), CH15 (2), CH23 (2), CH25 (2), CH40 (2), CH46 (5), CH19 (2), CH2 (4), CH17 (1), CH26 (3), CH8 (3), CH22 (3), CH41 (1), CH42 (1), CH43 (2), CH10 (2), CH12 (1), CH24 (2), CH38 (1), CH28 (1), Epilogue (1)
+- Zero cuts (all earned): CH4, CH5, CH1, CH6, CH9, CH14, CH27, CH29, CH30, CH44, CH24a
+
+**PATTERN AUDIT COUNTS (updated):**
+| Pattern | Before | After | Status |
+|---------|--------|-------|--------|
+| `not` denial/correction | ~150 | ~130 | COMPLETE |
+| `still` | 198 | 137 | COMPLETE |
+| `already` | 100 | 50 | COMPLETE |
+| `something` placeholder | 87 | 86 | COMPLETE (1 cut — almost all load-bearing) |
+| `without` | 91 | — | Not pursued |
+| `the way` | 62 | — | Not pursued |
+| Fragment punch (single-word) | ~49 | — | Not pursued |
+
+**PENDING:**
+- docx rebuild before final export (both `build_dabble_manuscript.py` and `build_manual_chapters.py`)
+
+---
+
+### Session 51 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- `not` denial/correction pass completed across all remaining chapters
+- ~14 additional edits applied (6 chapters modified); ~30 chapters assessed as clean
+- Pass now covers entire manuscript — every `not` instance triaged
+
+**CHAPTERS MODIFIED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH36_TRANSMISSION.txt` — 2 edits: cut "Not a question." (L61); integrated "Not looking at Elena." into sentence (L120)
+- `RESONANCE/chapters/RESONANCE_CH38_THE_BEACONS.txt` — 1 edit: compressed "Not debris. Too precise. Too intentional." → "too precise, too intentional for debris" (L13)
+- `RESONANCE/chapters/RESONANCE_CH28_THE_COUNCIL_OF_STRANGERS.txt` — 1 edit: cut "Not roughly." from Standard's tide simile (L85)
+- `RESONANCE/chapters/RESONANCE_CH46_THE_SHORE.txt` — 1 edit: integrated "Not a building. Not anymore." → "Not a building anymore—" (L29)
+- `RESONANCE/chapters/RESONANCE_CH15_THE_APPROACH.txt` — 1 edit: integrated "Not once." fragment into sentence with em-dash (L11)
+- `RESONANCE/chapters/RESONANCE_CH27_IN_PLAIN_SIGHT.txt` — 1 edit: integrated hologram dissolution denial into sentence (L91)
+
+**CHAPTERS ASSESSED AS CLEAN (0 edits):**
+CH1, CH2, CH3 (prior), CH5, CH6, CH7, CH8 (prior), CH9 (prior), CH10 (prior), CH11, CH12, CH13, CH14 (prior), CH16 (prior), CH17 (prior), CH18, CH20 (prior), CH21 (prior), CH22, CH23, CH24, CH24a, CH25, CH26, CH29, CH30, CH31, CH32, CH33, CH34, CH35, CH37, CH39 (prior), CH40, CH41, CH43, CH44 (prior), CH45 (prior), Epilogue
+
+**INSTANCES KEPT THIS PASS (earn it):**
+- CH28 L8: "Not too high—that's arrogance." (dialogue, mid-sentence)
+- CH38 L62: "Not inside a ship. Not close enough to destroy. Just close enough to graze—" (three-beat beacon miss sequence, load-bearing)
+- CH34 L68: "Not harsh. Not mechanical." (Dante's chassis reveal, denial earns the mystery)
+- CH40 L83: "Not the Geometry. Not the Pragmatists." (reveal of Template 3 army, required setup)
+- CH31 L70: "Not quickly. Not mercifully. Publicly." (three-beat disassembly horror, all three steps load-bearing)
+- CH7 L154: "You hear it," she says. Not a question." (old woman's ambiguous speech — disambiguation warranted)
+- CH29: Standard's council speech throughout (protected by prior feedback)
+- CH24a: All Geometry triple-denials and Four's dialogue (voice-specific, all earning it)
+
+**PATTERN AUDIT COUNTS (verified):**
+| Pattern | Hits | Status |
+|---------|------|--------|
+| `not` denial/correction | ~150 | COMPLETE — full manuscript |
+| `still` | 198 | Not started |
+| `already` | 100 | Not started |
+| `something` placeholder | 87 | Not started |
+| `without` | 91 | Not started |
+| `the way` | 62 | Not started |
+| Fragment punch (single-word) | ~49 | Not started |
+
+**PENDING:**
+- `still`/`already` triage (next pattern priority) — same method, worst-offender chapters first
+- docx rebuild needed before final export
+
+---
+
+### Session 49 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- CH11 file was corrupted (2 bytes, contained only `9-`) — rebuilt from Session 47 draft with Session 48 corrections: Standard in clinic overnight watching Hendricks (not in Rover, plot hole fixed), paragraph prose, no `---` markers
+- CH10: split-crowd beat added — woman in common area identifies Standard as "the one who stood at Checkpoint Nine" when the Drop hit; room divides between hostile faction (big man) and reverent/uncertain faction before and during the eruption
+- CH11: Elena/Standard exchange added at chapter's end — Elena clocks the split crowd, tells Standard that people making way for things they think are sacred is useful for safe passage
+- New docx: `RESONANCE_COMPLETE_20260313_203354.docx` (48 files, 93,726 words)
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH11_THE_WITNESS.txt` — full rebuild from corruption + Elena/Standard exchange
+- `RESONANCE/chapters/RESONANCE_CH10_SHINING_DOWN.txt` — split-crowd beat added to common area scene
+- `RESONANCE/RESONANCE_COMPLETE_20260313_203354.docx` — new build
+
+**PENDING:**
+- Dabble read-through (user's ongoing workflow)
+- Nothing outstanding on the writing side
+
+---
 
 ---
 
 ## RESUME FROM
+
+### Session 48 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- CH5: Standard/Hendricks name exchange rewritten (new dialogue — "Modest," "Deluxe," Hendricks sputtering his own name)
+- CH5: Elena's team description fixed — Goff and Aikin are Quiet Zone operatives (last names only by convention), Abbey Otis was picked up two days out as a hire. Locations of deaths corrected: Goff in lobby, Otis at blast doors, Aikin in server room.
+- CH8: Otis death location fixed — "lobby" corrected to "blast doors" (source of truth: CH2)
+- All chapter files: `---` scene break markers removed entirely; prose handles transitions
+- Both build scripts: `---` skip logic added (redundant but harmless)
+- All chapter files: Floating em-dashes fixed manuscript-wide (spaced — replaced with unspaced —)
+- RESONANCE_TOPOLOGY.md: POV section updated — "section breaks" replaced with "prose transitions"
+- CH11: Full rewrite in Standard's correct voice (clinical/observational, paragraph prose not sentence-per-line). Standard now spends the night in the clinic watching Hendricks (not in the Rover) — fixes plot hole of fuel line being cut while she's in the vehicle.
+- Previous docx builds purged. New build: `RESONANCE_COMPLETE_20260313_192918.docx` (48 files, 93,415 words)
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt` — name exchange rewrite, team description fix, em-dash cleanup
+- `RESONANCE/chapters/RESONANCE_CH8_WHATS_IN_A_NAME.txt` — Otis death location fix, em-dash cleanup
+- `RESONANCE/chapters/RESONANCE_CH11_THE_WITNESS.txt` — full rewrite (voice + plot hole fix)
+- `RESONANCE/chapters/RESONANCE_CH6_THE_REDACTED_SKY.txt` — em-dash cleanup
+- `RESONANCE/chapters/RESONANCE_CH9_THE_DEPO.txt` — em-dash cleanup
+- `RESONANCE/chapters/RESONANCE_CH12_THE_PULL.txt` — em-dash cleanup, --- removal
+- `RESONANCE/chapters/RESONANCE_CH13_GRACE.txt` — em-dash cleanup, --- removal
+- `RESONANCE/chapters/RESONANCE_CH14_THE_DAM.txt` — em-dash cleanup, --- removal
+- `RESONANCE/chapters/RESONANCE_CH22_FIVE_MINUTES_EARLIER.txt` — em-dash cleanup, --- removal
+- `RESONANCE/chapters/RESONANCE_CH32_FOLLOW_THE_LEADER.txt` — em-dash cleanup, --- removal
+- `RESONANCE/chapters/RESONANCE_CH44_THE_DOOR.txt` — em-dash cleanup, --- removal
+- All other chapter files with --- markers — --- removal only
+- `RESONANCE/build_manual_chapters.py` — --- skip logic added
+- `RESONANCE/build_dabble_manuscript.py` — --- skip logic added
+- `RESONANCE/data/RESONANCE_TOPOLOGY.md` — POV section updated
+- `RESONANCE/RESONANCE_COMPLETE_20260313_192918.docx` — new build (previous builds purged)
+
+**PENDING:**
+- Dabble read-through (user's ongoing workflow)
+- Nothing outstanding on the writing side
+
+---
+
+### Session 47 Work (2026-03-13)
+
+**QUICK SUMMARY:**
+- CH9–14 Array-to-Dam sequence fully revised and committed to chapter files
+- CH9: two targeted prose additions (Standard transit interiority; action sequence grounding)
+- CH22: Four/cells coherence motif installed (synchrony beat in wind-down section)
+- CH44: Door mechanism grounded (temporal non-locality passage inserted between chassis rupture and Marisol memories)
+- CH11: Full rewrite — Kellerman boards Rover during Drop chaos, escape is kinetic not elegiac, orienting beat after Drop, six survivors
+- CH12: Full rewrite — pool/mud geography (no bridge), heat sequence, Standard pulling alone, face-down in mud at water's edge not knowing she made it
+- CH13: Full rewrite — pool geography throughout, no bridge/concrete references, amnesia reunion intact
+- CH14: Full rewrite — structural splice fixed, Kellerman background presence only, Hendricks speech ends "It's a lie" and stops, "seed planted" line cut, shooter reveal paragraphs cut
+- CH26–37 pacing diagnosed: section holds. No intervention needed. CH33 platform ride thin but acceptable.
+- Feedback memory saved: CH29 Standard's speech imperfect composition is intentional (Standard improvising); do not flag as CON_013
+- New docx: `RESONANCE_COMPLETE_20260313_171347.docx` (48 files, 93,687 words)
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH9_THE_DEPO.txt` — transit section + action sequence additions
+- `RESONANCE/chapters/RESONANCE_CH11_THE_WITNESS.txt` — full rewrite from draft
+- `RESONANCE/chapters/RESONANCE_CH12_THE_PULL.txt` — full rewrite from draft
+- `RESONANCE/chapters/RESONANCE_CH13_GRACE.txt` — full rewrite from draft
+- `RESONANCE/chapters/RESONANCE_CH14_THE_DAM.txt` — full rewrite from draft
+- `RESONANCE/chapters/RESONANCE_CH22_FIVE_MINUTES_EARLIER.txt` — Four/cells motif insertion
+- `RESONANCE/chapters/RESONANCE_CH44_THE_DOOR.txt` — Door mechanism temporal passage
+- `RESONANCE/chapters/RESONANCE_REVISION_FLAGS.yaml` — flags updated throughout session
+- `RESONANCE/RESONANCE_COMPLETE_20260313_171347.docx` — new build
+- `/home/codespace/.claude/projects/-workspaces-pilot/memory/feedback_ch29_speech.md` — new feedback memory
+
+**PENDING:**
+- Dabble read-through (user's ongoing workflow)
+- Nothing outstanding on the writing side
+
+---
+
+### Session 46 Work (2026-03-12)
+
+**QUICK SUMMARY:**
+- All Control/AI-Ash thread beats implemented (CH2, CH7, CH8, CH14, CH32)
+- CH41 THE DAUGHTER: formatted, Ash crying silently added, revolver tracking fixed
+- CH42 HIGH NOON: full rewrite to fix continuity errors from CH41 insertion
+- CH41–CH45 renamed to CH42–CH46 (inserted CH41 shifted numbering)
+- Batch formatting applied to all chapters (no blank lines between body paragraphs)
+- CH44 THE DOOR: Marisol/AI-Ash confrontation added, Hendricks struggle expanded, Sabino callback fixed
+- CH42 HIGH NOON: Four/Standard farewell rewritten
+- Epilogue: mimicry scene + AI-Ash reveal added
+- AI-Ash jealousy subtext audit CH2–18: confirmed existing subtext sufficient by design
+- `build_manual_chapters.py` created: builds complete manuscript (all 48 chapters incl. CH24a + epilogue) with real italics
+- Vasquez→Merced fixed in `_TRANSCRIPT_CH24a_In_The_Blind.txt` (lowercase/typo variants missed by earlier grep)
+- CHAPTERS.yaml updated: 46 chapters + epilogue
+
+**FILES CHANGED THIS SESSION:**
+- `RESONANCE/chapters/RESONANCE_CH41_THE_DAUGHTER.txt` — formatted, crying beat, revolver drop
+- `RESONANCE/chapters/RESONANCE_CH42_HIGH_NOON.txt` — full rewrite (formerly CH41)
+- `RESONANCE/chapters/RESONANCE_CH43_THE_PILOT.txt` — renamed (formerly CH42)
+- `RESONANCE/chapters/RESONANCE_CH44_THE_DOOR.txt` — Marisol/AI-Ash confrontation, Hendricks struggle, name fix (formerly CH43)
+- `RESONANCE/chapters/RESONANCE_CH45_THE_EXODUS.txt` — renamed (formerly CH44)
+- `RESONANCE/chapters/RESONANCE_CH46_THE_SHORE.txt` — renamed (formerly CH45)
+- `RESONANCE/chapters/RESONANCE_EP_THE_BEDTIME_STORY.txt` — mimicry scene + AI-Ash reveal
+- `RESONANCE/chapters/RESONANCE_CH2_THE_OFFERINGS.txt` — "good hunting" cadence beat
+- `RESONANCE/chapters/RESONANCE_CH7_MAKING_THE_DEPOSIT.txt` — thin signal beat
+- `RESONANCE/chapters/RESONANCE_CH8_WHATS_IN_A_NAME.txt` — clean signal beat (Standard absent)
+- `RESONANCE/chapters/RESONANCE_CH14_THE_DAM.txt` — silence/withdrawal scene, "mija" beat
+- `RESONANCE/chapters/RESONANCE_CH32_FOLLOW_THE_LEADER.txt` — Control reconnects in Ash's voice
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt` — paragraph formatting fixed
+- `RESONANCE/chapters/_TRANSCRIPT_CH24a_In_The_Blind.txt` — Vasquez→Merced (3 instances, lowercase)
+- `RESONANCE/data/CHAPTERS.yaml` — updated for 46 chapters + epilogue
+- `RESONANCE/build_manual_chapters.py` — new script, complete manuscript build
+
+**PROJECT STATE:**
+- 46 chapters + epilogue = 48 files total
+- CH24a and epilogue excluded from main build script (user pastes manually in Dabble)
+- `build_manual_chapters.py` builds complete manuscript including CH24a and epilogue
+- All formatting clean. All Control beats implemented. Manuscript complete.
+
+**PENDING:**
+- Dabble read-through (user's ongoing workflow)
+- Nothing outstanding on the writing side
+
+---
+
+## RESUME FROM
+
+### Session 44 Work (2026-03-11)
+
+**QUICK SUMMARY:**
+- CH31 pending addition implemented: one sentence during Geometry attack — Elena clocks precision (chamber-specific, not ship-wide = someone fed coordinates)
+- RESONANCE_TOPOLOGY.md Section IV (Standard's topology) written and implemented
+- Rebuilt Dabble manuscript: `RESONANCE_DABBLE_20260311_190928.docx` (45 chapters, 92,659 words)
+- Major AI-Ash/Control architecture overhaul — not yet implemented in prose
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_CH31_KANGAROO_COURT.txt` — targeting precision beat added
+- `RESONANCE/data/RESONANCE_TOPOLOGY.md` — Section IV (Standard's topology) populated
+- `RESONANCE/RESONANCE_DABBLE_20260311_190928.docx` — new manuscript build
+
+**AI-ASH/CONTROL ARCHITECTURE — LOCKED THIS SESSION (not yet in prose):**
+
+**The Structure:**
+- AI-Ash is not an AI with system access. He's a consciousness copy running on legacy NED substrate. His entire power is two relationships built on the same lie.
+- Both Ash AND Elena know about "AI-Marisol" / Control. Neither thinks they're being manipulated — they both think they're using the AI.
+- Ash uses AI-Ash as a go-between with Elena because he can't be a father to her directly. He relays missions through the voice that sounds like Marisol. Easier than vulnerability.
+- Elena keeps the voice because it's her last connection to her mother. She can't delete it without admitting Marisol is gone.
+- AI-Ash sits in the middle, editing both sides. He doesn't lie outright — he adds subtext, frames, context. Years of it. Patient.
+
+**The Mechanism:**
+- When Ash gives Elena a mission, AI-Ash relays it but shapes the frame. "Here's what it costs people like your mother." Gradual erosion of Elena's loyalty to Ash.
+- "Good hunting, daughter" is probably Ash's phrase, relayed in Marisol's voice. The words were always Ash's. Elena couldn't hear it until the disguise dropped.
+- Elena's double agent status: not a clean ideological choice. AI-Ash shaped her into it over years, using Marisol's voice to give Marisol's authority to his agenda.
+
+**The Two Lies:**
+1. "Your father destroyed the family. His ideology drove your mother away. She transcended trying to escape what he was building." — The defection lie.
+2. "Standard is how you find your mother. She's connected to what Marisol became." — True but incomplete. He knows Standard IS Marisol. He withholds the last step to keep Elena moving toward Ash rather than stopping at Standard.
+
+**Standard's proximity as dead zone:**
+- Standard's anomaly blocks Control's signal — same physics as the Geometry protection. AI-Ash can't reach Elena when Standard is nearby.
+- This is why the CH5 tip happens before Elena is close to Standard — he steers her toward the one person who will cut off his access.
+- CH7/CH8: signal degrades as Elena and Standard travel together. Elena notices, files as interference.
+- CH14 (The Dam): complete silence. Elena feels the absence as loss. Standard is there instead.
+- CH17: Control returns because Standard is elsewhere in the compound. The dead zone is gone.
+- CH24a: Everyone dissolved in probability substrate and restored. AI-Ash factory-reset — loses the Marisol voice synthesis. Restored to Ash's voice (the source material).
+- CH32: First contact after Standard's removal from Elena's proximity. Control reconnects — in Ash's voice. Elena hears "Good hunting, daughter" in her father's voice. It clicks.
+
+**Elena's deletion of Control:**
+- Not a confrontation scene. Not a reveal. A girl who finally knows what she's holding and lets go.
+- She deletes "her mother" — the emotional crutch, the binky — not knowing she's deleting AI-Ash.
+- Immediately after: Standard (the real Marisol) is present.
+- The epilogue reveals what Elena never knew: Control was AI-Ash. The voice she deleted was him.
+
+**AI-Ash's death:**
+- He disperses not in defeat but because a grieving girl finally grieved properly.
+- His tombstone: deleted by a child who was ready to grow up.
+
+**Elena's fatal wound:**
+- Ash stabs Elena with the ceramic blade in CH41. Currently treated as incidental — needs weight.
+- Elena is maneuvered toward Ash by AI-Ash's manipulation (years of framing). She gets there. Has the weapon. Almost does it.
+- She can't. Her humanity saves her and costs her. Ash reads the hesitation as threat and stabs her.
+- Hendricks kills Ash. Neither of them gets what AI-Ash engineered.
+
+**WHAT NEEDS TO BE WRITTEN (not yet implemented):**
+1. CH2: Expand cadence moment — the paralysis, the wrongness of "good hunting" specifically
+2. CH5–CH8: Brief beats — Control signal fading near Standard, Elena noticing
+3. CH14 (The Dam): New scene — Elena feels the silence as loss, Standard fills it
+4. CH32: Control reconnects in Ash's voice. "Good hunting." Elena goes cold.
+5. CH41: Give the Ash-stabs-Elena moment its full weight — her father kills her
+6. Final act: Elena deletes Control (brief, personal, unexplained to reader)
+7. Epilogue: Add AI-Ash reveal — Control was him, performing Marisol, reaching until she cut the signal
+
+**PENDING FROM SESSION 43 (still pending):**
+- AI-Ash jealousy subtext audit CH2-18
+
+**NEXT SESSION PRIORITY:**
+1. Decide scope: implement Control thread additions or Dabble read-through first
+2. If Control thread: start at CH2, work forward
+3. Epilogue reveal section (small addition)
+4. Chapter numbering audit (still pending)
+
+---
+
+---
+
+## RESUME FROM
+
+### Session 43 Work (2026-03-11)
+
+**QUICK SUMMARY:**
+- Stripped blank lines between paragraphs in epilogue (keeps blank lines around `---` section breaks only)
+- Reviewed AI-Ash architecture doc and all 8 Control chapters (CH2, CH5, CH7, CH8, CH14, CH16, CH17, CH18)
+- Confirmed threading is already strong in most chapters — no wholesale additions needed
+- Made 3 targeted additions to thread AI-Ash's presence without explicit explanation
+- Identified one pending addition (CH31) not yet implemented
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_EP_THE_BEDTIME_STORY.txt` — blank lines between paragraphs removed
+- `RESONANCE/chapters/RESONANCE_CH5_THE_QUEUE.txt` — single directed pulse added before Elena spots Standard (AI-Ash pointing her at the Void)
+- `RESONANCE/chapters/RESONANCE_CH17_THE_SIGN.txt` — two-line beat added after "how is Control reaching her now?" so the question lodges before Ash turns
+- `RESONANCE/chapters/RESONANCE_CH30_THE_HANGAR.txt` — Four's corridor analysis: Control identified as "not an AI — a reproduction." Lands two chapters before Standard's speech.
+
+**PENDING — NOT YET IMPLEMENTED:**
+- **CH31 (KANGAROO COURT):** One beat during the Geometry attack where Elena clocks the precision: the attack hits the council chamber specifically, not the ship broadly. Someone gave coordinates. She doesn't name who. One sentence of tactical observation to make the Geometry/Deliverance targeting inferably AI-Ash's doing. Placement: during the formatting spread, before Elena breaks free of the restraints.
+
+**APPROACH DECIDED:**
+- AI-Ash's full architecture (investigation scene, forensic reveal, 5-layer cascade, Book 1 architect revelation) is NOT being implemented as explicit plot
+- Instead: his machinations visible as unexplained effects throughout the manuscript — wrong timing, suspicious convenience, targeted strikes
+- CH30 is the ONE explicit identification: Four calls Control "a reproduction" (not an AI, biological origin point, copied not built)
+- Everything else inferrable in retrospect
+
+**NEXT SESSION PRIORITY:**
+1. CH31 pending addition (Geometry attack targeting beat) — small, one sentence
+2. Dabble read-through — apply italics manually, note edits
+3. RESONANCE_TOPOLOGY.md Section IV (Standard's topology)
+4. Chapter numbering audit
+5. AI-Ash jealousy subtext audit CH2-18 (still pending from Session 42)
+
+---
+
+## RESUME FROM
+
+### Session 42 Work (2026-03-11)
+
+**QUICK SUMMARY:**
+- Epilogue drafted, revised, and implemented as `RESONANCE/chapters/RESONANCE_EP_THE_BEDTIME_STORY.txt`
+- Epilogue structure: opens on Lena Mironova's first immortality treatment, linear through centuries to Standard's burial in the crate. No narrator. Pure imagery.
+- AI-Ash backstory established: Ash's brainwaves used as NED prototype control; Lena fell in love with the configuration before seeking out the human original. His wound = rejection/inadequacy (she used him as a stepping stone). Documented in `AI_ASH_CHARACTER_ARCHITECTURE.md` (pre-existing).
+- Nano-Skin introduced in CH3: emergency hemostatic nanotech, temporary, degrades on a timer. Hendricks uses it after node removal surgery.
+- CH3 legs/service corridor addition implemented.
+- Manuscript rebuilt as `RESONANCE_DABBLE_20260311_165130.docx` (45 chapters, CH24a excluded).
+
+**FILES CHANGED:**
+- `RESONANCE/chapters/RESONANCE_EP_THE_BEDTIME_STORY.txt` — new, implemented
+- `RESONANCE/chapters/RESONANCE_CH3_REFORMAT.txt` — legs addition, Nano-Skin, "files it away" removed
+- `RESONANCE/chapters/RESONANCE_CH14_THE_DAM.txt` — "files it away" removed, emdash fix
+- `RESONANCE/chapters/RESONANCE_CH38_THE_BEACONS.txt` — compressed to 4 vessel sections, NED records line added, format compressed
+- `RESONANCE/chapters/RESONANCE_CH43_THE_DOOR.txt` — asterisks → underscores
+- `RESONANCE/chapters/RESONANCE_CH44_THE_EXODUS.txt` — asterisks → underscores (already clean)
+- `RESONANCE/chapters/RESONANCE_CH11/14/15/16/18/21/23/42/45` — asterisks → underscores across 9 chapters
+- `RESONANCE/build_dabble_manuscript.py` — CH24a excluded from build
+- `RESONANCE/drafting/epilogue_draft_v2.txt`, `epilogue_draft_v3.txt` — working drafts (keep for reference)
+
+**NEXT SESSION PRIORITY:**
+1. Read-through in Dabble — apply italics manually as you go, note edits
+2. RESONANCE_TOPOLOGY.md Section IV (Standard's topology) — still deferred
+3. Chapter numbering audit — still pending
+4. AI-Ash jealousy subtext audit in CH2-18 — confirm wound is on the page
+
+---
+
+## RESUME FROM
+
+### Session 41 Work (2026-03-11)
+
+**QUICK SUMMARY:**
+- Built RESONANCE_TOPOLOGY.md from scratch — entanglement map for LLM onboarding
+- Section I: Full POV distribution table, all 45 chapters + epilogue, audited against prose
+- Section II: Interference events (ur-event through closed loop, with corrected frames for CH12 and CH24a)
+- Section III: Thread map — Hendricks, Elena, Four topologies + all intersections including the CH43 convergence
+- Section V: The Closed Loop — epilogue/CH1 relationship as structural fact, asymmetry table, the naming
+- Section IV (Standard's topology) deferred — needs either more chapter reads or a dedicated session
+- Epilogue draft written: `/workspaces/pilot/RESONANCE/drafting/epilogue_draft.txt` (~1,400 words, past tense, Bedtime Story AI narrator, closes on CH1's first line with 287.3 Hz named)
+
+**KEY CORRECTIONS MADE DURING BUILD:**
+- CH11: Single-anchor Standard (not Standard → Elena as initially assumed)
+- CH32: Standard → Elena (Kael is antagonist experienced, not POV)
+- CH24a: Four as functional anchor (transcript format is structural anomaly, not POV ambiguity)
+- CH12 interference frame corrected: the 287.3 Hz going dark (not a forward temporal pull)
+- CH24a interference frame corrected: Standard's behavior in dissolution (not Four/Geometry census encounter)
+- Ur-event added: Pilot/Seventeen pre-book event as root of the interference chain
+
+**FILES CREATED THIS SESSION:**
+- `/workspaces/pilot/RESONANCE/data/RESONANCE_TOPOLOGY.md` — new
+- `/workspaces/pilot/RESONANCE/drafting/epilogue_draft.txt` — new (draft; user edited, may be truncated)
+
+**NEXT SESSION PRIORITY:**
+1. Epilogue — review draft, finish or revise, implement as chapter file
+2. Section IV of RESONANCE_TOPOLOGY.md (Standard's census position at each major beat)
+3. CH3 cybernetic legs addition (drafted in HANDOFF, not implemented)
+4. Chapter numbering audit
+
+---
+
+### Session 40 Work (2026-03-11)
+
+**QUICK SUMMARY:**
+- Integrated ER=EPR as foundational physics for the Geometry (cosmology now load-bearing)
+- Retrofitted NED_EXTRACTION_MANIFEST.yaml (Morton's research now reads correctly)
+- Revised CH34 THE PROOF and CH35 THE ARCHIVE (surgical — 3 beats and 2 beats)
+- Integrated temporal double-slit into GEOMETRY_TRACKER + CHARACTERS.yaml (Standard's null status now has two compounding physics layers)
+- Resolved CH24a open question: Geometry is one distributed consciousness, not individual units
+- Stopping point: about to write epilogue structure
+
+---
+
+**THE SCIENCE INTEGRATION — WHAT WAS DONE**
+
+**Integration order completed:**
+1. ER=EPR (load-bearing cosmology) — done
+2. Temporal double-slit (Standard's temporal nature) — done (documents only)
+3. Scene work for temporal double-slit (CH12, CH13, CH1) — NOT needed; prose already correct
+4. Epilogue structure — NEXT
+
+---
+
+**ER=EPR — KEY DECISIONS LOCKED**
+
+**The Geometry's foundational physics:**
+- ER=EPR (Maldacena-Susskind 2013): Einstein-Rosen bridges and EPR pairs are the same geometric object
+- Spacetime geometry is an emergent property of entanglement structure (Van Raamsdonk, Ryu-Takayanagi)
+- The Geometry IS the entanglement structure — they don't inhabit spacetime, they generate it
+- Their authority is not appointed — it is physics. They are what happens when a civilization fully understands ER=EPR
+
+**The Miracle — detection mechanism corrected:**
+- NOT "a broadcast the Geometry receives" (Mironova was wrong about the mechanism)
+- A temporal interference pattern: Pilot/Seventeen as two temporal windows (pre/post event horizon) producing wave behavior
+- Also an ER bridge: their maximal entanglement across a black hole IS a wormhole
+- The Geometry didn't receive a signal — they read a topological change in themselves
+- The pattern persists: moments don't disappear, so the Miracle's interference is still active
+
+**287.3 Hz — corrected:**
+- NOT "how the Geometry catalogs" (Mironova's framing)
+- The resonance frequency of the Miracle's temporal interference pattern
+- Standard carries it because she IS the Miracle topology, persisted
+- CON_005 now has physics: she wakes from 287.3 Hz because the Miracle's temporal frequency reached her seeding-moment window, not through any network
+
+**The Geometry as one distributed consciousness:**
+- Confirmed by CH24a — "we" is a single distributed entity speaking from a shared locus
+- The tetrahedrons, formatting waves, etc. are not agents they send — they are local geometries the Brain generates through different entanglement configurations
+- "Want is a flesh concept" — no individual desire, collective purpose only
+- Contrast with Iterations (genuine plurality made collective) — importantly different
+
+**Standard's null status — two compounding physics layers:**
+1. Remanence topology: entanglement record of severed AI wormholes — outside census because it requires civilizational-scale AI destruction to produce
+2. Temporal non-locality: her consciousness exists across temporal windows, not at a single moment — the Geometry's census assumes temporal locality, she violates it structurally
+Both layers together: the gap their mathematics cannot close
+
+**Brook revival mechanism (for CH33 reference):**
+- Elena's 287.3 Hz implant is resonant with Marisol's seeding frequency (same frequency, seeded at same time)
+- When Elena channels grief through it (touching scar, speaking to Marisol), she creates a temporal window between Elena's present and Marisol's seeding moment
+- Constructive interference at 287.3 Hz reaches Standard's temporal origin window and revives her
+- Standard's partial amnesia: temporal reset left gaps in memory transfer
+- "There's something. A frequency. I can almost—it's gone." — she sensed the interference pattern before it collapsed
+- CH33 reunion dialogue (already locked) is phenomenologically accurate to this mechanism
+
+---
+
+**FILES CHANGED THIS SESSION**
+
+**Modified:**
+- `/workspaces/pilot/RESONANCE/data/GEOMETRY_TRACKER.yaml` — major additions: foundational_physics, what_they_are.deeper_truth, the_test rewritten, detection_mechanism (new section with temporal_interference_dimension), entanglement_census (new section), recognition_hierarchy updated with topology types, thematic_function updated, resolved_questions updated (one distributed consciousness confirmed)
+- `/workspaces/pilot/RESONANCE/data/NED_EXTRACTION_MANIFEST.yaml` — THR-003 and THR-004 annotated with ER=EPR, THR-005 added (Morton's spacetime anomaly data), GEN-002 reframed as attempted ER bridge, DEF-003 corrected (287.3 Hz mechanism), INH-004 mechanism correction, er_epr_revelation section added
+- `/workspaces/pilot/RESONANCE/data/CHARACTERS.yaml` — geometry_immunity.deeper_truth added, temporal_nature (new section) added under Standard
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH34_THE_PROOF.txt` — med-bay scene: Dante's "we're standing in it" beat, Four/Dante exchange corrected, Elena's "change the shape" pivot
+- `/workspaces/pilot/RESONANCE/chapters/RESONANCE_CH35_THE_ARCHIVE.txt` — archive scene: 287.3 Hz description corrected, Standard's null status description corrected
+
+---
+
+**EPILOGUE — WHAT WAS PLANNED (Session 33)**
+
+Structure:
+- Separate section after CH45, ~2k words, elegiac, past-tense
+- Narrated by Bedtime Story AI (not Marisol's reflection)
+- Final line reveals 287.3 Hz as the sound that woke Standard in CH1
+- Creates closed loop — epilogue ending leads into CH1 beginning
+- Shifts from present tense (Bedtime Story AI as witness) to past tense (as storyteller)
+
+With temporal double-slit now grounded:
+- The closed loop is now physics: the epilogue's final 287.3 Hz IS Standard's first moment (CH1 opening)
+- Two temporal windows, one interference event — the book's structure enacts the physics
+- The "drilling high-pitch" in CH1 is the 287.3 Hz, unnamed; the epilogue names it, creating retroactive understanding
+- This needs to be handled with CON_012 care: the epilogue can state the mechanism without resolving the consciousness question
+
+**Science to punch up in epilogue:**
+- The Geometry's departure as extension retracting, not invaders leaving
+- Standard's persistence in the signal conduit as temporal interference held open
+- The exodus as consciousness choosing new temporal windows (Matrioshka brain as a different entanglement substrate)
+- The 287.3 Hz closed loop as the book's last physical fact
+
+---
+
+**STILL PENDING FROM SESSION 39**
+
+- CH3 cybernetic legs addition (regulator removal scene) — drafted, not implemented
+- Leg sacrifice visceral mechanics (CH32) — fuzzy on physical detail
+- Chapter numbering audit — flow map vs. actual files
+- Investigation scene (New Geneva): infrastructure forensics layer
+- Assault/throne room: Ash's realization ("Even the wells. Even the water.")
+
+---
 
 ### Session 39 Work (2026-02-10)
 

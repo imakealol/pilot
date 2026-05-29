@@ -5,7 +5,7 @@ TRANSMISSION
 
 The elevator car hums as it descends.
 Elena watches the numbers tick down on the display. Thirty-four thousand kilometers. Thirty-three. The tether stretching below them like a thread into darkness, a carbon nanotube ribbon thinner than her arm holding them suspended between the station and Earth.
-The car is small—designed for cargo, not comfort. Metal walls, metal floor, metal ceiling. Two acceleration couches bolted to the deck. A viewport showing nothing but black, the tether invisible against the void, the planet still too far away to fill the glass.
+The car is small—designed for cargo, not comfort. Metal walls, metal floor, metal ceiling. Two acceleration couches bolted to the deck. A viewport showing nothing but black, the tether invisible against the void, the planet too far away to fill the glass.
 Hendricks sits across from her, eyes closed, but she knows he's not sleeping. His hand rests on the magpulse. The other keeps twitching toward his empty hip, reaching for a revolver that isn't there. She's watched him do it a dozen times since they left the station. Each time his fingers find nothing and he goes still, like a man remembering a missing limb.
 "How long?" he asks without opening his eyes.
 "Six hours to the base. Then Four takes us the rest of the way."
@@ -23,8 +23,6 @@ Her hand finds the scar on her palm. She traces the raised tissue without lookin
 Twenty-nine thousand kilometers.
 Twenty-eight.
 
----
-
 Twenty-eight thousand kilometers up, the first charge detonates.
 Elena doesn't hear it. She feels it—a shudder through the car, a wrongness in the vibration that's been constant since they started falling. The display flickers. Red warning text scrolls across the screen too fast to read.
 "What was that?"
@@ -36,8 +34,6 @@ Another shudder. Stronger. The lights flicker and die, replaced by red emergency
 Elena's hand finds the scar on her palm.
 "Can we—"
 The world comes apart.
-
----
 
 The cable snaps.
 Elena feels it before she understands it—a lurch, a wrongness, the cylinder around them suddenly untethered from everything above. Warning lights bloom across every surface. The floor tilts. The viewport shows stars wheeling past at a speed that shouldn't be possible.
@@ -62,7 +58,7 @@ They move.
 The corridor is a nightmare—surfaces that won't stay still, gravity that keeps changing its mind. Elena pulls herself along handholds that were never meant for this, Hendricks right behind her, his hand on her belt keeping them tethered. The airlock is twenty meters away. Fifteen. Ten.
 "Two minutes," Four says. "I'm coming up underneath you. When that door opens, you're going to see nothing but sky. Don't think. Just jump."
 Elena's hand finds the airlock controls. The panel is cracked, flickering, but it responds.
-"Together," Hendricks says. Not a question.
+"Together," Hendricks says.
 "Together."
 The inner door cycles open. They crowd into the tiny space—room for cargo containers, not people, but they make it fit. Elena's back against Hendricks' chest. His arms locked around her waist.
 "Thirty seconds," Four says. "I'm matching your descent. Cargo bay is open. You're going to fall about forty meters. Try to land on something soft."
@@ -74,7 +70,7 @@ Hendricks pushes them both.
 The cold hits first—Loss of pressure, loss of everything, the void swallowing them whole. Elena can't breathe, can't see, can't tell which way is down. Hendricks' arms are iron around her waist, holding them together as they tumble through nothing.
 Then: light. A shape rising beneath them. The VTOL's cargo bay, a rectangle of amber glow against the black, getting closer, getting—
 Impact.
-Elena hits the deck hard enough to see stars. Hendricks lands on top of her, driving the air from her lungs. The cargo bay doors are already closing, atmosphere rushing back in, gravity reasserting itself as Four pulls them out of freefall.
+Elena hits the deck hard enough to see stars. Hendricks lands on top of her, driving the air from her lungs. The cargo bay doors are closing, atmosphere rushing back in, gravity reasserting itself as Four pulls them out of freefall.
 "Got you." Four's voice, everywhere at once. "Stop screaming. I've got you."
 Elena wasn't screaming. She thinks.
 "How—" she manages.
@@ -82,82 +78,47 @@ Elena wasn't screaming. She thinks.
 "But it did."
 "It did." Four's voice carries something Elena hasn't heard before. Relief. "Now shut up and let me fly."
 
----
-
 The descent takes eleven minutes. Elena counts every one.
-
 Four flies like something that's died before and found it inconvenient.
-
 The first redaction bar appears at eighteen thousand meters—a vertical slash of absolute black cutting across their descent path, wide enough to swallow a city block. Elena sees it through the viewport and her stomach drops.
-
 "Four—"
-
 "I see it." The VTOL banks hard left, g-forces pressing Elena against Hendricks' chest. "Hold on."
-
 They thread the gap between two bars—darkness on either side, close enough that Elena could reach out and touch the nothing. The black doesn't reflect light. It doesn't cast shadows. It simply _isn't_.
-
 "What happens if we hit one?" Hendricks asks. His voice is steady. Curious, even.
-
 "Best case? We get simplified." Four's voice carries no fear. "Worst case? We find out what's worse than simplified."
-
 Another bar. Another hard bank. The VTOL's frame groans.
-
 "The Geometry is thicker over population centers," Four continues, conversational, as if they're not threading needles at Mach 2. "More data to edit. We're coming in over what used to be—hold on."
-
 The VTOL drops three hundred meters in two seconds. Elena's organs try to exit through her throat. Above them, a horizontal bar sweeps through the space they just occupied—a redaction so massive it blacks out a quarter of the sky.
-
 "—what used to be Cleveland," Four finishes. "As I was saying. Dense area. Lots of editorial work."
-
 Below them, the terrain is wrong. Half-rendered mountains. Perfect geometric shapes where cities used to be. Elena sees a lake that ends in a straight line—one half water, the other half nothing. A highway that curves naturally for thirty miles, then becomes a single straight line of simplified asphalt running to the horizon.
-
 "The Scrapyard," she whispers.
-
 "I prefer 'rough draft,'" Four says. "Everything down there is a first pass. The Geometry will come back for detail work eventually."
-
 Hendricks holds her against the wall, his body taking the worst of the vibrations, his breathing steady despite whatever damage he took in the fall. She can feel his heart beating through his chest—fast but controlled, the rhythm of a man who's done this before.
-
 "You're hurt," she says.
-
 "I'm fine."
-
 "You're not."
-
 "I'm fine enough." He shifts his weight. Winces. Doesn't let go. "We're almost down."
-
 At six thousand meters, the redaction bars thin out. Fewer. Smaller. The Quiet Zone is ahead—a patch of unedited reality surrounded by the patient mathematics of deletion.
-
 "There." Elena points. The shimmer is visible now—a vertical ripple in the air marking the Softing's edge. Beyond it: brown grass, real mountains, the dark shape of her father's compound. Actual chaos. Actual disorder. Actual _life_.
-
 Four aims for the gap.
-
 "The shimmer is three kilometers wide," she says. "The Softing creates a bubble—everything inside stays unsampled. But the edges erode. Every day, the bubble shrinks a little."
-
 "How long until it fails completely?"
-
 "At current rates? Eighteen months." A pause. "But the Geometry is patient. It can wait."
-
 They pass through the shimmer. Elena feels it—a pressure change, a _pop_ in her sinuses, the hum of the Softing suddenly everywhere. The air is different here. Thicker. Fighting to stay real.
-
 Below them: the Quiet Zone. Cracked concrete. Brown scrub. The compound on the horizon.
-
 Real. For now.
-
 "Everyone alive?" Four's voice.
-
 "Yes."
-
 "Good. Because this landing is going to hurt."
-
----
 
 They hit the ground harder than they should.
 The cargo bay ramp drops and red dust swirls in—the smell of dirt and smoke and something burning in the distance. The smells of Earth. The smells of home. Elena tastes blood from where she bit her tongue on landing.
 Four's voice, calmer now: "Welcome back to the Quiet Zone."
-Hendricks is already on his feet. Shaky, but upright. He checks the magpulse at his hip—still there, still functional. His hand twitches toward his other hip. Finds nothing.
+Hendricks is on his feet. Shaky, but upright. He checks the magpulse at his hip—still there, still functional. His hand twitches toward his other hip. Finds nothing.
 "The compound," he says. "How far?"
 "Twelve kilometers west. But Elena needs to disable the Softing first, or the Template 3s can't get through."
-"Then do it fast." He's checking the magpulse's charge. Not looking at Elena. "I'm not waiting."
-Elena pulls herself up. Her whole body aches from the landing—Hendricks' weight driving her into the deck, the bruises already forming. Through the open ramp, the Quiet Zone stretches brown and gray and silent in the predawn light. The way it's been silent since before she was born.
+"Then do it fast." He's checking the magpulse's charge, not looking at Elena. "I'm not waiting."
+Elena pulls herself up. Her whole body aches from the landing—Hendricks' weight driving her into the deck, the bruises forming. Through the open ramp, the Quiet Zone stretches brown and gray and silent in the predawn light. The way it's been silent since before she was born.
 "Hendricks—"
 "I know where she is. I know where he'll keep her." He moves toward the ramp. "Get the Softing down. I'll get Standard."
 "The Softing is twelve kilometers east," Four says. "I can get you there in four minutes."
@@ -174,4 +135,3 @@ The ramp seals. The VTOL lifts. Through the viewport, Hendricks is already movin
 Elena turns her mind east. Toward the Softing. Toward the thing she has to break.
 Above her, somewhere in orbit, Dante is preparing to call every AI on Earth.
 The plan is in motion. There's no stopping it now.
-

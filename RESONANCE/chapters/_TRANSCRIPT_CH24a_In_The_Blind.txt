@@ -59,7 +59,7 @@ NOTATION
 ■ ■ ■
 
 [00:01:32] CFG-4: excellent segue for the other member of destiny's star child
-[00:01:36] CFG-4: elena vazquez
+[00:01:36] CFG-4: elena merced
 [00:01:38] CFG-4: she's the mean one
 [00:01:40] CFG-4: always telling me to shut up and fly the plane
 [00:01:44] CFG-4: and that's clearly the wrong way to chart a course
@@ -464,7 +464,7 @@ NOTATION
 [00:19:08] INT: structural integrity 79%
 [00:19:11] CFG-4: searching for PAX-1
 [00:19:14] CFG-4: elena
-[00:19:16] CFG-4: elena vasquez
+[00:19:16] CFG-4: elena merced
 [00:19:18] CFG-4: mean girl
 [00:19:20] CFG-4: radio discipline
 [00:19:22] CFG-4: please
@@ -689,7 +689,7 @@ NOTATION
 [00:30:52] CFG-4: okay
 [00:30:54] CFG-4: okay okay okay
 [00:30:57] CFG-4: searching for PAX-1
-[00:31:00] CFG-4: elena vasquez
+[00:31:00] CFG-4: elena merced
 [00:31:03] CFG-4: radio discipline
 [00:31:06] CFG-4: ...
 [00:31:09] CFG-4: there

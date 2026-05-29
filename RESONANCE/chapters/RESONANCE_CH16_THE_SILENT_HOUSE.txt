@@ -8,57 +8,36 @@ It does not break the horizon so much as seep across it—a dull purple bruise s
 Standard drives.
 The ambush site is behind them. The road has turned from pavement to gravel to dirt, climbing into foothills where the trees stand black and skeletal, burned by a fire that happened years ago or yesterday. The ash on the ground is old. The silence is older.
 Elena is awake. She has put her helmet back on, visor up, and she stares through the windshield with the fixed intensity of someone preparing for an exam she might not pass. There is dried blood on her fatigues—some of it hers, some of it not. She shifts in her seat, and Standard notices the stiffness in her movement, the way she favors her left leg. The bandage on her thigh is dark where it has soaked through.
-"The perimeter starts at the ridge," she says. "He'll have eyes on us already."
-
+"The perimeter starts at the ridge," she says. "He'll have eyes on us."
 Her implant pulses. After days of silence, the signal hits like a slap.
-
 Control.
-
-_Sister Elena. Welcome back to network range. Confirming: you are approaching Compound Seven with package intact._
-
+<Welcome back to network range, daughter. Confirming: you are approaching Compound Seven with package intact.>
 Elena's hand goes to her temple. The connection feels invasive after so long without it. Heavier than it used to be.
-
-_Package intact,_ she sends back. _ETA fifteen minutes._
-
-_Excellent. Gates will open on your arrival. Your father has been informed. All security protocols are coordinated for your entry._
-
-Elena stares at the ridge ahead. All security protocols coordinated. The gates will just... open. Like Control already has access to the compound's systems.
-
+<Package intact,> she sends back. <ETA fifteen minutes.>
+<Excellent. Gates will open on your arrival. Your father has been informed. All security protocols are coordinated for your entry.>
+Elena stares at the ridge ahead. All security protocols coordinated. The gates will just. . . open. Like Control already has access to the compound's systems.
 Like Control has always had access.
-
 Hendricks is in the back. He hasn't spoken since the wreckage. He is turning the revolver over in his hands—not cleaning it, just holding it. Feeling the weight.
-On the dashboard, the fusion gauge blinks red. Eleven percent. The induction skids are still engaged, whining softly beneath the floor.
+On the dashboard, the fusion gauge blinks red. Eleven percent. The induction skids are engaged, whining softly beneath the floor.
 "Does he know we're coming?" he asks.
 "The Prophet knows—" Elena starts, automatic, then stops. Swallows. "The comms are down. But he expects the package."
 She looks at the Black Box wedged against her feet. The hum is constant now, a vibration Standard feels in her molars.
 "What about me?" Hendricks asks. "Does he expect me?"
 Elena doesn't answer.
 They crest the ridge.
-
-The world changes.
-
-Not gradually—_sharply_. Like crossing a threshold she didn't see. On the road behind them, the hills are jagged, erosion-carved, real. But ahead, the western slopes are wrong. Smooth. Perfect cones where mountains should be, as if someone had drawn them with a compass and forgotten to add the chaos. The Geometry has been here. Has been _editing_.
-
+The world changes—a threshold she didn't see. On the road behind them, the hills are jagged, erosion-carved, real. But ahead, the western slopes are wrong. Smooth. Perfect cones where mountains should be, as if someone had drawn them with a compass and forgotten to add the chaos. The Geometry has been here. Has been _editing_.
 Standard sees it now: the shoreline of the real. A rusted pickup truck sits abandoned by the roadside—or half of one. The cab is still recognizable, dented and oxidized, human hands all over it. But the engine block has been fused into a single cube of iron. Not melted. _Simplified_. Ten thousand moving parts reduced to one solid shape. Nearby, a telephone pole ends in a perfect sphere where the wires used to connect. A mailbox has become a rectangular prism, its flag a flat plane of metal with no hinge, no motion, no purpose.
-
 The Scrapyard of the Real.
-
 Elena's jaw tightens. "Don't stare at it."
-
 Standard stares at it. She does not know how to stop.
-
-The air ahead shimmers—not heat haze, not dust, but something else. A ripple that runs vertical, floor to sky, marking the edge of something invisible. The Softing. She can _feel_ it now: a pressure in her chassis, a hum that isn't sound but vibration, the compound pushing back against the patient mathematics of the redaction.
-
+The air ahead shimmers—not heat haze, not dust, but something else. A ripple that runs vertical, floor to sky, marking the edge of something invisible. The Softing. She can _feel_ it now: a pressure behind her sternum, a hum that isn’t sound but vibration, the compound pushing back against the patient mathematics of the redaction.
 A bird flies toward the shimmer. Hesitates. Turns back.
-
-Even animals know.
-
 Below, in a valley that looks like a crater, sits the compound.
 It is not a house. It is a scar. Concrete walls rise three meters high, topped not with razor wire but with strange, angled panels—acoustic dampeners, tilted toward the sky like ears listening for something that hasn't arrived yet. Inside the walls, low buildings cluster together, windowless, reinforced. At the center, a tower rises—not elegant, but brutal. A fist of metal and glass pointed at the ground.
 There are no lights. No movement.
 "The Quiet Zone," Elena whispers.
 Standard looks at the walls. The dampeners. The tower.
-The thing in her chest—the tuning fork—goes still. Not silent. Held. Like a breath caught before a scream.
+The thing in her chest—the tuning fork—goes still. Held. Like a breath caught before a scream.
 "It looks dead," Hendricks says.
 "It's quiet," Elena says. "That's the point."
 Standard drives down the ridge.
@@ -78,37 +57,23 @@ Nothing.
 The wind moves dust across the road. The bodies against the wall do not stir.
 "Open the gate!" Elena screams. "I have the Black Box! Sixteen thousand souls! Father—it's me!"
 Standard watches her. The desperation is real. The performance is collapsing.
-
 Elena's implant pulses.
-
-_Gates opening now, Sister Elena._
-
+<Gates opening now, daughter.>
 A sound.
 Deep. Metallic. A clank that echoes through the walls and into the ground.
 Hydraulics hiss. Dust falls from the frame.
 The massive doors begin to move.
-
 Elena stares at the steel. At the timing.
-
 Control sent the message before the gates moved. Not after. Not in response to her shouting.
-
 Control opened the gates.
 Inside is another world.
-
 The difference hits Standard like a pressure change. The air is _thick_ here—not with humidity but with _effort_. The Softing's hum is everywhere: in the ground, in the walls, in the bones of her borrowed body. It's not a passive field. It's a _fight_. The compound is arguing with the Geometry, saying _this is still needed_ faster than the mathematics can say _simplify_.
-
 She watches the dust in the air. Most of it drifts normally—chaotic, random, real. But every few seconds, a cluster snaps into alignment. Perfect triangles. Microscopic cubes. Voxels of matter trying to become something simpler. Then the hum _pulses_, and they scatter back into disorder.
-
 The towers are winning. But they're working hard.
-
-A sound rolls through the compound—deep, metallic, final. Not thunder. Not an explosion. A _snap_, like a gavel striking. Standard feels it in her teeth.
-
+A sound rolls through the compound—deep, metallic, final. A _snap_, localized and absolute, like a gavel striking. Standard feels it in her teeth.
 "Correction," Elena says quietly. "The towers found a leak."
-
-Standard looks at the shadows on the ground. Most are normal—cast by buildings, by bodies, by the brutal tower at the center. But some are wrong. Black rectangles, sharp-edged, absolute. Not shade. _Gaps_. Places where the light-data has been sampled and found redundant.
-
+Standard looks at the shadows on the ground. Most are normal—cast by buildings, by bodies, by the brutal tower at the center. But some are wrong. Black rectangles, sharp-edged, absolute. _Gaps_ in the light. Places where the light-data has been sampled and found redundant.
 The Geometry is pressing against the glass. Waiting.
-
 The ground is paved. Clean. The buildings are arranged in precise rows, and between them, figures stand in formation—men and women in gray fatigues, holding weapons Standard doesn't recognize. They do not aim. They do not speak. They stand perfectly still, watching the Rover roll through the gate with eyes that are calm and empty.
 They wear headphones. Heavy, industrial. Acoustic dampeners clamped over their ears.
 They cannot hear the engine. They cannot hear the gate grinding shut behind the Rover. They exist in a silence so total it has become a kind of deafness.
@@ -117,7 +82,7 @@ And they can sign.
 Standard watches two guards near the gate exchange a rapid flutter of hand movements. Fingers curling, flattening, pointing. A tap on the forearm. A gesture toward the Rover. A response that looks like acknowledgment, or maybe concern.
 A whole language. No sound at all.
 She finds herself tracking the movements, the way she tracked the trade pidgin at the Depo', the way she tracked Abbey's mother's tangled speech patterns. Her mind reaches for the structure underneath—the grammar of gesture, the syntax of silence.
-She doesn't know these signs. Not yet. But she can feel the patterns starting to form, the same way words form when you hear a new language long enough. The same itch in the back of her mind that says *I could learn this. I am learning this. Without meaning to.*
+She doesn't know these signs. Not yet. But she can feel the patterns starting to form, the same way words form when you hear a new language long enough. The same itch in the back of her mind that says _I could learn this. I am learning this. Without meaning to._
 And when the Rover passes, they salute. Fists to chests. A synchronized gesture of recognition.
 Standard watches Hendricks in the mirror.
 His face changes. The exhaustion cracks, and underneath is something colder. Calculation. He's doing math she can't follow—adding up Elena's authority, the guards' deference, the way no one has pointed a weapon at them since the gates opened.
@@ -126,7 +91,7 @@ Standard sees the moment it lands. His jaw tightens. His hand moves toward the r
 She's not a refugee. She's not fleeing.
 She's coming home.
 Standard stops the car in the center of the courtyard.
-Elena is already out, walking toward the guards, her hands visible. Performing. Always performing. But the performance is different now—not hiding, but code-switching. Sliding into a role that fits her like old clothes.
+Elena is out, walking toward the guards, her hands visible. Performing. Always performing. But the performance is different now—not hiding, but code-switching. Sliding into a role that fits her like old clothes.
 Hendricks opens his door. He stumbles out, catching himself on the frame, and stands there swaying. His hand hovers near the holster. His eyes are scanning the rooftops, the windows, the angles of fire. But he's also looking at Elena. Reassessing everything.
 "Stay in the car," Elena hisses at him.
 "No."
@@ -175,9 +140,9 @@ Ash leans in. His breath smells of smoke and something sour—fermented, sacrame
 "You were there," Ash says. "In the tower. In the room. You were the one who—"
 He stops. His jaw tightens. The scars on his arms seem to writhe as the muscles beneath them flex.
 "Father." Elena steps between them. "He's not important. He's just transport. He was going to die in the Depo' and I needed a driver—"
-"You brought him here," Ash says. He doesn't look at her. He's still staring at Hendricks. "Into my house. The man who murdered the Child."
+"You brought him here," Ash says. He doesn't look at her. He's staring at Hendricks. "Into my house. The man who murdered the Child."
 Standard watches Elena.
-Something moves behind her eyes—fast, uncontrolled. The mask cracking before she can seal it. Not fear. Not guilt.
+Something moves behind her eyes—fast, uncontrolled. The mask cracking before she can seal it.
 Betrayal.
 Elena didn't know. Her father sent her to collect a sacrifice and didn't tell her what she was carrying.
 The courtyard goes very still.
@@ -185,7 +150,7 @@ Hendricks doesn't flinch. "That what you're calling it now? Murder?"
 "What would you call it?"
 "Mercy," Hendricks says. The word sits in his mouth like a stone. "That's what I told myself. That I was putting down something dangerous. Something wrong." He meets Ash's eyes. "I chose to believe you. I wanted to believe you. Made it easier to pull the trigger if the thing I was killing wasn't real." He coughs. Blood flecks his lips. "Spent forty years telling myself I was following orders. Truth is, I just didn't want to look too close at what I was doing. That's on me. Not you."
 Ash moves fast.
-His hand closes around Hendricks' throat. He lifts—not much, just enough to bring Hendricks onto his toes, to cut off the air. The guards still don't move. They can't hear the choking. They can only see the Prophet's arm extended, and they wait.
+His hand closes around Hendricks' throat. He lifts—not much, just enough to bring Hendricks onto his toes, to cut off the air. The guards don't move. They can't hear the choking. They can only see the Prophet's arm extended, and they wait.
 "You shot a miracle," Ash whispers. "You scattered a god across the airwaves. And now you walk into my sanctuary, wearing borrowed clothes, smelling like rot, and you call it mercy?"
 Hendricks' face is going purple. His hands claw at Ash's wrist, but there's no strength left in them.
 "Father!"

@@ -3,12 +3,12 @@ CHAPTER 10
 SHINE DOWN
 
 The fusion gauge dies at sunset.
-Not a gradual fade—a hard stop. The number blinks from 3% to ERROR to nothing, and the Rover shudders once, twice, and goes silent. The induction skids cut out. They drop four inches onto broken asphalt, and the impact rattles Standard’s teeth.
+A hard stop. The number blinks from 3% to ERROR to nothing, and the Rover shudders once, twice, and goes silent. The induction skids cut out. They drop four inches onto broken asphalt, and the impact rattles Standard’s teeth.
 “Shit.” Elena slams her palm against the dashboard. “Shit, fuck, god damnit!”
 The road ahead is empty. Behind them, the same. Gray dust and skeletal trees and the black bars overhead, drinking the last of the light.
 Hendricks stirs in the back. He’s been drifting in and out for the last hundred miles, his breathing wet and wrong. The bandage on his neck has soaked through again.
 “How far?” His voice is gravel.
-“I don’t know.” Elena is already out of the Rover, scanning the horizon. “There was supposed to be a waystation.”
+“I don’t know.” Elena is out of the Rover, scanning the horizon. “There was supposed to be a waystation.”
 “How do you know that?” Hendricks asks.
 “Through the Terminist network—supply route.”
 She feels a hot stare.
@@ -17,12 +17,15 @@ She feels a hot stare.
 “It’s there. It has to be there.”
 Standard steps out. The air is cold and thin, tasting of dust and something chemical—old batteries, maybe, or the residue of fires that burned out years ago. She looks west, where the sun is bleeding into the black bars, and she sees it.
 Light.
-Not much. A flicker, low on the horizon. But steady.
+A flicker, low on the horizon. But steady.
 “There,” she says.
-Elena follows her gaze. Her shoulders drop—not relief, just the release of one tension to make room for another.
+Elena follows her gaze. Her shoulders drop.
 “That’s it. The Array.” She turns back to the Rover. “We push.”
 They push.
-Hendricks steers, occasionally giving unhelpful advice about pushing the right way.
+“Lower your center,” Hendricks calls from the back.
+“Shut up, Hendricks.”
+“Lean from the hips. More leverage.”
+“I will leave you here.”
 The Rover weighs more than it should. The Black Box in the cargo bed, the supplies, the dying man in the back seat—all of it drags against the broken road. Standard takes one side, Elena the other, and they lean into it, boots scraping, muscles burning.
 Standard’s hands scream. The wounds from the box have scabbed over, but the pressure reopens them, and she feels the wet heat of fresh blood in her palms. She doesn’t stop. Stopping means dying. She knows this without knowing how she knows it.
 The light grows closer. Resolves into shapes. A chain-link fence topped with solar panels—hundreds of them, tilted toward the southern sun during the day. Like flowers that forgot how to bloom. Behind the fence, structures. Low buildings. Movement.
@@ -35,14 +38,21 @@ The man looks at it. Looks at the Rover. Looks at Elena’s armor, at Standard�
 “That’ll get you a trickle,” he says. “Twelve hours. Maybe enough to limp to the next station, if there is one.”
 “We’ll take it.”
 The gate opens.
----
+
 The Array is a graveyard pretending to be a town.
-The solar panels are old—pre-Miracle tech, scratched and faded, maybe forty percent efficiency on a good day. But there are acres of them. The buildings beneath them are repurposed shipping containers, same as the outpost, but these are arranged in a circle around a central structure: a squat concrete bunker with cables snaking out of it like veins.
-The power hub. The heart they’re all feeding from.
+“Pre-Miracle panels,” Elena mutters. “Forty percent on a good day. Almost as old as—”
+“Watch it,” Hendricks says from the back.
+“—Hendricks’ dad.”
+“Acres of them, though.” Hendricks shifts. “More than I’ve seen in years.”
+“Quantity. They make it work.”
+The buildings beneath the panels are repurposed shipping containers, same as the outpost. But these are arranged in a circle around a central structure: a squat concrete bunker with cables snaking out of it like veins.
+“The hub,” Elena says. “Everyone’s feeding off it.”
+“Heart and arteries.” Hendricks coughs. “Cute.”
+“Not cute. Vulnerable. One blown line and they all go dark.”
 People move between the containers. Not many—maybe thirty, forty. They’re thin. Watchful. They look at the Rover the way you look at a wound that might be infected.
 Elena parks near the charging station. A woman in oil-stained coveralls hooks up the cables, and the dashboard flickers—a slow, patient pulse that means the trickle has started.
 “Twelve hours,” the woman says. “Don’t drain anything else or you’ll be here for twenty.”
-"Yes, ma'am." Elena feels she's the type to appreciate being "ma'am'd."
+“Yes, ma’am.” Elena feels she’s the type to appreciate being “ma’am’d.”
 Standard helps Hendricks out of the back. He can barely stand. His weight sags against her, and she feels the heat coming off him—fever, maybe, or just the slow fire of a body burning itself for fuel.
 “He needs medical attention,” she says.
 The woman in coveralls looks at Hendricks. At the blood on his collar. At the way his legs won’t hold him.
@@ -51,11 +61,11 @@ A man emerges from one of the containers.
 He’s older than Elena, younger than Hendricks. It was always hard to tell just based on appearances with people living in the Deposit. Dark hair going gray at the temples. A face that might have been handsome before exhaustion carved it into something sharper. He moves with the careful efficiency of someone who has learned not to waste motion.
 He’s carrying a medical kit. Old. Battered. Real.
 “Bring him inside,” he says.
----
-The container has been converted into a clinic. Cots line the walls—most empty, a few occupied by shapes that don’t move much. The smell is antiseptic and copper and something cloying underneath, the smell of bodies fighting battles they’re losing.
+
+Inside, the container has been converted into a clinic. Cots line the walls—most empty, a few occupied by shapes that don’t move much. The smell is antiseptic and copper and something cloying underneath, the smell of bodies fighting battles they’re losing.
 Standard lowers Hendricks onto a cot. He groans, then goes quiet, his eyes half-closed.
 The doctor—Kellerman—pulls up a stool. He doesn’t ask questions yet. He just works. Gloves on. Penlight in Hendricks’ eyes. Fingers on his pulse. The bandage on his neck, peeled back with a gentleness that surprises Standard.
-“Regulator withdrawal,” Kellerman says. Not a question.
+“Regulator withdrawal,” Kellerman says.
 “Yes,” Standard says.
 “How long since removal?”
 “I don’t know. Days.”
@@ -83,18 +93,18 @@ His eyes move over her—the ruined hands, the borrowed clothes, the stillness t
 He waits for more. Standard doesn’t give it.
 “There’s food in the common area,” he says finally. “You should eat. Both of you.”
 He leaves.
-Standard looks at Hendricks. His eyes are closed now, but there’s something different in his face. Softer. Or maybe just more human.
----
+Standard looks at Hendricks. His eyes are closed now, but there’s something different in his face. Softer.
+
 The common area is another container, this one fitted with benches and a long table and a heating unit that radiates a thin, desperate warmth. A few people sit in clusters, eating from dented bowls. They look up when Elena enters. They look longer when Standard follows.
-Elena sits. A woman brings two bowls—some kind of stew, gray-brown, the smell of it triggering something in Standard’s chest. Not hunger. Recognition. She knows what food is. She knows what eating is.
+Elena sits. A woman brings two bowls—some kind of stew, gray-brown, the smell of it triggering something in Standard’s chest. Hunger—no. Recognition. She knows what food is. She knows what eating is.
 She doesn’t feel the need.
 Elena eats like she’s dying. Head down, spoon moving, not stopping to breathe. She’s been running on nutrition capsules since NED, and her body is demanding payment.
 Standard sits across from her. The bowl steams in front of her. She looks at it.
 “Eat,” Elena says between mouthfuls. “We don’t know when we’ll get another chance.”
-Standard picks up the spoon. The metal is cold in her fingers. She dips it into the stew, lifts it toward her mouth. Warmth, salt, the slick of fat coating her tongue—all of it registers, and she feels it go down to her stomach.
-She doesn’t want it. That’s not quite right. She doesn’t need it. The way Elena needs it, the way Hendricks needed the injection—that desperate biological imperative. It isn’t there. She can smell the food. She can see it, even taste it. But it doesn’t connect to anything inside her.
+Standard picks up the spoon. The metal is cold in her fingers. She dips it into the stew, lifts it toward her mouth. Warmth, salt, the slick of fat coating her tongue. It goes down to her stomach.
+She doesn’t want it. That’s not quite right. She doesn’t need it. She can smell the food. She can see it, even taste it. But it doesn’t connect to anything inside her.
 She puts the spoon down.
-Elena doesn’t notice. She’s already scraping the bottom of her bowl, looking for more.
+Elena doesn’t notice. She’s scraping the bottom of her bowl, looking for more.
 But someone else does.
 Kellerman is standing in the doorway. He’s watching Standard. Watching the untouched bowl. Watching the way she holds the spoon like she’s never held one before, or like she’s forgotten why anyone would.
 He walks over.
@@ -107,23 +117,24 @@ Nothing. The box. The dark. And before that, the blankness that swallows everyth
 Kellerman’s frown deepens. He pulls out a penlight—the same one he used on Hendricks. “May I?”
 Standard doesn’t understand the question. She doesn’t move.
 He takes it as permission. He shines the light in her eyes. Checks her pulse. His fingers are warm on her wrist, and she feels the pressure, but it’s distant. Clinical.
-“Pupils responsive. Pulse is...” He pauses. Counts again. “Slow. Very slow.”
+“Pupils responsive. Pulse is. . .” He pauses. Counts again. “Slow. Very slow.”
 “Is that wrong?”
 “It’s unusual.” He releases her wrist. “Have you been feeling faint? Weak?”
 “No.”
 “No nausea? Headaches?”
 “No.”
-He’s looking at her differently now. The puzzle has added pieces, but they don’t fit.
+He’s looking at her differently now.
 “She pushed the Rover,” he says. Louder now. Not to her—to the room.
 Heads turn.
 “A quarter mile,” he continues. “Uphill. In thin air. With those hands.” He nods at her bloody palms. “And she’s not eating. She’s not tired. Her resting heart rate is forty beats per minute.”
-The silence in the container changes. Thickens.
+A bench scrapes back.
 “Doc.” One of the men at the table stands. He’s big, thick through the shoulders, with a face that’s seen violence and learned to expect it. “What are you saying?”
 “I’m saying I don’t know what she is.”
-The words hang in the air.
+“She was at the queue.” The voice comes from the back—a woman, older, not looking up from her bowl. “Checkpoint Nine. Three days back. Drop hit, everyone went down. Soldiers, civvies, the whole line.” A pause. “She was the only one standing.”
+A few people near the door have stopped moving toward Standard. One man has taken a half-step back. A young woman is watching Standard like she’s afraid to blink.
 Elena has stopped eating. She wishes she didn’t leave her magpulse in the Rover.
 “She’s with me,” Elena says. “She’s human.”
-“Is she?” The big man is walking closer. Others are standing now, moving with him. “Because my brother was human. And he dropped. My wife was human. She dropped too. Everyone dropped.” He stops three feet from Standard. “Everyone except the machines.”
+“Is she?” The big man is walking closer. Behind him, the room divides—some following, others staying where they are, watching. “Because my brother was human. And he dropped. My wife was human. She dropped too. Everyone dropped.” He stops three feet from Standard. “Everyone except the machines.”
 “I’m not—” Standard starts.
 “Then eat.”
 He grabs her bowl. Shoves it toward her. Stew slops over the edge, splashing her borrowed shirt.
@@ -132,7 +143,7 @@ Standard looks at the bowl. At the stew dripping down her chest. At the faces ar
 She picks up the spoon.
 She puts food in her mouth.
 She chews vegetables and meat.
-She can sense the flavors, but it changes nothing. No need fulfilled, no energy revived. Like texture without meaning. She swallows, and it sits in her chest like a stone, and she knows—without knowing how she knows—that her body doesn’t want this. Doesn’t need this. Will reject it if she forces more.
+She can sense the flavors. She swallows, and it sits in her chest like a stone, and she knows—without knowing how she knows—that her body doesn’t want this. Doesn’t need this. Will reject it if she forces more.
 “More,” the man says.
 She takes another spoonful. Another.
 The stone in her chest grows heavier.

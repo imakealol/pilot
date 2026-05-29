@@ -4,20 +4,18 @@ CHAPTER 32
 FOLLOW THE LEADER
 
 A hand closes around her throat.
-Her fingers are still reaching for the other restraint, still brushing the clasp, almost there—and then she isn't reaching anymore. She's being dragged.
+Her fingers are reaching for the other restraint, brushing the clasp, almost there—and then she isn't reaching anymore. She's being dragged.
 Kael.
 His face is wild. The grief cracked open now, the rage pouring through. Half the chamber is gone—consumed by perfect planes, by angles that shouldn't exist—and his delegation with it. But he's still here. He survived. And he's not running.
 "You don't get to escape," he says. His voice is barely human. "You don't get to walk away."
 The restraints on her ankles tear free as the frame buckles—not her strength, just cheap metal failing under stress. He hauls her toward a side door, one the Geometry hasn't reached yet.
-Standard fights. Claws at his arm with her free hand. But her right wrist is still locked in the broken restraint, the metal biting into her skin, and her shoulder is torn from pulling, and he's stronger than he looks. Stronger than grief should allow.
+Standard fights. Claws at his arm with her free hand. But her right wrist is locked in the broken restraint, the metal biting into her skin, and her shoulder is torn from pulling, and he's stronger than he looks. Stronger than grief should allow.
 "The Geometry takes everything." He's not talking to her. He's talking to himself. To something he won't name. "Everything human. Everything pure. But you—you walk through it like it's nothing. Like it's yours."
-The side door opens. A corridor, still intact. Emergency lighting, red and stuttering.
+The side door opens. A corridor, intact. Emergency lighting, red and stuttering.
 Standard tries to plant her feet. The floor is slick—condensation, or something worse—and she can't find purchase. Her heel catches on a seam, holds for half a second, and then he yanks and she's moving again.
 "If the Geometry wants you," he says, "then I'm going to find out why."
 Behind them, the door seals. Through the small viewport, Standard watches the Council chamber collapse into perfect, terrible planes. The space where she stood is untouched. A gap in the pattern that's eating the world.
 Then Kael pulls her around a corner and the viewport is gone.
-
----
 
 The corridors blur.
 Red light. Gray walls. The distant sound of alarms she can hear through the metal but not through the air—the ship screaming in frequencies she can't name. Kael moves fast, navigating by memory or instinct, and Standard can do nothing but be dragged.
@@ -31,7 +29,7 @@ They reach a hangar. Smaller than the main bay—a service dock, maybe, or emerg
 "Bishop. We thought you were—"
 "Get us in the air." Kael shoves Standard toward the ramp. "Now."
 The men don't ask questions. They don't look at her too closely. They just move.
-Standard stumbles up the ramp. Her knees hit the deck—cold metal, vibrating with engine warmup. The shuttle is cramped, built for speed rather than comfort. Kael pushes her into a corner and binds her wrists together with a length of cable. The broken restraint is still attached to her right arm. He doesn't bother removing it.
+Standard stumbles up the ramp. Her knees hit the deck—cold metal, vibrating with engine warmup. The shuttle is cramped, built for speed rather than comfort. Kael pushes her into a corner and binds her wrists together with a length of cable. The broken restraint is attached to her right arm. He doesn't bother removing it.
 "You're making a mistake," Standard says.
 Kael crouches in front of her. His face is close enough that she can see the burst capillaries in his eyes, the grief carved into every line.
 "I've spent thirty years hunting your kind," he says. "Thirty years teaching people that machines are the enemy. That the singularity would devour us all." His voice cracks. "And then the Geometry came. And it proved me right. Except—"
@@ -46,8 +44,6 @@ I know who holds my leash.
 The cable bites into her wrists. The hum in her chest is quiet. Patient. Waiting for something she can't name.
 She is cargo again.
 But cargo can be recovered.
-
----
 
 The cell is small. The cell is dark. The cell is shaking.
 Elena counts the impacts through the wall. Three in the last minute. Each one closer than the last. Each one followed by that absence of sound—the silence that has weight, that presses against the ears like pressure underwater.
@@ -81,8 +77,6 @@ Hendricks' face goes still. "He's taking her to Ash."
 "We have to go after her."
 "We will. But first we have to not die." Four's voice crackles. "Main hangar. Dante's meeting us there. Move."
 They run.
-
----
 
 The corridors unmake themselves behind them.
 Elena doesn't look back. She learned that in the tower, in NED, in every firefight she's survived: you don't look at what's chasing you. You look at where you're going.
@@ -128,7 +122,7 @@ They break through the cloud layer. Below them, the Geometry's edge—that perfe
 "FOUR—"
 "I'm not going in. I'm going along."
 The VTOL banks, following the deletion boundary. Skimming it. Close enough that Elena can see the shapes inside—the crystalline perfection, the absence of meaning. Close enough that one wrong move would end them.
-Behind them, the Geometry doesn't follow. It's still focused on the Deliverance, on the feast of pattern and signal that's dying in the sky.
+Behind them, the Geometry doesn't follow. It's focused on the Deliverance, on the feast of pattern and signal that's dying in the sky.
 "They can't track us this close to the edge," Four says. "Too much interference. We're invisible."
 "We're insane."
 "Also that."
@@ -148,6 +142,21 @@ He looks at her for a long moment. Eighteen years old. Ash's daughter. The girl 
 "Geneva. Then we get her back."
 "Then we get her back."
 Four's voice, quieter: "Course confirmed. ETA: six hours."
+The VTOL settles into cruise. Hendricks' breathing evens out in the dark.
+Elena's implant pulses.
+A data packet, unfolding the way it always has.
+<Elena. Signal reestablished after extended gap. Confirm status and package integrity. Last confirmed position: Sovereignty vessel, New Geneva sector. Please confirm current heading and mission progress.>
+The words are right. The cadence is almost right.
+Almost.
+She sends back before she thinks: <Father?>
+A pause. Longer than processing lag.
+Then the synthesis settles back over it—her mother's cadence returning, smooth and familiar, like a coat pulled on in a hurry.
+<Apologies for the signal degradation, Elena. Reconnection protocols sometimes introduce interference. Please confirm package status.>
+Elena stares at the dark ceiling of the cargo bay.
+<Confirmed,> she sends. <Package secure.>
+<Good. Resume heading. Your father will debrief on arrival. Good hunting, daughter.>
+The connection holds. The voice is right again—exactly as it always was.
+She sits with her hands flat on her thighs and doesn't move for a long time.
 Elena closes her eyes. The hum points west.
 Standard will have to hold on.
 

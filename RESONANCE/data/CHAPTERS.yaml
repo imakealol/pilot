@@ -37,7 +37,7 @@ chapter_states:
       significance: "Spy mission accomplished before heist begins"
 
   ch3:
-    title: "The Descent"
+    title: "Reformat"
     pov: "Hendricks / Standard"
     tense: "Past (flashback) → Present"
     location: "Apartment"
@@ -48,7 +48,7 @@ chapter_states:
     status: "Complete"
 
   ch4:
-    title: "The Descent"
+    title: "Standard Issue"
     pov: "Standard"
     tense: "Present"
     location: "Stairwell"
@@ -78,7 +78,7 @@ chapter_states:
 
   ch6:
     title: "The Redacted Sky"
-    pov: "Standard"
+    pov: "Standard / Elena"
     tense: "Past"
     location: "Rover at Checkpoint (post-Drop)"
     characters_present: ["STANDARD", "ELENA", "HENDRICKS"]
@@ -244,7 +244,7 @@ chapter_states:
       - "Something 'clicking into place'"
 
   ch13:
-    title: "Forty Years"
+    title: "Grace"
     pov: "Hendricks"
     tense: "Present / Past"
     location: "The Pit (cistern)"
@@ -1339,14 +1339,50 @@ chapter_states:
   # NOTE: Chapter numbering was updated in Session 32 (2026-01-18)
   # Final sequence restructured for rhythm/pacing:
   # CH40 THE PIT (Standard escape, arm swap, crash into tower)
-  # CH41 HIGH NOON (Ash confrontation + death, Four departs for sacrifice)
-  # CH42 THE PILOT (Four's relay hops, Deliverance ram, transmission, death)
-  # CH43 THE DOOR (bullet 6, Marisol reveal, Elena/Marisol reunion, door opens)
-  # CH44 THE EXODUS (Elena wakes as android, memorial ceremony, Hendricks goodbye)
-  # CH45 THE SHORE (Hendricks POV, drive to cliff, gun thrown, Marisol coda, letter)
-  # Total: 45 chapters
+  # CH41 THE DAUGHTER (Elena/Ash throne room, AI-Ash puppeteering, stabbing)
+  # CH42 HIGH NOON (VTOL crash, Standard/Ash confrontation, Hendricks kills Ash, Four departs)
+  # CH43 THE PILOT (Four's relay hops, Deliverance ram, transmission, death)
+  # CH44 THE DOOR (bullet 6, Marisol reveal, Elena/Marisol reunion, door opens)
+  # CH45 THE EXODUS (Elena wakes as android, memorial ceremony, Hendricks goodbye)
+  # CH46 THE SHORE (Hendricks POV, drive to cliff, gun thrown, Marisol coda, letter)
+  # EP  THE BEDTIME STORY (epilogue: Lena Mironova → Marisol → Standard)
+  # Total: 46 chapters + epilogue
 
-  ch45:
+  ch41:
+    title: "The Daughter"
+    pov: "Elena / Ash"
+    tense: "Present"
+    location: "Ash's compound — throne room"
+    characters_present: ["ELENA", "ASH"]
+    events: ["ELENA_CONFRONTS_ASH", "CONTROL_DELETION_ATTEMPT", "AI_ASH_PUPPETEERING", "ASH_STABS_ELENA"]
+    key_beats:
+      - "Elena arrives alone — compound dying behind her, Template 3s evacuating"
+      - "Throne room door open — he always leaves doors open, he believes in choices"
+      - "Ash at the window, back to her, Hendricks' revolver in hand (two bullets)"
+      - "'It's over.' / 'That's what your mother said.'"
+      - "Elena can't raise her arm — she loves him, and she knows it"
+      - "She opens the deletion instead — three-day-old command, activated now"
+      - "AI-Ash pushes back — knows the inside of her skull, has a map"
+      - "'Her arm rises. Or it does.' — uncertain agency, she's being piloted"
+      - "Ash recognizes the Softing quality in her face — he built this, never seen it on Elena"
+      - "He drops the revolver. Reaches for the ceramic blade."
+      - "It goes in below her ribs"
+      - "AI-Ash disperses — fragments flying apart in the static — she's back"
+      - "Ash stands over her, crying, silent"
+      - "287.3 Hz: 'Stay' underneath. The dark comes anyway."
+    ends_with: "Elena loses consciousness. Chapter ends cold."
+    word_count: ~900
+    status: "COMPLETE (Session 45)"
+    thematic_function:
+      mercy_weaponized: "Elena's decision NOT to kill Ash is what AI-Ash uses against her"
+      deletion_triggers_puppeteering: "The attempt to free herself corners AI-Ash, forces his hand"
+      ceramic_blade: "The blade Ash has carried longer than the gold — older than all of this"
+      stay: "287.3 Hz as Standard's frequency — present even here, even now"
+    plants:
+      - "Revolver on the floor — unclaimed, available for Hendricks in CH42"
+      - "AI-Ash dispersing mid-puppeteer — already fragmenting when he lets go"
+
+  ch46:
     title: "The Shore"
     pov: "Hendricks"
     tense: "Present"
@@ -1372,7 +1408,7 @@ chapter_states:
     thematic_function:
       revolver_bookends: "Bullet 1 (Child) and Bullet 6 (Standard) = same act, opposite meanings"
       kid_took_my_shot: "The sixth bullet was always for himself — Standard asked for it, took his exit"
-      just_hendricks_callback: "CH3:51, CH7:38, CH13:77, CH29:66 → CH45:237 — full circle"
+      just_hendricks_callback: "CH3:51, CH7:38, CH13:77, CH29:66 → CH46:237 — full circle"
       the_mess: "'The mess is where the meaning lives' — humanity's imperfection is the point"
     hendricks_development:
       - "Hands empty for first time in forty years"
@@ -1389,7 +1425,7 @@ chapter_states:
       - "Coordinates included — Hendricks can be found"
       - "The door stays open"
 
-  ch42_pilot:
+  ch43:
     title: "The Pilot"
     pov: "Four / Standard"
     tense: "Present"
@@ -1467,3 +1503,29 @@ chapter_states:
       - "Blackbird connection to Remanence"
       - "Standard's words traveling through time"
       - "287.3 Hz frequency echoes in Blackbird's systems"
+
+  epilogue:
+    title: "The Bedtime Story"
+    file: "RESONANCE_EP_THE_BEDTIME_STORY.txt"
+    pov: "None — pure imagery, no narrator"
+    tense: "Present"
+    location: "NED treatment room → AI-Ash substrate → Marisol's seeding moment → Standard's crate"
+    characters_present: ["LENA_MIRONOVA", "AI_ASH", "MARISOL", "STANDARD"]
+    events: ["AI_ASH_ORIGIN", "MARISOL_SEEDING", "STANDARD_IN_CRATE"]
+    key_beats:
+      - "Opens: Lena Mironova's first immortality treatment, tinnitus, AI-Ash configuration online"
+      - "AI-Ash mimics Mironova perfectly — she laughs. Establishes his capability; shows who he was before the wound."
+      - "'Save me a seat for the view' — his first words to her"
+      - "Retrospective reveal: Control was AI-Ash, performing Marisol, deleted by Elena"
+      - "Marisol's seeding moment — the frequency, the choice"
+      - "Closes: Standard buried alive in the crate, sound arriving"
+    ends_with: "Sound arriving in the dark — the book's closed loop"
+    word_count: ~1200
+    status: "COMPLETE (Session 42) — two additions pending"
+    pending:
+      - "Early mimicry scene: AI-Ash mimics Mironova, she laughs — NOT YET WRITTEN"
+      - "Retrospective AI-Ash reveal (Control was him) — NOT YET WRITTEN"
+    thematic_function:
+      closed_loop: "Ends where Book 1 begins — Standard in the crate, the Miracle incoming"
+      ai_ash_reveal: "Names what Elena never knew: the voice she deleted was him"
+      identity: "Three women across time — Lena, Marisol, Standard — one frequency"

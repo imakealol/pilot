@@ -346,7 +346,7 @@ objects:
 
   OBJ_004:
     name: "Hendricks' Revolver"
-    description: "Smith & Wesson Model 29. Antique from before the Collapse."
+    description: "Smith & Wesson Model 3 Schofield. Antique from before the Collapse."
     significance: "The weapon that killed the Child. Museum junk to scavengers."
     ammunition_tracking:
       capacity: 6

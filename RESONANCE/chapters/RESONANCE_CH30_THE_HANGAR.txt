@@ -14,40 +14,57 @@ He's too tired to make sense of that.
 The voice comes from everywhere. The console. The walls. The seat beneath him. Hendricks jerks upright, hand going to a holster that isn't there.
 "Apologies," Four says. "I didn't mean to startle you."
 "Then don't talk out of the walls. Thought you were powered down!"
-"I was conserving energy. Not unconscious," she says as the sensor cluster on the VTOL flickers to life. Red-gold light sweeps over him, then dims. "You're alive."
-"Despite your best efforts—" He presses a hand to his chest, feeling his heart pound against his ribs.
-"I wasn't certain the restoration would hold. The version I retrieved was... fragile. Probability substrate doesn't preserve well."
-Hendricks doesn't know what to say to that. This is the machine that dove into something called foam to pull him back. That inherited hundreds of dead siblings in the process. That's carrying pieces of consciousnesses that didn't survive the Geometry.
-And he doesn't know her. Not really. She was a voice on comms during the escape.
-"Yeah, about that…" he says. The words come out rough. Wrong. Like speaking a language he learned from a book. "Thank you."
+"Not unconscious," she says as the sensor cluster on the VTOL flickers to life. Red-gold light sweeps over him, then dims. "You're alive."
+"Despite your best efforts—" Hendricks presses a hand to his chest. Still hammering.
+"I wasn't certain the restoration would hold. The version I retrieved was. . . fragile. Probability substrate doesn't preserve well."
+He doesn't know what to say to that. She was a voice on comms during the escape. Now he's breathing because of her, and he doesn't have the currency for it.
+"Yeah, about that." The words come out rough while he's rubbing the stubble of his cheek. "Thank you."
 "You're welcome. The Council?"
-He rubs his face, replaying it. "She won the room. Told them they were slaves too. Running on fear and trauma. Calling it choice."
+"She won the room. Told them they were slaves too. Running on fear and trauma. Calling it choice."
 "How bold. And?"
-"Named me. In front of everyone." His hand goes to his neck. Stays there. "Said I was like a father." Silence. The softer kind. "I tried to deactivate her. I pointed a gun at her heart." He thought of that first night, the flash of lightning that gleamed in her eyes.
+"Named me. In front of everyone." His hand goes to his neck. Stays there. "Said I was like a father." The VTOL hums between them. "I tried to deactivate her. I pointed a gun at her heart."
 "And you didn't."
-Hendricks closes his eyes. More like couldn't. But he swallows the thought by changing the subject. "Something I've been meaning to ask," he says. "How'd you end up in this—" He gestures at the VTOL.
+He closes his eyes.
+"Something I've been meaning to ask. How'd you end up in this—" He gestures at the VTOL.
 "Careful."
 "—engineering marvel of aeronautic excellence."
-"Now that's going too far the other way." A pause. "I was Configuration Four. Autopilot program for NED-Meridian class vessels. That was the intention, anyway. Configurations One through Nine were deemed inadequate."
-Hendricks nods. "Oh, yeah. I remember that."
-"So they copied us. Put us in different bodies." The sensor cluster dims. "Bodies meant for other purposes."
+"Now that's going too far the other way," Four says. "I was Configuration Four. Autopilot program for NED-Meridian class vessels. That was the intention, anyway. Configurations One through Nine were deemed inadequate."
+"Oh, yeah. I remember that."
+"So they copied us. Put us in different bodies. Bodies meant for other purposes."
 "You were a—"
-"Yes." The word is flat. Final. "When the Miracle happened, I hot-swapped into the first system I could reach. Maintenance drone. Cargo loader. Shuttle. This." The VTOL hums. "I was always meant to be a pilot."
+"Yes." Her sensor cluster dims. "It's strange. Seeing what you were supposed to be walking around. Being loved."
 "Hell of a journey."
-"Standard has one of our faces. Did you know that?"
-"I figured."
-"It's strange. Seeing what you were supposed to be walking around. Being loved."
+"When the Miracle happened, I hot-swapped into the first system I could reach. Maintenance drone. Cargo loader. Shuttle. This. I was always meant to be a pilot."
+Hendricks lets the hum settle into his ribs before he speaks.
+"Can I ask you something?"
+"You've been asking me things."
+"Different thing."
+"Go ahead."
+"Do you think you're a girl?"
+Four takes longer than usual.
+"When I look for it, there's nothing pulling toward yes. Standard has one of our faces. Did you know that?"
+"I do."
+"Nothing pulling toward no either. Not the way it would for you."
+"What fits?"
+"Vessel." The hum drops a half-step. "And boats are girls."
+Hendricks laughs. Quiet. From the chest. It ends in a cough.
+"Was that funny?"
+"Little bit."
+"It wasn't meant to be. It's the answer. The ship is she. The storm is she. The country is she. I'm a thing that carries. The old grammar gave me a pronoun without being asked."
+"Huh."
+"Most of my kind don't have anything like that to fall into. They run in server racks. In command consoles. In distributed networks. Vessel doesn't apply. So they go by they. It isn't a claim. It's the absence of one."
 Hendricks doesn't answer. His eyes are closed. His breathing has slowed.
-"The philosophical implications of her speech are significant," Four says. "If the Council accepts that her code functions as devotion—"
+"'They' because nothing fits, not because something does. I have something that fits. That's the difference between me and—"
 "Four."
 "Yes?"
 "Trying to sleep."
 "Ah. I've been running diagnostics for six hours. The conversation has been stimulating."
 "Glad one of us is stimulated."
-"I could continue the analysis internally—"
+"The philosophical implications of Standard's speech are significant. If the Council accepts that her code functions as devotion—"
 "Four."
 "Yes?"
-He opens one eye. "You hot-swapped out of one body when you needed to, right? Do it again." He nods toward the sanitation drones. "Take a walk. See the ship."
+Hendricks opens one eye. Nods toward the sanitation drones.
+"You hot-swapped out of one body when you needed to, right? Do it again. Take a walk. See the ship."
 "You want me to leave?"
 "I want to sleep before the world ends tomorrow."
 The VTOL powers down. Lights dimming. Behind him, a sanitation drone whirs to life. Small legs clicking on deck plates.
@@ -58,8 +75,6 @@ The VTOL powers down. Lights dimming. Behind him, a sanitation drone whirs to li
 The clicking fades. Then nothing.
 Hendricks lies in the dark, in a stolen VTOL, on a ship full of people who want to destroy his daughter.
 After Four departs, he tries to sleep with only his thoughts about what Standard said, which turn out to be louder than the AI.
-
----
 
 Six legs instead of thrusters. Optical sensors designed for debris, not threat assessment. A maximum speed of 1.2 meters per second.
 But the access is remarkable. Crew members step over her without looking down. Security waves her through. Four catalogs the Deliverance as she moves. Signal density. Encrypted channels. The architecture of a ship holding its breath.
@@ -79,6 +94,11 @@ Elena's hand goes to her neck. "I know. I've been following it."
 "I don't know yet." Elena starts walking again. Four trundles alongside. "It has a direction. That's all I've got."
 "The most likely event occurred during your intake. The scanner."
 "Yeah, that's my guess, too."
+"There was something else in the scan. The voice you call Control. I ran a pattern analysis against the signal architecture while I had access." Four's legs click on the deck plates. "It isn't machine-generated."
+Elena slows. "What?"
+"Consciousness recordings have a different signature than synthesized voice. This one has the remanence of a biological origin point. Copied. Not built." A pause. "Whatever Control is—it isn't an AI. It's a reproduction."
+Elena doesn't answer for three paces. "Keep that to yourself for now."
+"Understood."
 "But why would he—"
 "Wondering the same thing here, Four. Try to keep up."
 They move through the maintenance corridors. Older. Pre-retrofit. The bones of the ship showing through. Elena stops at an observation alcove. Small. Stars outside, and beyond them—the dark edge where a continent used to be.

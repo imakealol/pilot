@@ -328,7 +328,7 @@ Not binary Cold War — multiple factions with own turf, codes, grievances:
 - **Origin of Source Code:** Morton created it as his personal SUICIDE SWITCH—sovereignty over his own death if immortality became unbearable. Ash weaponizing Morton's private mercy into public genocide is the perversion.
 
 ### Hendricks' Revolver (Session 4 Lock)
-**What It Is:** Smith & Wesson Model 29. Antique from before the Collapse. The weapon that killed the Child in Remanence.
+**What It Is:** Smith & Wesson Model 3 Schofield. Antique from before the Collapse. The weapon that killed the Child in Remanence.
 
 **Ammunition Tracking:**
 | Shot | Target | Book/Chapter |

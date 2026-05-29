@@ -2,72 +2,64 @@ CHAPTER 7
 
 MAKING THE DEPOSIT
 
-Triangles.
-Not the word for them. The shape. Pure. Irreducible. Three points defining a plane, and she is inside the plane, she IS the plane, she is being measured—
-Something counts her. Not her breaths. Not her heartbeats. Her errors. The places where her pattern deviates from optimal. The noise in her signal. The remanence.
-It doesn’t hate her. Hate would require preference. It simply notes the deviation and calculates the correction.
-You are inefficient, something says. Not words. Math. A proof that ends with her subtraction.
+Triangles. No—the shape. Pure. Irreducible. Three points defining a plane, and she is inside the plane, she IS the plane, she is being measured—
+Something counts her—tallying errors, the places where her pattern deviates from optimal. The noise in her signal. The remanence.
+Preference requires a self. It has only the deviation and the correction.
+*You are inefficient,* something conveys through formulas and proofs that end with her subtraction.
 She tries to scream but screaming is noise and noise is—
 Elena jerks awake.
 The Rover. Moving. Gray light through the windshield. Standard's hands on the wheel, steady in a way that looks learned rather than natural.
 "You were talking in your sleep."
-Elena's hand goes to her temple. The implant pulses beneath her fingertips, warm in a way it shouldn't be. The dream is already dissolving—triangles, measurement, the cold logic of something that saw her as a calculation to be solved.
+Elena's hand goes to her temple. The implant pulses beneath her fingertips, warm in a way it shouldn't be. The dream dissolves—triangles, measurement, the cold logic of something that saw her as a calculation to be solved.
 "I was?" Her voice comes out rough. "What was I saying?"
 "Geometry." Standard's eyes stay on the road. "The Geometry."
-Elena stares at her. The words sit wrong in her mouth, like something she swallowed without chewing.
-
-Her implant chimes. Control.
-_Sister Elena. Status update._
-Elena blinks the sleep away. Sends back: _Forty miles from last position. Approaching outpost for resupply._
-_Good. Outpost Seven has been allocated emergency fusion cells. Water rations available for priority transport. Your credentials will be accepted._
-Elena frowns. Emergency cells? Priority allocation?
-_Why would an outpost have emergency supplies ready?_
-_Detroit processing facilities are experiencing cooling system strain. Supplies have been redistributed to support transit routes._ A pause. _Your mission serves the greater network, Sister._
-The connection cuts before Elena can respond.
-
-"Scary," she says.
-Standard doesn't laugh. Standard doesn't do anything. She just drives.
-"Where are we?"
+Elena stares at her. She didn't know that word was in there.
+"Is that what you call them?" Standard asks. "It fits."
+*But I didn't name them.*
+She presses her thumb to the back of her skull. The implant is there—warm, running. But the signal is thin. She'd had to reach for it, the way you reach for a word that won't surface. Static where the connection usually sat clean.
+*Road interference. The Geometry event had put half the network down.*
+She takes her hand away.
+"Where are we?" Elena asks.
 "Approaching an outpost. Fuel light came on two hours ago."
 "Pull in. We need cells. And we need to move him."
-Standard guides the Rover into the courtyard. Kills the engine.
-The outpost is a blister on the side of the old I-95. It isn’t a town. It is refuse that forgot to scatter—shipping containers stacked and welded, tarps sagging over whatever people are willing to trade, and the smell of bodies and burning fusion cells hanging in the air like something waiting to fall. The ground is cracked clay. Pale. Dusty where it isn’t stained. Nothing grows. The rain that came with the Drop evaporated hours ago, and now the air is thin and dry, the kind of dry that splits your lips, that makes breathing feel like a small job you have to keep remembering to do.
+Standard guides the Rover into the courtyard.
+The outpost is a blister on the side of the old I-95. It is refuse that forgot to scatter—shipping containers stacked and welded, tarps sagging over whatever people are willing to trade, and the smell of bodies and burning fusion cells hanging in the air like something waiting to fall. The ground is cracked clay. Pale. Dusty where it isn’t stained. Nothing grows. The rain that came with the Drop evaporated hours ago, and now the air is thin and dry, the kind of dry that splits your lips, that makes breathing feel like a small job you have to keep remembering to do.
 Above it all, the sky is gone.
-The black bars hang where clouds used to be. They don't move. They don't reflect. They just drink the light and give nothing back. Permanent twilight. No sun means no heat. No rain means no water.
-
-The outpost survives on rationing and barter. Water first. Everything else negotiable. Everyone here is waiting for something. No one remembers what.
-The silence afterward is thick. Heavy. It presses against the windows like something trying to get in.
+The black bars hang where clouds used to be. They hang, motionless. They absorb without reflecting. They drink the light and give nothing back. Permanent twilight. No sun means no heat. No rain means no water.
+Standard kills the engine. The silence presses against the windows like something trying to get in.
 “Help me get him out,” she says.
-Standard jumps out of the driver’s seat. Her hands find the door handle. Her legs carry her around to the back. Hendricks is deadweight. His breath rattles loose and wet, a broken machine trying to cycle. They drag him between them—Elena under his arms, Standard holding his legs—and the mud sucks at their boots with every step.
+Standard jumps out of the driver’s seat. Her hands find the door handle. Her legs carry her around to the back. Hendricks is dead weight. His breath rattles loose and wet, a broken machine trying to cycle. They drag him between them—Elena under his arms, Standard holding his legs—and the mud sucks at their boots with every step.
 A medic meets them at the triage tent. She has grease under her fingernails and a stethoscope that looks like it was stolen from a museum, or a grave. She takes Hendricks’ legs from Standard without asking.
 “Status?”
 “Regulator withdrawal.” Elena’s voice is flat. Efficient. “Systemic shock. Dehydrated.”
 They heave him onto a stretcher. The medic checks his pupils. Checks his neck. She sees the scar—fresh, pink, still healing—where the node used to be. She pauses.
-She knows what that scar means. She knows what kind of men wear those nodes.
-She doesn’t ask.
+She knows what kind of men wear those nodes.
+And she knows better than to ask.
 “Name?” She pulls out a triage tag. Her pen hovers.
-“Hendricks.”
-“Just Hendricks?”
-She remembers the name on the NED credentials. “Uh… Sabino. Sabino Hendricks.”
+Elena doesn't have one. She checks his jacket. Inner pocket.
+A credentials card. She turns it over.
+NED Chief of Security. Sabino Hendricks.
+The thought arrives in pieces. NED. Chief of Security. The sublevel. The Standing Wave that took Goff. The construct that brought Otis down. The network infrastructure Aikin pretended to struggle against.
+The architect of those empty seats had been bleeding on one of them since the queue.
+“Hendricks,” she says. “Sabino Hendricks.”
 Standard stands at the edge of the tent. She is holding the flap open. She doesn’t know why. The fabric is heavy and damp and it smells like mildew, and she is holding it, and she hears the name.
 Sabino.
-Not Swanstrom Kim.
 Elena turns. Sees her standing there. Points at the Rover.
 "Wait there. Don't move."
-Her voice is already somewhere else. Thinking about the next thing. Standard is not the next thing.
-Standard walks back to the Rover. She sits in the passenger seat. The cold seeps through the borrowed clothes. The smell of old blood and hot metal sits in her chest.
-Sabino.
+Her voice is already somewhere else, thinking about the next thing. Standard is not the next thing.
+Standard walks back to the Rover and sits. The cold seeps through the borrowed clothes, and with it the smell of old blood and hot metal.
+*Sabino.*
 The first words he ever spoke to her. She thought it was his name. She thought he was offering something—a handle, a way to know him. But now there is another name, a real name, and the first one sits in her memory like a stone she swallowed without chewing.
 What else did she accept without question?
 He came back for her on the stairs. He used bullets he was saving for something. He shook so badly he couldn’t hold a glass, but his hands were steady when he pulled the trigger. She built a structure out of those facts—he is safe, he is mine, I can follow him—and now one of the foundations is cracked.
 Maybe the others are too.
-She doesn’t know what Swanstrom Kim Hendricks means. She doesn’t know why he said it, or why he never corrected her. She only knows that a man who lies about his name might lie about other things. Might already have.
+She doesn’t know what Swanstrom Kim Hendricks means. She doesn’t know why he said it, or why he never corrected her. She only knows that a man who lies about his name might lie about other things, and might already have.
 And Elena lies too. They all lie. Maybe lying is what humans do when they’re afraid, and everyone here is afraid, and Standard is the only one who doesn’t know what to be afraid of yet.
 There is nothing holding her to the seat. No voice. No anchor. Elena said wait, but the word is dissolving, losing its shape the longer she sits with it.
 She opens the door.
 The mud takes her boot. She pulls it free. Takes another step. The mud takes that one too.
 She walks because walking feels like something. Because sitting felt like nothing. Because her body wants to move and she has forgotten how to tell it no.
-A kiosk. Rusted engine parts. She doesn’t remember walking here. A puddle. Iridescent. Oil-slick. The only wet thing she’s seen in miles. She watches the colors shift and swirl. She doesn’t know how long she watches.
+She finds herself beside a kiosk, rusted engine parts laid out around her feet. She doesn’t remember walking here. A puddle sits in the cracked clay nearby, iridescent and oil-slick—the only wet thing she’s seen in miles. She watches the colors shift and swirl. She doesn’t know how long she watches.
 A woman sits by a plastic drum, shotgun across her knees. The drum says POTABLE in faded letters. The woman’s eyes say don’t.
 People move around Standard like water around a stone. They are watching the sky. They are huddled over heating units. They are murmuring to each other, words she can’t quite catch, and they are licking their lips. Everyone is licking their cracked lips.
 A cluster of men squat around a heating unit near the water station. One is cleaning a rifle. Another is talking, low and fervent, hands moving like he’s shaping something invisible.
@@ -76,9 +68,8 @@ A cluster of men squat around a heating unit near the water station. One is clea
 “Same thing.” The first man spits into the dust. “Point is, Ash was right. Silence is the only sanctuary. The Quiet Zone’s the only place they can’t reach. The only place we will be safe.”
 “If he opens the gates.”
 “He’ll open them. For the faithful.” The older man touches the charm at his collar. “The Forgiven will inherit. The connected will burn.”
-Standard doesn’t know what Forgiven means. Moves on.
-She passes a row of stalls. Engine parts laid out on tarps. Ammunition under glass. Water vouchers in a locked case behind security glass—more precious than ammunition, more valuable than fuel. The real currency.
-And at the end of the row, standing in a doorway: a woman.
+Standard doesn’t know what "Forgiven" means. She moves on, passing a row of stalls where engine parts are laid out on tarps, ammunition is kept under glass, and water vouchers are locked behind security glass with a stationary drone mounted above the case.
+At the end of the row, a woman is standing in a doorway.
 She isn’t moving. Her hands are folded in front of her. Her eyes are open but unfocused, tracking nothing. She wears a silk slip that was white once, stained now with dust and something darker at the hem. Her feet are bare. Her lips are painted a red that’s cracked and fading.
 Standard slows.
 The woman has her face.
@@ -105,7 +96,7 @@ But he saw.
 Standard looks back at the frozen woman. The same face. The same bones. The same stillness underneath, except Standard isn’t still. Standard moves. Standard—
 “Hey.”
 A hand on her arm.
-Standard turns. The man in gray—younger than she thought. Sovereignty fatigues, worn and patched. The twisted-metal charm at his collar. He’s looking at her the way you look at merchandise.
+Standard turns. The man in gray—younger than she thought. Gray fatigues, worn and patched. The twisted-metal charm at his collar.
 “You lost?” His eyes move down her body. Up again. Assessing. “Your handler dump you?”
 Standard doesn’t answer. She doesn’t understand the question.
 “Quiet type. Nice.” He steps closer. His hand moves from her arm to her jaw, tilting her face toward the gray light. Studying the planes of it. “Good bone structure. Old model? Kept mint, though.”
@@ -117,29 +108,25 @@ The man’s face changes. The lazy assessment drains out, replaced by something 
 “I’m not lost.” Her voice sounds strange to her own ears. Flat. Cold. “And I don’t have a handler.”
 She releases his wrist. He stumbles back, cradling it against his chest. His eyes are different now. Scared.
 “Crazy malfunctioning bitch.” He’s backing away. He spits at her feet. “Someone should put you down.” He turns. Walks fast. Doesn’t look back.
-Standard stands in the mud. Her hand is shaking.
+Standing in the mud, her hand is shaking.
 She doesn't know why.
 "Hey."
 A different voice this time. Softer. Standard turns.
 A woman stands at the edge of the stalls. Young—maybe Elena's age. Dark hair pulled back. Eyes red-rimmed and hollow in a way that goes deeper than tired. She's holding a bundle of rags against her chest like it might break.
-"I saw what you did." The woman's voice cracks. "To that man."
-Standard says nothing. Her hand is still shaking.
-"You're not like the others. The ones they—" She gestures toward the doorway where the frozen synthetic still stands. "You're different."
+"I saw what you did." The woman's voice cracks. "To that man. You're not like the others. The ones they—" She gestures toward the doorway where the frozen synthetic stands. "You're different."
 "I don't know what I am."
-"My sister knew." The woman takes a step closer. "Abbey. She worked the convoys. She said there was something coming. Something that would change everything." Her voice breaks on the last word. "She didn't make it back. Last run. The Sky took her."
-Standard remembers. The heist. The woman in the corridor, reaching for the door controls. The way she fell.
-Abbey Otis.
-"I know," Standard says. "I was there."
+"My sister would have loved you. She had a name for the type that go in there." The woman takes a step closer. "Abbey. She worked the convoys. She said there was something coming. Something that would change everything." Her voice breaks on the last word. "She didn't make it back. Last run. The Sky musta' took her."
 The woman's face does something complicated. Pain and hope and something desperate underneath.
-"Was it—" She swallows. "Was it quick?"
+"You ever seen it? Someone gettin' took by them bars in the sky?"
+Standard has no way of knowing. But she looks at the woman's face—the hollow eyes, the bundle of rags held like something precious—and she answers the question that's actually being asked.
 "Yes."
-"She didn't suffer?"
+The woman's voice drops. "She didn't suffer, then?"
 "No."
 The woman nods. Tears slide down her cheeks but she doesn't wipe them away. The bundle of rags shifts against her chest.
 "My mother wants to meet you." She says it like an apology. "She's been asking. Since we heard about the convoy. She keeps saying someone's coming. Someone who can hear her."
 "Hear her?"
-"She's—" The woman hesitates. "Different. The way she talks. People don't understand. They think she's broken. But she knew Abbey was gone before anyone told her. She just knew."
-Standard looks at the frozen synthetic in the doorway. At the man in gray fatigues disappearing around a corner. At her own hands, still trembling from a violence she didn't know she had.
+"She's—" The woman hesitates. "Different. The way she talks. People don't understand. They think she's broken. But she knew Abbey was gone. She just knew."
+Standard looks at the frozen synthetic in the doorway. At the man in gray fatigues disappearing around a corner. At her own hands, trembling from a violence she didn't know she had.
 "I'll come."
 The woman—Abbey's sister—leads her through the maze of containers and tarps. The mud gives way to packed dirt, then cracked concrete. They stop at a dwelling made of welded shipping containers, a tarp stretched over the gap between them like a wound that wouldn't close.
 Inside, the light is thin. A heating unit glows in the corner. And in a chair made of salvaged car seats, an old woman sits.
@@ -148,11 +135,12 @@ She's small. Fragile in a way that looks deliberate, like she's been wearing her
 The old woman's head turns. Her eyes find Standard. And then she speaks.
 "The birds come back wrong now. Three points instead of wings. They don't land anymore. They hover. They count. The water remembers but the sky forgets, and my Abbey—my Abbey had her father's hands, did you know? Long fingers. Good for holding. Good for reaching. She reached for something at the end. I felt it. Across all that distance. She reached and she reached and the triangles—"
 She stops. Her hands stop. Her whole body goes still.
-"You hear it," she says to Standard. Not a question.
+"You hear it. I know."
 Standard listens.
-Not to the words. The words are fragments, scattered like debris after an explosion. But underneath—the rhythm. The pattern. The way certain sounds repeat, certain phrases echo, certain gestures map to certain meanings. A language built for one person, shaped by a mind that processed the world differently than others expected.
-Standard lets the pattern settle into her. Lets it find its shape.
-"You felt her die," Standard says. "The moment it happened. You felt the door open and close. And you've been asking the same question ever since, but no one understood what you were asking."
+"The birds know. Three points, I said, three points where the wings used to be, and my neighbor said I was sick, said grief does this, but I'm not sick, I'm listening. My Abbey. She used to talk to the wind when she was small. I said Abbey, the wind doesn't answer. She said Mama, you have to wait for it. I couldn't wait. I have been waiting." She touches her chest. "There's a door here. It was shut and now it's open and the cold comes through and I just need to know—did the door open on her side too? When it happened. Was she—did she feel—"
+"She felt it," Standard says.
+The old woman's hands go still.
+"The door opened on her side. She was reaching toward it when the triangles came. She was reaching toward you."
 The old woman's eyes fill with tears.
 "Was she alone?"
 "No." Standard crosses the small space. Kneels in front of the chair. Takes the old woman's hands—those constantly moving hands—and holds them still. "She was thinking of you. At the end. I saw her face. She was thinking of home."
@@ -163,9 +151,5 @@ Abbey's sister stands frozen in the doorway. Her mouth is open. Her eyes are wet
 The old woman's sobs slow. Her grip loosens. She looks at Standard with something like wonder.
 "You hear it," she says again. "The pattern underneath. Most people only hear the noise."
 Standard doesn't know what to say. She doesn't know why she can do this—why the tangled threads of the woman's speech untangled so easily in her mind, why the meaning surfaced like something rising from deep water.
-She only knows that it did. That it felt natural. That some part of her was built for exactly this.
-Finding the signal in the noise.
-She stays until the old woman falls asleep. Until Abbey's sister walks her back to the triage tent in silence, too shaken to speak. Until she finds Elena waiting by the Rover, arms crossed, face hard.
-"Where the hell were you?"
-Standard looks at her hands. Steady now. Still.
-"Listening," she says.
+She only knows that it did. That it felt natural. That some part of her had been waiting to do exactly this.
+She stays until the old woman falls asleep. Until Abbey's sister walks her back to the triage tent in silence, too shaken to speak.

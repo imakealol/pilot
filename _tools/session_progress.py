@@ -167,6 +167,7 @@ def generate_session_markdown(
     files: Dict[str, List[str]],
     categories: Dict[str, List[str]],
     accomplishments: List[str],
+    dynamics: Optional[Dict[str, str]] = None,
 ) -> str:
     """Generate session markdown document."""
     date = datetime.now().strftime('%Y-%m-%d')
@@ -188,6 +189,16 @@ def generate_session_markdown(
 
     for item in accomplishments:
         doc += f"- {item}\n"
+
+    # Dynamics block — the layer the book about the books needs
+    if dynamics and any(dynamics.values()):
+        doc += "\n## Session Dynamics\n\n"
+        if dynamics.get('redirects'):
+            doc += f"**What I redirected or overrode:** {dynamics['redirects']}\n\n"
+        if dynamics.get('surprises'):
+            doc += f"**What surprised me:** {dynamics['surprises']}\n\n"
+        if dynamics.get('friction'):
+            doc += f"**Where the friction was:** {dynamics['friction']}\n\n"
 
     doc += "\n## Files Changed\n\n"
 
@@ -344,12 +355,26 @@ def interactive_session(log: Logger) -> Dict:
             break
         accomplishments.append(line)
 
+    # Dynamics — optional, freeform
+    log.blank()
+    print("Session dynamics (press Enter to skip each):")
+    redirects = input("What did you redirect or override? ").strip()
+    surprises = input("What surprised you? ").strip()
+    friction = input("Where was the friction? ").strip()
+
+    dynamics = {
+        'redirects': redirects,
+        'surprises': surprises,
+        'friction': friction,
+    }
+
     return {
         'session_num': session_num,
         'summary': summary,
         'accomplishments': accomplishments,
         'files': files,
         'categories': categories,
+        'dynamics': dynamics,
     }
 
 
@@ -395,6 +420,7 @@ def main():
             'accomplishments': accomplishments,
             'files': files,
             'categories': categories,
+            'dynamics': None,
         }
     else:
         # Interactive mode
@@ -409,6 +435,7 @@ def main():
         data['files'],
         data['categories'],
         data['accomplishments'],
+        data.get('dynamics'),
     )
 
     # Write session file

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resonance — Manuscript Review</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #faf9f7;
+      --surface: #ffffff;
+      --border: #e0ddd8;
+      --text: #1a1a18;
+      --text-muted: #7a786f;
+      --accent: #2a5c8a;
+      --accent-light: #e8f0f8;
+      --font-reading: Georgia, 'Times New Roman', serif;
+      --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-ui);
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Top bar ── */
+    #topbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    #topbar h1 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    #chapter-select {
+      flex: 1;
+      max-width: 420px;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      font-family: var(--font-ui);
+      font-size: 14px;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .nav-btn {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--surface);
+      font-family: var(--font-ui);
+      font-size: 13px;
+      color: var(--text);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .nav-btn:hover { background: var(--accent-light); border-color: var(--accent); }
+    .nav-btn:disabled { opacity: 0.35; cursor: default; }
+
+    #chapter-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      margin-left: auto;
+    }
+
+    /* ── Main layout ── */
+    #main {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+    }
+
+    /* ── Reading pane ── */
+    #reading-pane {
+      flex: 1;
+      min-width: 0;
+      overflow-y: auto;
+      padding: 48px 56px 80px;
+      background: var(--bg);
+    }
+
+    #chapter-title {
+      font-family: var(--font-ui);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 36px;
+    }
+
+    #chapter-text {
+      font-family: var(--font-reading);
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      max-width: 640px;
+    }
+
+    #chapter-text p { margin-bottom: 1.4em; }
+    #chapter-text p:last-child { margin-bottom: 0; }
+    #chapter-text em { font-style: italic; }
+
+    .transmission {
+      font-family: var(--font-ui);
+      font-size: 15px;
+      color: #4a7fa8;
+      letter-spacing: 0.01em;
+    }
+
+    .scene-break {
+      text-align: center;
+      color: var(--text-muted);
+      margin: 2em 0;
+      font-size: 14px;
+      letter-spacing: 0.3em;
+    }
+
+    /* ── Divider ── */
+    #divider {
+      width: 1px;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+
+    /* ── Right pane ── */
+    #right-pane {
+      width: 380px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      min-height: 0;
+    }
+
+    .pane-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+
+    .pane-header span {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ── Prompt builder ── */
+    #prompt-section {
+      padding: 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    #passage-box {
+      display: none;
+      font-size: 12px;
+      color: var(--text-muted);
+      background: var(--accent-light);
+      border-left: 3px solid var(--accent);
+      padding: 7px 10px;
+      border-radius: 0 4px 4px 0;
+      line-height: 1.5;
+      position: relative;
+    }
+
+    #passage-box .box-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 3px;
+    }
+
+    #passage-preview {
+      font-style: italic;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    #clear-passage {
+      position: absolute;
+      top: 4px; right: 6px;
+      background: none; border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1;
+    }
+    #clear-passage:hover { color: var(--text); }
+
+    #question-input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: var(--font-ui);
+      font-size: 13px;
+      color: var(--text);
+      background: var(--bg);
+      resize: none;
+      min-height: 60px;
+      max-height: 120px;
+      line-height: 1.5;
+    }
+    #question-input:focus { outline: none; border-color: var(--accent); }
+    #question-input::placeholder { color: var(--text-muted); }
+
+    #copy-btn {
+      padding: 8px 14px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-family: var(--font-ui);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.15s;
+    }
+    #copy-btn:hover { background: #1e4a73; }
+    #copy-btn.copied { background: #2a7a4a; }
+
+    .hint-text {
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    /* ── Notes ── */
+    #notes-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    #notes-input {
+      flex: 1;
+      width: 100%;
+      padding: 14px;
+      border: none;
+      font-family: var(--font-ui);
+      font-size: 13px;
+      color: var(--text);
+      background: var(--surface);
+      resize: none;
+      line-height: 1.7;
+    }
+    #notes-input:focus { outline: none; }
+    #notes-input::placeholder { color: var(--text-muted); }
+
+    #notes-status {
+      font-size: 11px;
+      color: var(--text-muted);
+      padding: 4px 14px 8px;
+      flex-shrink: 0;
+    }
+
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<div id="topbar">
+  <h1>Resonance</h1>
+  <button class="nav-btn" id="prev-btn" disabled>← Prev</button>
+  <select id="chapter-select">
+    <option value="">Loading chapters…</option>
+  </select>
+  <button class="nav-btn" id="next-btn" disabled>Next →</button>
+  <span id="chapter-meta"></span>
+</div>
+
+<div id="main">
+  <div id="reading-pane">
+    <div id="chapter-title"></div>
+    <div id="chapter-text"><p style="color:#7a786f;font-family:sans-serif;font-size:14px">Select a chapter to begin.</p></div>
+  </div>
+
+  <div id="divider"></div>
+
+  <div id="right-pane">
+    <!-- Prompt builder -->
+    <div class="pane-header">
+      <span>Ask Claude</span>
+    </div>
+    <div id="prompt-section">
+      <div id="passage-box">
+        <div class="box-label">Selected passage</div>
+        <div id="passage-preview"></div>
+        <button id="clear-passage">×</button>
+      </div>
+      <textarea id="question-input" placeholder="What do you want to ask about this chapter?"></textarea>
+      <button id="copy-btn">Copy prompt to clipboard</button>
+      <p class="hint-text">Paste into Claude Code. The prompt includes chapter context and constraints.</p>
+    </div>
+
+    <!-- Notes -->
+    <div id="notes-section">
+      <div class="pane-header">
+        <span>Notes</span>
+        <span id="notes-status"></span>
+      </div>
+      <textarea id="notes-input" placeholder="Notes for this chapter…"></textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── State ──
+  let chapters = [];
+  let currentIndex = -1;
+  let currentChapter = null;
+  let selectedPassage = "";
+
+  // ── Elements ──
+  const chapterSelect = document.getElementById("chapter-select");
+  const prevBtn = document.getElementById("prev-btn");
+  const nextBtn = document.getElementById("next-btn");
+  const chapterMeta = document.getElementById("chapter-meta");
+  const chapterTitleEl = document.getElementById("chapter-title");
+  const chapterTextEl = document.getElementById("chapter-text");
+  const passageBox = document.getElementById("passage-box");
+  const passagePreview = document.getElementById("passage-preview");
+  const clearPassageBtn = document.getElementById("clear-passage");
+  const questionInput = document.getElementById("question-input");
+  const copyBtn = document.getElementById("copy-btn");
+  const notesInput = document.getElementById("notes-input");
+  const notesStatus = document.getElementById("notes-status");
+
+  // ── Init ──
+  async function init() {
+    const res = await fetch("/api/chapters");
+    chapters = await res.json();
+    chapterSelect.innerHTML = chapters.map((ch, i) =>
+      `<option value="${i}">${ch.label}</option>`
+    ).join("");
+    loadChapter(0);
+  }
+
+  // ── Chapter loading ──
+  async function loadChapter(index) {
+    if (index < 0 || index >= chapters.length) return;
+
+    // Save notes for current chapter before switching
+    if (currentChapter) saveNotes(currentChapter.id);
+
+    currentIndex = index;
+    const ch = chapters[index];
+
+    chapterSelect.value = index;
+    prevBtn.disabled = index === 0;
+    nextBtn.disabled = index === chapters.length - 1;
+
+    chapterTitleEl.textContent = "";
+    chapterTextEl.innerHTML = '<p style="color:#7a786f;font-family:sans-serif;font-size:14px">Loading…</p>';
+
+    const res = await fetch(`/api/chapter/${ch.id}`);
+    const data = await res.json();
+    currentChapter = data;
+
+    chapterTitleEl.textContent = `${ch.label}  ·  POV: ${data.pov}`;
+    chapterMeta.textContent = data.word_count ? `${String(data.word_count).replace(/\B(?=(\d{3})+(?!\d))/g, ",")} words` : "";
+    chapterTextEl.innerHTML = renderText(data.text);
+
+    clearPassage();
+    questionInput.value = "";
+    loadNotes(data.id);
+
+    // Scroll reading pane to top
+    document.getElementById("reading-pane").scrollTop = 0;
+  }
+
+  function renderText(raw) {
+    const blocks = raw.split(/\n{2,}/);
+    return blocks.map(block => {
+      const trimmed = block.trim();
+      if (!trimmed) return "";
+      if (/^[#*\-]{1,3}$/.test(trimmed)) {
+        return `<div class="scene-break">· · ·</div>`;
+      }
+      const html = escapeHtml(trimmed)
+        .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+        .replace(/&lt;([^&]+)&gt;/g, '<span class="transmission">&lt;$1&gt;</span>')
+        .replace(/\n/g, "<br>");
+      return `<p>${html}</p>`;
+    }).join("");
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // ── Notes persistence (localStorage) ──
+  function notesKey(id) { return `resonance-notes-${id}`; }
+
+  function saveNotes(id) {
+    if (!id) return;
+    localStorage.setItem(notesKey(id), notesInput.value);
+  }
+
+  function loadNotes(id) {
+    notesInput.value = localStorage.getItem(notesKey(id)) || "";
+    notesStatus.textContent = "";
+  }
+
+  let notesSaveTimer = null;
+  notesInput.addEventListener("input", () => {
+    clearTimeout(notesSaveTimer);
+    notesSaveTimer = setTimeout(() => {
+      if (currentChapter) {
+        saveNotes(currentChapter.id);
+        notesStatus.textContent = "Saved";
+        setTimeout(() => { notesStatus.textContent = ""; }, 1200);
+      }
+    }, 800);
+  });
+
+  // ── Text selection — auto-capture on mouse release ──
+  document.getElementById("reading-pane").addEventListener("mouseup", () => {
+    const sel = window.getSelection();
+    const text = sel ? sel.toString().trim() : "";
+    if (text.length < 10) return;
+
+    selectedPassage = text;
+    passagePreview.textContent = text.length > 200 ? text.slice(0, 200) + "…" : text;
+    passageBox.style.display = "block";
+  });
+
+  function clearPassage() {
+    selectedPassage = "";
+    passageBox.style.display = "none";
+    passagePreview.textContent = "";
+  }
+
+  clearPassageBtn.addEventListener("click", clearPassage);
+
+  // ── Copy prompt ──
+  copyBtn.addEventListener("click", () => {
+    if (!currentChapter) return;
+
+    const ch = chapters[currentIndex];
+    const question = questionInput.value.trim();
+
+    let prompt = `[RESONANCE — ${ch.label} | POV: ${currentChapter.pov}]\n\n`;
+
+    if (selectedPassage) {
+      prompt += `Selected passage:\n"${selectedPassage}"\n\n`;
+    }
+
+    if (question) {
+      prompt += question;
+    } else {
+      prompt += "(No question — general review of this chapter)";
+    }
+
+    prompt += `\n\n---\nConstraints reminder: CON_008 (no machine vocab in Standard POV), CON_012 (Standard's consciousness stays ambiguous), CON_013 (theme must not be explained in dialogue/narration), CON_001 (no ozone descriptor).`;
+
+    navigator.clipboard.writeText(prompt).then(() => {
+      copyBtn.textContent = "Copied!";
+      copyBtn.classList.add("copied");
+      setTimeout(() => {
+        copyBtn.textContent = "Copy prompt to clipboard";
+        copyBtn.classList.remove("copied");
+      }, 2000);
+    });
+  });
+
+  // ── Navigation ──
+  chapterSelect.addEventListener("change", () => loadChapter(parseInt(chapterSelect.value)));
+  prevBtn.addEventListener("click", () => loadChapter(currentIndex - 1));
+  nextBtn.addEventListener("click", () => loadChapter(currentIndex + 1));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.target === questionInput || e.target === notesInput) return;
+    if (e.key === "ArrowLeft" && !prevBtn.disabled) loadChapter(currentIndex - 1);
+    if (e.key === "ArrowRight" && !nextBtn.disabled) loadChapter(currentIndex + 1);
+  });
+
+  init();
+</script>
+</body>
+</html>

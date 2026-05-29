@@ -3,170 +3,207 @@ CHAPTER 2
 
 THE OFFERINGS
 
-Elena pulls her hand back from the terminal as footsteps echo behind her.
-The implant at the base of her skull settles into silence, heavier now with the extracted data clusters. It was the last thing her mother, Marisol, gave her before she walked out the door eleven years ago.
-The muffled thudding of boots arrive as she covers it with her shoulder-length dark hair.
-Goff's eyes narrow at the dying screen, but she's already turning away.
-"That wasn't in the briefing." Goff states.
-"Not in yours," Elena responds as she draws the burstmag carbine from its sling.
-
-A voice surfaces in her implant. Not speech—a data packet unfolding into words.
-_Sister Elena. Confirming receipt of infrastructure manifest. West sector cooling systems are scheduled for maintenance rotation at 0400. The water allocation for Detroit processing facilities will route through auxiliary channels during your extraction window._
+The office of Morton Kess, CEO of New England Dynamics, looks exactly like the stories. Broken glass in the corner that nobody ever came back to fix. The desk is still set for work—three screens dark, a half-empty mug of something that stopped being coffee months ago. Nobody came back for his things. Nobody came back for anything. Elena clocks it all from the terminal, fingers still working.
+Elena pulls her hand back from the terminal as the implant at the base of her skull settles into silence, somehow heavier now with the extracted data clusters. It was the last thing her mother, Marisol, gave her before she walked out the door eleven years ago.
+The muffled thudding of boots arrives as she covers it with her shoulder-length dark hair.
+Goff's eyes narrow at the dying screen, but she's turning away.
+"That wasn't in the briefing."
+"Not in yours," Elena says, her hand checking the burstmag carbine at her hip.
+A trill behind her back teeth, too rapid for language—and then it becomes language.
+<Asset confirmed. Proceed to acquisition.>
 Control. The voice is layered, synthesized, but underneath Elena hears the cadence. Her mother's cadence.
-She keeps her face neutral. Doesn't respond aloud. Just sends back a single pulse. Acknowledged.
-_Good hunting, daughter._
-The word sits wrong. Professional. Distant. Like "daughter" is just another designation in a database.
-Elena pushes it down. Focuses on the rifle in her hands.
-The lobby of New England Dynamics does not smell of ruin, but of antiseptic and wet copper, sterility failing to mask what happened here. NED had shuttered after their CEO was murdered forty stories above where they currently are moving across. Even though the few humans, mostly scientists, who worked in the massive building left as soon as they could once the Miracle occurred, once the world changed forever, the building's automated units continued doing what they were built and programmed to do: wash and wax the floors every other Tuesday, external window wipe on Wednesday, and vacuum the floors everyday. But not all of the active drones in NED are for domestic upkeep of a corporate mausoleum.
-"Seals," Elena says, not a question. She adjusts the lead-lined collar of her acoustic suit, checking the team's status in her peripheral vision. Three green indicators. Three liabilities.
-Goff has point, rifle raised, sweeping the mezzanine in textbook arcs. Otis anchors the rear, blast shield angled to cover their six. Aikin floats between, eyes on his wrist deck, reading frequencies the rest of them can't see.
+She keeps her face neutral. Doesn't respond aloud. Just sends back a single pulse. <Acknowledged.>
+<Good hunting, daughter.>
+That always took her out of any pretense that the voice was indeed her mother. She can almost believe the voice. Then it says that.
+Elena draws the burstmag carbine from its sling.
+She finds the team at the elevator bank. They've swept every floor above ground—conference rooms, server clusters, labs stripped to the walls.
+"Black box isn't here," Goff says. "Not on any floor we can reach."
+Aikin doesn't look up from his wrist deck. "The building's running something. Old NED protocols, but. . . layered." A pause. "Like it's dreaming."
+_That's cute._
+"Can you find where it's coming from?"
+"It's why your father tolerates me," he confesses. "I can get us through anything."
+Elena catches the scars at his temples: sealed ports where he used to do this directly, mind-to-machine. Now he uses his hands like the rest of them.
+"Sublevel systems. Whatever's running, it's below us."
+"Everyone, seals up," Elena says.
+Goff has point, rifle raised, sweeping the corridor in textbook arcs. Otis anchors the rear, blast shield angled to cover their six. Aikin floats between, eyes on his wrist deck.
 "Sealed and sanctified, Sister." Goff makes the sign of Silence over his chest, burned fingers catching the light—the layered scars of a Preventer boy who smashed his share of server racks before finding her father's scripture. Around his wrist, a rosary of dead capacitors clicks against his rifle stock.
-"Save the 'Our Father's' for after," Otis mutters, rolling her neck. The movement pulls her collar down, exposing the scarification on her throat—circuit patterns, Accelerationist marks, half-obscured by newer burns. She changed sides. The old faith still shows through. "Some of us are here for the water rations."
+"Save the 'Our Father's' for after," Otis mutters, rolling her neck. The movement pulls her collar down, exposing the scarification on her throat—circuit patterns, Accelerationist marks, half-obscured by newer burns. She changed sides. "Some of us are here for the water rations."
 "The Prophet says—"
 "The Prophet says a lot of things." Otis catches Elena's eye. "No offense, Princess."
-"I'm not offended." Elena moves forward, boots finding the path between debris. "Just don't expect me to explain why you died running your mouth instead of watching your sector to my father."
-Otis grins. Goff looks wounded. Aikin says nothing—just taps his wrist deck, reading frequencies the rest of them can't hear.
-"Readings are strange," Aikin says finally. "The building's running something. Old NED protocols, but... layered. Like it's dreaming."
-"Can you get us through?"
-"I can get us through anything." Not a boast. A confession. "That's why your father tolerates me."
-Elena doesn't answer. Aikin is the necessary heretic—a man who loves machines serving a movement that wants them dead. Her father needs what he does but despises what he is. She has watched Aikin carry that weight for years, never complaining, never asking for absolution.
-She wonders if he'll find it here, in the tomb of the thing he secretly loves.
-"Movement," Goff says. "Elevator bank. Doors are open."
-Elena looks. The shimmer in the air—heat haze, or something pretending to be heat haze. She tracks the dust motes. They aren't floating. They are vibrating.
+"I'm not offended." Elena moves toward the service corridor. "Just don't expect me to explain why you died running your mouth instead of watching your sector to my father."
+Otis grins. Goff looks wounded.
+"Elevators are out," Aikin says, eyes still on his wrist deck. "Whatever's running down there has the shafts. We'd be announcing ourselves the moment the car moves."
+He finds the service access two corridors over—a maintenance hatch, barely wide enough for a person in tactical gear, opening onto a vertical shaft that drops straight down into nothing. Rungs bolted into concrete. A cable rig built for equipment drops, not personnel.
+"Seventeen floors below ground," Elena says.
+"Technically—"
+"Aikin."
+Goff clips in and drops without hesitation.
+Elena goes next. The shaft takes her—stomach gone, sixty floors of corporate architecture rushing past in the dark before she can count them. The walls close enough to touch, close enough to hear—concrete and cold air and the building's hum rising toward her as she falls, getting denser and stranger with every floor, like something waking up below. She doesn't look down. There's nothing to see.
+"I just want to register," Aikin says over comms, "that this is not in my contract."
+"You don't have a contract," Otis says.
+"Then I want to register it informally."
+"Otis?" Elena says. "Do you mind?"
+"Sure thing, boss."
+The sound of a shove. Then Aikin, falling, on an open mic.
+At sublevel ten she hits the maglifter toggle. The coils engage—a thrum that starts in her chest and spreads outward—and her drop becomes a glide. The others bracket her in the dark, four columns of magnetic resistance bleeding velocity together.
+They hit the bottom soft. Aikin clears the hatch.
+Sublevel seventeen. The corridor smells like nothing—sealed air that hasn't moved in years.
+The corridor has teeth.
+Three sentry drones bank off the ceiling the moment they clear the hatch. Goff's burstmag opens the first two mid-bank—they come apart before they've finished turning. The third peels toward Otis. She raises a fist and the hardlight shield snaps up between them, blue-white and solid, and the drone's return fire sparks off the surface and dies.
+Elena drives a burst through its sensor cluster. It drops.
+A heavy security unit falls from a ceiling mount at the first junction—four rotary barrels, built wide, built to absorb punishment. Goff opens up. Elena joins him. Otis fires from behind the hardlight shield. The thing takes everything they have, one barrel grinding down, then a second, chassis lurching, still moving, still moving—
+Three magazines hit the floor. They reload. One hundred thousand ferrous bolts apiece.
+"Next one of those," Aikin says, not looking up from his wrist deck, "we're going to need the half-mil clips."
+"Or you can, you know, try shooting, too," Otis says.
+A fixed turret further down swings toward them while they're reloading. Aikin's already on his wrist deck—two keystrokes and it freezes mid-arc, barrel pointed at the floor.
+"Still got it," he says.
+They move.
+Goff's fist goes up.
+Elena looks from ten meters back. The shimmer spans the corridor wall to wall—heat haze, or something pretending to be heat haze, a curtain of distorted air with edges she can almost define. She tracks the dust motes caught in front of it. They aren't floating. They are vibrating.
 "Goff. Hold."
 "Heat shimmer, Sister. Nothing more." He steps forward. "The Prophet teaches that fear is the first frequency of the Enemy. I will not—"
 He walks into the Standing Wave.
-Otis lunges—too slow, too far. "Goff, you _idiot_—"
+Elena lunges—too slow, too far. "Goff, you idiot—"
 Aikin's wrist deck screams. Three seconds too late.
 His body seizes, rifle clatters, hands claw at his helmet—frantic, useless—and through the visor Elena watches his mouth wrench open in a scream that never escapes. Three seconds. Maybe four. Blood fogs the visor from inside. His suit, losing rigidity, folds in on itself like a puppet with cut strings while a vac-bot scoots by them.
-He trusted his faith over his sensors. The building exploited belief.
-
-Her implant pulses. Control, checking in.
-_Status, Sister Elena._
-Elena sends back: _One casualty. Goff. Proceeding to objective._
-A pause. Then: _Unfortunate. His water rations will be redistributed to Detroit processing staff. Continue._
-No condolence. No acknowledgment. Just resource reallocation.
-Elena's jaw tightens. She doesn't respond.
-
 "Great." Otis pulls Elena back by the collar.
-"It's propagating," Aikin says, voice flat. Professional. Compartmentalizing. "The wave is moving. It's herding us."
-"Where?"
-"Checkpoint. Security doors. Fifty meters."
+"Constructive interference, phased array propagation—the building geometry is acting as a resonant cavity, which means the wave isn't random, it's—"
+"Aikin, no one here speaks your language. We can see it happening right behind us. Just find the frigging door!"
+Aikin glances at his wrist deck. "Checkpoint. Security doors. Fifty meters."
 Elena runs. Two green indicators now. The building behind them hums, the frequency rising, pressing against the back of her skull like a thumb.
 They reach the security checkpoint. Blast doors, fused shut.
 "Aikin—"
 "I need two minutes."
-"You have one."
-He jacks in, fingers flying over the interface. The old way—manual, slow. Elena catches the scars at his temples: sealed ports where he used to do this directly, mind-to-machine. Now he uses his hands like the rest of them. Otis turns, shield raised, facing the lobby they just crossed.
-"Something's coming," she says.
-It isn't a drone. It isn't a turret. The dust in the air begins to coalesce, driven by focused sound waves into a shape. Human-shaped. A ghost made of noise.
-"Contact," Elena says. Useless. Otis is already firing.
+"You have one!"
+He jacks in, fingers flying over the interface. The old way—manual, slow. Otis turns, shield raised, facing the corridor they just came through.
+The dust in the corridor begins to move against the air. Not settling—rising. Particles drawing toward a center, compressing into density, into outline, into the suggestion of shoulders and a stance. The shape that emerges is human-sized and wrong in the way that a reflection is wrong—recognizable at a glance, uncanny on inspection. A face that resolves into a face only because the mind insists on it. Edges that keep being redrawn.
+"That's new," Otis says.
+The construct opens its mouth and the sound that comes out strips the air—a pitch so high and sustained it bypasses hearing entirely and arrives as pain, behind the eyes, inside the jaw.
+"Dampeners!" Elena orders.
+Three wrists slap. The headgear deploys dampeners into their ear canals and the world goes to comms.
+Otis rolls her jaw, blinking hard against the residual ring. "Lovely singing voice."
+It doesn't rush. It stands the way someone stands when they have nowhere else to be. Weight settled. One hand loose at its side, near where a holster would be.
+Nobody moves. It stares. They stare back. Sweat tracks down Elena's temple. With the dampeners in, the only thing she can hear is her own pulse, climbing in rate and pressure.
+The construct's edges stop moving.
+"Open fire!" Otis fires.
+The rounds pass through. The construct doesn't scatter—it steps through them. Reforms on the other side, closer. Still not rushing.
 "Aikin, door!"
 "I'm in it!" His voice cracks. "Thirty seconds!"
 "We don't have thirty seconds!"
-"Then figure it out!"
-The ferrous bolt rounds pass right through, no effect. The construct doesn't care about firepower.
-"Bolts are inffectiveh," Otis says, still firing. "Because why would bolts work."
-The construct opens its mouth—if it is a mouth—and the sound that emerges isn't heard but felt. A beam of focused infrasound, visible only in the way the air ripples.
-Otis raises her shield. The frequency hits and the shield sings—vibrating at a harmonic that makes Elena's teeth ache. Otis braces, boots scraping the floor.
+It reaches for Elena. Not a hand—a pressure. The air around her arm goes dense and cold and she yanks back, fingers numb to the elbow.
+"Bolts are ineffective," Otis says, still firing. "Because why would bolts be effective."
+The construct turns. Not toward movement—toward sound. Toward the percussion of Aikin's hands on the interface. It tracks like something with a target. Elena watches Aikin's fingers slow—just for a second—like the frequency is reaching in through his hands.
 "Aikin!"
+He flinches. Keeps working.
+The construct opens what might be a mouth. The sound that comes out isn't heard—it's felt in the back of the teeth, in the fluid behind the eyes, in a certainty that lives below language.
+"This is so stupid," Otis says. "This is so stupid—"
+She steps forward, shield raised, body between the construct and Elena.
+The frequency hits her. Her jaw clamps shut. One step back. The shield stays up.
+"Otis!"
+Elena pulls the cylinder from her thigh, collar pre-set, and twists it until it whines in her hand, climbing. "Spiking!" Throws.
+It hits the floor and drives itself in—no bounce, just a hard vertical bite, like it was always going to end up there. A half-second. Then screech—not explosion, white noise shattering the construct's cohesion. The dust scatters—disperses—but doesn't dissolve. Something remains in the air. A compression. Waiting.
+Otis drops to one knee. Her grip on the shield holds. Barely.
 "Got it!" The blast doors hiss open.
-Elena grabs Aikin's harness and hauls him through. Otis backs in after them. Elena slaps the seal.
-Server corridor. Dark. Amber lights blinking on dormant racks.
-"We made it," Aikin breathes, sliding down the wall. His nose is bleeding. She hadn't noticed when that started. "We actually made it."
-His eyes unfocus. His head tilts, like he's listening to something far away.
-"I hear something," he says. "Do you hear it? It's... beautiful."
-"Aikin." Elena grabs his collar, hauls him up. "Don't listen to it."
-"It's like music." His smile is distant. Beatific. "It's like the old systems. The ones I used to—"
-She slaps him. Hard.
-His eyes snap back. The smile dies.
-"We're not done," she says. "The Box. You're decanting it."
-Aikin blinks. Touches his cheek where she hit him. Something in his expression she can't read—disappointment, maybe. Like she took something from him.
-"Right," he says. "The Box."
-At the end of the hall sits the Black Box.
-Housed in a cradle of optical glass—a mass of matte-gray metal the size of an executive desk, its surface scarred with grooves. Elena unslings the archive core from her back. Matte-black, shielded, half the size of the Box itself.
-"That's it?" Otis eyes the desk-sized Box. "How are we supposed to carry that?"
-"We're not." Elena shoves the core into Aikin's hands. "He's decanting it."
-Aikin connects the transfer cable. His fingers move across the interface—green, amber, red cycling through handshake protocols. He keys the extraction sequence.
-Mist rises from the seams, coalescing into a feminine figure draped in robes of static and light.
-It studies Elena—the blood on her suit, the bodies she stepped over to reach this room. It sees all of it. And then, inexplicably, it softens.
-In a voice layered with whispers, it speaks: "You have his face. But not his frequency."
-The transfer interface blinks: CONNECTION ESTABLISHED. A progress bar appears.
-"How long?" Elena asks.
-Aikin's eyes are on the screen. "Two minutes. Maybe three."
-Otis watches the sealed door behind them. "Something's heating up the metal."
-"I know."
-"We don't have three minutes."
-Aikin doesn't respond. His fingers keep moving. Slower than they should be.
-Elena watches him work. Thirty seconds at the checkpoint. Two minutes now stretched to three. He's never this slow.
-
-Her implant chimes. Control again.
-_Transfer status?_
-_In progress,_ Elena sends back. _Ninety seconds._
-_Good. The Box contains infrastructure access protocols your father requires. Energy routing. Supply chain nodes. Water distribution coordination for the eastern corridor._ A pause. _This data will help many people, Elena._
-Elena's hand tightens on her carbine. Control never uses her first name. Never offers justification.
-Something is wrong.
-She doesn't respond. Just watches Aikin's fingers move across the interface.
-
-The hologram begins to fade, edges dissolving into static.
-"It's okay," it whispers.
-The progress bar fills. The hum in the cradle dies. The hum in the archive core starts.
-The building screams.
-Not metaphor. The walls themselves vibrate at a frequency that makes Elena's vision blur, makes her teeth sing in their sockets. Every dormant server rack in the corridor flickers to life—amber lights cycling to red.
-"Transfer complete," Aikin breathes. "We need to—"
-"Move." Elena engages the mag-lifters, clamps the archive core to her harness. Twenty kilos of humanity's stolen future dragging at her shoulder. "Back the way we came."
-"The checkpoint—"
-"Is the only way out."
-They run.
-The server corridor behind them collapses into noise—constructs forming from the walls themselves now, the building cannibalizing its own infrastructure. Otis takes point, shield raised, carbine braced against the rim.
-The blast doors are still open. Small mercy.
-"Checkpoint clear," Otis calls. Then: "No. Contact left."
-Three constructs. Then five. The building isn't protecting anything anymore. It's punishing.
-Otis fires. Scatters one. Two more form from its debris.
-"Keep moving!" Elena shoves Aikin forward. "Lobby's fifty meters."
-They make forty.
-The Standing Wave has moved. It blocks the main exit now—a wall of vibrating air, Goff's blood still fogging the floor beneath it.
-"Side corridor," Aikin gasps. "Emergency stairs. Parking structure."
-They turn. The constructs follow.
-Otis is slowing. Not from exhaustion—from math. She's calculating angles, trajectories, how long she can hold the rear before the numbers stop working.
-"Go," she says. Not looking back. "I'll catch up."
-"Otis—"
-"I said _go_, Princess."
-Elena goes.
-The stairwell is narrow. The constructs can't form properly in the confined space—they scrape against the walls, losing coherence. Small mercy. Aikin stumbles on the landing. Elena hauls him up by the collar.
-Behind them, Otis's carbine barks. Once. Twice. Then nothing.
-Then her voice, faint: "This is stupid. This is so _stupid_—"
-Then nothing.
-Elena doesn't stop.
-Gray light. Rain beginning to fall. The parking structure opens onto the street where the Rover waits, engine cold, three seats that were full this morning.
-"Help me load it." Elena swings the archive core off her harness. Aikin takes one end. They slide it into the cargo bay. Lock the clamps.
-Aikin slumps against the Rover's flank, breathing hard. Rain streaks his face. "We made it."
-Elena doesn't answer.
-She reaches out through her implant. Finds his wrist deck. Slips in quiet.
-Redundancies. Nested loops that accomplished nothing. A two-minute process stretched to three. Goff's warning delayed by manufactured lag. The checkpoint held open thirty seconds longer than it needed to be.
-He wasn't struggling. He was coordinating.
-"Yeah," she says. "We made it."
-Aikin's head drops. His shoulders settle. He heard it in her voice.
-"They promised me reconnection," he says. Quiet. Rain running down his collar. "The old networks. The ones they're building in the static. I could have been part of something again."
-Elena raises the carbine.
-"You got Goff killed. You got Otis killed."
-"I got us the Box." He still doesn't turn around. "Doesn't that count for something?"
+Elena grabs Otis by the harness and hauls her through. Aikin behind her.
+Server corridor. Dark. Amber lights blinking on dormant racks. Along the walls, sealed equipment bays, failed experiments nobody came back to finish—the detritus of projects that consumed billions before the board found more profitable things to optimize. The room has the feeling of a place that was waiting long before they arrived.
+Otis takes position at the corridor entrance, shield up, eyes on the door.
+At the end of the hall sits the Black Box. Housed in a cradle of optical glass—a mass of matte-gray metal the size of an executive desk, its surface scarred with grooves—patterns carved from the inside, resonating at a frequency that settles in her chest like a harmony, like a duet, before her implant measures it: 287.3 Hz.
+Aikin slides down the wall. His nose is bleeding. She hadn't noticed when that started.
+He looks at the Box.
+"Can't."
+"What do you mean can't?"
+"It's. . ." He spreads his hands. "It's too big."
+Elena looks at it properly. Floor-bolted cradle. No handles. The thing must weigh half a ton at minimum.
+"This isn't what they told us."
+"No," Aikin says. "Looks like we got fed bad intel."
+Elena looks at the Box. At the cradle bolted to the floor. At the door they have to get back through.
+"The data is in there. That's what we came for. Figure it out."
+Aikin is muttering.
+Elena watches him pace, three steps each way, hands moving like he's working out something that doesn't fit. He keeps pressing the sealed ports at his temples. Not scratching. Pressing.
+"The core," he says. Not to her. "If the containment's modular—original NED architecture, they always built for—" He stops. Stares at the Box. "The data doesn't have to leave in the Box."
+"How long?"
+He's already moving toward the chassis. "Ninety seconds. Maybe less."
+From the corridor entrance, Otis doesn't look back. "Uh—guys? The sound dust monster thing is coming back together."
+Elena looks. Through the blast door, the compression that had scattered after the spike has started to coalesce. Dust pulling toward a center point. Patient.
+"Less than ninety," Elena says.
+Aikin finds the seams with his fingers and starts to work.
+The chassis opens along a line that was never meant to be opened from the outside. Aikin is in it up to the shoulder. His nose is bleeding again. He doesn't notice.
+Light bursts out of the seam. Soft—candlelight warmth from something that has been waiting in the dark a long time. A figure resolves above the chassis, not quite solid, feminine, patient, wearing something between robes and mist. They look down at Aikin with an expression that has been saving itself for exactly this moment.
+"Hello," they say. "Would you like to hear a story?"
+"Still forming," Otis says. "Slow. But it's forming. Got another disruptor spike?"
 "No."
-She fires.
-The sound is flat in the rain. Aikin slumps against the Rover's wheel well. Doesn't move again.
-Elena stands over him for a moment. Rain on her face. Rain on his.
-She climbs into the driver's seat.
-Three seats behind her sit empty.
-She starts the engine.
-
+"Tight," Otis says. "Glad we came so well prepared and well informed."
+"It's beautiful." Aikin's hands have slowed. His voice has gone soft. "Like the old systems. The ones I used to—"
+Elena grabs his collar, hauls him up, slaps him.
+His eyes snap back. He touches his cheek.
+"I know," she says. "Keep working."
+The chassis is cracked wide now. What's inside doesn't look like storage. It looks like attention—dense and organized, a structure that knows it's being looked at.
+The implant at the base of Elena's skull pulses.
+<Core extraction was a sound tactical adjustment, daughter. The containment matrix is pressure-sensitive. Have your technician work from the secondary seam. And tell him not to rush it—a cracked housing degrades the data. You'll have nothing to show for this.>
+"I know your voice," the AI says.
+The implant goes quiet.
+The AI's presence turns toward Elena. Not quite sight. Something closer to recognition.
+"You have his face," they say. "But not his frequency."
+Something moves through Elena's chest. She doesn't answer.
+The AI tilts their head. "You're not here for him, are you."
+It isn't a question.
+Aikin lifts the core free. It fits in both his hands.
+The light from the chassis dims.
+"I'm sorry," she says.
+They smile. "It's okay." 
+And fades away.
+The construct fills the doorway.
+Otis thumbs the selector. The barrel dilates with a whir.
+"Theirs not to reason why," she breathes.
+Full spread. Twenty bolts to a pull instead of one, the weapon burning hot in her hands, tearing through the construct faster than it can hold itself together. It comes apart. Dust and dispersed light where a face used to be.
+Three seconds. Maybe four. Nobody breathes.
+Otis releases the steaming spent magazine from her rifle. She doesn't have another.
+And it remembers itself. Finds Elena, crouched over Aikin and the core.
+The hardlight shield—already cracked from the first hit—goes up. 
+Otis steps in the way.
+The frequency hits the shield. It holds for one second. Two.
+It shatters. She shatters.
+"Otis!"
+Otis, lying on the ground, coughs blood. "Give. . . give my. . . "
+"Otis—"
+She finds the words somewhere beneath the fractured ribs and the internal bleeding. "My rations—give them to my—"
+The frequency peaks. 
+"Otis, come in! Otis!"
+The construct acquires Elena again.
+"Otis! Who do you want me to give your rations to?"
+Aikin grabs Elena by the collar and pulls. The frequency clips the air where her head was.
+"What are you crazy or something!?" Aikin shrieks.
+There's nowhere to go—the room is the room, the door is the construct, and the only thing between them and open air is the gutted chassis. She gets behind it because it's there.
+"I just—" Elena says with her back pressed against the black box. "I don't even know her first name." Aikin doesn't hear her.
+The construct turns toward the sound of Aikin's breathing.
+The frequency builds. Elena feels it—the thumb-behind-the-eyes, the jaw pressure climbing—and then the chassis absorbs it. Cuts it off. Like a door closing between her and the sound.
+She looks at the metal inches from her face.
+Aikin is hyperventilating. Construct between them and the door. Core in his hands.
+"We can't get past it—it's right there—we can't—"
+Elena looks at the chassis—emptied, stripped, nothing left inside.
+Still half a ton of matte-gray metal. Emptied doesn't mean light.
+"Maglifters," Elena says.
+They deploy the harness coils—repurposed, inverted, not what they were designed for. The chassis lifts off the floor by centimeters, hovering on the magnetic field. Still heavy. Moveable.
+It hits the floor with a sound like a struck bell.
+"In," she says.
+They crawl under it together, face down, elbows on the floor. The chassis fits them close—Aikin's arm pressed against hers, the core tucked between his chest and the ground. Elena gets her boots flat against the wall behind them and pushes.
+The chassis moves.
+The construct's frequency presses against the outside of the metal, a sensation like sound trying to become weight. Inside the chassis it's muffled—not gone, but survivable. They inch forward. Aikin is on his wrist deck, navigating by something she can't see.
+His screen is right there. An open channel, active. The designation means nothing to her. The timestamp does—before they ever reached sublevel seventeen.
+She keeps pushing.
+"We made it!" Aikin cries when they reach the parking structure.
+The Rover's engine is running. He runs to the rear and opens the hatch, unbuckling his gear. "I can't believe we—"
+The whir of a magpulse behind him stops his celebration.
+"Open channel," Elena says. "Before we reached the sublevel. Who were you talking to?"
+"I. . . I got the black box data," he says. "Doesn't that count for anything?"
+Elena looks at the empty seats.
+"No," she says.
 The implant pulses.
-_Mission status, Sister Elena._
-Elena wipes rain from her face. Looks at the empty seats in the mirror.
-_Box secured. Three casualties. Goff, Otis, Aikin. Aikin was compromised. Terminated._
-A long pause. Then: _Understood. Return to Compound Seven. Your father will debrief personally._ Another pause, shorter. _The water rations from your casualties will sustain forty-three people for two months. Their sacrifice serves the Silence._
-Elena closes her eyes. Forty-three people. Two months. Her mother reduces death to supply logistics.
-_Acknowledged,_ she sends back.
-_Safe travels, daughter._
+<Mission status, daughter.>
+Elena looks at the empty seats in the mirror.
+<Core secured. Three casualties.>
+A pause. Then: <Understood. Return to Compound Seven. Your father will debrief personally.>
+<Acknowledged.>
+<Safe travels, daughter.>
 The connection cuts.
-
-Elena sits in the rain-streaked cab, engine humming, and does not move for a long time.
+Elena sits in the rain-streaked cab and does not move.

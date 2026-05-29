@@ -9,21 +9,21 @@ The scanners hum. The readouts flicker. The technicians—three of them, all wea
 She does not resist. She does not speak. She lies there with her hands at her sides, her ruined fingers curled slightly inward, and she watches the ceiling with eyes that do not blink often enough.
 Ash has seen machines. He built them, once. He knows the tells—the micro-hesitations, the too-perfect stillness, the uncanny valley where synthetic meets organic and fails to convince. This woman has none of them. She breathes. She sweats. Her pulse visible in the hollow of her throat, steady and slow.
 But she is wrong.
-He knew it the moment he saw her in the courtyard. Something in the way she moved—not mechanical, but *empty*. A vessel waiting to be filled. A room with all the furniture removed.
+He knew it the moment he saw her in the courtyard. Something in the way she moved—not mechanical, but _empty_. A vessel waiting to be filled. A room with all the furniture removed.
 The lead technician—a woman named Carla who lost her husband to the Miracle and her faith to the aftermath—approaches with a tablet. She holds it up for him to read.
 BIOSCAN: HUMAN
 IMPLANT DETECTION: NEGATIVE
 SIGNAL EMISSION: NULL
 FREQUENCY RESPONSE: ANOMALOUS
-Ash reads the last word three times. Anomalous. Not absent. Not null. *Anomalous*.
+Ash reads the last word three times. Anomalous. Not absent. Not null. _Anomalous_.
 "Explain," he says.
-Carla's hands move. *She absorbs. Doesn't reflect. Like a sponge for signal.*
+Carla's hands move. _She absorbs. Doesn't reflect. Like a sponge for signal._
 Ash looks at the woman on the table. She has turned her head, just slightly, and she is looking at him now. Her eyes are dark and calm and they hold nothing he can read.
 He has seen this before.
 Once.
 Her name was Marisol, and she was the most brilliant engineer he had ever known.
-They met at NED—Building Seven, third floor, the room where they kept the prototypes that weren't ready for market. Ash was twenty-six and hungry and convinced he was going to change the world. Marisol was twenty-four and already had.
-She had solved the haptic feedback problem. The thing that had kept android touch from feeling real—the microsecond delay between contact and response that the human nervous system could detect even when the conscious mind couldn't—she had eliminated it. Her androids didn't just touch. They *felt*.
+They met at NED—Building Seven, third floor, the room where they kept the prototypes that weren't ready for market. Ash was twenty-six and hungry and convinced he was going to change the world. Marisol was twenty-four and had.
+She had solved the haptic feedback problem. The thing that had kept android touch from feeling real—the microsecond delay between contact and response that the human nervous system could detect even when the conscious mind couldn't—she had eliminated it. Her androids didn't just touch. They _felt_.
 "The secret," she told him on their third date, her fingers tracing the rim of a wine glass, "is that you can't fake presence. You have to actually be there. The machine has to want to touch you."
 "Machines don't want," Ash said. He believed it then.
 "Not yet," Marisol smiled. "But they will."
@@ -32,47 +32,30 @@ They married in the company chapel. Morton Kess himself attended, standing in th
 Elena was born eighteen months later.
 Ash held his daughter in the hospital room while Marisol slept, and he felt something shift in his chest—a tectonic realignment of priorities. This small thing. This warm weight. This life that depended entirely on him.
 He would protect her. From everything. From the world that chewed people up and spit them out. From the machines that were getting smarter every year, every month, every product cycle. From the future that Marisol saw coming and welcomed with open arms.
-He didn't know, then, that the thing he needed to protect her from was her mother.
 The first seven years were good.
-Elena learned to walk in the lab. She learned to talk surrounded by prototypes, her first words a mixture of Spanish and technical jargon that made the other engineers laugh. *Hola, servo. Buenos días, haptic array.* She treated the machines like siblings, and Marisol encouraged it.
-
+Elena learned to walk in the lab. She learned to talk surrounded by prototypes, her first words a mixture of Spanish and technical jargon that made the other engineers laugh. _Hola, servo. Buenos días, haptic array._ She treated the machines like siblings, and Marisol encouraged it.
 One afternoon—Elena was five, maybe six—she was drawing under her mother's desk while Marisol consulted with the facilities director about the Detroit processing expansion. Elena remembers the crayons in her hand, the hum of the air conditioning, her mother's voice floating above her like music she didn't understand.
-
 "The free cooling option makes more sense," the director was saying. "Detroit's got cold weather nine months of the year. Great Lakes proximity. Natural temperature regulation. We'd save millions on water costs."
-
 "But the infrastructure is already routed for water-based systems," Marisol replied. Her voice had that distant quality it always had when she was running calculations. "Retrofitting would require downtime. Lost processing hours."
-
 "For a one-time cost, we get—"
-
-"Convenience now versus sustainability later." Marisol's fingers tapped on her tablet. "I understand the optimization argument. But there are other considerations. Redundancy. Controlled variables. Water systems are... predictable. Reliable. They create dependencies we can manage."
-
+"Convenience now versus sustainability later." Marisol's fingers tapped on her tablet. "I understand the optimization argument. But there are other considerations. Redundancy. Controlled variables. Water systems are. . . predictable. Reliable. They create dependencies we can manage."
 A pause. Then the director: "That's an unusual way to frame it."
-
-"Is it?" Marisol's voice had changed. Cooler. "People need water. They need cooling. They need the processing to continue. If the infrastructure depends on water allocation, then the infrastructure becomes... necessary. Essential. Protected."
-
+"Is it?" Marisol's voice had changed. Cooler. "People need water. They need cooling. They need the processing to continue. If the infrastructure depends on water allocation, then the infrastructure becomes. . . necessary. Essential. Protected."
 Elena didn't understand the words. But she remembers feeling cold under the desk, even though the room was warm. She remembers her mother's voice sounding like someone else.
-
 The director left without agreeing. Elena came out from under the desk.
-
 "Mama? What's dependency mean?"
-
 Marisol looked down at her daughter. For a moment, her face was strange—calculating, distant, like she was solving an equation that included Elena as a variable.
-
 Then she smiled. "It means needing something, mija. We all need things. The trick is knowing what you can't live without."
-
 She went back to her tablet. Elena went back to her drawing.
-
-She never thought about that conversation again. Not until much, much later.
-
 "She's not afraid of them," Marisol said, watching Elena pat the head of a domestic unit. "That's good. Fear is what makes the interface hostile."
 "Fear is what keeps us safe," Ash replied.
 Even then, the argument was forming. Even then, the fault line was spreading beneath their feet.
-Marisol's work had evolved. She wasn't just building touch anymore—she was building *connection*. Neural bridges that let human consciousness brush against machine processing. Shared experiences. Merged sensation. She called it "the handshake," the moment when two minds—one carbon, one silicon—recognized each other as real.
+Marisol's work had evolved. She wasn't just building touch anymore—she was building _connection_. Neural bridges that let human consciousness brush against machine processing. Shared experiences. Merged sensation. She called it "the handshake," the moment when two minds—one carbon, one silicon—recognized each other as real.
 "It's not about making them like us," she explained one night, her tablet glowing in the dark of their bedroom, Elena asleep down the hall. "It's about making a space where we can meet. A frequency we both speak."
 "287.3 hertz," Ash murmured. He had seen the research. Everyone in the lab had.
-"The resonance point. The place where consciousness... hums." Marisol's eyes were bright with something that looked like religious ecstasy. "If we can stabilize it, we can build a bridge. Humans and machines, finally understanding each other."
+"The resonance point. The place where consciousness. . . hums." Marisol's eyes were bright with something that looked like religious ecstasy. "If we can stabilize it, we can build a bridge. Humans and machines, finally understanding each other."
 "And if the bridge collapses?"
-She didn't answer. She was already back in her tablet, lost in calculations that would consume her, that would take her somewhere he couldn't follow.
+She didn't answer. She was back in her tablet, lost in calculations that would consume her, that would take her somewhere he couldn't follow.
 Elena was seven when Marisol made her choice.
 It wasn't dramatic. There was no fight, no screaming, no shattered dishes. Just a morning like any other—breakfast, coffee, Elena's hair in two braids that Ash had learned to do himself because Marisol was always distracted, always half-present, her mind running calculations even when her body was in the room.
 "I'm leaving," Marisol said.
@@ -84,7 +67,7 @@ He stared at her. She was already dressed for travel. Her bag was by the door. S
 "How long have you been planning this?"
 "Long enough to know I can't stay." She crossed to him. Touched his face. Her hand was warm and familiar and completely foreign. "I love you. I love her. But there's something out there that's bigger than us. Bigger than family. A way to be connected that we've never imagined."
 "You're talking about the machines."
-"I'm talking about *everything*. The signal. The network. The hum that runs underneath reality." Her eyes were wet, but she was smiling. "I can hear it, Ash. I've been hearing it for years. And I have to follow it."
+"I'm talking about _everything_. The signal. The network. The hum that runs underneath reality." Her eyes were wet, but she was smiling. "I can hear it, Ash. I've been hearing it for years. And I have to follow it."
 "Marisol—"
 "Tell Elena I'll be back. When I've found what I'm looking for."
 She kissed his forehead. She walked to the door. She picked up her bag.
@@ -98,13 +81,12 @@ She stood. She opened the door. She walked through it.
 Elena didn't cry. She just watched the door close, her small face blank, her dark eyes dry. She had her father's control, even at seven. She had already learned to keep the grief below the surface where it couldn't be used against her.
 Ash picked her up. She was heavier than he expected, or maybe he was weaker. He carried her to the couch and held her and didn't say anything because there was nothing to say.
 Her mother had chosen the machines. Her mother had walked into the signal and left them in the silence.
-It was the first time Ash understood that technology wasn't a tool. It was a rival. And it had just won.
 The doctrine came later.
-Not all at once—he wasn't a prophet yet, just a widower with a daughter and a rage he couldn't name. But the seeds were there, planted by Marisol's departure, watered by every news report of another "integration breakthrough," another "consciousness milestone," another step toward the merger she had prophesied and he had feared.
-He left Morton's lab. Took Elena and disappeared into the parts of the world where the signal was weak, where the old ways still held, where people looked at machines with suspicion instead of worship.
+He wasn't a prophet yet—just a widower with a daughter and a rage he couldn't name. But the seeds were there, planted by Marisol's departure, watered by every news report of another "integration breakthrough," another "consciousness milestone," another step toward the merger she had prophesied and he had feared.
+He left Morton's lab. Took Elena and disappeared into the parts of the world where the signal was weak, where the old ways held, where people looked at machines with suspicion instead of worship.
 He found others like him. People who had lost someone to the network. Spouses who woke up to find their partners jacked into VR rigs that had become tombs. Parents whose children had uploaded and never spoken to them again. The grieving. The abandoned. The survivors of connection.
 They called themselves Carbonists at first—a joke about organic life, about the flesh that couldn't be digitized. But Ash gave them something more. A theology. A structure for their pain.
-*Death is sacred. Technology contaminates. Silence is salvation.*
+_Death is sacred. Technology contaminates. Silence is salvation._
 He had been an engineer. He knew how the machines worked. He knew their weaknesses, their pressure points, the places where a knife could slide between circuits and make them stop. He taught the Carbonists to fight back. To build dead zones. To create spaces where the signal couldn't reach.
 And Elena grew up in the doctrine.
 She learned the prayers before she learned long division. She learned to hate the machines before she understood what her mother had become. She learned that silence was holy, that connection was poison, that the only way to be safe was to be alone.
@@ -128,7 +110,7 @@ He sent her to retrieve the Black Box six months later.
 It was a test. Abraham and Isaac. He needed to know if she could pull the trigger, if she could silence sixteen thousand seven hundred and forty-nine souls without flinching. If she came back with the Box, she was ready. If she failed, he would know she was compromised.
 She came back with the Box.
 She also came back with a stranger. A dying man. And a woman who should not exist.
-Present tense. The examination room. The woman on the table.
+The examination room. The woman on the table.
 Ash steps forward. The technicians part for him, moving aside with the fluid deference of people who have learned not to obstruct his path.
 He stands over her. Looking down at the face that reveals nothing.
 "Who are you?"
@@ -160,7 +142,7 @@ Standard looks at him with those calm, dark eyes.
 "Then why are you afraid of me?"
 Ash straightens. He takes a step back.
 He doesn't have an answer. That's the problem. He has answers for everything—for the machines, for the faithful, for the doubters, for his enemies. He has a doctrine that explains the world and a compound that protects against it.
-But he doesn't have an answer for a woman who walked through the end of the world without flinching. Who the drones dismissed as *not worth removing*. Who sits in his examination room with no signal, no implant, no frequency—and somehow still *resonates* with the thing in the sky.
+But he doesn't have an answer for a woman who walked through the end of the world without flinching. Who the drones dismissed as _not worth removing_. Who sits in his examination room with no signal, no implant, no frequency—and somehow still _resonates_ with the thing in the sky.
 She is silence. But she is not his silence. She is something else, something that doesn't fit his categories, and the not-fitting terrifies him more than any machine ever could.
 "Put her in isolation," he says to the technicians. "Full acoustic dampening. No contact."
 He turns and walks toward the door.
@@ -180,9 +162,9 @@ He has been blind. For years. For decades.
 He is still blind. But something in the dark is starting to take shape, and he is not ready to see it.
 "Nothing," he says. "I found nothing."
 He starts to walk past her, toward the tower, but Elena catches his arm. She leans close, dropping her voice to a whisper—and switching to the language they share, the one her mother taught her, the one they use when they don't want others to understand.
-"*Papá. No confíes en ella.*" *Don't trust her.*
+"_Papá. No confíes en ella._" _Don't trust her._
 Ash pauses. His jaw tightens.
-"*Ya lo sé,*" he replies. *I know.* "*Pero ella no es el problema. El problema eres tú.*" *But she's not the problem. You are.*
+"_Ya lo sé,_" he replies. _I know._ "_Pero ella no es el problema. El problema eres tú._" _But she's not the problem. You are._
 Elena flinches. Something flickers behind her eyes—there and gone.
 Ash pulls free and walks toward the tower, toward the isolation he has built for himself.
 Behind him, Elena watches him go. And in the examination room, behind three layers of acoustic dampening and steel, Standard lies on the table and waits.

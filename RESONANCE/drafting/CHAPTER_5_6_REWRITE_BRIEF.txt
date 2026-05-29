@@ -1,0 +1,169 @@
+REWRITE BRIEF: CHAPTERS 5 & 6
+For Claude Code — Resonance by J.S. Vaughn
+Prepared by Claude (claude.ai session, March 2026)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THE PROBLEM WITH THE ORIGINAL CHAPTER 5
+
+The original chapter attempts to do too much in too little space: Elena's 
+guilt over her dead crew, the checkpoint problem, Standard's introduction 
+as a Void, a Control beat, and the Geometry's arrival all compete for the 
+same real estate. The larger structural problem is motivational: Elena, 
+Hendricks, and Standard each independently have ways around the checkpoint, 
+making their convergence feel engineered rather than inevitable. Elena has 
+official armor and a Rover already waved through the outer perimeter. 
+Hendricks (in the original) has a secret service corridor. Standard drifts 
+in. None of them have a genuine reason to be stuck at the same chokepoint.
+
+The fix splits the original chapter into two and rebuilds the logic from 
+the ground up.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CHAPTER 5 REWRITE
+
+TITLE: THE QUEUE (retain)
+
+CORE LOGIC:
+Elena is in the Priority lane, engine off, pre-flag — working a 
+potential problem with Control before it becomes an actual one. Her hot 
+implant will trigger the checkpoint scanner. She needs a solution before 
+she pulls forward.
+
+Control is proactive here, not reactive. Its priority is getting the Black 
+Box to Detroit — that is Ash's agenda and Control serves it. The checkpoint 
+flag is a threat to that delivery. Control suggests Elena run an active 
+scan of the queue for useful resources.
+
+Elena scans. She finds a Void — a hole in the data, an absence where there 
+should be signal. It's traveling with an old man. Both are clearly trying 
+to hitch a ride with anyone who'll take them.
+
+Control identifies the tactical application immediately: Standard's 
+absence-of-signal can swallow Elena's hot implant at the checkpoint. Walk 
+her through alongside the Rover and the scanner reads nothing anomalous.
+
+Elena goes to acquire them. This is purely tactical. Cold. She doesn't 
+know who the old man is — he's just the man who comes with the Void.
+
+Standard's Void hits Elena physically when she gets close — the implant 
+goes silent for the first time since NED. Not peace. Absence. Like going 
+deaf.
+
+Elena pulls them both into the Rover. Hendricks and Standard board.
+
+The moment Standard enters the Rover, Control goes silent. Elena notices. 
+No explanation available. She is on her own.
+
+Chapter ends here — on that silence, the hum of the Box, two strangers 
+she doesn't understand, and no voice in her ear.
+
+BEAT LIST:
+1. Elena in Priority lane, engine off, pre-flag. Working the problem with 
+   Control.
+2. Control proactively suggests scanning the masses for useful resources.
+3. Elena runs the scan. Finds the Void — a hole in the data traveling with 
+   an old man. Both trying to hitch a ride.
+4. Control identifies the application: Void swallows her hot implant signal 
+   at the checkpoint.
+5. Elena approaches. Purely tactical.
+6. Standard's Void hits her physically up close. Implant goes silent.
+7. She pulls them both. Hendricks is just the man who comes with her.
+8. They board. Control goes silent the moment Standard enters.
+9. Chapter ends on Elena alone with that silence.
+
+KEY CONSTRAINTS:
+- Elena does NOT know who Hendricks is. That reveal happens at the outpost.
+- No service corridor. That plot mechanism is removed entirely.
+- Control goes silent the moment Standard boards and does not return 
+  while Standard is in proximity.
+- Control's motivation is the Black Box reaching Detroit — serving Ash. 
+  It does not know Standard is Marisol. It does not know what Standard is.
+  It is using her as a tactical tool without understanding what it's doing.
+- Standard and Hendricks are there because they're trying to hitch a ride. 
+  Simple. No further justification needed.
+- Retain the three empty seats beat (Goff, Otis, Aikin) — Elena's guilt 
+  is still the emotional undercurrent of the chapter.
+- Retain the Black Box hum / 287.3 Hz establishing beat.
+- Retain the physical description of the queue and the Depo environment.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CHAPTER 6 REWRITE
+
+TITLE: TO BE DETERMINED (original title may need revisiting)
+
+CORE LOGIC:
+The plan fails at the checkpoint. The Void reads as anomalous in its own 
+right — absence is as weird as presence. They're asked to pull over.
+
+Then the Geometry arrives.
+
+This is their first appearance in the novel. They are not violent. They 
+are running an audit — passing judgment, scanning at a scale and frequency 
+that is simply overwhelming to biological and augmented nervous systems. 
+No one dies. Everyone in range is pummeled by the power of the scan and 
+passes out. Guards, refugees, everyone.
+
+Except Standard.
+
+Standard is unaffected. She assesses. She gets in the driver's seat and 
+drives them through the unmanned checkpoint toward the outpost while her 
+two passengers are unconscious.
+
+Elena wakes up moving, having cleared the checkpoint, with no idea how.
+
+BEAT LIST:
+1. Approaching checkpoint. Elena running the plan mentally — no Control 
+   to verify anything.
+2. Checkpoint scan. The Void flags as anomalous. Asked to pull over.
+3. Plan has failed. Tense wait in the Rover.
+4. The Geometry arrives. Audit begins. The frequency hits.
+5. Elena, Hendricks, guards, refugees — all down. Overwhelmed, not dead.
+6. Standard unaffected. Assesses. Gets in the driver's seat.
+7. Drives through the unmanned checkpoint toward the outpost.
+8. Elena wakes up moving.
+
+KEY CONSTRAINTS:
+- The Geometry is not introduced as an antagonist. They are indifferent, 
+  vast, running an audit. The word "corrected" from the original chapter 
+  (the frequency "trying to rearrange their insides as if they're wrong / 
+  as if they are being corrected") is exactly right — retain that framing.
+- No mass death. The drop is overwhelming, not lethal.
+- Standard driving is her first act of agency in the novel. It is quiet, 
+  deliberate, and unexplained. She does not narrate it. She just does it.
+- Elena waking up to find them already past the checkpoint — with no idea 
+  how — is the chapter's final beat and its emotional payload.
+- The deletion rectangles in the sky from the original chapter should be 
+  retained as the Geometry's visual signature.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROSE GUIDANCE
+
+Voice and style references are in METHOD_ACTOR_VOICE_AND_PROSE.md and 
+NEGATIVE_CONSTRAINTS.md. Both should be consulted before drafting.
+
+Standard's voice rule: human-who-notices-things-precisely. Never 
+diagnostic. Never machine-like.
+
+Elena's voice: code-switches under pressure. Crisp, authoritative when 
+performing. Unguarded in internal thought.
+
+Control's voice: textured, shaped by Marisol's brain waves. Not cold. 
+Not warm. Something that learned intimacy without earning it.
+
+Output format: .txt for clean conversion to Dabble Writer.
+Scene breaks: ***
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RETROACTIVE SIGNIFICANCE (for tonal awareness, not to be stated in prose)
+
+Control unknowingly engineers the reunion of a mother and daughter while 
+serving the man who will eventually try to destroy them both. Standard's 
+Void silences the thing that wore Marisol's voice for eleven years — every 
+time it goes quiet near her, that is happening. The reader won't know this 
+on first read. On reread it is devastating. The prose should earn that 
+weight without announcing it.

@@ -1,5 +1,4 @@
 REFORMAT
-
 The storm had been building for hours.
 Rain sheeted against the windows of the apartment, blurring the lights of the Vertical City into smeared columns of gold and white. Thunder rolled somewhere above—a low, bone-deep rumble that seemed to come from the architecture itself, vibrating through sixty-four floors of steel and recycled air.
 Inside, the apartment smelled like nothing. Hendricks stood at the kitchen table, not moving. On the table: a bottle of gin, half-empty. A utility blade, still in its sterile wrap. A hand mirror. A towel.
@@ -9,20 +8,20 @@ The only thing Morton ever owned that Hendricks was allowed to keep.
 Now it was just a gun.
 He flicked his wrist and sent the weapon tumbling end over end, caught it by the grip without looking. Another spin—faster this time—the barrel whipping past his ear before his fingers found it again. Muscle memory. He’d learned the moves from old films, flatscreen recordings of cowboys and outlaws, men who’d lived and died by weapons like this one. He’d practiced for years until his hands knew the dance without his brain’s permission.
 His magpulse had never felt like this. The standard-issue sidearm was lighter, cleaner, more efficient—a tool designed by committee, manufactured by machines, balanced for function rather than form. It hummed when you charged it and whispered when you fired it and felt like holding a piece of the future.
-This felt like holding a piece of himself.
 He caught the revolver mid-spin. Held it.
 The revolver was loaded. It was always loaded. He spun the cylinder. Five rounds. There used to be six. Two would be enough. Two was all he needed—one for the account, one for the balance. The rest were contingency.
 Outside, thunder rolled again—closer now, a crack that rattled the windows.
 Hendricks stood very still.
 The gun was heavy in his hand. The barrel was pointed at the floor, but that could change. It could change very easily. One movement. One decision. The mathematics of it were simple: get there, settle the debt, close the books. Angle, pressure, release. Everyone pays. Including him.
 He didn't move.
-Not yet. The leash was still in his neck. The checkpoints were still between him and the compound. The so-called prophet was still breathing.
+The leash was in his neck. The checkpoints were between him and the compound. The so-called prophet was breathing.
 The rain kept falling. The thunder kept rolling. The crate kept waiting.
 He stood there for a long time, running the numbers.
 Then he set the revolver down on the table—carefully, deliberately, like he was putting a child to bed—and reached for the utility blade instead.
 His credentials would get him out of the Vertical City—NED's automated systems still recognized their own. But the node was Morton's leash, and leashes work both ways. As long as it was in his neck, he could be tracked. Found. Maybe stopped before he finished what he started.
-
 The node had to come out.
+The legs too. Stabilizer implants—femur, tibial plateau, three attachment points each side. Forty years of NED tactical augmentation he couldn't cut out on a kitchen table. The Terminists would see them. They scanned for everything.
+Which meant he couldn't use the standard checkpoints. Service corridor under the seawall—NED maintenance access, the only route that didn't run through their scanners. He had the codes. He needed transport to reach it.
 He poured gin over the blade. Poured gin into a glass. Drank.
 He positioned the mirror. Angled his neck. Found the ridge beneath the skin—the small, hard lump where Morton's leash had lived for thirty years.
 Lightning flashed outside. He counted: one, two, three—
@@ -38,6 +37,8 @@ And something else came with it.
 He felt it—a snap, a release, a thread of tissue that shouldn't have been attached but was. The node had grown roots. Thirty years of burrowing into him, and he'd just ripped it out like pulling a tooth without checking what it was connected to. The blood came faster now. Too fast. Arterial bright.
 Hendricks slammed forward onto the table, gasping. The node sat in his palm: a kidney bean of black metal, slick with blood, trailing a thin filament of something that looked organic but wasn't. Thirty years of leash. Thirty years of being useful. And now, whatever time he'd had left—he'd just shortened it.
 He shoved the node in his pocket. Grabbed the towel. Pressed it to his neck hard enough to make his vision swim. His hands were shaking. His whole body was shaking. The bleeding wasn't stopping the way it should.
+He reached into the kit under the table. The Nano-Skin was there—emergency field supply, one application, designed for surface lacerations. Not this. He pressed it to the wound anyway. It activated on contact, warm and faintly humming, synthetic tissue flooding the gap and sealing over the damage with something that felt disturbingly like healing. It wasn't. It was borrowed time with a shelf life. The nanotech would hold until it didn't—hours, maybe less, depending on how much he moved. Eventually the charge would fail, the synthetic skin would die, and the wound would open again like he'd never touched it.
+Good enough.
 The revolver sat on the table where he’d left it, gleaming dully in the storm-light. He didn’t look at it.
 Behind him, the crate exploded.
 He turns. A woman is falling out of it—naked, bloody, gasping. Hands torn. Temple gashed. She hits the floor and lies there, heaving.
@@ -48,7 +49,7 @@ She pushes herself up—elbows first, then knees—arms crossing over her chest 
 He says something. Quiet. Clipped. "Swanstrom Kim Hendricks."
 She blinks at him. Tries to focus through the throbbing in her skull.
 "You're Swanstrom Kim Hendricks?"
-Not the response he expected. "Hendricks. Just Hendricks."
+"Hendricks. Just Hendricks."
 He grabs a coat hanging nearby and crosses to her—not rushing, not hesitating—and drapes it over her shoulders. The fabric presses against the scrapes on her arms and she hisses, but she pulls it tight anyway. A border between her and the room.
 "What do I call you?"
 She opens her mouth. Closes it. Her hands—what’s left of them—tighten on the coat, leaving smears she tries not to look at.
@@ -65,7 +66,7 @@ She looks away. He doesn't. He studies them like evidence, turning her wrist, hi
 He says nothing. Just releases her wrist and stands, crossing to the small kitchen. Water runs. He returns with a glass, hands it to her without ceremony. She takes it awkwardly, her grip wrong, her fingers unable to close properly. Drinks. Gulps, really—desperate, graceless. Water spills down her chin. He watches her throat work, the glass empty, her gasping like she's been drowning all over again.
 She goes to set the glass down and her hand trembles. The glass slips, hits the edge, shatters on the floor. She flinches back from the sound.
 "I'm sorry—I didn't—" She looks at the shards, at her ruined hands, at the water spreading across his floor. "I'm sorry."
-He doesn't reassure her. Just looks at the broken glass, then back at her. Files it away.
+He doesn't reassure her. Just looks at the broken glass, then back at her.
 Malfunctioning unit. Damaged in shipping, maybe. Or something else entirely.
 Hendricks crosses to a closet. His movements are stiff, deliberate—a man holding himself together by force of will. He pulls out a shirt. Pants. A jacket too big in the shoulders.
 Then he returns to the table. Gathers what's left there. The bloody towel, pressed to his neck. The gin bottle, half-empty. The utility blade goes into his pocket. Then the revolver. He checks it with practiced hands—a quick, economical motion that speaks of years—and slides it into the holster at his hip.
@@ -78,29 +79,30 @@ Two bullets. Two debts. He just had to live long enough to pay them.
 Something breaks.
 The words tear out of her—raw, cracking.
 "Who?" She's shaking. "Who won't find me? I don't—I don't know who they are. I don't know who I am. I don't know where I am or what—" Her voice pitches higher, spiraling. "You're just going to leave me here? To wait? For what?"
-He still isn’t looking at her. His hand is on the latch. He’s going to walk out.
+He isn’t looking at her. His hand is on the latch. He’s going to walk out.
 "No." She lurches to her feet. The room tilts and she grabs the edge of the table to steady herself, pain screaming through her palms, and she doesn't care. "No, you don't get to—you can't just—"
 The words dissolve into something that isn't language. A sound. Desperate. Animal. She presses her ruined hand to her temple—the place where the blood is still tacky—and says:
 "You leave and it's no different than killing me. You may as well shoot me."
 He stops.
 "That thing on your hip—use it. Please." Her voice breaks on the word. "Right here. Right now. Don't make me sit in this room and wait for—for whoever—for days—" She's crying now, tears cutting through the blood on her face. "You have the decency to dress me in your clothes so you also have the decency to make it quick. You owe me that. You owe me something."
 She crosses to him. Three steps from the table to the door. Her hand finds the grip of the revolver before he can react—pulls it from the holster, presses the barrel to her own chest.
-Hendricks catches her wrist. Too late. She's already holding the weapon against herself, both hands wrapped around the barrel, making it easy for him.
+Hendricks catches her wrist. Too late. She's holding the weapon against herself, both hands wrapped around the barrel, making it easy for him.
 "Do it." Her voice is steady now. Calm. "Please."
 His face is gray, sheened with sweat. The grip of the handle is in his palm. His other hand won't stop trembling.
 Maybe she has a point. His thumb pulls back the hammer. Five rounds. There used to be six.
 The crack splits the air.
 He flinches. Her eyes go wide.
-Thunder. Not distant—directly overhead. A deep, shuddering boom he feels in his chest, in his spine, in the floor beneath his feet. The lights flicker. The hum in the corridor warps, stutters, resumes.
+Thunder. Directly overhead. A deep, shuddering boom he feels in his chest, in his spine, in the floor beneath his feet. The lights flicker. The hum in the corridor warps, stutters, resumes.
 His face has gone from gray to ash. His whole body rigid. Not frozen like someone thinking. Frozen like something has struck him.
 His breathing cuts out. The labored rattle—gone. Five seconds. Ten. The rain hammers the windows.
 And then his breath comes back. A harsh, wet rasp.
 He raises his free hand slowly. Places it over hers—the ruined hands, palms split, fingers bloody—where they grip the barrel. His eyes are on those hands. The evidence of what she did to survive.
 He removes them from the gun. Gently. Holsters the piece.
 Then he turns and puts his hand on the doorframe, white-knuckled. The only thing keeping him upright.
-Something in his expression cracks. Just for a moment. A fissure in the mask. Then it seals over, and he's moving—crossing back to her, each step costing him.
-The towel at his neck is soaked through. He can feel the warmth spreading down his back, pooling at his belt. He'd botched it. Amateur surgery in a kitchen with a utility blade and half a bottle of gin, and he'd botched it. The checkpoints were one thing—he could still cross them, still get out—but after that? How far could he drive before the blood loss caught up? How many miles before his hands stopped working?
+Something in his expression cracks. Then seals. And he's moving—crossing back to her, each step costing him.
+The towel at his neck is soaked through. He can feel the warmth spreading down his back, pooling at his belt. He'd botched it. Amateur surgery in a kitchen with a utility blade and half a bottle of gin, and he'd botched it. The checkpoints were one thing—he could cross them, get out—but after that? How far could he drive before the blood loss caught up? How many miles before his hands stopped working?
 He had to make it. Had to live long enough to stand in front of that prophet and settle the account. Everything else was negotiable. Everything else could burn.
-He looked at her. At the woman who'd clawed her way out of a sealed crate with her bare hands. Who'd crossed the room on legs that should have given out.
-She could walk. She could probably drive. And if he collapsed halfway there, she could keep going.
+He looked at her.
+The account, the balance. And now?
+Interest.
 "We're leaving."
