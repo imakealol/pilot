@@ -1,10 +1,41 @@
 # SESSION HANDOFF
 
-**Last Updated:** 2026-05-28
-**Last Session:** Session 68
-**Status:** Cover-to-cover close read advanced through CH16, agent-backed (2 cold-briefed agents + mechanical enforcer + lead adjudication per chapter). CH12–CH16 complete. Two canon-layer errors corrected: the Child-shot timeline (~14 months pre-Resonance / night of the Miracle — NOT 40 years; "forty years" = Hendricks's service tenure) and the revolver model (now Model 3 Schofield repo-wide, justified by single-action hammer-fanning). Next: CH17. CH20:110–135 mercy-edit and Session 66 CH2-opening items still carry forward.
+**Last Updated:** 2026-05-29
+**Last Session:** Session 69
+**Status:** Cover-to-cover close read advanced through CH18, agent-backed (mechanical enforcer + 2 cold-briefed agents + lead adjudication per chapter). CH17 clean (no edits). CH18: cut "Present tense." slug + reconciled Ash age (60s→early 50s) across data files. CH20 mercy-edit RESOLVED — the headline mercy/recognition/gratitude drift was already gone (unlogged prior pass; logs were stale); fixed the surviving un-seeing contradiction (L125/L131 "finally seen him"). Repo committed + pushed (006730b) with new .gitignore; local-clone tabled (billing resets in days). Next per Director: full re-review of CH16, then CH19. Carry forward: CH17 editor's-calls, CHAPTERS.yaml numbering offset, CH2 opening, docx rebuild.
 
 ---
+
+### Session 69 Work (2026-05-29)
+
+Agent-backed close read continued (CH17, CH18) using the established method: `enforcer.py --mechanical-only` + two cold-briefed agents (prose/voice vs PROSE_PRINCIPLES + STANDARD_VOICE_CONSTRAINTS; continuity/theme vs CORE/GEOMETRY) + lead-adjudication against source. Then resolved the long-carried CH20 mercy-edit. Repo committed + pushed for (now-tabled) local clone.
+
+**CH17 (The Sign) — CLEAN, no edits.** Mechanical: 0 flags. Confirmed: Drop "hit everyone" matches canon; "frequencies that kill" is permitted character-POV register (GEOMETRY_TRACKER perspective_note); Control reaching Elena inside the compound is an intentional planted mystery (set up CH16:18-19); Ash's doctrine sermon is contested creed, NOT a CON_013 failure. Editor's-calls left for Director (no errors): L100 "black bars visible even through the acoustic dampeners" (sound-gear vs visual mismatch), L103 "That's mercy…" aphorism, L69 "waiting for years." Data flag: CHAPTERS.yaml numbers this chapter `ch10`/"The Sign" while the .txt is CH17 — standing offset, reconcile or document.
+
+**CH18 (The Craftsman) — 1 prose edit + data reconciliation.**
+- Cut meta-narration slug "Present tense." (L113); kept "The examination room. The woman on the table."
+- Mechanical flag "servo" (L36) = false positive (toddler Elena's quoted words in Ash's POV; CON_008 is Standard-POV-only).
+- TIMELINE/arithmetic: the continuity agent flagged a Kintsugi-vs-Elena-age contradiction, but its arithmetic was wrong — "a decade after Marisol left" (Marisol gone 11 yrs) → Elena 7+10=17, which matches CH18. Lead overruled the agent (method working as designed).
+- Reconciled the one *real* wobble (Director call: reconcile now): Ash's absolute age. Kintsugi-at-50 + "a decade after Marisol left" (~1 yr pre-story) + Elena-17 all converge on Ash ≈ 51-52 now. Changed `age: "60s"` → `"early 50s"` in RESONANCE_DATA.yaml and TIMELINE.yaml; annotated `kintsugi_origin` with Elena's age. (If the Director prefers Ash stay in his 60s, the alternative is re-timing the Kintsugi to ~1 yr after Marisol left and treating CH18's Elena-at-procedure age as Ash's mis-memory.)
+
+**CH20 (Forty Years) — mercy-edit RESOLVED (agent-backed).** Director chose to tackle this carried item. Grep of the live file showed the Session 67/68 logs were STALE: the motive-side drift they described (Morton "You" recognition at the shot, "Mercy" at the shot, Child "gratitude") no longer exists — cut in an unlogged prior pass (line-shift confirms ~4 lines removed). The only surviving drift was two "the man who had finally seen him" lines (L125, L131) that contradicted the chapter's own "Eggs first" un-seeing payoff (L127-130) and the chapter-wide un-seeing motif (L16/L68-69/L84/L91-92). Hendricks Steward (GENERATION+VALIDATION) + Continuity Editor both confirmed the contradiction; CE confirmed the fix strengthens CH16:151/CH46:82. Applied:
+- L125: "the man who had finally seen him" → "the man he'd followed for forty years"
+- L131: "…the man who had finally seen him, and the seeing had lasted exactly long enough to break him" → "…the man who had looked through him for forty years, and the silence closed over him for good" (lead refinement: "looked through him" is the chapter's own L91-92 phrase — precise to un-*seeing* vs un-*looking*, since L16 has Morton look at him as a tool; dropped "forty years of silence" to avoid echoing L129).
+- Enforcer: 1 flag = pre-existing false positive ("servo" L103, Ash's exoskeleton in Hendricks POV).
+
+**CH16 (The Silent House) — Hendricks's mercy confession reworked → "Fear" (Director call, agent-backed).** Director judged that Hendricks owning the Child shot via "mercy" — even as a self-told lie (the line Session 67/68 had protected) — was wrong for the character: he fully owns the act, offers NO justification, and walks in with a deathwish (last two bullets = Ash then himself, per the locked contract). Reworked the L149-161 confrontation. Hendricks answers Ash's "What would you call it?" with **"Fear. … Not mercy. Not orders. I was afraid, and I killed it. That's on me. Not you."** Ash's two now-orphaned "mercy" echoes adapted (Hendricks Steward + Ash Steward, GENERATION mode): L154 "And now you tell me it was fear?… I gave you that fear. Named it for you, made it holy…"; L161 "Let his fear keep him company." Grep confirmed NO downstream "mercy" callback depends on it (CH17:103 / CH39 are unrelated) — removal orphans nothing. Enforcer 0 flags. Memory corrected: `feedback_hendricks_child_shot.md` + `MEMORY.md` — the old "keep CH16's mercy-as-self-told-lie anchor" guidance is REVOKED; refuse "mercy" anywhere in Hendricks's mouth now, even to disown it. The broader CH16 prose/continuity close-read was preempted by this rework and is only partially done.
+
+**METHOD NOTE (reinforces feedback_verify_against_source):** Three stale-log / single-source catches this session — the CH20 mercy lines that no longer existed; the continuity agent's faulty CH18 Kintsugi arithmetic (lead overruled it); and the stale feedback-memory "keep the CH16 mercy line" guidance, overridden by the Director and now corrected in the memory itself. Trust the grep/source over the logs and over any single agent; the lead verifies load-bearing citations before acting.
+
+**REPO:** `git add -A` + commit `006730b` + push to origin/main. Added `.gitignore` (Python caches, `RESONANCE/enforcer_outputs/`, OS cruft); untracked previously-committed `.pyc`. Local-clone evaluated and TABLED — billing cycle resets in a couple of days; no `.devcontainer`, standard dep stack (anthropic/pyyaml/flask), so cloning remains a ~30-min job if revisited. NOTE: CH20 prose edits + the doc/memory updates from late this session are UNCOMMITTED.
+
+**PENDING (Session 70):**
+1. **Finish the CH16 (The Silent House) close-read** — the mercy→fear confession rework is DONE; the full prose/continuity agent sweep was preempted by it and still needs completing.
+2. Continue sequential read at **CH19 (The Quiet)** after CH16.
+3. CH17 editor's-calls (L100 dampeners, L103 mercy aphorism, L69 "years") — Director decisions.
+4. CHAPTERS.yaml ↔ .txt chapter-numbering offset — reconcile or document.
+5. Carried: CH2 new opening + server-room beats + stale-language cleanup; spot-check unconverted Control/implant transmissions; docx rebuild when read complete.
+6. Commit the CH20 edits + doc updates when ready.
 
 ### Session 68 Work (2026-05-28)
 
